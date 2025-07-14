@@ -1,0 +1,256 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% METHODS
+\subsection{SI Methods\label{ssec:si_methods}}
+
+\paragraph{Strains}
+We chose two plasmid-carrying donors, ESBL9 and ESBL25, and two drugs, ceftazidime and tetracycline, based on the resistance conferred by the plasmids contained in the strains and the compatibility of the plasmids. 
+ESBL9 and ESBL25 were collected as part of a clinical transmission study at the University Hospital Basel, Switzerland \cite{Sutter2016} and fully sequenced, including identification of the carried plasmids \cite{Huisman2022}. 
+The strains were a generous gift from Adrian Egli, University Hospital Basel.
+
+ESBL9 contains an IncI1 plasmid, referred to here as $p_A$, conferring, among others, resistance to ampicillin and ceftazidime but not tetracycline or chloramphenicol. 
+ESBL25 contains an IncF1 plasmid, referred to here as $p_B$, conferring, among others, resistance to ampicillin and tetracycline but not ceftazidime or chloramphenicol.
+
+The two plasmids were transferred by conjugation from the original clinical isolates to the chloramphenicol-resistant and ampicillin-sensitive \textit{Escherichia coli} MDS42-YFP (recipient) \cite{Feher2012}, followed by selection for ampicillin and chloramphenicol resistance.
+This results in the ceftazidime-resistant (A-resistant) strain and the tetracycline-resistant (B-resistant) strain. 
+The double-resistant (AB-resistant) strain was created by a further round of conjugation to receive both plasmids and subsequent selection for ceftazidime and tetracycline resistance. 
+Strains are listed in \autoref{tab:strainPhenotypes}.
+All transconjugants were verified by PCR replicon typing using primers specific for the respective replicon \cite{Carattoli2005}. 
+
+\paragraph{Drugs.}
+We used ceftazidime, referred to as drug A, at a concentration of \SI{80}{\micro\gram\per\milli\liter}. 
+\SI{80}{\micro\gram\per\milli\liter} is substantially lower than the MIC for A-resistant bacteria and more than 50 times the MIC for sensitive or B-resistant bacteria. 
+Using the same reasoning, we used tetracycline, referred to as drug B, at a concentration \SI{40}{\micro\gram\per\milli\liter}. 
+The antibiotic concentrations in the liquid and the solid media were identical. 
+To avoid contamination, we used \SI{25}{\micro\gram\per\milli\liter} chloramphenicol for \textit{prevention}~scenario and \SI{5}{\micro\gram\per\milli\liter} chloramphenicol for \textit{containment} and \textit{maximum-emergence}~scenarios. 
+We could not measure any significant growth effects of the chloramphenicol concentrations on the chloramphenicol-resistant strains (see \autoref{tab:growth_and_density}).
+
+
+\paragraph{Conjugation Protocol.\label{par: conj_protocol}}
+We used ampicillin-resistant and chloramphenicol-sensitive original donors \cite{Sutter2016, Huisman2022Conjugation} and the chloramphenicol-resistant, ampicillin-sensitive recipient \cite{Feher2012}. 
+Fresh overnight cultures of both donors and recipients were diluted 1:1000 and grown to mid-exponential phase. 
+Following this, the donor and recipient cultures were combined in a culture tube and incubated for four hours at \SI{37}{\celsius} with constant shaking at 180 rpm.
+We then spotted a \SI{100}{\micro \litre} drop of this mixture on an agar plate treated with \SI{25}{\micro \gram \per \milli \litre} chloramphenicol and \SI{100}{\micro \gram \per \milli \litre} ampicillin, allowing only the transconjugants to grow. 
+Conjugation was verified by PCR replicon typing \cite{Carattoli2005}. 
+
+\paragraph{Plasmid costs}
+To measure plasmid costs, we grew three replicates of overnight cultures of all strains in selective medium. 
+The cultures were then diluted approximately 1:150 into LB with 5 $\mu g/ml$ chloramphenicol using the pintool, following the same procedure as in the main experiments. 
+Subsequently, we recorded OD growth curves using the same plate reader. 
+The maximum growth rate was estimated by applying linear regression to a sliding window on the log-transformed data (window size: 1 hour, step size: approximately 5 minutes). 
+Pairwise comparisons were performed between the maximum growth rates of the sensitive strain and the plasmid-carrying strains using the Mann-Whitney U test (scipy.stats \cite{Virtanen2020}), followed by a Bonferroni correction to account for multiple testing.
+We observed no significant difference in the maximum growth rate between any of the pairs (\autoref{tab:man_ferroni}).
+
+
+\paragraph{Segregational Loss}
+We estimated plasmid segregation loss over 24 hours ($t_0$--$t_1$) without treatment and with treatment as a control. 
+For this, we grew overnight cultures in selective medium for three replicates $k \in \{1, 2, 3\}$ of each plasmid-carrying strain. 
+We diluted the cultures and plated each on drug-free agar plates, followed by replica plating onto selective plates to identify the presence or absence of resistance plasmids in each colony. 
+This initial step represents time point $t_0$.
+The overnight cultures were then transferred to i) drug-free medium and ii) selective medium (control), using the same pintool as in the main experiments. 
+The cultures were incubated for 24 hours, after which we diluted and plated them again on drug-free plates and used replica plating on selective plates to assess plasmid presence for time point $t_1$.
+We compared the frequencies $f_k(t)$ of plasmid presence between time points $t_0$ and $t_1$ using the Mann-Whitney U test (scipy.stats \cite{Virtanen2020}).
+No significant loss of plasmids was observed in either the control or the experimental conditions (\autoref{tab:loss_data}).
+We estimated the mean frequency of plasmid presence $f(t)$  for each strain and time point and the confidence intervals $CI(t)$ for the frequency by bootstrapping the pooled colony presence-absence data.
+
+\paragraph{Growth rates and bacterial density.}
+We assessed the final bacterial density of overnight cultures following an 18-hour incubation period (\autoref{tab:growth_and_density}) for each bacterial strain in its respective selective medium for two different chloramphenicol concentrations: \SI{5}{\micro\gram\per\milli\liter} and \SI{25}{\micro\gram\per\milli\liter}. 
+To estimate the bacterial density, we plated \SI{200}{\micro\liter} of various dilutions of the cultures on agar plates using glass beads. 
+The 95 \% confidence intervals for the colony counts were calculated using the Poisson distribution.
+
+In addition, we monitored the optical density (OD) in 384-well plates over an 18-hour period in the respective selective medium containing either \SI{5}{\micro\gram\per\milli\liter} or \SI{25}{\micro\gram\per\milli\liter} chloramphenicol. To determine the maximum growth rates, we employed a sliding window approach with a one-hour width, linearly fitting the growth rate to the log transformed values within this window for each replicate. 
+The 95 \% confidence intervals for the maximal growth rates were calculated using the Student's t-distribution.
+
+\paragraph{Basic Reproductive Number.}
+$R_0$ represents the number of secondary infections generated by one patient in a fully susceptible population. 
+Let $\tau$ denote the probability that a patient leaves the hospital ward after one timestep,  $\tau' = 1 - \tau$ the probability that the patient stays and $\beta$ the probability that a patient infects another during one timestep.
+Then we can write the total number of infections caused by one patient introduced into a susceptible population as a geometric series:
+
+\begin{equation*}
+    R_0 = (\tau')^0 \cdot \beta + (\tau')^1 \cdot \beta + (\tau')^2 \cdot \beta + ... = \beta \sum_{n=0}^{\infty} (\tau')^n
+\end{equation*}
+
+This geometric series can then be rewritten as: 
+\begin{equation}
+    R_0 = \beta \cdot \frac{1}{1 - \tau'} = \frac{\beta}{\tau} \label{eq:R0}
+\end{equation}
+
+
+\paragraph{Phenotyping -- Limitations. \label{par:x_phenotyping}}
+The phenotyping procedure enables high throughput identification of resistance profiles. 
+Although this method is generally reliable and effective for most wells, it is difficult to accurately determine the resistance profile for wells with very low bacterial densities due to the potential for stochastic effects. 
+We analysed 1784 \( A_r \) turnover wells treated with antibiotic B during the \textit{maximum-emergence} scenario. 
+Here, we observed, alongside the expected $A_r$ and $U$ wells, 9\% 'other' and 17\% \( S \) wells, as detailed in \autoref{fig:BtreatAr}. 
+It might be tempting to interpret the \( S \) wells as those in which all bacteria lost their plasmids and the \textit{'other'} wells as artefacts of measurement errors. 
+Although these interpretations are not incorrect, a more critical factor influencing the measured resistance profile distribution is the inherent stochasticity of the method if applied to low-density wells.
+
+As an example, we will analyse wells identified as \( A_r \)-wells during the previous transfer and subsequently treated with antibiotic B. 
+To simplify the following analysis, we only consider \textit{agar plates} treated with drug  $\vartheta \in \{N, A\}$ (no drug, drug A)  and disregard plates treated with drug B (B-plates) and AB (AB-plates). 
+Furthermore, we will use a prime (') to indicate a counter probability ($w' = 1-w$).
+Drawing a drop with volume \( V_{\text{drop}} \) from a well with volume \( V_{\text{well}} \) leads to a probability \( p = \frac{V_{\text{drop}}}{V_{\text{well}}} \) of drawing a specific bacterium. 
+The probability that the drawn drop contains no bacteria of phenotype  \( \psi \in \{\emptyset, a\}\) (without resistance and A-resistance)  is \( d_\psi^\prime = (1-p)^{Z_\psi} \), with \( Z_\psi \) representing the number of bacteria with phenotype \( \psi\)  inside the well. 
+We denote the probability that a drop can grow on a plate treated with drug $\vartheta$ as $g_\vartheta$.
+The probability $g_N^\prime$ of drawing a drop that will not form a colony on an N-plate can than be defined as \( g_N^\prime = d^\prime_\emptyset d^\prime_a \), and the probability \( g_A^\prime \) of drawing a drop that will not grow on an A-plate is \( g_A^\prime = d^\prime_a \).
+
+Assuming that the drawn drop does not significantly alter the well volume and composition, we obtain the following probabilities for the possible resistance profiles (see also \autoref{fig:phenotyping}):
+\begin{align*}
+    \mathbb{P}(U) &= g_N^\prime \cdot g_A^\prime \\
+    \mathbb{P}(S) &= g_N \cdot g_A^\prime \\
+    \mathbb{P}(A_r) &= g_N \cdot g_A \\
+    \mathbb{P}(other) &= g_N^\prime \cdot g_A 
+\end{align*}
+
+Assuming \( p = 0.006 \) (value for our experiment), a well containing 25 A-resistant and 15 sensitive bacteria will result in 70\% \( U \), 26\% \( S \), 3\% \( A_r \), and 11\% \textit{other}. 
+This result is similar to the experimentally measured distribution (compare \autoref{fig:BtreatAr}).
+
+\paragraph{Advanced Resistance Profiles}
+We introduced advanced phenotypes into our analysis to determine the approximate bacterial density inside the wells. 
+Wells that retain their phenotype after one transfer, despite being sensitive to a particular antibiotic, are expected to exhibit a low bacterial density post-treatment and are labelled $\phi^l$. 
+Conversely, wells that were either untreated or treated with an ineffective antibiotic are expected to contain a high bacterial density and are labelled $\phi^h$. 
+In addition, wells that underwent a change in resistance profile or were mixed with other wells are denoted as $\phi^?$ and are excluded from further analysis.
+We summarised the influence of the bacterial densities within the inoculating wells on the frequency of superinfections developing double resistance in \autoref{tab:encounter_advanced}.
+
+
+\paragraph{Statistical Analysis. \label{ssec:statistics}}
+To compare the performance of different treatment strategies \textit{in vitro}, we summarized the resistance profiles into groups and focused our analysis on three groups: uninfected, single-resistant and double-resistant. 
+These labels stem from the properties within the wells. 
+That means single resistant wells ($A_r$, $B_r$ or $(A_r\&B_r)$ would be wells that contain only single resistant (or sensitive) bacteria, but no double resistant bacteria and therefore can be cured by combining drugs. 
+In contrast, double-resistant wells cannot be cured using both antibiotics simultaneously since they contain AB-resistant bacteria. 
+We then averaged the frequency of each group over the last four transfers for every replicate. 
+Four transfers correspond to a complete cycle in the cycling strategy with a period of 2 (e.g., A-A-B-B). 
+The effect of the treatment strategy on the average frequencies of uninfected, single-resistant, and double-resistant wells was then tested using a one-way ANOVA. 
+In the case of a significant test ($p < 0.05$), we conducted a pairwise Tukey post hoc analysis to relate the mean frequencies.
+
+In addition, we analysed superinfections between patients and the emergence of double resistance across different strategies in the \textit{maximum-emergence}~scenario. 
+We considered all measurement points from the fourth transfer onwards as at near-stationary level for the non-cycling strategies. 
+Consequently, the initial conditions for each new transfer remain approximately the same or are repeated every fourth transfer in the case of cycling.
+
+For this analysis, we counted the number of newly emerged double-resistant wells \(n_{\mathcal{E}}\) and the number of superinfections \(n_{\mathcal{S}}\) across all replicates for each plate, with each plate representing one treatment arm for a single transfer. 
+Newly emerged double-resistant wells are defined as those exhibiting double resistance but not having previously been passaged or infected by a double-resistant well. 
+Additionally, for each plate, we analysed all wells treated with treatment \(\vartheta\), counting the number of superinfected wells \(n^{\vartheta}_{\mathcal{S}}\) and those among them that developed double resistance \(n^{\vartheta}_{\mathcal{E}}\).
+
+We then tested whether the treatment strategy significantly affects the emergence frequency \(f_{\mathcal{E}} = n_\mathcal{E}/{n_P}\) and the frequency of superinfection \(f_{\mathcal{S}} = n_{\mathcal{S}}/{n_P}\), with \(n_P\) being the number of patients in a hospital ward across all replicates (376) using an ANOVA. 
+Additionally, we used an ANOVA to assess if treatment \(\vartheta\) significantly influences the frequency of superinfected wells that develop double resistance \(n^{\vartheta}_{\mathcal{E}}/{n^{\vartheta}_{\mathcal{S}}}\).
+
+Subsequent to a significant ANOVA test, we conducted pairwise Tukey post hoc comparisons between the treatment arms ($p < 0.05$).
+
+All statistical analyses were performed in Python 3.8.5 using SciPy's f\_oneway() \cite{Virtanen2020} for ANOVA tests and Statsmodels' pairwise\_tukeyhsd() \cite{seabold2010statsmodels} for conducting Tukey's honest significant difference post~hoc analyses.
+
+
+\paragraph{\textit{Maximum-emergence}~scenario: Predicting the Emergence Probability.}
+We counted for each plate $i$ the number of superinfected wells $n_\mathcal{S}^i$ and normalized them by the number of patients per plate $n_p$ to calculate the frequency of superinfection (\(f_\mathcal{S}^i = \frac{n^i_\mathcal{S}}{n_p}\)).
+Then, we estimated the probability of superinfection \(\mathbb{P}(\mathcal{S})\) for each treatment arm by averaging \(f_\mathcal{S}^i\). 
+In addition, we approximated the probability of emergence for superinfected wells  \(\mathbb{P}_\vartheta(\mathcal E|\mathcal S)\) under treatment \(\vartheta\), by normalizing the total number of newly emerged resistances across all plates $N^\vartheta_\mathcal{E}$ by the total number of superinfected wells under treatment \(\vartheta\) ($N^\vartheta_\mathcal{S}$): \(\frac{N^\vartheta_\mathcal{E}}{N^\vartheta_\mathcal{S}}\).
+The estimates for \(\mathbb{P}_\vartheta(\mathcal E|\mathcal S)\) were then utilized to approximate the average probability of superinfected wells developing double resistance for each treatment arm.
+The weighted average of all \(\mathbb{P}_\vartheta(\mathcal E|\mathcal S)\) were computed using the proportion of patients receiving treatment \(\vartheta\) as weights.
+For example, in mixing, the average probability \(\overline{\mathbb{P}}(\mathcal E|\mathcal S)\) is given by \(0.5 \mathbb{P}_A(\mathcal E|\mathcal S) + 0.5 \mathbb{P}_B(\mathcal E|\mathcal S)\).
+We then used \autoref{eq:Pe} to predict the average probability of emerging double resistance \(\mathbb{P}(\mathcal E)\) for each strategy, as indicated in Figure~3A by black stars.
+
+\begin{equation}
+    \mathbb{P}(\mathcal E) = \mathbb{P}(\mathcal S)  \overline{\mathbb{P}}(\mathcal E|\mathcal S)
+    \label{eq:Pe}
+\end{equation}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%% TEXT
+\subsection{SI Results\label{ssec:si_results}}
+\paragraph{Impact of Treatment on the Emergence of Double Resistance.}
+As demonstrated in Figure~3B, our findings indicate that treatment substantially influences the frequency of emerging double resistance in superinfected wells.
+Population dynamics within wells can potentially explain these results. 
+Here we approximate  $\mathbb{E}_\vartheta$, the expected number of conjugations during one treatment phase under treatment $\vartheta$, as
+$\mathbb{E}_\vartheta \propto \gamma_\vartheta \int_{t1}^{t2} \leftidx{^A}{X}_\vartheta(t) \leftidx{^B}{X}_\vartheta(t) dt$. 
+$\leftidx{^i}{X}$ represents the density of bacteria with resistance $i$, and $\gamma_\vartheta$ is the treatment dependent conjugation rate.  
+The experimentally generated data are insufficient for adequately estimating $\gamma_\vartheta$.  
+However, if we assume identical initial bacterial populations, we can qualitatively rank the cumulative product of bacterial densities $\int_{t1}^{t2} \leftidx{^A}{X}_\vartheta(t) \leftidx{^B}{X}_\vartheta(t) dt$.  
+The highest cumulative product is achieved when $\leftidx{^A}{X}$ and $\leftidx{^B}{X}$ grow without or with ineffective treatment.  
+Additionally, we know that the clearance rate of ceftazidime (drug A) is substantially higher than that of tetracycline (drug B), as shown in \autoref{tab:clearance}, resulting in a larger cumulative product over time when treated with antibiotic B.  
+Lastly, the lowest cumulative product is associated with treatment AB, where neither of the two strains can grow.  
+Therefore, if we disregard $\gamma_\vartheta$, the above reasoning predicts the following ranking for the number of emergences per superinfection: None, B, A, AB.  
+This predicted ranking aligns with the ranking observed in \textcolor{blue}{Figure~3C}.
+
+
+Another potential explanation are potential differences in the plasmid-specific conjugation rates. 
+If, for example, $p_B$ had a higher conjugate rate than  $p_A$, then drug A would have a stronger impact on the emergence of double resistance, even if we assumed identical clearance rates. 
+
+
+\paragraph{Treatment strategies influence the number of bacteria inoculating superinfections. \label{ssec:inocula}}
+We observed that the number of single-resistant bacteria that inoculate superinfections affects the emergence of double resistance (\autoref{tab:encounter_advanced}).
+At least one of the two superinfection-initiating inocula originates from infections between patients and is sourced from the previous assay plate.
+The cell densities and compositions within these source wells, which have already undergone treatment for one day, vary considerably depending on the resistance profile $\phi$ and the treatment history.
+We used 'advanced phenotypes' (see \nameref{ssec:si_methods}) to distinguish between high-density ($\phi^h$) and low-density ($\phi^l$) wells, assigning these based on the wells resistance profile ($\phi$) and treatment history.
+
+During the \textit{maximum-emergence}~scenario, which contained the highest number of superinfections, we made two noteworthy observations. 
+First, superinfections between $\phi^h$ and $\phi^l$ ($A_r^l + B_r^h$  (43 superinfections) and $A_r^h + B_r^l$ (one superinfection)) occur significantly less frequently than superinfections between $A_r^h + B_r^h$ (a total of 1176 superinfections, as outlined in \autoref{tab:encounter_advanced}). This discrepancy can be attributed to the high clearance rates of both drugs, resulting in a higher prevalence of $\phi^h$ compared to $\phi^l$.
+
+Second, none of the 44 superinfections involving $A_r^l + B_r^h$ and $A_r^h + B_r^l$ resulted in double resistance.
+
+
+\paragraph{Antagonism.\label{ssec:antagonism}}
+Adding the bacteriostatic antibiotic tetracycline (drug B) reduces the probability of clearing sensitive bacteria with the bactericidal antibiotic ceftazidime (drug A). The clearance probability drops from 0.97 to 0.86, as shown in \autoref{tab:clearance}. 
+Antagonism between bactericidal and bacteriostatic antibiotics has been documented by various researchers since the 1950s, as exemplified by the works of Cates \cite{Cates1951} and Jawetz \cite{Jawetz1957}, and also more recently by Ocampo \cite{Ocampo2014}.
+The antagonistic effect may arise because the bacteriostatic drug (tetracycline) lowers the growth rate, resulting in a decreased kill rate of the bactericidal drug (ceftazidime) \cite{Angermayr2022}. 
+Accordingly, this antagonistic effect is anticipated to be less pronounced for a tetracycline-resistant strain, where the impact on the growth rate is diminished. This hypothesis is supported by the measured clearance rates for $B_r$ wells, where the clearance probability remains at 0.98 for treatment with drugs A and AB \autoref{tab:clearance}.
+
+
+\subsection{SI Computational Model\label{ssec: model}}
+\paragraph{Stochasticity}
+We conducted three experiments, each defined by one parameter set consisting of a turnover probability $\tau$, an infection probability $\beta$ and the probability distribution for sampling patients $c_\phi$ with different resistance profiles $\phi \in \{U, S, A_r, B_r, AB_r\}$.
+For each experiment, we randomly generated one instruction set based on the given parameter set.
+Due to the scale and complexity of the experiment, it was infeasible to conduct a unique instruction set for each replicate. 
+Therefore, we opted to employ identical instruction sets for all replicates, which reduces the number of robot arm movements (and time) for infection and turnover by a factor of four.
+
+As a consequence, our replicates may be interpreted as patients with identical histories regarding original infection, treatment and exchange with other patients. 
+However, due to the accumulated biological stochasticity along the patient histories, their phenotypic properties may vary, as reflected by the variance of the replicates.
+
+Since we only tested one instruction set per replicate \textit{in vitro}, we wondered whether the measured results depend on the randomisation of the instruction set and if we would expect a qualitatively different result if we reran the experiment 100 times. 
+To answer this question, we created a computational model that, for a given parameter set, rerandomises the instruction set and conducts a stochastic simulation to mimic the biological variability.
+In \autoref{fig:stochs}, we visualised the different sources of experimental and computational variability.
+
+
+\paragraph{Transition Probabilities.}
+We used the experimental data to calculate the transition frequencies for all pre-treatment $\phi^i_\vartheta(T)$ to post-treatment $\phi^i_\vartheta(\hat{T})$ resistance profile combinations for each plate $i$ and treatment $\vartheta$. 
+$\phi(\hat{T})$ is measured during the phenotyping procedure, while $\phi(T)$ is estimated by employing one plate-handling simulation step to $\phi(\hat{T}-1)$ as described in the methods (e.g. $A_r  + S \rightarrow A_r$). 
+Then, we estimated the transition probabilities as the weighted average of transition frequencies across all plates, with the count of $\phi_\vartheta(T)$ on each plate as a weight. 
+
+For each treatment $\vartheta$, we created one transition matrix $M^\vartheta$, with the pre-treatment resistance profile $\phi(T)$ as columns and the post-treatment profile $\phi(\hat{T})$ in the rows (\autoref{tab:m_none}--\ref{tab:m_ab}). 
+To simulate the incubation phase, we use $M^\vartheta$ to stochastically assign the post-treatment resistance profile $\phi_\vartheta(\hat{T})$, using the respective column of the transition matrix as a probability distribution.
+
+\paragraph{Transition Probabilities for Transfer 1.}
+All patients are untreated during transfer 0, leading to exceptionally high rates of superinfections and high emergence rates per superinfection during transfer 1. 
+To account for this, we created four additional transition matrices for simulating the first transfer (see \autoref{tab:m1_none}--\ref{tab:m1_ab}).
+
+
+\paragraph{Choice of Model.}
+We also considered using a continuous model.
+However, a typical population-based model would not match the experimental measurements for effectively treated patients.
+This is due to the discrete nature of our experimental setup.
+Here, the frequency of infected patients has a local maximum before treatment and a local minimum after treatment, creating sawtooth-shaped frequencies over time.
+We conducted the phenotyping at the end of the incubation period, at the local low point, diverging from the average frequencies predicted by a continuous model.
+Therefore, a continuous model would either use realistic clearance rates and not fit through the experimental data points or use exaggerated clearance rates and fit through the data points.
+For example, treating an $S$ well with a hypothetical drug C leads to a steady decline in bacterial density over time, resulting in a bacterial density below the detection limit after 24 hours (our first experimental measurement point). 
+If initially, all wells are infected, and at the first measurement point, the infection drops to 0\%, fitting a continuous compartmental model to these data would result in infinite clearance rates.
+
+\paragraph{Contamination of the Transition Matrix. \label{par:contamination}}
+The computational simulations employ four transition matrices  (\(M^\text{none}, M^{A}, M^{B}, M^{AB}\)) derived from the observed transitions during the three experiments. 
+During the experiments, we observed a low rate of contamination affecting neighbouring wells, likely due to pintool and plate movements by the liquid handling platform. 
+Quantifying the exact contamination rate is challenging, though the observed mean transition probability from \( U \) to \( U \) is 0.99\%.
+
+These contaminations can be inconsequential; for example, an \( S \) well contaminating an \( A_r \) well will not cause a shift of the resistance profile in the contaminated well.
+However, they can also lead to artefactual transitions that are reflected in the transition matrices,  such as \( U \rightarrow S \) (\autoref{tab:m_none}), \( U \rightarrow A_r \) (\autoref{tab:m_a}), or \( U \rightarrow B_r \) (\autoref{tab:m_b}).
+The impact of the recorded artefactual transitions in the transition matrices depends on the frequency and the transferred resistance profile.
+For instance, in Mono~A, a high frequency of \( A_r \) contaminations is observed due to the predominant presence of \( A_r \) wells, creating the impossible transition \( U \rightarrow A_r \) described above, which now occurs in all simulations independent of the presence or frequency of \(A_r\) during the simulation. 
+Similarly, in the \textit{containment} experiment, the abundance of \( AB_r\) wells in all treatment arms led to a higher rate of double-resistant contamination reflected in the transitions: \( A_r \rightarrow AB_r \) (\autoref{tab:m_none}) and \(A_r \rightarrow AB_r \) \& \(B_r \rightarrow AB_r \)  (\autoref{tab:m_b}). 
+Resistance mutations could also explain these transitions; however, because they occurred mainly during the \textit{containment} scenario and the fact that they exclusively came up in wells neighbouring double-resistant wells, we believe that they are an artefact of unintended infections. 
+
+Artefactual transitions such as \( U  \rightarrow S \), or \(U \rightarrow A_r \) 
+have a neglectable effect on the simulation of all scenarios, as their occurrence in the regular infection and admission processes outweighs the contribution through the artefactual transitions.
+Similarly, double-resistant contaminations minimally impact the simulations of both the \textit{containment} scenario (where double resistance is regularly admitted) and the \textit{maximum-emergence} scenario (due to a low \( R_0 \) and frequent emergence of double resistance).
+However, they pose a problem to the simulation of \textit{prevention} scenario, where a low (untruthful) influx of $AB_r$ can spread ($R_0 > 1$).
+
+\paragraph{Filtered Transition Probabilities.}
+To mitigate the effect of contaminated transition matrices, we introduced filtered transition matrices. 
+For this, we assumed no resistance mutations and forbidding impossible transitions (by setting the transition probability \( U \rightarrow U \) to 1; see \autoref{tab:m_none_clean} -- \ref{tab:m1_ab_clean}). 
+
+Using these filtered probabilities to simulate the \textit{prevention}~scenario leads to better-matching results, almost removing the spread of double resistance in Mono~A and the multidrug strategies and thereby matching the experimental data better (compare the green error bands between \autoref{fig:exp1} \& \autoref{fig:exp1_filtered}). 
+In addition, we conducted a secondary sensitivity analysis with these filtered probabilities (see \autoref{fig:senstivity_clean}). 
+Because the overall conclusions are consistent between the simulations using filtered and unfiltered transition probabilities, we opted to use the unfiltered transition probabilities in the main paper for a more direct representation of the experimental data. 
+

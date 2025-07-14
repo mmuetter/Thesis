@@ -1,0 +1,9 @@
+;Sequence;Size;Genes;Replicon;Name;Database;Accession
+0;sq0;5.27Mbp;\makecell{blaCTX-M-15,\\ tet(34),\\ mdf(A)};\makecell{-};-Chrom.-;\makecell{resfinder};\makecell{AY044436,\\ AB061440,\\ Y08743}
+1;sq1;116.05kbp;\makecell{Col156,\\ blaTEM-1B};\makecell{IncFIB,\\ IncFII,\\ IncFIB};$P_{A1}$;\makecell{res\_plas,\\ resfinder};\makecell{AY458016}
+2;sq2;90.27kbp;\makecell{blaCTX-M-15,\\ blaTEM-1B};\makecell{IncI1};$P_{A2}$;\makecell{resfinder,\\ res\_plas};\makecell{AY044436,\\ AY458016}
+3;sq3;4.07kbp;\makecell{ColRNAI};\makecell{-};$P_{A3}$;\makecell{res\_plas};\makecell{-}
+4;sq4;2.08kbp;\makecell{Col(BS512),\\ Col(BS512)};\makecell{-};$P_{A4}$;\makecell{res\_plas};\makecell{-}
+5;sq5;1.60kbp;\makecell{Col(MG828)};\makecell{-};$P_{A5}$;\makecell{res\_plas};\makecell{-}
+6;sq6;1.55kbp;\makecell{Col(MG828)};\makecell{-};$P_{A6}$;\makecell{res\_plas};\makecell{-}
+7;sq7;1.43kbp;\makecell{Col(MG828)};\makecell{-};$P_{A7}$;\makecell{res\_plas};\makecell{-}

@@ -1,0 +1,12 @@
+;Sequence;Size;Genes;Replicon;Name;Database;Accession
+0;sq0;5.07Mbp;\makecell{mdf(A)};\makecell{-};-Chrom.-;\makecell{resfinder};\makecell{Y08743}
+1;sq1;130.94kbp;\makecell{mph(A),\\ ant(3''),\\ dfrA14\_5,\\ tet(B),\\ blaCTX-M-14};\makecell{IncFIB,\\ IncFIA,\\ IncFIC};$P_{B1}$;\makecell{resfinder,\\ res\_plas};\makecell{U36578,\\ X02340,\\ DQ388123,\\ AF326777,\\ AF252622}
+2;sq2;95.86kbp;\makecell{p0111};\makecell{-};$P_{B2}$;\makecell{res\_plas};\makecell{-}
+3;sq3;93.54kbp;\makecell{-};\makecell{IncB/O/K/Z\_2\_GU256641};$P_{B3}$;\makecell{res\_plas};\makecell{-}
+4;sq4;7.94kbp;\makecell{ColRNAI};\makecell{-};$P_{B4}$;\makecell{res\_plas};\makecell{-}
+5;sq5;7.45kbp;\makecell{Col156};\makecell{-};$P_{B5}$;\makecell{res\_plas};\makecell{-}
+6;sq6;5.63kbp;\makecell{ColRNAI};\makecell{-};$P_{B6}$;\makecell{res\_plas};\makecell{-}
+7;sq7;4.07kbp;\makecell{Col8282};\makecell{-};$P_{B7}$;\makecell{res\_plas};\makecell{-}
+8;sq8;1.80kbp;\makecell{-};\makecell{-};$P_{B8}$;\makecell{-};\makecell{-}
+9;sq9;1.55kbp;\makecell{Col(MG828)};\makecell{-};$P_{B9}$;\makecell{res\_plas};\makecell{-}
+10;sq10;184.00bp;\makecell{-};\makecell{-};$P_{B10}$;\makecell{-};\makecell{-}

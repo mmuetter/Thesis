@@ -1,0 +1,9 @@
+;index;Notreatment;MonoA;MonoB;Combo;Mixing;Cycling
+0;double;11;98;45;146;64;92
+1;single;12;8;39;185;102;107
+2;resistant;0;7;14;180;50;83
+3;UI;0;7;16;171;51;82
+4;double\_mean;5;38;16;165;29;47
+5;single\_mean;0;0;2;184;3;1
+6;resistant\_mean;0;0;1;180;3;7
+7;UI\_mean;0;2;2;172;4;9

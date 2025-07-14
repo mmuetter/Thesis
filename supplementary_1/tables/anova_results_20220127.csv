@@ -1,0 +1,4 @@
+;index;group;statistic;Pvalue;significant
+0;0;UI mean;29.24;0.0;True
+1;1;single resistant mean;41.42;0.0;True
+2;2;double resistant mean;1.17;0.36;False

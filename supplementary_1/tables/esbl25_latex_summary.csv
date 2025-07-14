@@ -1,0 +1,10 @@
+;Name;Contig;Size;Replicon;RGenes
+0;ESBL25\_P0;c8;5.07 MBp;- Chromosome -;mdf(A)
+1;ESBL25\_P1;p8A\_IncF;131 kB;IncFIA, IncFIB;dfrA14, mph(A), blaCTX-M-14, tet(B)
+2;ESBL25\_P2;p8B\_p0111;95.9 kB;p0111 (phage);-
+3;ESBL25\_P3;p8C\_IncBOKZ;93.5 kB;IncB/O/K/Z;-
+4;ESBL25\_P4;p8D\_ColRNAI;7.9 kB;ColRNAI;-
+5;ESBL25\_P5;p8E\_Col156;7.5 kB;Col156;-
+6;ESBL25\_P6;p8F\_ColRNAI;5.6 kB;ColRNAI;-
+7;ESBL25\_P7;p8G\_Col8282;4.1 kB;Col8282;-
+8;ESBL25\_P8;p8H\_ColMG8282;1.6 kB;Col(MG8282);-

@@ -1,0 +1,44 @@
+\chapter[Short title]{Long title which is already more of an abstract than a simple title, really}
+\label{chapterspecificlabel:content}
+
+\renewcommand\bibname{References}
+ 
+  \vspace*{\fill}
+
+  {\small
+	  \textbf{To be published as:}
+  \begin{adjustwidth}{1em}{0em}
+	  You, others, \& Bonhoeffer S. ``Long title which is already more of an abstract than a simple title, really''
+  \end{adjustwidth}}
+
+\clearpage
+\vspace*{\fill}
+\begin{abstract}
+Bla bla bla
+\end{abstract}
+\vspace*{\fill}
+\newpage
+
+%\setcounter{tocdepth}{3}
+%\tableofcontents
+
+\clearpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Introduction}
+Bla bla ~\citep{fortunato2010community,fortunato2016community}.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{The life-cycle of a dynamic community}
+\label{method:sec:lifecycle} < these labels can be used anywhere in the thesis
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% now this is for the bibliography, here the import path is relative to mani.tex (thought giving a path relative to this *.tex should work to I guess)
+\newpage
+\bibliographystyle{bib/custBib}
+{\small
+	\bibliography{bib/general}
+}
+\addcontentsline{toc}{section}{References}

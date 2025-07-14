@@ -1,0 +1,58 @@
+\section{Introduction}
+In light of the growing threat of antimicrobial resistance (AMR) to human health, various multidrug strategies are being considered to improve the sustainability of antibiotic use.
+These approaches include combination therapy (simultaneous use of multiple antibiotics), mixing therapy (randomly assigning patients to receive different antibiotics), and cycling therapy (alternating between multiple antibiotics over time).
+
+Combination, originally proposed alongside cycling therapy to prevent biocide resistance in plant pathogens \cite{Kable1980, Delp1980, Skylakakis1981}, was later adopted in human medicine.
+Combination therapy proved its effectiveness in preventing resistance evolution in highly adaptable pathogens such as HIV, \textit{Mycobacterium tuberculosis}, and \textit{Plasmodium falciparum} \cite{Goldberg2012}. 
+However, a recent meta-analysis investigating the effect of combination therapy on resistance across various bacterial infections and antibiotic combinations found no evidence for a difference in the risk of resistance acquisition \cite{siedentop_metaanalysis_2024}. 
+Also, a comprehensive cluster-randomised crossover study comparing mixing and cycling by van Duijn et al. \cite{VanDuijn2018}, spanning nearly two years across eight ICUs, found no significant differences in outcomes.
+
+A review of the available model literature by Uecker et al. \cite{Uecker2021} reveals the complexity and context-dependent efficacy of treatment strategies such as combination, cycling or mixing strategies.
+Yet, theoretical models often identify combination therapy as the best strategy to prevent new resistance \cite{Bonhoeffer1997, Tepekule2017}.
+It remains unclear whether the inconclusive results regarding the effectiveness of multidrug treatment strategies in the literature are due to the theoretical models failing to account for key processes, or if clinical studies lack statistical power, as suggested by Siedentop et al. \cite{siedentop_metaanalysis_2024}.
+This lack of power may be caused by patient and bacterial strain heterogeneity, stochasticity in infection dynamics, and other unknown factors that make it difficult to isolate single effects.
+
+We recently started experiments to make a foray into the large gap between theoretical models and clinical trials.
+In an \textit{in vitro} experiment mimicking the epidemiological scenario of transmission in a hospital ward, Angst et al. \cite{Angst2021} investigated the effect of cycling, mixing, and combination therapy on resistance evolution and showed that for chromosomal resistance mutations combination therapy outperformed the other strategies.
+One potential reason why combination therapy succeeded in that study and tends to be superior in mathematical models is that it increases the genetic barrier to resistance by requiring the acquisition of multiple mutations in the same background.
+
+Here, we explore the effect of horizontal gene transfer (HGT) on resistance evolution under treatment by conducting three large-scale \textit{in vitro} experiments. 
+The experiments mimic epidemiological transmission dynamics of symptomatic infections by a focal strain in an intensive care unit (ICU) and include patient discharge and admission, infection between patients, and treatment.
+We use two antibiotics, ceftazidime (A) and tetracycline (B), along with two clinical resistance plasmids \cite{Huisman2022} we call $p_A$ and $p_B$, conferring resistance to the corresponding antibiotics.
+The plasmids are compatible, can conjugate, and were isolated from clinical samples collected and characterised in a study at University Hospital Basel \cite{Sutter2016}.
+We model patients as wells in a 384-well microtiter plate filled with LB medium. 
+These ``patients'' can be infected with a mixture of bacteria, which may carry up to two resistance plasmids. 
+Depending on the presence of bacteria and resistance, we assign each "patient" a resistance profile: uninfected ($U$), sensitive infected ($S$), single-resistant ($A_r$, $B_r$, or $(A_r\&B_r)$), or double-resistant ($AB_r$).
+
+In each experiment, we model six hospital wards to assess the ability of five treatment strategies (mixing, cycling, combination therapy with two antibiotics and two monotherapies with each antibiotic alone) and one control (no antibiotics) to contain the spread of plasmid-borne resistance and prevent the emergence of double resistance. 
+All patients in each ward are treated daily according to the assigned strategy.
+A schematic of the experimental setup is shown in \sifig{1}.
+Each of the three experiments addresses a different scenario (\autoref{tab:exp_par}), varying in patient turnover probability (admission/discharge),  infection probability, and the distribution of resistance profiles for incoming patients (sampling proportions). 
+The \textit{prevention}~scenario addresses a situation with low levels of pre-existing single and no double resistance brought into the hospital ward from the community.
+The \textit{containment}~scenario focuses on the ability of treatment strategies to contain pre-existing double resistance and in the \textit{maximum-emergence}~scenario, we maximised the opportunities for emerging double resistance through HGT by admitting single-resistant patients only.
+
+Alongside our experiments, we created a computational model that mimics the experiment and is parameterised but not fitted using the experimental data.
+We used the model to assess the robustness of our findings to the randomisation of the experimental decisions and conducted an \textit{in silico} sensitivity analysis to augment the experimental data.
+
+\begin{table}[b]
+    \centering
+    \captionsetup[table]{skip=3pt}
+    \renewcommand{\arraystretch}{1.1} % Increase row spacing
+    \setlength{\tabcolsep}{4.5pt} % Adjust column spacing
+    \captionof{table}{\textbf{Parameter sets} and $R_0$ used in the three experiments: 
+        $c_\phi$ is the proportion of admitted patients with resistance profile $\phi$, 
+        $\tau$ denotes the probability that a patient is replaced with a new patient sampled from the community and 
+        $\beta$ denotes the infection probability.}
+
+
+    \label{tab:exp_par}
+    \begin{tabular}{p{1.5cm}|ccccccc|c}
+        \toprule
+            \textbf{scenario} & $c_{S}$ & $c_{Ar}$ & $c_{Br}$ & $c_{ABr}$  & $c_{U}$ & $\tau$ & $\beta$ & $R_0$\\ 
+            \midrule
+            \textit{prevention}   & 0.75 & 0.05 & 0.05 & 0 & 0.15 & 0.20 & 0.30 & 1.5\\
+            \textit{containment}  & 0.58 & 0.11 & 0.11 & 0.05 & 0.15 & 0.20 & 0.35 & 1.75\\
+            \textit{maximum-emergence} & 0 & 0.50 & 0.50 & 0 & 0 & 0.50 & 0.25 & 0.5 \\
+            \bottomrule
+    \end{tabular}
+\end{table}

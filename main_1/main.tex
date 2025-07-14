@@ -1,0 +1,48 @@
+\documentclass[../main.tex]{subfiles}
+
+
+\newcommand{\siref}[1]{\textcolor{blue}{S#1}}
+\newcommand{\sifig}[1]{\textcolor{blue}{Figure~S#1}}
+\newcommand{\sitab}[1]{\textcolor{blue}{Table~S#1}}
+\newcommand{\sieq}[1]{\textcolor{blue}{Equation~S#1}}
+\newcommand{\sisec}[1]{\textcolor{blue}{#1}}
+\newcommand{\panelref}[2]{\autoref{#1}\textcolor{blue}{#2}}
+
+
+\begin{document}
+
+% Paper-specific metadata
+\chapter{The Impact of Treatment Strategies on the Epidemiological Dynamics of Plasmid-Conferred Antibiotic Resistance}
+
+% Optional: include abstract if needed in thesis
+\begin{abstract}
+The issue of antibiotic resistance is a critical concern for public health, prompting numerous investigations into the impact of treatment strategies on preventing or slowing down the emergence of resistance.
+While existing studies have predominantly focused on chromosomal resistance mutations, the consequences of often clinically more relevant plasmid-conferred resistance remain insufficiently explored.
+
+To address this gap, we conducted three extensive \textit{in vitro} experiments utilising a liquid-handling platform.
+These experiments evaluated the efficacy of five distinct treatment strategies using two antibiotics (tetracycline and ceftazidime) along with two horizontally transmissible clinical resistance plasmids conferring the respective resistances.
+
+Among the experimentally investigated treatment strategies, combination therapy proved to be the most effective in preventing the emergence of double resistance while minimising the number of infections.
+
+To verify the reliability of these findings, we constructed a computational model of our experiments that we parameterised using the experimental data.
+We employed this model to augment the experimental data by conducting an \textit{in silico} parameter sensitivity analysis.
+The sensitivity analysis corroborated our experimental results, demonstrating that combination therapy consistently outperformed other treatment strategies across a range of parameter values.
+\end{abstract}
+
+% Include the actual content from text.tex
+
+\input{main_1/introduction.tex}
+\input{main_1/results.tex}
+\input{main_1/discussion.tex}
+\input{main_1/methods.tex}
+
+
+% Optional: acknowledgments as section
+\section*{Acknowledgments}
+\input{main_1/acknow.tex}
+
+% Bibliography
+\bibliographystyle{unsrtnat}
+\bibliography{main_1/TSPlasmid.bib}
+
+\end{document}

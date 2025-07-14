@@ -1,0 +1,35 @@
+\documentclass[../main.tex]{subfiles}
+
+%\input{settings/packages}
+%\input{supplementary_1/settings/commands}
+% \input{settings/crossref} % Optional
+
+
+\begin{document}
+
+\input{supplementary_1/commands}
+
+% SI-style equation numbering: S1, S2, ...
+\renewcommand{\theequation}{S\arabic{equation}}
+\renewcommand{\eqref}[1]{Eq.~S\ref{#1}}
+
+% If you want a heading
+\chapter*{Supplementary Information}
+
+\input{supplementary_1/SI_text}
+
+\clearpage
+
+\input{supplementary_1/SI_figures}
+\clearpage
+
+\input{supplementary_1/SI_tables}
+
+
+
+\bibliographystyle{unsrtnat}
+\bibliography{supplementary_1/TSPlasmid.bib}
+
+\end{document}
+
+

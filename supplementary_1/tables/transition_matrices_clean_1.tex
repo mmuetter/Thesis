@@ -1,0 +1,51 @@
+\begin{table}[h]
+    \begin{minipage}{.49\linewidth}
+        \centering
+        \captionof{table}{$M^{none}$. Filtered transition matrix for untreated patients.} 
+        \label{tab:m_none_clean}
+        \resizebox{\linewidth}{!}{%
+            \makeCSVtable{r|cccccc}%
+            {\backslashbox[15mm]{$\phi(\hat{T})$}{$\phi(T)$} & $U$  & $S$ & $A_r$ & $B_r$ & $(A_r \& B_r)$& $AB_r$}%
+            {tables/M_none_clean.csv}%
+            {\index  & \U  & \S & \Ar     & \Br  & \AuB   & \ABr   }
+        }
+    \end{minipage}
+    \hfill
+    \begin{minipage}{.49\linewidth}
+        \centering
+         \captionof{table}{$M^{A}$. Filtered transition matrix for patients treated with antibiotic A.} 
+         \label{tab:m_a_clean}
+         \resizebox{\linewidth}{!}{%
+            \makeCSVtable{r|cccccc}%
+                    {\backslashbox[20mm]{$\phi(\hat{T})$}{$\phi(T)$}& $U$  & $S$ & $A_r$ & $B_r$ & $(A_r \& B_r)$& $AB_r$}%
+                    {tables/M_A_clean.csv}%
+                    {\index  & \U  & \S & \Ar     & \Br  & \AuB   & \ABr   }
+                }
+    \end{minipage}
+
+    \vspace{.5cm}
+    
+    \begin{minipage}{.49\linewidth}
+        \centering
+         \captionof{table}{$M^{B}$. Filtered transition matrix for patients treated with antibiotic B.} 
+         \label{tab:m_b_clean}
+         \resizebox{\linewidth}{!}{%
+        \makeCSVtable{r|cccccc}%
+                {\backslashbox[20mm]{$\phi(\hat{T})$}{$\phi(T)$} & $U$  & $S$ & $A_r$ & $B_r$ & $(A_r \& B_r)$& $AB_r$}%
+                {tables/M_B_clean.csv}%
+                {\index  & \U  & \S & \Ar     & \Br  & \AuB   & \ABr   }
+                }
+    \end{minipage}
+    \hfill
+    \begin{minipage}{.49\linewidth}
+        \centering
+         \captionof{table}{$M^{AB}$. Filtered transition matrix for patients treated with antibiotic AB.} 
+         \label{tab:m_ab_clean} 
+         \resizebox{\linewidth}{!}{%
+        \makeCSVtable{r|cccccc}%
+                {\backslashbox[20mm]{$\phi(\hat{T})$}{$\phi(T)$} & $U$  & $S$ & $A_r$ & $B_r$ & $(A_r \& B_r)$& $AB_r$}%
+                {tables/M_AB_clean.csv}%
+                {\index  & \U  & \S & \Ar     & \Br  & \AuB   & \ABr   }
+                }
+    \end{minipage}
+\end{table}

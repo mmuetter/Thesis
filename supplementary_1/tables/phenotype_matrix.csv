@@ -1,0 +1,7 @@
+,Well Phenotype,None,A,B,AB
+0,$UI$,x,x,x,x
+1,$S$,growth,x,x,x
+2,$A_r$,growth,growth,x,x
+3,$B_r$,growth,x,growth,x
+4,$(A_r and B_r)$,growth,growth,growth,x
+5,$AB_r$,growth,growth,growth,growth

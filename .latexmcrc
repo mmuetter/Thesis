@@ -1,0 +1,5 @@
+# Use xelatex for all runs
+$pdflatex = 'xelatex -synctex=1 -interaction=nonstopmode -file-line-error';
+$latex = $pdflatex;
+$bibtex_use = 1;
+"latex-workshop.latex.outDir": "./build"
