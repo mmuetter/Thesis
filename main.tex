@@ -1,86 +1,40 @@
-%\input{preamble}
-%\include{main_1/definitions}
-
 \documentclass{thesis}
-
-%\usepackage{siunitx}
-\usepackage{subfiles} % Enable modular subfile inclusion
 
 %------------------------------------------------------------------------------
 \title{The title of your thesis, nothing more}
-\author{Your Name}
+\author{Malte Mütter}
 \date{} % Activate to display a given date or no date
 %------------------------------------------------------------------------------
 
 \begin{document}
 
-  \renewcommand{\bibsection}{%
-    \section*{\bibname}
-    \prebibhook}
 
 	\frontmatter
-  \pagestyle{pst_e}
-  % %%%%%%%%%%%%%%%%%%%
-  % title page
-  \include{chapters/0_titlepage}
-  
-  \pdfbookmark[section]{\contentsname}{toc}
-  \renewcommand{\baselinestretch}{0.85}\normalsize
+
+  \subfile{front_matter/main.tex}
+
   \tableofcontents*
-  % this is for review style spacing, set to 1.0 for booklet
-  \renewcommand{\baselinestretch}{1.4}\normalsize
   % %%%%%%%%%%%%%%%%%%%
+  
+  
+  % %%%%%%%%%%%%%%%%%%%
+  % CHAPTER 1 - INTRODUCTION
   \mainmatter
-  \pagestyle{pst_e}
-  
-  % %%%%%%%%%%%%%%%%%%%
-  % the summaries 
-  \include{chapters/1a_Summary_EN} %cha:summary
-
-  % not English summary
-  % \begin{otherlanguage}{ngerman}
-  %       \include{chapters/1b_Summary_DE} %cha:zusammenfassung
-  % \end{otherlanguage}
-%  \begin{otherlanguage}{french}
-%        \include{chapters/1c_Summary_FR} %cha:resume
-%  \end{otherlanguage}
+  \subunit[chapter_1/thesis]{chapter_1/main}
 
   % %%%%%%%%%%%%%%%%%%%
-  % preface about integrity of material
-  \include{chapters/1z_Preface} %cha:preface
+  % Chapter 2 - PNAS paper
+%  \subunit[main_1/TSPlasmid]{main_1/main.tex}  
+%  \subunit[supplementary_1/TSPlasmid]{supplementary_1/main.tex}
 
   % %%%%%%%%%%%%%%%%%%%
-  % general introductoin
-  \include{chapters/2_introduction} %cha:Intro
-
-
-  % %%%%%%%%%%%%%%%%%%%
-  % research chapters
-  \subfile{main_1/main.tex} % includes first research paper with local labels & bibliography
-  \subfile{supplementary_1/main.tex}
+  % Chapter 3 - Supplementary Information
+  \chapter{MSB paper}
 
   % %%%%%%%%%%%%%%%%%%%
-  % discussion and outlook
-  \include{chapters/X1_GeneralDiscussion} %cha:Gdiscussion
+  \chapter{Combination Paper}
 
   % %%%%%%%%%%%%%%%%%%%
-  % acknowledgements here
-  \include{chapters/X2_Acknowledgments} %cha:thanks
-  
-  % %%%%%%%%%%%%%%%%%%%
-  % appendix
-  \appendix%
-  \chapter*{Appendices}\addcontentsline{toc}{part}{Appendices}
-  \clearpage
-  \pagestyle{pst_app}
-
-  % appendix chapters
-  \subincludefrom{chapters/}{A_Software} %append:software
-
-  % %%%%%%%%%%%%%%%%%%%
-  % don't forget your CV
-  \renewcommand{\baselinestretch}{0.6}\normalsize
-  \include{chapters/X3_cv}
-  \renewcommand{\baselinestretch}{1.4}\normalsize
+  \chapter{Concluding Remarks}
 
 \end{document}

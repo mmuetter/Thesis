@@ -1,5 +1,19 @@
-# Use xelatex for all runs
-$pdflatex = 'xelatex -synctex=1 -interaction=nonstopmode -file-line-error';
+$pdflatex = 'xelatex -synctex=1 -interaction=nonstopmode -file-line-error %O %S';
 $latex = $pdflatex;
-$bibtex_use = 1;
-"latex-workshop.latex.outDir": "./build"
+
+@default_files = ('main.tex');
+
+$out_dir = 'build';
+$aux_dir = 'build';
+
+$bibtex_use = 0;
+
+
+add_cus_dep('aux','bbl',0,'run_bibtex_any');
+
+sub run_bibtex_any {
+    my ($base) = @_;
+    my $t = ($out_dir ne '' ? "$out_dir/$base" : $base);
+    system("bibtex $t");
+    return 0;
+}

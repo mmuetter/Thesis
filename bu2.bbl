@@ -1,0 +1,156 @@
+\begin{thebibliography}{16}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Kable and Jeffery(1980)]{Kable1980}
+P.~F. Kable and H.~Jeffery.
+\newblock {Selection for Tolerance in Organisms Exposed to Sprays of Biocide
+  Mixtures: A Theoretical Model}.
+\newblock \emph{Phytopathology}, 70\penalty0 (1):\penalty0 8--12, 1980.
+\newblock ISSN 0031-949X.
+\newblock \doi{10.1094/phyto-70-8}.
+
+\bibitem[Delp(1980)]{Delp1980}
+Charles~J. Delp.
+\newblock {Coping with resistance to plant disease}.
+\newblock \emph{Plant Dis.}, 64:\penalty0 652--657, 1980.
+\newblock \doi{10.1094/PD-64-652}.
+
+\bibitem[Skylakakis(1981)]{Skylakakis1981}
+George Skylakakis.
+\newblock {Effects of Alternating and Mixing Pesticides on the Buildup of
+  Fungal Resistance}.
+\newblock \emph{Phytopathology}, 71\penalty0 (11):\penalty0 1119 -- 1121, 1981.
+\newblock ISSN 0031-949X.
+\newblock \doi{10.1094/phyto-71-1119}.
+
+\bibitem[Goldberg et~al.(2012)Goldberg, Siliciano, and Jacobs]{Goldberg2012}
+Daniel~E. Goldberg, Robert~F. Siliciano, and William~R. Jacobs.
+\newblock {Outwitting evolution: Fighting drug-resistant TB, Malaria, and HIV}.
+\newblock \emph{Cell}, 148\penalty0 (6):\penalty0 1271--1283, 2012.
+\newblock ISSN 10974172.
+\newblock \doi{10.1016/j.cell.2012.02.021}.
+
+\bibitem[Siedentop et~al.(2024)Siedentop, Kachalov, Witzany, Egger, Roger, and
+  Bonhoeffer]{siedentop_metaanalysis_2024}
+Berit Siedentop, Viacheslav~N Kachalov, Christopher Witzany, Matthias Egger,
+  D~Roger, and Sebastian Bonhoeffer.
+\newblock {The effect of combining antibiotics on resistance : A systematic
+  review and meta-analysis}.
+\newblock \emph{Elife}, 13:\penalty0 1--25, 2024.
+\newblock \doi{10.7554/eLife.93740.1}.
+
+\bibitem[van Duijn et~al.(2018)van Duijn, Verbrugghe, Jorens, Sp{\"{o}}hr,
+  Schedler, Deja, Rothbart, Annane, Lawrence, {Nguyen Van}, Misset, Jereb,
+  Seme, {\v{S}}ifrer, Tomi{\c{c}}, Estevez, Carneiro, Harbarth, Eijkemans,
+  Bonten, Goossens, Malhotra-Kumar, Lammens, Vila, and Roca]{VanDuijn2018}
+Pleun~Joppe van Duijn, Walter Verbrugghe, Philippe~Germaine Jorens, Fabian
+  Sp{\"{o}}hr, Dirk Schedler, Maria Deja, Andreas Rothbart, Djillali Annane,
+  Christine Lawrence, Jean~Claude {Nguyen Van}, Benoit Misset, Matjaz Jereb,
+  Katja Seme, Franc {\v{S}}ifrer, Viktorija Tomi{\c{c}}, Francisco Estevez,
+  Jandira Carneiro, Stephan Harbarth, Marinus Johannes~Cornelis Eijkemans, Marc
+  Bonten, Herman Goossens, Surbhi Malhotra-Kumar, Christine Lammens, Jordi
+  Vila, and Ignaci Roca.
+\newblock {The effects of antibiotic cycling and mixing on antibiotic
+  resistance in intensive care units: a cluster-randomised crossover trial}.
+\newblock \emph{Lancet Infect. Dis.}, 18\penalty0 (4):\penalty0 401--409, 2018.
+\newblock ISSN 14744457.
+\newblock \doi{10.1016/S1473-3099(18)30056-2}.
+
+\bibitem[Uecker and Bonhoeffer(2021)]{Uecker2021}
+Hildegard Uecker and Sebastian Bonhoeffer.
+\newblock {Antibiotic treatment protocols revisited: The challenges of a
+  conclusive assessment by mathematical modelling}.
+\newblock \emph{J. R. Soc. Interface}, 18\penalty0 (181), 2021.
+\newblock ISSN 17425662.
+\newblock \doi{10.1098/rsif.2021.0308}.
+
+\bibitem[Bonhoeffer et~al.(1997)Bonhoeffer, Lipsitch, and
+  Levin]{Bonhoeffer1997}
+Sebastian Bonhoeffer, Marc Lipsitch, and Bruce~R. Levin.
+\newblock {Evaluating treatment protocols to prevent antibiotic resistance}.
+\newblock \emph{Proc. Natl. Acad. Sci. U. S. A.}, 94\penalty0 (22):\penalty0
+  12106--12111, 1997.
+\newblock ISSN 00278424.
+\newblock \doi{10.1073/pnas.94.22.12106}.
+
+\bibitem[Tepekule et~al.(2017)Tepekule, Uecker, Derungs, Frenoy, and
+  Bonhoeffer]{Tepekule2017}
+Burcu Tepekule, Hildegard Uecker, Isabel Derungs, Antoine Frenoy, and Sebastian
+  Bonhoeffer.
+\newblock {Modeling antibiotic treatment in hospitals: A systematic approach
+  shows benefits of combination therapy over cycling, mixing, and mono-drug
+  therapies}.
+\newblock \emph{PLoS Comput. Biol.}, 13\penalty0 (9):\penalty0 1--22, 2017.
+\newblock ISSN 15537358.
+\newblock \doi{10.1371/journal.pcbi.1005745}.
+
+\bibitem[Angst et~al.(2021)Angst, Tepekule, Sun, Bogos, and
+  Bonhoeffer]{Angst2021}
+Daniel~C. Angst, Burcu Tepekule, Lei Sun, Bal{\'{a}}zs Bogos, and Sebastian
+  Bonhoeffer.
+\newblock {Comparing treatment strategies to reduce antibiotic resistance in an
+  in vitro epidemiological setting}.
+\newblock \emph{Proc. Natl. Acad. Sci. U. S. A.}, 118\penalty0 (13):\penalty0
+  1--7, 2021.
+\newblock ISSN 10916490.
+\newblock \doi{10.1073/PNAS.2023467118}.
+
+\bibitem[Huisman et~al.(2022)Huisman, Vaughan, Egli, Tschudin-Sutter, Stadler,
+  and Bonhoeffer]{Huisman2022}
+Jana~S. Huisman, Timothy~G. Vaughan, Adrian Egli, Sarah Tschudin-Sutter, Tanja
+  Stadler, and Sebastian Bonhoeffer.
+\newblock {The effect of sequencing and assembly on the inference of horizontal
+  gene transfer on chromosomal and plasmid phylogenies}.
+\newblock \emph{Philos. Trans. R. Soc. B Biol. Sci.}, 377\penalty0 (1861),
+  2022.
+\newblock ISSN 14712970.
+\newblock \doi{10.1098/rstb.2021.0245}.
+
+\bibitem[Tschudin-Sutter et~al.(2016)Tschudin-Sutter, Frei, Schwahn, Tomic,
+  Conzelmann, Stranden, and Widmer]{Sutter2016}
+Sarah Tschudin-Sutter, Reno Frei, Friedbert Schwahn, Milanka Tomic, Martin
+  Conzelmann, Anne Stranden, and Andreas~F. Widmer.
+\newblock {Prospective validation of cessation of contact precautions for
+  extended-spectrum $\beta$-lactamase-producing Escherichia coli1}.
+\newblock \emph{Emerg. Infect. Dis.}, 22\penalty0 (6):\penalty0 1094--1097,
+  2016.
+\newblock ISSN 10806059.
+\newblock \doi{10.3201/eid2206.150554}.
+
+\bibitem[{European Committee on Antimicrobial Susceptibility Testing
+  (EUCAST)}(2024)]{eucast_disk2024}
+{European Committee on Antimicrobial Susceptibility Testing (EUCAST)}.
+\newblock {Antimicrobial susceptibility testing EUCAST disk diffusion method
+  Version 12.0 January}, 2024.
+
+\bibitem[Hofstetter et~al.(2017)Hofstetter, Salgado-Thalmann, and
+  Bachmann]{BAG2015}
+Kathrin Hofstetter, Edith Salgado-Thalmann, and Marc Bachmann.
+\newblock {Kennzahlen der Schweizer Spit{\"{a}}ler 2015}, 2017.
+
+\bibitem[Headd and Bradford(2018)]{Headd2018}
+Brendan Headd and Scott~A. Bradford.
+\newblock {Physicochemical factors that favor conjugation of an antibiotic
+  resistant plasmid in non-growing bacterial cultures in the absence and
+  presence of antibiotics}.
+\newblock \emph{Front. Microbiol.}, 9:\penalty0 1--14, 2018.
+\newblock ISSN 1664302X.
+\newblock \doi{10.3389/fmicb.2018.02122}.
+
+\bibitem[Feh{\'{e}}r et~al.(2012)Feh{\'{e}}r, Bogos, M{\'{e}}hi, Fekete,
+  Cs{\"{o}}rg, Kov{\'{a}}cs, P{\'{o}}sfai, Papp, Hurst, and
+  P{\'{a}}l]{Feher2012}
+Tam{\'{a}}s Feh{\'{e}}r, Bal{\'{a}}zs Bogos, Orsolya M{\'{e}}hi, Gergely
+  Fekete, B{\'{a}}lint Cs{\"{o}}rg, K{\'{a}}roly Kov{\'{a}}cs, Gy{\"{o}}rgy
+  P{\'{o}}sfai, Bal{\'{a}}zs Papp, Laurence~D. Hurst, and Csaba P{\'{a}}l.
+\newblock {Competition between transposable elements and mutator genes in
+  bacteria}.
+\newblock \emph{Mol. Biol. Evol.}, 29:\penalty0 3153--3159, 2012.
+\newblock ISSN 0737-4038.
+\newblock \doi{10.1093/molbev/mss122}.
+
+\end{thebibliography}
