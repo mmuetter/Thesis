@@ -1,11 +1,11 @@
 # Fdb version 3
-["xdvipdfmx"] 1753253611 "/Users/malte/ETH-Documents/thesis/main_1/build/main.xdv" "/Users/malte/ETH-Documents/thesis/main_1/build/main.pdf" "/Users/malte/ETH-Documents/thesis/main_1/build/main" 1753253612
-  "/Users/malte/ETH-Documents/thesis/main_1/build/main.xdv" 1753253610 435268 9aa261e99ed22ff63ca09d0d8c8a5d6d "xelatex"
+["xdvipdfmx"] 1753332398 "/Users/malte/ETH-Documents/thesis/main_1/build/main.xdv" "/Users/malte/ETH-Documents/thesis/main_1/build/main.pdf" "/Users/malte/ETH-Documents/thesis/main_1/build/main" 1753332399
+  "/Users/malte/ETH-Documents/thesis/main_1/build/main.xdv" 1753332398 435060 445d8d71ac2f85cc1cd7a4cadb5246cd "xelatex"
   (generated)
   "/Users/malte/ETH-Documents/thesis/main_1/build/main.pdf"
-["xelatex"] 1753253608 "/Users/malte/ETH-Documents/thesis/main_1/main.tex" "/Users/malte/ETH-Documents/thesis/main_1/build/main.xdv" "main" 1753253612
-  "/Users/malte/ETH-Documents/thesis/main_1/build/main.aux" 1753253610 15731 7cfeb10b16acb7a2fe5bcf939b70bc73 ""
-  "/Users/malte/ETH-Documents/thesis/main_1/main.tex" 1753253603 2451 9f711abe46bf4388db1416cb61c2fdf0 ""
+["xelatex"] 1753332396 "/Users/malte/ETH-Documents/thesis/main_1/main.tex" "/Users/malte/ETH-Documents/thesis/main_1/build/main.xdv" "main" 1753332399
+  "/Users/malte/ETH-Documents/thesis/main_1/build/main.aux" 1753332398 15840 82dd20569b934e529be76c73e1d22533 ""
+  "/Users/malte/ETH-Documents/thesis/main_1/main.tex" 1753332395 2296 b21c61b084d2325d25da74c3ad965f01 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1246382020 916 f87d7c45f9c908e672703b83b72241a3 ""
@@ -247,21 +247,21 @@
   "main_1/20220412_encounter_frequencies.pdf" 1751928914 26002 80bfd5ae1aa4853399d82b74a7eb667a ""
   "main_1/20220412_f_emergence_anova.pdf" 1751928914 25642 8119144c0b412a0e07794e3e731de84e ""
   "main_1/acknow.tex" 1751963237 383 92563a78e30374d6ea394c76441bcd1b ""
-  "main_1/build/../../main.tex" 1753253591 871 bc2e68591cd3395fb7e09cb962a6b7ec ""
-  "main_1/build/main.aux" 1753253610 15731 7cfeb10b16acb7a2fe5bcf939b70bc73 "xelatex"
+  "main_1/build/../../main.tex" 1753332265 966 20cf30889424190168c549374bd37257 ""
+  "main_1/build/main.aux" 1753332398 15840 82dd20569b934e529be76c73e1d22533 "xelatex"
   "main_1/discussion.tex" 1753239380 6883 4e2bfda40212ed985fe147e3c7df0b4f ""
   "main_1/end_anova.pdf" 1751928914 44739 e42e39598d2bc7c4697adf0cca556f1b ""
   "main_1/introduction.tex" 1753239375 6726 1306bd94ae80f87cd712d6589fb2f311 ""
-  "main_1/main.tex" 1753253603 2451 9f711abe46bf4388db1416cb61c2fdf0 ""
+  "main_1/main.tex" 1753332395 2296 b21c61b084d2325d25da74c3ad965f01 ""
   "main_1/methods.tex" 1753239383 12167 0d9241a349f8cbddc154ee72ae320869 ""
   "main_1/results.tex" 1753239389 18391 edaf94ddcb116cca313519d98c19e983 ""
   "main_1/scen3_paper.pdf" 1751928914 74389 633cdb1fe581eac7898109388cc74225 ""
   "main_1/wins_and_losses_no_preex.pdf" 1751928914 24129 cc7512710a9cf23f3e92ec40680bd602 ""
   "main_1/wins_and_losses_preexisting.pdf" 1751928914 24553 a13b70eebeeea755e1107bc0d0383170 ""
-  "thesis.cls" 1753253090 7255 2f6f68c0f5c9f3476eb1cefd9006368e ""
+  "thesis.cls" 1753326501 8442 627a848491a60b3016e129b1ded7f325 ""
   (generated)
   "/Users/malte/ETH-Documents/thesis/main_1/build/main.log"
   "/Users/malte/ETH-Documents/thesis/main_1/build/main.xdv"
-  "main_1/build/main.aux"
-  "main_1/build/main.xdv"
   "main_1/build/main.log"
+  "main_1/build/main.xdv"
+  "main_1/build/main.aux"

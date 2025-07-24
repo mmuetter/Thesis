@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2021.2.1)  23 JUL 2025 15:54
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2021.2.1)  24 JUL 2025 14:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1386,46 +1386,39 @@ LaTeX Font Warning: Font shape `TU/Optima(1)/m/sc' undefined
 
 
 LaTeX Font Warning: Font shape `TU/utopia/b/n' undefined
-(Font)              using `TU/utopia/m/n' instead on input line 5.
+(Font)              using `TU/utopia/m/n' instead on input line 6.
 
 
-Package natbib Warning: Citation `Kable1980' on page 1 undefined on input line 5.
-
-
-Package natbib Warning: Citation `Delp1980' on page 1 undefined on input line 5.
-
-
-Package natbib Warning: Citation `Skylakakis1981' on page 1 undefined on input line 5.
-
-
-Package natbib Warning: There were undefined citations.
-
-
-LaTeX Font Warning: Font shape `TU/utopia/m/sc' undefined
-(Font)              using `TU/utopia/m/n' instead on input line 20.
+LaTeX Font Warning: Font shape `TU/utopia/m/it' undefined
+(Font)              using `TU/utopia/m/n' instead on input line 19.
 
 [1
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 20.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 20.
+
+LaTeX Font Warning: Font shape `TU/utopia/m/sl' undefined
+(Font)              using `TU/utopia/m/it' instead on input line 27.
+
+[2]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 27.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 27.
  (/Users/malte/ETH-Documents/thesis/chapter_1/build/main.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 20.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 20.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 27.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 27.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 20.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 27.
  ) 
 Here is how much of TeX's memory you used:
- 36172 strings out of 479418
- 703887 string characters out of 5884586
- 1048141 words of memory out of 5000000
- 53013 multiletter control sequences out of 15000+600000
- 563261 words of font info for 79 fonts, out of 8000000 for 9000
+ 36173 strings out of 479418
+ 703762 string characters out of 5884586
+ 1050241 words of memory out of 5000000
+ 53018 multiletter control sequences out of 15000+600000
+ 563237 words of font info for 76 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 82i,12n,117p,537b,792s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 82i,11n,117p,537b,792s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on /Users/malte/ETH-Documents/thesis/chapter_1/build/main.xdv (1 page, 3940 bytes).
+Output written on /Users/malte/ETH-Documents/thesis/chapter_1/build/main.xdv (2 pages, 26092 bytes).

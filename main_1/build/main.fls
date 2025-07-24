@@ -402,9 +402,9 @@ INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/lm/ot1lmtt.fd
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/lm/rm-lmtt10.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/lm/rm-lmtt8.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/lm/rm-lmtt8.tfm
+INPUT main_1/introduction.tex
+INPUT main_1/introduction.tex
 OUTPUT /Users/malte/ETH-Documents/thesis/main_1/build/main.xdv
-INPUT main_1/introduction.tex
-INPUT main_1/introduction.tex
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/lm/rm-lmr9.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/lm/rm-lmr6.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/lm/lmmi9.tfm

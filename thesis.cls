@@ -12,6 +12,8 @@
 %----------------------------------------------------------
 \RequirePackage[utf8]{inputenc}
 \RequirePackage[french,ngerman,english]{babel}
+% Ensure Utopia font and small caps support
+\RequirePackage{fourier}
 
 %----------------------------------------------------------
 % Fonts
@@ -107,11 +109,11 @@
 %----------------------------------------------------------
 % Section titles
 %----------------------------------------------------------
-\setsecheadstyle{\bfseries\Large\chaptitleoptima}
-\setsubsecheadstyle{\bfseries\large\chaptitleoptima}
-\setsubsubsecheadstyle{\bfseries\normalsize\chaptitleoptima}
+\setsecheadstyle{\large\chaptitleoptima}
+\setsubsecheadstyle{\itseries\normalsize\chaptitleoptima}
 \setparaheadstyle{\bfseries\normalsize\chaptitleoptima}
-\setsubparaheadstyle{\bfseries\normalsize\chaptitleoptima}
+\setbeforesecskip{3ex}  % increased space before section title
+\setaftersecskip{0.01ex} 
 
 %----------------------------------------------------------
 % Captions
@@ -160,6 +162,8 @@
 \copypagestyle{pst_e}{ruled}
 \makeevenhead{pst_e}{\footnotesize\hspace{-3.5em}\scshape\leftmark}{}{}
 \makeoddhead{pst_e}{}{}{\footnotesize\scshape\rightmark}
+\setlength{\headsep}{30pt}         % increase space between top of text and header
+\setlength{\headheight}{16pt}      % ensure enough vertical space for header
 \makeevenfoot{pst_e}{\footnotesize\thepage}{}{}
 \makeoddfoot{pst_e}{}{}{\footnotesize\thepage}
 \aliaspagestyle{plain}{empty}
