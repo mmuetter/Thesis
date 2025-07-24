@@ -52,6 +52,20 @@
 \RequirePackage{bookmark,hyperref}
 \RequirePackage{etoolbox}
 
+
+%----------------------------------------------------------
+% Summay spacing using memoir’s own commands
+%----------------------------------------------------------
+\newenvironment{summaryspacing}{%
+  \begingroup
+    \SingleSpacing  % switch to single spacing
+}{%
+  \endgroup
+}
+
+
+
+
 %----------------------------------------------------------
 % Hyperref setup
 %----------------------------------------------------------
@@ -61,24 +75,34 @@
 % Chapter style
 %----------------------------------------------------------
 \makechapterstyle{fancyblock}{%
+  % *** add these three lines to reduce the big top gap ***
+  \setlength{\beforechapskip}{1em}    % space before the chapter title block
+  \setlength{\midchapskip}{0.5em}     % space between number & title
+  \setlength{\afterchapskip}{0.3em}   % space after the rule under title
+
   \renewcommand{\chapnamefont}{}
-  \renewcommand{\chapnumfont}{\chapnumfontsf\color{dark_blue!60}\fontsize{60}{60}\selectfont}
-  \renewcommand{\chaptitlefont}{\chaptitleoptima\LARGE\scshape\MakeUppercase}
+  \renewcommand{\chapnumfont}{%
+    \chapnumfontsf\color{dark_blue!60}\fontsize{60}{60}\selectfont%
+  }
+  \renewcommand{\chaptitlefont}{%
+    \chaptitleoptima\LARGE\scshape\MakeUppercase%
+  }
   \renewcommand{\printchaptername}{}
   \renewcommand{\printchapternum}{%
     \hfill\makebox[0pt][r]{\chapnumfont\thechapter}%
-    \vspace*{-4em}%
+    \vspace*{-4em}% you can also reduce this if needed
   }
-  \renewcommand{\afterchapternum}{\par\vspace{3em}}
+  \renewcommand{\afterchapternum}{\par}% not adding extra vspace here
   \renewcommand{\printchaptertitle}[1]{%
     \begin{flushleft}%
       \chaptitlefont ##1\\[0.5ex]
       \rule{\textwidth}{0.4pt}%
     \end{flushleft}%
-    \vspace{1em}%
+    %\vspace{0.3em}% already set by \afterchapskip above
   }
 }
 \chapterstyle{fancyblock}
+
 
 %----------------------------------------------------------
 % Section titles
@@ -138,7 +162,7 @@
 \makeoddhead{pst_e}{}{}{\footnotesize\scshape\rightmark}
 \makeevenfoot{pst_e}{\footnotesize\thepage}{}{}
 \makeoddfoot{pst_e}{}{}{\footnotesize\thepage}
-\aliaspagestyle{plain}{pst_e}
+\aliaspagestyle{plain}{empty}
 
 \makepsmarks{pst_e}{%
   \createmark{chapter}{both}{shownumber}{}{.\ }%

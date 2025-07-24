@@ -287,8 +287,8 @@ INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/subfiles/subfiles.sty
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/subfiles/subfiles.sty
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/natbib/natbib.sty
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/natbib/natbib.sty
-INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/cite/chapterbib.sty
-INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/cite/chapterbib.sty
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/bibunits/bibunits.sty
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/bibunits/bibunits.sty
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/bookmark/bookmark.sty
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/bookmark/bookmark.sty
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/hyperref.sty
@@ -341,6 +341,14 @@ INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/bookmark/bkm-dvipdfm.def
 INPUT /usr/local/texlive/2020/texmf-dist/tex/generic/stringenc/se-ascii-print.def
 INPUT /usr/local/texlive/2020/texmf-dist/tex/generic/stringenc/se-ascii-print.def
 INPUT /usr/local/texlive/2020/texmf-dist/tex/generic/stringenc/se-ascii-print.def
+INPUT main.aux
+INPUT main.aux
+INPUT front_matter/0_titlepage.aux
+INPUT front_matter/0_titlepage.aux
+INPUT front_matter/1a_Summary_EN.aux
+INPUT front_matter/1a_Summary_EN.aux
+INPUT front_matter/1b_Summary_DE.aux
+INPUT front_matter/1b_Summary_DE.aux
 OUTPUT /Users/malte/ETH-Documents/thesis/front_matter/build/main.aux
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/base/ts1cmr.fd
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/base/ts1cmr.fd

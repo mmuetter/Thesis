@@ -5,8 +5,57 @@
 \contentsline {section}{\numberline {1.1}treatment strategies}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}drug interactions}{1}{section.1.2}%
 \contentsline {section}{\numberline {1.3}quantifying population dynamics}{1}{section.1.3}%
-\contentsline {subsection}{pharmacodynamics}{1}{section*.4}%
-\contentsline {subsection}{luminescence}{1}{section*.5}%
-\contentsline {chapter}{\chapternumberline {2}MSB paper}{5}{chapter.2}%
-\contentsline {chapter}{\chapternumberline {3}Combination Paper}{7}{chapter.3}%
-\contentsline {chapter}{\chapternumberline {4}Concluding Remarks}{9}{chapter.4}%
+\contentsline {subsection}{pharmacodynamics}{1}{section*.5}%
+\contentsline {subsection}{luminescence}{1}{section*.6}%
+\contentsline {chapter}{\chapternumberline {2}The Impact of Treatment Strategies on the Epidemiological Dynamics of Plasmid-Conferred Antibiotic Resistance}{5}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Introduction}{5}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Results}{8}{section.2.2}%
+\contentsline {paragraph}{Multidrug strategies keep the overall number of infections lowest and best suppress single resistance.}{8}{section*.10}%
+\contentsline {paragraph}{All treatment strategies fail to contain pre-existing double resistance.}{11}{section*.12}%
+\contentsline {paragraph}{Treatment strategies affect the emergence of double resistance.}{11}{section*.13}%
+\contentsline {paragraph}{Combination therapy suppresses the emergence of double resistance by preventing superinfections.}{12}{section*.14}%
+\contentsline {paragraph}{Treatment strategies influence the emergence of double resistance within superinfected wells.}{12}{section*.15}%
+\contentsline {paragraph}{Computational model corroborates the robustness of experimental outcomes.}{13}{section*.17}%
+\contentsline {paragraph}{\textit {In silico} sensitivity analysis indicates that the superiority of combination therapy is robust.}{14}{section*.18}%
+\contentsline {section}{\numberline {2.3}Discussion}{15}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Methods}{19}{section.2.4}%
+\contentsline {paragraph}{Drugs and Media.}{19}{section*.20}%
+\contentsline {paragraph}{Strains and Plasmids.}{19}{section*.21}%
+\contentsline {paragraph}{Treatment arms.}{19}{section*.22}%
+\contentsline {paragraph}{Assay plates.}{19}{section*.23}%
+\contentsline {paragraph}{Experimental procedure. }{20}{section*.24}%
+\contentsline {paragraph}{Turnover.}{20}{section*.25}%
+\contentsline {paragraph}{Infections.}{20}{section*.26}%
+\contentsline {paragraph}{Resistance Profiles.}{21}{section*.27}%
+\contentsline {paragraph}{Scenarios.}{21}{section*.28}%
+\contentsline {paragraph}{Instruction Sets.}{22}{section*.29}%
+\contentsline {paragraph}{Computational Model.}{22}{section*.30}%
+\contentsline {paragraph}{\textit {In Silico} Sensitivity Analysis.}{23}{section*.31}%
+\contentsline {paragraph}{Data Availability}{23}{section*.32}%
+\contentsline {section}{\numberline {2.5}Supplementary Information}{27}{section.2.5}%
+\contentsline {subsection}{SI Methods}{27}{section*.35}%
+\contentsline {paragraph}{Strains}{27}{section*.36}%
+\contentsline {paragraph}{Drugs.}{27}{section*.37}%
+\contentsline {paragraph}{Conjugation Protocol.}{28}{section*.38}%
+\contentsline {paragraph}{Plasmid costs}{28}{section*.39}%
+\contentsline {paragraph}{Segregational Loss}{28}{section*.40}%
+\contentsline {paragraph}{Growth rates and bacterial density.}{29}{section*.41}%
+\contentsline {paragraph}{Basic Reproductive Number.}{29}{section*.42}%
+\contentsline {paragraph}{Phenotyping -- Limitations. }{30}{section*.43}%
+\contentsline {paragraph}{Advanced Resistance Profiles}{31}{section*.44}%
+\contentsline {paragraph}{Statistical Analysis. }{31}{section*.45}%
+\contentsline {paragraph}{\textit {Maximum-emergence}~scenario: Predicting the Emergence Probability.}{32}{section*.46}%
+\contentsline {subsection}{SI Results}{33}{section*.47}%
+\contentsline {paragraph}{Impact of Treatment on the Emergence of Double Resistance.}{33}{section*.48}%
+\contentsline {paragraph}{Treatment strategies influence the number of bacteria inoculating superinfections. }{34}{section*.49}%
+\contentsline {paragraph}{Antagonism.}{34}{section*.50}%
+\contentsline {subsection}{SI Computational Model}{35}{section*.51}%
+\contentsline {paragraph}{Stochasticity}{35}{section*.52}%
+\contentsline {paragraph}{Transition Probabilities.}{35}{section*.53}%
+\contentsline {paragraph}{Transition Probabilities for Transfer 1.}{36}{section*.54}%
+\contentsline {paragraph}{Choice of Model.}{36}{section*.55}%
+\contentsline {paragraph}{Contamination of the Transition Matrix. }{36}{section*.56}%
+\contentsline {paragraph}{Filtered Transition Probabilities.}{37}{section*.57}%
+\contentsline {chapter}{\chapternumberline {3}MSB paper}{65}{chapter.3}%
+\contentsline {chapter}{\chapternumberline {4}Combination Paper}{67}{chapter.4}%
+\contentsline {chapter}{\chapternumberline {5}Concluding Remarks}{69}{chapter.5}%

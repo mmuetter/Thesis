@@ -8,33 +8,36 @@
 
 \begin{document}
 
+\frontmatter
 
-	\frontmatter
-
-  \subfile{front_matter/main.tex}
-
+\subfile{front_matter/main.tex}
+\begin{summaryspacing}
   \tableofcontents*
-  % %%%%%%%%%%%%%%%%%%%
-  
-  
-  % %%%%%%%%%%%%%%%%%%%
-  % CHAPTER 1 - INTRODUCTION
-  \mainmatter
-  \subunit[chapter_1/thesis]{chapter_1/main}
+\end{summaryspacing}
 
-  % %%%%%%%%%%%%%%%%%%%
-  % Chapter 2 - PNAS paper
-%  \subunit[main_1/TSPlasmid]{main_1/main.tex}  
-%  \subunit[supplementary_1/TSPlasmid]{supplementary_1/main.tex}
+% %%%%%%%%%%%%%%%%%%%
 
-  % %%%%%%%%%%%%%%%%%%%
-  % Chapter 3 - Supplementary Information
-  \chapter{MSB paper}
+% %%%%%%%%%%%%%%%%%%%
+% CHAPTER 1 - INTRODUCTION
+\mainmatter
+\subunit[chapter_1/thesis]{chapter_1/main}
 
-  % %%%%%%%%%%%%%%%%%%%
-  \chapter{Combination Paper}
+% %%%%%%%%%%%%%%%%%%%
+% Chapter 2 - PNAS paper
+\subunit[main_1/TSPlasmid]{main_1/main.tex}
+\subunit[supplementary_1/TSPlasmid]{supplementary_1/main.tex}
 
-  % %%%%%%%%%%%%%%%%%%%
-  \chapter{Concluding Remarks}
+% %%%%%%%%%%%%%%%%%%%
+% Chapter 3 - Supplementary Information
+\chapter{MSB paper}
+Some text here
+
+% %%%%%%%%%%%%%%%%%%%
+\chapter{Combination Paper}
+some text here
+
+% %%%%%%%%%%%%%%%%%%%
+\chapter{Concluding Remarks}
+some text here
 
 \end{document}
