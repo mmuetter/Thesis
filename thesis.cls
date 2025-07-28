@@ -110,7 +110,7 @@
 % Section titles
 %----------------------------------------------------------
 \setsecheadstyle{\large\chaptitleoptima}
-\setsubsecheadstyle{\itseries\normalsize\chaptitleoptima}
+\setsubsecheadstyle{\normalsize\chaptitleoptima}
 \setparaheadstyle{\bfseries\normalsize\chaptitleoptima}
 \setbeforesecskip{3ex}  % increased space before section title
 \setaftersecskip{0.01ex} 

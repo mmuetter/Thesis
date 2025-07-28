@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2021.2.1)  24 JUL 2025 18:20
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2021.2.1)  28 JUL 2025 21:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1586,7 +1586,7 @@ LaTeX Font Warning: Font shape `TU/Optima(1)/m/sc' undefined
 
 
 ]) (/Users/malte/ETH-Documents/thesis/build/main.toc)
-Underfull \vbox (badness 6173) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [5]
 
@@ -1603,41 +1603,41 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 
 
-Package natbib Warning: Citation `Frost2005' on page 1 undefined on input line 16.
+Package natbib Warning: Citation `Hawkey2008' on page 1 undefined on input line 7.
 
 
-Package natbib Warning: Citation `Smillie2010' on page 1 undefined on input line 16.
+Package natbib Warning: Citation `Frost2005' on page 1 undefined on input line 14.
 
 
-Package natbib Warning: Citation `Regoes2004' on page 1 undefined on input line 20.
+Package natbib Warning: Citation `Smillie2010' on page 1 undefined on input line 14.
 
 
-Package natbib Warning: Citation `...' on page 1 undefined on input line 25.
+Package natbib Warning: Citation `Gregory2018' on page 1 undefined on input line 20.
 
-
-Underfull \vbox (badness 2005) has occurred while \output is active []
-
- [1
+[1
 
 
 ]
 
+Package natbib Warning: Citation `Leekha2011' on page 2 undefined on input line 27.
+
+
+Package natbib Warning: Citation `...' on page 2 undefined on input line 34.
+
+
 LaTeX Font Warning: Font shape `TU/utopia/m/it' undefined
-(Font)              using `TU/utopia/m/n' instead on input line 32.
+(Font)              using `TU/utopia/m/n' instead on input line 37.
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [2]
-Overfull \hbox (17.92632pt too wide) in paragraph at lines 42--45
+[2]
+Overfull \hbox (17.92632pt too wide) in paragraph at lines 50--53
 \TU/utopia/m/it/10 compatibility-tested plasmids—originally isolated from hospital patients in a previous study []Tschudin-
  []
 
 
-Package natbib Warning: Citation `...' on page 3 undefined on input line 50.
+Package natbib Warning: Citation `...' on page 3 undefined on input line 58.
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 2680) has occurred while \output is active []
 
  [3]) (/Users/malte/ETH-Documents/thesis/build/bu1.bbl [4]
 Package microtype Info: Loading generic protrusion settings for font family
@@ -1949,12 +1949,12 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 51.
  ) 
 Here is how much of TeX's memory you used:
- 36916 strings out of 479418
- 716558 string characters out of 5884586
- 1114542 words of memory out of 5000000
- 53674 multiletter control sequences out of 15000+600000
+ 36920 strings out of 479418
+ 716658 string characters out of 5884586
+ 1114598 words of memory out of 5000000
+ 53678 multiletter control sequences out of 15000+600000
  584554 words of font info for 102 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 70i,15n,104p,5200b,1058s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 70i,15n,104p,5156b,1058s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on /Users/malte/ETH-Documents/thesis/build/main.xdv (47 pages, 824004 bytes).
+Output written on /Users/malte/ETH-Documents/thesis/build/main.xdv (47 pages, 837524 bytes).

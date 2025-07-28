@@ -4,38 +4,46 @@
 
 \begin{document}
 \chapter{introduction}
+Antibiotics have nearly eliminated premature death from bacterial infections in most parts of the developed world, to the extent that effective treatment is now often taken for granted~\cite{Hawkey2008}.
+The threat to this achievement posed by antibiotic resistance was recognized early, for instance by Kirby (1944), and explicitly highlighted by Alexander Fleming in his 1945 Nobel Prize speech.
+Today, this threat has materialized: antimicrobial resistance (AMR) contributed to an estimated 4.71 million deaths in 2021, with 1.14 million deaths directly attributable to resistant infections~\cite{Naghavi2024}.
+The possibility of returning to a world where antibiotics are largely ineffective underscores the importance of understanding the ecological and evolutionary forces shaping AMR.
 
-\section{Antibiotics and Evolution}
-Antibiotics are among the most important achievements of modern medicine and save countless lives every day.
-This success is increasingly threatened by the global rise of antimicrobial resistance (AMR), which contributed to an estimated 4.71 million deaths in 2021, with 1.14 million deaths directly attributable to resistant infections~\cite{Naghavi2024}.
-The rise of AMR is a consequence of bacterial resistance evolution.
-Resistance genes arise de novo through mutations, either on the chromosome or on mobile genetic elements.
-Once established, these genes can spread vertically—i.e., passed from a mother cell to its offspring during cell division—or horizontally, whereby previously susceptible cells acquire resistance by taking up foreign DNA.
-A key vehicle of horizontal gene transfer are plasmids, small circular DNA elements that replicate independently of the chromosome.
-Some plasmids are conjugative, meaning they can transfer between bacterial cells via a pilus, a physical tunnel formed during conjugation.
-This process enables gene exchange across lineages and even species boundaries~\cite{Frost2005, Smillie2010}.
+Evolution of antibiotic resistance is driven by two key processes: mutation and selection. Resistance genes arise de novo through mutations, occurring either on bacterial chromosomes or on extrachromosomal mobile genetic elements that replicate independently, such as plasmids (small circular DNA molecules) or bacteriophages (viruses targeting bacteria). Once established, these genes can spread vertically—passed from a mother cell to its offspring during cell division—or horizontally, whereby previously susceptible cells acquire resistance by taking up foreign DNA, e.g. via plasmid conjugation.
+While some plasmids are transmitted only vertically, others can transfer horizontally between bacterial cells via conjugation. During conjugation, plasmids initiate the formation of a pilus, a physical tunnel connecting cells, allowing DNA transfer.
+This mechanism facilitates gene exchange across bacterial lineages and even species boundaries~\cite{Frost2005, Smillie2010}.
 
-If the emerged resistance genes can persist in the population, depends on if the resistance is selcted for.
-Selection is shaped not only by the administered drugs and their concentration, but also by the pharmacodynamics, which define the relationship between drug concentration and the effect on bacterial population dynamics.
-While pharmacokinetics (PK) describes the temporal dynamics of drug concentrations in the host, pharmacodynamics (PD) links these concentrations to their effects on bacterial populations \cite{Regoes2004}.
-PD curves, often derived from controlled time-kill or luminescence assays, quantify this concentration–effect relationship and serve as a cornerstone for PK–PD modelling frameworks in infectious disease dynamics.
-To better understand the mechanistic underpinnings of these treatment outcomes, we next investigate how antibiotics interact at the population level using pharmacodynamic assays.
+Whether these emerged resistance genes can persist depends on selection.
+Selection is shaped by the interplay between (i) pharmacokinetics (PK), which describes how drug concentrations change over time within the host, and (ii) pharmacodynamics (PD), which describes how these concentrations influence bacterial population dynamics~\cite{Regoes2004}.
 
-\section{Treatment Strategies and Combination Therapy}
-Given the growing threat of antibiotic resistance, the ideal scenario is to tailor antimicrobial treatment based on the resistance phenotype of the infecting pathogen. However, in clinical practice this is often not feasible for several reasons: (i) in emergency settings, sometimes immediate treatment is required, leaving no time for diagnostics; (ii) resistance may exist below the detection threshold, rendering diagnostics inconclusive; (iii) in clinical practice, combination regimens can be curtailed or switched because of additive toxicity or other side‑effects, which are mostly not considered in the modeling literature \cite{...}, (iv) in prophylactic contexts, such as surgery or treatment of immunocompromised patients, antibiotics are prescribed preemptively without targeting a pathogen-specific.
+Each use of antibiotics imposes selective pressure on microbial populations, which can favor the emergence or spread of resistant variants.
+This is consistent with the widely accepted view that antibiotic use is the main driver of resistance evolution~\cite{Gregory2018}.
+However, because infections can be life-threatening, antibiotic use is often unavoidable, creating a trade-off between effective treatment and the risk of selecting for resistant bacteria.
+
+This raises the fundamental question of how to best use antibiotics to treat infections; with and without knowledge about the phenotypic properties of the infecting pathogen.
+
+\subsection{Treatment Strategies and Combination Therapy}
+In an ideal scenario, the treatment of infections is tailored to the resistance phenotype of the infecting pathogen.
+However, in clinical practice this is often not feasible: in emergency settings, immediate treatment is required and microbiological characterisation typically takes 24 to 72 hours~\cite{Leekha2011}; resistance may exist below detection thresholds, rendering diagnostics inconclusive; and in prophylactic contexts such as surgery or treatment of immunocompromised patients, antibiotics are often prescribed preemptively.
 
 In such cases of limited information, clinicians rely on empirical treatment strategies that aim to minimize the risk of selecting for resistance.
-
 Commonly discussed approaches include combination therapy (simultaneous use of multiple antibiotics), mixing (random patient allocation to different antibiotics), and cycling (periodic rotation of antibiotics over time).
+Among these, combination therapy, which was first introduced in agriculture to prevent resistance in plant pathogens~\cite{Kable1980, Delp1980, Skylakakis1981} is often considered the most promising strategy in theoretical models~\cite{Bonhoeffer1997, Tepekule2017,Uecker2021}.
 
-Among these, combination therapy --- first introduced in agriculture to prevent resistance in plant pathogens~\cite{Kable1980, Delp1980, Skylakakis1981} --- is often considered the most promising strategy in theoretical models~\cite{Bonhoeffer1997, Tepekule2017,Uecker2021}.
-It also plays a central role in clinical protocols for rapidly evolving pathogens such as \textit{HIV}, \textit{Mycobacterium tuberculosis}, and \textit{Plasmodium falciparum}~\cite{Goldberg2012}.
+However, concerns persist.
+One major concern is that combination therapy might accelerate the selection for resistance, given the observed correlation between overall antibiotic consumption and resistance [gregory], not only regarding the targeted pathogen but also for the microbiome~\cite{...}.
+Furthermore, combining antibiotics may impose a higher burden on patients, for example through an increased risk of toxicity~\cite{Tamma2012}.
 
+In the clinical context combination therapy plays a central role in clinical protocols for rapidly evolving pathogens such as \textit{HIV}, \textit{Mycobacterium tuberculosis}, and \textit{Plasmodium falciparum}~\cite{Goldberg2012}.
 Nonetheless, the clinical evidence remains inconclusive.
 A recent meta-analysis found no consistent advantage of combination therapy in preventing resistance across bacterial infections~\cite{siedentop_metaanalysis_2024}.
-This discrepancy may arise from several factors: (i) clinical studies are typically not designed to specifically assess resistance outcomes and may thus be underpowered for this purpose~\cite{siedentop_metaanalysis_2024}; (ii) theoretical models often oversimplify treatment dynamics and neglect key biological complexities~\cite{Uecker2021}; (iii) clinical trials may exclude critical pathogens for ethical reasons, such as when omitting combination therapy would pose undue risk; (iv) the effect of drug interactions, which can shape both treatment efficacy and resistance selection, which might increase the variance of the outcomes.
+The discrepancy between theoretical predictions and inconclusive clinical outcomes can stem both from limitations in modelling or clinical study design.
+On the theoretical side, models often rely on simplifying assumptions and may overlook important biological complexities, such as heterogeneity in patients, pathogens, and treatment responses.
+On the clinical side, most trials are not designed to detect resistance outcomes and are therefore underpowered for this purpose~\cite{siedentop_metaanalysis_2024}.
+Additional variability arises from differences in study design, pathogens, treatment regimens, and clinical endpoints.
+Moreover, the choice of antibiotic combination itself can increase or decrease treatment success, further contributing to outcome variability.
 
-To bridge the gap between theoretical models and clinical studies, Angst et al.~\cite{Angst2021} developed an \textit{in vitro} experimental system that mimics the epidemiological dynamics of hospital wards under different treatment strategies.
+To bridge the gap between theoretical models and clinical studies, Angst et al.~\cite{Angst2021} developed an \textit{in vitro} experimental setup that mimics the epidemiological dynamics of hospital wards under different treatment strategies.
 They compared the effects of combination therapy, mixing, cycling, monotherapy, and no treatment (control) on the evolution of chromosomal resistance to streptomycin and nalidixic acid in \textit{Escherichia coli}.
 Their results showed that combination therapy was the most effective in preventing resistance evolution, while mixing and cycling were less effective, but still outperformed monotherapy in most cases.
 
@@ -43,7 +51,7 @@ In Chapter~2, we refined this experimental framework to study the dynamics of pl
 Specifically, we used two conjugative, compatibility-tested plasmids—originally isolated from hospital patients in a previous study~\cite{Sutter2016} --- that confer resistance to ceftazidime and tetracycline, respectively.
 Our results confirmed that combination therapy remains the most effective strategy even for plasmid-borne resistance, with mixing and cycling again performing better than monotherapy in most scenarios.
 
-\section{Population Dynamics under Combination Therapy}
+\subsection{Population Dynamics under Combination Therapy}
 To better understand the potential of combination therapy, a deeper insight into drug interactions is needed.
 Drug interaction studies evaluate how the combined effect of two antibiotics compares to a predicted neutral effect derived from their individual actions.
 Two classical null models are typically used for this purpose: the Loewe additivity model~\cite{Loewe1926} and the Bliss independence model~\cite{Bliss1939}.
@@ -56,14 +64,20 @@ Below the MIC, bacterial growth is typically quantified using optical density (O
 However, OD does not distinguish between live and dead cells, making it unreliable for estimating net growth rates above the MIC.
 At super-MIC concentrations, colony-forming unit (CFU) assays remain the gold standard, but they are labor-intensive, costly, and can become unreliable at high drug levels.
 
-To address this limitation, we evaluated in Chapter3 whether luminescence assays\cite{Kishony2003}, commonly used to measure growth below the MIC, remain reliable in the super-MIC range.
+To address this limitation, we evaluated in Chapter~3 whether luminescence assays\cite{Kishony2003}, commonly used to measure growth below the MIC, remain reliable in the super-MIC range.
 The key assumptions for this method are: (i) light intensity is proportional to the number of living bacteria, and (ii) this proportionality remains stable over time.
 While (i) holds as long as bacterial density remains low enough to prevent overshadowing and the measurement setup is consistent, (ii) depends on the stability of the specific luminosity---the average light emitted per cell.
 To improve stability, we integrated the \textit{lux} operon from the pCS-$\lambda$ plasmid into the bacterial chromosome, thereby minimizing copy number effects that could alter cell-specific luminosity.
 We found that for antibiotics that do not induce strong filamentation, specific luminosity remains approximately constant, enabling a reliable approximation of net growth rates in the super-MIC range.
 
-Using this method, Chapter4 explores the pharmacodynamics of drug interactions among six antibiotics: amoxicillin, colistin, chloramphenicol, fosfomycin, polymyxinB, and tetracycline.
+Using this method, Chapter~4 explores the pharmacodynamics of drug interactions among six antibiotics: amoxicillin, colistin, chloramphenicol, fosfomycin, polymyxinB, and tetracycline.
 In total, we measured interactions for 2160 drug-combination-concentration pairs.
 We extended the standard pharmacodynamic formalism to describe combination treatments using polar coordinates and compared the resulting curves to predictions from the Loewe additivity and Bliss independence models.
+
+\section{Thesis outline}
+
+%With this work, I hope to contribute to a better understanding of the pharmacodynamics of drug interactions; and thereby provide the basis for better models and better informed decision making.
+%However, we should never forget that models are only simplifications of reality and there is no doubt that the complexities of nature leave enough room for discrovery to further advance the knowledge.
+%I see my work; not as a specific instruction manual for clinicians, but hope that the abstraction, and formalizations I provided may be useful to others.
 
 \end{document}

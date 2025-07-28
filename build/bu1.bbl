@@ -1,4 +1,4 @@
-\begin{thebibliography}{15}
+\begin{thebibliography}{17}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -218,6 +218,17 @@ Mohsen Naghavi, Stein~Emil Vollset, Kevin~S. Ikuta, Lucien~R. Swetschinski,
   https://www.thelancet.com/action/showAbstract?pii=S0140673624018671
   https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(24)01867-1/abstract}.
 
+\bibitem[Regoes et~al.(2004)Regoes, Wiuff, Zappala, Garner, Baquero, and
+  Levin]{Regoes2004}
+Roland~R. Regoes, Camilla Wiuff, Renata~M. Zappala, Kim~N. Garner, Fernando
+  Baquero, and Bruce~R. Levin.
+\newblock {Pharmacodynamic functions: A multiparameter approach to the design
+  of antibiotic treatment regimens}.
+\newblock \emph{Antimicrob. Agents Chemother.}, 48\penalty0 (10):\penalty0
+  3670--3676, 2004.
+\newblock ISSN 00664804.
+\newblock \doi{10.1128/AAC.48.10.3670-3676.2004}.
+
 \bibitem[Kable and Jeffery(1980)]{Kable1980}
 P.~F. Kable and H.~Jeffery.
 \newblock {Selection for Tolerance in Organisms Exposed to Sprays of Biocide
@@ -267,6 +278,15 @@ Hildegard Uecker and Sebastian Bonhoeffer.
 \newblock \emph{J. R. Soc. Interface}, 18\penalty0 (181), 2021.
 \newblock ISSN 17425662.
 \newblock \doi{10.1098/rsif.2021.0308}.
+
+\bibitem[Tamma et~al.(2012)Tamma, Cosgrove, and Maragakis]{Tamma2012}
+Pranita~D. Tamma, Sara~E. Cosgrove, and Lisa~L. Maragakis.
+\newblock {Combination therapy for treatment of infections with gram-negative
+  bacteria}.
+\newblock \emph{Clin. Microbiol. Rev.}, 25\penalty0 (3):\penalty0 450--470,
+  2012.
+\newblock ISSN 08938512.
+\newblock \doi{10.1128/CMR.05041-11}.
 
 \bibitem[Goldberg et~al.(2012)Goldberg, Siliciano, and Jacobs]{Goldberg2012}
 Daniel~E. Goldberg, Robert~F. Siliciano, and William~R. Jacobs.
