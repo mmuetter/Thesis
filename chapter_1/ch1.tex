@@ -21,6 +21,8 @@ This is consistent with the widely accepted view that antibiotic use is the main
 However, because infections can be life-threatening, antibiotic use is often unavoidable, creating a trade-off between effective treatment and the risk of selecting for resistant bacteria.
 
 This raises the fundamental question of how to best use antibiotics to treat infections; with and without knowledge about the phenotypic properties of the infecting pathogen.
+Furthermore, this question arises at multiple biological scales: within individual hosts, where antibiotic concentrations and bacterial populations interact dynamically; and between hosts, where treatment strategies influence the transmission and spread of resistance at the population level.
+Both scales are relevant for evaluating the effectiveness and evolutionary consequences of antibiotic use.
 
 \subsection{Treatment Strategies and Combination Therapy}
 In an ideal scenario, the treatment of infections is tailored to the resistance phenotype of the infecting pathogen.
@@ -43,12 +45,12 @@ On the clinical side, most trials are not designed to detect resistance outcomes
 Additional variability arises from differences in study design, pathogens, treatment regimens, and clinical endpoints.
 Moreover, the choice of antibiotic combination itself can increase or decrease treatment success, further contributing to outcome variability.
 
-To bridge the gap between theoretical models and clinical studies, Angst et al.~\cite{Angst2021} developed an \textit{in vitro} experimental setup that mimics the epidemiological dynamics of hospital wards under different treatment strategies.
+To bridge the gap between theoretical models and clinical studies, Angst et al.~\cite{Angst2021} developed an \textit{in vitro} experimental setup mimicking within- and between-host dynamics under different treatment strategies, and showing that combination therapy typically best prevents resistance emergence best.
+
 They compared the effects of combination therapy, mixing, cycling, monotherapy, and no treatment (control) on the evolution of chromosomal resistance to streptomycin and nalidixic acid in \textit{Escherichia coli}.
 Their results showed that combination therapy was the most effective in preventing resistance evolution, while mixing and cycling were less effective, but still outperformed monotherapy in most cases.
 
-In Chapter~2, we refined this experimental framework to study the dynamics of plasmid-mediated resistance evolution under similar clinical conditions.
-Specifically, we used two conjugative, compatibility-tested plasmids—originally isolated from hospital patients in a previous study~\cite{Sutter2016} --- that confer resistance to ceftazidime and tetracycline, respectively.
+In Chapter~2, we refine this framework to study plasmid-mediated resistance, confirming that combination therapy generally outperforms other strategies, but also uncovering conditions under which mixing, cycling, or monotherapy perform equally well or better.
 Our results confirmed that combination therapy remains the most effective strategy even for plasmid-borne resistance, with mixing and cycling again performing better than monotherapy in most scenarios.
 
 \subsection{Population Dynamics under Combination Therapy}
@@ -64,17 +66,35 @@ Below the MIC, bacterial growth is typically quantified using optical density (O
 However, OD does not distinguish between live and dead cells, making it unreliable for estimating net growth rates above the MIC.
 At super-MIC concentrations, colony-forming unit (CFU) assays remain the gold standard, but they are labor-intensive, costly, and can become unreliable at high drug levels.
 
-To address this limitation, we evaluated in Chapter~3 whether luminescence assays\cite{Kishony2003}, commonly used to measure growth below the MIC, remain reliable in the super-MIC range.
-The key assumptions for this method are: (i) light intensity is proportional to the number of living bacteria, and (ii) this proportionality remains stable over time.
-While (i) holds as long as bacterial density remains low enough to prevent overshadowing and the measurement setup is consistent, (ii) depends on the stability of the specific luminosity---the average light emitted per cell.
-To improve stability, we integrated the \textit{lux} operon from the pCS-$\lambda$ plasmid into the bacterial chromosome, thereby minimizing copy number effects that could alter cell-specific luminosity.
-We found that for antibiotics that do not induce strong filamentation, specific luminosity remains approximately constant, enabling a reliable approximation of net growth rates in the super-MIC range.
+To address this limitation, Chapter~3 explores the reliability of luminescence assays, a high-throughput alternative to CFU assays, assessing their validity in measuring bacterial growth dynamics at inhibitory antibiotic concentrations.
+We found clear limitations for both the CFU and the luminescence assays; and conditions where they work well and where they do not.
 
 Using this method, Chapter~4 explores the pharmacodynamics of drug interactions among six antibiotics: amoxicillin, colistin, chloramphenicol, fosfomycin, polymyxinB, and tetracycline.
 In total, we measured interactions for 2160 drug-combination-concentration pairs.
 We extended the standard pharmacodynamic formalism to describe combination treatments using polar coordinates and compared the resulting curves to predictions from the Loewe additivity and Bliss independence models.
 
+\textcolor{red}{a bit too concrete; could be more conceptual}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Thesis outline
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Thesis outline}
+
+In this thesis we develop experimental and analytical methods to quantify how antibiotic‑induced
+selection pressure shapes the evolution and transmission of resistance at both within‑host and between‑host scales.
+
+In Chapter~2, we use an \textit{in‑vitro} hospital‑ward model, to compare three multidrug strategies (combination, mixing, cycling), two monotherapies (Mono A, Mono B) and an untreated control.
+We show that combination therapy suppresses plasmid‑borne double resistance most
+efficiently under the majority of conditions, but also find that in certain scenarios, mixing, cycling, or even monotherapy can perform equally well or better.
+Surprisingly, we find that omitting treatment entirely can accelerate the emergence of multi-resistance—a phenomenon specific to plasmid-mediated resistance dynamics.
+
+In Chapter~3, we assess the applicability of luminescence assays as a high‑throughput method for estimating net growth above the MIC, benchmark them against CFU counts, and develop a mathematical framework that explains when each read‑out reflects biomass, viable cell number, or neither.
+We find that light intensity correlates more closely with biomass than with viable cell number, which leads to discrepancies in growth-rate estimates under conditions that induce filamentation.
+
+In Chapter~4, we build on the validated luminescence workflow, and use it to map net‑growth surfaces for $2160$ drug–drug–concentration combinations, using six antibiotics.
+From these data, we derive interaction parameters for each pair and compare them to the expectations under Loewe additivity and Bliss independence.
+We find that the classification of drug interactions can shift between sub- and super-MIC ranges, implying that interaction types at sub-MIC levels do not necessarily generalise to inhibitory concentrations.
+Furthermore, we extend the pharmacodynamic formalism to polar coordinates, allowing us to analyse how pharmacodynamic parameters of individual drugs combine under co-treatment.
 
 \chapterbibliography
 

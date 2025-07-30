@@ -1,17 +1,17 @@
 # Fdb version 3
-["biber build/main"] 1753863294 "build/main.bcf" "build/main.bbl" "build/main" 1753863316
+["biber build/main"] 1753879654 "build/main.bcf" "build/main.bbl" "build/main" 1753879685
   "bibliographies/TSPlasmid.bib" 1751928914 124566 ce61248be990702441e4662b5659b71c ""
   "bibliographies/thesis.bib" 1753677824 52593 a084eda285749b3d2bec9cfd45400436 ""
-  "build/main.bcf" 1753863314 104328 3ab20d785600a8da137f959c89f86c76 "xelatex"
+  "build/main.bcf" 1753879684 104221 02ea978d9689c9a90b744ef9a78ad711 "xelatex"
   (generated)
   "build/main.blg"
   "build/main.bbl"
-["xdvipdfmx"] 1753863315 "/Users/malte/ETH-Documents/thesis/build/main.xdv" "/Users/malte/ETH-Documents/thesis/build/main.pdf" "/Users/malte/ETH-Documents/thesis/build/main" 1753863316
-  "/Users/malte/ETH-Documents/thesis/build/main.xdv" 1753863314 1640144 2ab912aec1f3895ce09f0256fdfa1e60 "xelatex"
+["xdvipdfmx"] 1753879684 "/Users/malte/ETH-Documents/thesis/build/main.xdv" "/Users/malte/ETH-Documents/thesis/build/main.pdf" "/Users/malte/ETH-Documents/thesis/build/main" 1753879685
+  "/Users/malte/ETH-Documents/thesis/build/main.xdv" 1753879684 1652028 df75bb631759d62ffa997c2bd143a912 "xelatex"
   (generated)
   "/Users/malte/ETH-Documents/thesis/build/main.pdf"
-["xelatex"] 1753863309 "/Users/malte/ETH-Documents/thesis/main.tex" "/Users/malte/ETH-Documents/thesis/build/main.xdv" "main" 1753863316
-  "/Users/malte/ETH-Documents/thesis/build/main.aux" 1753863314 88048 37997dc94ccf634f0133b439d3d2544e ""
+["xelatex"] 1753879679 "/Users/malte/ETH-Documents/thesis/main.tex" "/Users/malte/ETH-Documents/thesis/build/main.xdv" "main" 1753879685
+  "/Users/malte/ETH-Documents/thesis/build/main.aux" 1753879684 87859 6c21af374f7c29c2aa3070baf70a4005 ""
   "/Users/malte/ETH-Documents/thesis/main.tex" 1753862869 1252 10e48dacd86e79828e0cff921efd7be3 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
@@ -236,11 +236,11 @@
   "/usr/local/texlive/2020/texmf-dist/web2c/texmf.cnf" 1583102494 39451 60d7debd9ef8ece44cbe965493576c2d ""
   "/usr/local/texlive/2020/texmf-var/web2c/xetex/xelatex.fmt" 1612186946 4769649 cda7e26f126ac9e4b74a2536b03d67c1 ""
   "/usr/local/texlive/2020/texmf.cnf" 1586288231 577 d60164b4589a341208aff7a667fbbdcb ""
-  "build/main.aux" 1753863314 88048 37997dc94ccf634f0133b439d3d2544e "xelatex"
-  "build/main.bbl" 1753863299 235635 affb416dbf1b281ea2952dcb36d82ad1 "biber build/main"
-  "build/main.run.xml" 1753863314 2531 6c52a0b7a750589f42033272f30aa5fa "xelatex"
-  "build/main.toc" 1753863314 4628 535c6ba99af0c7b650ccea6649f9c2e4 "xelatex"
-  "chapter_1/ch1.tex" 1753862596 10024 03a0cb151e82e697f9ded67ba9520613 ""
+  "build/main.aux" 1753879684 87859 6c21af374f7c29c2aa3070baf70a4005 "xelatex"
+  "build/main.bbl" 1753879675 232344 88237b1c3de22665de159b409504812b "biber build/main"
+  "build/main.run.xml" 1753879684 2531 6c52a0b7a750589f42033272f30aa5fa "xelatex"
+  "build/main.toc" 1753879684 4628 221bf083c37e92abc2ae85e6ec67f914 "xelatex"
+  "chapter_1/ch1.tex" 1753879649 12016 bad7c9c10d74a63d62366d2891958526 ""
   "front_matter/0_titlepage.tex" 1751958834 811 d80342595cc617ca48616b25eeda3bd9 ""
   "front_matter/1a_Summary_EN.tex" 1753324811 3476 01aa6d31e7bf09f54447f5d5b116aaee ""
   "front_matter/1b_Summary_DE.tex" 1753325024 3714 12a7829a2864a4d173dd402c7601c5ab ""
@@ -331,13 +331,13 @@
   "supplementary_1/tikz/stoch_par.tex" 1752193972 1995 cbeef8728e7c270af53333f27e50c406 ""
   "supplementary_1/tikz/stoch_val.tex" 1752193972 1893 8b64d51f13eea24c7ad65905ee7cc723 ""
   "supplementary_1/tikz/stoch_var.tex" 1752193972 1928 23d2b2dfcb3949967292f187b7d3790f ""
-  "thesis.cls" 1753863290 8023 dbbfe1ec070c5505ce1c15c72028f22e ""
+  "thesis.cls" 1753864491 8026 ef4d0ca4f8ccbf0d77741160e4fe1627 ""
   (generated)
-  "build/main.aux"
-  "build/main.log"
-  "build/main.toc"
   "build/main.xdv"
-  "build/main.bcf"
-  "/Users/malte/ETH-Documents/thesis/build/main.log"
-  "build/main.run.xml"
   "/Users/malte/ETH-Documents/thesis/build/main.xdv"
+  "build/main.run.xml"
+  "build/main.log"
+  "build/main.bcf"
+  "build/main.aux"
+  "build/main.toc"
+  "/Users/malte/ETH-Documents/thesis/build/main.log"

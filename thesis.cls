@@ -187,6 +187,9 @@
 \pretocmd{\mainmatter}{\pagestyle{pst_e}}{}{}
 \pretocmd{\appendix}{\pagestyle{pst_app}}{}{}
 \makeatother
+
+
+
 %----------------------------------------------------------
 % Bibliography (Biber + biblatex)
 %----------------------------------------------------------
