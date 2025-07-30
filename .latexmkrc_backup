@@ -1,0 +1,84 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# .latexmkrc — for ETH‑thesis with bibunits in build/
+# ─────────────────────────────────────────────────────────────────────────────
+
+# DEBUG BANNER (fires once, when latexmk first reads this file)
+print "\n>>> [latexmkrc] reading .latexmkrc\n";
+
+# 1) Put *everything* (.aux, .bbl, .log, etc.) into build/
+$out_dir  = 'build';
+$aux_dir  = 'build';
+
+# 2) Always run bibtex (not just when .aux is newer than .bbl)
+$bibtex_use = 2;
+
+# 3) Use XeLaTeX for both "pdflatex" *and* for the Xe rule
+#    and produce PDF directly
+$pdf_mode   = 1;
+$xelatex    = 'xelatex -interaction=nonstopmode -recorder %O %S';
+$pdflatex   = $xelatex;    # so -pdf or default both invoke XeLaTeX
+
+# REPORT current settings
+print ">>> [latexmkrc] out_dir = '$out_dir', aux_dir = '$aux_dir'\n";
+print ">>> [latexmkrc] bibtex_use = $bibtex_use\n";
+print ">>> [latexmkrc] latex command = '$pdflatex'\n";
+print ">>> [latexmkrc] pdf_mode = $pdf_mode\n";
+
+# 4) Tell latexmk how to turn each *.aux → *.bbl
+add_cus_dep('aux','bbl',0,'run_bibunit');
+
+# 5) Our helper that latexmk will call
+sub run_bibunit {
+  my ($base) = @_;       # e.g. "build/bu1" or "build/main"
+  print "
+>>> [latexmkrc] run_bibunit() invoked on base '$base'
+";
+
+  # identify .aux file
+  my $auxfile = "$base.aux";
+  unless (-e $auxfile) {
+    # fallback: look for any aux matching base+"*.aux"
+    my @alts = glob("${base}*.aux");
+    if (@alts) {
+      print ">>> [latexmkrc] WARNING: '$auxfile' not found, using fallback '$alts[0]'
+";
+      $auxfile = $alts[0];
+      ($base) = $auxfile =~ m{^(.*)\.aux$};
+    } else {
+      warn ">>> [latexmkrc] WARNING: '$auxfile' does not exist and no fallback found
+";
+    }
+  }
+
+  print ">>> [latexmkrc] using auxfile: $auxfile
+";
+  print ">>> [latexmkrc] build/ dir contents: ", join(", ", glob("$aux_dir/*")), "
+";
+
+  # scan the .aux for ibstyle and ibdata lines
+  if (open my $fh, '<', $auxfile) {
+    while (<$fh>) {
+      if (/\bibstyle\{([^}]*)\}/) {
+        print ">>> [latexmkrc] found \bibstyle={$1}
+";
+      }
+      if (/\bibdata\{([^}]*)\}/) {
+        print ">>> [latexmkrc] found \bibdata={$1}
+";
+        warn ">>> [latexmkrc] WARNING: bibdata is empty! No .bib files specified
+" if $1 eq "";
+      }
+    }
+    close $fh;
+  } else {
+    warn ">>> [latexmkrc] WARNING: Could not open '$auxfile' to scan for bibdata
+";
+  }
+
+  # run bibtex
+  print ">>> [latexmkrc] system call: bibtex $base
+";
+  system("bibtex", $base)==0
+    or die ">>> [latexmkrc] !! bibtex failed on '$base' !!
+";
+}

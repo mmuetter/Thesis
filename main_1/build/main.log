@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2021.2.1)  24 JUL 2025 13:46
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2021.2.1)  29 JUL 2025 13:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -449,6 +449,118 @@ Package babel Info: \l@newzealand = using hyphenrules for ukenglish
 )) (/usr/local/texlive/2020/texmf-dist/tex/latex/carlisle/scalefnt.sty) (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks28
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/fourier/fourier.sty
+Package: fourier 2020/03/03 2.2 fourier-GUTenberg package
+
+
+Package fourier Warning: Please consider loading "fourier-otf.sty" instead of
+(fourier)                "fourier.sty" with Unicode engines LuaTeX or XeTeX,
+(fourier)                so that Type1 fonts get replaced by OpenType fonts.
+(fourier)                See file "Erewhon-Math.pdf" for more information.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+futs on input line 112.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/fourier/t1futs.fd
+File: t1futs.fd 2004/03/02 Fontinst v1.926 font definitions for T1/futs.
+)) (/usr/local/texlive/2020/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/fourier/fourier-orns.sty
+Package: fourier-orns 2020/03/03 2.2 fourier-ornaments package
+)
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 63.
+LaTeX Font Info:    Encoding `OT1' has changed to `T1' for symbol font
+(Font)              `operators' in the math version `normal' on input line 63.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/lmr/m/n --> T1/futs/m/n on input line 63.
+LaTeX Font Info:    Encoding `OT1' has changed to `T1' for symbol font
+(Font)              `operators' in the math version `bold' on input line 63.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/lmr/bx/n --> T1/futs/m/n on input line 63.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  T1/futs/m/n --> T1/futs/b/n on input line 64.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 72.
+LaTeX Font Info:    Encoding `OML' has changed to `FML' for symbol font
+(Font)              `letters' in the math version `normal' on input line 72.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/lmm/m/it --> FML/futmi/m/it on input line 72.
+LaTeX Font Info:    Encoding `OML' has changed to `FML' for symbol font
+(Font)              `letters' in the math version `bold' on input line 72.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/lmm/b/it --> FML/futmi/m/it on input line 72.
+\symotherletters=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  FML/futmi/m/it --> FML/futmi/b/it on input line 74.
+LaTeX Font Info:    Overwriting symbol font `otherletters' in version `bold'
+(Font)                  FML/futm/m/it --> FML/futm/b/it on input line 75.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 76.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 77.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 78.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 79.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 80.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 81.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 82.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 83.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 84.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 85.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 86.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 126.
+LaTeX Font Info:    Encoding `OMS' has changed to `FMS' for symbol font
+(Font)              `symbols' in the math version `normal' on input line 126.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/lmsy/m/n --> FMS/futm/m/n on input line 126.
+LaTeX Font Info:    Encoding `OMS' has changed to `FMS' for symbol font
+(Font)              `symbols' in the math version `bold' on input line 126.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/lmsy/b/n --> FMS/futm/m/n on input line 126.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 127.
+LaTeX Font Info:    Encoding `OMX' has changed to `FMX' for symbol font
+(Font)              `largesymbols' in the math version `normal' on input line 127.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/lmex/m/n --> FMX/futm/m/n on input line 127.
+LaTeX Font Info:    Encoding `OMX' has changed to `FMX' for symbol font
+(Font)              `largesymbols' in the math version `bold' on input line 127.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/lmex/m/n --> FMX/futm/m/n on input line 127.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 128.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/lmr/bx/n --> T1/futs/bx/n on input line 128.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/lmr/bx/n --> T1/futs/bx/n on input line 128.
+LaTeX Font Info:    Redeclaring math alphabet \mathrm on input line 129.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 130.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/lmr/m/it --> T1/futs/m/it on input line 130.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/lmr/bx/it --> T1/futs/m/it on input line 130.
+LaTeX Font Info:    Redeclaring math alphabet \mathcal on input line 131.
+LaTeX Font Info:    Redeclaring math symbol \parallel on input line 147.
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 161.
+LaTeX Font Info:    Redeclaring math symbol \varkappa on input line 199.
+LaTeX Font Info:    Redeclaring math symbol \varvarrho on input line 200.
+LaTeX Font Info:    Redeclaring math delimiter \Vert on input line 223.
+LaTeX Font Info:    Redeclaring math delimiter \vert on input line 228.
+LaTeX Font Info:    Redeclaring math delimiter \Downarrow on input line 238.
+LaTeX Font Info:    Redeclaring math delimiter \backslash on input line 240.
+LaTeX Font Info:    Redeclaring math delimiter \rangle on input line 242.
+LaTeX Font Info:    Redeclaring math delimiter \langle on input line 244.
+LaTeX Font Info:    Redeclaring math delimiter \rbrace on input line 246.
+LaTeX Font Info:    Redeclaring math delimiter \lbrace on input line 248.
+LaTeX Font Info:    Redeclaring math delimiter \rceil on input line 250.
+LaTeX Font Info:    Redeclaring math delimiter \lceil on input line 252.
+LaTeX Font Info:    Redeclaring math delimiter \rfloor on input line 254.
+LaTeX Font Info:    Redeclaring math delimiter \lfloor on input line 256.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 260.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 261.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 262.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 263.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 264.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 265.
+LaTeX Font Info:    Redeclaring math accent \check on input line 266.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 267.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 268.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 269.
+\symUfutm=\mathgroup5
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/helvet.sty
 Package: helvet 2005/04/12 PSNFSS-v9.2a (WaS) 
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/fontspec/fontspec.sty (/usr/local/texlive/2020/texmf-dist/tex/latex/l3packages/xparse/xparse.sty (/usr/local/texlive/2020/texmf-dist/tex/latex/l3kernel/expl3.sty
@@ -977,12 +1089,35 @@ LaTeX Info: Redefining \] on input line 2860.
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
  (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\symAMSa=\mathgroup4
-\symAMSb=\mathgroup5
-LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+\symAMSa=\mathgroup6
+\symAMSb=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)) (/usr/local/texlive/2020/texmf-dist/tex/latex/leftidx/leftidx.sty
+LaTeX Font Info:    Redeclaring math symbol \square on input line 141.
+)
+LaTeX Font Info:    Redeclaring math symbol \blacksquare on input line 48.
+LaTeX Font Info:    Redeclaring math symbol \vDash on input line 60.
+LaTeX Font Info:    Redeclaring math symbol \leftleftarrows on input line 63.
+LaTeX Font Info:    Redeclaring math symbol \rightrightarrows on input line 64.
+LaTeX Font Info:    Redeclaring math symbol \leqslant on input line 101.
+LaTeX Font Info:    Redeclaring math symbol \geqslant on input line 108.
+LaTeX Font Info:    Redeclaring math symbol \blacktriangleright on input line 120.
+LaTeX Font Info:    Redeclaring math symbol \blacktriangleleft on input line 121.
+LaTeX Font Info:    Redeclaring math symbol \complement on input line 165.
+LaTeX Font Info:    Redeclaring math symbol \intercal on input line 166.
+LaTeX Font Info:    Redeclaring math symbol \nleqslant on input line 181.
+LaTeX Font Info:    Redeclaring math symbol \ngeqslant on input line 182.
+LaTeX Font Info:    Redeclaring math symbol \varsubsetneq on input line 203.
+LaTeX Font Info:    Redeclaring math symbol \subsetneqq on input line 207.
+LaTeX Font Info:    Redeclaring math symbol \nparallel on input line 215.
+LaTeX Font Info:    Redeclaring math symbol \nvDash on input line 221.
+LaTeX Font Info:    Redeclaring math symbol \nexists on input line 235.
+LaTeX Font Info:    Redeclaring math symbol \smallsetminus on input line 251.
+LaTeX Font Info:    Redeclaring math symbol \curvearrowleft on input line 257.
+LaTeX Font Info:    Redeclaring math symbol \curvearrowright on input line 258.
+LaTeX Font Info:    Redeclaring math symbol \varkappa on input line 260.
+LaTeX Font Info:    Redeclaring math symbol \hslash on input line 262.
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/leftidx/leftidx.sty
 Package: leftidx 2003/09/24 v1.03 Left indices
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/siunitx/siunitx.sty
 Package: siunitx 2020/02/25 v2.8b A comprehensive (SI) units package
@@ -1228,6 +1363,24 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
 LaTeX Font Info:    ... okay on input line 10.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
 LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 10.
+LaTeX Font Info:    Trying to load font information for FML+futm on input line 10.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/fourier/fmlfutm.fd
+File: fmlfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futm.
+)
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for FMS/futm/m/n on input line 10.
+LaTeX Font Info:    Trying to load font information for FMS+futm on input line 10.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/fourier/fmsfutm.fd
+File: fmsfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FMS/futm.
+)
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 10.
+LaTeX Font Info:    Trying to load font information for FMX+futm on input line 10.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/fourier/fmxfutm.fd
+File: fmxfutm.fd futm-extension
+)
+LaTeX Font Info:    ... okay on input line 10.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 10.
 LaTeX Font Info:    ... okay on input line 10.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 10.
@@ -1241,6 +1394,8 @@ LaTeX Font Warning: Font shape `TU/utopia/m/n' undefined
 
 LaTeX Info: Redefining \dots on input line 10.
 LaTeX Info: Redefining \up on input line 10.
+LaTeX Font Info:    Redeclaring math accent \widehat on input line 10.
+LaTeX Font Info:    Redeclaring math accent \widetilde on input line 10.
 LaTeX Info: Redefining \microtypecontext on input line 10.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1268,8 +1423,8 @@ Package microtype Info: Loading generic protrusion settings for font family
 * \oddsidemargin=-0.56833pt
 * \evensidemargin=35.28255pt
 * \topmargin=-0.93083pt
-* \headheight=12.0pt
-* \headsep=18.06749pt
+* \headheight=16.0pt
+* \headsep=30.0pt
 * \topskip=10.0pt
 * \footskip=25.29494pt
 * \marginparwidth=117.0pt
@@ -1315,34 +1470,26 @@ LaTeX Info: Redefining \nameref on input line 10.
 LaTeX Info: Redefining \ref on input line 10.
 LaTeX Info: Redefining \pageref on input line 10.
 LaTeX Info: Redefining \nameref on input line 10.
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 10.
-(/usr/local/texlive/2020/texmf-dist/tex/latex/lm/ot1lmr.fd
-File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) (/usr/local/texlive/2020/texmf-dist/tex/latex/microtype/mt-LatinModernRoman.cfg
-File: mt-LatinModernRoman.cfg 2013/03/13 v1.0 microtype config. file: Latin Modern Roman (RS)
-)
 Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `lmr' (encoding: OT1).
+(microtype)             `futs' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 10.
- (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/omllmm.fd
-File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+LaTeX Font Info:    Trying to load font information for FML+futmi on input line 10.
+(/usr/local/texlive/2020/texmf-dist/tex/latex/fourier/fmlfutmi.fd
+File: fmlfutmi.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futmi.
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 10.
- (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/omslmsy.fd
-File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 10.
- (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/omxlmex.fd
-File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 10.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 10.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 10.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 9.19998pt on input line 10.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 6.99199pt on input line 10.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 5.51999pt on input line 10.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 9.19998pt on input line 10.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 6.99199pt on input line 10.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 5.51999pt on input line 10.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 10.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -1385,20 +1532,17 @@ LaTeX Font Warning: Font shape `TU/Optima(1)/m/sc' undefined
 (Font)              using `TU/Optima(1)/m/n' instead on input line 13.
 
 
-LaTeX Font Warning: Font shape `TU/utopia/b/n' undefined
-(Font)              using `TU/utopia/m/n' instead on input line 16.
-
-
 LaTeX Font Warning: Font shape `TU/utopia/m/it' undefined
 (Font)              using `TU/utopia/m/n' instead on input line 20.
 
-(./main_1/introduction.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [1
+(./main_1/introduction.tex [1
 
 
 ]
+
+LaTeX Font Warning: Font shape `TU/utopia/b/n' undefined
+(Font)              using `TU/utopia/m/n' instead on input line 5.
+
 
 Package natbib Warning: Citation `Kable1980' on page 2 undefined on input line 5.
 
@@ -1433,29 +1577,29 @@ Package natbib Warning: Citation `siedentop_metaanalysis_2024' on page 2 undefin
 Package natbib Warning: Citation `Angst2021' on page 2 undefined on input line 16.
 
 
-Underfull \vbox (badness 3525) has occurred while \output is active []
+Package natbib Warning: Citation `Huisman2022' on page 2 undefined on input line 21.
+
+
+Package natbib Warning: Citation `Sutter2016' on page 2 undefined on input line 22.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
 LaTeX Font Warning: Font shape `TU/utopia/m/sl' undefined
-(Font)              using `TU/utopia/m/it' instead on input line 18.
+(Font)              using `TU/utopia/m/it' instead on input line 26.
 
 
 Class memoir Warning: The material used in the headers is too large
-(36.0pt) for the given head height (12.0pt), it is recommended to
+(36.0pt) for the given head height (16.0pt), it is recommended to
 either increase the head height or redesign the header
-(in both cases you will find help in the memoir manual). on input line 18.
+(in both cases you will find help in the memoir manual). on input line 26.
 
 
-Overfull \vbox (24.0pt too high) has occurred while \output is active []
+Overfull \vbox (20.0pt too high) has occurred while \output is active []
 
  [2]
-
-Package natbib Warning: Citation `Huisman2022' on page 3 undefined on input line 21.
-
-
-Package natbib Warning: Citation `Sutter2016' on page 3 undefined on input line 22.
-
 
 LaTeX Font Warning: Font shape `TU/utopia/m/sc' undefined
 (Font)              using `TU/utopia/m/n' instead on input line 30.
@@ -1464,10 +1608,10 @@ LaTeX Font Warning: Font shape `TU/utopia/m/sc' undefined
 LaTeX Font Warning: Font shape `TU/utopia/b/sc' undefined
 (Font)              using `TU/utopia/b/n' instead on input line 45.
 
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 45.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 45.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 8.27998pt on input line 45.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 8.27998pt on input line 45.
 
 Overfull \hbox (3.19087pt too wide) in paragraph at lines 53--53
 []|\TU/utopia/b/n/10 prevention| 
@@ -1488,15 +1632,15 @@ Overfull \hbox (2.33087pt too wide) in paragraph at lines 55--55
 \TU/utopia/b/n/10 emergence| 
  []
 
-
+) (./main_1/results.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
 LaTeX Font Warning: Font shape `TU/utopia/m/sl' undefined
-(Font)              using `TU/utopia/m/it' instead on input line 58.
+(Font)              using `TU/utopia/m/it' instead on input line 11.
 
-[3]) (./main_1/results.tex
+[3]
 File: main_1/end_anova.pdf Graphic file (type pdf)
 <use main_1/end_anova.pdf>
 
@@ -1508,7 +1652,7 @@ LaTeX Font Warning: Font shape `TU/utopia/m/sl' undefined
 (Font)              using `TU/utopia/m/it' instead on input line 34.
 
 
-Overfull \vbox (24.0pt too high) has occurred while \output is active []
+Overfull \vbox (20.0pt too high) has occurred while \output is active []
 
  [4]
 File: main_1/scen3_paper.pdf Graphic file (type pdf)
@@ -1523,15 +1667,15 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 LaTeX Font Warning: Font shape `TU/utopia/m/sl' undefined
-(Font)              using `TU/utopia/m/it' instead on input line 47.
+(Font)              using `TU/utopia/m/it' instead on input line 52.
 
 [5]
 
 LaTeX Font Warning: Font shape `TU/utopia/m/sl' undefined
-(Font)              using `TU/utopia/m/it' instead on input line 70.
+(Font)              using `TU/utopia/m/it' instead on input line 52.
 
 
-Overfull \vbox (24.0pt too high) has occurred while \output is active []
+Overfull \vbox (20.0pt too high) has occurred while \output is active []
 
  [6]
 
@@ -1539,14 +1683,6 @@ LaTeX Font Warning: Font shape `TU/utopia/m/sl' undefined
 (Font)              using `TU/utopia/m/it' instead on input line 70.
 
 [7]
-
-LaTeX Font Warning: Font shape `TU/utopia/m/sl' undefined
-(Font)              using `TU/utopia/m/it' instead on input line 90.
-
-
-Overfull \vbox (24.0pt too high) has occurred while \output is active []
-
- [8]
 File: main_1/20220412_f_emergence_anova.pdf Graphic file (type pdf)
 <use main_1/20220412_f_emergence_anova.pdf>
 File: main_1/20220412_encounter_frequencies.pdf Graphic file (type pdf)
@@ -1564,6 +1700,21 @@ Overfull \hbox (15.81978pt too wide) in paragraph at lines 96--119
  []
 
 
+Underfull \vbox (badness 1939) has occurred while \output is active []
+
+
+
+LaTeX Font Warning: Font shape `TU/utopia/m/sl' undefined
+(Font)              using `TU/utopia/m/it' instead on input line 130.
+
+
+Overfull \vbox (20.0pt too high) has occurred while \output is active []
+
+ [8]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
 LaTeX Font Warning: Font shape `TU/utopia/m/sl' undefined
 (Font)              using `TU/utopia/m/it' instead on input line 130.
 
@@ -1573,7 +1724,7 @@ LaTeX Font Warning: Font shape `TU/utopia/m/sl' undefined
 (Font)              using `TU/utopia/m/it' instead on input line 149.
 
 
-Overfull \vbox (24.0pt too high) has occurred while \output is active []
+Overfull \vbox (20.0pt too high) has occurred while \output is active []
 
  [10]
 File: main_1/wins_and_losses_preexisting.pdf Graphic file (type pdf)
@@ -1674,7 +1825,7 @@ Overfull \hbox (15.81978pt too wide) in paragraph at lines 168--188
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 ) (./main_1/discussion.tex
-Underfull \vbox (badness 4328) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
@@ -1686,20 +1837,20 @@ LaTeX Font Warning: Font shape `TU/utopia/m/sl' undefined
 Package natbib Warning: Citation `eucast_disk2024' on page 12 undefined on input line 12.
 
 
+Package natbib Warning: Citation `BAG2015' on page 12 undefined on input line 16.
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
 LaTeX Font Warning: Font shape `TU/utopia/m/sl' undefined
-(Font)              using `TU/utopia/m/it' instead on input line 13.
+(Font)              using `TU/utopia/m/it' instead on input line 19.
 
 
-Overfull \vbox (24.0pt too high) has occurred while \output is active []
+Overfull \vbox (20.0pt too high) has occurred while \output is active []
 
  [12]
-
-Package natbib Warning: Citation `BAG2015' on page 13 undefined on input line 16.
-
 
 Package natbib Warning: Citation `Headd2018' on page 13 undefined on input line 24.
 
@@ -1716,21 +1867,22 @@ LaTeX Font Warning: Font shape `TU/utopia/m/sl' undefined
 Package natbib Warning: Citation `Angst2021' on page 14 undefined on input line 47.
 
 ) (./main_1/methods.tex
+Overfull \hbox (1.6863pt too wide) in paragraph at lines 4--7
+\TU/utopia/m/sc/10 nario) or 5 $\FML/futmi/m/it/10 ^^Vg\T1/futs/m/n/10 /\FML/futmi/m/it/10 ml$ \TU/utopia/m/sc/10 (containment and max-emergence scenario) chloramphenicol as a liquid medium
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
 LaTeX Font Warning: Font shape `TU/utopia/m/sl' undefined
-(Font)              using `TU/utopia/m/it' instead on input line 2.
+(Font)              using `TU/utopia/m/it' instead on input line 7.
 
 
-Overfull \vbox (24.0pt too high) has occurred while \output is active []
+Overfull \vbox (20.0pt too high) has occurred while \output is active []
 
  [14]
-Overfull \hbox (0.94101pt too wide) in paragraph at lines 4--7
-\TU/utopia/m/sc/10 nario) or 5 $\OML/lmm/m/it/10 ^^Vg=ml$ \TU/utopia/m/sc/10 (containment and max-emergence scenario) chloramphenicol as a liquid medium
- []
-
 
 Package natbib Warning: Citation `Sutter2016' on page 15 undefined on input line 9.
 
@@ -1742,18 +1894,15 @@ Package natbib Warning: Citation `Feher2012' on page 15 undefined on input line 
 
 
 LaTeX Font Warning: Font shape `TU/utopia/m/sl' undefined
-(Font)              using `TU/utopia/m/it' instead on input line 24.
+(Font)              using `TU/utopia/m/it' instead on input line 27.
 
 [15]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 
 LaTeX Font Warning: Font shape `TU/utopia/m/sl' undefined
-(Font)              using `TU/utopia/m/it' instead on input line 50.
+(Font)              using `TU/utopia/m/it' instead on input line 57.
 
 
-Overfull \vbox (24.0pt too high) has occurred while \output is active []
+Overfull \vbox (20.0pt too high) has occurred while \output is active []
 
  [16]
 Overfull \hbox (11.12035pt too wide) in paragraph at lines 66--68
@@ -1761,12 +1910,16 @@ Overfull \hbox (11.12035pt too wide) in paragraph at lines 66--68
  []
 
 
+Underfull \vbox (badness 3386) has occurred while \output is active []
+
+
+
 LaTeX Font Warning: Font shape `TU/utopia/m/sl' undefined
-(Font)              using `TU/utopia/m/it' instead on input line 72.
+(Font)              using `TU/utopia/m/it' instead on input line 75.
 
 [17]
-Overfull \hbox (42.5531pt too wide) in paragraph at lines 86--88
-\TU/utopia/m/sc/10 94 in silico patients, each capable of adopting one of six resistance profiles $\OML/lmm/m/it/10 ^^^ \OMS/lmsy/m/n/10 2 f\OML/lmm/m/it/10 U; S; A[]; B[]; AB[]; \OT1/lmr/m/n/10 (\OML/lmm/m/it/10 A[]\OT1/lmr/m/n/10 &\OML/lmm/m/it/10 B[]\OT1/lmr/m/n/10 )\OMS/lmsy/m/n/10 g$\TU/utopia/m/sc/10 .
+Overfull \hbox (21.88501pt too wide) in paragraph at lines 86--88
+\TU/utopia/m/sc/10 94 in silico patients, each capable of adopting one of six resistance profiles $\FML/futmi/m/it/10 ^^^ \FMS/futm/m/n/10 2 f\FML/futmi/m/it/10 U; S; A[]; B[]; AB[]; \T1/futs/m/n/10 (\FML/futmi/m/it/10 A[]\T1/futs/m/n/10 &\FML/futmi/m/it/10 B[]\T1/futs/m/n/10 )\FMS/futm/m/n/10 g$\TU/utopia/m/sc/10 .
  []
 
 
@@ -1774,7 +1927,7 @@ LaTeX Font Warning: Font shape `TU/utopia/m/sl' undefined
 (Font)              using `TU/utopia/m/it' instead on input line 104.
 
 
-Overfull \vbox (24.0pt too high) has occurred while \output is active []
+Overfull \vbox (20.0pt too high) has occurred while \output is active []
 
  [18]
 Package microtype Info: Loading generic protrusion settings for font family
@@ -1784,7 +1937,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 ) (./main_1/acknow.tex)
 
 Class memoir Warning: The material used in the headers is too large
-(36.0pt) for the given head height (12.0pt), it is recommended to
+(36.0pt) for the given head height (16.0pt), it is recommended to
 either increase the head height or redesign the header
 (in both cases you will find help in the memoir manual). on input line 40.
 
@@ -1808,12 +1961,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 40.
  ) 
 Here is how much of TeX's memory you used:
- 36351 strings out of 479418
- 707642 string characters out of 5884586
- 1057864 words of memory out of 5000000
- 53154 multiletter control sequences out of 15000+600000
- 577380 words of font info for 96 fonts, out of 8000000 for 9000
+ 36619 strings out of 479418
+ 711164 string characters out of 5884586
+ 1065191 words of memory out of 5000000
+ 53427 multiletter control sequences out of 15000+600000
+ 584538 words of font info for 100 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 82i,15n,117p,2058b,827s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 82i,15n,117p,2058b,797s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on /Users/malte/ETH-Documents/thesis/main_1/build/main.xdv (19 pages, 435060 bytes).
+Output written on /Users/malte/ETH-Documents/thesis/main_1/build/main.xdv (19 pages, 435080 bytes).

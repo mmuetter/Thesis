@@ -1,105 +1,100 @@
 \begin{table}[H]
-    \centering
-     \captionof{table}{Number of superinfections ($N_\mathcal{S}$) between high- and low-concentrated $A_r$ and $B_r$ wells and the number of double resistances that emerged ($N_\mathcal{E}$)  under treatment $\vartheta$ across all three experiments.} 
-     \label{tab:encounter_advanced}
-    \makeCSVtable{r|ccccc}%
-            {\bfseries Treatment $\mathbf{\vartheta}$ & $\mathbf{ A^x_r}$  &  $\mathbf{B^x_r}$  & \(\mathbf{N_\mathcal{E}^\vartheta}\) & \(\mathbf{N_\mathcal{S}^\vartheta}\) & \( \mathbf{\frac{N_\mathcal{E}^\vartheta}{N_\mathcal{S}^\vartheta}}\)}%
-            {supplementary_1/tables/emergence_advanced.csv}%
-            {\treatment & \sa & \sb & \n & \total & \f}
+  \centering
+  \captionof{table}{Number of superinfections ($N_{\mathcal S}$) between high- and low-concentrated $A_r$ and $B_r$ wells and the number of double resistances that emerged ($N_{\mathcal E}$)  under treatment $\vartheta$ across all three experiments.}
+  \label{tab:encounter_advanced}
+  \makeCSVtable{r|ccccc}%
+  {\bfseries Treatment $\mathbf{\vartheta}$ & $\mathbf{ A^x_r}$  &  $\mathbf{B^x_r}$  & \(\mathbf{N_{\mathcal E}^\vartheta}\) & \(\mathbf{N_{\mathcal S}^\vartheta}\) & \( \mathbf{\frac{N_{\mathcal E}^\vartheta}{N_{\mathcal S}^\vartheta}}\)}%
+  {supplementary_1/tables/emergence_advanced.csv}%
+  {\treatment & \sa & \sb & \n & \total & \f}
 \end{table}
 
-
 \begin{table}[H]
-    \centering
-     \captionof{table}{Strains used in this study and their relevant phenotypes. The phenotype in brackets is conferred by the respective plasmid. Cm\textsuperscript{R}: Chloramphenicol resistance, Amp\textsuperscript{R}: Ampicillin resistance, Caz\textsuperscript{R}: Ceftazidime resistance, Tet\textsuperscript{R}: Tetracycline resistance.}
-     \label{tab:strainPhenotypes}
-    \makeCSVtable{l|ll}%
-                {Name & \textbf{Relevant phenotype} &\textbf{Reference}}%
-                {supplementary_1/tables/strains_phenotypes.csv}%
-                {\name  & \phenotype & \reference}
+  \centering
+  \captionof{table}{Strains used in this study and their relevant phenotypes. The phenotype in brackets is conferred by the respective plasmid. Cm\textsuperscript{R}: Chloramphenicol resistance, Amp\textsuperscript{R}: Ampicillin resistance, Caz\textsuperscript{R}: Ceftazidime resistance, Tet\textsuperscript{R}: Tetracycline resistance.}
+  \label{tab:strainPhenotypes}
+  \makeCSVtable{l|ll}%
+  {Name & \textbf{Relevant phenotype} &\textbf{Reference}}%
+  {supplementary_1/tables/strains_phenotypes.csv}%
+  {\name  & \phenotype & \reference}
 \end{table}
 
-
 \begin{table}[H]
-    \centering
-    \captionof{table}{Statistical comparison of maximum growth rates between the sensitive and plasmid-carrying strains. 
-    We used a Mann-Whitney U test for pairwise comparisons, and the p-values were adjusted using the Bonferroni correction. } 
-    \input{supplementary_1/tables/man_ferroni}
-    \label{tab:man_ferroni}
+  \centering
+  \captionof{table}{Statistical comparison of maximum growth rates between the sensitive and plasmid-carrying strains.
+  We used a Mann-Whitney U test for pairwise comparisons, and the p-values were adjusted using the Bonferroni correction. }
+  \input{supplementary_1/tables/man_ferroni}
+  \label{tab:man_ferroni}
 \end{table}
 
+\begin{table}[H]
+  \centering
+  \captionof{table}{
+    Plasmid segregation loss was estimated over 24 hours without treatment and with selective treatment as a control.
+    Frequencies of plasmid retention were compared between $t_0$ -- $t_1$ using the Mann-Whitney~U test.
+    Confidence intervals and the mean frequencies were estimated by bootstrapping the binary data (plasmid retained or lost) pooled across replicates.
+    No significant plasmid loss was observed in either the main data or the control.
+  }
+  \input{supplementary_1/tables/loss_data}
+  \label{tab:loss_data}
+\end{table}
 
 \begin{table}[H]
+  \centering
+  \caption{95 \% confidence intervals for the final bacterial density measured by colony plating and the maximal growth rates measured by evaluating OD-growth curves.}
+  \label{tab:growth_and_density}
+  \input{supplementary_1/tables/growthcurves_and_rates.tex}
+\end{table}
+
+\begin{table}[H]
+  \centering
+  \begin{minipage}[t]{0.5\textwidth}
     \centering
-    \captionof{table}{
-        Plasmid segregation loss was estimated over 24 hours without treatment and with selective treatment as a control. 
-        Frequencies of plasmid retention were compared between $t_0$ -- $t_1$ using the Mann-Whitney~U test. 
-        Confidence intervals and the mean frequencies were estimated by bootstrapping the binary data (plasmid retained or lost) pooled across replicates. 
-        No significant plasmid loss was observed in either the main data or the control.
+    \captionof{table}{Definition of resistance profiles (rows) by growth patterns on differently treated \textit{agar plates} (columns). X indicates colony formation, whereas o indicates no growth.}
+    \begin{tabular}{r|cccc}
+      \toprule
+      & None & A & B & AB  \\
+      \midrule
+      $U$   & o & o & o & o \\
+      $S$   & X &o&o&o\\
+      $A_r$   & X & X &o&o\\
+      $B_r$   & X &o& X &o\\
+      $(A_r\&B_r)$   & X & X & X &o\\
+      $AB_r$   & X & X & X & X \\
+      \bottomrule
+    \end{tabular}
+    \label{tab:phenotyping}
+  \end{minipage}
+\end{table}
+
+\begin{table}[H]
+  \centering
+  \begin{minipage}[t]{0.55\textwidth}
+    \centering
+    \captionof{table}{Association between bacterial phenotypes (rows) and resistance profiles \(\phi\) (columns). An 'X' denotes that a phenotype is obligatory for a given profile, while a '\(\surd\)' indicates that it is optional.
     }
-    \input{supplementary_1/tables/loss_data}
-    \label{tab:loss_data}
+    \begin{tabular}{r|cccccc}
+      \toprule
+      & $U$ & $S$ & $A_r$ & $B_r$ & $(A_r\&B_r)$ & $AB_r$ \\
+      \midrule
+      sensitive     &  & X &  $\surd$ &   $\surd$ &  $\surd$ &  $\surd$ \\
+      A-resistant   & &  & X  &   & X  &  $\surd$ \\
+      B-resistant   & & & & X  & X  &  $\surd$  \\
+      double-resistant  & &  &  & & & X  \\
+      \bottomrule
+    \end{tabular}
+    \label{tab:bacterial-phenotypes}
+  \end{minipage}
 \end{table}
 
 \begin{table}[H]
-    \centering
-    \caption{95 \% confidence intervals for the final bacterial density measured by colony plating and the maximal growth rates measured by evaluating OD-growth curves.}
-    \label{tab:growth_and_density}
-    \input{supplementary_1/tables/growthcurves_and_rates.tex}
+  \centering
+  \captionof{table}{Clearance probability of well phenotypes across the three experiments.}
+  \label{tab:clearance}
+  \makeCSVtable{r|ccc}%
+  { &   $S$ &  $A_r$ & $B_r$ }%
+  {supplementary_1/tables/clearance_mean.csv}%
+  {\treatmentwith  & \S   & \Ar   & \Br  }
 \end{table}
-
-\begin{table}[H]
-    \centering
-    \begin{minipage}[t]{0.5\textwidth}
-        \centering
-        \captionof{table}{Definition of resistance profiles (rows) by growth patterns on differently treated \textit{agar plates} (columns). X indicates colony formation, whereas o indicates no growth.}
-        \begin{tabular}{r|cccc}
-            \toprule
-                 & None & A & B & AB  \\ 
-             \midrule
-             $U$   & o & o & o & o \\
-             $S$   & X &o&o&o\\
-             $A_r$   & X & X &o&o\\
-             $B_r$   & X &o& X &o\\
-             $(A_r\&B_r)$   & X & X & X &o\\
-             $AB_r$   & X & X & X & X \\
-             \bottomrule
-        \end{tabular}
-        \label{tab:phenotyping}
-    \end{minipage}
-\end{table}
-
-\begin{table}[H]
-    \centering
-    \begin{minipage}[t]{0.55\textwidth}
-        \centering
-        \captionof{table}{Association between bacterial phenotypes (rows) and resistance profiles \(\phi\) (columns). An 'X' denotes that a phenotype is obligatory for a given profile, while a '\(\surd\)' indicates that it is optional. 
-        }
-        \begin{tabular}{r|cccccc}
-            \toprule
-                 & $U$ & $S$ & $A_r$ & $B_r$ & $(A_r\&B_r)$ & $AB_r$ \\ 
-             \midrule
-             sensitive     &  & X &  $\surd$ &   $\surd$ &  $\surd$ &  $\surd$ \\
-             A-resistant   & &  & X  &   & X  &  $\surd$ \\
-             B-resistant   & & & & X  & X  &  $\surd$  \\
-             double-resistant  & &  &  & & & X  \\
-             \bottomrule
-        \end{tabular}
-        \label{tab:bacterial-phenotypes}
-    \end{minipage}
-\end{table}
-
-
-\begin{table}[H]
-        \centering
-        \captionof{table}{Clearance probability of well phenotypes across the three experiments.} 
-        \label{tab:clearance}
-        \makeCSVtable{r|ccc}%
-                { &   $S$ &  $A_r$ & $B_r$ }%
-                {supplementary_1/tables/clearance_mean.csv}%
-                {\treatmentwith  & \S   & \Ar   & \Br  }
-\end{table}
-
 
 \begin{table}[H]
   \centering
@@ -112,7 +107,7 @@
   \resizebox{\linewidth}{!}{%
     \begin{tabular}{r|cccccc}
       \diagbox[width=20mm]{$\phi_1(\hat{T})$}{$\phi_2(\hat{T})$}
-        & $U$ & $S$ & $A_r$ & $B_r$ & $(A_r\&B_r)$ & $AB_r$ \\\hline
+      & $U$ & $S$ & $A_r$ & $B_r$ & $(A_r\&B_r)$ & $AB_r$ \\\hline
       \csvreader[
         separator=semicolon,
         head to column names,
@@ -130,80 +125,73 @@
   }
 \end{table}
 
-
-
 \begin{table}[H]
+  \centering
+  \begin{minipage}{.82\linewidth} % Adjust the width as needed
     \centering
-    \begin{minipage}{.82\linewidth} % Adjust the width as needed
-        \centering
-        \captionof{table}{Mean parameter leading to $n$ single wins during the sensitivity analysis without preexisting double resistance. Strategies that did not yield at least one single win were excluded.}
-        \input{supplementary_1/tables/best_stats_no_preex}
-        \label{tab:best_stats_no_preex}
-    \end{minipage}
+    \captionof{table}{Mean parameter leading to $n$ single wins during the sensitivity analysis without preexisting double resistance. Strategies that did not yield at least one single win were excluded.}
+    \input{supplementary_1/tables/best_stats_no_preex}
+    \label{tab:best_stats_no_preex}
+  \end{minipage}
 
-    \vspace{.5cm}
+  \vspace{.5cm}
 
-    \begin{minipage}{.82\linewidth} % Adjust the width as needed
-        \centering
-        \captionof{table}{Mean parameter leading to $n$ single losses during the sensitivity analysis without preexisting double resistance. Strategies that did not yield at least one single loss were excluded.}
-        \input{supplementary_1/tables/worst_stats_no_preex}
-        \label{tab:worst_stats_no_preex}
-    \end{minipage}
+  \begin{minipage}{.82\linewidth} % Adjust the width as needed
+    \centering
+    \captionof{table}{Mean parameter leading to $n$ single losses during the sensitivity analysis without preexisting double resistance. Strategies that did not yield at least one single loss were excluded.}
+    \input{supplementary_1/tables/worst_stats_no_preex}
+    \label{tab:worst_stats_no_preex}
+  \end{minipage}
 
-    \vspace{.5cm}
+  \vspace{.5cm}
 
-    \begin{minipage}{.82\linewidth} % Adjust the width as needed
-        \centering
-        \captionof{table}{Mean parameter leading to $n$ single wins during the sensitivity analysis with preexisting double resistance. Strategies that did not yield at least one single win were excluded.}
-        \input{supplementary_1/tables/best_stats_preexisting}
-        \label{tab:best_stats_preexisting}
-    \end{minipage}
+  \begin{minipage}{.82\linewidth} % Adjust the width as needed
+    \centering
+    \captionof{table}{Mean parameter leading to $n$ single wins during the sensitivity analysis with preexisting double resistance. Strategies that did not yield at least one single win were excluded.}
+    \input{supplementary_1/tables/best_stats_preexisting}
+    \label{tab:best_stats_preexisting}
+  \end{minipage}
 
-    \vspace{.5cm}
+  \vspace{.5cm}
 
-    \begin{minipage}{.82\linewidth} % Adjust the width as needed
-        \centering
-        \captionof{table}{Mean parameter leading to $n$ single losses during the sensitivity analysis with preexisting double resistance. Strategies that did not yield at least one single loss were excluded.}
-        \input{supplementary_1/tables/worst_stats_preexisting}
-        \label{tab:worst_stats_preexisting}
-    \end{minipage}
+  \begin{minipage}{.82\linewidth} % Adjust the width as needed
+    \centering
+    \captionof{table}{Mean parameter leading to $n$ single losses during the sensitivity analysis with preexisting double resistance. Strategies that did not yield at least one single loss were excluded.}
+    \input{supplementary_1/tables/worst_stats_preexisting}
+    \label{tab:worst_stats_preexisting}
+  \end{minipage}
 
 \end{table}
 
-
-
-
 \begin{table}[H]
-    \centering
-    \captionof{table}{Wins and losses during the sensitivity analysis. With preexisting double resistance. 606 parameter sets yielded an insignificant result.}
-    \resizebox{\linewidth}{!}{
+  \centering
+  \captionof{table}{Wins and losses during the sensitivity analysis. With preexisting double resistance. 606 parameter sets yielded an insignificant result.}
+  \resizebox{\linewidth}{!}{
     \input{supplementary_1/tables/win_loss_statistic_preexisting}
-    }
-    \label{tab:win_loss_statistic_preex}
+  }
+  \label{tab:win_loss_statistic_preex}
 
-    \vspace{1cm}
-    \captionof{table}{Wins and losses during the sensitivity analysis without preexisting double resistance. 100 parameter sets yielded an insignificant result.}
-    \resizebox{\linewidth}{!}{
+  \vspace{1cm}
+  \captionof{table}{Wins and losses during the sensitivity analysis without preexisting double resistance. 100 parameter sets yielded an insignificant result.}
+  \resizebox{\linewidth}{!}{
     \input{supplementary_1/tables/win_loss_statistic_no_preex}
-    }
-    \label{tab:win_loss_statistic_no_preex}
+  }
+  \label{tab:win_loss_statistic_no_preex}
 
-    \vspace{1cm}
-    \captionof{table}{Wins and losses during the sensitivity analysis, using filtered transition probabilities and preexisting double resistance.  659 parameter sets yielded an insignificant result.}
-    \resizebox{\linewidth}{!}{
+  \vspace{1cm}
+  \captionof{table}{Wins and losses during the sensitivity analysis, using filtered transition probabilities and preexisting double resistance.  659 parameter sets yielded an insignificant result.}
+  \resizebox{\linewidth}{!}{
     \input{supplementary_1/tables/win_loss_statistic_clean_preexisting}
-    }
-    \label{tab:win_loss_statistic_clean_preexisting}
+  }
+  \label{tab:win_loss_statistic_clean_preexisting}
 
-    \vspace{1cm}
-    \captionof{table}{Wins and losses during the sensitivity analysis with filtered transition matrices and no preexisting double resistance. 8 parameter sets yielded an insignificant result.}
-    \resizebox{\linewidth}{!}{
+  \vspace{1cm}
+  \captionof{table}{Wins and losses during the sensitivity analysis with filtered transition matrices and no preexisting double resistance. 8 parameter sets yielded an insignificant result.}
+  \resizebox{\linewidth}{!}{
     \input{supplementary_1/tables/win_loss_statistic_clean_no_preex}
-    }
-    \label{tab:win_loss_statistic_clean_no_preex}
+  }
+  \label{tab:win_loss_statistic_clean_no_preex}
 \end{table}
-
-
 
 \begin{table}[H]
   \begin{minipage}{.49\linewidth}
@@ -333,7 +321,6 @@
   \end{minipage}
 \end{table}
 
-
 %%%%%%%%%%%%%%%%%%%%%%%% 20220417
 \createANOVATable{20210417U_anova}{treatment strategies}{uninfecteds}{\textit{Prevention}~scenario}
 
@@ -347,7 +334,6 @@
 
 \createANOVATable{20210417double_tukey}{treatment strategies}{double resistance}{\textit{Prevention}~scenario}
 
-
 %%%%%%%%%%%%%%%%%%%%%%%% 20220417
 \createANOVATable{20220127U_anova}{treatment strategies}{uninfecteds}{\textit{Containment}~scenario}
 
@@ -359,7 +345,6 @@
 
 \createANOVATable{20220127double_anova}{treatment strategies}{double resistance}{\textit{Containment}~scenario}
 %% Not significant
-
 
 %%%%%%%%%%%%%%%%%%%%%%%% 20220417
 \createANOVATable{20220412U_anova}{treatment strategies}{uninfecteds}{\textit{Maximum-emergence}~scenario}
@@ -374,17 +359,14 @@
 
 \createANOVATable{20220412double_tukey}{treatment strategies}{double resistance}{\textit{Maximum-emergence}~scenario}
 
-
-%% Emergence 
+%% Emergence
 \createANOVATable{emergence_anova}{treatment strategies}{newly emerging double resistance}{\textit{Maximum-emergence}~scenario}
 
 \createTukeyTable{emergence_tukey}{treatment strategies}{newly emerging double resistance}{\textit{Maximum-emergence}~scenario}
 
-
 \createANOVATable{superinfection_anova}{treatment strategies}{superinfections}{\textit{Maximum-emergence}~scenario}
 
 \createTukeyTable{superinfection_tukey}{treatment strategies}{superinfections}{\textit{Maximum-emergence}~scenario}
-
 
 \createANOVATable{treatment_emergence_anova}{drug $\vartheta$}{emergence per superinfection}{\textit{Maximum-emergence}~scenario}
 

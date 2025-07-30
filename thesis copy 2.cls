@@ -53,6 +53,7 @@
 \RequirePackage{bookmark,hyperref}
 \RequirePackage{etoolbox}
 
+
 %----------------------------------------------------------
 % Summay spacing using memoir’s own commands
 %----------------------------------------------------------
@@ -63,6 +64,9 @@
   \endgroup
 }
 
+
+
+
 %----------------------------------------------------------
 % Hyperref setup
 %----------------------------------------------------------
@@ -72,9 +76,10 @@
 % Chapter style
 %----------------------------------------------------------
 \makechapterstyle{fancyblock}{%
-  \setlength{\beforechapskip}{1em}
-  \setlength{\midchapskip}{0.5em}
-  \setlength{\afterchapskip}{0.3em}
+  % *** add these three lines to reduce the big top gap ***
+  \setlength{\beforechapskip}{1em}    % space before the chapter title block
+  \setlength{\midchapskip}{0.5em}     % space between number & title
+  \setlength{\afterchapskip}{0.3em}   % space after the rule under title
 
   \renewcommand{\chapnamefont}{}
   \renewcommand{\chapnumfont}{%
@@ -86,17 +91,19 @@
   \renewcommand{\printchaptername}{}
   \renewcommand{\printchapternum}{%
     \hfill\makebox[0pt][r]{\chapnumfont\thechapter}%
-    \vspace*{-4em}%
+    \vspace*{-4em}% you can also reduce this if needed
   }
-  \renewcommand{\afterchapternum}{\par}
+  \renewcommand{\afterchapternum}{\par}% not adding extra vspace here
   \renewcommand{\printchaptertitle}[1]{%
     \begin{flushleft}%
       \chaptitlefont ##1\\[0.5ex]
       \rule{\textwidth}{0.4pt}%
     \end{flushleft}%
+    %\vspace{0.3em}% already set by \afterchapskip above
   }
 }
 \chapterstyle{fancyblock}
+
 
 %----------------------------------------------------------
 % Section titles
@@ -104,7 +111,7 @@
 \setsecheadstyle{\large\chaptitleoptima}
 \setsubsecheadstyle{\normalsize\chaptitleoptima}
 \setparaheadstyle{\bfseries\normalsize\chaptitleoptima}
-\setbeforesecskip{3ex}
+\setbeforesecskip{3ex}  % increased space before section title
 \setaftersecskip{0.01ex} 
 
 %----------------------------------------------------------
@@ -154,8 +161,8 @@
 \copypagestyle{pst_e}{ruled}
 \makeevenhead{pst_e}{\footnotesize\hspace{-3.5em}\scshape\leftmark}{}{}
 \makeoddhead{pst_e}{}{}{\footnotesize\scshape\rightmark}
-\setlength{\headsep}{30pt}
-\setlength{\headheight}{16pt}
+\setlength{\headsep}{30pt}         % increase space between top of text and header
+\setlength{\headheight}{16pt}      % ensure enough vertical space for header
 \makeevenfoot{pst_e}{\footnotesize\thepage}{}{}
 \makeoddfoot{pst_e}{}{}{\footnotesize\thepage}
 \aliaspagestyle{plain}{empty}
@@ -188,10 +195,55 @@
 \pretocmd{\appendix}{\pagestyle{pst_app}}{}{}
 \makeatother
 
-%----------------------------------------------------------
-% Bibliography (Biber + biblatex)
-%----------------------------------------------------------
-\RequirePackage[backend=biber,sorting=none,style=numeric-comp,maxnames=20,giveninits=true]{biblatex}
 
-\addbibresource{bibliographies/TSPlasmid.bib}
-\addbibresource{bibliographies/thesis.bib}
+%----------------------------------------------------------
+% Bibliography
+%----------------------------------------------------------
+
+\RequirePackage{bibunits}
+\RequirePackage[numbers,sort&compress]{natbib}
+
+\NewDocumentCommand{\subunit}{mmm}{% 1=folder, 2=basename, 3=bibfile
+  % start a new bibunit, with style glued in
+  \begin{bibunit}[IEEEtranN_cstm][#3]{#2}%
+    \subfile{#1/#2.tex}% pull in the subfile (its own preamble will be stripped)
+    \putbib[#3]%
+  \end{bibunit}%
+  \clearpage
+}
+
+
+
+\makeatletter
+\let\bu@orig@putbib\putbib
+\renewcommand{\putbib}[1][]{%
+  \begingroup
+    \let\addcontentsline\@gobblethree % kill TOC entry
+    \bu@orig@putbib[#1]%
+  \endgroup
+}
+\makeatother
+
+
+
+%----------------------------------------------------------
+% Titled frame env
+%----------------------------------------------------------
+\newcommand{\TitleFrame}[2]{%
+  \fboxrule=\FrameRule \fboxsep=\FrameSep
+  \vbox{\nobreak \vskip -0.7\FrameSep
+    \rlap{\strut#1}\nobreak\nointerlineskip
+    \vskip 0.7\FrameSep
+    \noindent\fbox{#2}}}
+\newenvironment{titledframe}[2][\FrameFirst@Lab\ (cont.)]{%
+  \def\FrameFirst@Lab{\textbf{#2}}%
+  \def\FrameCont@Lab{\textbf{#1}}%
+  \def\FrameCommand##1{\TitleFrame{\FrameFirst@Lab}{##1}}%
+  \def\FirstFrameCommand##1{\TitleFrame{\FrameFirst@Lab}{##1}}%
+  \def\MidFrameCommand##1{\TitleFrame{\FrameCont@Lab}{##1}}%
+  \def\LastFrameCommand##1{\TitleFrame{\FrameCont@Lab}{##1}}%
+  \MakeFramed{\hsize\textwidth
+              \advance\hsize -2\FrameRule
+              \advance\hsize -2\FrameSep
+              \FrameRestore}}%
+  {\endMakeFramed}

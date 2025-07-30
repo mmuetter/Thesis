@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2021.2.1)  28 JUL 2025 21:09
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2021.2.1)  30 JUL 2025 16:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -439,121 +439,9 @@ Package babel Info: \l@newzealand = using hyphenrules for ukenglish
 )) (/usr/local/texlive/2020/texmf-dist/tex/latex/carlisle/scalefnt.sty) (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks26
-) (/usr/local/texlive/2020/texmf-dist/tex/latex/fourier/fourier.sty
-Package: fourier 2020/03/03 2.2 fourier-GUTenberg package
-
-
-Package fourier Warning: Please consider loading "fourier-otf.sty" instead of
-(fourier)                "fourier.sty" with Unicode engines LuaTeX or XeTeX,
-(fourier)                so that Type1 fonts get replaced by OpenType fonts.
-(fourier)                See file "Erewhon-Math.pdf" for more information.
-
-(/usr/local/texlive/2020/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
-LaTeX Font Info:    Trying to load font information for T1+futs on input line 112.
- (/usr/local/texlive/2020/texmf-dist/tex/latex/fourier/t1futs.fd
-File: t1futs.fd 2004/03/02 Fontinst v1.926 font definitions for T1/futs.
-)) (/usr/local/texlive/2020/texmf-dist/tex/latex/base/textcomp.sty
-Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
-) (/usr/local/texlive/2020/texmf-dist/tex/latex/fourier/fourier-orns.sty
-Package: fourier-orns 2020/03/03 2.2 fourier-ornaments package
-)
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 63.
-LaTeX Font Info:    Encoding `OT1' has changed to `T1' for symbol font
-(Font)              `operators' in the math version `normal' on input line 63.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/lmr/m/n --> T1/futs/m/n on input line 63.
-LaTeX Font Info:    Encoding `OT1' has changed to `T1' for symbol font
-(Font)              `operators' in the math version `bold' on input line 63.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/lmr/bx/n --> T1/futs/m/n on input line 63.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  T1/futs/m/n --> T1/futs/b/n on input line 64.
-LaTeX Font Info:    Redeclaring symbol font `letters' on input line 72.
-LaTeX Font Info:    Encoding `OML' has changed to `FML' for symbol font
-(Font)              `letters' in the math version `normal' on input line 72.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
-(Font)                  OML/lmm/m/it --> FML/futmi/m/it on input line 72.
-LaTeX Font Info:    Encoding `OML' has changed to `FML' for symbol font
-(Font)              `letters' in the math version `bold' on input line 72.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
-(Font)                  OML/lmm/b/it --> FML/futmi/m/it on input line 72.
-\symotherletters=\mathgroup4
-LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
-(Font)                  FML/futmi/m/it --> FML/futmi/b/it on input line 74.
-LaTeX Font Info:    Overwriting symbol font `otherletters' in version `bold'
-(Font)                  FML/futm/m/it --> FML/futm/b/it on input line 75.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 76.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 77.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 78.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 79.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 80.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 81.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 82.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 83.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 84.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 85.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 86.
-LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 126.
-LaTeX Font Info:    Encoding `OMS' has changed to `FMS' for symbol font
-(Font)              `symbols' in the math version `normal' on input line 126.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
-(Font)                  OMS/lmsy/m/n --> FMS/futm/m/n on input line 126.
-LaTeX Font Info:    Encoding `OMS' has changed to `FMS' for symbol font
-(Font)              `symbols' in the math version `bold' on input line 126.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  OMS/lmsy/b/n --> FMS/futm/m/n on input line 126.
-LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 127.
-LaTeX Font Info:    Encoding `OMX' has changed to `FMX' for symbol font
-(Font)              `largesymbols' in the math version `normal' on input line 127.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
-(Font)                  OMX/lmex/m/n --> FMX/futm/m/n on input line 127.
-LaTeX Font Info:    Encoding `OMX' has changed to `FMX' for symbol font
-(Font)              `largesymbols' in the math version `bold' on input line 127.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  OMX/lmex/m/n --> FMX/futm/m/n on input line 127.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 128.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/lmr/bx/n --> T1/futs/bx/n on input line 128.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/lmr/bx/n --> T1/futs/bx/n on input line 128.
-LaTeX Font Info:    Redeclaring math alphabet \mathrm on input line 129.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 130.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/lmr/m/it --> T1/futs/m/it on input line 130.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/lmr/bx/it --> T1/futs/m/it on input line 130.
-LaTeX Font Info:    Redeclaring math alphabet \mathcal on input line 131.
-LaTeX Font Info:    Redeclaring math symbol \parallel on input line 147.
-LaTeX Font Info:    Redeclaring math symbol \hbar on input line 161.
-LaTeX Font Info:    Redeclaring math symbol \varkappa on input line 199.
-LaTeX Font Info:    Redeclaring math symbol \varvarrho on input line 200.
-LaTeX Font Info:    Redeclaring math delimiter \Vert on input line 223.
-LaTeX Font Info:    Redeclaring math delimiter \vert on input line 228.
-LaTeX Font Info:    Redeclaring math delimiter \Downarrow on input line 238.
-LaTeX Font Info:    Redeclaring math delimiter \backslash on input line 240.
-LaTeX Font Info:    Redeclaring math delimiter \rangle on input line 242.
-LaTeX Font Info:    Redeclaring math delimiter \langle on input line 244.
-LaTeX Font Info:    Redeclaring math delimiter \rbrace on input line 246.
-LaTeX Font Info:    Redeclaring math delimiter \lbrace on input line 248.
-LaTeX Font Info:    Redeclaring math delimiter \rceil on input line 250.
-LaTeX Font Info:    Redeclaring math delimiter \lceil on input line 252.
-LaTeX Font Info:    Redeclaring math delimiter \rfloor on input line 254.
-LaTeX Font Info:    Redeclaring math delimiter \lfloor on input line 256.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 260.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 261.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 262.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 263.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 264.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 265.
-LaTeX Font Info:    Redeclaring math accent \check on input line 266.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 267.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 268.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 269.
-\symUfutm=\mathgroup5
-) (/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/helvet.sty
-Package: helvet 2005/04/12 PSNFSS-v9.2a (WaS) 
-) (/usr/local/texlive/2020/texmf-dist/tex/latex/fontspec/fontspec.sty (/usr/local/texlive/2020/texmf-dist/tex/latex/l3packages/xparse/xparse.sty (/usr/local/texlive/2020/texmf-dist/tex/latex/l3kernel/expl3.sty
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/erewhon-math/fourier-otf.sty
+Package: fourier-otf 2020/02/29 0.42
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/unicode-math/unicode-math.sty (/usr/local/texlive/2020/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2020-03-06 L3 programming layer (loader) 
  (/usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-xdvipdfmx.def
 File: l3backend-xdvipdfmx.def 2020-03-12 L3 backend support: xdvipdfmx
@@ -562,12 +450,18 @@ File: l3backend-xdvipdfmx.def 2020-03-12 L3 backend support: xdvipdfmx
 \g__pdf_backend_object_int=\count302
 \g__pdf_backend_annotation_int=\count303
 ))
+Package: unicode-math 2020/01/31 v0.8q Unicode maths in XeLaTeX and LuaLaTeX
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/unicode-math/unicode-math-xetex.sty
+Package: unicode-math-xetex 2020/01/31 v0.8q Unicode maths in XeLaTeX and LuaLaTeX
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 Package: xparse 2020-03-06 L3 Experimental document command parser
 \l__xparse_current_arg_int=\count304
 \g__xparse_grabber_int=\count305
 \l__xparse_m_args_int=\count306
 \l__xparse_v_nesting_int=\count307
-)
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2020-03-06 LaTeX2e option processing using LaTeX3 keys
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/fontspec/fontspec.sty
 Package: fontspec 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTeX
  (/usr/local/texlive/2020/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
 Package: fontspec-xetex 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTeX
@@ -587,7 +481,311 @@ Package: fontspec-xetex 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTeX
 \l__fontspec_tmpc_dim=\dimen190
  (/usr/local/texlive/2020/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
-) (/usr/local/texlive/2020/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/fontspec/fontspec.cfg))) (/usr/local/texlive/2020/texmf-dist/tex/latex/base/fix-cm.sty
+Package: fix-cm 2015/01/14 v1.1t fixes to LaTeX
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
+)) (/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/01/20 v2.17e AMS math features
+\@mathmargin=\skip191
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks27
+\ex@=\dimen191
+)) (/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen192
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count319
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count320
+\leftroot@=\count321
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count322
+\DOTSCASE@=\count323
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box51
+\strutbox@=\box52
+\big@size=\dimen193
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count324
+\c@MaxMatrixCols=\count325
+\dotsspace@=\muskip16
+\c@parentequation=\count326
+\dspbrk@lvl=\count327
+\tag@help=\toks28
+\row@=\count328
+\column@=\count329
+\maxfields@=\count330
+\andhelp@=\toks29
+\eqnshift@=\dimen194
+\alignsep@=\dimen195
+\tagshift@=\dimen256
+\tagwidth@=\dimen257
+\totwidth@=\dimen258
+\lineht@=\dimen259
+\@envbody=\toks30
+\multlinegap=\skip192
+\multlinetaggap=\skip193
+\mathdisplay@stack=\toks31
+LaTeX Info: Redefining \[ on input line 2859.
+LaTeX Info: Redefining \] on input line 2860.
+)
+\g__um_fam_int=\count331
+\g__um_fonts_used_int=\count332
+\l__um_primecount_int=\count333
+\g__um_primekern_muskip=\muskip17
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/unicode-math/unicode-math-table.tex))) (/usr/local/texlive/2020/texmf-dist/tex/latex/fourier/fourier-orns.sty
+Package: fourier-orns 2020/03/03 2.2 fourier-ornaments package
+
+Package fontspec Info: Font family 'FourierOrns-Regular.otf(0)' created for
+(fontspec)             font 'FourierOrns-Regular.otf' with options [BoldFont =
+(fontspec)             FourierOrns-Bold.otf,ItalicFont =
+(fontspec)             FourierOrns-Italic.otf,BoldItalicFont =
+(fontspec)             FourierOrns-BoldItalic.otf].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[FourierOrns-Regular.otf]/OT:language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"[FourierOrns-Bold.otf]/OT:language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"[FourierOrns-Italic.otf]/OT:language=dflt;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"[FourierOrns-BoldItalic.otf]/OT:language=dflt;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+ (/usr/local/texlive/2020/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks32
+\XKV@tempa@toks=\toks33
+)
+\XKV@depth=\count334
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+\FOTtoks=\toks34
+
+Package fontspec Info: Font family 'Erewhon-Math.otf(0)' created for font
+(fontspec)             'Erewhon-Math.otf' with options
+(fontspec)             [BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script=Math].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[Erewhon-Math.otf]/OT:script=math;language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+
+
+Package fontspec Info: Font family 'Erewhon-Math.otf(1)' created for font
+(fontspec)             'Erewhon-Math.otf' with options
+(fontspec)             [BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=8.8-},{Size=6.8-8.8,Font=Erewhon-Math.otf,Style=MathScript},{Size=-6.8,Font=Erewhon-Math.otf,Style=MathScriptScript}}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <8.8->"[Erewhon-Math.otf]/OT:script=math;language=dflt;"<6.8-8.8>"[Erewhon-Math.otf]/OT:script=math;language=dflt;+ssty=0;"<-6.8>"[Erewhon-Math.otf]/OT:script=math;language=dflt;+ssty=1;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 35.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/lmr/m/n --> TU/Erewhon-Math.otf(1)/m/n on input line 35.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 35.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/lmr/bx/n --> TU/Erewhon-Math.otf(1)/b/n on input line 35.
+
+Package fontspec Info: Erewhon-Math scale = 1.0001.
+
+
+Package fontspec Info: Erewhon-Math scale = 1.0001.
+
+
+Package fontspec Info: Erewhon-Math scale = 1.0001.
+
+
+Package fontspec Info: Erewhon-Math scale = 1.0001.
+
+
+Package fontspec Info: Font family 'Erewhon-Math.otf(2)' created for font
+(fontspec)             'Erewhon-Math.otf' with options
+(fontspec)             [BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=8.8-},{Size=6.8-8.8,Font=Erewhon-Math.otf,Style=MathScript},{Size=-6.8,Font=Erewhon-Math.otf,Style=MathScriptScript}},ScaleAgain=1.0001,FontAdjustment={\fontdimen
+(fontspec)             8\font =6.92pt\relax \fontdimen 9\font =4.02pt\relax
+(fontspec)             \fontdimen 10\font =4.54pt\relax \fontdimen 11\font
+(fontspec)             =7.01pt\relax \fontdimen 12\font =3.52pt\relax
+(fontspec)             \fontdimen 13\font =3.71pt\relax \fontdimen 14\font
+(fontspec)             =3.71pt\relax \fontdimen 15\font =2.95pt\relax
+(fontspec)             \fontdimen 16\font =2.52pt\relax \fontdimen 17\font
+(fontspec)             =2.52pt\relax \fontdimen 18\font =3.94pt\relax
+(fontspec)             \fontdimen 19\font =0.51pt\relax \fontdimen 22\font
+(fontspec)             =2.65pt\relax \fontdimen 20\font =0pt\relax \fontdimen
+(fontspec)             21\font =0pt\relax }].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <8.8->s*[1.0001]"[Erewhon-Math.otf]/OT:script=math;language=dflt;"<6.8-8.8>s*[1.0001]"[Erewhon-Math.otf]/OT:script=math;language=dflt;+ssty=0;"<-6.8>s*[1.0001]"[Erewhon-Math.otf]/OT:script=math;language=dflt;+ssty=1;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 8\font =6.92pt\relax \fontdimen 9\font
+(fontspec)             =4.02pt\relax \fontdimen 10\font =4.54pt\relax
+(fontspec)             \fontdimen 11\font =7.01pt\relax \fontdimen 12\font
+(fontspec)             =3.52pt\relax \fontdimen 13\font =3.71pt\relax
+(fontspec)             \fontdimen 14\font =3.71pt\relax \fontdimen 15\font
+(fontspec)             =2.95pt\relax \fontdimen 16\font =2.52pt\relax
+(fontspec)             \fontdimen 17\font =2.52pt\relax \fontdimen 18\font
+(fontspec)             =3.94pt\relax \fontdimen 19\font =0.51pt\relax
+(fontspec)             \fontdimen 22\font =2.65pt\relax \fontdimen 20\font
+(fontspec)             =0pt\relax \fontdimen 21\font =0pt\relax 
+
+LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
+(Font)              `symbols' in the math version `normal' on input line 35.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/lmsy/m/n --> TU/Erewhon-Math.otf(2)/m/n on input line 35.
+LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
+(Font)              `symbols' in the math version `bold' on input line 35.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/lmsy/b/n --> TU/Erewhon-Math.otf(2)/b/n on input line 35.
+
+Package fontspec Info: Erewhon-Math scale = 0.9999.
+
+
+Package fontspec Info: Erewhon-Math scale = 0.9999.
+
+
+Package fontspec Info: Erewhon-Math scale = 0.9999.
+
+
+Package fontspec Info: Erewhon-Math scale = 0.9999.
+
+
+Package fontspec Info: Font family 'Erewhon-Math.otf(3)' created for font
+(fontspec)             'Erewhon-Math.otf' with options
+(fontspec)             [BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=8.8-},{Size=6.8-8.8,Font=Erewhon-Math.otf,Style=MathScript},{Size=-6.8,Font=Erewhon-Math.otf,Style=MathScriptScript}},ScaleAgain=0.9999,FontAdjustment={\fontdimen
+(fontspec)             8\font =0.55pt\relax \fontdimen 9\font =1.04pt\relax
+(fontspec)             \fontdimen 10\font =1.57pt\relax \fontdimen 11\font
+(fontspec)             =1.88pt\relax \fontdimen 12\font =5.64pt\relax
+(fontspec)             \fontdimen 13\font =0pt\relax }].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <8.8->s*[0.9999]"[Erewhon-Math.otf]/OT:script=math;language=dflt;"<6.8-8.8>s*[0.9999]"[Erewhon-Math.otf]/OT:script=math;language=dflt;+ssty=0;"<-6.8>s*[0.9999]"[Erewhon-Math.otf]/OT:script=math;language=dflt;+ssty=1;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 8\font =0.55pt\relax \fontdimen 9\font
+(fontspec)             =1.04pt\relax \fontdimen 10\font =1.57pt\relax
+(fontspec)             \fontdimen 11\font =1.88pt\relax \fontdimen 12\font
+(fontspec)             =5.64pt\relax \fontdimen 13\font =0pt\relax 
+
+LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
+(Font)              `largesymbols' in the math version `normal' on input line 35.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/lmex/m/n --> TU/Erewhon-Math.otf(3)/m/n on input line 35.
+LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
+(Font)              `largesymbols' in the math version `bold' on input line 35.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/lmex/m/n --> TU/Erewhon-Math.otf(3)/b/n on input line 35.
+
+Package fontspec Info: Font family 'Erewhon(0)' created for font 'Erewhon'
+(fontspec)             with options [Ligatures=TeX,Extension =
+(fontspec)             .otf,UprightFont = *-Regular,BoldFont =
+(fontspec)             *-Bold,ItalicFont = *-Italic,BoldItalicFont =
+(fontspec)             *-BoldItalic,SlantedFont =
+(fontspec)             *-RegularSlanted,BoldSlantedFont = *-BoldSlanted].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[Erewhon-Regular.otf]/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->"[Erewhon-Regular.otf]/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"[Erewhon-Bold.otf]/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->"[Erewhon-Bold.otf]/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"[Erewhon-Italic.otf]/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->"[Erewhon-Italic.otf]/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
+(fontspec)             - 'slanted' (m/sl) with NFSS spec.:
+(fontspec)             <->"[Erewhon-RegularSlanted.otf]/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'slanted small caps'  (m/scsl) with NFSS spec.:
+(fontspec)             <->"[Erewhon-RegularSlanted.otf]/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"[Erewhon-BoldItalic.otf]/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->"[Erewhon-BoldItalic.otf]/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold slanted' (b/sl) with NFSS spec.:
+(fontspec)             <->"[Erewhon-BoldSlanted.otf]/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold slanted small caps'  (b/scsl) with NFSS spec.:
+(fontspec)             <->"[Erewhon-BoldSlanted.otf]/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
+
+
+Package fontspec Info: Font family 'Erewhon(1)' created for font 'Erewhon'
+(fontspec)             with options [Extension = .otf,UprightFont =
+(fontspec)             *-Regular,BoldFont = *-Bold,ItalicFont =
+(fontspec)             *-Italic,BoldItalicFont = *-BoldItalic,SlantedFont =
+(fontspec)             *-RegularSlanted,BoldSlantedFont = *-BoldSlanted].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[Erewhon-Regular.otf]/OT:script=latn;language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->"[Erewhon-Regular.otf]/OT:script=latn;language=dflt;+smcp;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"[Erewhon-Bold.otf]/OT:script=latn;language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->"[Erewhon-Bold.otf]/OT:script=latn;language=dflt;+smcp;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"[Erewhon-Italic.otf]/OT:script=latn;language=dflt;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->"[Erewhon-Italic.otf]/OT:script=latn;language=dflt;+smcp;"
+(fontspec)             - 'slanted' (m/sl) with NFSS spec.:
+(fontspec)             <->"[Erewhon-RegularSlanted.otf]/OT:script=latn;language=dflt;"
+(fontspec)             - 'slanted small caps'  (m/scsl) with NFSS spec.:
+(fontspec)             <->"[Erewhon-RegularSlanted.otf]/OT:script=latn;language=dflt;+smcp;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"[Erewhon-BoldItalic.otf]/OT:script=latn;language=dflt;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->"[Erewhon-BoldItalic.otf]/OT:script=latn;language=dflt;+smcp;"
+(fontspec)             - 'bold slanted' (b/sl) with NFSS spec.:
+(fontspec)             <->"[Erewhon-BoldSlanted.otf]/OT:script=latn;language=dflt;"
+(fontspec)             - 'bold slanted small caps'  (b/scsl) with NFSS spec.:
+(fontspec)             <->"[Erewhon-BoldSlanted.otf]/OT:script=latn;language=dflt;+smcp;"
+
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
+(Font)                  TU/Erewhon-Math.otf(1)/m/n --> TU/Erewhon(1)/m/n on input line 49.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/lmr/m/it --> TU/Erewhon(1)/m/it on input line 49.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/lmr/bx/n --> TU/Erewhon(1)/b/n on input line 49.
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/helvet.sty
+Package: helvet 2005/04/12 PSNFSS-v9.2a (WaS) 
+)
 
 Package fontspec Info: Font family 'Optima(0)' created for font 'Optima' with
 (fontspec)             options [Ligatures=TeX].
@@ -664,12 +862,12 @@ Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2019/11/18 v2.7d Micro-typographical refinements (RS)
-\MT@toks=\toks27
-\MT@count=\count319
+\MT@toks=\toks35
+\MT@count=\count335
 LaTeX Info: Redefining \textls on input line 790.
-\MT@outer@kern=\dimen191
+\MT@outer@kern=\dimen260
 LaTeX Info: Redefining \textmicrotypecontext on input line 1354.
-\MT@listname@count=\count320
+\MT@listname@count=\count336
  (/usr/local/texlive/2020/texmf-dist/tex/latex/microtype/microtype-xetex.def
 File: microtype-xetex.def 2019/11/18 v2.7d Definitions specific to xetex (RS)
 LaTeX Info: Redefining \lsstyle on input line 258.
@@ -682,36 +880,28 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
  (/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count321
-\Gm@cntv=\count322
-\c@Gm@tempcnt=\count323
-\Gm@bindingoffset=\dimen192
-\Gm@wd@mp=\dimen193
-\Gm@odd@mp=\dimen194
-\Gm@even@mp=\dimen195
-\Gm@layoutwidth=\dimen256
-\Gm@layoutheight=\dimen257
-\Gm@layouthoffset=\dimen258
-\Gm@layoutvoffset=\dimen259
-\Gm@dimlist=\toks28
+\Gm@cnth=\count337
+\Gm@cntv=\count338
+\c@Gm@tempcnt=\count339
+\Gm@bindingoffset=\dimen261
+\Gm@wd@mp=\dimen262
+\Gm@odd@mp=\dimen263
+\Gm@even@mp=\dimen264
+\Gm@layoutwidth=\dimen265
+\Gm@layoutheight=\dimen266
+\Gm@layouthoffset=\dimen267
+\Gm@layoutvoffset=\dimen268
+\Gm@dimlist=\toks36
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count324
-\float@exts=\toks29
-\float@box=\box51
-\@float@everytoks=\toks30
-\@floatcapt=\box52
+\c@float@type=\count340
+\float@exts=\toks37
+\float@box=\box53
+\@float@everytoks=\toks38
+\@floatcapt=\box54
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/adjustbox/adjustbox.sty
 Package: adjustbox 2019/01/04 v1.2 Adjusting TeX boxes (trim, clip, ...)
- (/usr/local/texlive/2020/texmf-dist/tex/latex/xkeyval/xkeyval.sty
-Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
- (/usr/local/texlive/2020/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks31
-\XKV@tempa@toks=\toks32
-)
-\XKV@depth=\count325
-File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-)) (/usr/local/texlive/2020/texmf-dist/tex/latex/adjustbox/adjcalc.sty
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/adjustbox/adjcalc.sty
 Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back-ends (calc, etex, pgfmath)
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/adjustbox/trimclip.sty
 Package: trimclip 2018/04/08 v1.1 Trim and clip general TeX material
@@ -726,38 +916,38 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: xetex.def on input line 105.
 )
-\Gin@req@height=\dimen260
-\Gin@req@width=\dimen261
+\Gin@req@height=\dimen269
+\Gin@req@width=\dimen270
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/collectbox/collectbox.sty
 Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
-\collectedbox=\box53
+\collectedbox=\box55
 )
-\tc@llx=\dimen262
-\tc@lly=\dimen263
-\tc@urx=\dimen264
-\tc@ury=\dimen265
+\tc@llx=\dimen271
+\tc@lly=\dimen272
+\tc@urx=\dimen273
+\tc@ury=\dimen274
 Package trimclip Info: Using driver 'tc-xetex.def'.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/adjustbox/tc-xetex.def
 File: tc-xetex.def 2019/01/04 v2.2 Clipping driver for xetex
 ))
-\adjbox@Width=\dimen266
-\adjbox@Height=\dimen267
-\adjbox@Depth=\dimen268
-\adjbox@Totalheight=\dimen269
-\adjbox@pwidth=\dimen270
-\adjbox@pheight=\dimen271
-\adjbox@pdepth=\dimen272
-\adjbox@ptotalheight=\dimen273
+\adjbox@Width=\dimen275
+\adjbox@Height=\dimen276
+\adjbox@Depth=\dimen277
+\adjbox@Totalheight=\dimen278
+\adjbox@pwidth=\dimen279
+\adjbox@pheight=\dimen280
+\adjbox@pdepth=\dimen281
+\adjbox@ptotalheight=\dimen282
  (/usr/local/texlive/2020/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
 Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
-\c@checkoddpage=\count326
+\c@checkoddpage=\count341
 LaTeX Info: Redefining \checkoddpage on input line 45.
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/varwidth/varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
-\@vwid@box=\box54
-\sift@deathcycles=\count327
-\@vwid@loff=\dimen274
-\@vwid@roff=\dimen275
+\@vwid@box=\box56
+\sift@deathcycles=\count342
+\@vwid@loff=\dimen283
+\@vwid@roff=\dimen284
 )) (/usr/local/texlive/2020/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2020/01/22 v1.3d Sub-captions (AR)
 
@@ -769,27 +959,27 @@ Package: caption 2020/01/03 v3.4h Customizing captions (AR)
  (/usr/local/texlive/2020/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2020/01/03 v1.8h caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 61.
-\captionmargin=\dimen276
-\captionmargin@=\dimen277
-\captionwidth=\dimen278
-\caption@tempdima=\dimen279
-\caption@indent=\dimen280
-\caption@parindent=\dimen281
-\caption@hangindent=\dimen282
+\captionmargin=\dimen285
+\captionmargin@=\dimen286
+\captionwidth=\dimen287
+\caption@tempdima=\dimen288
+\caption@indent=\dimen289
+\caption@parindent=\dimen290
+\caption@hangindent=\dimen291
 Package caption Info: memoir document class detected.
 )
-\c@caption@flags=\count328
-\c@continuedfloat=\count329
+\c@caption@flags=\count343
+\c@continuedfloat=\count344
 Package caption Info: float package is loaded.
 )
-\c@subfigure=\count330
-\c@subtable=\count331
+\c@subfigure=\count345
+\c@subtable=\count346
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks33
-\pgfutil@tempdima=\dimen283
-\pgfutil@tempdimb=\dimen284
+\pgfutil@everybye=\toks39
+\pgfutil@tempdima=\dimen292
+\pgfutil@tempdimb=\dimen293
  (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex)) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box55
+\pgfutil@abb=\box57
  (/usr/local/texlive/2020/texmf-dist/tex/latex/ms/everyshi.sty
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 )) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/pgf.revision.tex)
@@ -799,31 +989,31 @@ Package: pgf 2020/01/08 v3.1.5b (3.1.5b)
  (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2020/01/08 v3.1.5b (3.1.5b)
  (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks34
-\pgfkeys@temptoks=\toks35
+\pgfkeys@pathtoks=\toks40
+\pgfkeys@temptoks=\toks41
  (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
-\pgfkeys@tmptoks=\toks36
+\pgfkeys@tmptoks=\toks42
 ))
-\pgf@x=\dimen285
-\pgf@y=\dimen286
-\pgf@xa=\dimen287
-\pgf@ya=\dimen288
-\pgf@xb=\dimen289
-\pgf@yb=\dimen290
-\pgf@xc=\dimen291
-\pgf@yc=\dimen292
-\pgf@xd=\dimen293
-\pgf@yd=\dimen294
+\pgf@x=\dimen294
+\pgf@y=\dimen295
+\pgf@xa=\dimen296
+\pgf@ya=\dimen297
+\pgf@xb=\dimen298
+\pgf@yb=\dimen299
+\pgf@xc=\dimen300
+\pgf@yc=\dimen301
+\pgf@xd=\dimen302
+\pgf@yd=\dimen303
 \w@pgf@writea=\write4
 \r@pgf@reada=\read4
-\c@pgf@counta=\count332
-\c@pgf@countb=\count333
-\c@pgf@countc=\count334
-\c@pgf@countd=\count335
-\t@pgf@toka=\toks37
-\t@pgf@tokb=\toks38
-\t@pgf@tokc=\toks39
-\pgf@sys@id@count=\count336
+\c@pgf@counta=\count347
+\c@pgf@countb=\count348
+\c@pgf@countc=\count349
+\c@pgf@countd=\count350
+\t@pgf@toka=\toks43
+\t@pgf@tokb=\toks44
+\t@pgf@tokc=\toks45
+\pgf@sys@id@count=\count351
  (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2020/01/08 v3.1.5b (3.1.5b)
 )
@@ -835,62 +1025,62 @@ File: pgfsys-dvipdfmx.def 2020/01/08 v3.1.5b (3.1.5b)
  (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
 File: pgfsys-common-pdf.def 2020/01/08 v3.1.5b (3.1.5b)
 )
-\pgfsys@objnum=\count337
+\pgfsys@objnum=\count352
 ))) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfsyssoftpath@smallbuffer@items=\count338
-\pgfsyssoftpath@bigbuffer@items=\count339
+\pgfsyssoftpath@smallbuffer@items=\count353
+\pgfsyssoftpath@bigbuffer@items=\count354
 ) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
 Package: pgfcore 2020/01/08 v3.1.5b (3.1.5b)
  (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen295
-\pgfmath@count=\count340
-\pgfmath@box=\box56
-\pgfmath@toks=\toks40
-\pgfmath@stack@operand=\toks41
-\pgfmath@stack@operation=\toks42
+\pgfmath@dimen=\dimen304
+\pgfmath@count=\count355
+\pgfmath@box=\box58
+\pgfmath@toks=\toks46
+\pgfmath@stack@operand=\toks47
+\pgfmath@stack@operation=\toks48
 ) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex))) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count341
+\c@pgfmathroundto@lastzeros=\count356
 )) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@picminx=\dimen296
-\pgf@picmaxx=\dimen297
-\pgf@picminy=\dimen298
-\pgf@picmaxy=\dimen299
-\pgf@pathminx=\dimen300
-\pgf@pathmaxx=\dimen301
-\pgf@pathminy=\dimen302
-\pgf@pathmaxy=\dimen303
-\pgf@xx=\dimen304
-\pgf@xy=\dimen305
-\pgf@yx=\dimen306
-\pgf@yy=\dimen307
-\pgf@zx=\dimen308
-\pgf@zy=\dimen309
+\pgf@picminx=\dimen305
+\pgf@picmaxx=\dimen306
+\pgf@picminy=\dimen307
+\pgf@picmaxy=\dimen308
+\pgf@pathminx=\dimen309
+\pgf@pathmaxx=\dimen310
+\pgf@pathminy=\dimen311
+\pgf@pathmaxy=\dimen312
+\pgf@xx=\dimen313
+\pgf@xy=\dimen314
+\pgf@yx=\dimen315
+\pgf@yy=\dimen316
+\pgf@zx=\dimen317
+\pgf@zy=\dimen318
 ) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@path@lastx=\dimen310
-\pgf@path@lasty=\dimen311
+\pgf@path@lastx=\dimen319
+\pgf@path@lasty=\dimen320
 ) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@shorten@end@additional=\dimen312
-\pgf@shorten@start@additional=\dimen313
+\pgf@shorten@end@additional=\dimen321
+\pgf@shorten@start@additional=\dimen322
 ) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfpic=\box57
-\pgf@hbox=\box58
-\pgf@layerbox@main=\box59
-\pgf@picture@serial@count=\count342
+\pgfpic=\box59
+\pgf@hbox=\box60
+\pgf@layerbox@main=\box61
+\pgf@picture@serial@count=\count357
 ) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgflinewidth=\dimen314
+\pgflinewidth=\dimen323
 ) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
 File: pgfcoretransformations.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@pt@x=\dimen315
-\pgf@pt@y=\dimen316
-\pgf@pt@temp=\dimen317
+\pgf@pt@x=\dimen324
+\pgf@pt@y=\dimen325
+\pgf@pt@temp=\dimen326
 ) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 ) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
@@ -899,17 +1089,17 @@ File: pgfcoreobjects.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 File: pgfcorepathprocessing.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 ) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfarrowsep=\dimen318
+\pgfarrowsep=\dimen327
 ) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@max=\dimen319
-\pgf@sys@shading@range@num=\count343
-\pgf@shadingcount=\count344
+\pgf@max=\dimen328
+\pgf@sys@shading@range@num=\count358
+\pgf@shadingcount=\count359
 ) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
  (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfexternal@startupbox=\box60
+\pgfexternal@startupbox=\box62
 )) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 ) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
@@ -920,74 +1110,74 @@ File: pgfcorepatterns.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 File: pgfcorerdf.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 ))) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfnodeparttextbox=\box61
+\pgfnodeparttextbox=\box63
 ) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@nodesepstart=\dimen320
-\pgf@nodesepend=\dimen321
+\pgf@nodesepstart=\dimen329
+\pgf@nodesepend=\dimen330
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2020/01/08 v3.1.5b (3.1.5b)
 )) (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/math/pgfmath.sty (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2020/01/08 v3.1.5b (3.1.5b)
  (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen322
-\pgffor@skip=\dimen323
-\pgffor@stack=\toks43
-\pgffor@toks=\toks44
+\pgffor@iter=\dimen331
+\pgffor@skip=\dimen332
+\pgffor@stack=\toks49
+\pgffor@toks=\toks50
 )) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2020/01/08 v3.1.5b (3.1.5b)
  (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@plot@mark@count=\count345
-\pgfplotmarksize=\dimen324
+\pgf@plot@mark@count=\count360
+\pgfplotmarksize=\dimen333
 )
-\tikz@lastx=\dimen325
-\tikz@lasty=\dimen326
-\tikz@lastxsaved=\dimen327
-\tikz@lastysaved=\dimen328
-\tikz@lastmovetox=\dimen329
-\tikz@lastmovetoy=\dimen330
-\tikzleveldistance=\dimen331
-\tikzsiblingdistance=\dimen332
-\tikz@figbox=\box62
-\tikz@figbox@bg=\box63
-\tikz@tempbox=\box64
-\tikz@tempbox@bg=\box65
-\tikztreelevel=\count346
-\tikznumberofchildren=\count347
-\tikznumberofcurrentchild=\count348
-\tikz@fig@count=\count349
+\tikz@lastx=\dimen334
+\tikz@lasty=\dimen335
+\tikz@lastxsaved=\dimen336
+\tikz@lastysaved=\dimen337
+\tikz@lastmovetox=\dimen338
+\tikz@lastmovetoy=\dimen339
+\tikzleveldistance=\dimen340
+\tikzsiblingdistance=\dimen341
+\tikz@figbox=\box64
+\tikz@figbox@bg=\box65
+\tikz@tempbox=\box66
+\tikz@tempbox@bg=\box67
+\tikztreelevel=\count361
+\tikznumberofchildren=\count362
+\tikznumberofcurrentchild=\count363
+\tikz@fig@count=\count364
  (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfmatrixcurrentrow=\count350
-\pgfmatrixcurrentcolumn=\count351
-\pgf@matrix@numberofcolumns=\count352
+\pgfmatrixcurrentrow=\count365
+\pgfmatrixcurrentcolumn=\count366
+\pgf@matrix@numberofcolumns=\count367
 )
-\tikz@expandcount=\count353
+\tikz@expandcount=\count368
  (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 ))) (/usr/local/texlive/2020/texmf-dist/tex/latex/dashrule/dashrule.sty
 Package: dashrule 2013/03/28 v1.3 Dashed rules
-\c@hdr@segments=\count354
+\c@hdr@segments=\count369
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
-\LTleft=\skip191
-\LTright=\skip192
-\LTpre=\skip193
-\LTpost=\skip194
-\LTchunksize=\count355
-\LTcapwidth=\dimen333
-\LT@head=\box66
-\LT@firsthead=\box67
-\LT@foot=\box68
-\LT@lastfoot=\box69
-\LT@cols=\count356
-\LT@rows=\count357
-\c@LT@tables=\count358
-\c@LT@chunks=\count359
-\LT@p@ftn=\toks45
+\LTleft=\skip194
+\LTright=\skip195
+\LTpre=\skip256
+\LTpost=\skip257
+\LTchunksize=\count370
+\LTcapwidth=\dimen342
+\LT@head=\box68
+\LT@firsthead=\box69
+\LT@foot=\box70
+\LT@lastfoot=\box71
+\LT@cols=\count371
+\LT@rows=\count372
+\c@LT@tables=\count373
+\c@LT@chunks=\count374
+\LT@p@ftn=\toks51
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/pdflscape/pdflscape.sty
 Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
  (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/lscape.sty
@@ -1002,141 +1192,52 @@ Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
 ))) (/usr/local/texlive/2020/texmf-dist/tex/latex/tools/afterpage.sty
 Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
-\AP@output=\toks46
-\AP@partial=\box70
-\AP@footins=\box71
+\AP@output=\toks52
+\AP@partial=\box72
+\AP@footins=\box73
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
-\labelindent=\skip195
-\enit@outerparindent=\dimen334
-\enit@toks=\toks47
-\enit@inbox=\box72
-\enit@count@id=\count360
-\enitdp@description=\count361
+\labelindent=\skip258
+\enit@outerparindent=\dimen343
+\enit@toks=\toks53
+\enit@inbox=\box74
+\enit@count@id=\count375
+\enitdp@description=\count376
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
 Package: fancyvrb 2020/01/13 v3.5 verbatim text (tvz,hv)
-\FV@CodeLineNo=\count362
+\FV@CodeLineNo=\count377
 \FV@InFile=\read5
-\FV@TabBox=\box73
-\c@FancyVerbLine=\count363
-\FV@StepNumber=\count364
+\FV@TabBox=\box75
+\c@FancyVerbLine=\count378
+\FV@StepNumber=\count379
 \FV@OutFile=\write5
-) (/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2020/01/20 v2.17e AMS math features
-\@mathmargin=\skip256
-
-For additional information on amsmath, use the `?' option.
-(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amstext.sty
-Package: amstext 2000/06/29 v2.01 AMS text
- (/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsgen.sty
-File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks48
-\ex@=\dimen335
-)) (/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsbsy.sty
-Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen336
-) (/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsopn.sty
-Package: amsopn 2016/03/08 v2.02 operator names
-)
-\inf@bad=\count365
-LaTeX Info: Redefining \frac on input line 227.
-\uproot@=\count366
-\leftroot@=\count367
-LaTeX Info: Redefining \overline on input line 389.
-\classnum@=\count368
-\DOTSCASE@=\count369
-LaTeX Info: Redefining \ldots on input line 486.
-LaTeX Info: Redefining \dots on input line 489.
-LaTeX Info: Redefining \cdots on input line 610.
-\Mathstrutbox@=\box74
-\strutbox@=\box75
-\big@size=\dimen337
-LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
-\macc@depth=\count370
-\c@MaxMatrixCols=\count371
-\dotsspace@=\muskip16
-\c@parentequation=\count372
-\dspbrk@lvl=\count373
-\tag@help=\toks49
-\row@=\count374
-\column@=\count375
-\maxfields@=\count376
-\andhelp@=\toks50
-\eqnshift@=\dimen338
-\alignsep@=\dimen339
-\tagshift@=\dimen340
-\tagwidth@=\dimen341
-\totwidth@=\dimen342
-\lineht@=\dimen343
-\@envbody=\toks51
-\multlinegap=\skip257
-\multlinetaggap=\skip258
-\mathdisplay@stack=\toks52
-LaTeX Info: Redefining \[ on input line 2859.
-LaTeX Info: Redefining \] on input line 2860.
-) (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/amssymb.sty
-Package: amssymb 2013/01/14 v3.01 AMS font symbols
- (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/amsfonts.sty
-Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\symAMSa=\mathgroup6
-\symAMSb=\mathgroup7
-LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
-(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-LaTeX Font Info:    Redeclaring math symbol \square on input line 141.
-)
-LaTeX Font Info:    Redeclaring math symbol \blacksquare on input line 48.
-LaTeX Font Info:    Redeclaring math symbol \vDash on input line 60.
-LaTeX Font Info:    Redeclaring math symbol \leftleftarrows on input line 63.
-LaTeX Font Info:    Redeclaring math symbol \rightrightarrows on input line 64.
-LaTeX Font Info:    Redeclaring math symbol \leqslant on input line 101.
-LaTeX Font Info:    Redeclaring math symbol \geqslant on input line 108.
-LaTeX Font Info:    Redeclaring math symbol \blacktriangleright on input line 120.
-LaTeX Font Info:    Redeclaring math symbol \blacktriangleleft on input line 121.
-LaTeX Font Info:    Redeclaring math symbol \complement on input line 165.
-LaTeX Font Info:    Redeclaring math symbol \intercal on input line 166.
-LaTeX Font Info:    Redeclaring math symbol \nleqslant on input line 181.
-LaTeX Font Info:    Redeclaring math symbol \ngeqslant on input line 182.
-LaTeX Font Info:    Redeclaring math symbol \varsubsetneq on input line 203.
-LaTeX Font Info:    Redeclaring math symbol \subsetneqq on input line 207.
-LaTeX Font Info:    Redeclaring math symbol \nparallel on input line 215.
-LaTeX Font Info:    Redeclaring math symbol \nvDash on input line 221.
-LaTeX Font Info:    Redeclaring math symbol \nexists on input line 235.
-LaTeX Font Info:    Redeclaring math symbol \smallsetminus on input line 251.
-LaTeX Font Info:    Redeclaring math symbol \curvearrowleft on input line 257.
-LaTeX Font Info:    Redeclaring math symbol \curvearrowright on input line 258.
-LaTeX Font Info:    Redeclaring math symbol \varkappa on input line 260.
-LaTeX Font Info:    Redeclaring math symbol \hslash on input line 262.
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/leftidx/leftidx.sty
 Package: leftidx 2003/09/24 v1.03 Left indices
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/siunitx/siunitx.sty
 Package: siunitx 2020/02/25 v2.8b A comprehensive (SI) units package
- (/usr/local/texlive/2020/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
-Package: l3keys2e 2020-03-06 LaTeX2e option processing using LaTeX3 keys
-)
 \l__siunitx_tmp_box=\box76
 \l__siunitx_tmp_dim=\dimen344
-\l__siunitx_tmp_int=\count377
-\l__siunitx_number_mantissa_length_int=\count378
-\l__siunitx_number_uncert_length_int=\count379
-\l__siunitx_round_int=\count380
-\l__siunitx_process_decimal_int=\count381
-\l__siunitx_process_uncertainty_int=\count382
-\l__siunitx_process_fixed_int=\count383
-\l__siunitx_process_integer_min_int=\count384
-\l__siunitx_process_precision_int=\count385
-\l__siunitx_group_min_int=\count386
+\l__siunitx_tmp_int=\count380
+\l__siunitx_number_mantissa_length_int=\count381
+\l__siunitx_number_uncert_length_int=\count382
+\l__siunitx_round_int=\count383
+\l__siunitx_process_decimal_int=\count384
+\l__siunitx_process_uncertainty_int=\count385
+\l__siunitx_process_fixed_int=\count386
+\l__siunitx_process_integer_min_int=\count387
+\l__siunitx_process_precision_int=\count388
+\l__siunitx_group_min_int=\count389
 \l__siunitx_angle_marker_box=\box77
 \l__siunitx_angle_unit_box=\box78
 \l__siunitx_angle_marker_dim=\dimen345
 \l__siunitx_angle_unit_dim=\dimen346
-\l__siunitx_unit_int=\count387
-\l__siunitx_unit_denominator_int=\count388
-\l__siunitx_unit_numerator_int=\count389
-\l__siunitx_unit_prefix_int=\count390
-\l__siunitx_unit_prefix_base_int=\count391
-\l__siunitx_unit_prefix_gram_int=\count392
-\l__siunitx_number_product_int=\count393
+\l__siunitx_unit_int=\count390
+\l__siunitx_unit_denominator_int=\count391
+\l__siunitx_unit_numerator_int=\count392
+\l__siunitx_unit_prefix_int=\count393
+\l__siunitx_unit_prefix_base_int=\count394
+\l__siunitx_unit_prefix_gram_int=\count395
+\l__siunitx_number_product_int=\count396
 \c__siunitx_one_fill_skip=\skip259
 \l__siunitx_table_unit_align_skip=\skip260
 \l__siunitx_table_exponent_dim=\dimen347
@@ -1162,15 +1263,15 @@ Package: csvsimple 2019/04/09 version 1.21 LaTeX CSV file processing
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count394
+\etb@tempcnta=\count397
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/tools/shellesc.sty
 Package: shellesc 2019/11/08 v1.0c unified shell escape interface for LaTeX
 Package shellesc Info: Restricted shell escape enabled on input line 77.
 )
 \csv@file=\read6
-\c@csvinputline=\count395
-\c@csvrow=\count396
-\c@csvcol=\count397
+\c@csvinputline=\count398
+\c@csvrow=\count399
+\c@csvcol=\count400
 \csv@out=\write6
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/diagbox/diagbox.sty
 Package: diagbox 2020/02/09 v2.3 Making table heads with diagonal lines
@@ -1184,21 +1285,21 @@ Package pict2e Info: Driver file for pict2e: p2e-xetex.def on input line 121.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/pict2e/p2e-xetex.def
 File: p2e-xetex.def 2016/02/05 v0.1u Driver-dependant file (RN,HjG,JT)
 )
-\pIIe@GRAPH=\toks53
+\pIIe@GRAPH=\toks54
 \@arclen=\dimen356
 \@arcrad=\dimen357
 \@tempdimd=\dimen358
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count398
-\calc@Bcount=\count399
+\calc@Acount=\count401
+\calc@Bcount=\count402
 \calc@Adimen=\dimen359
 \calc@Bdimen=\dimen360
 \calc@Askip=\skip263
 \calc@Bskip=\skip264
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count400
+\calc@Ccount=\count403
 \calc@Cskip=\skip265
 )
 \diagbox@boxa=\box83
@@ -1214,16 +1315,6 @@ LaTeX Info: Redefining \addtolength on input line 81.
 Package: import 2020/01/22  v 6.0
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/subfiles/subfiles.sty
 Package: subfiles 2020/02/14 v1.6 Multi-file projects (package)
-) (/usr/local/texlive/2020/texmf-dist/tex/latex/natbib/natbib.sty
-Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip266
-\bibsep=\skip267
-LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count401
-) (/usr/local/texlive/2020/texmf-dist/tex/latex/bibunits/bibunits.sty
-Package: bibunits 2004/05/12 v2.4 Multiple bibliographies in one document.
-\@bibunitaux=\write7
-\@bibunitauxcnt=\count402
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2019/12/03 v1.28 PDF bookmarks (HO)
  (/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/hyperref.sty
@@ -1249,8 +1340,8 @@ Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
 )
 \@linkdim=\dimen367
-\Hy@linkcounter=\count403
-\Hy@pagecounter=\count404
+\Hy@linkcounter=\count404
+\Hy@pagecounter=\count405
  (/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2020/01/14 v7.00d Hyperref: PDFDocEncoding definition (HO)
 ) (/usr/local/texlive/2020/texmf-dist/tex/generic/intcalc/intcalc.sty
@@ -1258,7 +1349,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 ) (/usr/local/texlive/2020/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count405
+\Hy@SavedSpaceFactor=\count406
 Package hyperref Info: Hyper figures OFF on input line 4547.
 Package hyperref Info: Link nesting OFF on input line 4552.
 Package hyperref Info: Hyper index ON on input line 4555.
@@ -1266,9 +1357,9 @@ Package hyperref Info: Plain pages OFF on input line 4562.
 Package hyperref Info: Backreferencing OFF on input line 4567.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4800.
-\c@Hy@tempcnt=\count406
+\c@Hy@tempcnt=\count407
  (/usr/local/texlive/2020/texmf-dist/tex/latex/url/url.sty
-\Urlmuskip=\muskip17
+\Urlmuskip=\muskip18
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5159.
@@ -1278,7 +1369,7 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
  (/usr/local/texlive/2020/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
-\Fld@menulength=\count407
+\Fld@menulength=\count408
 \Field@Width=\dimen369
 \Fld@charsize=\dimen370
 Package hyperref Info: Hyper figures OFF on input line 6430.
@@ -1290,13 +1381,13 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6455.
 Package hyperref Info: PDF/A mode OFF on input line 6460.
 LaTeX Info: Redefining \ref on input line 6500.
 LaTeX Info: Redefining \pageref on input line 6504.
-\Hy@abspage=\count408
-\c@Item=\count409
-\c@Hfootnote=\count410
+\Hy@abspage=\count409
+\c@Item=\count410
+\c@Hfootnote=\count411
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/memoir/memhfixc.sty
 Package: memhfixc 2019/10/24 v1.18 nameref/hyperref package fixes for memoir class
-\c@memhycontfloat=\count411
-\c@Hpagenote=\count412
+\c@memhycontfloat=\count412
+\c@Hpagenote=\count413
 )
 Package hyperref Info: Driver (autodetected): hxetex.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/hxetex.def
@@ -1307,10 +1398,10 @@ File: puenc.def 2020/01/14 v7.00d Hyperref: PDF Unicode definition (HO)
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
 )
 \pdfm@box=\box86
-\c@Hy@AnnotLevel=\count413
-\HyField@AnnotCount=\count414
-\Fld@listcount=\count415
-\c@bookmark@seq@number=\count416
+\c@Hy@AnnotLevel=\count414
+\HyField@AnnotCount=\count415
+\Fld@listcount=\count416
+\c@bookmark@seq@number=\count417
  (/usr/local/texlive/2020/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
  (/usr/local/texlive/2020/texmf-dist/tex/latex/atveryend/atveryend.sty
@@ -1321,17 +1412,241 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 286.
 )
-\Hy@SectionHShift=\skip268
+\Hy@SectionHShift=\skip266
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/bookmark/bkm-dvipdfm.def
 File: bkm-dvipdfm.def 2019/12/03 v1.28 bookmark driver for dvipdfm (HO)
-\BKM@id=\count417
+\BKM@id=\count418
 )) (/usr/local/texlive/2020/texmf-dist/tex/generic/stringenc/se-ascii-print.def
 File: se-ascii-print.def 2019/11/29 v1.12 stringenc: Printable ASCII characters
-)) (/Users/malte/ETH-Documents/thesis/build/main.aux (/Users/malte/ETH-Documents/thesis/build/front_matter/0_titlepage.aux) (/Users/malte/ETH-Documents/thesis/build/front_matter/1a_Summary_EN.aux) (/Users/malte/ETH-Documents/thesis/build/front_matter/1b_Summary_DE.aux
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2019/12/01 v3.14 programmable bibliographies (PK/MW)
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count419
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+\c@tabx@nest=\count420
+\c@listtotal=\count421
+\c@listcount=\count422
+\c@liststart=\count423
+\c@liststop=\count424
+\c@citecount=\count425
+\c@citetotal=\count426
+\c@multicitecount=\count427
+\c@multicitetotal=\count428
+\c@instcount=\count429
+\c@maxnames=\count430
+\c@minnames=\count431
+\c@maxitems=\count432
+\c@minitems=\count433
+\c@citecounter=\count434
+\c@maxcitecounter=\count435
+\c@savedcitecounter=\count436
+\c@uniquelist=\count437
+\c@uniquename=\count438
+\c@refsection=\count439
+\c@refsegment=\count440
+\c@maxextratitle=\count441
+\c@maxextratitleyear=\count442
+\c@maxextraname=\count443
+\c@maxextradate=\count444
+\c@maxextraalpha=\count445
+\c@abbrvpenalty=\count446
+\c@highnamepenalty=\count447
+\c@lownamepenalty=\count448
+\c@maxparens=\count449
+\c@parenlevel=\count450
+\blx@tempcnta=\count451
+\blx@tempcntb=\count452
+\blx@tempcntc=\count453
+\blx@maxsection=\count454
+\blx@maxsegment@0=\count455
+\blx@notetype=\count456
+\blx@parenlevel@text=\count457
+\blx@parenlevel@foot=\count458
+\blx@sectionciteorder@0=\count459
+\blx@entrysetcounter=\count460
+\labelnumberwidth=\skip267
+\labelalphawidth=\skip268
+\biblabelsep=\skip269
+\bibnamesep=\skip270
+\bibinitsep=\skip271
+\bibparsep=\skip272
+\bibhang=\skip273
+\blx@bcfin=\read7
+\blx@bcfout=\write7
+\blx@langwohyphens=\language86
+\c@mincomprange=\count461
+\c@maxcomprange=\count462
+\c@mincompwidth=\count463
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/blx-dm.def
+File: blx-dm.def 2019/12/01 v3.14 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'numeric-comp.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count464
+\c@savedafterword=\count465
+\c@annotator=\count466
+\c@savedannotator=\count467
+\c@author=\count468
+\c@savedauthor=\count469
+\c@bookauthor=\count470
+\c@savedbookauthor=\count471
+\c@commentator=\count472
+\c@savedcommentator=\count473
+\c@editor=\count474
+\c@savededitor=\count475
+\c@editora=\count476
+\c@savededitora=\count477
+\c@editorb=\count478
+\c@savededitorb=\count479
+\c@editorc=\count480
+\c@savededitorc=\count481
+\c@foreword=\count482
+\c@savedforeword=\count483
+\c@holder=\count484
+\c@savedholder=\count485
+\c@introduction=\count486
+\c@savedintroduction=\count487
+\c@namea=\count488
+\c@savednamea=\count489
+\c@nameb=\count490
+\c@savednameb=\count491
+\c@namec=\count492
+\c@savednamec=\count493
+\c@translator=\count494
+\c@savedtranslator=\count495
+\c@shortauthor=\count496
+\c@savedshortauthor=\count497
+\c@shorteditor=\count498
+\c@savedshorteditor=\count499
+\c@labelname=\count500
+\c@savedlabelname=\count501
+\c@institution=\count502
+\c@savedinstitution=\count503
+\c@lista=\count504
+\c@savedlista=\count505
+\c@listb=\count506
+\c@savedlistb=\count507
+\c@listc=\count508
+\c@savedlistc=\count509
+\c@listd=\count510
+\c@savedlistd=\count511
+\c@liste=\count512
+\c@savedliste=\count513
+\c@listf=\count514
+\c@savedlistf=\count515
+\c@location=\count516
+\c@savedlocation=\count517
+\c@organization=\count518
+\c@savedorganization=\count519
+\c@origlocation=\count520
+\c@savedoriglocation=\count521
+\c@origpublisher=\count522
+\c@savedorigpublisher=\count523
+\c@publisher=\count524
+\c@savedpublisher=\count525
+\c@language=\count526
+\c@savedlanguage=\count527
+\c@origlanguage=\count528
+\c@savedoriglanguage=\count529
+\c@pageref=\count530
+\c@savedpageref=\count531
+\shorthandwidth=\skip274
+\shortjournalwidth=\skip275
+\shortserieswidth=\skip276
+\shorttitlewidth=\skip277
+\shortauthorwidth=\skip278
+\shorteditorwidth=\skip279
+\locallabelnumberwidth=\skip280
+\locallabelalphawidth=\skip281
+\localshorthandwidth=\skip282
+\localshortjournalwidth=\skip283
+\localshortserieswidth=\skip284
+\localshorttitlewidth=\skip285
+\localshortauthorwidth=\skip286
+\localshorteditorwidth=\skip287
+Package biblatex Info: Trying to load enhanced support for Unicode engines...
+Package biblatex Info: ... file 'blx-unicode.def' found.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/blx-unicode.def)
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
+\c@textcitecount=\count532
+\c@textcitetotal=\count533
+\c@textcitemaxnames=\count534
+\c@biburlbigbreakpenalty=\count535
+\c@biburlbreakpenalty=\count536
+\c@biburlnumpenalty=\count537
+\c@biburlucpenalty=\count538
+\c@biburllcpenalty=\count539
+\biburlbigskip=\muskip19
+\biburlnumskip=\muskip20
+\biburlucskip=\muskip21
+\biburllcskip=\muskip22
+\c@smartand=\count540
+)
+Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
+Package biblatex Info: ... file 'numeric-comp.bbx' found.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/bbx/numeric-comp.bbx
+File: numeric-comp.bbx 2019/12/01 v3.14 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+File: numeric.bbx 2019/12/01 v3.14 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2019/12/01 v3.14 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count541
+\c@bbx:relatedtotal=\count542
+)))
+Package biblatex Info: Trying to load citation style 'numeric-comp'...
+Package biblatex Info: ... file 'numeric-comp.cbx' found.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/cbx/numeric-comp.cbx
+File: numeric-comp.cbx 2019/12/01 v3.14 biblatex citation style (PK/MW)
+\c@cbx@tempcnta=\count543
+\c@cbx@tempcntb=\count544
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+)))
+
+Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
+(biblatex)                Loading 'csquotes' recommended.
+
+\@quotelevel=\count545
+\@quotereset=\count546
+(/Users/malte/ETH-Documents/thesis/build/main.aux
 
 LaTeX Warning: Label `cha:summary' multiply defined.
 
-))
+)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
@@ -1343,34 +1658,12 @@ LaTeX Font Info:    ... okay on input line 9.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
 LaTeX Font Info:    ... okay on input line 9.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 9.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 9.
- (/usr/local/texlive/2020/texmf-dist/tex/latex/base/ts1cmr.fd
-File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-)
 LaTeX Font Info:    ... okay on input line 9.
 LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 9.
 LaTeX Font Info:    ... okay on input line 9.
 LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
 LaTeX Font Info:    ... okay on input line 9.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 9.
-LaTeX Font Info:    Trying to load font information for FML+futm on input line 9.
- (/usr/local/texlive/2020/texmf-dist/tex/latex/fourier/fmlfutm.fd
-File: fmlfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futm.
-)
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for FMS/futm/m/n on input line 9.
-LaTeX Font Info:    Trying to load font information for FMS+futm on input line 9.
- (/usr/local/texlive/2020/texmf-dist/tex/latex/fourier/fmsfutm.fd
-File: fmsfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FMS/futm.
-)
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 9.
-LaTeX Font Info:    Trying to load font information for FMX+futm on input line 9.
- (/usr/local/texlive/2020/texmf-dist/tex/latex/fourier/fmxfutm.fd
-File: fmxfutm.fd futm-extension
-)
 LaTeX Font Info:    ... okay on input line 9.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 9.
 LaTeX Font Info:    ... okay on input line 9.
@@ -1385,8 +1678,14 @@ LaTeX Font Warning: Font shape `TU/utopia/m/n' undefined
 
 LaTeX Info: Redefining \dots on input line 9.
 LaTeX Info: Redefining \up on input line 9.
-LaTeX Font Info:    Redeclaring math accent \widehat on input line 9.
-LaTeX Font Info:    Redeclaring math accent \widetilde on input line 9.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/lmss/m/n --> TU/phv/m/n on input line 9.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/lmss/bx/n --> TU/phv/b/n on input line 9.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/lmtt/m/n --> TU/lmtt/m/n on input line 9.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/lmtt/m/n --> TU/lmtt/b/n on input line 9.
 LaTeX Info: Redefining \microtypecontext on input line 9.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1453,7 +1752,7 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (/usr/local/texlive/2020/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count418
+\c@section@level=\count547
 )
 Redoing nameref's sectioning
 Redoing nameref's label
@@ -1461,58 +1760,481 @@ LaTeX Info: Redefining \nameref on input line 9.
 LaTeX Info: Redefining \ref on input line 9.
 LaTeX Info: Redefining \pageref on input line 9.
 LaTeX Info: Redefining \nameref on input line 9.
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `futs' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-LaTeX Font Info:    Trying to load font information for FML+futmi on input line 9.
-(/usr/local/texlive/2020/texmf-dist/tex/latex/fourier/fmlfutmi.fd
-File: fmlfutmi.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futmi.
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+(/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2019/12/01 v3.14 biblatex localization (PK/MW)
 )
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 9.19998pt on input line 9.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.99199pt on input line 9.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 9.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 9.19998pt on input line 9.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.99199pt on input line 9.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 9.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 9.
- (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-) (/usr/local/texlive/2020/texmf-dist/tex/latex/microtype/mt-msa.cfg
-File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+Package biblatex Info: Trying to load language 'ngerman'...
+Package biblatex Info: ... file 'ngerman.lbx' found.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/lbx/ngerman.lbx
+File: ngerman.lbx 2019/12/01 v3.14 biblatex localization (PK/MW)
+Package biblatex Info: Trying to load language 'german'...
+Package biblatex Info: ... file 'german.lbx' found.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/lbx/german.lbx
+File: german.lbx 2019/12/01 v3.14 biblatex localization (PK/MW)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 9.
- (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) (/usr/local/texlive/2020/texmf-dist/tex/latex/microtype/mt-msb.cfg
-File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+Package biblatex Info: Trying to load language 'german'...
+Package biblatex Info: ... file 'german.lbx' found.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/lbx/german.lbx
+File: german.lbx 2019/12/01 v3.14 biblatex localization (PK/MW)
+))
+Package biblatex Info: Trying to load language 'french'...
+Package biblatex Info: ... file 'french.lbx' found.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/lbx/french.lbx
+File: french.lbx 2019/12/01 v3.14 biblatex localization (PK/MW)
 )
-LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 9.
- (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/ot1lmss.fd
-File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `lmss' (encoding: OT1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 9.
- (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/ot1lmtt.fd
-File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `lmtt' (encoding: OT1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
- (./front_matter/main.tex
-\openout2 = `front_matter/0_titlepage.aux'.
+Package biblatex Info: XeTeX detected.
+(biblatex)             Assuming input encoding 'utf8'.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout7 = `main.bcf'.
 
- (./front_matter/0_titlepage.tex
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'main.bbl' found.
+ (/Users/malte/ETH-Documents/thesis/build/main.bbl
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                ...
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                Bliss1939
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                Frost2005
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                Gregory2018
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                Hawkey2008
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                Leekha2011
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                Smillie2010
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+)
+Package biblatex Info: Reference section=0 on input line 9.
+Package biblatex Info: Reference segment=0 on input line 9.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `Erewhon-Math.otf' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+Package microtype Info: Character `\textquoteleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquoteright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquotedblleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquotedblright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\AE ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\quotesinglbase ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\quotedblbase ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guilsinglleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guilsinglright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guillemotleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guillemotright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textexclamdown ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquestiondown ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquoteleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/m/n/7.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquoteright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/m/n/7.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquotedblleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/m/n/7.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquotedblright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/m/n/7.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\AE ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/m/n/7.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\quotesinglbase ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/m/n/7.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\quotedblbase ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/m/n/7.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guilsinglleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/m/n/7.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guilsinglright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/m/n/7.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guillemotleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/m/n/7.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guillemotright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/m/n/7.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textexclamdown ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/m/n/7.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquestiondown ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/m/n/7.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquoteleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquoteright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquotedblleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquotedblright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\AE ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\quotesinglbase ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\quotedblbase ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guilsinglleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guilsinglright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guillemotleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guillemotright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textexclamdown ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquestiondown ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 9.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `TU/Erewhon-Math.otf(2)/m/n' will be
+(Font)              scaled to size 10.00107pt on input line 9.
+Package microtype Info: Character `\textquoteleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquoteright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquotedblleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquotedblright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\AE ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\quotesinglbase ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\quotedblbase ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guilsinglleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guilsinglright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guillemotleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guillemotright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textexclamdown ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquestiondown ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Font shape `TU/Erewhon-Math.otf(2)/m/n' will be
+(Font)              scaled to size 7.60081pt on input line 9.
+Package microtype Info: Character `\textquoteleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/m/n/7.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquoteright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/m/n/7.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquotedblleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/m/n/7.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquotedblright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/m/n/7.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\AE ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/m/n/7.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\quotesinglbase ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/m/n/7.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\quotedblbase ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/m/n/7.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guilsinglleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/m/n/7.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guilsinglright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/m/n/7.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guillemotleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/m/n/7.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guillemotright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/m/n/7.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textexclamdown ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/m/n/7.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquestiondown ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/m/n/7.6'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Font shape `TU/Erewhon-Math.otf(2)/m/n' will be
+(Font)              scaled to size 6.00064pt on input line 9.
+Package microtype Info: Character `\textquoteleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquoteright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquotedblleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquotedblright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\AE ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\quotesinglbase ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\quotedblbase ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guilsinglleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guilsinglright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guillemotleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guillemotright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textexclamdown ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquestiondown ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Font shape `TU/Erewhon-Math.otf(3)/m/n' will be
+(Font)              scaled to size 9.99893pt on input line 9.
+Package microtype Info: Character `\textquoteleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquoteright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquotedblleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquotedblright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\AE ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\quotesinglbase ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\quotedblbase ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guilsinglleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guilsinglright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guillemotleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guillemotright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textexclamdown ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquestiondown ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Font shape `TU/Erewhon-Math.otf(3)/m/n' will be
+(Font)              scaled to size 7.59918pt on input line 9.
+Package microtype Info: Character `\textquoteleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/m/n/7.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquoteright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/m/n/7.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquotedblleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/m/n/7.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquotedblright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/m/n/7.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\AE ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/m/n/7.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\quotesinglbase ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/m/n/7.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\quotedblbase ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/m/n/7.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guilsinglleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/m/n/7.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guilsinglright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/m/n/7.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guillemotleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/m/n/7.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guillemotright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/m/n/7.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textexclamdown ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/m/n/7.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquestiondown ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/m/n/7.6'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Font shape `TU/Erewhon-Math.otf(3)/m/n' will be
+(Font)              scaled to size 5.99936pt on input line 9.
+Package microtype Info: Character `\textquoteleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquoteright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquotedblleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquotedblright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\AE ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\quotesinglbase ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\quotedblbase ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guilsinglleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guilsinglright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guillemotleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guillemotright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textexclamdown ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquestiondown ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Trying to load font information for TU+phv on input line 9.
+LaTeX Font Info:    No file TUphv.fd. on input line 9.
+
+
+LaTeX Font Warning: Font shape `TU/phv/m/n' undefined
+(Font)              using `TU/lmr/m/n' instead on input line 9.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/microtype/mt-LatinModernRoman.cfg
+File: mt-LatinModernRoman.cfg 2013/03/13 v1.0 microtype config. file: Latin Modern Roman (RS)
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `phv' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmtt' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+ (./front_matter/main.tex (./front_matter/0_titlepage.tex
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: xetex
 * paper: <default>
@@ -1554,13 +2276,9 @@ LaTeX Font Warning: Font shape `TU/utopia/b/n' undefined
 
 
 
-
 ] [2
 
-])
-\openout2 = `front_matter/1a_Summary_EN.aux'.
-
- (./front_matter/1a_Summary_EN.tex
+]) (./front_matter/1a_Summary_EN.tex
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `Optima' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
@@ -1570,112 +2288,52 @@ Package microtype Info: Loading generic protrusion settings for font family
 LaTeX Font Warning: Font shape `TU/Optima(1)/m/sc' undefined
 (Font)              using `TU/Optima(1)/m/n' instead on input line 3.
 
-) [1
+) (./front_matter/1b_Summary_DE.tex [1
 
 
+] [2
 
-
-]
-\openout2 = `front_matter/1b_Summary_DE.aux'.
-
- (./front_matter/1b_Summary_DE.tex [2
-
-
-
-]) [3] [4
-
-
-]) (/Users/malte/ETH-Documents/thesis/build/main.toc)
+]) [3] [4]) (/Users/malte/ETH-Documents/thesis/build/main.toc)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [5]
+ [5
+
+]
 
 LaTeX Font Warning: Font shape `TU/utopia/m/sc' undefined
 (Font)              using `TU/utopia/m/n' instead on input line 29.
 
-[6] (./chapter_1/main.tex
+[6] (./chapter_1/ch1.tex
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `Futura' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- (/Users/malte/ETH-Documents/thesis/build/bu1.aux)
-\openout7 = `bu1.aux'.
 
-
-
-Package natbib Warning: Citation `Hawkey2008' on page 1 undefined on input line 7.
-
-
-Package natbib Warning: Citation `Frost2005' on page 1 undefined on input line 14.
-
-
-Package natbib Warning: Citation `Smillie2010' on page 1 undefined on input line 14.
-
-
-Package natbib Warning: Citation `Gregory2018' on page 1 undefined on input line 20.
+Overfull \hbox (5.44832pt too wide) in paragraph at lines 7--11
+\TU/utopia/b/n/10 developed world, to the extent that effective treatment is now often taken for granted [[]].
+ []
 
 [1
 
 
 ]
 
-Package natbib Warning: Citation `Leekha2011' on page 2 undefined on input line 27.
-
-
-Package natbib Warning: Citation `...' on page 2 undefined on input line 34.
-
-
 LaTeX Font Warning: Font shape `TU/utopia/m/it' undefined
 (Font)              using `TU/utopia/m/n' instead on input line 37.
 
 [2]
-Overfull \hbox (17.92632pt too wide) in paragraph at lines 50--53
-\TU/utopia/m/it/10 compatibility-tested plasmids—originally isolated from hospital patients in a previous study []Tschudin-
- []
-
-
-Package natbib Warning: Citation `...' on page 3 undefined on input line 58.
-
-
 Underfull \vbox (badness 2680) has occurred while \output is active []
 
- [3]) (/Users/malte/ETH-Documents/thesis/build/bu1.bbl [4]
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `lmtt' (encoding: TU).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
+ [3] [4] [5
 
-Underfull \hbox (badness 1270) in paragraph at lines 74--220
-\TU/utopia/m/it/10 Temitope Cyrus Ekundayo, Iman El Sayed, Muhammed Elhadi, Waseem El-Huneidi,
+] [6] [7]
+Overfull \hbox (1.09602pt too wide) in paragraph at lines 79--79
+\TU/utopia/m/sc/10 Python”. In: Proc. 9th Python Sci. Conf. 2010, pp. 92–96. doi: []$[][] [] [][][][][] [] [][][][][][] [][] [][][][][][][][] [][]
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 74--220
-[][][][][][][][] [] [][][][][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] [] [][][][] [] [][][]$\TU/utopia/m/it/10 .
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 74--220
-[] [] [][][] [] [][][][][][][][][] [] [][][] [] [][][][][][] [] [][][][][][][][][][][][] [] [][][] [] [][][][][][][][][][][][][][][][][][][][][][] [] [] [] [][][] []
- []
-
-[5
+) (./main_1/ch2.tex [8] (./main_1/introduction.tex [9
 
 ]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [6]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [7]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [8] [9]) (/Users/malte/ETH-Documents/thesis/build/bu1.aux) (/Users/malte/ETH-Documents/thesis/build/bu.aux) (./main_1/main.tex [10] (./main_1/introduction.tex [11
-
-] (/Users/malte/ETH-Documents/thesis/build/bu2.aux)
-\openout7 = `bu2.aux'.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -1688,39 +2346,277 @@ either increase the head height or redesign the header
 
 Overfull \vbox (8.0pt too high) has occurred while \output is active []
 
- [12]
+ [10]
 
 LaTeX Font Warning: Font shape `TU/utopia/b/sc' undefined
 (Font)              using `TU/utopia/b/n' instead on input line 45.
 
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 45.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 45.
+Package microtype Info: Character `\textquoteleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/m/n/9'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquoteright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/m/n/9'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquotedblleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/m/n/9'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquotedblright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/m/n/9'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\AE ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/m/n/9'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\quotesinglbase ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/m/n/9'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\quotedblbase ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/m/n/9'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guilsinglleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/m/n/9'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guilsinglright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/m/n/9'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guillemotleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/m/n/9'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guillemotright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/m/n/9'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textexclamdown ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/m/n/9'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquestiondown ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/m/n/9'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquoteleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquoteright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquotedblleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquotedblright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\AE ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\quotesinglbase ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\quotedblbase ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guilsinglleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guilsinglright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guillemotleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guillemotright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textexclamdown ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquestiondown ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Font shape `TU/Erewhon-Math.otf(2)/m/n' will be
+(Font)              scaled to size 9.00096pt on input line 45.
+Package microtype Info: Character `\textquoteleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/m/n/9'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquoteright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/m/n/9'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquotedblleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/m/n/9'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquotedblright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/m/n/9'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\AE ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/m/n/9'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\quotesinglbase ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/m/n/9'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\quotedblbase ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/m/n/9'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guilsinglleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/m/n/9'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guilsinglright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/m/n/9'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guillemotleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/m/n/9'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guillemotright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/m/n/9'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textexclamdown ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/m/n/9'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquestiondown ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/m/n/9'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Font shape `TU/Erewhon-Math.otf(2)/m/n' will be
+(Font)              scaled to size 5.00053pt on input line 45.
+Package microtype Info: Character `\textquoteleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquoteright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquotedblleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquotedblright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\AE ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\quotesinglbase ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\quotedblbase ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guilsinglleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guilsinglright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guillemotleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guillemotright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textexclamdown ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquestiondown ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Font shape `TU/Erewhon-Math.otf(3)/m/n' will be
+(Font)              scaled to size 8.99904pt on input line 45.
+Package microtype Info: Character `\textquoteleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/m/n/9'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquoteright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/m/n/9'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquotedblleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/m/n/9'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquotedblright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/m/n/9'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\AE ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/m/n/9'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\quotesinglbase ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/m/n/9'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\quotedblbase ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/m/n/9'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guilsinglleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/m/n/9'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guilsinglright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/m/n/9'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guillemotleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/m/n/9'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guillemotright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/m/n/9'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textexclamdown ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/m/n/9'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquestiondown ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/m/n/9'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Font shape `TU/Erewhon-Math.otf(3)/m/n' will be
+(Font)              scaled to size 4.99947pt on input line 45.
+Package microtype Info: Character `\textquoteleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquoteright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquotedblleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquotedblright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\AE ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\quotesinglbase ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\quotedblbase ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guilsinglleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guilsinglright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guillemotleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guillemotright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textexclamdown ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquestiondown ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
 
 Overfull \hbox (3.19087pt too wide) in paragraph at lines 53--53
-[]|\TU/utopia/m/sc/10 prevention| 
+[]|\TU/phv/m/n/10 prevention| 
  []
 
 
 Overfull \hbox (11.21088pt too wide) in paragraph at lines 54--54
-[]|\TU/utopia/m/sc/10 containment| 
+[]|\TU/phv/m/n/10 containment| 
  []
 
 
 Overfull \hbox (2.31088pt too wide) in paragraph at lines 55--55
-[]|\TU/utopia/m/sc/10 maximum-
+[]|\TU/phv/m/n/10 maximum-
  []
 
 
 Overfull \hbox (2.33087pt too wide) in paragraph at lines 55--55
-\TU/utopia/m/sc/10 emergence| 
+\TU/phv/m/n/10 emergence| 
  []
 
 ) (./main_1/results.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [13]
+ [11]
 File: main_1/end_anova.pdf Graphic file (type pdf)
 <use main_1/end_anova.pdf>
 
@@ -1730,20 +2626,20 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 Overfull \vbox (8.0pt too high) has occurred while \output is active []
 
- [14]
+ [12]
 File: main_1/scen3_paper.pdf Graphic file (type pdf)
 <use main_1/scen3_paper.pdf>
 
 
-LaTeX Warning: Float too large for page by 8.42546pt on input line 47.
+LaTeX Warning: Float too large for page by 8.42546pt on input line 44.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [15]
+ [13]
 Overfull \vbox (8.0pt too high) has occurred while \output is active []
 
- [16] [17]
+ [14] [15]
 File: main_1/20220412_f_emergence_anova.pdf Graphic file (type pdf)
 <use main_1/20220412_f_emergence_anova.pdf>
 File: main_1/20220412_encounter_frequencies.pdf Graphic file (type pdf)
@@ -1751,12 +2647,12 @@ File: main_1/20220412_encounter_frequencies.pdf Graphic file (type pdf)
 File: main_1/20220412_conjugation_prop.pdf Graphic file (type pdf)
 <use main_1/20220412_conjugation_prop.pdf>
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--103
+Underfull \hbox (badness 10000) in paragraph at lines 94--99
 [][]
  []
 
 
-Overfull \hbox (15.81978pt too wide) in paragraph at lines 96--119
+Overfull \hbox (15.81978pt too wide) in paragraph at lines 92--115
  [][] 
  []
 
@@ -1766,104 +2662,104 @@ Underfull \vbox (badness 1939) has occurred while \output is active []
 
 Overfull \vbox (8.0pt too high) has occurred while \output is active []
 
- [18]
+ [16]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [19]
+ [17]
 Overfull \vbox (8.0pt too high) has occurred while \output is active []
 
- [20]
+ [18]
 File: main_1/wins_and_losses_preexisting.pdf Graphic file (type pdf)
 <use main_1/wins_and_losses_preexisting.pdf>
 File: main_1/wins_and_losses_no_preex.pdf Graphic file (type pdf)
 <use main_1/wins_and_losses_no_preex.pdf>
 
-Underfull \hbox (badness 10000) in paragraph at lines 184--184
+Underfull \hbox (badness 10000) in paragraph at lines 179--179
 []\TU/utopia/m/it/9 Fig. 2.4 |Effectiveness of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 184--184
+Underfull \hbox (badness 10000) in paragraph at lines 179--179
 \TU/utopia/m/it/9 of uninfected individuals
  []
 
 
-Underfull \hbox (badness 1509) in paragraph at lines 184--184
+Underfull \hbox (badness 1509) in paragraph at lines 179--179
 \TU/utopia/m/it/9 across randomly generated
  []
 
 
-Underfull \hbox (badness 2158) in paragraph at lines 184--184
+Underfull \hbox (badness 2158) in paragraph at lines 179--179
 \TU/utopia/m/it/9 any other are marked as
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 184--184
+Underfull \hbox (badness 10000) in paragraph at lines 179--179
 \TU/utopia/m/it/9 significantly worse than
  []
 
 
-Underfull \hbox (badness 1565) in paragraph at lines 184--184
+Underfull \hbox (badness 1565) in paragraph at lines 179--179
 \TU/utopia/m/it/9 all others as single losers
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 184--184
+Underfull \hbox (badness 10000) in paragraph at lines 179--179
 \TU/utopia/m/it/9 significantly worse than
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 184--184
+Underfull \hbox (badness 10000) in paragraph at lines 179--179
 \TU/utopia/m/it/9 those significantly better
  []
 
 
-Underfull \hbox (badness 2990) in paragraph at lines 184--184
+Underfull \hbox (badness 2990) in paragraph at lines 179--179
 \TU/utopia/m/it/9 than all others as single
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 184--184
+Underfull \hbox (badness 10000) in paragraph at lines 179--179
 \TU/utopia/m/it/9 gies without significant
  []
 
 
-Underfull \hbox (badness 7613) in paragraph at lines 184--184
+Underfull \hbox (badness 7613) in paragraph at lines 179--179
 \TU/utopia/m/it/9 differences were excluded.
  []
 
 
-Underfull \hbox (badness 1189) in paragraph at lines 184--184
+Underfull \hbox (badness 1189) in paragraph at lines 179--179
 \TU/utopia/m/it/9 (A) 10,000 parameter sets
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 184--184
+Underfull \hbox (badness 10000) in paragraph at lines 179--179
 \TU/utopia/m/it/9 with pre-existing double
  []
 
 
-Underfull \hbox (badness 1325) in paragraph at lines 184--184
+Underfull \hbox (badness 1325) in paragraph at lines 179--179
 \TU/utopia/m/it/9 (B) 10,000 parameter sets
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 184--184
+Underfull \hbox (badness 10000) in paragraph at lines 179--179
 \TU/utopia/m/it/9 resistance. 100/10,000
  []
 
 
-Underfull \hbox (badness 1735) in paragraph at lines 184--184
+Underfull \hbox (badness 1735) in paragraph at lines 179--179
 \TU/utopia/m/it/9 sets yielded no significant
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 184--184
+Underfull \hbox (badness 10000) in paragraph at lines 179--179
 \TU/utopia/m/it/9 difference between the
  []
 
 
-Overfull \hbox (15.81978pt too wide) in paragraph at lines 168--188
+Overfull \hbox (15.81978pt too wide) in paragraph at lines 163--183
  [][] 
  []
 
@@ -1873,70 +2769,230 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 ) (./main_1/discussion.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [21]
+ [19]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Overfull \vbox (8.0pt too high) has occurred while \output is active []
 
- [22]
+ [20]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [23]) (./main_1/methods.tex
-Overfull \hbox (1.6863pt too wide) in paragraph at lines 4--7
-\TU/utopia/m/sc/10 nario) or 5 $\FML/futmi/m/it/10 ^^Vg\T1/futs/m/n/10 /\FML/futmi/m/it/10 ml$ \TU/utopia/m/sc/10 (containment and max-emergence scenario) chloramphenicol as a liquid medium
- []
-
-
+ [21]) (./main_1/methods.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Overfull \vbox (8.0pt too high) has occurred while \output is active []
 
- [24] [25]
+ [22] [23]
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `Erewhon' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
 Overfull \vbox (8.0pt too high) has occurred while \output is active []
 
- [26]
+ [24]
 Overfull \hbox (11.12035pt too wide) in paragraph at lines 66--68
-[]\TU/Optima(1)/b/n/10 Scenarios.[] \TU/utopia/m/sc/10 We conducted experiments for three scenarios (prevention, containment, and maximum-
+[]\TU/Optima(1)/b/n/10 Scenarios.[] \TU/phv/m/n/10 We conducted experiments for three scenarios (prevention, containment, and maximum-
  []
 
 
 Underfull \vbox (badness 3386) has occurred while \output is active []
 
- [27]
-Overfull \hbox (21.88501pt too wide) in paragraph at lines 86--88
-\TU/utopia/m/sc/10 94 in silico patients, each capable of adopting one of six resistance profiles $\FML/futmi/m/it/10 ^^^ \FMS/futm/m/n/10 2 f\FML/futmi/m/it/10 U; S; A[]; B[]; AB[]; \T1/futs/m/n/10 (\FML/futmi/m/it/10 A[]\T1/futs/m/n/10 &\FML/futmi/m/it/10 B[]\T1/futs/m/n/10 )\FMS/futm/m/n/10 g$\TU/utopia/m/sc/10 .
+ [25]
+Overfull \hbox (23.8577pt too wide) in paragraph at lines 86--88
+\TU/phv/m/n/10 94 in silico patients, each capable of adopting one of six resistance profiles $[] [] [][][] [][] [][][] [][][] [][][][] [][][][][][][][]$.
  []
 
 
 Overfull \vbox (8.0pt too high) has occurred while \output is active []
 
- [28]) (./main_1/acknow.tex)) (/Users/malte/ETH-Documents/thesis/build/bu2.bbl [29] [30
+ [26]) (./main_1/acknow.tex) [27] [28
 
-] [31] [32]) (/Users/malte/ETH-Documents/thesis/build/bu2.aux) (/Users/malte/ETH-Documents/thesis/build/bu.aux) [33] [34
+] [29] [30] [31]
+Overfull \hbox (1.09602pt too wide) in paragraph at lines 43--43
+\TU/phv/m/n/10 Python”. In: Proc. 9th Python Sci. Conf. 2010, pp. 92–96. doi: []$[][] [] [][][][][] [] [][][][][][] [][] [][][][][][][][] [][]
+ []
 
-] [35] [36
+) (./supplementary_1/ch2_sup.tex (./supplementary_1/commands.tex
+\tikzbox=\box88
+) (./supplementary_1/SI_text.tex [32]
+Overfull \hbox (1.25636pt too wide) in paragraph at lines 12--17
+\TU/phv/m/n/10 followed by selection for ampicillin and chloramphenicol resistance. This results in the ceftazidime-
+ []
 
-] [37] [38
 
-]
+Overfull \hbox (5.77966pt too wide) in paragraph at lines 27--32
+[]\TU/Optima(1)/b/n/10 Conjugation Protocol.[][] \TU/phv/m/n/10 We used ampicillin-resistant and chloramphenicol-sensitive original donors
+ []
+
+[33] [34] [35] [36]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [37] [38] [39] [40] [41]) [42] [43] (./supplementary_1/SI_figures.tex
+File: supplementary_1/figures/setup.pdf Graphic file (type pdf)
+<use supplementary_1/figures/setup.pdf>
+File: supplementary_1/figures/20210417_timeplot.pdf Graphic file (type pdf)
+<use supplementary_1/figures/20210417_timeplot.pdf>
+
+
+LaTeX Font Warning: Font shape `TU/utopia/b/it' undefined
+(Font)              using `TU/utopia/b/n' instead on input line 24.
+
+(./supplementary_1/tikz/stoch_exp.tex) (./supplementary_1/tikz/stoch_val.tex) (./supplementary_1/tikz/stoch_var.tex
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+) (./supplementary_1/tikz/stoch_par.tex)
+File: supplementary_1/figures/20220127_timeplot.pdf Graphic file (type pdf)
+<use supplementary_1/figures/20220127_timeplot.pdf>
+ [44] [45] [46] [47]
+File: supplementary_1/figures/20220412_Ar_resulting_phenotypes.pdf Graphic file (type pdf)
+<use supplementary_1/figures/20220412_Ar_resulting_phenotypes.pdf>
+
+Overfull \hbox (9.99998pt too wide) in paragraph at lines 69--69
+ [][] 
+ []
+
+(./supplementary_1/tikz/phenotyping.tex)
+Overfull \hbox (8.87999pt too wide) in paragraph at lines 69--78
+[][]     []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--78
+
+ []
+
+[48]
+File: supplementary_1/figures/plasmid_costs.pdf Graphic file (type pdf)
+<use supplementary_1/figures/plasmid_costs.pdf>
+ [49]
+File: supplementary_1/figures/20210417_timeplot_clean.pdf Graphic file (type pdf)
+<use supplementary_1/figures/20210417_timeplot_clean.pdf>
+File: supplementary_1/figures/wins_and_losses_clean_preexisting.pdf Graphic file (type pdf)
+<use supplementary_1/figures/wins_and_losses_clean_preexisting.pdf>
+File: supplementary_1/figures/wins_and_losses_clean_no_preex.pdf Graphic file (type pdf)
+<use supplementary_1/figures/wins_and_losses_clean_no_preex.pdf>
+) [50] [51] (./supplementary_1/SI_tables.tex
+Missing character: There is no 𝜗 in font [Erewhon-Bold.otf]/OT:script=latn;language=dflt;!
+Missing character: There is no 𝜗 in font [Erewhon-Bold.otf]/OT:script=latn;language=dflt;!
+Missing character: There is no 𝜗 in font [Erewhon-Bold.otf]/OT:script=latn;language=dflt;!
+Missing character: There is no 𝜗 in font [Erewhon-Bold.otf]/OT:script=latn;language=dflt;!
+Missing character: There is no 𝜗 in font [Erewhon-Bold.otf]/OT:script=latn;language=dflt;!
+
+Overfull \hbox (93.10564pt too wide) in paragraph at lines 18--19
+ [][] 
+ []
+
+(./supplementary_1/tables/man_ferroni.tex)
+Overfull \hbox (44.80643pt too wide) in paragraph at lines 1--27
+ [][] 
+ []
+
+(./supplementary_1/tables/loss_data.tex)
+Overfull \hbox (70.09569pt too wide) in paragraph at lines 1--39
+ [][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [52
+
+
+
+
+
+] (./supplementary_1/tables/growthcurves_and_rates.tex)
+Overfull \hbox (12.38338pt too wide) in paragraph at lines 75--86
+ [][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [53] (./supplementary_1/tables/best_stats_no_preex.tex)
+Overfull \hbox (27.70906pt too wide) in paragraph at lines 1--135
+ [][] 
+ []
+
+(./supplementary_1/tables/worst_stats_no_preex.tex)
+Overfull \hbox (6.86905pt too wide) in paragraph at lines 1--144
+ [][] 
+ []
+
+(./supplementary_1/tables/best_stats_preexisting.tex)
+Overfull \hbox (27.70906pt too wide) in paragraph at lines 1--153
+ [][] 
+ []
+
+(./supplementary_1/tables/worst_stats_preexisting.tex)
+Overfull \hbox (6.86905pt too wide) in paragraph at lines 1--162
+ [][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [54] (./supplementary_1/tables/win_loss_statistic_preexisting.tex) (./supplementary_1/tables/win_loss_statistic_no_preex.tex) (./supplementary_1/tables/win_loss_statistic_clean_preexisting.tex) (./supplementary_1/tables/win_loss_statistic_clean_no_preex.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [55]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [56]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [57]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [58] (./supplementary_1/tables/20210417U_anova.tex) (./supplementary_1/tables/20210417U_tukey.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [59] (./supplementary_1/tables/20210417single_anova.tex) (./supplementary_1/tables/20210417single_tukey.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [60] (./supplementary_1/tables/20210417double_anova.tex) (./supplementary_1/tables/20210417double_tukey.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [61] (./supplementary_1/tables/20220127U_anova.tex) (./supplementary_1/tables/20220127U_tukey.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [62] (./supplementary_1/tables/20220127single_anova.tex) (./supplementary_1/tables/20220127single_tukey.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [63] (./supplementary_1/tables/20220127double_anova.tex) (./supplementary_1/tables/20220412U_anova.tex) (./supplementary_1/tables/20220412U_tukey.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [64] (./supplementary_1/tables/20220412single_anova.tex) (./supplementary_1/tables/20220412single_tukey.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [65] (./supplementary_1/tables/20220412double_anova.tex) (./supplementary_1/tables/20220412double_tukey.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [66] (./supplementary_1/tables/emergence_anova.tex) (./supplementary_1/tables/emergence_tukey.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [67] (./supplementary_1/tables/superinfection_anova.tex) (./supplementary_1/tables/superinfection_tukey.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [68] (./supplementary_1/tables/treatment_emergence_anova.tex) (./supplementary_1/tables/treatment_emergence_tukey.tex)) [69] [70
+
+] [71] [72] [73])
 
 Class memoir Warning: The material used in the headers is too large
 (24.0pt) for the given head height (16.0pt), it is recommended to
 either increase the head height or redesign the header
 (in both cases you will find help in the memoir manual). on input line 51.
 
-
-Package natbib Warning: There were undefined citations.
-
-[39]
+[74]
 \tf@toc=\write8
 \openout8 = `main.toc'.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 51.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 51.
- (/Users/malte/ETH-Documents/thesis/build/main.aux (/Users/malte/ETH-Documents/thesis/build/front_matter/0_titlepage.aux) (/Users/malte/ETH-Documents/thesis/build/front_matter/1a_Summary_EN.aux) (/Users/malte/ETH-Documents/thesis/build/front_matter/1b_Summary_DE.aux))
+ (/Users/malte/ETH-Documents/thesis/build/main.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 51.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 51.
 
@@ -1947,14 +3003,17 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 LaTeX Warning: There were multiply-defined labels.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 51.
+Package logreq Info: Writing requests to 'main.run.xml'.
+\openout1 = `main.run.xml'.
+
  ) 
 Here is how much of TeX's memory you used:
- 36920 strings out of 479418
- 716658 string characters out of 5884586
- 1114598 words of memory out of 5000000
- 53678 multiletter control sequences out of 15000+600000
- 584554 words of font info for 102 fonts, out of 8000000 for 9000
- 1348 hyphenation exceptions out of 8191
- 70i,15n,104p,5156b,1058s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 47465 strings out of 479418
+ 924313 string characters out of 5884586
+ 1963864 words of memory out of 5000000
+ 63961 multiletter control sequences out of 15000+600000
+ 547442 words of font info for 144 fonts, out of 8000000 for 9000
+ 1350 hyphenation exceptions out of 8191
+ 70i,19n,120p,6407b,6566s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on /Users/malte/ETH-Documents/thesis/build/main.xdv (47 pages, 837524 bytes).
+Output written on /Users/malte/ETH-Documents/thesis/build/main.xdv (82 pages, 1622816 bytes).
