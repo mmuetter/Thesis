@@ -415,12 +415,13 @@ INPUT /Users/malte/ETH-Documents/thesis/build/main.toc
 INPUT /Users/malte/ETH-Documents/thesis/build/main.toc
 INPUT chapter_1/ch1.tex
 INPUT chapter_1/ch1.tex
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/lm/lmmi7.tfm
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/lm/lmmi5.tfm
 INPUT main_1/ch2.tex
 INPUT main_1/ch2.tex
 INPUT main_1/introduction.tex
 INPUT main_1/introduction.tex
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/lm/lmmi9.tfm
-INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/lm/lmmi5.tfm
 INPUT main_1/results.tex
 INPUT main_1/results.tex
 INPUT main_1/end_anova.pdf

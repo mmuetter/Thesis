@@ -187,11 +187,53 @@
 \pretocmd{\mainmatter}{\pagestyle{pst_e}}{}{}
 \pretocmd{\appendix}{\pagestyle{pst_app}}{}{}
 \makeatother
-
 %----------------------------------------------------------
 % Bibliography (Biber + biblatex)
 %----------------------------------------------------------
-\RequirePackage[backend=biber,sorting=none,style=numeric-comp,maxnames=20,giveninits=true]{biblatex}
+\RequirePackage[
+  backend=biber,
+  sorting=none,
+  style=numeric-comp,
+  maxnames=20,
+  giveninits=true
+]{biblatex}
 
 \addbibresource{bibliographies/TSPlasmid.bib}
 \addbibresource{bibliographies/thesis.bib}
+
+% optional font for bib
+\AtBeginBibliography{\scriptsize}
+
+% -------------------------------------------------
+%  Environment  compactbib  (needs biblatex loaded)
+% -------------------------------------------------
+\AtBeginDocument{%
+  \defbibenvironment{compactbib}                % <- correct macro
+    {%
+      \list
+        {\printtext[labelnumberwidth]{%
+           \printfield{labelprefix}\printfield{labelnumber}}}%
+        {%
+         % hanging‑indent layout
+         \setlength{\labelwidth}{\labelnumberwidth}%
+         \setlength{\labelsep}{\biblabelsep}%
+         \setlength{\leftmargin}{\dimexpr\labelwidth+\labelsep\relax}%
+         % tighter vertical spacing
+         \setlength{\itemsep}{0.1\baselineskip}%
+         \setlength{\parsep}{0pt}%
+         \setlength{\parskip}{0pt}%
+         % start of each entry
+         \usebibmacro{begentry}}%
+    }%
+    {\endlist}      % what to do at the end
+    {\item\usebibmacro{finentry}} % each \item
+}
+
+% -------------------------------------------------
+%  Chapter‑level bibliography command
+% -------------------------------------------------
+\newcommand{\chapterbibliography}{%
+  \clearpage
+  \section*{Bibliography}%
+  \printbibliography[heading=none,env=compactbib]%
+}
