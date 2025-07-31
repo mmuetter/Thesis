@@ -2293,6 +2293,9 @@
     <bcf:datasource type="file" datatype="bibtex">bibliographies/thesis.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="5">
+    <bcf:citekey order="1">Gregory2018</bcf:citekey>
+    <bcf:citekey order="2">Kishony2003</bcf:citekey>
+    <bcf:citekey order="3">ECDC2023_NL_SE</bcf:citekey>
   </bcf:section>
   <!-- SECTION 0 (cont.) -->
   <bcf:section number="0">

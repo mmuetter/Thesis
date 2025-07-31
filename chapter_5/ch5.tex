@@ -4,13 +4,64 @@
 
 \begin{document}
 
-\section{Is combination the best treatment strategy?}
+It is clear that antimicrobial resistance (AMR) will remain a significant health crisis for the foreseeable future, underscoring the importance of understanding the evolutionary forces shaping bacterial population dynamics under antibiotic pressure.
+This thesis addressed several interlinked questions centered around how antimicrobial treatment affects microbial populations at both within- and between-host scales.
+Our attempt to answer these questions inevitably led to new insights and further inquiries:
+How should antibiotics be deployed when the resistance phenotype of the infecting pathogen is unknown?
+Is combination therapy consistently superior to alternative strategies in suppressing resistance?
+How does horizontal gene transfer, especially mediated by plasmids, alter the evolutionary landscape compared to purely chromosomal resistance?
+What are the pharmacodynamic implications of combining antibiotics?
+And finally, how can we reliably quantify bacterial population dynamics under inhibitory conditions to adequately explore these drug interactions?
 
-\section{Can we use change of luminescent light intensity to approximate the net growth rate?}
+In the following sections, we revisit these core questions and summarize the key insights gained throughout this thesis.
 
-\section{can we extrapolate sub-mic measures of drug interactions to the super-mic?}
+\section{Is combination therapy the best treatment strategy?}
 
-\section{General Concluding Note}
-%\chapterbibliography
+Determining whether combination therapy is \emph{the} optimal regimen is not straightforward, because the very definition of therapeutic “success’’ remains contested and aspects such as tolerability are rarely built into current models and population level success is not always the best outcome for each individual.  In Chapter~2 we therefore focused on three population‑level outcomes that also benefit individual patients, well knowing that these do not cover the full complixity: (i) prevention of double resistance, (ii) suppression of single resistance, and (iii) reduction of the overall infection burden.
+
+Using an \textit{in‑vitro} hospital‑ward model we tested these endpoints under three scenarios.  In the \emph{prevention} setting (no pre‑existing double resistance) and the \emph{containment} setting (double resistance already present), both parametrised with realistic basic reproduction numbers (\$R\_0\$), combination consistently achieved the lowest levels of single and double resistance; mixing and cycling performed nearly as well, whereas monotherapies allowed single resistance to accumulate.  A sensitivity analysis based on a stochastic model calibrated to the experiments confirmed the dominance of combination across a wide parameter range.
+
+Because double resistance appeared only rarely in those realistic scenarios, we created an intentionally extreme \emph{emergence} scenario in which every incoming patient carried a single‑resistant strain.  Even under this strong selection pressure, combination therapy generated the fewest new double‑resistant infections, while the untreated control produced the most.
+
+At first sight these findings contradict two common reservations: (i) that combination inevitably selects pre‑existing double resistance, and (ii) that using more drugs must create more resistance.  In our containment scenario small minorities of double‑resistant bacteria indeed persisted for long periods—even without treatment—so their eradication seems unlikely under any regimen.  Crucially, however, the practical challenge is to prevent \emph{new} double‑resistant strains, and here combination outperformed all alternatives.  Likewise, the correlation between total antibiotic use and resistance \cite{Gregory2018} does not hold when both drugs are applied simultaneously to block plasmid transfer: in our experiments ´´more drugs'' meant \emph{less} resistance.
+
+The mechanistic explanation hinges on the contrast between purely vertical (chromosomal) and horizontally transferable (plasmid) resistance.  For chromosomal genes the probability of double resistance scales with mutation rate and the \emph{number of bacteria} carrying single resistances.  For plasmids it scales with the probability that A‑ and B‑resistant bacteria \emph{meet} and conjugate.  Combination therapy tackles both facets: it reduces the prevalence of single-resistant infections across the ward and suppresses plasmid exchange within super‑infected hosts, whereas withholding treatment maximises both processes.
+
+Admittedly, it is not surprising that our \textit{in-vitro} results align with theoretical predictions: both approaches share the same core assumptions and omit major real-world complexities such as host heterogeneity, variable pharmacokinetics, microbiome interactions, and treatment tolerability. Nevertheless, the experimental-epidemiology framework offers a compelling middle ground. By using real bacterial strains and clinically relevant antibiotics, it adds biological realism that pure modelling lacks, yet it still controls key confounders and remains far more affordable and ethically straightforward than large-scale clinical trials.
+
+What I take away from this work is that the observation that more antibiotic use leads to more resistance should not discourage appropriate treatment. While this may hold at large scales, it does not necessarily apply in individual settings like hospitals. There, it is more important to treat effectively—especially to eliminate resistant bacteria. Combination therapy does this most reliably. Used appropriately, antibiotics can sometimes reduce resistance rather than promote it.
+
+\section{Can luminescence serve as a proxy for net growth?}
+
+To analyse drug interactions on a large scale, we adopted the bioluminescence assay of \cite{Kishony2003} and tested its suitability at inhibitory concentrations in Chapter~3.
+
+To understand when luminescence can approximate net growth, we formalized the dynamics of light emission in simplified equations. In this framework, the change in light intensity approximates:
+(i) the change in \emph{cell number}, if the per-cell light emission (cell-specific luminosity) remains constant, and
+(ii) the change in \emph{biomass}, if the cell-specific luminosity scales with cell mass.
+In our experiments, we observed that the change in light intensity consistently matched the estimated change in biomass more closely than the estimated change in cell number, making (ii) the better assumption.
+This means we can typically use the change in luminescence as a proxy for biomass change, butt only approximates cell number when changes in cell size are slow compared to changes in population size.
+
+Conducting this study also highlighted the importance of knowing what each assay actually measures. CFU estimates the fraction of culturable cells and is sensitive to loss of culturability or antibiotic carry-over; OD combines signals from both live and dead biomass; and luminescence assays respond to changes in cell-specific luminosity. These distinctions are crucial when interpreting decline rates based on these read-outs, as each method implies a different operational definition of ``death.''
+
+These insights provided the basis for Chapter~4, where luminescence enabled us to quantify the population dynamics of antibiotic combinations across sub- and super-MIC ranges.
+
+\section{Can interaction data from sub-MIC concentrations be extrapolated to the killing range?}
+...
+
+\section{General concluding note}
+
+This thesis explores the selection pressures shaping antimicrobial resistance evolution within hosts and across host populations.
+
+Throughout, I have tried to be explicit about the limitations of the models and assays employed. Rather than dwelling on individual data points, I have focused on the patterns that persist across systems. Some of the most valuable lessons arose from serendipitous observations masquerading as obstacles; learning to pause and analyse such “nuisances” proved more fruitful than pushing past them.
+
+Methodologically, I hope the insights gained with bioluminescence assays will assist others who wish to quantify population dynamics at inhibitory drug levels. At the same time, the pitfalls encountered with both CFU counting and bioluminescence should serve as a cautionary tale.
+
+We found supporting evidence that, in concordance with results for chromosomal resistance, the rise of plasmid-mediated resistance can best be faced using combination therapy. Any strategy, however, must ultimately be validated in clinical settings, where host heterogeneity, patient-specific pharmacokinetics, and pathogen evolution can substantially alter outcomes.
+
+While it is still not clear whether combination therapy is categorically superior to alternative strategies, our work on the pharmacodynamics of drug combinations demonstrates that specific drug interactions can influence population dynamics, and that interactions at inhibitory concentrations are not always identical to those at sub-inhibitory levels. Considering this in future studies—by explicitly distinguishing synergistic from antagonistic combinations—could help clarify the inconclusive outcomes of current study designs.
+
+While we specifically examined uninformed treatment in this work, we should also emphasise that tailored therapy remains the preferred option. Advances in rapid diagnostics and real-time genomic surveillance could soon make patient-specific stewardship routine. Coupled with restrictive antibiotic use, consistent surveillance, and robust stewardship programmes, such precision tools could help arrest—or even reverse—the alarming global trends in AMR.
+
+The sustained low resistance rates achieved in the Netherlands and Scandinavia demonstrate that coordinated national policies can succeed~\cite{ECDC2023_NL_SE}.
 
 \end{document}

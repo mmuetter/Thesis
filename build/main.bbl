@@ -5321,5 +5321,51 @@
     \endentry
   \enddatalist
 \endrefsection
+
+\refsection{5}
+  \datalist[entry]{none/global//global/global}
+    \entry{Kishony2003}{article}{}
+      \name{author}{2}{}{%
+        {{hash=6bcdb0ad30a371c01267d28f47c5e5da}{%
+           family={Kishony},
+           familyi={K\bibinitperiod},
+           given={Roy},
+           giveni={R\bibinitperiod}}}%
+        {{hash=326f9ff59f7abd4a7d6257864345a5e1}{%
+           family={Leibler},
+           familyi={L\bibinitperiod},
+           given={Stanislas},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{ee7c95021ece4dd12583b8140eadc65a}
+      \strng{fullhash}{ee7c95021ece4dd12583b8140eadc65a}
+      \strng{bibnamehash}{ee7c95021ece4dd12583b8140eadc65a}
+      \strng{authorbibnamehash}{ee7c95021ece4dd12583b8140eadc65a}
+      \strng{authornamehash}{ee7c95021ece4dd12583b8140eadc65a}
+      \strng{authorfullhash}{ee7c95021ece4dd12583b8140eadc65a}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Background: Fundamental questions in evolutionary genetics, including the possible advantage of sexual reproduction, depend critically on the effects of deleterious mutations on fitness. Limited existing experimental evidence suggests that, on average, such effects tend to be aggravated under environmental stresses, consistent with the perception that stress diminishes the organism's ability to tolerate deleterious mutations. Here, we ask whether there are also stresses with the opposite influence, under which the organism becomes more tolerant to mutations. Results: We developed a technique, based on bioluminescence, which allows accurate automated measurements of bacterial growth rates at very low cell densities. Using this system, we measured growth rates of Escherichia coli mutants under a diverse set of environmental stresses. In contrast to the perception that stress always reduces the organism's ability to tolerate mutations, our measurements identified stresses that do the opposite - that is, despite decreasing wild-type growth, they alleviate on average the effect of deleterious mutations. Conclusions: Our results show a qualitative difference between various environmental stresses ranging from alleviation to aggravation of the average effect of mutations. We further show how the existence of stresses that are biased towards alleviation of the effects of mutations may imply the existence of average epistatic interactions between mutations. The results thus offer a connection between the two main factors controlling the effects of deleterious mutations: environmental conditions and epistatic interactions.}
+      \field{issn}{14785854}
+      \field{journaltitle}{J. Biol.}
+      \field{number}{2}
+      \field{title}{{Environmental stresses can alleviate the average deleterious effect of mutations}}
+      \field{volume}{2}
+      \field{year}{2003}
+      \field{pages}{1\bibrangedash 10}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1186/1475-4924-2-14
+      \endverb
+      \verb{file}
+      \verb :Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/2003/Kishony, Leibler - 2003 - Environmental stresses can alleviate the average deleterious effect of mutations - Journal of Biology.pdf:pdf
+      \endverb
+    \endentry
+  \enddatalist
+  \missing{ECDC2023_NL_SE}
+  \missing{Gregory2018}
+\endrefsection
 \endinput
 

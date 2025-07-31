@@ -57,7 +57,7 @@
 \contentsline {paragraph}{Contamination of the Transition Matrix. }{36}{section*.57}%
 \contentsline {paragraph}{Filtered Transition Probabilities.}{37}{section*.58}%
 \contentsline {chapter}{\chapternumberline {3}Concluding Remarks}{65}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Is combination the best treatment strategy?}{65}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Can we use change of luminescent light intensity to approximate the net growth rate?}{65}{section.3.2}%
-\contentsline {section}{\numberline {3.3}can we extrapolate sub-mic measures of drug interactions to the super-mic?}{65}{section.3.3}%
-\contentsline {section}{\numberline {3.4}General Concluding Note}{65}{section.3.4}%
+\contentsline {section}{\numberline {3.1}Is combination therapy the best treatment strategy?}{65}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Can luminescence serve as a proxy for net growth?}{67}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Can interaction data from sub-MIC concentrations be extrapolated to the killing range?}{68}{section.3.3}%
+\contentsline {section}{\numberline {3.4}General concluding note}{68}{section.3.4}%
