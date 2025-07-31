@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2021.2.1)  30 JUL 2025 21:48
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2021.2.1)  31 JUL 2025 10:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2313,15 +2313,14 @@ Overfull \hbox (5.44832pt too wide) in paragraph at lines 7--11
 \TU/utopia/b/n/10 developed world, to the extent that effective treatment is now often taken for granted [[]].
  []
 
+
+LaTeX Font Warning: Font shape `TU/utopia/m/it' undefined
+(Font)              using `TU/utopia/m/n' instead on input line 14.
+
 [1
 
 
-]
-
-LaTeX Font Warning: Font shape `TU/utopia/m/it' undefined
-(Font)              using `TU/utopia/m/n' instead on input line 39.
-
-[2]
+] [2]
 Underfull \vbox (badness 1092) has occurred while \output is active []
 
  [3]
@@ -2410,7 +2409,7 @@ Package microtype Info: Character `\textquestiondown ' is missing
 (microtype)             in font `\TU/Erewhon-Math.otf(1)/m/n/5'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `TU/Erewhon-Math.otf(2)/m/n' will be
-(Font)              scaled to size 7.00075pt on input line 99.
+(Font)              scaled to size 7.00075pt on input line 95.
 Package microtype Info: Character `\textquoteleft ' is missing
 (microtype)             in font `\TU/Erewhon-Math.otf(2)/m/n/7'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -2451,7 +2450,7 @@ Package microtype Info: Character `\textquestiondown ' is missing
 (microtype)             in font `\TU/Erewhon-Math.otf(2)/m/n/7'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `TU/Erewhon-Math.otf(2)/m/n' will be
-(Font)              scaled to size 5.00053pt on input line 99.
+(Font)              scaled to size 5.00053pt on input line 95.
 Package microtype Info: Character `\textquoteleft ' is missing
 (microtype)             in font `\TU/Erewhon-Math.otf(2)/m/n/5'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -2492,7 +2491,7 @@ Package microtype Info: Character `\textquestiondown ' is missing
 (microtype)             in font `\TU/Erewhon-Math.otf(2)/m/n/5'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `TU/Erewhon-Math.otf(3)/m/n' will be
-(Font)              scaled to size 6.99925pt on input line 99.
+(Font)              scaled to size 6.99925pt on input line 95.
 Package microtype Info: Character `\textquoteleft ' is missing
 (microtype)             in font `\TU/Erewhon-Math.otf(3)/m/n/7'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -2533,7 +2532,7 @@ Package microtype Info: Character `\textquestiondown ' is missing
 (microtype)             in font `\TU/Erewhon-Math.otf(3)/m/n/7'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `TU/Erewhon-Math.otf(3)/m/n' will be
-(Font)              scaled to size 4.99947pt on input line 99.
+(Font)              scaled to size 4.99947pt on input line 95.
 Package microtype Info: Character `\textquoteleft ' is missing
 (microtype)             in font `\TU/Erewhon-Math.otf(3)/m/n/5'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -3203,4 +3202,4 @@ Here is how much of TeX's memory you used:
  1350 hyphenation exceptions out of 8191
  70i,19n,120p,6407b,6556s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on /Users/malte/ETH-Documents/thesis/build/main.xdv (76 pages, 1652028 bytes).
+Output written on /Users/malte/ETH-Documents/thesis/build/main.xdv (76 pages, 1646528 bytes).

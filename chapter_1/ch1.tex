@@ -9,9 +9,12 @@ The threat to this achievement posed by antibiotic resistance was recognized ear
 Today, this threat has materialized: antimicrobial resistance (AMR) contributed to an estimated 4.71 million deaths in 2021, with 1.14 million deaths directly attributable to resistant infections~\cite{Naghavi2024}.
 The possibility of returning to a world where antibiotics are largely ineffective underscores the importance of understanding the ecological and evolutionary forces shaping AMR.
 
-Evolution of antibiotic resistance is driven by two key processes: mutation and selection. Resistance genes arise de novo through mutations, occurring either on bacterial chromosomes or on extrachromosomal mobile genetic elements that replicate independently, such as plasmids (small circular DNA molecules) or bacteriophages (viruses targeting bacteria). Once established, these genes can spread vertically—passed from a mother cell to its offspring during cell division—or horizontally, whereby previously susceptible cells acquire resistance by taking up foreign DNA, e.g. via plasmid conjugation.
-While some plasmids are transmitted only vertically, others can transfer horizontally between bacterial cells via conjugation. During conjugation, plasmids initiate the formation of a pilus, a physical tunnel connecting cells, allowing DNA transfer.
-This mechanism facilitates gene exchange across bacterial lineages and even species boundaries~\cite{Frost2005, Smillie2010}.
+Evolution of antibiotic resistance is driven by two key processes: mutation and selection. Resistance genes arise de novo through mutations, occurring either on bacterial chromosomes or on extrachromosomal mobile genetic elements that replicate independently, such as plasmids (small circular DNA molecules) or bacteriophages (viruses targeting bacteria). Once established, these genes can spread.
+
+Resistance genes spread in two fundamentally different ways: \emph{vertically}, when a mother cell passes them to its progeny during division, and \emph{horizontally}, when previously susceptible bacteria acquire foreign DNA.
+Horizontal transfer is often mediated by plasmids, many of which can actively initiate their own conjugation by assembling a pilus --- a physical tunnel connecting donor and recipient cells --- through which plasmid DNA is delivered.
+However, not all plasmids initiate conjugation: some rely exclusively on vertical inheritance, while others lack conjugation machinery but can opportunistically transfer by exploiting the conjugation apparatus of co-resident plasmids.
+Plasmid conjugation can facilitates gene exchange across bacterial lineages and even species boundaries~\cite{Frost2005, Smillie2010}.
 
 Whether these emerged resistance genes can persist depends on selection.
 Selection is shaped by the interplay between (i) pharmacokinetics (PK), which describes how drug concentrations change over time within the host, and (ii) pharmacodynamics (PD), which describes how these concentrations influence bacterial population dynamics~\cite{Regoes2004}.
@@ -47,11 +50,8 @@ Moreover, the choice of antibiotic combination itself can increase or decrease t
 
 To bridge the gap between theoretical models and clinical studies, Angst et al.~\cite{Angst2021} developed an \textit{in vitro} experimental setup mimicking within- and between-host dynamics under different treatment strategies, and showing that combination therapy typically best prevents resistance emergence best.
 
-They compared the effects of combination therapy, mixing, cycling, monotherapy, and no treatment (control) on the evolution of chromosomal resistance to streptomycin and nalidixic acid in \textit{Escherichia coli}.
-Their results showed that combination therapy was the most effective in preventing resistance evolution, while mixing and cycling were less effective, but still outperformed monotherapy in most cases.
-
-In Chapter~2, we refine this framework to study plasmid-mediated resistance, confirming that combination therapy generally outperforms other strategies, but also uncovering conditions under which mixing, cycling, or monotherapy perform equally well or better.
-Our results confirmed that combination therapy remains the most effective strategy even for plasmid-borne resistance, with mixing and cycling again performing better than monotherapy in most scenarios.
+In Chapter~2, we refine this framework to study plasmid-mediated resistance.
+Our results confirmed that combination therapy remains the most effective strategy in most scenarios.
 
 \subsection{Population Dynamics under Combination Therapy}
 To better understand the potential of combination therapy, a deeper insight into drug interactions is needed.
@@ -66,14 +66,10 @@ Below the MIC, bacterial growth is typically quantified using optical density (O
 However, OD does not distinguish between live and dead cells, making it unreliable for estimating net growth rates above the MIC.
 At super-MIC concentrations, colony-forming unit (CFU) assays remain the gold standard, but they are labor-intensive, costly, and can become unreliable at high drug levels.
 
-To address this limitation, Chapter~3 explores the reliability of luminescence assays, a high-throughput alternative to CFU assays, assessing their validity in measuring bacterial growth dynamics at inhibitory antibiotic concentrations.
-We found clear limitations for both the CFU and the luminescence assays; and conditions where they work well and where they do not.
+To address this gap, Chapter~3 evaluates luminescence as a high-throughput alternative to CFU counting and tests how reliably each method captures bacterial dynamics at inhibitory drug levels.
+We find that luminescence assays tend to track biomass more closely than viable cell numbers; which can cause divergence for estimated rates when cells filament.
 
-Using this method, Chapter~4 explores the pharmacodynamics of drug interactions among six antibiotics: amoxicillin, colistin, chloramphenicol, fosfomycin, polymyxinB, and tetracycline.
-In total, we measured interactions for 2160 drug-combination-concentration pairs.
-We extended the standard pharmacodynamic formalism to describe combination treatments using polar coordinates and compared the resulting curves to predictions from the Loewe additivity and Bliss independence models.
-
-\textcolor{red}{a bit too concrete; could be more conceptual}
+Using this validated approach, Chapter~4 systematically characterizes pharmacodynamic interactions for multiple antibiotic pairs, examining whether interaction classifications are consistent across sub- and super-MIC concentration ranges.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Thesis outline
@@ -84,17 +80,17 @@ In this thesis we develop experimental and analytical methods to quantify how an
 selection pressure shapes the evolution and transmission of resistance at both within‑host and between‑host scales.
 
 In Chapter~2, we use an \textit{in‑vitro} hospital‑ward model, to compare three multidrug strategies (combination, mixing, cycling), two monotherapies (Mono A, Mono B) and an untreated control.
-We show that combination therapy suppresses plasmid‑borne double resistance most
-efficiently under the majority of conditions, but also find that in certain scenarios, mixing, cycling, or even monotherapy can perform equally well or better.
+We show that combination therapy suppresses plasmid‑borne double resistance most efficiently under the majority of conditions, but also find that in certain scenarios, mixing, cycling, or even monotherapy can perform equally well.
 Surprisingly, we find that omitting treatment entirely can accelerate the emergence of multi-resistance—a phenomenon specific to plasmid-mediated resistance dynamics.
 
 In Chapter~3, we assess the applicability of luminescence assays as a high‑throughput method for estimating net growth above the MIC, benchmark them against CFU counts, and develop a mathematical framework that explains when each read‑out reflects biomass, viable cell number, or neither.
 We find that light intensity correlates more closely with biomass than with viable cell number, which leads to discrepancies in growth-rate estimates under conditions that induce filamentation.
+However, we encountered two well-documented yet commonly ignored limitations of CFU counting --- antibiotic carry-over and loss of culturability --— which make rate estimates unreliable at high drug concentrations.
 
 In Chapter~4, we build on the validated luminescence workflow, and use it to map net‑growth surfaces for $2160$ drug–drug–concentration combinations, using six antibiotics.
 From these data, we derive interaction parameters for each pair and compare them to the expectations under Loewe additivity and Bliss independence.
 We find that the classification of drug interactions can shift between sub- and super-MIC ranges, implying that interaction types at sub-MIC levels do not necessarily generalise to inhibitory concentrations.
-Furthermore, we extend the pharmacodynamic formalism to polar coordinates, allowing us to analyse how pharmacodynamic parameters of individual drugs combine under co-treatment.
+Furthermore, we extend the pharmacodynamic formalism to be applicable for drug combinations, allowing us to analyse how pharmacodynamic parameters of individual drugs combine under co-treatment.
 
 \chapterbibliography
 
