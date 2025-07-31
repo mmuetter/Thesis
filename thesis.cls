@@ -198,8 +198,10 @@
   sorting=none,
   style=numeric-comp,
   maxnames=20,
-  giveninits=true
+  giveninits=true,
+  defernumbers=true
 ]{biblatex}
+
 
 \addbibresource{bibliographies/TSPlasmid.bib}
 \addbibresource{bibliographies/thesis.bib}
@@ -233,10 +235,13 @@
 }
 
 % -------------------------------------------------
-%  Chapter‑level bibliography command
+%  Subunit command
 % -------------------------------------------------
-\newcommand{\chapterbibliography}{%
-  \clearpage
-  \section*{Bibliography}%
-  \printbibliography[heading=none,env=compactbib]%
+\newcommand{\subunit}[1]{%
+  \begin{refsection}
+    \subfile{#1}%
+    \clearpage
+    \section*{Bibliography}%
+    \printbibliography[heading=none,env=compactbib]%
+  \end{refsection}
 }

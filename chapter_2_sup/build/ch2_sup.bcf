@@ -2183,86 +2183,6 @@
     <bcf:datasource type="file" datatype="bibtex">bibliographies/thesis.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-  </bcf:section>
-  <!-- SECTION 1 -->
-  <bcf:bibdata section="1">
-    <bcf:datasource type="file" datatype="bibtex">bibliographies/TSPlasmid.bib</bcf:datasource>
-    <bcf:datasource type="file" datatype="bibtex">bibliographies/thesis.bib</bcf:datasource>
-  </bcf:bibdata>
-  <bcf:section number="1">
-  </bcf:section>
-  <!-- SECTION 0 (cont.) -->
-  <bcf:section number="0">
-  </bcf:section>
-  <!-- SECTION 2 -->
-  <bcf:bibdata section="2">
-    <bcf:datasource type="file" datatype="bibtex">bibliographies/TSPlasmid.bib</bcf:datasource>
-    <bcf:datasource type="file" datatype="bibtex">bibliographies/thesis.bib</bcf:datasource>
-  </bcf:bibdata>
-  <bcf:section number="2">
-    <bcf:citekey order="1">Hawkey2008</bcf:citekey>
-    <bcf:citekey order="2">Naghavi2024</bcf:citekey>
-    <bcf:citekey order="3">Frost2005</bcf:citekey>
-    <bcf:citekey order="3">Smillie2010</bcf:citekey>
-    <bcf:citekey order="4">Regoes2004</bcf:citekey>
-    <bcf:citekey order="5">Gregory2018</bcf:citekey>
-    <bcf:citekey order="6">Leekha2011</bcf:citekey>
-    <bcf:citekey order="7">Kable1980</bcf:citekey>
-    <bcf:citekey order="7">Delp1980</bcf:citekey>
-    <bcf:citekey order="7">Skylakakis1981</bcf:citekey>
-    <bcf:citekey order="8">Bonhoeffer1997</bcf:citekey>
-    <bcf:citekey order="8">Tepekule2017</bcf:citekey>
-    <bcf:citekey order="8">Uecker2021</bcf:citekey>
-    <bcf:citekey order="9">...</bcf:citekey>
-    <bcf:citekey order="10">Tamma2012</bcf:citekey>
-    <bcf:citekey order="11">Goldberg2012</bcf:citekey>
-    <bcf:citekey order="12">siedentop_metaanalysis_2024</bcf:citekey>
-    <bcf:citekey order="13">siedentop_metaanalysis_2024</bcf:citekey>
-    <bcf:citekey order="14">Angst2021</bcf:citekey>
-    <bcf:citekey order="15">Loewe1926</bcf:citekey>
-    <bcf:citekey order="16">Bliss1939</bcf:citekey>
-    <bcf:citekey order="17">Yeh2006</bcf:citekey>
-    <bcf:citekey order="18">...</bcf:citekey>
-  </bcf:section>
-  <!-- SECTION 0 (cont.) -->
-  <bcf:section number="0">
-  </bcf:section>
-  <!-- SECTION 3 -->
-  <bcf:bibdata section="3">
-    <bcf:datasource type="file" datatype="bibtex">bibliographies/TSPlasmid.bib</bcf:datasource>
-    <bcf:datasource type="file" datatype="bibtex">bibliographies/thesis.bib</bcf:datasource>
-  </bcf:bibdata>
-  <bcf:section number="3">
-    <bcf:citekey order="1">Kable1980</bcf:citekey>
-    <bcf:citekey order="1">Delp1980</bcf:citekey>
-    <bcf:citekey order="1">Skylakakis1981</bcf:citekey>
-    <bcf:citekey order="2">Goldberg2012</bcf:citekey>
-    <bcf:citekey order="3">siedentop_metaanalysis_2024</bcf:citekey>
-    <bcf:citekey order="4">VanDuijn2018</bcf:citekey>
-    <bcf:citekey order="5">Uecker2021</bcf:citekey>
-    <bcf:citekey order="6">Bonhoeffer1997</bcf:citekey>
-    <bcf:citekey order="6">Tepekule2017</bcf:citekey>
-    <bcf:citekey order="7">siedentop_metaanalysis_2024</bcf:citekey>
-    <bcf:citekey order="8">Angst2021</bcf:citekey>
-    <bcf:citekey order="9">Huisman2022</bcf:citekey>
-    <bcf:citekey order="10">Sutter2016</bcf:citekey>
-    <bcf:citekey order="11">eucast_disk2024</bcf:citekey>
-    <bcf:citekey order="12">BAG2015</bcf:citekey>
-    <bcf:citekey order="13">Headd2018</bcf:citekey>
-    <bcf:citekey order="14">Angst2021</bcf:citekey>
-    <bcf:citekey order="15">Sutter2016</bcf:citekey>
-    <bcf:citekey order="16">Huisman2022</bcf:citekey>
-    <bcf:citekey order="17">Feher2012</bcf:citekey>
-  </bcf:section>
-  <!-- SECTION 0 (cont.) -->
-  <bcf:section number="0">
-  </bcf:section>
-  <!-- SECTION 4 -->
-  <bcf:bibdata section="4">
-    <bcf:datasource type="file" datatype="bibtex">bibliographies/TSPlasmid.bib</bcf:datasource>
-    <bcf:datasource type="file" datatype="bibtex">bibliographies/thesis.bib</bcf:datasource>
-  </bcf:bibdata>
-  <bcf:section number="4">
     <bcf:citekey order="1">Sutter2016</bcf:citekey>
     <bcf:citekey order="2">Huisman2022</bcf:citekey>
     <bcf:citekey order="3">Feher2012</bcf:citekey>
@@ -2284,19 +2204,6 @@
     <bcf:citekey order="18">Huisman2022</bcf:citekey>
     <bcf:citekey order="19">Huisman2022</bcf:citekey>
   </bcf:section>
-  <!-- SECTION 0 (cont.) -->
-  <bcf:section number="0">
-  </bcf:section>
-  <!-- SECTION 5 -->
-  <bcf:bibdata section="5">
-    <bcf:datasource type="file" datatype="bibtex">bibliographies/TSPlasmid.bib</bcf:datasource>
-    <bcf:datasource type="file" datatype="bibtex">bibliographies/thesis.bib</bcf:datasource>
-  </bcf:bibdata>
-  <bcf:section number="5">
-  </bcf:section>
-  <!-- SECTION 0 (cont.) -->
-  <bcf:section number="0">
-  </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
     <bcf:sort order="1">
@@ -2304,49 +2211,4 @@
     </bcf:sort>
   </bcf:sortingtemplate>
   <!-- DATALISTS -->
-  <bcf:datalist section="1"
-                name="none/global//global/global"
-                type="entry"
-                sortingtemplatename="none"
-                sortingnamekeytemplatename="global"
-                labelprefix=""
-                uniquenametemplatename="global"
-                labelalphanametemplatename="global">
-  </bcf:datalist>
-  <bcf:datalist section="2"
-                name="none/global//global/global"
-                type="entry"
-                sortingtemplatename="none"
-                sortingnamekeytemplatename="global"
-                labelprefix=""
-                uniquenametemplatename="global"
-                labelalphanametemplatename="global">
-  </bcf:datalist>
-  <bcf:datalist section="3"
-                name="none/global//global/global"
-                type="entry"
-                sortingtemplatename="none"
-                sortingnamekeytemplatename="global"
-                labelprefix=""
-                uniquenametemplatename="global"
-                labelalphanametemplatename="global">
-  </bcf:datalist>
-  <bcf:datalist section="4"
-                name="none/global//global/global"
-                type="entry"
-                sortingtemplatename="none"
-                sortingnamekeytemplatename="global"
-                labelprefix=""
-                uniquenametemplatename="global"
-                labelalphanametemplatename="global">
-  </bcf:datalist>
-  <bcf:datalist section="5"
-                name="none/global//global/global"
-                type="entry"
-                sortingtemplatename="none"
-                sortingnamekeytemplatename="global"
-                labelprefix=""
-                uniquenametemplatename="global"
-                labelalphanametemplatename="global">
-  </bcf:datalist>
 </bcf:controlfile>

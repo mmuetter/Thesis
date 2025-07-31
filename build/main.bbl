@@ -17,7 +17,7 @@
 \endgroup
 
 
-\refsection{0}
+\refsection{2}
   \datalist[entry]{none/global//global/global}
     \entry{Naghavi2024}{article}{}
       \name{author}{525}{}{%
@@ -3257,6 +3257,223 @@
       \verb :Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/2006/Yeh, Tschumi, Kishony - 2006 - Functional classification of drugs by properties of their pairwise interactions - Nature Genetics.pdf:pdf
       \endverb
     \endentry
+  \enddatalist
+  \missing{...}
+  \missing{Bliss1939}
+  \missing{Frost2005}
+  \missing{Gregory2018}
+  \missing{Hawkey2008}
+  \missing{Leekha2011}
+  \missing{Smillie2010}
+\endrefsection
+
+\refsection{3}
+  \datalist[entry]{none/global//global/global}
+    \entry{Kable1980}{article}{}
+      \name{author}{2}{}{%
+        {{hash=1d9f82986e4b7390d4368577ea1a17d1}{%
+           family={Kable},
+           familyi={K\bibinitperiod},
+           given={P.\bibnamedelimi F.},
+           giveni={P\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=f0040c55c5ba0ef0332dcc5742c1d771}{%
+           family={Jeffery},
+           familyi={J\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{524cce93754e5ba511184f35422ad7f1}
+      \strng{fullhash}{524cce93754e5ba511184f35422ad7f1}
+      \strng{bibnamehash}{524cce93754e5ba511184f35422ad7f1}
+      \strng{authorbibnamehash}{524cce93754e5ba511184f35422ad7f1}
+      \strng{authornamehash}{524cce93754e5ba511184f35422ad7f1}
+      \strng{authorfullhash}{524cce93754e5ba511184f35422ad7f1}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Selection for tolerance in organisms exposed to sprays of biocide mixtures: A theoretical model. Phytopathology 70:8-12. A mathematical model has been constructed that simulates the process of applications before the level of the tolerant strain builds up to 1{\%}, but once selection that occurs when populations of organisms with a component that has happened only a few more sprays are needed for tolerance to tolerant to a particular biocide are repeatedly exposed to that biocide dominate; that the variable with the greatest effect on the rate of selection combined with a second biocide to which no tolerance exists. A more was spray coverage; that when coverage is complete, selection proceeds at general model also was derived which evaluates the selection process when the same rate whether the "at-risk" biocide is used on its own or in a mixture; the population is composed of any number of subpopulations of differing that. under these circumstances it is advantageous to use the biocide sensitivity to a particular biocide. The variables included in the model are: alternately or in a planned sequence. With less complete spray coverage the efficacies of the first biocide against the tolerant subpopulation and (< 99{\%}) it is better to use mixtures to slow up the rate of increase of against the sensitive subpopulation; the efficacy of the second biocide, resistant forms; that rates of selection increase with increasing efficacy of which in our evaluation is assumed to be equal for the two subpopulations; the "at risk" biocide to the sensitive subpopulation; that the rate of increase and a variable defining the degree of completeness of spray coverage (ie, the of resistant individuals in a population is reduced with decreasing spray proportion of the total population contacted at each spray application), coverage; that when coverage is incomplete, the rate of selection for Independent joint action is modeled. To evaluate the model, we commenced resistance will be slower with increasing strength of the second biocide; and with the tolerant subpopulation at a frequency of I X 10-9. Major that the rate of selection for resistance becomes greater as tolerance indications of the model were: That selection proceeds through many spray increases, but the increase is less with decreasing spray coverage.}
+      \field{issn}{0031-949X}
+      \field{journaltitle}{Phytopathology}
+      \field{number}{1}
+      \field{title}{{Selection for Tolerance in Organisms Exposed to Sprays of Biocide Mixtures: A Theoretical Model}}
+      \field{volume}{70}
+      \field{year}{1980}
+      \field{pages}{8\bibrangedash 12}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1094/phyto-70-8
+      \endverb
+      \verb{file}
+      \verb :Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/1980/Kable, Jeffery - 1980 - Selection for Tolerance in Organisms Exposed to Sprays of Biocide Mixtures A Theoretical Model - Phytopathology.PDF:PDF
+      \endverb
+    \endentry
+    \entry{Delp1980}{article}{}
+      \name{author}{1}{}{%
+        {{hash=6b6c849558b1ad923111e929f8740601}{%
+           family={Delp},
+           familyi={D\bibinitperiod},
+           given={Charles\bibnamedelima J.},
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{6b6c849558b1ad923111e929f8740601}
+      \strng{fullhash}{6b6c849558b1ad923111e929f8740601}
+      \strng{bibnamehash}{6b6c849558b1ad923111e929f8740601}
+      \strng{authorbibnamehash}{6b6c849558b1ad923111e929f8740601}
+      \strng{authornamehash}{6b6c849558b1ad923111e929f8740601}
+      \strng{authorfullhash}{6b6c849558b1ad923111e929f8740601}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Plant Dis.}
+      \field{title}{{Coping with resistance to plant disease}}
+      \field{volume}{64}
+      \field{year}{1980}
+      \field{pages}{652\bibrangedash 657}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1094/PD-64-652
+      \endverb
+      \verb{file}
+      \verb :Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/1980/Delp - 1980 - Coping with resistance to plant disease - Plant Disease.pdf:pdf
+      \endverb
+      \keyw{fungicide resistance,review}
+    \endentry
+    \entry{Skylakakis1981}{article}{}
+      \name{author}{1}{}{%
+        {{hash=fdf7bb1451900161c1cb37b03fe74482}{%
+           family={Skylakakis},
+           familyi={S\bibinitperiod},
+           given={George},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{fdf7bb1451900161c1cb37b03fe74482}
+      \strng{fullhash}{fdf7bb1451900161c1cb37b03fe74482}
+      \strng{bibnamehash}{fdf7bb1451900161c1cb37b03fe74482}
+      \strng{authorbibnamehash}{fdf7bb1451900161c1cb37b03fe74482}
+      \strng{authornamehash}{fdf7bb1451900161c1cb37b03fe74482}
+      \strng{authorfullhash}{fdf7bb1451900161c1cb37b03fe74482}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0031-949X}
+      \field{journaltitle}{Phytopathology}
+      \field{number}{11}
+      \field{title}{{Effects of Alternating and Mixing Pesticides on the Buildup of Fungal Resistance}}
+      \field{volume}{71}
+      \field{year}{1981}
+      \field{pages}{1119\bibrangedash 1121}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1094/phyto-71-1119
+      \endverb
+      \verb{file}
+      \verb :Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/1981/Skylakakis - 1981 - Effects of Alternating and Mixing Pesticides on the Buildup of Fungal Resistance - Phytopathology.PDF:PDF
+      \endverb
+    \endentry
+    \entry{Goldberg2012}{article}{}
+      \name{author}{3}{}{%
+        {{hash=307f266f417e25c5ed758c903724aa09}{%
+           family={Goldberg},
+           familyi={G\bibinitperiod},
+           given={Daniel\bibnamedelima E.},
+           giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=cf8f3d4c77c1524611f376e9f4691a32}{%
+           family={Siliciano},
+           familyi={S\bibinitperiod},
+           given={Robert\bibnamedelima F.},
+           giveni={R\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=0adfa8d04249f566c2b1e20a3b979843}{%
+           family={Jacobs},
+           familyi={J\bibinitperiod},
+           given={William\bibnamedelima R.},
+           giveni={W\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{440fecbf857eace81b4b9e19f910c3c3}
+      \strng{fullhash}{440fecbf857eace81b4b9e19f910c3c3}
+      \strng{bibnamehash}{440fecbf857eace81b4b9e19f910c3c3}
+      \strng{authorbibnamehash}{440fecbf857eace81b4b9e19f910c3c3}
+      \strng{authornamehash}{440fecbf857eace81b4b9e19f910c3c3}
+      \strng{authorfullhash}{440fecbf857eace81b4b9e19f910c3c3}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Although caused by vastly different pathogens, the world's three most serious infectious diseases, tuberculosis, malaria, and HIV-1 infection, share the common problem of drug resistance. The pace of drug development has been very slow for tuberculosis and malaria and rapid for HIV-1. But for each disease, resistance to most drugs has appeared quickly after the introduction of the drug. Learning how to manage and prevent resistance is a major medical challenge that requires an understanding of the evolutionary dynamics of each pathogen. This Review summarizes the similarities and differences in the evolution of drug resistance for these three pathogens. © 2012 Elsevier Inc.}
+      \field{issn}{10974172}
+      \field{journaltitle}{Cell}
+      \field{number}{6}
+      \field{title}{{Outwitting evolution: Fighting drug-resistant TB, Malaria, and HIV}}
+      \field{volume}{148}
+      \field{year}{2012}
+      \field{pages}{1271\bibrangedash 1283}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1016/j.cell.2012.02.021
+      \endverb
+      \verb{file}
+      \verb :Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/2012/Goldberg, Siliciano, Jacobs - 2012 - Outwitting evolution Fighting drug-resistant TB, Malaria, and HIV - Cell.pdf:pdf
+      \endverb
+    \endentry
+    \entry{siedentop_metaanalysis_2024}{article}{}
+      \name{author}{6}{}{%
+        {{hash=aef5b9621e53696f133ef8296e2e5880}{%
+           family={Siedentop},
+           familyi={S\bibinitperiod},
+           given={Berit},
+           giveni={B\bibinitperiod}}}%
+        {{hash=df70bee6dbdbe1cb34e4bdf7348c13ae}{%
+           family={Kachalov},
+           familyi={K\bibinitperiod},
+           given={Viacheslav\bibnamedelima N},
+           giveni={V\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=194622d117703110460b3ce7feaaf323}{%
+           family={Witzany},
+           familyi={W\bibinitperiod},
+           given={Christopher},
+           giveni={C\bibinitperiod}}}%
+        {{hash=2f29454e6553ef6eab031956cb1f7469}{%
+           family={Egger},
+           familyi={E\bibinitperiod},
+           given={Matthias},
+           giveni={M\bibinitperiod}}}%
+        {{hash=8777fd8e2581dae3b3a1019213598f26}{%
+           family={Roger},
+           familyi={R\bibinitperiod},
+           given={D},
+           giveni={D\bibinitperiod}}}%
+        {{hash=f3106e97b33eed46e76c565b4696b91e}{%
+           family={Bonhoeffer},
+           familyi={B\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{cebb7849cc5de1839b07fa055fd0e20e}
+      \strng{fullhash}{cebb7849cc5de1839b07fa055fd0e20e}
+      \strng{bibnamehash}{cebb7849cc5de1839b07fa055fd0e20e}
+      \strng{authorbibnamehash}{cebb7849cc5de1839b07fa055fd0e20e}
+      \strng{authornamehash}{cebb7849cc5de1839b07fa055fd0e20e}
+      \strng{authorfullhash}{cebb7849cc5de1839b07fa055fd0e20e}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{When and under which conditions antibiotic combination therapy decelerates rather than accelerates resistance evolution is not well understood. We examined the effect of combining antibiotics on within-patient resistance development across various bacterial pathogens and antibiotics. We searched CENTRAL, EMBASE and PubMed for (quasi)-randomised controlled trials (RCTs) published from database inception to November 24th, 2022. Trials comparing antibiotic treatments with different numbers of antibiotics were included. A patient was considered to have acquired resistance if, at the follow-up culture, a resistant bacterium was detected that had not been present in the baseline culture. We combined results using a random effects model and performed meta-regression and stratified analyses. The trials' risk of bias was assessed with the Cochrane tool. 42 trials were eligible and 29, including 5054 patients, were qualified for statistical analysis. In most trials, resistance development was not the primary outcome and studies lacked power. The combined odds ratio (OR) for the acquisition of resistance comparing the group with the higher number of antibiotics with the comparison group was 1.23 (95{\%} CI 0.68-2.25), with substantial between-study heterogeneity (I2 =77{\%}). We identified tentative evidence for potential beneficial or detrimental effects of antibiotic combination therapy for specific pathogens or medical conditions. The evidence for combining a higher number of antibiotics compared to fewer from RCTs is scarce and overall, is compatible with both benefit or harm. Trials powered to detect differences in resistance development or well-designed observational studies are required to clarify the impact of combination therapy on resistance.}
+      \field{journaltitle}{Elife}
+      \field{title}{{The effect of combining antibiotics on resistance : A systematic review and meta-analysis}}
+      \field{volume}{13}
+      \field{year}{2024}
+      \field{pages}{1\bibrangedash 25}
+      \range{pages}{25}
+      \verb{doi}
+      \verb 10.7554/eLife.93740.1
+      \endverb
+      \verb{file}
+      \verb :Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/2024/Siedentop et al. - 2024 - The effect of combining antibiotics on resistance A systematic review and meta-analysis - eLife.pdf:pdf
+      \endverb
+    \endentry
     \entry{VanDuijn2018}{article}{}
       \name{author}{25}{}{%
         {{hash=69316f03ba00a0d965edf6c7e80eec84}{%
@@ -3393,8 +3610,8 @@
       \strng{authorbibnamehash}{31f22a8c542eadb5db9f5024e78d986a}
       \strng{authornamehash}{31f22a8c542eadb5db9f5024e78d986a}
       \strng{authorfullhash}{e33ab35fe864674c444099a33ed1ca21}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Background: Whether antibiotic rotation strategies reduce prevalence of antibiotic-resistant, Gram-negative bacteria in intensive care units (ICUs) has not been accurately established. We aimed to assess whether cycling of antibiotics compared with a mixing strategy (changing antibiotic to an alternative class for each consecutive patient) would reduce the prevalence of antibiotic-resistant, Gram-negative bacteria in European intensive care units (ICUs). Methods: In a cluster-randomised crossover study, we randomly assigned ICUs to use one of three antibiotic groups (third-generation or fourth-generation cephalosporins, piperacillin–tazobactam, and carbapenems) as preferred empirical treatment during 6-week periods (cycling) or to change preference after every consecutively treated patient (mixing). Computer-based randomisation of intervention and rotated antibiotic sequence was done centrally. Cycling or mixing was applied for 9 months; then, following a washout period, the alternative strategy was implemented. We defined antibiotic-resistant, Gram-negative bacteria as Enterobacteriaceae with extended-spectrum $\beta$-lactamase production or piperacillin–tazobactam resistance, and Acinetobacter spp and Pseudomonas aeruginosa with piperacillin–tazobactam or carbapenem resistance. Data were collected for all admissions during the study. The primary endpoint was average, unit-wide, monthly point prevalence of antibiotic-resistant, Gram-negative bacteria in respiratory and perineal swabs with adjustment for potential confounders. This trial is registered with ClinicalTrials.gov, number NCT01293071. Findings: Eight ICUs (from Belgium, France, Germany, Portugal, and Slovenia) were randomly assigned and patients enrolled from June 27, 2011, to Feb 16, 2014. 4069 patients were admitted during the cycling periods in total and 4707 were admitted during the mixing periods. Of these, 745 patients during cycling and 853 patients during mixing were present during the monthly point-prevalence surveys, and were included in the main analysis. Mean prevalence of the composite primary endpoint was 23{\%} (168/745) during cycling and 22{\%} (184/853) during mixing (p=0·64), yielding an adjusted incidence rate ratio during mixing of 1·039 (95{\%} CI 0·837–1·291; p=0·73). There was no difference in all-cause in-ICU mortality between intervention periods. Interpretation: Antibiotic cycling does not reduce the prevalence of carriage of antibiotic-resistant, Gram-negative bacteria in patients admitted to the ICU. Funding: European Union Seventh Framework Programme.}
@@ -3413,6 +3630,198 @@
       \verb{file}
       \verb :Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/2018/van Duijn et al. - 2018 - The effects of antibiotic cycling and mixing on antibiotic resistance in intensive care units a cluster-random.pdf:pdf
       \endverb
+    \endentry
+    \entry{Uecker2021}{article}{}
+      \name{author}{2}{}{%
+        {{hash=b4dae04361502517599de5fe4ed0c1d0}{%
+           family={Uecker},
+           familyi={U\bibinitperiod},
+           given={Hildegard},
+           giveni={H\bibinitperiod}}}%
+        {{hash=f3106e97b33eed46e76c565b4696b91e}{%
+           family={Bonhoeffer},
+           familyi={B\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{dcbd9c6df100eed220182faff2672187}
+      \strng{fullhash}{dcbd9c6df100eed220182faff2672187}
+      \strng{bibnamehash}{dcbd9c6df100eed220182faff2672187}
+      \strng{authorbibnamehash}{dcbd9c6df100eed220182faff2672187}
+      \strng{authornamehash}{dcbd9c6df100eed220182faff2672187}
+      \strng{authorfullhash}{dcbd9c6df100eed220182faff2672187}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Hospital-acquired bacterial infections lead to prolonged hospital stays and increased mortality. The problem is exacerbated by antibiotic-resistant strains that delay or impede effective treatment. To ensure successful therapy and to manage antibiotic resistance, treatment protocols that draw on several different antibiotics might be used. This includes the administration of drug cocktails to individual patients (combination therapy) but also the random assignment of drugs to different patients (mixing) and a regular switch in the default drug used in the hospital from drug A to drug B and back (cycling). For more than 20 years, mathematical models have been used to assess the prospects of antibiotic combination therapy, mixing and cycling. But while tendencies in their ranking across studies have emerged, the picture remains surprisingly inconclusive and incomplete. In this article, we review existing modelling studies and demonstrate by means of examples how methodological factors complicate the emergence of a consistent picture. These factors include the choice of the criterion by which the effects of the protocols are compared, the model implementation and its analysis. We thereafter discuss how progress can be made and suggest future modelling directions.}
+      \field{issn}{17425662}
+      \field{journaltitle}{J. R. Soc. Interface}
+      \field{number}{181}
+      \field{title}{{Antibiotic treatment protocols revisited: The challenges of a conclusive assessment by mathematical modelling}}
+      \field{volume}{18}
+      \field{year}{2021}
+      \verb{doi}
+      \verb 10.1098/rsif.2021.0308
+      \endverb
+      \verb{file}
+      \verb :Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/2021/Uecker, Bonhoeffer - 2021 - Antibiotic treatment protocols revisited The challenges of a conclusive assessment by mathematical modelling.pdf:pdf
+      \endverb
+      \keyw{antibiotic resistance,antimicrobial stewardship,hospital-acquired infections,mathematical models}
+    \endentry
+    \entry{Bonhoeffer1997}{article}{}
+      \name{author}{3}{}{%
+        {{hash=f3106e97b33eed46e76c565b4696b91e}{%
+           family={Bonhoeffer},
+           familyi={B\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod}}}%
+        {{hash=30d93188d01ed0a75284d60fdf366301}{%
+           family={Lipsitch},
+           familyi={L\bibinitperiod},
+           given={Marc},
+           giveni={M\bibinitperiod}}}%
+        {{hash=7e66d2f0845ac9a131047e9217fdbe46}{%
+           family={Levin},
+           familyi={L\bibinitperiod},
+           given={Bruce\bibnamedelima R.},
+           giveni={B\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{fd50341151ddae4e0ca28f424ba9db77}
+      \strng{fullhash}{fd50341151ddae4e0ca28f424ba9db77}
+      \strng{bibnamehash}{fd50341151ddae4e0ca28f424ba9db77}
+      \strng{authorbibnamehash}{fd50341151ddae4e0ca28f424ba9db77}
+      \strng{authornamehash}{fd50341151ddae4e0ca28f424ba9db77}
+      \strng{authorfullhash}{fd50341151ddae4e0ca28f424ba9db77}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The spread of bacteria resistant to antimicrobial agents calls for population-wide treatment strategies to delay or reverse the trend toward antibiotic resistance. Here we propose new criteria for the evaluation of the population-wide effects of treatment protocols for directly transmitted bacterial infections and discuss different usage patterns for single and multiple antibiotic therapy. A mathematical model suggests that the long- term benefit of single drug treatment from introduction of the antibiotic until a high frequency of resistance precludes its use is almost independent of the pattern of antibiotic use. When more than one antibiotic is employed, sequential use of different antibiotics in the population ('cycling') is always inferior to treatment strategies where, at any given time, equal fractions of the population receive different antibiotics. However, treatment of all patients with a combination of antibiotics is in most cases the optimal treatment strategy.}
+      \field{issn}{00278424}
+      \field{journaltitle}{Proc. Natl. Acad. Sci. U. S. A.}
+      \field{number}{22}
+      \field{title}{{Evaluating treatment protocols to prevent antibiotic resistance}}
+      \field{volume}{94}
+      \field{year}{1997}
+      \field{pages}{12106\bibrangedash 12111}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1073/pnas.94.22.12106
+      \endverb
+      \verb{file}
+      \verb :Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/1997/Bonhoeffer, Lipsitch, Levin - 1997 - Evaluating treatment protocols to prevent antibiotic resistance - Proceedings of the National Acade.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Tepekule2017}{article}{}
+      \name{author}{5}{}{%
+        {{hash=4321a4b8d77d0090f8569dd1091db691}{%
+           family={Tepekule},
+           familyi={T\bibinitperiod},
+           given={Burcu},
+           giveni={B\bibinitperiod}}}%
+        {{hash=b4dae04361502517599de5fe4ed0c1d0}{%
+           family={Uecker},
+           familyi={U\bibinitperiod},
+           given={Hildegard},
+           giveni={H\bibinitperiod}}}%
+        {{hash=c706a13f3094425f4c5493c029b1b9b8}{%
+           family={Derungs},
+           familyi={D\bibinitperiod},
+           given={Isabel},
+           giveni={I\bibinitperiod}}}%
+        {{hash=767f207c115c61e9fb513af3d6cfe87f}{%
+           family={Frenoy},
+           familyi={F\bibinitperiod},
+           given={Antoine},
+           giveni={A\bibinitperiod}}}%
+        {{hash=f3106e97b33eed46e76c565b4696b91e}{%
+           family={Bonhoeffer},
+           familyi={B\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{281a89e427bf16ca4225edd7fc209700}
+      \strng{fullhash}{281a89e427bf16ca4225edd7fc209700}
+      \strng{bibnamehash}{281a89e427bf16ca4225edd7fc209700}
+      \strng{authorbibnamehash}{281a89e427bf16ca4225edd7fc209700}
+      \strng{authornamehash}{281a89e427bf16ca4225edd7fc209700}
+      \strng{authorfullhash}{281a89e427bf16ca4225edd7fc209700}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Multiple treatment strategies are available for empiric antibiotic therapy in hospitals, but neither clinical studies nor theoretical investigations have yielded a clear picture when which strategy is optimal and why. Extending earlier work of others and us, we present a mathematical model capturing treatment strategies using two drugs, i.e the multi-drug therapies referred to as cycling, mixing, and combination therapy, as well as monotherapy with either drug. We randomly sample a large parameter space to determine the conditions determining success or failure of these strategies. We find that combination therapy tends to outperform the other treatment strategies. By using linear discriminant analysis and particle swarm optimization, we find that the most important parameters determining success or failure of combination therapy relative to the other treatment strategies are the de novo rate of emergence of double resistance in patients infected with sensitive bacteria and the fitness costs associated with double resistance. The rate at which double resistance is imported into the hospital via patients admitted from the outside community has little influence, as all treatment strategies are affected equally. The parameter sets for which combination therapy fails tend to fall into areas with low biological plausibility as they are characterised by very high rates of de novo emergence of resistance to both drugs compared to a single drug, and the cost of double resistance is considerably smaller than the sum of the costs of single resistance.}
+      \field{isbn}{1111111111}
+      \field{issn}{15537358}
+      \field{journaltitle}{PLoS Comput. Biol.}
+      \field{number}{9}
+      \field{title}{{Modeling antibiotic treatment in hospitals: A systematic approach shows benefits of combination therapy over cycling, mixing, and mono-drug therapies}}
+      \field{volume}{13}
+      \field{year}{2017}
+      \field{pages}{1\bibrangedash 22}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.1371/journal.pcbi.1005745
+      \endverb
+      \verb{file}
+      \verb :Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/2017/Tepekule et al. - 2017 - Modeling antibiotic treatment in hospitals A systematic approach shows benefits of combination therapy over cyc.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Angst2021}{article}{}
+      \name{author}{5}{}{%
+        {{hash=4663a653a7e065d63ba258c8e89409f5}{%
+           family={Angst},
+           familyi={A\bibinitperiod},
+           given={Daniel\bibnamedelima C.},
+           giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=4321a4b8d77d0090f8569dd1091db691}{%
+           family={Tepekule},
+           familyi={T\bibinitperiod},
+           given={Burcu},
+           giveni={B\bibinitperiod}}}%
+        {{hash=48c4637a04d7042f2b0d3daec079d61e}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Lei},
+           giveni={L\bibinitperiod}}}%
+        {{hash=3400d529a867ae18a95242b483f903c1}{%
+           family={Bogos},
+           familyi={B\bibinitperiod},
+           given={Bal{á}zs},
+           giveni={B\bibinitperiod}}}%
+        {{hash=f3106e97b33eed46e76c565b4696b91e}{%
+           family={Bonhoeffer},
+           familyi={B\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{7b18cca3a952835d1f51213bdc98d8c1}
+      \strng{fullhash}{7b18cca3a952835d1f51213bdc98d8c1}
+      \strng{bibnamehash}{7b18cca3a952835d1f51213bdc98d8c1}
+      \strng{authorbibnamehash}{7b18cca3a952835d1f51213bdc98d8c1}
+      \strng{authornamehash}{7b18cca3a952835d1f51213bdc98d8c1}
+      \strng{authorfullhash}{7b18cca3a952835d1f51213bdc98d8c1}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The rapid rise of antibiotic resistance, combined with the increasing cost and difficulties to develop new antibiotics, calls for treatment strategies that enable more sustainable antibiotic use. The development of such strategies, however, is impeded by the lack of suitable experimental approaches that allow testing their effects under realistic epidemiological conditions. Here, we present an approach to compare the effect of alternative multidrug treatment strategies in vitro using a robotic liquid-handling platform. We use this framework to study resistance evolution and spread implementing epidemiological population dynamics for treatment, transmission, and patient admission and discharge, as may be observed in hospitals. We perform massively parallel experimental evolution over up to 40 d and complement this with a computational model to infer the underlying population-dynamical parameters. We find that in our study, combination therapy outperforms monotherapies, as well as cycling and mixing, in minimizing resistance evolution and maximizing uninfecteds, as long as there is no influx of double resistance into the focal treated community.}
+      \field{issn}{10916490}
+      \field{journaltitle}{Proc. Natl. Acad. Sci. U. S. A.}
+      \field{number}{13}
+      \field{title}{{Comparing treatment strategies to reduce antibiotic resistance in an in vitro epidemiological setting}}
+      \field{volume}{118}
+      \field{year}{2021}
+      \field{pages}{1\bibrangedash 7}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1073/PNAS.2023467118
+      \endverb
+      \verb{file}
+      \verb :Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/2021/Angst et al. - 2021 - Comparing treatment strategies to reduce antibiotic resistance in an in vitro epidemiological setting - Proceeding.pdf:pdf
+      \endverb
+      \keyw{Antibiotic resistance,Combination therapy,Experimental epidemiology}
     \endentry
     \entry{Huisman2022}{article}{}
       \name{author}{6}{}{%
@@ -3453,8 +3862,8 @@
       \strng{authorbibnamehash}{b1c84522fe81c85418b5c7b0e86368ad}
       \strng{authornamehash}{b1c84522fe81c85418b5c7b0e86368ad}
       \strng{authorfullhash}{b1c84522fe81c85418b5c7b0e86368ad}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The spread of antibiotic resistance genes on plasmids is a threat to human and animal health. Phylogenies of bacteria and their plasmids contain clues regarding the frequency of plasmid transfer events, as well as the co-evolution of plasmids and their hosts. However, whole genome sequencing data from diverse ecological or clinical bacterial samples are rarely used to study plasmid phylogenies and resistance gene transfer. This is partially due to the difficulty of extracting plasmids from short-read sequencing data. Here, we use both short-and long-read sequencing data of 24 clinical extended-spectrum $\beta$-lactamase (ESBL)-producing Escherichia coli to estimate chromosomal and plasmid phylogenies. We compare the impact of different sequencing and assembly methodologies on these phylogenies and on the inference of horizontal gene transfer. We find that chromosomal phylogenies can be estimated robustly with all methods, whereas plasmid phylogenies have more variable topology and branch lengths across the methods used. Specifically, hybrid methods that use long reads to resolve short-read assemblies (HybridSPAdes and Unicycler) perform better than those that started from long reads during assembly graph generation (Canu). By contrast, the inference of plasmid and antibiotic resistance gene transfer using a parsimony-based criterion is mostly robust to the choice of sequencing and assembly method. This article is part of a discussion meeting issue 'Genomic population structures of microbial pathogens'.}
@@ -3516,8 +3925,8 @@
       \strng{authorbibnamehash}{9804ad493d4e0f77a8561f512e24c8e7}
       \strng{authornamehash}{9804ad493d4e0f77a8561f512e24c8e7}
       \strng{authorfullhash}{9804ad493d4e0f77a8561f512e24c8e7}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{After contact precautions were discontinued, we determined nosocomial transmission of extended-spectrum $\beta$-lactamase (ESBL)-producing Escherichia coli by screening hospital patients who shared rooms with ESBL-producing E. coli-infected or -colonized patients. Transmission rates were 2.6{\%} and 8.8{\%} at an acute-care and a geriatric/ rehabilitation hospital, respectively. Prolonged contact was associated with increased transmission.}
@@ -3548,8 +3957,8 @@
       \strng{authorbibnamehash}{b9bb361e2100a604618766ca5a5980b6}
       \strng{authornamehash}{b9bb361e2100a604618766ca5a5980b6}
       \strng{authorfullhash}{b9bb361e2100a604618766ca5a5980b6}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Disk diffusion is one of the oldest approaches to antimicrobial susceptibility testing and remains one of the most widely used antimicrobial susceptibility testing methods in routine clinical laboratories. It is suitable for testing the majority of bacterial pathogens, including the more common fastidious bacteria, is versatile in the range of antimicrobial agents that can be tested and requires no special equipment. In common with several other disk diffusion techniques, the EUCAST method is a standardised method based on the principles defined in the report of the International Collaborative Study of Antimicrobial Susceptibility Testing, 19711, and the experience of expert groups worldwide. The zone diameter breakpoints in the EUCAST disk diffusion method are calibrated to the harmonised European MIC breakpoints that are published by EUCAST and are freely available from the EUCAST website (http://www.eucast.org). As with all standardised methods, the described technique must be followed without modification in order to produce reliable results. The EUCAST methodology for disk diffusion of anaerobic bacteria is described in a separate document (https://www.eucast.org/ast{\_}of{\_}bacteria/disk{\_}diffusion{\_}methodology).}
@@ -3591,8 +4000,8 @@
       \strng{authorbibnamehash}{466946a8a1ddc31cccf076e2af06cadf}
       \strng{authornamehash}{466946a8a1ddc31cccf076e2af06cadf}
       \strng{authorfullhash}{466946a8a1ddc31cccf076e2af06cadf}
-      \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{Kennzahlen der Schweizer Spit{ä}ler 2015}}
@@ -3620,8 +4029,8 @@
       \strng{authorbibnamehash}{35493762d023e7d4be0ff9fc020bcddc}
       \strng{authornamehash}{35493762d023e7d4be0ff9fc020bcddc}
       \strng{authorfullhash}{35493762d023e7d4be0ff9fc020bcddc}
-      \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Horizontal gene transfer (HGT) of antibiotic resistance genes has received increased scrutiny from the scientific community in recent years owing to the public health threat associated with antibiotic resistant bacteria. Most studies have examined HGT in growing cultures. We examined conjugation in growing and non-growing cultures of E. coli using a conjugative multi antibiotic and metal resistant plasmid to determine physiochemical parameters that favor horizontal gene transfer. The conjugation frequency in growing and non-growing cultures was generally greater under shaken than non-shaken conditions, presumably due to increased frequency of cell collisions. Non-growing cultures in 9.1 mM NaCl had a similar conjugation frequency to that of growing cultures in Luria-Bertaini broth, whereas those in 1 mM or 90.1 mM NaCl were much lower. This salinity effect on conjugation was attributed to differences in cell-cell interactions and conformational changes in cell surface macromolecules. In the presence of antibiotics, the conjugation frequencies of growing cultures did not increase, but in non-growing cultures of 9.1 mM NaCl supplemented with Cefotaxime the conjugation frequency was as much as nine times greater than that of growing cultures. The mechanism responsible for the increased conjugation in non-growing bacteria was attributed to the likely lack of penicillin-binding protein 3 (the target of Cefotaxime), in non-growing cells that enabled Cefotaxime to interact with the plasmid and induce conjugation. Our results suggests that more attention may be owed to HGT in non-growing bacteria as most bacteria in the environment are likely not growing and the proposed mechanism for increased conjugation may not be unique to the bacteria/plasmid system we studied.}
@@ -3639,6 +4048,212 @@
       \verb :Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/2018/Headd, Bradford - 2018 - Physicochemical factors that favor conjugation of an antibiotic resistant plasmid in non-growing bacterial cult.pdf:pdf
       \endverb
       \keyw{Antibiotic resistance,Conjugation,Horizontal gene transfer,Non-growing bacteria,Salinity,$\beta$-lactam antibiotics}
+    \endentry
+    \entry{Feher2012}{article}{}
+      \name{author}{10}{}{%
+        {{hash=cedb8667ee8589bf4592b0b8ec9566b4}{%
+           family={Feh{é}r},
+           familyi={F\bibinitperiod},
+           given={Tam{á}s},
+           giveni={T\bibinitperiod}}}%
+        {{hash=3400d529a867ae18a95242b483f903c1}{%
+           family={Bogos},
+           familyi={B\bibinitperiod},
+           given={Bal{á}zs},
+           giveni={B\bibinitperiod}}}%
+        {{hash=50099c8fd75144c61eee1bd0cc3f4ad3}{%
+           family={M{é}hi},
+           familyi={M\bibinitperiod},
+           given={Orsolya},
+           giveni={O\bibinitperiod}}}%
+        {{hash=c5e7ba1fd12cf8c7266d532fcc2e39eb}{%
+           family={Fekete},
+           familyi={F\bibinitperiod},
+           given={Gergely},
+           giveni={G\bibinitperiod}}}%
+        {{hash=06b415a99f079841663afe2e17160b12}{%
+           family={Cs{ö}rg},
+           familyi={C\bibinitperiod},
+           given={B{á}lint},
+           giveni={B\bibinitperiod}}}%
+        {{hash=cd21186b40e21617fa4ee77ba6f2e5f6}{%
+           family={Kov{á}cs},
+           familyi={K\bibinitperiod},
+           given={K{á}roly},
+           giveni={K\bibinitperiod}}}%
+        {{hash=594831c1b35e74700913204b3d098283}{%
+           family={P{ó}sfai},
+           familyi={P\bibinitperiod},
+           given={Gy{ö}rgy},
+           giveni={G\bibinitperiod}}}%
+        {{hash=e7d1d226b0ae122f866794b1425830f8}{%
+           family={Papp},
+           familyi={P\bibinitperiod},
+           given={Bal{á}zs},
+           giveni={B\bibinitperiod}}}%
+        {{hash=658d4ee2d925d0548f5ae7e78794115b}{%
+           family={Hurst},
+           familyi={H\bibinitperiod},
+           given={Laurence\bibnamedelima D.},
+           giveni={L\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=a4ad6a24a2c4502d7c0a464d935993e7}{%
+           family={P{á}l},
+           familyi={P\bibinitperiod},
+           given={Csaba},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{15e49d509166463df7e788c4904cfae7}
+      \strng{fullhash}{15e49d509166463df7e788c4904cfae7}
+      \strng{bibnamehash}{15e49d509166463df7e788c4904cfae7}
+      \strng{authorbibnamehash}{15e49d509166463df7e788c4904cfae7}
+      \strng{authornamehash}{15e49d509166463df7e788c4904cfae7}
+      \strng{authorfullhash}{15e49d509166463df7e788c4904cfae7}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Although both genotypes with elevated mutation rate (mutators) and mobilization of insertion sequence (IS) elements have substantial impact on genome diversification, their potential interactions are unknown. Moreover, the evolutionary forces driving gradual accumulation of these elements are unclear: Do these elements spread in an initially transposon-free bacterial genome as they enable rapid adaptive evolution? To address these issues, we inserted an active IS1 element into a reduced Escherichia coli genome devoid of all other mobile DNA. Evolutionary laboratory experiments revealed that IS elements increase mutational supply and occasionally generate variants with especially large phenotypic effects. However, their impact on adaptive evolution is small compared with mismatch repair mutator alleles, and hence, the latter impede the spread of IS-carrying strains. Given their ubiquity in natural populations, such mutator alleles could limit early phase of IS element evolution in a new bacterial host. More generally, our work demonstrates the existence of an evolutionary conflict between mutation-promoting mechanisms. © 2012 The Author.}
+      \field{issn}{0737-4038}
+      \field{journaltitle}{Mol. Biol. Evol.}
+      \field{title}{{Competition between transposable elements and mutator genes in bacteria}}
+      \field{volume}{29}
+      \field{year}{2012}
+      \field{pages}{3153\bibrangedash 3159}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1093/molbev/mss122
+      \endverb
+      \verb{file}
+      \verb :Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/2012/Feh{\'{e}}r et al. - 2012 - Competition between transposable elements and mutator genes in bacteria - Molecular Biology and Evolution.pdf:pdf
+      \endverb
+      \keyw{IS elements,evolution,mutation rate}
+    \endentry
+  \enddatalist
+\endrefsection
+
+\refsection{4}
+  \datalist[entry]{none/global//global/global}
+    \entry{Sutter2016}{article}{}
+      \name{author}{7}{}{%
+        {{hash=3eae03dcdca437d384cd0c329b6ac704}{%
+           family={Tschudin-Sutter},
+           familyi={T\bibinithyphendelim S\bibinitperiod},
+           given={Sarah},
+           giveni={S\bibinitperiod}}}%
+        {{hash=2270947823f8c9292998a684acb774d1}{%
+           family={Frei},
+           familyi={F\bibinitperiod},
+           given={Reno},
+           giveni={R\bibinitperiod}}}%
+        {{hash=24ae9b3b30ee03f424bddca9473b6259}{%
+           family={Schwahn},
+           familyi={S\bibinitperiod},
+           given={Friedbert},
+           giveni={F\bibinitperiod}}}%
+        {{hash=bfe1936779c9d4a65d7c09c5198d8b55}{%
+           family={Tomic},
+           familyi={T\bibinitperiod},
+           given={Milanka},
+           giveni={M\bibinitperiod}}}%
+        {{hash=3ac16585c97ae693a74bedf4348ed898}{%
+           family={Conzelmann},
+           familyi={C\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+        {{hash=d414f49f447c320d800909c78bd2b633}{%
+           family={Stranden},
+           familyi={S\bibinitperiod},
+           given={Anne},
+           giveni={A\bibinitperiod}}}%
+        {{hash=b31577cb5b4fd73afc003182fd7fe3bf}{%
+           family={Widmer},
+           familyi={W\bibinitperiod},
+           given={Andreas\bibnamedelima F.},
+           giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \strng{namehash}{9804ad493d4e0f77a8561f512e24c8e7}
+      \strng{fullhash}{9804ad493d4e0f77a8561f512e24c8e7}
+      \strng{bibnamehash}{9804ad493d4e0f77a8561f512e24c8e7}
+      \strng{authorbibnamehash}{9804ad493d4e0f77a8561f512e24c8e7}
+      \strng{authornamehash}{9804ad493d4e0f77a8561f512e24c8e7}
+      \strng{authorfullhash}{9804ad493d4e0f77a8561f512e24c8e7}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{After contact precautions were discontinued, we determined nosocomial transmission of extended-spectrum $\beta$-lactamase (ESBL)-producing Escherichia coli by screening hospital patients who shared rooms with ESBL-producing E. coli-infected or -colonized patients. Transmission rates were 2.6{\%} and 8.8{\%} at an acute-care and a geriatric/ rehabilitation hospital, respectively. Prolonged contact was associated with increased transmission.}
+      \field{issn}{10806059}
+      \field{journaltitle}{Emerg. Infect. Dis.}
+      \field{number}{6}
+      \field{title}{{Prospective validation of cessation of contact precautions for extended-spectrum $\beta$-lactamase-producing Escherichia coli1}}
+      \field{volume}{22}
+      \field{year}{2016}
+      \field{pages}{1094\bibrangedash 1097}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.3201/eid2206.150554
+      \endverb
+      \verb{file}
+      \verb :Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/2016/Tschudin-Sutter et al. - 2016 - Prospective validation of cessation of contact precautions for extended-spectrum $\beta$-lactamase-producing.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Huisman2022}{article}{}
+      \name{author}{6}{}{%
+        {{hash=04cb8df414a334a959186a32cf13b953}{%
+           family={Huisman},
+           familyi={H\bibinitperiod},
+           given={Jana\bibnamedelima S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=25cd6c093de27dff90398c0e56b5fc0e}{%
+           family={Vaughan},
+           familyi={V\bibinitperiod},
+           given={Timothy\bibnamedelima G.},
+           giveni={T\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=6d405d3de6adb3dd640f4f3a7cda0094}{%
+           family={Egli},
+           familyi={E\bibinitperiod},
+           given={Adrian},
+           giveni={A\bibinitperiod}}}%
+        {{hash=3eae03dcdca437d384cd0c329b6ac704}{%
+           family={Tschudin-Sutter},
+           familyi={T\bibinithyphendelim S\bibinitperiod},
+           given={Sarah},
+           giveni={S\bibinitperiod}}}%
+        {{hash=37406125f618eeb29b8d6855e2d89388}{%
+           family={Stadler},
+           familyi={S\bibinitperiod},
+           given={Tanja},
+           giveni={T\bibinitperiod}}}%
+        {{hash=f3106e97b33eed46e76c565b4696b91e}{%
+           family={Bonhoeffer},
+           familyi={B\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{b1c84522fe81c85418b5c7b0e86368ad}
+      \strng{fullhash}{b1c84522fe81c85418b5c7b0e86368ad}
+      \strng{bibnamehash}{b1c84522fe81c85418b5c7b0e86368ad}
+      \strng{authorbibnamehash}{b1c84522fe81c85418b5c7b0e86368ad}
+      \strng{authornamehash}{b1c84522fe81c85418b5c7b0e86368ad}
+      \strng{authorfullhash}{b1c84522fe81c85418b5c7b0e86368ad}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The spread of antibiotic resistance genes on plasmids is a threat to human and animal health. Phylogenies of bacteria and their plasmids contain clues regarding the frequency of plasmid transfer events, as well as the co-evolution of plasmids and their hosts. However, whole genome sequencing data from diverse ecological or clinical bacterial samples are rarely used to study plasmid phylogenies and resistance gene transfer. This is partially due to the difficulty of extracting plasmids from short-read sequencing data. Here, we use both short-and long-read sequencing data of 24 clinical extended-spectrum $\beta$-lactamase (ESBL)-producing Escherichia coli to estimate chromosomal and plasmid phylogenies. We compare the impact of different sequencing and assembly methodologies on these phylogenies and on the inference of horizontal gene transfer. We find that chromosomal phylogenies can be estimated robustly with all methods, whereas plasmid phylogenies have more variable topology and branch lengths across the methods used. Specifically, hybrid methods that use long reads to resolve short-read assemblies (HybridSPAdes and Unicycler) perform better than those that started from long reads during assembly graph generation (Canu). By contrast, the inference of plasmid and antibiotic resistance gene transfer using a parsimony-based criterion is mostly robust to the choice of sequencing and assembly method. This article is part of a discussion meeting issue 'Genomic population structures of microbial pathogens'.}
+      \field{issn}{14712970}
+      \field{journaltitle}{Philos. Trans. R. Soc. B Biol. Sci.}
+      \field{number}{1861}
+      \field{title}{{The effect of sequencing and assembly on the inference of horizontal gene transfer on chromosomal and plasmid phylogenies}}
+      \field{volume}{377}
+      \field{year}{2022}
+      \verb{doi}
+      \verb 10.1098/rstb.2021.0245
+      \endverb
+      \verb{file}
+      \verb :Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/2022/Huisman et al. - 2022 - The effect of sequencing and assembly on the inference of horizontal gene transfer on chromosomal and plasmid ph.pdf:pdf
+      \endverb
+      \keyw{antibiotic resistance,assembly,long-read sequencing,phylogenetics,plasmid,whole-genome sequencing}
     \endentry
     \entry{Feher2012}{article}{}
       \name{author}{10}{}{%
@@ -3758,8 +4373,8 @@
       \strng{authorbibnamehash}{e56c135ae12bf3ef935012f5d6d251b4}
       \strng{authornamehash}{e56c135ae12bf3ef935012f5d6d251b4}
       \strng{authorfullhash}{e56c135ae12bf3ef935012f5d6d251b4}
-      \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The epidemiological importance of tracing plasmids conferring drug resistance prompted us to develop a PCR method based on replicons (inc/rep PCR) of the major plasmid incompatibility groups among Enterobacteriaceae. Eighteen pairs of primers were designed to perform 5 multiplex- and 3 simplex-PCRs, recognizing FIA, FIB, FIC, HI1, HI2, I1-I$\gamma$, L/M, N, P, W, T, A/C, K, B/O, X, Y, F, and FIIA. The specificity of the method was tested on a collection of 61 reference plasmids and on 20 Salmonella enterica strains of different serotypes isolated in Italy. Results indicated that the inc/rep PCR method demonstrates high specificity and sensitivity in detecting replicons on reference plasmids and also revealed the presence of recurrent and common plasmids in epidemiologically unrelated Salmonella isolates of different serotypes. These results suggest that the method is potentially applicable to a large number of strains to trace the diffusion of specific multi-drug resistance plasmids in different environments. © 2005 Elsevier B.V. All rights reserved.}
@@ -3828,8 +4443,8 @@
       \strng{authorbibnamehash}{e405a98ca9da4a558e819cc0784d552d}
       \strng{authornamehash}{e405a98ca9da4a558e819cc0784d552d}
       \strng{authorfullhash}{e405a98ca9da4a558e819cc0784d552d}
-      \field{sortinit}{4}
-      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Plasmids are important vectors for the spread of genes among diverse populations of bacteria. However, there is no standard method to determine the rate at which they spread horizontally via conjugation. Here, we compare commonly used methods on simulated and experimental data, and show that the resulting conjugation rate estimates often depend strongly on the time of measurement, the initial population densities, or the initial ratio of donor to recipient populations. Differences in growth rate, e.g. induced by sub-lethal antibiotic concentrations or temperature, can also significantly bias conjugation rate estimates. We derive a new ‘end-point' measure to estimate conjugation rates, which extends the well-known Simonsen method to include the effects of differences in population growth and conjugation rates from donors and transconjugants. We further derive analytical expressions for the parameter range in which these approximations remain valid. We present an easy to use R package and web interface which implement both new and previously existing methods to estimate conjugation rates. The result is a set of tools and guidelines for accurate and comparable measurement of plasmid conjugation rates.}
@@ -4423,8 +5038,8 @@
       \strng{authorbibnamehash}{f252038edd7f112d75da3bf0c1edecbc}
       \strng{authornamehash}{f252038edd7f112d75da3bf0c1edecbc}
       \strng{authorfullhash}{34cebf08ce549729d932536da93b79f6}
-      \field{sortinit}{4}
-      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{SciPy is an open-source scientific computing library for the Python programming language. Since its initial release in 2001, SciPy has become a de facto standard for leveraging scientific algorithms in Python, with over 600 unique code contributors, thousands of dependent packages, over 100,000 dependent repositories and millions of downloads per year. In this work, we provide an overview of the capabilities and development practices of SciPy 1.0 and highlight some recent technical developments.}
@@ -4466,8 +5081,8 @@
       \strng{authorbibnamehash}{19d153e6550396b93fff809b2f89d7e6}
       \strng{authornamehash}{19d153e6550396b93fff809b2f89d7e6}
       \strng{authorfullhash}{19d153e6550396b93fff809b2f89d7e6}
-      \field{sortinit}{4}
-      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Statsmodels is a library for statistical and econometric analysis in Python. This paper discusses the current relationship between statistics and Python and open source more generally, outlining how the statsmodels package fills a gap in this relationship. An overview of statsmodels is provided, including a discussion of the overarching design and philosophy, what can be found in the package, and some usage examples. The paper concludes with a look at what the future holds.}
@@ -4507,8 +5122,8 @@
       \strng{authorbibnamehash}{841bfe52cea52426d0cb40d3b610f9e5}
       \strng{authornamehash}{841bfe52cea52426d0cb40d3b610f9e5}
       \strng{authorfullhash}{841bfe52cea52426d0cb40d3b610f9e5}
-      \field{sortinit}{4}
-      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Br. Med. J.}
@@ -4549,8 +5164,8 @@
       \strng{authorbibnamehash}{251d74d3dfac638a82311bcbc468b467}
       \strng{authornamehash}{251d74d3dfac638a82311bcbc468b467}
       \strng{authorfullhash}{251d74d3dfac638a82311bcbc468b467}
-      \field{sortinit}{4}
-      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{05703131}
@@ -4624,8 +5239,8 @@
       \strng{authorbibnamehash}{3dc6174315493561668f52ac208e4e1b}
       \strng{authornamehash}{3dc6174315493561668f52ac208e4e1b}
       \strng{authorfullhash}{3dc6174315493561668f52ac208e4e1b}
-      \field{sortinit}{4}
-      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Combination therapy is rarely used to counter the evolution of resistance in bacterial infections. Expansion of the use of combination therapy requires knowledge of how drugs interact at inhibitory concentrations. More than 50 years ago, it was noted that, if bactericidal drugs are most potent with actively dividing cells, then the inhibition of growth induced by a bacteriostatic drug should result in an overall reduction of efficacy when the drug is used in combination with a bactericidal drug. Our goal here was to investigate this hypothesis systematically. We first constructed time-kill curves using five different antibiotics at clinically relevant concentrations, and we observed antagonism between bactericidal and bacteriostatic drugs. We extended our investigation by performing a screen of pairwise combinations of 21 different antibiotics at subinhibitory concentrations, and we found that strong antagonistic interactions were enriched significantly among combinations of bacteriostatic and bactericidal drugs. Finally, since our hypothesis relies on phenotypic effects produced by different drug classes, we recreated these experiments in a microfluidic device and performed time-lapse microscopy to directly observe and quantify the growth and division of individual cells with controlled antibiotic concentrations. While our single-cell observations supported the antagonism between bacteriostatic and bactericidal drugs, they revealed an unexpected variety of cellular responses to antagonistic drug combinations, suggesting that multiple mechanisms underlie the interactions. Copyright © 2014, American Society for Microbiology. All Rights Reserved.}
@@ -4683,8 +5298,8 @@
       \strng{authorbibnamehash}{45d09a9aeb19e81ce12566d62af69d84}
       \strng{authornamehash}{45d09a9aeb19e81ce12566d62af69d84}
       \strng{authorfullhash}{45d09a9aeb19e81ce12566d62af69d84}
-      \field{sortinit}{5}
-      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Dose‐response relationships are a general concept for quantitatively describing biological systems across multiple scales, from the molecular to the whole‐cell level. A clinically relevant example is the bacterial growth response to antibiotics, which is routinely characterized by dose‐response curves. The shape of the dose‐response curve varies drastically between antibiotics and plays a key role for treatments, drug interactions, and resistance evolution. However, the mechanisms shaping the dose‐response curve remain largely unclear. Here, we show in Escherichia coli that the distinctively shallow dose‐response curve of the antibiotic trimethoprim is caused by a negative growth‐ mediated feedback loop: Trimethoprim slows growth, which in turn weakens the effect of this antibiotic. At the molecular level, this feedback is caused by the upregulation of the drug target dihydrofolate reductase (FolA/DHFR). We show that this upregulation is not a specific response to trimethoprim but follows a universal trend line that depends only on growth rate, irrespective of its cause. Rewiring the feedback loop alters the dose‐response curve in a predictable manner, which we corroborate with a mathematical model. Our results indicate that growth‐mediated feedback loops shape drug responses and could be exploited to design evolutionary traps that enable selection against drug resistance. {\#}{\#}{\#} Competing Interest Statement The authors have declared no competing interest.}
@@ -4705,13 +5320,6 @@
       \keyw{antibiotics,dhfr,dihydrofolate reductase,dose,drug discovery,feedback loops,host pathogen interaction,pharmacology,resource allocation model,response curve,subject categories microbiology,virology}
     \endentry
   \enddatalist
-  \missing{...}
-  \missing{Bliss1939}
-  \missing{Frost2005}
-  \missing{Gregory2018}
-  \missing{Hawkey2008}
-  \missing{Leekha2011}
-  \missing{Smillie2010}
 \endrefsection
 \endinput
 

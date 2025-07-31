@@ -1,11 +1,11 @@
 
 \newcommand{\createTukeyTable}[4]{
-    \begin{table}[H]
-        \centering
-        \caption{#4: Multiple comparison between the effects of #2 on the frequencies of #3 using Tukey's post-hoc analysis.}
-        \label{tab:#1}
-        \input{supplementary_1/tables/#1}
-    \end{table}
+  \begin{table}[H]
+    \centering
+    \caption{#4: Multiple comparison between the effects of #2 on the frequencies of #3 using Tukey's post-hoc analysis.}
+    \label{tab:#1}
+    \input{chapter_2_sup/tables/#1}
+  \end{table}
 }
 
 %% Commands
@@ -22,8 +22,8 @@
   \resizebox{\linewidth}{!}{%
     \begin{tabular}{r|cccccc}
       \diagbox[width=8em,height=4em]%
-        {$\phi(\hat T)$}{$\phi(T)$} &
-        $U$ & $S$ & $A_r$ & $B_r$ & $(A_r\&B_r)$ & $AB_r$ \\\hline
+      {$\phi(\hat T)$}{$\phi(T)$} &
+      $U$ & $S$ & $A_r$ & $B_r$ & $(A_r\&B_r)$ & $AB_r$ \\\hline
       \csvreader[
         separator=semicolon,
         head to column names,
@@ -36,36 +36,34 @@
           AuB  =\cAuB,
           ABr  =\cABr
         }
-      ]{supplementary_1/tables/#1.csv}{}{% no “filter” needed
+      ]{chapter_2_sup/tables/#1.csv}{}{% no “filter” needed
         \cidx & \cU & \cS & \cAr & \cBr & \cAuB & \cABr\\
       }%
     \end{tabular}%
   }%
 }
 
-
 \newcommand{\createANOVATable}[4]{
-    \begin{table}[H]
-        \centering
-        \caption{#4: Effect of #2 on the frequency of #3 (ANOVA).}
-        \label{tab:#1}
-        \input{supplementary_1/tables/#1}
-    \end{table}
+  \begin{table}[H]
+    \centering
+    \caption{#4: Effect of #2 on the frequency of #3 (ANOVA).}
+    \label{tab:#1}
+    \input{chapter_2_sup/tables/#1}
+  \end{table}
 }
 
 \newcommand{\panelcaption}[2]{
-    \centering
-    % Display the title if provided
-    \ifx&#1&%
-    % No title provided, do nothing
-    \else
-      \textbf{#1}\\[1ex] % Title with a small space after
-    \fi
-    \captionsetup{labelformat=empty, skip=-10pt} % This makes the caption label empty
-    \caption{}
-    \label{#2}
+  \centering
+  % Display the title if provided
+  \ifx&#1&%
+  % No title provided, do nothing
+  \else
+  \textbf{#1}\\[1ex] % Title with a small space after
+  \fi
+  \captionsetup{labelformat=empty, skip=-10pt} % This makes the caption label empty
+  \caption{}
+  \label{#2}
 }
-
 
 % Define default values for xshift and yshift
 \pgfkeys{
@@ -83,22 +81,18 @@
   % #4: Panel title
   % #5: Label
   \setlength{\parskip}{-20pt}
-  
+
   \begin{subfigure}[t]{#2}
     \panelcaption{#4}{#5}
     \begin{tikzpicture}
       % Place the image
       \node[anchor=south west, inner sep=0] (image) at (0,0) {#3};
       % Place the subcaption label using xshift and yshift
-      \node[anchor=north west, inner sep=3pt] at 
+      \node[anchor=north west, inner sep=3pt] at
       ([xshift=\xshift, yshift=\yshift]image.north west) {\textbf{(\thesubfigure)}};
     \end{tikzpicture}
   \end{subfigure}
 }
-
-
-
-
 
 \newsavebox{\tikzbox} % Define a savebox for the TikZ image
 

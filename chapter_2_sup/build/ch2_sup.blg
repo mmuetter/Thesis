@@ -1,0 +1,21 @@
+[0] Config.pm:304> INFO - This is Biber 2.14
+[0] Config.pm:307> INFO - Logfile is 'chapter_2_sup/build/ch2_sup.blg'
+[78] biber-darwin:322> INFO - === Thu Jul 31, 2025, 11:29:36
+[95] Biber.pm:415> INFO - Reading 'chapter_2_sup/build/ch2_sup.bcf'
+[180] Biber.pm:943> INFO - Found 11 citekeys in bib section 0
+[192] Biber.pm:4256> INFO - Processing section 0
+[193] Utils.pm:75> INFO - Globbing data source 'bibliographies/TSPlasmid.bib'
+[193] Utils.pm:91> INFO - Globbed data source 'bibliographies/TSPlasmid.bib' to bibliographies/TSPlasmid.bib
+[193] Utils.pm:75> INFO - Globbing data source 'bibliographies/thesis.bib'
+[193] Utils.pm:91> INFO - Globbed data source 'bibliographies/thesis.bib' to bibliographies/thesis.bib
+[204] Biber.pm:4455> INFO - Looking for bibtex format file 'bibliographies/TSPlasmid.bib' for section 0
+[214] bibtex.pm:1653> INFO - LaTeX decoding ...
+[437] bibtex.pm:1471> INFO - Found BibTeX data source 'bibliographies/TSPlasmid.bib'
+[687] Utils.pm:304> WARN - BibTeX subsystem: /var/folders/f7/ks4rl3915yj6crhznly5p28h0000gq/T/biber_tmp_gJCL/TSPlasmid.bib_16289.utf8, line 6, warning: 176 characters of junk seen at toplevel
+[705] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[705] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[705] Biber.pm:4084> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[705] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
+[722] bbl.pm:652> INFO - Writing 'chapter_2_sup/build/ch2_sup.bbl' with encoding 'UTF-8'
+[783] bbl.pm:755> INFO - Output to chapter_2_sup/build/ch2_sup.bbl
+[783] Biber.pm:128> INFO - WARNINGS: 1

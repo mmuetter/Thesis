@@ -4,7 +4,7 @@
   \label{tab:encounter_advanced}
   \makeCSVtable{r|ccccc}%
   {\bfseries Treatment $\mathbf{\vartheta}$ & $\mathbf{ A^x_r}$  &  $\mathbf{B^x_r}$  & \(\mathbf{N_{\mathcal E}^\vartheta}\) & \(\mathbf{N_{\mathcal S}^\vartheta}\) & \( \mathbf{\frac{N_{\mathcal E}^\vartheta}{N_{\mathcal S}^\vartheta}}\)}%
-  {supplementary_1/tables/emergence_advanced.csv}%
+  {chapter_2_sup/tables/emergence_advanced.csv}%
   {\treatment & \sa & \sb & \n & \total & \f}
 \end{table}
 
@@ -14,7 +14,7 @@
   \label{tab:strainPhenotypes}
   \makeCSVtable{l|ll}%
   {Name & \textbf{Relevant phenotype} &\textbf{Reference}}%
-  {supplementary_1/tables/strains_phenotypes.csv}%
+  {chapter_2_sup/tables/strains_phenotypes.csv}%
   {\name  & \phenotype & \reference}
 \end{table}
 
@@ -22,7 +22,7 @@
   \centering
   \captionof{table}{Statistical comparison of maximum growth rates between the sensitive and plasmid-carrying strains.
   We used a Mann-Whitney U test for pairwise comparisons, and the p-values were adjusted using the Bonferroni correction. }
-  \input{supplementary_1/tables/man_ferroni}
+  \input{chapter_2_sup/tables/man_ferroni}
   \label{tab:man_ferroni}
 \end{table}
 
@@ -34,7 +34,7 @@
     Confidence intervals and the mean frequencies were estimated by bootstrapping the binary data (plasmid retained or lost) pooled across replicates.
     No significant plasmid loss was observed in either the main data or the control.
   }
-  \input{supplementary_1/tables/loss_data}
+  \input{chapter_2_sup/tables/loss_data}
   \label{tab:loss_data}
 \end{table}
 
@@ -42,7 +42,7 @@
   \centering
   \caption{95 \% confidence intervals for the final bacterial density measured by colony plating and the maximal growth rates measured by evaluating OD-growth curves.}
   \label{tab:growth_and_density}
-  \input{supplementary_1/tables/growthcurves_and_rates.tex}
+  \input{chapter_2_sup/tables/growthcurves_and_rates.tex}
 \end{table}
 
 \begin{table}[H]
@@ -92,7 +92,7 @@
   \label{tab:clearance}
   \makeCSVtable{r|ccc}%
   { &   $S$ &  $A_r$ & $B_r$ }%
-  {supplementary_1/tables/clearance_mean.csv}%
+  {chapter_2_sup/tables/clearance_mean.csv}%
   {\treatmentwith  & \S   & \Ar   & \Br  }
 \end{table}
 
@@ -113,7 +113,7 @@
         head to column names,
         late after line=\\,
         filter test=\ifnumgreater{\thecsvinputline}{1}
-      ]{supplementary_1/tables/mixing_pheno.csv}{
+      ]{chapter_2_sup/tables/mixing_pheno.csv}{
         index=\idx,
         U=\u,    S=\s,
         Ar=\ar,  Br=\br,
@@ -130,7 +130,7 @@
   \begin{minipage}{.82\linewidth} % Adjust the width as needed
     \centering
     \captionof{table}{Mean parameter leading to $n$ single wins during the sensitivity analysis without preexisting double resistance. Strategies that did not yield at least one single win were excluded.}
-    \input{supplementary_1/tables/best_stats_no_preex}
+    \input{chapter_2_sup/tables/best_stats_no_preex}
     \label{tab:best_stats_no_preex}
   \end{minipage}
 
@@ -139,7 +139,7 @@
   \begin{minipage}{.82\linewidth} % Adjust the width as needed
     \centering
     \captionof{table}{Mean parameter leading to $n$ single losses during the sensitivity analysis without preexisting double resistance. Strategies that did not yield at least one single loss were excluded.}
-    \input{supplementary_1/tables/worst_stats_no_preex}
+    \input{chapter_2_sup/tables/worst_stats_no_preex}
     \label{tab:worst_stats_no_preex}
   \end{minipage}
 
@@ -148,7 +148,7 @@
   \begin{minipage}{.82\linewidth} % Adjust the width as needed
     \centering
     \captionof{table}{Mean parameter leading to $n$ single wins during the sensitivity analysis with preexisting double resistance. Strategies that did not yield at least one single win were excluded.}
-    \input{supplementary_1/tables/best_stats_preexisting}
+    \input{chapter_2_sup/tables/best_stats_preexisting}
     \label{tab:best_stats_preexisting}
   \end{minipage}
 
@@ -157,7 +157,7 @@
   \begin{minipage}{.82\linewidth} % Adjust the width as needed
     \centering
     \captionof{table}{Mean parameter leading to $n$ single losses during the sensitivity analysis with preexisting double resistance. Strategies that did not yield at least one single loss were excluded.}
-    \input{supplementary_1/tables/worst_stats_preexisting}
+    \input{chapter_2_sup/tables/worst_stats_preexisting}
     \label{tab:worst_stats_preexisting}
   \end{minipage}
 
@@ -167,28 +167,28 @@
   \centering
   \captionof{table}{Wins and losses during the sensitivity analysis. With preexisting double resistance. 606 parameter sets yielded an insignificant result.}
   \resizebox{\linewidth}{!}{
-    \input{supplementary_1/tables/win_loss_statistic_preexisting}
+    \input{chapter_2_sup/tables/win_loss_statistic_preexisting}
   }
   \label{tab:win_loss_statistic_preex}
 
   \vspace{1cm}
   \captionof{table}{Wins and losses during the sensitivity analysis without preexisting double resistance. 100 parameter sets yielded an insignificant result.}
   \resizebox{\linewidth}{!}{
-    \input{supplementary_1/tables/win_loss_statistic_no_preex}
+    \input{chapter_2_sup/tables/win_loss_statistic_no_preex}
   }
   \label{tab:win_loss_statistic_no_preex}
 
   \vspace{1cm}
   \captionof{table}{Wins and losses during the sensitivity analysis, using filtered transition probabilities and preexisting double resistance.  659 parameter sets yielded an insignificant result.}
   \resizebox{\linewidth}{!}{
-    \input{supplementary_1/tables/win_loss_statistic_clean_preexisting}
+    \input{chapter_2_sup/tables/win_loss_statistic_clean_preexisting}
   }
   \label{tab:win_loss_statistic_clean_preexisting}
 
   \vspace{1cm}
   \captionof{table}{Wins and losses during the sensitivity analysis with filtered transition matrices and no preexisting double resistance. 8 parameter sets yielded an insignificant result.}
   \resizebox{\linewidth}{!}{
-    \input{supplementary_1/tables/win_loss_statistic_clean_no_preex}
+    \input{chapter_2_sup/tables/win_loss_statistic_clean_no_preex}
   }
   \label{tab:win_loss_statistic_clean_no_preex}
 \end{table}
