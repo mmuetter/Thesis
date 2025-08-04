@@ -2718,11 +2718,11 @@
            given={Bruce\bibnamedelima R.},
            giveni={B\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
       }
-      \strng{namehash}{1dc86b669d04ffd1687f63b15752808f}
+      \strng{namehash}{743f25ea86300128c01e2be1a9bacd55}
       \strng{fullhash}{1dc86b669d04ffd1687f63b15752808f}
-      \strng{bibnamehash}{1dc86b669d04ffd1687f63b15752808f}
-      \strng{authorbibnamehash}{1dc86b669d04ffd1687f63b15752808f}
-      \strng{authornamehash}{1dc86b669d04ffd1687f63b15752808f}
+      \strng{bibnamehash}{743f25ea86300128c01e2be1a9bacd55}
+      \strng{authorbibnamehash}{743f25ea86300128c01e2be1a9bacd55}
+      \strng{authornamehash}{743f25ea86300128c01e2be1a9bacd55}
       \strng{authorfullhash}{1dc86b669d04ffd1687f63b15752808f}
       \field{sortinit}{4}
       \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
@@ -3105,11 +3105,11 @@
            given={Sebastian},
            giveni={S\bibinitperiod}}}%
       }
-      \strng{namehash}{cebb7849cc5de1839b07fa055fd0e20e}
+      \strng{namehash}{a55db23df74119729e79d5dc6c928ad4}
       \strng{fullhash}{cebb7849cc5de1839b07fa055fd0e20e}
-      \strng{bibnamehash}{cebb7849cc5de1839b07fa055fd0e20e}
-      \strng{authorbibnamehash}{cebb7849cc5de1839b07fa055fd0e20e}
-      \strng{authornamehash}{cebb7849cc5de1839b07fa055fd0e20e}
+      \strng{bibnamehash}{a55db23df74119729e79d5dc6c928ad4}
+      \strng{authorbibnamehash}{a55db23df74119729e79d5dc6c928ad4}
+      \strng{authornamehash}{a55db23df74119729e79d5dc6c928ad4}
       \strng{authorfullhash}{cebb7849cc5de1839b07fa055fd0e20e}
       \field{sortinit}{1}
       \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
@@ -3213,6 +3213,40 @@
       \verb :Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/1926/Loewe, H. - 1926 - {\"{U}}ber Kombinationswirkungen. - Unknown.pdf:pdf
       \endverb
     \endentry
+    \entry{Bliss1939}{article}{}
+      \name{author}{1}{}{%
+        {{hash=da1788c113114f34a92a90f29fd8c075}{%
+           family={BLISS},
+           familyi={B\bibinitperiod},
+           given={C.\bibnamedelimi I.},
+           giveni={C\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+      }
+      \strng{namehash}{da1788c113114f34a92a90f29fd8c075}
+      \strng{fullhash}{da1788c113114f34a92a90f29fd8c075}
+      \strng{bibnamehash}{da1788c113114f34a92a90f29fd8c075}
+      \strng{authorbibnamehash}{da1788c113114f34a92a90f29fd8c075}
+      \strng{authornamehash}{da1788c113114f34a92a90f29fd8c075}
+      \strng{authorfullhash}{da1788c113114f34a92a90f29fd8c075}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A quantitative analysis of the toxicity of drugs or poisons applied jointly requires that they be administered at several dosages in mixtures containing fixed proportions of the ingredients. From a study of the dosage‐mortality curves for several such mixtures, preferably in comparison with equivalent curves for the isolated active ingredients, most cases of combined action can be classified into one of three types: (1) The first type is that in which the constituents act independently and diversely, so that the toxicity of any combination can be predicted from that of the isolated components and from the association of susceptibilities to the two components. The coefficient of association can be measured experimentally and should be constant at all proportions of the ingredients. When high, the toxicity of the mixture is reduced. The form of the dosage‐mortality curve has been examined for several hypothetical mixtures. Whenever the curves for the two constituents were assumed to differ in slope, there was a relatively abrupt bend in the curve for the mixture, the rectilinear segments above and below the break approaching in slope the values for the original constituents. This observation indicates that in homogeneous populations the slope of a dosage‐mortality curve is of toxicological significance. Since the same numerical relations would be expected if a single poison were to have two independent lethal effects within the animal, there is theoretical basis for fitting the linear segments of a dosage‐mortality curve separately when a break occurs after transformation to probits and logarithms. This argument has been extended to time‐mortality experiments to explain the smoothly concave curves characteristic of natural mortality. (2) The second type of joint action is that in which the constituents act independently but similarly, so that one ingredient can be substituted at a constant ratio for any proportion of a second without altering the toxicity of the mixture. With homogeneous populations, dosage‐mortality curves for the separate ingredients and for all mixtures should be parallel. Although by hypothesis the susceptibility to one ingredient is completely correlated with that to the other, mixtures in this category are more toxic than in the preceding class where association may vary from 0 to 1. The numerical relations have been illustrated by an experiment on the toxicity to the house‐fly of solutions containing pyrethrin and rotenone. A mixture with a little less than four equitoxic units of pyrethrin to one of rotenone agreed closely with the definition but one in which the ingredients were about equally balanced showed a significantly greater toxicity than expected on the hypothesis of independent action, indicating the presence of synergism. (3) Synergism forms the third type of joint action, characterized by a toxicity greater than that predicted from studies on the isolated constituents. It is the reverse of antagonism, which has not been considered directly. Two methods are proposed for the analysis of synergism. The more direct is to relate equitoxic dosages of mixture to its percentage composition in terms of the more active ingredient. When both are in logarithms the relation is linear over a useful range of compositions. This procedure preserves the original structure of the experiment, can be extended readily to three or more ingredients and leads to a convenient practical result. Theoretically it is less satisfactory than a second method in which for equitoxic dosages of each mixture the content of one ingredient (A) is related to the content of the other (B.) The equation which satisfies this relation most completely is (1 +k1A) Bi=k2, where the three constants are computed from the experimental data. When the exponent i is equal to 1, only two constants need be determined and their product, k1k2, is proposed as a measure of the intensity of synergism. The synergism between a nitro‐phenol and petroleum oil has been computed by both methods. For mixtures containing from 0·5 to 5{\%} of the nitrophenol, the deposit of mixture (Dc) killing 98 {\%} of the eggs of a plant bug could be expressed adequately in terms of the percentage of the phenol (Q) as log Dc= 0·687‐0·307 log Q, for 98{\%} of overwintering San Jose scale as log Dc= 0·472 ‐0·363 log Q. All observations, including those for a 0·1 {\%} mixture and for oil alone which were omitted in the first method, could be fitted satisfactorily in terms of the separate ingredients. For plant bug eggs at LD50, (1+25·6A) B= 4·29 and for San Jose scale (1 + 66·7 A) B= 2·73: in both cases i= 1 and the intensity of synergism 110 and 182 respectively. The full procedure has also been applied to the constituents of seven samples of Derris root. One sample gave an unaccountably low toxicity and was omitted. The log LD 50 of ether extract for the remaining six was related to the percentage composition of two components in the extract, rotenone (A) and dehydro mixture (B.) Since the toxicity of extract could be expressed almost entirely in terms of these particular two constituents, they were then related to each other by the second method. None of the samples contained a very small proportion of one ingredient, so that several equations were equally applicable, one of them being (1+0–714A) B= 56·1, from which the intensity of synergism was 40. The problem of measuring synergism in fumigants has been discussed briefly. Copyright © 1939, Wiley Blackwell. All rights reserved}
+      \field{issn}{17447348}
+      \field{journaltitle}{Ann. Appl. Biol.}
+      \field{number}{3}
+      \field{title}{{the Toxicity of Poisons Applied Jointly}}
+      \field{volume}{26}
+      \field{year}{1939}
+      \field{pages}{585\bibrangedash 615}
+      \range{pages}{31}
+      \verb{doi}
+      \verb 10.1111/j.1744-7348.1939.tb06990.x
+      \endverb
+      \verb{file}
+      \verb :Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/1939/BLISS - 1939 - the Toxicity of Poisons Applied Jointly - Annals of Applied Biology.pdf:pdf
+      \endverb
+    \endentry
     \entry{Yeh2006}{article}{}
       \name{author}{3}{}{%
         {{hash=4300a1a74773da4650b7eab20e75ecb2}{%
@@ -3259,7 +3293,6 @@
     \endentry
   \enddatalist
   \missing{...}
-  \missing{Bliss1939}
   \missing{Frost2005}
   \missing{Gregory2018}
   \missing{Hawkey2008}
@@ -3450,11 +3483,11 @@
            given={Sebastian},
            giveni={S\bibinitperiod}}}%
       }
-      \strng{namehash}{cebb7849cc5de1839b07fa055fd0e20e}
+      \strng{namehash}{a55db23df74119729e79d5dc6c928ad4}
       \strng{fullhash}{cebb7849cc5de1839b07fa055fd0e20e}
-      \strng{bibnamehash}{cebb7849cc5de1839b07fa055fd0e20e}
-      \strng{authorbibnamehash}{cebb7849cc5de1839b07fa055fd0e20e}
-      \strng{authornamehash}{cebb7849cc5de1839b07fa055fd0e20e}
+      \strng{bibnamehash}{a55db23df74119729e79d5dc6c928ad4}
+      \strng{authorbibnamehash}{a55db23df74119729e79d5dc6c928ad4}
+      \strng{authornamehash}{a55db23df74119729e79d5dc6c928ad4}
       \strng{authorfullhash}{cebb7849cc5de1839b07fa055fd0e20e}
       \field{sortinit}{3}
       \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
@@ -3856,11 +3889,11 @@
            given={Sebastian},
            giveni={S\bibinitperiod}}}%
       }
-      \strng{namehash}{b1c84522fe81c85418b5c7b0e86368ad}
+      \strng{namehash}{55bf8e501413b523936745d168985a95}
       \strng{fullhash}{b1c84522fe81c85418b5c7b0e86368ad}
-      \strng{bibnamehash}{b1c84522fe81c85418b5c7b0e86368ad}
-      \strng{authorbibnamehash}{b1c84522fe81c85418b5c7b0e86368ad}
-      \strng{authornamehash}{b1c84522fe81c85418b5c7b0e86368ad}
+      \strng{bibnamehash}{55bf8e501413b523936745d168985a95}
+      \strng{authorbibnamehash}{55bf8e501413b523936745d168985a95}
+      \strng{authornamehash}{55bf8e501413b523936745d168985a95}
       \strng{authorfullhash}{b1c84522fe81c85418b5c7b0e86368ad}
       \field{sortinit}{9}
       \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
@@ -3919,11 +3952,11 @@
            given={Andreas\bibnamedelima F.},
            giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
       }
-      \strng{namehash}{9804ad493d4e0f77a8561f512e24c8e7}
+      \strng{namehash}{0e3a4b357949ce42d685ccbb99de0157}
       \strng{fullhash}{9804ad493d4e0f77a8561f512e24c8e7}
-      \strng{bibnamehash}{9804ad493d4e0f77a8561f512e24c8e7}
-      \strng{authorbibnamehash}{9804ad493d4e0f77a8561f512e24c8e7}
-      \strng{authornamehash}{9804ad493d4e0f77a8561f512e24c8e7}
+      \strng{bibnamehash}{0e3a4b357949ce42d685ccbb99de0157}
+      \strng{authorbibnamehash}{0e3a4b357949ce42d685ccbb99de0157}
+      \strng{authornamehash}{0e3a4b357949ce42d685ccbb99de0157}
       \strng{authorfullhash}{9804ad493d4e0f77a8561f512e24c8e7}
       \field{sortinit}{1}
       \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
@@ -4102,11 +4135,11 @@
            given={Csaba},
            giveni={C\bibinitperiod}}}%
       }
-      \strng{namehash}{15e49d509166463df7e788c4904cfae7}
+      \strng{namehash}{79a512674be7e3c050455cec27e50075}
       \strng{fullhash}{15e49d509166463df7e788c4904cfae7}
-      \strng{bibnamehash}{15e49d509166463df7e788c4904cfae7}
-      \strng{authorbibnamehash}{15e49d509166463df7e788c4904cfae7}
-      \strng{authornamehash}{15e49d509166463df7e788c4904cfae7}
+      \strng{bibnamehash}{79a512674be7e3c050455cec27e50075}
+      \strng{authorbibnamehash}{79a512674be7e3c050455cec27e50075}
+      \strng{authornamehash}{79a512674be7e3c050455cec27e50075}
       \strng{authorfullhash}{15e49d509166463df7e788c4904cfae7}
       \field{sortinit}{1}
       \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
@@ -4171,11 +4204,11 @@
            given={Andreas\bibnamedelima F.},
            giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
       }
-      \strng{namehash}{9804ad493d4e0f77a8561f512e24c8e7}
+      \strng{namehash}{0e3a4b357949ce42d685ccbb99de0157}
       \strng{fullhash}{9804ad493d4e0f77a8561f512e24c8e7}
-      \strng{bibnamehash}{9804ad493d4e0f77a8561f512e24c8e7}
-      \strng{authorbibnamehash}{9804ad493d4e0f77a8561f512e24c8e7}
-      \strng{authornamehash}{9804ad493d4e0f77a8561f512e24c8e7}
+      \strng{bibnamehash}{0e3a4b357949ce42d685ccbb99de0157}
+      \strng{authorbibnamehash}{0e3a4b357949ce42d685ccbb99de0157}
+      \strng{authornamehash}{0e3a4b357949ce42d685ccbb99de0157}
       \strng{authorfullhash}{9804ad493d4e0f77a8561f512e24c8e7}
       \field{sortinit}{1}
       \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
@@ -4230,12 +4263,13 @@
            given={Sebastian},
            giveni={S\bibinitperiod}}}%
       }
-      \strng{namehash}{b1c84522fe81c85418b5c7b0e86368ad}
+      \strng{namehash}{55bf8e501413b523936745d168985a95}
       \strng{fullhash}{b1c84522fe81c85418b5c7b0e86368ad}
-      \strng{bibnamehash}{b1c84522fe81c85418b5c7b0e86368ad}
-      \strng{authorbibnamehash}{b1c84522fe81c85418b5c7b0e86368ad}
-      \strng{authornamehash}{b1c84522fe81c85418b5c7b0e86368ad}
+      \strng{bibnamehash}{55bf8e501413b523936745d168985a95}
+      \strng{authorbibnamehash}{55bf8e501413b523936745d168985a95}
+      \strng{authornamehash}{55bf8e501413b523936745d168985a95}
       \strng{authorfullhash}{b1c84522fe81c85418b5c7b0e86368ad}
+      \field{extraname}{1}
       \field{sortinit}{2}
       \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
       \field{labelnamesource}{author}
@@ -4308,11 +4342,11 @@
            given={Csaba},
            giveni={C\bibinitperiod}}}%
       }
-      \strng{namehash}{15e49d509166463df7e788c4904cfae7}
+      \strng{namehash}{79a512674be7e3c050455cec27e50075}
       \strng{fullhash}{15e49d509166463df7e788c4904cfae7}
-      \strng{bibnamehash}{15e49d509166463df7e788c4904cfae7}
-      \strng{authorbibnamehash}{15e49d509166463df7e788c4904cfae7}
-      \strng{authornamehash}{15e49d509166463df7e788c4904cfae7}
+      \strng{bibnamehash}{79a512674be7e3c050455cec27e50075}
+      \strng{authorbibnamehash}{79a512674be7e3c050455cec27e50075}
+      \strng{authornamehash}{79a512674be7e3c050455cec27e50075}
       \strng{authorfullhash}{15e49d509166463df7e788c4904cfae7}
       \field{sortinit}{3}
       \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
@@ -4367,11 +4401,11 @@
            given={E.\bibnamedelimi John},
            giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
       }
-      \strng{namehash}{e56c135ae12bf3ef935012f5d6d251b4}
+      \strng{namehash}{f9a79b61d5469451d62319b788febd87}
       \strng{fullhash}{e56c135ae12bf3ef935012f5d6d251b4}
-      \strng{bibnamehash}{e56c135ae12bf3ef935012f5d6d251b4}
-      \strng{authorbibnamehash}{e56c135ae12bf3ef935012f5d6d251b4}
-      \strng{authornamehash}{e56c135ae12bf3ef935012f5d6d251b4}
+      \strng{bibnamehash}{f9a79b61d5469451d62319b788febd87}
+      \strng{authorbibnamehash}{f9a79b61d5469451d62319b788febd87}
+      \strng{authornamehash}{f9a79b61d5469451d62319b788febd87}
       \strng{authorfullhash}{e56c135ae12bf3ef935012f5d6d251b4}
       \field{sortinit}{4}
       \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
@@ -4437,12 +4471,13 @@
       \list{publisher}{1}{%
         {Elsevier Inc.}%
       }
-      \strng{namehash}{e405a98ca9da4a558e819cc0784d552d}
+      \strng{namehash}{55bf8e501413b523936745d168985a95}
       \strng{fullhash}{e405a98ca9da4a558e819cc0784d552d}
-      \strng{bibnamehash}{e405a98ca9da4a558e819cc0784d552d}
-      \strng{authorbibnamehash}{e405a98ca9da4a558e819cc0784d552d}
-      \strng{authornamehash}{e405a98ca9da4a558e819cc0784d552d}
+      \strng{bibnamehash}{55bf8e501413b523936745d168985a95}
+      \strng{authorbibnamehash}{55bf8e501413b523936745d168985a95}
+      \strng{authornamehash}{55bf8e501413b523936745d168985a95}
       \strng{authorfullhash}{e405a98ca9da4a558e819cc0784d552d}
+      \field{extraname}{2}
       \field{sortinit}{5}
       \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
       \field{labelnamesource}{author}
@@ -5233,11 +5268,11 @@
            given={Sebastian},
            giveni={S\bibinitperiod}}}%
       }
-      \strng{namehash}{3dc6174315493561668f52ac208e4e1b}
+      \strng{namehash}{4a31c6a8ec79404b3a1275cbc7fd9a24}
       \strng{fullhash}{3dc6174315493561668f52ac208e4e1b}
-      \strng{bibnamehash}{3dc6174315493561668f52ac208e4e1b}
-      \strng{authorbibnamehash}{3dc6174315493561668f52ac208e4e1b}
-      \strng{authornamehash}{3dc6174315493561668f52ac208e4e1b}
+      \strng{bibnamehash}{4a31c6a8ec79404b3a1275cbc7fd9a24}
+      \strng{authorbibnamehash}{4a31c6a8ec79404b3a1275cbc7fd9a24}
+      \strng{authornamehash}{4a31c6a8ec79404b3a1275cbc7fd9a24}
       \strng{authorfullhash}{3dc6174315493561668f52ac208e4e1b}
       \field{sortinit}{1}
       \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
@@ -5292,11 +5327,11 @@
            given={Tobias},
            giveni={T\bibinitperiod}}}%
       }
-      \strng{namehash}{45d09a9aeb19e81ce12566d62af69d84}
+      \strng{namehash}{1ed48116e19da0ecd9ba648e2f25df4a}
       \strng{fullhash}{45d09a9aeb19e81ce12566d62af69d84}
-      \strng{bibnamehash}{45d09a9aeb19e81ce12566d62af69d84}
-      \strng{authorbibnamehash}{45d09a9aeb19e81ce12566d62af69d84}
-      \strng{authornamehash}{45d09a9aeb19e81ce12566d62af69d84}
+      \strng{bibnamehash}{1ed48116e19da0ecd9ba648e2f25df4a}
+      \strng{authorbibnamehash}{1ed48116e19da0ecd9ba648e2f25df4a}
+      \strng{authornamehash}{1ed48116e19da0ecd9ba648e2f25df4a}
       \strng{authorfullhash}{45d09a9aeb19e81ce12566d62af69d84}
       \field{sortinit}{1}
       \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
@@ -5363,13 +5398,258 @@
       \verb :Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/2003/Kishony, Leibler - 2003 - Environmental stresses can alleviate the average deleterious effect of mutations - Journal of Biology.pdf:pdf
       \endverb
     \endentry
+    \entry{Edgeworth2020}{article}{}
+      \name{author}{4}{}{%
+        {{hash=9ce328ba75b5efd487b55e8cdac9e7a4}{%
+           family={Edgeworth},
+           familyi={E\bibinitperiod},
+           given={Jonathan\bibnamedelima D},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=9a64b704c556cf4fc3261e7e4442e8a5}{%
+           family={Batra},
+           familyi={B\bibinitperiod},
+           given={Rahul},
+           giveni={R\bibinitperiod}}}%
+        {{hash=49f8f3a2b6eafb47ff8432adcc5ceace}{%
+           family={Wulff},
+           familyi={W\bibinitperiod},
+           given={Jerome},
+           giveni={J\bibinitperiod}}}%
+        {{hash=0c47051d46d0a9329486e9ca99175787}{%
+           family={Harrison},
+           familyi={H\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{dcd5cb5a498d3e8ee0aa0c77ba256912}
+      \strng{fullhash}{dcd5cb5a498d3e8ee0aa0c77ba256912}
+      \strng{bibnamehash}{dcd5cb5a498d3e8ee0aa0c77ba256912}
+      \strng{authorbibnamehash}{dcd5cb5a498d3e8ee0aa0c77ba256912}
+      \strng{authornamehash}{dcd5cb5a498d3e8ee0aa0c77ba256912}
+      \strng{authorfullhash}{dcd5cb5a498d3e8ee0aa0c77ba256912}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Background: Methicillin-resistant Staphylococcus aureus (MRSA) and Clostridium difficile infections declined across the UK National Health Service in the decade that followed implementation of an infection control campaign. The national impact on intensive care unit (ICU)-acquired infections has not been documented. Methods. Data on MRSA, C. difficile, vancomycin-resistant Enterococcus (VRE), and ICU-acquired bloodstream infections (UABSIs) for 1 189 142 patients from 2007 to 2016 were analyzed. Initial coverage was 139 ICUs increasing to 276 ICUs, representing 100{\%} of general adult UK ICUs. Results. ICU MRSA and C. difficile acquisitions per 1000 patients decreased between 2007 and 2016 (MRSA acquisitions, 25.4 to 4.1; and C. difficile acquisitions, 11.1 to 3.5), whereas VRE acquisitions increased from 1.5 to 5.9. There were 13 114 UABSIs in 1.8{\%} of patients who stayed longer than 48 hours on ICU. UABSIs fell from 7.3 (95{\%} confidence interval [CI], 6.9-7.6) to 1.6 (95{\%} CI, 1.5-1.7)/1000 bed days. Adjusting for patient factors, the incidence rate ratio was 0.21 (95{\%} CI, 0.19-0.23, P <.001) from 2007 to 2016. The greatest reduction, comparing rates in 2007/08 and 2015/16, was for MRSA (97{\%}), followed by P. aeruginosa (81{\%}), S. aureus (79{\%}) and Candida spp (72{\%}), with lower reductions for the coliforms (E. coli 57{\%} and Klebsiella 49{\%}). Conclusions. Large decreases in ICU-acquired infections occurred across the UK ICU network linked with the first few years of a national infection control campaign, but rates have since been static. Further reductions will likely require a new intervention framework.}
+      \field{issn}{15376591}
+      \field{journaltitle}{Clin. Infect. Dis.}
+      \field{number}{12}
+      \field{title}{{Reductions in methicillin-resistant staphylococcus aureus, clostridium difficile infection and intensive care unit-acquired bloodstream infection across the United Kingdom following implementation of a national infection control campaign}}
+      \field{volume}{70}
+      \field{year}{2020}
+      \field{pages}{2530\bibrangedash 2540}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1093/cid/ciz720
+      \endverb
+      \verb{file}
+      \verb :Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/2020/Edgeworth et al. - 2020 - Reductions in methicillin-resistant staphylococcus aureus, clostridium difficile infection and intensive care.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://academic.oup.com/cid/article/70/12/2530/5542778
+      \endverb
+      \verb{url}
+      \verb https://academic.oup.com/cid/article/70/12/2530/5542778
+      \endverb
+      \keyw{Bacteremia,Hospital acquired infection,ICU,Infection control,MRSA}
+    \endentry
+    \entry{Schwaber2011}{article}{}
+      \name{author}{8}{}{%
+        {{hash=ea0bdf17b8df94079498ec6bb12be144}{%
+           family={Schwaber},
+           familyi={S\bibinitperiod},
+           given={Mitchell\bibnamedelima J},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=65166598562ffe72d47114982d01ed7e}{%
+           family={Lev},
+           familyi={L\bibinitperiod},
+           given={Boaz},
+           giveni={B\bibinitperiod}}}%
+        {{hash=92ea0e37ab62b1ba0d2760e052066187}{%
+           family={Israeli},
+           familyi={I\bibinitperiod},
+           given={Avi},
+           giveni={A\bibinitperiod}}}%
+        {{hash=b6cd18954d1900a793347314b90fab4d}{%
+           family={Solter},
+           familyi={S\bibinitperiod},
+           given={Ester},
+           giveni={E\bibinitperiod}}}%
+        {{hash=60c1d843146912f2609892b140ef41e3}{%
+           family={Smollan},
+           familyi={S\bibinitperiod},
+           given={Gill},
+           giveni={G\bibinitperiod}}}%
+        {{hash=4b39c84c8a8dd4680c8c45059ca34e13}{%
+           family={Rubinovitch},
+           familyi={R\bibinitperiod},
+           given={Bina},
+           giveni={B\bibinitperiod}}}%
+        {{hash=b1fefb18f8a0e3b8370ecd030e7c2551}{%
+           family={Shalit},
+           familyi={S\bibinitperiod},
+           given={Itamar},
+           giveni={I\bibinitperiod}}}%
+        {{hash=c07aa3ecaf2c84c98c34fa43e39bf543}{%
+           family={Carmeli},
+           familyi={C\bibinitperiod},
+           given={Yehuda},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{aa2e3f7c8351361b749e36dc376d120d}
+      \strng{fullhash}{b57ced514fd2117a67d942ecff4d0684}
+      \strng{bibnamehash}{aa2e3f7c8351361b749e36dc376d120d}
+      \strng{authorbibnamehash}{aa2e3f7c8351361b749e36dc376d120d}
+      \strng{authornamehash}{aa2e3f7c8351361b749e36dc376d120d}
+      \strng{authorfullhash}{b57ced514fd2117a67d942ecff4d0684}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Background. During 2006, Israeli hospitals faced a clonal outbreak of carbapenem-resistant Klebsiella pneumoniae that was not controlled by local measures. A nationwide intervention was launched to contain the outbreak and to introduce a strategy to control future dissemination of antibiotic-resistant bacteria in hospitals. Methods. In March 2007, the Ministry of Health issued guidelines mandating physical separation of hospitalized carriers of carbapenem-resistant Enterobacteriaceae (CRE) and dedicated staffing and appointed a professional task force charged with containment. The task force paid site visits at acute-care hospitals, evaluated infection-control policies and laboratory methods, supervised adherence to the guidelines via daily census reports on carriers and their conditions of isolation, provided daily feedback on performance to hospital directors, and intervened additionally when necessary. The initial intervention period was 1 April 2007-31 May 2008. The primary outcome measure was incidence of clinically diagnosed nosocomial CRE cases. Results. By 31 March 2007, 1275 patients were affected in 27 hospitals (175 cases per 1 million population). Prior to the intervention, the monthly incidence of nosocomial CRE was 55.5 cases per 100,000 patient-days. With the intervention, the continuous increase in the incidence of CRE acquisition was halted, and by May 2008, the number of new monthly cases was reduced to 11.7 cases per 100,000 patient-days (P <. 001). There was a direct correlation between compliance with isolation guidelines and success in containment of transmission (P =. 02). Compliance neutralized the effect of carrier prevalence on new incidence (P =. 03).Conclusions.A centrally coordinated intervention succeeded in containing a nationwide CRE outbreak after local measures failed. The intervention demonstrates the importance of strategic planning and national oversight in combating antimicrobial resistance. © 2011 The Author.}
+      \field{issn}{10584838}
+      \field{journaltitle}{Clin. Infect. Dis.}
+      \field{number}{7}
+      \field{title}{{Containment of a country-wide outbreak of carbapenem-resistant klebsiella pneumoniae in israeli hospitals via a nationally implemented intervention}}
+      \field{volume}{52}
+      \field{year}{2011}
+      \field{pages}{848\bibrangedash 855}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1093/cid/cir025
+      \endverb
+      \verb{file}
+      \verb :Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/2011/Schwaber et al. - 2011 - Containment of a country-wide outbreak of carbapenem-resistant klebsiella pneumoniae in israeli hospitals via a.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://academic.oup.com/cid/article-abstract/52/7/848/299188
+      \endverb
+      \verb{url}
+      \verb https://academic.oup.com/cid/article-abstract/52/7/848/299188
+      \endverb
+    \endentry
+    \entry{Kyaw2006}{article}{}
+      \name{author}{16}{}{%
+        {{hash=b68b6cefea40dff283ca531c297c78bc}{%
+           family={Kyaw},
+           familyi={K\bibinitperiod},
+           given={Moe\bibnamedelima H.},
+           giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=58b638abb3c3a1b7ac522afe2fe36be1}{%
+           family={Lynfield},
+           familyi={L\bibinitperiod},
+           given={Ruth},
+           giveni={R\bibinitperiod}}}%
+        {{hash=39ee4714e421daa60d7d8e8794a851da}{%
+           family={Schaffner},
+           familyi={S\bibinitperiod},
+           given={William},
+           giveni={W\bibinitperiod}}}%
+        {{hash=d5867d369249f76b0bd88c7b32d8532e}{%
+           family={Craig},
+           familyi={C\bibinitperiod},
+           given={Anne\bibnamedelima S.},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=ee6d7cafcbfc576e127efde30173b032}{%
+           family={Hadler},
+           familyi={H\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod}}}%
+        {{hash=84e7e9974fa546480e1bf049d8814cb7}{%
+           family={Reingold},
+           familyi={R\bibinitperiod},
+           given={Arthur},
+           giveni={A\bibinitperiod}}}%
+        {{hash=4d8702216f9410a3bc19c63280456b00}{%
+           family={Thomas},
+           familyi={T\bibinitperiod},
+           given={Ann\bibnamedelima R.},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=68610b29e769f2cab6001ba2fa797012}{%
+           family={Harrison},
+           familyi={H\bibinitperiod},
+           given={Lee\bibnamedelima H.},
+           giveni={L\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=a5b88be4450e8a91ebb0bc3c20ff407a}{%
+           family={Bennett},
+           familyi={B\bibinitperiod},
+           given={Nancy\bibnamedelima M.},
+           giveni={N\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=e0b067c895bad78a85583d33265a4e68}{%
+           family={Farley},
+           familyi={F\bibinitperiod},
+           given={Monica\bibnamedelima M.},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=13634e73f94a82a655da7dafd63a588a}{%
+           family={Facklam},
+           familyi={F\bibinitperiod},
+           given={Richard\bibnamedelima R.},
+           giveni={R\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=4bca9b2490ebd15a5bf472b40f9b9953}{%
+           family={Jorgensen},
+           familyi={J\bibinitperiod},
+           given={James\bibnamedelima H.},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=624d8d6fc8509443aff4bd70fdc4818b}{%
+           family={Besser},
+           familyi={B\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+        {{hash=e69c5a8044ee067ce582fa92832a025e}{%
+           family={Zell},
+           familyi={Z\bibinitperiod},
+           given={Elizabeth\bibnamedelima R.},
+           giveni={E\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=b208cde46c6a7b0720e8d28c0be09f9e}{%
+           family={Schuchat},
+           familyi={S\bibinitperiod},
+           given={Anne},
+           giveni={A\bibinitperiod}}}%
+        {{hash=78e167265be499f5e0163814821d60d6}{%
+           family={Whitney},
+           familyi={W\bibinitperiod},
+           given={Cynthia\bibnamedelima G.},
+           giveni={C\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {N Engl J Med}%
+      }
+      \strng{namehash}{5363bf5d0687521e5f6794e823eecb8c}
+      \strng{fullhash}{11af7cb8d7327fed3b44ff6adfb55646}
+      \strng{bibnamehash}{5363bf5d0687521e5f6794e823eecb8c}
+      \strng{authorbibnamehash}{5363bf5d0687521e5f6794e823eecb8c}
+      \strng{authornamehash}{5363bf5d0687521e5f6794e823eecb8c}
+      \strng{authorfullhash}{11af7cb8d7327fed3b44ff6adfb55646}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1533-4406}
+      \field{journaltitle}{N. Engl. J. Med.}
+      \field{month}{6}
+      \field{number}{14}
+      \field{title}{{Effect of introduction of the pneumococcal conjugate vaccine on drug-resistant Streptococcus pneumoniae}}
+      \field{volume}{354}
+      \field{year}{2006}
+      \field{pages}{124\bibrangedash 125}
+      \range{pages}{2}
+      \verb{doi}
+      \verb 10.1056/NEJMOA051642
+      \endverb
+      \verb{file}
+      \verb :Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/2006/Kyaw et al. - 2006 - Effect of introduction of the pneumococcal conjugate vaccine on drug-resistant Streptococcus pneumoniae - The New E.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://pubmed.ncbi.nlm.nih.gov/16598044/
+      \endverb
+      \verb{url}
+      \verb https://pubmed.ncbi.nlm.nih.gov/16598044/
+      \endverb
+      \keyw{Adolescent,Adult,Aged,Bacterial*,Child,CollabAuthor(name='Active Bacterial Core Surveilla,Drug Resistance,Heptavalent Pneumococcal Conjugate Vaccine,Humans,Infant,MEDLINE,Meningococcal Vaccines*,Middle Aged,Moe H Kyaw,NCBI,NIH,NLM,National Center for Biotechnology Information,National Institutes of Health,National Library of Medicine,Non-U.S. Gov't,Penicillin Resistance,Pneumococcal Infections / epidemiology*,Pneumococcal Infections / microbiology,Pneumococcal Infections / prevention {\&} control,Pneumococcal Vaccines*,Population Surveillance,Preschool,PubMed Abstract,Research Support,Ruth Lynfield,Serotyping,Streptococcus pneumoniae / classification,Streptococcus pneumoniae / drug effects*,Streptococcus pneumoniae / isolation {\&} purificatio,United States / epidemiology,affs=[]),doi:10.1056/NEJMoa051642,investigators=[],pmid:16598044}
+    \endentry
   \enddatalist
-  \missing{ECDC2023_NL_SE}
-  \missing{Edgeworth2020}
   \missing{Gregory2018}
-  \missing{Molstad2017}
-  \missing{Olarte2022}
-  \missing{Schwaber2011}
 \endrefsection
 \endinput
 

@@ -197,7 +197,7 @@
   backend=biber,
   sorting=none,
   style=numeric-comp,
-  maxnames=20,
+  maxnames=5,
   giveninits=true,
   defernumbers=true
 ]{biblatex}

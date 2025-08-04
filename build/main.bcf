@@ -91,15 +91,15 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxbibnames</bcf:key>
-      <bcf:value>20</bcf:value>
+      <bcf:value>5</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxcitenames</bcf:key>
-      <bcf:value>20</bcf:value>
+      <bcf:value>5</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxsortnames</bcf:key>
-      <bcf:value>20</bcf:value>
+      <bcf:value>5</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxitems</bcf:key>
@@ -2297,9 +2297,7 @@
     <bcf:citekey order="2">Kishony2003</bcf:citekey>
     <bcf:citekey order="3">Edgeworth2020</bcf:citekey>
     <bcf:citekey order="4">Schwaber2011</bcf:citekey>
-    <bcf:citekey order="5">Molstad2017</bcf:citekey>
-    <bcf:citekey order="6">Olarte2022</bcf:citekey>
-    <bcf:citekey order="7">ECDC2023_NL_SE</bcf:citekey>
+    <bcf:citekey order="5">Kyaw2006</bcf:citekey>
   </bcf:section>
   <!-- SECTION 0 (cont.) -->
   <bcf:section number="0">

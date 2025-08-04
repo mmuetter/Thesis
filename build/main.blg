@@ -1,92 +1,86 @@
 [0] Config.pm:304> INFO - This is Biber 2.14
 [0] Config.pm:307> INFO - Logfile is 'build/main.blg'
-[111] biber-darwin:322> INFO - === Thu Jul 31, 2025, 20:13:11
-[133] Biber.pm:415> INFO - Reading 'build/main.bcf'
-[274] Biber.pm:943> INFO - Found 0 citekeys in bib section 0
-[274] Biber.pm:943> INFO - Found 0 citekeys in bib section 1
-[274] Biber.pm:943> INFO - Found 0 citekeys in bib section 0
-[275] Biber.pm:943> INFO - Found 21 citekeys in bib section 2
-[275] Biber.pm:943> INFO - Found 0 citekeys in bib section 0
-[276] Biber.pm:943> INFO - Found 16 citekeys in bib section 3
-[276] Biber.pm:943> INFO - Found 0 citekeys in bib section 0
-[276] Biber.pm:943> INFO - Found 11 citekeys in bib section 4
-[277] Biber.pm:943> INFO - Found 0 citekeys in bib section 0
-[277] Biber.pm:943> INFO - Found 7 citekeys in bib section 5
-[277] Biber.pm:943> INFO - Found 0 citekeys in bib section 0
-[332] Biber.pm:4256> INFO - Processing section 2
-[332] Utils.pm:75> INFO - Globbing data source 'bibliographies/TSPlasmid.bib'
-[333] Utils.pm:91> INFO - Globbed data source 'bibliographies/TSPlasmid.bib' to bibliographies/TSPlasmid.bib
-[333] Utils.pm:75> INFO - Globbing data source 'bibliographies/thesis.bib'
-[333] Utils.pm:91> INFO - Globbed data source 'bibliographies/thesis.bib' to bibliographies/thesis.bib
-[346] Biber.pm:4455> INFO - Looking for bibtex format file 'bibliographies/TSPlasmid.bib' for section 2
-[362] bibtex.pm:1653> INFO - LaTeX decoding ...
-[721] bibtex.pm:1471> INFO - Found BibTeX data source 'bibliographies/TSPlasmid.bib'
-[845] Utils.pm:304> WARN - BibTeX subsystem: /var/folders/f7/ks4rl3915yj6crhznly5p28h0000gq/T/biber_tmp_dNdY/TSPlasmid.bib_20265.utf8, line 6, warning: 176 characters of junk seen at toplevel
-[846] Biber.pm:4455> INFO - Looking for bibtex format file 'bibliographies/thesis.bib' for section 2
-[853] bibtex.pm:1653> INFO - LaTeX decoding ...
-[1054] bibtex.pm:1471> INFO - Found BibTeX data source 'bibliographies/thesis.bib'
-[1055] Utils.pm:304> WARN - Duplicate entry key: 'Tepekule2017' in file 'bibliographies/thesis.bib', skipping ...
-[1056] Utils.pm:304> WARN - Duplicate entry key: 'Ocampo2014' in file 'bibliographies/thesis.bib', skipping ...
-[1056] Utils.pm:304> WARN - Duplicate entry key: 'Skylakakis1981' in file 'bibliographies/thesis.bib', skipping ...
-[1056] Utils.pm:304> WARN - Duplicate entry key: 'Kable1980' in file 'bibliographies/thesis.bib', skipping ...
-[1057] Utils.pm:304> WARN - Duplicate entry key: 'Uecker2021' in file 'bibliographies/thesis.bib', skipping ...
-[1057] Utils.pm:304> WARN - Duplicate entry key: 'Sutter2016' in file 'bibliographies/thesis.bib', skipping ...
-[1059] Utils.pm:304> WARN - Duplicate entry key: 'Delp1980' in file 'bibliographies/thesis.bib', skipping ...
-[1060] Utils.pm:304> WARN - Duplicate entry key: 'Goldberg2012' in file 'bibliographies/thesis.bib', skipping ...
-[1060] Utils.pm:304> WARN - Duplicate entry key: 'Bonhoeffer1997' in file 'bibliographies/thesis.bib', skipping ...
-[1060] Utils.pm:304> WARN - Duplicate entry key: 'Angst2021' in file 'bibliographies/thesis.bib', skipping ...
-[1061] Utils.pm:304> WARN - Duplicate entry key: 'siedentop_metaanalysis_2024' in file 'bibliographies/thesis.bib', skipping ...
-[1962] Utils.pm:304> WARN - month field 'sep' in entry 'Naghavi2024' is not an integer - this will probably not sort properly.
-[1990] Utils.pm:304> WARN - Possible typo (case mismatch) between citation and datasource keys: 'Bliss1939' and 'BLISS1939' in file 'bibliographies/thesis.bib'
-[1998] Utils.pm:304> WARN - BibTeX subsystem: /var/folders/f7/ks4rl3915yj6crhznly5p28h0000gq/T/biber_tmp_dNdY/thesis.bib_20265.utf8, line 6, warning: 176 characters of junk seen at toplevel
-[1999] Utils.pm:304> WARN - I didn't find a database entry for 'Hawkey2008' (section 2)
-[1999] Utils.pm:304> WARN - I didn't find a database entry for 'Frost2005' (section 2)
-[1999] Utils.pm:304> WARN - I didn't find a database entry for 'Smillie2010' (section 2)
-[1999] Utils.pm:304> WARN - I didn't find a database entry for 'Gregory2018' (section 2)
-[2000] Utils.pm:304> WARN - I didn't find a database entry for 'Leekha2011' (section 2)
-[2000] Utils.pm:304> WARN - I didn't find a database entry for '...' (section 2)
-[2000] Utils.pm:304> WARN - I didn't find a database entry for 'Bliss1939' (section 2)
-[2053] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[2053] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[2053] Biber.pm:4084> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[2053] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
-[2098] Biber.pm:4256> INFO - Processing section 3
-[2099] Utils.pm:75> INFO - Globbing data source 'bibliographies/TSPlasmid.bib'
-[2099] Utils.pm:91> INFO - Globbed data source 'bibliographies/TSPlasmid.bib' to bibliographies/TSPlasmid.bib
-[2099] Utils.pm:75> INFO - Globbing data source 'bibliographies/thesis.bib'
-[2099] Utils.pm:91> INFO - Globbed data source 'bibliographies/thesis.bib' to bibliographies/thesis.bib
-[2099] Biber.pm:4455> INFO - Looking for bibtex format file 'bibliographies/TSPlasmid.bib' for section 3
-[2310] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[2311] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[2311] Biber.pm:4084> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[2311] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
-[2328] Biber.pm:4256> INFO - Processing section 4
-[2328] Utils.pm:75> INFO - Globbing data source 'bibliographies/TSPlasmid.bib'
-[2328] Utils.pm:91> INFO - Globbed data source 'bibliographies/TSPlasmid.bib' to bibliographies/TSPlasmid.bib
-[2328] Utils.pm:75> INFO - Globbing data source 'bibliographies/thesis.bib'
-[2328] Utils.pm:91> INFO - Globbed data source 'bibliographies/thesis.bib' to bibliographies/thesis.bib
-[2329] Biber.pm:4455> INFO - Looking for bibtex format file 'bibliographies/TSPlasmid.bib' for section 4
-[2687] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[2687] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[2687] Biber.pm:4084> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[2688] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
-[2704] Biber.pm:4256> INFO - Processing section 5
-[2704] Utils.pm:75> INFO - Globbing data source 'bibliographies/TSPlasmid.bib'
-[2704] Utils.pm:91> INFO - Globbed data source 'bibliographies/TSPlasmid.bib' to bibliographies/TSPlasmid.bib
-[2704] Utils.pm:75> INFO - Globbing data source 'bibliographies/thesis.bib'
-[2705] Utils.pm:91> INFO - Globbed data source 'bibliographies/thesis.bib' to bibliographies/thesis.bib
-[2705] Biber.pm:4455> INFO - Looking for bibtex format file 'bibliographies/TSPlasmid.bib' for section 5
-[2706] Biber.pm:4455> INFO - Looking for bibtex format file 'bibliographies/thesis.bib' for section 5
-[2714] Utils.pm:304> WARN - I didn't find a database entry for 'Gregory2018' (section 5)
-[2714] Utils.pm:304> WARN - I didn't find a database entry for 'Edgeworth2020' (section 5)
-[2714] Utils.pm:304> WARN - I didn't find a database entry for 'Schwaber2011' (section 5)
-[2714] Utils.pm:304> WARN - I didn't find a database entry for 'Molstad2017' (section 5)
-[2714] Utils.pm:304> WARN - I didn't find a database entry for 'Olarte2022' (section 5)
-[2714] Utils.pm:304> WARN - I didn't find a database entry for 'ECDC2023_NL_SE' (section 5)
-[2723] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[2723] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[2723] Biber.pm:4084> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[2723] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
-[2725] bbl.pm:652> INFO - Writing 'build/main.bbl' with encoding 'UTF-8'
-[4627] bbl.pm:755> INFO - Output to build/main.bbl
-[4627] Biber.pm:128> INFO - WARNINGS: 28
+[74] biber-darwin:322> INFO - === Mon Aug  4, 2025, 14:07:16
+[88] Biber.pm:415> INFO - Reading 'build/main.bcf'
+[182] Biber.pm:943> INFO - Found 0 citekeys in bib section 0
+[182] Biber.pm:943> INFO - Found 0 citekeys in bib section 1
+[182] Biber.pm:943> INFO - Found 0 citekeys in bib section 0
+[183] Biber.pm:943> INFO - Found 21 citekeys in bib section 2
+[183] Biber.pm:943> INFO - Found 0 citekeys in bib section 0
+[183] Biber.pm:943> INFO - Found 16 citekeys in bib section 3
+[183] Biber.pm:943> INFO - Found 0 citekeys in bib section 0
+[184] Biber.pm:943> INFO - Found 11 citekeys in bib section 4
+[184] Biber.pm:943> INFO - Found 0 citekeys in bib section 0
+[184] Biber.pm:943> INFO - Found 5 citekeys in bib section 5
+[184] Biber.pm:943> INFO - Found 0 citekeys in bib section 0
+[224] Biber.pm:4256> INFO - Processing section 2
+[224] Utils.pm:75> INFO - Globbing data source 'bibliographies/TSPlasmid.bib'
+[224] Utils.pm:91> INFO - Globbed data source 'bibliographies/TSPlasmid.bib' to bibliographies/TSPlasmid.bib
+[224] Utils.pm:75> INFO - Globbing data source 'bibliographies/thesis.bib'
+[224] Utils.pm:91> INFO - Globbed data source 'bibliographies/thesis.bib' to bibliographies/thesis.bib
+[234] Biber.pm:4455> INFO - Looking for bibtex format file 'bibliographies/TSPlasmid.bib' for section 2
+[245] bibtex.pm:1653> INFO - LaTeX decoding ...
+[483] bibtex.pm:1471> INFO - Found BibTeX data source 'bibliographies/TSPlasmid.bib'
+[565] Utils.pm:304> WARN - BibTeX subsystem: /var/folders/f7/ks4rl3915yj6crhznly5p28h0000gq/T/biber_tmp__8rv/TSPlasmid.bib_26621.utf8, line 6, warning: 176 characters of junk seen at toplevel
+[566] Biber.pm:4455> INFO - Looking for bibtex format file 'bibliographies/thesis.bib' for section 2
+[571] bibtex.pm:1653> INFO - LaTeX decoding ...
+[705] bibtex.pm:1471> INFO - Found BibTeX data source 'bibliographies/thesis.bib'
+[705] Utils.pm:304> WARN - Duplicate entry key: 'Skylakakis1981' in file 'bibliographies/thesis.bib', skipping ...
+[706] Utils.pm:304> WARN - Duplicate entry key: 'Uecker2021' in file 'bibliographies/thesis.bib', skipping ...
+[706] Utils.pm:304> WARN - Duplicate entry key: 'Sutter2016' in file 'bibliographies/thesis.bib', skipping ...
+[706] Utils.pm:304> WARN - Duplicate entry key: 'siedentop_metaanalysis_2024' in file 'bibliographies/thesis.bib', skipping ...
+[707] Utils.pm:304> WARN - Duplicate entry key: 'Bonhoeffer1997' in file 'bibliographies/thesis.bib', skipping ...
+[707] Utils.pm:304> WARN - Duplicate entry key: 'Angst2021' in file 'bibliographies/thesis.bib', skipping ...
+[707] Utils.pm:304> WARN - Duplicate entry key: 'Delp1980' in file 'bibliographies/thesis.bib', skipping ...
+[707] Utils.pm:304> WARN - Duplicate entry key: 'Tepekule2017' in file 'bibliographies/thesis.bib', skipping ...
+[708] Utils.pm:304> WARN - Duplicate entry key: 'Goldberg2012' in file 'bibliographies/thesis.bib', skipping ...
+[709] Utils.pm:304> WARN - Duplicate entry key: 'Ocampo2014' in file 'bibliographies/thesis.bib', skipping ...
+[709] Utils.pm:304> WARN - Duplicate entry key: 'Kable1980' in file 'bibliographies/thesis.bib', skipping ...
+[1273] Utils.pm:304> WARN - month field 'sep' in entry 'Naghavi2024' is not an integer - this will probably not sort properly.
+[1296] Utils.pm:304> WARN - BibTeX subsystem: /var/folders/f7/ks4rl3915yj6crhznly5p28h0000gq/T/biber_tmp__8rv/thesis.bib_26621.utf8, line 6, warning: 176 characters of junk seen at toplevel
+[1297] Utils.pm:304> WARN - I didn't find a database entry for 'Hawkey2008' (section 2)
+[1297] Utils.pm:304> WARN - I didn't find a database entry for 'Frost2005' (section 2)
+[1298] Utils.pm:304> WARN - I didn't find a database entry for 'Smillie2010' (section 2)
+[1298] Utils.pm:304> WARN - I didn't find a database entry for 'Gregory2018' (section 2)
+[1298] Utils.pm:304> WARN - I didn't find a database entry for 'Leekha2011' (section 2)
+[1298] Utils.pm:304> WARN - I didn't find a database entry for '...' (section 2)
+[1336] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1337] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1337] Biber.pm:4084> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[1337] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
+[1366] Biber.pm:4256> INFO - Processing section 3
+[1366] Utils.pm:75> INFO - Globbing data source 'bibliographies/TSPlasmid.bib'
+[1366] Utils.pm:91> INFO - Globbed data source 'bibliographies/TSPlasmid.bib' to bibliographies/TSPlasmid.bib
+[1366] Utils.pm:75> INFO - Globbing data source 'bibliographies/thesis.bib'
+[1366] Utils.pm:91> INFO - Globbed data source 'bibliographies/thesis.bib' to bibliographies/thesis.bib
+[1366] Biber.pm:4455> INFO - Looking for bibtex format file 'bibliographies/TSPlasmid.bib' for section 3
+[1505] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1505] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1505] Biber.pm:4084> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[1505] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
+[1515] Biber.pm:4256> INFO - Processing section 4
+[1515] Utils.pm:75> INFO - Globbing data source 'bibliographies/TSPlasmid.bib'
+[1516] Utils.pm:91> INFO - Globbed data source 'bibliographies/TSPlasmid.bib' to bibliographies/TSPlasmid.bib
+[1516] Utils.pm:75> INFO - Globbing data source 'bibliographies/thesis.bib'
+[1516] Utils.pm:91> INFO - Globbed data source 'bibliographies/thesis.bib' to bibliographies/thesis.bib
+[1516] Biber.pm:4455> INFO - Looking for bibtex format file 'bibliographies/TSPlasmid.bib' for section 4
+[1744] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1744] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1745] Biber.pm:4084> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[1745] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
+[1754] Biber.pm:4256> INFO - Processing section 5
+[1754] Utils.pm:75> INFO - Globbing data source 'bibliographies/TSPlasmid.bib'
+[1755] Utils.pm:91> INFO - Globbed data source 'bibliographies/TSPlasmid.bib' to bibliographies/TSPlasmid.bib
+[1755] Utils.pm:75> INFO - Globbing data source 'bibliographies/thesis.bib'
+[1755] Utils.pm:91> INFO - Globbed data source 'bibliographies/thesis.bib' to bibliographies/thesis.bib
+[1755] Biber.pm:4455> INFO - Looking for bibtex format file 'bibliographies/TSPlasmid.bib' for section 5
+[1756] Biber.pm:4455> INFO - Looking for bibtex format file 'bibliographies/thesis.bib' for section 5
+[1803] Utils.pm:304> WARN - month field 'jun' in entry 'Kyaw2006' is not an integer - this will probably not sort properly.
+[1804] Utils.pm:304> WARN - I didn't find a database entry for 'Gregory2018' (section 5)
+[1813] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1813] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1813] Biber.pm:4084> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[1813] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
+[1816] bbl.pm:652> INFO - Writing 'build/main.bbl' with encoding 'UTF-8'
+[3043] bbl.pm:755> INFO - Output to build/main.bbl
+[3043] Biber.pm:128> INFO - WARNINGS: 22

@@ -1,18 +1,18 @@
 # Fdb version 3
-["biber build/main"] 1753960390 "build/main.bcf" "build/main.bbl" "build/main" 1753960420
+["biber build/main"] 1754284034 "build/main.bcf" "build/main.bbl" "build/main" 1754284048
   "bibliographies/TSPlasmid.bib" 1751928914 124566 ce61248be990702441e4662b5659b71c ""
-  "bibliographies/thesis.bib" 1753677824 52593 a084eda285749b3d2bec9cfd45400436 ""
-  "build/main.bcf" 1753960419 107843 80b41a071be72107cee1b1d1e6f37710 "xelatex"
+  "bibliographies/thesis.bib" 1754284026 59884 bb6580012f4160de737a0be391cd13cf ""
+  "build/main.bcf" 1754284048 107729 0aed0226042ad43151a3813012ba55b9 "xelatex"
   (generated)
   "build/main.blg"
   "build/main.bbl"
-["xdvipdfmx"] 1753960419 "/Users/malte/ETH-Documents/thesis/build/main.xdv" "/Users/malte/ETH-Documents/thesis/build/main.pdf" "/Users/malte/ETH-Documents/thesis/build/main" 1753960420
-  "/Users/malte/ETH-Documents/thesis/build/main.xdv" 1753960419 1630728 6b5ce1545c82606b14cc168cee0bf57c "xelatex"
+["xdvipdfmx"] 1754284048 "/Users/malte/ETH-Documents/thesis/build/main.xdv" "/Users/malte/ETH-Documents/thesis/build/main.pdf" "/Users/malte/ETH-Documents/thesis/build/main" 1754284048
+  "/Users/malte/ETH-Documents/thesis/build/main.xdv" 1754284048 1635668 ccc4fee91e9448e28533ee0953c7e010 "xelatex"
   (generated)
   "/Users/malte/ETH-Documents/thesis/build/main.pdf"
-["xelatex"] 1753960411 "/Users/malte/ETH-Documents/thesis/main.tex" "/Users/malte/ETH-Documents/thesis/build/main.xdv" "main" 1753960420
-  "/Users/malte/ETH-Documents/thesis/build/main.aux" 1753960418 93420 1138c1a4b623c92ec1db747585d77de1 ""
-  "/Users/malte/ETH-Documents/thesis/main.tex" 1753935403 1308 2d8d916e719445df6c59ecb085bf020d ""
+["xelatex"] 1754284043 "/Users/malte/ETH-Documents/thesis/main.tex" "/Users/malte/ETH-Documents/thesis/build/main.xdv" "main" 1754284048
+  "/Users/malte/ETH-Documents/thesis/build/main.aux" 1754284047 93777 a0608b410c4c3aff3a11c85854ba2789 ""
+  "/Users/malte/ETH-Documents/thesis/main.tex" 1754284034 1308 2d8d916e719445df6c59ecb085bf020d ""
   "/usr/local/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/public/lm/ec-lmr10.tfm" 1254269338 12056 7e13df7fe4cbce21b072ba7c4f4deb6e ""
@@ -236,10 +236,10 @@
   "/usr/local/texlive/2020/texmf-dist/web2c/texmf.cnf" 1583102494 39451 60d7debd9ef8ece44cbe965493576c2d ""
   "/usr/local/texlive/2020/texmf-var/web2c/xetex/xelatex.fmt" 1612186946 4769649 cda7e26f126ac9e4b74a2536b03d67c1 ""
   "/usr/local/texlive/2020/texmf.cnf" 1586288231 577 d60164b4589a341208aff7a667fbbdcb ""
-  "build/main.aux" 1753960418 93420 1138c1a4b623c92ec1db747585d77de1 "xelatex"
-  "build/main.bbl" 1753960396 274822 706ae0201671e36c4e6bffb4c8e522d5 "biber build/main"
-  "build/main.run.xml" 1753960419 2531 6c52a0b7a750589f42033272f30aa5fa "xelatex"
-  "build/main.toc" 1753960419 5163 be4ca2e54c1b6a49a4f2f14be8813628 "xelatex"
+  "build/main.aux" 1754284047 93777 a0608b410c4c3aff3a11c85854ba2789 "xelatex"
+  "build/main.bbl" 1754284039 296801 f1419567634c37610671bd0d35be8f29 "biber build/main"
+  "build/main.run.xml" 1754284048 2531 6c52a0b7a750589f42033272f30aa5fa "xelatex"
+  "build/main.toc" 1754284048 5163 be4ca2e54c1b6a49a4f2f14be8813628 "xelatex"
   "chapter_1/ch1.tex" 1753928970 11609 b406525852e42119f3371ec044b2b3a0 ""
   "chapter_2/20220412_conjugation_prop.pdf" 1751928914 23144 0c54facff457a4082b295d503f916167 ""
   "chapter_2/20220412_encounter_frequencies.pdf" 1751928914 26002 80bfd5ae1aa4853399d82b74a7eb667a ""
@@ -326,19 +326,19 @@
   "chapter_2_sup/tikz/stoch_par.tex" 1752193972 1995 cbeef8728e7c270af53333f27e50c406 ""
   "chapter_2_sup/tikz/stoch_val.tex" 1752193972 1893 8b64d51f13eea24c7ad65905ee7cc723 ""
   "chapter_2_sup/tikz/stoch_var.tex" 1752193972 1928 23d2b2dfcb3949967292f187b7d3790f ""
-  "chapter_5/ch5.tex" 1753960382 10808 589c9e8e33109deb7388d1b4bd1f5f7f ""
+  "chapter_5/ch5.tex" 1754282997 10682 d7ae8886230b996e13e43f2454d18f02 ""
   "front_matter/0_titlepage.tex" 1751958834 811 d80342595cc617ca48616b25eeda3bd9 ""
   "front_matter/1a_Summary_EN.tex" 1753324811 3476 01aa6d31e7bf09f54447f5d5b116aaee ""
   "front_matter/1b_Summary_DE.tex" 1753325024 3714 12a7829a2864a4d173dd402c7601c5ab ""
   "front_matter/main.tex" 1753842954 339 940f81b5260fd42fa2a892f748bf4084 ""
-  "main.tex" 1753935403 1308 2d8d916e719445df6c59ecb085bf020d ""
-  "thesis.cls" 1753929339 8082 a2c3565f9ca85b66ff348c8f3609daaa ""
+  "main.tex" 1754284034 1308 2d8d916e719445df6c59ecb085bf020d ""
+  "thesis.cls" 1754283610 8081 cf960cf46e3b264e2554f19dcacecc71 ""
   (generated)
   "build/main.run.xml"
-  "build/main.aux"
-  "build/main.xdv"
   "/Users/malte/ETH-Documents/thesis/build/main.xdv"
-  "build/main.log"
-  "build/main.toc"
+  "build/main.xdv"
+  "build/main.aux"
   "build/main.bcf"
+  "build/main.toc"
   "/Users/malte/ETH-Documents/thesis/build/main.log"
+  "build/main.log"
