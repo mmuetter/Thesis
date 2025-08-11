@@ -19,6 +19,47 @@
 
 \refsection{2}
   \datalist[entry]{none/global//global/global}
+    \entry{Kirby1944}{article}{}
+      \name{author}{1}{}{%
+        {{hash=4da812eba67a6c62b19d22861a266e74}{%
+           family={Kirby},
+           familyi={K\bibinitperiod},
+           given={William\bibnamedelima M.M.},
+           giveni={W\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Association for the Advancement of Science}%
+      }
+      \strng{namehash}{4da812eba67a6c62b19d22861a266e74}
+      \strng{fullhash}{4da812eba67a6c62b19d22861a266e74}
+      \strng{bibnamehash}{4da812eba67a6c62b19d22861a266e74}
+      \strng{authorbibnamehash}{4da812eba67a6c62b19d22861a266e74}
+      \strng{authornamehash}{4da812eba67a6c62b19d22861a266e74}
+      \strng{authorfullhash}{4da812eba67a6c62b19d22861a266e74}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A highly potent penicillin inactivator has been extracted from 7 strains of Staph. aureus (coagulase positive), all of which were naturally penicillin resistant. No such inhibitor was present in ex...}
+      \field{issn}{00368075}
+      \field{journaltitle}{Science (80-. ).}
+      \field{month}{6}
+      \field{number}{2579}
+      \field{title}{{Extraction of a Highly Potent Penicillin Inactivator from Penicillin Resistant Staphylococci}}
+      \field{volume}{99}
+      \field{year}{1944}
+      \field{pages}{452\bibrangedash 453}
+      \range{pages}{2}
+      \verb{doi}
+      \verb 10.1126/SCIENCE.99.2579.452
+      \endverb
+      \verb{urlraw}
+      \verb https://www.science.org/doi/10.1126/science.99.2579.452
+      \endverb
+      \verb{url}
+      \verb https://www.science.org/doi/10.1126/science.99.2579.452
+      \endverb
+    \endentry
     \entry{Naghavi2024}{article}{}
       \name{author}{525}{}{%
         {{hash=8590261a2dec6e655ce669b321060f91}{%
@@ -2685,6 +2726,60 @@
       \verb https://www.thelancet.com/action/showFullText?pii=S0140673624018671%20https://www.thelancet.com/action/showAbstract?pii=S0140673624018671%20https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(24)01867-1/abstract
       \endverb
     \endentry
+    \entry{Bates1998}{article}{}
+      \name{author}{3}{}{%
+        {{hash=3db60771e9e05dc2b43d95568a1583d6}{%
+           family={Bates},
+           familyi={B\bibinitperiod},
+           given={Steven},
+           giveni={S\bibinitperiod}}}%
+        {{hash=da04ec5d023ebba2cabe99489d5c7fe0}{%
+           family={Cashmore},
+           familyi={C\bibinitperiod},
+           given={Annette\bibnamedelima M.},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=3d008b2a35d6d1ade86f8c179666f726}{%
+           family={Wilkins},
+           familyi={W\bibinitperiod},
+           given={Brian\bibnamedelima M.},
+           giveni={B\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Society for Microbiology}%
+      }
+      \strng{namehash}{a1b6f6ebe5f82d48da215a9ef7626a22}
+      \strng{fullhash}{a1b6f6ebe5f82d48da215a9ef7626a22}
+      \strng{bibnamehash}{a1b6f6ebe5f82d48da215a9ef7626a22}
+      \strng{authorbibnamehash}{a1b6f6ebe5f82d48da215a9ef7626a22}
+      \strng{authornamehash}{a1b6f6ebe5f82d48da215a9ef7626a22}
+      \strng{authorfullhash}{a1b6f6ebe5f82d48da215a9ef7626a22}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Mobilizable shuttle plasmids containing the origin-of-transfer (oriT) region of plasmids F (IncFI), CoIIb-P9 (IncI1), and RP4/RP1 (IncP$\alpha$) were constructed to test the ability of the cognate conjugation system to mediate gene transfer from Escherichia coli to Saccharomyces cerevisiae. Only the P$\alpha$ system caused detectable mobilization to yeast, giving peak values of 5 x 10-5 transconjugants per recipient cell in 30 min. Transfer of the shuttle plasmid required carriage of oriT in cis and the provision in trans of the P$\alpha$ Tra1 core and Tra2 core regions. Genes outside the Tral core did not increase the mobilization efficiency. All 10 Tra2 core genes (trbB, -C, -D, - E, -F, -G, -H, -I, -J, and -L) required for plasmid transfer to E. coli K-12 were needed for transfer to yeast. To assess whether the mating-pair formation (Mpf) system or DNA-processing apparatus of the P$\alpha$ conjugation system is critical in transkingdom transfer, an assay using an IncQ-based shuttle plasmid specifying its own DNA-processing system was devised. RP1 but not CoIIb mobilized the construct to yeast, indicating that the Mpf complex determined by the Tra2 core genes plus traF is primarily responsible for the remarkable fertility of the P$\alpha$ system in mediating gene transfer from bacteria to eukaryotes.}
+      \field{issn}{00219193}
+      \field{journaltitle}{J. Bacteriol.}
+      \field{month}{12}
+      \field{number}{24}
+      \field{title}{{IncP plasmids are unusually effective in mediating conjugation of Escherichia coli and Saccharomyces cerevisiae: Involvement of the Tra2 mating system}}
+      \field{volume}{180}
+      \field{year}{1998}
+      \field{pages}{6538\bibrangedash 6543}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1128/jb.180.24.6538-6543.1998
+      \endverb
+      \verb{file}
+      \verb :Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/1998/Bates, Cashmore, Wilkins - 1998 - IncP plasmids are unusually effective in mediating conjugation of Escherichia coli and Saccharomyces c.pdf:pdf;:Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/1998/Bates, Cashmore, Wilkins - 1998 - IncP plasmids are unusually effective in mediating conjugation of Escherichia coli and Saccharomyces c.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://journals.asm.org/doi/10.1128/jb.180.24.6538-6543.1998
+      \endverb
+      \verb{url}
+      \verb https://journals.asm.org/doi/10.1128/jb.180.24.6538-6543.1998
+      \endverb
+    \endentry
     \entry{Regoes2004}{article}{}
       \name{author}{6}{}{%
         {{hash=8b33cacd224cbc26088f640a4315ebd2}{%
@@ -2743,6 +2838,169 @@
       \verb{file}
       \verb :Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/2004/Regoes et al. - 2004 - Pharmacodynamic functions A multiparameter approach to the design of antibiotic treatment regimens - Antimicrobia.pdf:pdf
       \endverb
+    \endentry
+    \entry{Bell2014}{article}{}
+      \name{author}{5}{}{%
+        {{hash=d3dee92cb5ebaad5469d8027c04a0911}{%
+           family={Bell},
+           familyi={B\bibinitperiod},
+           given={Brian\bibnamedelima G.},
+           giveni={B\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=be9ecee98cd70d4c926d5ab00fbeb9dd}{%
+           family={Schellevis},
+           familyi={S\bibinitperiod},
+           given={Francois},
+           giveni={F\bibinitperiod}}}%
+        {{hash=d526b8afeb23b7dd6ecb7e5655b7f7d8}{%
+           family={Stobberingh},
+           familyi={S\bibinitperiod},
+           given={Ellen},
+           giveni={E\bibinitperiod}}}%
+        {{hash=b1518a3119776336606b25ae3c2a7929}{%
+           family={Goossens},
+           familyi={G\bibinitperiod},
+           given={Herman},
+           giveni={H\bibinitperiod}}}%
+        {{hash=4a974339ca203617da86ca78b38de5af}{%
+           family={Pringle},
+           familyi={P\bibinitperiod},
+           given={Mike},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {BioMed Central}%
+      }
+      \strng{namehash}{16312b1d5a4588e683c956ddd16954a5}
+      \strng{fullhash}{16312b1d5a4588e683c956ddd16954a5}
+      \strng{bibnamehash}{16312b1d5a4588e683c956ddd16954a5}
+      \strng{authorbibnamehash}{16312b1d5a4588e683c956ddd16954a5}
+      \strng{authornamehash}{16312b1d5a4588e683c956ddd16954a5}
+      \strng{authorfullhash}{16312b1d5a4588e683c956ddd16954a5}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Background: Greater use of antibiotics during the past 50 years has exerted selective pressure on susceptible bacteria and may have favoured the survival of resistant strains. Existing information on antibiotic resistance patterns from pathogens circulating among community-based patients is substantially less than from hospitalized patients on whom guidelines are often based. We therefore chose to assess the relationship between the antibiotic resistance pattern of bacteria circulating in the community and the consumption of antibiotics in the community.Methods: Both gray literature and published scientific literature in English and other European languages was examined. Multiple regression analysis was used to analyse whether studies found a positive relationship between antibiotic consumption and resistance. A subsequent meta-analysis and meta-regression was conducted for studies for which a common effect size measure (odds ratio) could be calculated.Results: Electronic searches identified 974 studies but only 243 studies were considered eligible for inclusion by the two independent reviewers who extracted the data. A binomial test revealed a positive relationship between antibiotic consumption and resistance (p < .001) but multiple regression modelling did not produce any significant predictors of study outcome. The meta-analysis generated a significant pooled odds ratio of 2.3 (95{\%} confidence interval 2.2 to 2.5) with a meta-regression producing several significant predictors (F(10,77) = 5.82, p < .01). Countries in southern Europe produced a stronger link between consumption and resistance than other regions.Conclusions: Using a large set of studies we found that antibiotic consumption is associated with the development of antibiotic resistance. A subsequent meta-analysis, with a subsample of the studies, generated several significant predictors. Countries in southern Europe produced a stronger link between consumption and resistance than other regions so efforts at reducing antibiotic consumption may need to be strengthened in this area. Increased consumption of antibiotics may not only produce greater resistance at the individual patient level but may also produce greater resistance at the community, country, and regional levels, which can harm individual patients. © 2014 Bell et al.; licensee BioMed Central Ltd.}
+      \field{issn}{14712334}
+      \field{journaltitle}{BMC Infect. Dis.}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{{A systematic review and meta-analysis of the effects of antibiotic consumption on antibiotic resistance}}
+      \field{volume}{14}
+      \field{year}{2014}
+      \field{pages}{1\bibrangedash 25}
+      \range{pages}{25}
+      \verb{doi}
+      \verb 10.1186/1471-2334-14-13
+      \endverb
+      \verb{file}
+      \verb :Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/2014/Bell et al. - 2014 - A systematic review and meta-analysis of the effects of antibiotic consumption on antibiotic resistance - BMC Infec.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://bmcinfectdis.biomedcentral.com/articles/10.1186/1471-2334-14-13
+      \endverb
+      \verb{url}
+      \verb https://bmcinfectdis.biomedcentral.com/articles/10.1186/1471-2334-14-13
+      \endverb
+      \keyw{Antibiotic resistance,Antibiotic usage,Community-acquired infections,Meta-analysis}
+    \endentry
+    \entry{Rahman2023}{article}{}
+      \name{author}{2}{}{%
+        {{hash=4d66d8d3ce2da86e297739f9ffeb4113}{%
+           family={Rahman},
+           familyi={R\bibinitperiod},
+           given={Sakib},
+           giveni={S\bibinitperiod}}}%
+        {{hash=64e3fa205ed1cb5ef2a624e2fe84cc33}{%
+           family={Hollis},
+           familyi={H\bibinitperiod},
+           given={Aidan},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Frontiers Media SA}%
+      }
+      \strng{namehash}{21cb1b9938c5c0e45aaaf6c4115b87da}
+      \strng{fullhash}{21cb1b9938c5c0e45aaaf6c4115b87da}
+      \strng{bibnamehash}{21cb1b9938c5c0e45aaaf6c4115b87da}
+      \strng{authorbibnamehash}{21cb1b9938c5c0e45aaaf6c4115b87da}
+      \strng{authornamehash}{21cb1b9938c5c0e45aaaf6c4115b87da}
+      \strng{authorfullhash}{21cb1b9938c5c0e45aaaf6c4115b87da}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper estimates the effect of antibiotic usage in humans and food-producing animals on the prevalence of resistance in zoonotic bacteria in both humans and animals. Using comprehensive longitudinal data from annual surveillance reports on resistance and usage in Europe, we find that antibiotic usage in food-producing animals and antibiotic usage in humans are independently and causally related to the prevalence of resistance in both humans and animals. The study considers simultaneous and total usage of antibiotics in humans and food-producing animals to identify the marginal effects and joint effects of usage on resistance of both groups. By employing lagged-dependent variable and fixed-effects specifications, we provide a lower and an upper bound on the effects on resistance. The paper also contributes to the scant literature on how antibiotic use in humans is related to resistance in other animals.}
+      \field{issn}{22962565}
+      \field{journaltitle}{Front. Public Heal.}
+      \field{month}{6}
+      \field{title}{{The effect of antibiotic usage on resistance in humans and food-producing animals: a longitudinal, One Health analysis using European data}}
+      \field{volume}{11}
+      \field{year}{2023}
+      \field{pages}{1170426}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3389/FPUBH.2023.1170426/BIBTEX
+      \endverb
+      \verb{file}
+      \verb :Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/2023/Rahman, Hollis - 2023 - The effect of antibiotic usage on resistance in humans and food-producing animals a longitudinal, One Health ana.pdf:pdf
+      \endverb
+      \keyw{Europe,One Health,antibiotics,causality,interspecies effect,resistance}
+    \endentry
+    \entry{Leekha2011}{article}{}
+      \name{author}{3}{}{%
+        {{hash=1db43b9a869a8a2fcbaa8d73ac011220}{%
+           family={Leekha},
+           familyi={L\bibinitperiod},
+           given={Surbhi},
+           giveni={S\bibinitperiod}}}%
+        {{hash=026ec5d60519453736e2d13b5e6f6111}{%
+           family={Terrell},
+           familyi={T\bibinitperiod},
+           given={Christine\bibnamedelima L.},
+           giveni={C\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=7502ff2864911181a8e91902d9f3c280}{%
+           family={Edson},
+           familyi={E\bibinitperiod},
+           given={Randall\bibnamedelima S.},
+           giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier Ltd}%
+      }
+      \strng{namehash}{41483f638771501fdb40a6e29a45f1f6}
+      \strng{fullhash}{41483f638771501fdb40a6e29a45f1f6}
+      \strng{bibnamehash}{41483f638771501fdb40a6e29a45f1f6}
+      \strng{authorbibnamehash}{41483f638771501fdb40a6e29a45f1f6}
+      \strng{authornamehash}{41483f638771501fdb40a6e29a45f1f6}
+      \strng{authorfullhash}{41483f638771501fdb40a6e29a45f1f6}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Antimicrobial agents are some of the most widely, and often injudiciously, used therapeutic drugs worldwide. Important considerations when prescribing antimicrobial therapy include obtaining an accurate diagnosis of infection; understanding the difference between empiric and definitive therapy; identifying opportunities to switch to narrow-spectrum, cost-effective oral agents for the shortest duration necessary; understanding drug characteristics that are peculiar to antimicrobial agents (such as pharmacodynamics and efficacy at the site of infection); accounting for host characteristics that influence antimicrobial activity; and in turn, recognizing the adverse effects of antimicrobial agents on the host. It is also important to understand the importance of antimicrobial stewardship, to know when to consult infectious disease specialists for guidance, and to be able to identify situations when antimicrobial therapy is not needed. By following these general principles, all practicing physicians should be able to use antimicrobial agents in a responsible manner that benefits both the individual patient and the community. © 2011 Mayo Foundation for Medical Education and Research.}
+      \field{issn}{00256196}
+      \field{journaltitle}{Mayo Clin. Proc.}
+      \field{month}{2}
+      \field{number}{2}
+      \field{title}{{General principles of antimicrobial therapy}}
+      \field{volume}{86}
+      \field{year}{2011}
+      \field{pages}{156\bibrangedash 167}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.4065/MCP.2010.0639/ATTACHMENT/B634B4F6-DE05-47F7-842C-1EED7A2B7D35/MMC1.PDF
+      \endverb
+      \verb{file}
+      \verb :Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/2011/Leekha, Terrell, Edson - 2011 - General principles of antimicrobial therapy - Mayo Clinic Proceedings(2).pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mayoclinicproceedings.org/action/showFullText?pii=S0025619611601407 https://www.mayoclinicproceedings.org/action/showAbstract?pii=S0025619611601407 https://www.mayoclinicproceedings.org/article/S0025-6196(11)60140-7/abstract
+      \endverb
+      \verb{url}
+      \verb https://www.mayoclinicproceedings.org/action/showFullText?pii=S0025619611601407%20https://www.mayoclinicproceedings.org/action/showAbstract?pii=S0025619611601407%20https://www.mayoclinicproceedings.org/article/S0025-6196(11)60140-7/abstract
+      \endverb
+      \keyw{AST,CSF,ESBL,G6PD,HIV,MIC,MRSA,OPAT,UTI,antimicrobial susceptibility testing,cerebrospinal fluid,extended-spectrum $\beta$-lactamase,glucose-6-phosphate dehydrogenase,human immunodeficiency virus,methicillin-resistant Staphylococcus aureus,minimum inhibitory concentration,outpatient parenteral antimicrobial therapy,urinary tract infection}
     \endentry
     \entry{Kable1980}{article}{}
       \name{author}{2}{}{%
@@ -2984,6 +3242,66 @@
       \verb :Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/2021/Uecker, Bonhoeffer - 2021 - Antibiotic treatment protocols revisited The challenges of a conclusive assessment by mathematical modelling.pdf:pdf
       \endverb
       \keyw{antibiotic resistance,antimicrobial stewardship,hospital-acquired infections,mathematical models}
+    \endentry
+    \entry{Jernberg2007}{article}{}
+      \name{author}{4}{}{%
+        {{hash=56b8adea79acff25b802637f9ce24dd6}{%
+           family={Jernberg},
+           familyi={J\bibinitperiod},
+           given={Cecilia},
+           giveni={C\bibinitperiod}}}%
+        {{hash=71cabb92c23be273dd25091005a3cd04}{%
+           family={L{ö}fmark},
+           familyi={L\bibinitperiod},
+           given={Sonja},
+           giveni={S\bibinitperiod}}}%
+        {{hash=9b4dcada69951fe2bbca51e8765db187}{%
+           family={Edlund},
+           familyi={E\bibinitperiod},
+           given={Charlotta},
+           giveni={C\bibinitperiod}}}%
+        {{hash=2b3118ccbc9216a44840e2ab739b0f0f}{%
+           family={Jansson},
+           familyi={J\bibinitperiod},
+           given={Janet\bibnamedelima K.},
+           giveni={J\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford Academic}%
+      }
+      \strng{namehash}{6d25b1173e54f9435468c15cba3021f4}
+      \strng{fullhash}{6d25b1173e54f9435468c15cba3021f4}
+      \strng{bibnamehash}{6d25b1173e54f9435468c15cba3021f4}
+      \strng{authorbibnamehash}{6d25b1173e54f9435468c15cba3021f4}
+      \strng{authornamehash}{6d25b1173e54f9435468c15cba3021f4}
+      \strng{authorfullhash}{6d25b1173e54f9435468c15cba3021f4}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Antibiotic administration is known to cause short-term disturbances in the microbiota of the human gastrointestinal tract, but the potential long-term consequences have not been well studied. The aims of this study were to analyse the long-term impact of a 7-day clindamycin treatment on the faecal microbiota and to simultaneously monitor the ecological stability of the microbiota in a control group as a baseline for reference. Faecal samples from four clindamycin-exposed and four control subjects were collected at nine different time points over 2 years. Using a polyphasic approach, we observed highly significant disturbances in the bacterial community that persisted throughout the sampling period. In particular, a sharp decline in the clonal diversity of Bacteroides isolates, as assessed by repetitive sequence-based PCR (rep-PCR) and long-term persistence of highly resistant clones were found as a direct response to the antibiotic exposure. The Bacteroides community never returned to its original composition during the study period as assessed using the molecular fingerprinting technique, terminal restriction fragment length polymorphism (T-RFLP). Furthermore, using real-time PCR we found a dramatic and persistent increase in levels of specific resistance genes in DNA extracted from the faeces after clindamycin administration. The temporal variations in the microbiota of the control group were minor compared to the large and persistent shift seen in the exposed group. These results demonstrate that long after the selection pressure from a short antibiotic exposure has been removed, there are still persistent long term impacts on the human intestinal microbiota that remain for up to 2 years post-treatment. © 2007 International Society for Microbial Ecology All rights reserved.}
+      \field{issn}{1751-7362}
+      \field{journaltitle}{ISME J.}
+      \field{month}{5}
+      \field{number}{1}
+      \field{title}{{Long-term ecological impacts of antibiotic administration on the human intestinal microbiota}}
+      \field{volume}{1}
+      \field{year}{2007}
+      \field{pages}{56\bibrangedash 66}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1038/ISMEJ.2007.3
+      \endverb
+      \verb{file}
+      \verb :Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/2007/Jernberg et al. - 2007 - Long-term ecological impacts of antibiotic administration on the human intestinal microbiota - The ISME Journal.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://dx.doi.org/10.1038/ismej.2007.3
+      \endverb
+      \verb{url}
+      \verb https://dx.doi.org/10.1038/ismej.2007.3
+      \endverb
+      \keyw{Bacteroides,Clindamycin,Faeces,Rep-PCR,T-RFLP}
     \endentry
     \entry{Tamma2012}{article}{}
       \name{author}{3}{}{%
@@ -3291,13 +3609,91 @@
       \verb :Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/2006/Yeh, Tschumi, Kishony - 2006 - Functional classification of drugs by properties of their pairwise interactions - Nature Genetics.pdf:pdf
       \endverb
     \endentry
+    \entry{Chevereau2015a}{article}{}
+      \name{author}{2}{}{%
+        {{hash=277de9ac87e4573ba67dfa71e64d457b}{%
+           family={Chevereau},
+           familyi={C\bibinitperiod},
+           given={Guillaume},
+           giveni={G\bibinitperiod}}}%
+        {{hash=8f819f75914f55a6fad472199de5d587}{%
+           family={Bollenbach},
+           familyi={B\bibinitperiod},
+           given={Tobias},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{ef76cc2b2671f1ca940594f16700d2e5}
+      \strng{fullhash}{ef76cc2b2671f1ca940594f16700d2e5}
+      \strng{bibnamehash}{ef76cc2b2671f1ca940594f16700d2e5}
+      \strng{authorbibnamehash}{ef76cc2b2671f1ca940594f16700d2e5}
+      \strng{authornamehash}{ef76cc2b2671f1ca940594f16700d2e5}
+      \strng{authorfullhash}{ef76cc2b2671f1ca940594f16700d2e5}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Drug combinations are increasingly important in disease treatments, for combating drug resistance, and for elucidating fundamental relationships in cell physiology. When drugs are combined, their individual effects on cells may be amplified or weakened. Such drug interactions are crucial for treatment efficacy, but their underlying mechanisms remain largely unknown. To uncover the causes of drug interactions, we developed a systematic approach based on precise quantification of the individual and joint effects of antibiotics on growth of genome-wide Escherichia coli gene deletion strains. We found that drug interactions between antibiotics representing the main modes of action are highly robust to genetic perturbation. This robustness is encapsulated in a general principle of bacterial growth, which enables the quantitative prediction of mutant growth rates under drug combinations. Rare violations of this principle exposed recurring cellular functions controlling drug interactions. In particular, we found that polysaccharide and ATP synthesis control multiple drug interactions with previously unexplained mechanisms, and small molecule adjuvants targeting these functions synthetically reshape drug interactions in predictable ways. These results provide a new conceptual framework for the design of multidrug combinations and suggest that there are universal mechanisms at the heart of most drug interactions.}
+      \field{annotation}{describes method how they did their growthcurves}
+      \field{issn}{1744-4292}
+      \field{journaltitle}{Mol. Syst. Biol.}
+      \field{number}{4}
+      \field{title}{{Systematic discovery of drug interaction mechanisms}}
+      \field{volume}{11}
+      \field{year}{2015}
+      \field{pages}{807}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.15252/msb.20156098
+      \endverb
+      \verb{file}
+      \verb :Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/2015/Chevereau, Bollenbach - 2015 - Systematic discovery of drug interaction mechanisms - Molecular Systems Biology.pdf:pdf
+      \endverb
+      \keyw{antibiotics,drug combination design,drug discovery,drug interaction,dynamical systems,escherichia coli,general principles of biological,mechanisms,pharmacology,subject categories quantitative biology,systems}
+    \endentry
+    \entry{Kavcic2020}{article}{}
+      \name{author}{3}{}{%
+        {{hash=8095f8144073af037a87624ba66bd872}{%
+           family={Kav{č}i{č}},
+           familyi={K\bibinitperiod},
+           given={Bor},
+           giveni={B\bibinitperiod}}}%
+        {{hash=8d2ee99c3634d99cee3494b6558f9ae5}{%
+           family={Tka{č}ik},
+           familyi={T\bibinitperiod},
+           given={Ga{š}per},
+           giveni={G\bibinitperiod}}}%
+        {{hash=8f819f75914f55a6fad472199de5d587}{%
+           family={Bollenbach},
+           familyi={B\bibinitperiod},
+           given={Tobias},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{5f472fe5c5fb39abef77e95bdd32906b}
+      \strng{fullhash}{5f472fe5c5fb39abef77e95bdd32906b}
+      \strng{bibnamehash}{5f472fe5c5fb39abef77e95bdd32906b}
+      \strng{authorbibnamehash}{5f472fe5c5fb39abef77e95bdd32906b}
+      \strng{authornamehash}{5f472fe5c5fb39abef77e95bdd32906b}
+      \strng{authorfullhash}{5f472fe5c5fb39abef77e95bdd32906b}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Antibiotics that interfere with translation, when combined, interact in diverse and difficult-to-predict ways. Here, we explain these interactions by “translation bottlenecks”: points in the translation cycle where antibiotics block ribosomal progression. To elucidate the underlying mechanisms of drug interactions between translation inhibitors, we generate translation bottlenecks genetically using inducible control of translation factors that regulate well-defined translation cycle steps. These perturbations accurately mimic antibiotic action and drug interactions, supporting that the interplay of different translation bottlenecks causes these interactions. We further show that growth laws, combined with drug uptake and binding kinetics, enable the direct prediction of a large fraction of observed interactions, yet fail to predict suppression. However, varying two translation bottlenecks simultaneously supports that dense traffic of ribosomes and competition for translation factors account for the previously unexplained suppression. These results highlight the importance of “continuous epistasis” in bacterial physiology.}
+      \field{isbn}{4146702017734}
+      \field{issn}{20411723}
+      \field{journaltitle}{Nat. Commun.}
+      \field{number}{1}
+      \field{title}{{Mechanisms of drug interactions between translation-inhibiting antibiotics}}
+      \field{volume}{11}
+      \field{year}{2020}
+      \verb{doi}
+      \verb 10.1038/s41467-020-17734-z
+      \endverb
+      \verb{file}
+      \verb :Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/2020/Kav{\v{c}}i{\v{c}}, Tka{\v{c}}ik, Bollenbach - 2020 - Mechanisms of drug interactions between translation-inhibiting antibiotics - Nature Communication.pdf:pdf
+      \endverb
+    \endentry
   \enddatalist
-  \missing{...}
-  \missing{Frost2005}
-  \missing{Gregory2018}
-  \missing{Hawkey2008}
-  \missing{Leekha2011}
-  \missing{Smillie2010}
 \endrefsection
 
 \refsection{3}

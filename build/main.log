@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2021.2.1)  4 AUG 2025 14:07
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2021.2.1)  11 AUG 2025 15:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1795,48 +1795,6 @@ Package biblatex Info: ... file 'main.bbl' found.
  (/Users/malte/ETH-Documents/thesis/build/main.bbl
 
 Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database (refsection 2):
-(biblatex)                ...
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database (refsection 2):
-(biblatex)                Frost2005
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database (refsection 2):
-(biblatex)                Gregory2018
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database (refsection 2):
-(biblatex)                Hawkey2008
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database (refsection 2):
-(biblatex)                Leekha2011
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database (refsection 2):
-(biblatex)                Smillie2010
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database (refsection 5):
 (biblatex)                Gregory2018
 (biblatex)                Please verify the spelling and rerun
@@ -1844,22 +1802,7 @@ Package biblatex Warning: The following entry could not be found
 
 )
 
-Package biblatex Warning: citation 'Hawkey2008' was not found at all in the .bbl, bibliography labels cannot be generated, please correct the citation.
-
-
-Package biblatex Warning: citation 'Frost2005' was not found at all in the .bbl, bibliography labels cannot be generated, please correct the citation.
-
-
-Package biblatex Warning: citation 'Smillie2010' was not found at all in the .bbl, bibliography labels cannot be generated, please correct the citation.
-
-
 Package biblatex Warning: citation 'Gregory2018' was not found at all in the .bbl, bibliography labels cannot be generated, please correct the citation.
-
-
-Package biblatex Warning: citation 'Leekha2011' was not found at all in the .bbl, bibliography labels cannot be generated, please correct the citation.
-
-
-Package biblatex Warning: citation '...' was not found at all in the .bbl, bibliography labels cannot be generated, please correct the citation.
 
 Package biblatex Info: Reference section=0 on input line 9.
 Package biblatex Info: Reference segment=0 on input line 9.
@@ -2345,10 +2288,6 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Overfull \hbox (5.44832pt too wide) in paragraph at lines 7--11
-\TU/utopia/b/n/10 developed world, to the extent that effective treatment is now often taken for granted [[]].
- []
-
 
 LaTeX Font Warning: Font shape `TU/utopia/m/it' undefined
 (Font)              using `TU/utopia/m/n' instead on input line 14.
@@ -2607,16 +2546,27 @@ Package microtype Info: Character `\textexclamdown ' is missing
 Package microtype Info: Character `\textquestiondown ' is missing
 (microtype)             in font `\TU/Erewhon-Math.otf(3)/m/n/5'.
 (microtype)             Ignoring protrusion settings for this character.
+
+Overfull \hbox (0.27005pt too wide) in paragraph at lines 29--29
+[][][][][][][][][][][][] [] [][][][] [] [][][]$[]\TU/phv/m/n/7 . url: []$[][][][][] [] [] [] [][][] [] [][][][][][][][][][][][][][][][][][][][][] [] [][][] [] [][][][][][] [] [][][][][][][][][][][][] [] [][][] [] [][][][][][][][][][][][][][][][][] []
+ []
+
+
+Overfull \hbox (43.30775pt too wide) in paragraph at lines 29--29
+[][][][][][][] [] [] [] [][][] [] [][][][][][][][][][][][][][][][][][][][][] [] [][][] [] [][][][][][] [] [][][][][][][][][][][][] [] [][][] [] [][][][][][][][][][][][][][][][][] [] [][][][][][][] [] [] [] [][][] [] [][][][][][][][][][][][][][][][][][][][][] []
+ []
+
+[6
+
+]
 Package biblatex Info: Reference section=0 on input line 29.
 \blx@maxsegment@3=\count552
 \blx@sectionciteorder@3=\count553
 Package biblatex Info: Reference section=3 on input line 33.
 Package biblatex Info: Setting label 'refsection:3' on input line 33.
- (./chapter_2/ch2.tex [6
+ (./chapter_2/ch2.tex [7] [8
 
-] (./chapter_2/introduction.tex [7
-
-]
+] (./chapter_2/introduction.tex [9]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -2629,7 +2579,7 @@ either increase the head height or redesign the header
 
 Overfull \vbox (8.0pt too high) has occurred while \output is active []
 
- [8]
+ [10]
 
 LaTeX Font Warning: Font shape `TU/utopia/b/sc' undefined
 (Font)              using `TU/utopia/b/n' instead on input line 45.
@@ -2778,7 +2728,7 @@ Overfull \hbox (2.33087pt too wide) in paragraph at lines 55--55
 ) (./chapter_2/results.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [9]
+ [11]
 File: chapter_2/end_anova.pdf Graphic file (type pdf)
 <use chapter_2/end_anova.pdf>
 
@@ -2788,7 +2738,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 Overfull \vbox (8.0pt too high) has occurred while \output is active []
 
- [10]
+ [12]
 File: chapter_2/scen3_paper.pdf Graphic file (type pdf)
 <use chapter_2/scen3_paper.pdf>
 
@@ -2798,10 +2748,10 @@ LaTeX Warning: Float too large for page by 8.42546pt on input line 44.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [11]
+ [13]
 Overfull \vbox (8.0pt too high) has occurred while \output is active []
 
- [12] [13]
+ [14] [15]
 File: chapter_2/20220412_f_emergence_anova.pdf Graphic file (type pdf)
 <use chapter_2/20220412_f_emergence_anova.pdf>
 File: chapter_2/20220412_encounter_frequencies.pdf Graphic file (type pdf)
@@ -2824,13 +2774,13 @@ Underfull \vbox (badness 1939) has occurred while \output is active []
 
 Overfull \vbox (8.0pt too high) has occurred while \output is active []
 
- [14]
+ [16]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [15]
+ [17]
 Overfull \vbox (8.0pt too high) has occurred while \output is active []
 
- [16]
+ [18]
 File: chapter_2/wins_and_losses_preexisting.pdf Graphic file (type pdf)
 <use chapter_2/wins_and_losses_preexisting.pdf>
 File: chapter_2/wins_and_losses_no_preex.pdf Graphic file (type pdf)
@@ -2931,22 +2881,22 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 ) (./chapter_2/discussion.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [17]
+ [19]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Overfull \vbox (8.0pt too high) has occurred while \output is active []
 
- [18]
+ [20]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [19]) (./chapter_2/methods.tex
+ [21]) (./chapter_2/methods.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Overfull \vbox (8.0pt too high) has occurred while \output is active []
 
- [20] [21]
+ [22] [23]
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `Erewhon' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
@@ -2954,7 +2904,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 Overfull \vbox (8.0pt too high) has occurred while \output is active []
 
- [22]
+ [24]
 Overfull \hbox (11.12035pt too wide) in paragraph at lines 66--68
 []\TU/Optima(1)/b/n/10 Scenarios.[] \TU/utopia/m/sc/10 We conducted experiments for three scenarios (prevention, containment, and maximum-
  []
@@ -2962,7 +2912,7 @@ Overfull \hbox (11.12035pt too wide) in paragraph at lines 66--68
 
 Underfull \vbox (badness 3386) has occurred while \output is active []
 
- [23]
+ [25]
 Overfull \hbox (23.8577pt too wide) in paragraph at lines 86--88
 \TU/utopia/m/sc/10 94 in silico patients, each capable of adopting one of six resistance profiles $[] [] [][][] [][] [][][] [][][] [][][][] [][][][][][][][]$.
  []
@@ -2970,7 +2920,7 @@ Overfull \hbox (23.8577pt too wide) in paragraph at lines 86--88
 
 Overfull \vbox (8.0pt too high) has occurred while \output is active []
 
- [24]) (./chapter_2/acknow.tex)) [25]
+ [26]) (./chapter_2/acknow.tex)) [27]
 Package biblatex Info: Reference section=0 on input line 33.
 \blx@maxsegment@4=\count554
 \blx@sectionciteorder@4=\count555
@@ -2984,7 +2934,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Overfull \vbox (8.0pt too high) has occurred while \output is active []
 
- [26
+ [28
 
 ]
 Overfull \hbox (1.25636pt too wide) in paragraph at lines 12--17
@@ -2999,13 +2949,7 @@ Overfull \hbox (5.77966pt too wide) in paragraph at lines 27--32
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [27]
-Overfull \vbox (8.0pt too high) has occurred while \output is active []
-
- [28] [29]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
+ [29]
 Overfull \vbox (8.0pt too high) has occurred while \output is active []
 
  [30] [31]
@@ -3014,16 +2958,22 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Overfull \vbox (8.0pt too high) has occurred while \output is active []
 
- [32]
+ [32] [33]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (8.0pt too high) has occurred while \output is active []
+
+ [34]
 Underfull \vbox (badness 5345) has occurred while \output is active []
 
- [33]
+ [35]
 Overfull \vbox (8.0pt too high) has occurred while \output is active []
 
- [34] [35]
+ [36] [37]
 Overfull \vbox (8.0pt too high) has occurred while \output is active []
 
- [36]) [37] (./chapter_2_sup/SI_figures.tex
+ [38]) [39] (./chapter_2_sup/SI_figures.tex
 File: chapter_2_sup/figures/setup.pdf Graphic file (type pdf)
 <use chapter_2_sup/figures/setup.pdf>
 File: chapter_2_sup/figures/20210417_timeplot.pdf Graphic file (type pdf)
@@ -3042,10 +2992,10 @@ File: chapter_2_sup/figures/20220127_timeplot.pdf Graphic file (type pdf)
 
 Overfull \vbox (8.0pt too high) has occurred while \output is active []
 
- [38] [39]
+ [40] [41]
 Overfull \vbox (8.0pt too high) has occurred while \output is active []
 
- [40] [41]
+ [42] [43]
 File: chapter_2_sup/figures/20220412_Ar_resulting_phenotypes.pdf Graphic file (type pdf)
 <use chapter_2_sup/figures/20220412_Ar_resulting_phenotypes.pdf>
 
@@ -3066,10 +3016,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 59--68
 
 Overfull \vbox (8.0pt too high) has occurred while \output is active []
 
- [42]
+ [44]
 File: chapter_2_sup/figures/plasmid_costs.pdf Graphic file (type pdf)
 <use chapter_2_sup/figures/plasmid_costs.pdf>
- [43]
+ [45]
 File: chapter_2_sup/figures/20210417_timeplot_clean.pdf Graphic file (type pdf)
 <use chapter_2_sup/figures/20210417_timeplot_clean.pdf>
 File: chapter_2_sup/figures/wins_and_losses_clean_preexisting.pdf Graphic file (type pdf)
@@ -3079,7 +3029,7 @@ File: chapter_2_sup/figures/wins_and_losses_clean_no_preex.pdf Graphic file (typ
 )
 Overfull \vbox (8.0pt too high) has occurred while \output is active []
 
- [44] [45] (./chapter_2_sup/SI_tables.tex
+ [46] [47] (./chapter_2_sup/SI_tables.tex
 Missing character: There is no 𝜗 in font [Erewhon-Bold.otf]/OT:script=latn;language=dflt;!
 Missing character: There is no 𝜗 in font [Erewhon-Bold.otf]/OT:script=latn;language=dflt;!
 Missing character: There is no 𝜗 in font [Erewhon-Bold.otf]/OT:script=latn;language=dflt;!
@@ -3106,7 +3056,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Overfull \vbox (8.0pt too high) has occurred while \output is active []
 
- [46
+ [48
 
 
 
@@ -3120,7 +3070,7 @@ Overfull \hbox (12.38338pt too wide) in paragraph at lines 75--86
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [47] (./chapter_2_sup/tables/best_stats_no_preex.tex)
+ [49] (./chapter_2_sup/tables/best_stats_no_preex.tex)
 Overfull \hbox (27.70906pt too wide) in paragraph at lines 1--135
  [][] 
  []
@@ -3146,16 +3096,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Overfull \vbox (8.0pt too high) has occurred while \output is active []
 
- [48] (./chapter_2_sup/tables/win_loss_statistic_preexisting.tex) (./chapter_2_sup/tables/win_loss_statistic_no_preex.tex) (./chapter_2_sup/tables/win_loss_statistic_clean_preexisting.tex) (./chapter_2_sup/tables/win_loss_statistic_clean_no_preex.tex)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [49]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \vbox (8.0pt too high) has occurred while \output is active []
-
- [50]
+ [50] (./chapter_2_sup/tables/win_loss_statistic_preexisting.tex) (./chapter_2_sup/tables/win_loss_statistic_no_preex.tex) (./chapter_2_sup/tables/win_loss_statistic_clean_preexisting.tex) (./chapter_2_sup/tables/win_loss_statistic_clean_no_preex.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [51]
@@ -3164,75 +3105,84 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Overfull \vbox (8.0pt too high) has occurred while \output is active []
 
- [52] (./chapter_2_sup/tables/20210417U_anova.tex) (./chapter_2_sup/tables/20210417U_tukey.tex)
+ [52]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [53] (./chapter_2_sup/tables/20210417single_anova.tex) (./chapter_2_sup/tables/20210417single_tukey.tex)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \vbox (8.0pt too high) has occurred while \output is active []
-
- [54] (./chapter_2_sup/tables/20210417double_anova.tex) (./chapter_2_sup/tables/20210417double_tukey.tex)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [55] (./chapter_2_sup/tables/20220127U_anova.tex) (./chapter_2_sup/tables/20220127U_tukey.tex)
+ [53]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Overfull \vbox (8.0pt too high) has occurred while \output is active []
 
- [56] (./chapter_2_sup/tables/20220127single_anova.tex) (./chapter_2_sup/tables/20220127single_tukey.tex)
+ [54] (./chapter_2_sup/tables/20210417U_anova.tex) (./chapter_2_sup/tables/20210417U_tukey.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [57] (./chapter_2_sup/tables/20220127double_anova.tex) (./chapter_2_sup/tables/20220412U_anova.tex) (./chapter_2_sup/tables/20220412U_tukey.tex)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \vbox (8.0pt too high) has occurred while \output is active []
-
- [58] (./chapter_2_sup/tables/20220412single_anova.tex) (./chapter_2_sup/tables/20220412single_tukey.tex)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [59] (./chapter_2_sup/tables/20220412double_anova.tex) (./chapter_2_sup/tables/20220412double_tukey.tex)
+ [55] (./chapter_2_sup/tables/20210417single_anova.tex) (./chapter_2_sup/tables/20210417single_tukey.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Overfull \vbox (8.0pt too high) has occurred while \output is active []
 
- [60] (./chapter_2_sup/tables/emergence_anova.tex) (./chapter_2_sup/tables/emergence_tukey.tex)
+ [56] (./chapter_2_sup/tables/20210417double_anova.tex) (./chapter_2_sup/tables/20210417double_tukey.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [61] (./chapter_2_sup/tables/superinfection_anova.tex) (./chapter_2_sup/tables/superinfection_tukey.tex)
+ [57] (./chapter_2_sup/tables/20220127U_anova.tex) (./chapter_2_sup/tables/20220127U_tukey.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Overfull \vbox (8.0pt too high) has occurred while \output is active []
 
- [62] (./chapter_2_sup/tables/treatment_emergence_anova.tex) (./chapter_2_sup/tables/treatment_emergence_tukey.tex))) [63]
+ [58] (./chapter_2_sup/tables/20220127single_anova.tex) (./chapter_2_sup/tables/20220127single_tukey.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [59] (./chapter_2_sup/tables/20220127double_anova.tex) (./chapter_2_sup/tables/20220412U_anova.tex) (./chapter_2_sup/tables/20220412U_tukey.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (8.0pt too high) has occurred while \output is active []
+
+ [60] (./chapter_2_sup/tables/20220412single_anova.tex) (./chapter_2_sup/tables/20220412single_tukey.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [61] (./chapter_2_sup/tables/20220412double_anova.tex) (./chapter_2_sup/tables/20220412double_tukey.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (8.0pt too high) has occurred while \output is active []
+
+ [62] (./chapter_2_sup/tables/emergence_anova.tex) (./chapter_2_sup/tables/emergence_tukey.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [63] (./chapter_2_sup/tables/superinfection_anova.tex) (./chapter_2_sup/tables/superinfection_tukey.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (8.0pt too high) has occurred while \output is active []
+
+ [64] (./chapter_2_sup/tables/treatment_emergence_anova.tex) (./chapter_2_sup/tables/treatment_emergence_tukey.tex))) [65]
 Package biblatex Info: Reference section=0 on input line 34.
 
 Overfull \vbox (8.0pt too high) has occurred while \output is active []
 
- [64
+ [66
 
 ]
 \blx@maxsegment@5=\count556
 \blx@sectionciteorder@5=\count557
 Package biblatex Info: Reference section=5 on input line 49.
 Package biblatex Info: Setting label 'refsection:5' on input line 49.
- (./chapter_5/ch5.tex [65
+ (./chapter_5/ch5.tex [67
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [66]
+ [68]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [67]
+ [69]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [68]) [69]
+ [70]) [71]
 Package biblatex Info: Reference section=0 on input line 49.
 
 
@@ -3241,7 +3191,7 @@ Class memoir Warning: The material used in the headers is too large
 either increase the head height or redesign the header
 (in both cases you will find help in the memoir manual). on input line 54.
 
-[70
+[72
 
 ]
 \tf@toc=\write8
@@ -3265,12 +3215,12 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 47704 strings out of 479418
- 931688 string characters out of 5884586
- 2000142 words of memory out of 5000000
- 64188 multiletter control sequences out of 15000+600000
+ 47770 strings out of 479418
+ 933948 string characters out of 5884586
+ 2023795 words of memory out of 5000000
+ 64254 multiletter control sequences out of 15000+600000
  548020 words of font info for 151 fonts, out of 8000000 for 9000
  1350 hyphenation exceptions out of 8191
- 70i,19n,120p,6407b,5039s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 70i,19n,120p,6407b,6384s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on /Users/malte/ETH-Documents/thesis/build/main.xdv (80 pages, 1635668 bytes).
+Output written on /Users/malte/ETH-Documents/thesis/build/main.xdv (82 pages, 1669844 bytes).

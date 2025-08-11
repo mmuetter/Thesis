@@ -2200,12 +2200,12 @@
     <bcf:datasource type="file" datatype="bibtex">bibliographies/thesis.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="2">
-    <bcf:citekey order="1">Hawkey2008</bcf:citekey>
+    <bcf:citekey order="1">Kirby1944</bcf:citekey>
     <bcf:citekey order="2">Naghavi2024</bcf:citekey>
-    <bcf:citekey order="3">Frost2005</bcf:citekey>
-    <bcf:citekey order="3">Smillie2010</bcf:citekey>
+    <bcf:citekey order="3">Bates1998</bcf:citekey>
     <bcf:citekey order="4">Regoes2004</bcf:citekey>
-    <bcf:citekey order="5">Gregory2018</bcf:citekey>
+    <bcf:citekey order="5">Bell2014</bcf:citekey>
+    <bcf:citekey order="5">Rahman2023</bcf:citekey>
     <bcf:citekey order="6">Leekha2011</bcf:citekey>
     <bcf:citekey order="7">Kable1980</bcf:citekey>
     <bcf:citekey order="7">Delp1980</bcf:citekey>
@@ -2213,16 +2213,19 @@
     <bcf:citekey order="8">Bonhoeffer1997</bcf:citekey>
     <bcf:citekey order="8">Tepekule2017</bcf:citekey>
     <bcf:citekey order="8">Uecker2021</bcf:citekey>
-    <bcf:citekey order="9">...</bcf:citekey>
-    <bcf:citekey order="10">Tamma2012</bcf:citekey>
-    <bcf:citekey order="11">Goldberg2012</bcf:citekey>
-    <bcf:citekey order="12">siedentop_metaanalysis_2024</bcf:citekey>
+    <bcf:citekey order="9">Bell2014</bcf:citekey>
+    <bcf:citekey order="9">Rahman2023</bcf:citekey>
+    <bcf:citekey order="10">Jernberg2007</bcf:citekey>
+    <bcf:citekey order="11">Tamma2012</bcf:citekey>
+    <bcf:citekey order="12">Goldberg2012</bcf:citekey>
     <bcf:citekey order="13">siedentop_metaanalysis_2024</bcf:citekey>
-    <bcf:citekey order="14">Angst2021</bcf:citekey>
-    <bcf:citekey order="15">Loewe1926</bcf:citekey>
-    <bcf:citekey order="16">Bliss1939</bcf:citekey>
-    <bcf:citekey order="17">Yeh2006</bcf:citekey>
-    <bcf:citekey order="18">...</bcf:citekey>
+    <bcf:citekey order="14">siedentop_metaanalysis_2024</bcf:citekey>
+    <bcf:citekey order="15">Angst2021</bcf:citekey>
+    <bcf:citekey order="16">Loewe1926</bcf:citekey>
+    <bcf:citekey order="17">Bliss1939</bcf:citekey>
+    <bcf:citekey order="18">Yeh2006</bcf:citekey>
+    <bcf:citekey order="18">Chevereau2015a</bcf:citekey>
+    <bcf:citekey order="18">Kavcic2020</bcf:citekey>
   </bcf:section>
   <!-- SECTION 0 (cont.) -->
   <bcf:section number="0">
