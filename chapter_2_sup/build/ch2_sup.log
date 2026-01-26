@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2021.2.1)  31 JUL 2025 11:29
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2021.2.1)  26 JAN 2026 21:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1429,70 +1429,527 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/bookmark/bkm-dvipdfm.def
 File: bkm-dvipdfm.def 2019/12/03 v1.28 bookmark driver for dvipdfm (HO)
 \BKM@id=\count418
-)) (/usr/local/texlive/2020/texmf-dist/tex/generic/stringenc/se-ascii-print.def
+)) (/usr/local/texlive/2020/texmf-dist/tex/latex/overpic/overpic.sty
+Package: overpic 2020/02/22 1.3 picture overlays (RN)
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/eepic/epic.sty
+Enhancements to Picture Environment. Version 1.2 - Released June 1, 1986
+\@@multicnt=\count419
+\d@lta=\count420
+\@delta=\dimen371
+\@@delta=\dimen372
+\@gridcnt=\count421
+\@joinkind=\count422
+\@dotgap=\dimen373
+\@ddotgap=\dimen374
+\@x@diff=\count423
+\@y@diff=\count424
+\x@diff=\dimen375
+\y@diff=\dimen376
+\@dotbox=\box87
+\num@segments=\count425
+\num@segmentsi=\count426
+\@datafile=\read8
+)
+\OVP@box=\box88
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/chemfig/chemfig.sty (/usr/local/texlive/2020/texmf-dist/tex/generic/chemfig/chemfig.tex
+Invalid UTF-8 byte or sequence at line 34 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 43 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 54 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 54 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 57 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 57 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 57 replaced by U+FFFD.
+ (/usr/local/texlive/2020/texmf-dist/tex/generic/simplekv/simplekv.tex
+Invalid UTF-8 byte or sequence at line 2 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 36 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 38 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 47 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 47 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 47 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 47 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 51 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 51 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 51 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 51 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 52 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 52 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 55 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 59 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 59 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 59 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 60 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 60 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 67 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 68 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 68 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 73 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 73 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 84 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 84 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 90 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 92 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 110 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 110 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 112 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 112 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 112 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 113 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 113 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 113 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 113 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 113 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 113 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 117 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 117 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 117 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 117 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 122 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 125 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 125 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 125 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 126 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 126 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 128 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 129 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 129 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 129 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 131 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 131 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 131 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 132 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 139 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 139 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 140 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 140 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 142 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 142 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 146 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 146 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 146 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 147 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 151 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 152 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 152 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 152 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 153 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 153 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 154 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 154 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 154 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 157 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 157 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 157 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 158 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 163 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 163 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 163 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 163 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 164 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 164 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 164 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 164 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 166 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 166 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 167 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 171 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 171 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 172 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 173 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 174 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 174 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 174 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 174 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 174 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 175 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 176 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 178 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 178 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 181 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 183 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 183 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 184 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 184 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 185 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 187 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 187 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 189 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 189 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 189 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 191 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 191 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 191 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 191 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 192 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 192 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 193 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 196 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 196 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 197 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 200 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 200 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 200 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 201 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 202 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 202 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 202 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 204 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 204 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 204 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 205 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 205 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 205 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 206 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 207 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 208 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 209 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 209 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 210 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 211 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 212 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 212 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 212 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 212 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 213 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 213 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 213 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 215 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 215 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 217 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 217 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 217 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 218 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 220 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 225 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 226 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 226 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 226 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 229 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 229 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 229 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 229 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 238 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 238 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 240 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 240 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 241 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 243 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 244 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 244 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 244 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 247 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 247 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 255 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 255 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 256 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 256 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 256 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 256 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 257 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 259 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 260 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 262 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 265 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 265 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 265 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 265 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 280 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 285 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 285 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 287 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 288 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 288 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 292 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 295 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 297 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 297 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 297 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 298 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 299 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 303 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 303 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 309 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 312 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 312 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 319 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 319 replaced by U+FFFD.
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.code.tex
+File: pgflibraryarrows.meta.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfarrowinset=\dimen377
+\pgfarrowlength=\dimen378
+\pgfarrowwidth=\dimen379
+\pgfarrowlinewidth=\dimen380
+)
+\CF_cntatomgroup=\count427
+\CF_cntgroup=\count428
+\CF_cntatom=\count429
+\CF_cntcycle=\count430
+\CF_cntcompound=\count431
+\CF_dim=\dimen381
+\CF_arrowsize=\dimen382
+\CF_zero=\dimen383
+\CF_boxlewis=\box89
+\CF_box=\box90
+\CF_boxstuff=\box91
+\CF_testbox=\box92
+\CF_chargebox=\box93
+\CF_substtoks=\toks57
+Invalid UTF-8 byte or sequence at line 161 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 187 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 216 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 216 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 277 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 278 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 278 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 278 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 294 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 294 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 295 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 295 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 318 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 318 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 318 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 351 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 359 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 363 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 364 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 406 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 420 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 420 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 420 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 420 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 420 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 421 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 429 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 439 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 459 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 459 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 521 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 525 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 560 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 568 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 571 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 573 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 575 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 575 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 599 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 611 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 611 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 611 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 612 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 616 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 616 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 638 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 638 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 669 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 669 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 709 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 709 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 718 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 734 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 736 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 736 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 737 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 737 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 740 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 740 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 762 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 776 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 776 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 790 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 800 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 800 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 800 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 806 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 808 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 808 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 809 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 809 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 809 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 819 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 826 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 831 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 832 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 834 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 866 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 883 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 906 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 906 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 907 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 938 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 938 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 942 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 942 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 943 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 949 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 958 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 958 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 961 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 965 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 970 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 970 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 1066 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 1066 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 1067 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 1101 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 1101 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 1137 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 1151 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 1176 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 1183 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 1190 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 1190 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 1194 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 1194 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 1210 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 1234 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 1234 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 1289 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 1324 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 1325 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 1341 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 1381 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 1381 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 1400 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 1403 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 1403 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 1463 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 1472 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 1472 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 1512 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 1515 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 1515 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 1515 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 1516 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 1516 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 1520 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 1520 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 1555 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 1583 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 1588 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 1684 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 1722 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 1932 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 1932 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 2018 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 2018 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 2036 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 2152 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 2170 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 2170 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 2170 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 2206 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 2219 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 2219 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 2239 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 2239 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 2240 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 2240 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 2240 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 2240 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 2240 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 2288 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 2288 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 2434 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 2462 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 2462 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 2462 replaced by U+FFFD.
+)
+Package: chemfig 2020/03/05 v1.5 Draw molecule with an easy syntax (CT)
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/mhchem/mhchem.sty
+Package: mhchem 2018/06/22 v4.08 for typesetting chemical formulae
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/chemgreek/chemgreek.sty
+Package: chemgreek 2020/01/16 v1.1a interface for upright Greek letters for use in chemistry (CN)
+\l__chemgreek_tmpa_int=\count432
+\g__chemgreek_tmpa_int=\count433
+)
+\l__mhchem_ce_distanceFromLastComma_int=\count434
+\__mhchem_arrow_extPgfLength_skip=\skip267
+\mhchem@minispace@tmp=\skip268
+\mhchem@minibackspace@tmp=\skip269
+\mhchem@bondwidth=\skip270
+\mhchem@bondheight=\skip271
+\mhchem@smallbondwidth@tmpA=\skip272
+\mhchem@smallbondwidth@tmpB=\skip273
+\mhchem@smallbondwidth=\skip274
+\mhchem@bondtmp@minussidebearingleft=\skip275
+\mhchem@bondtmp@minussidebearingright=\skip276
+\l__mhchem_option_version_int=\count435
+\mhchem@option@minusmathsidebearingleft=\dimen384
+\mhchem@option@minusmathsidebearingright=\dimen385
+\mhchem@option@minustextsidebearingleft=\dimen386
+\mhchem@option@minustextsidebearingright=\dimen387
+
+
+Package mhchem Warning: You did not specify a 'version' option for the mhchem
+(mhchem)                package. Please write \usepackage[version=4]{mhchem}
+(mhchem)                in your preamble (or any lower number for
+(mhchem)                compatibility mode), because you might get slightly
+(mhchem)                different output with the same input in future versions.
+
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/stringenc/se-ascii-print.def
 File: se-ascii-print.def 2019/11/29 v1.12 stringenc: Printable ASCII characters
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2019/12/01 v3.14 programmable bibliographies (PK/MW)
  (/usr/local/texlive/2020/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count419
+\lrq@indent=\count436
  (/usr/local/texlive/2020/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
-\c@tabx@nest=\count420
-\c@listtotal=\count421
-\c@listcount=\count422
-\c@liststart=\count423
-\c@liststop=\count424
-\c@citecount=\count425
-\c@citetotal=\count426
-\c@multicitecount=\count427
-\c@multicitetotal=\count428
-\c@instcount=\count429
-\c@maxnames=\count430
-\c@minnames=\count431
-\c@maxitems=\count432
-\c@minitems=\count433
-\c@citecounter=\count434
-\c@maxcitecounter=\count435
-\c@savedcitecounter=\count436
-\c@uniquelist=\count437
-\c@uniquename=\count438
-\c@refsection=\count439
-\c@refsegment=\count440
-\c@maxextratitle=\count441
-\c@maxextratitleyear=\count442
-\c@maxextraname=\count443
-\c@maxextradate=\count444
-\c@maxextraalpha=\count445
-\c@abbrvpenalty=\count446
-\c@highnamepenalty=\count447
-\c@lownamepenalty=\count448
-\c@maxparens=\count449
-\c@parenlevel=\count450
-\blx@tempcnta=\count451
-\blx@tempcntb=\count452
-\blx@tempcntc=\count453
-\blx@maxsection=\count454
-\blx@maxsegment@0=\count455
-\blx@notetype=\count456
-\blx@parenlevel@text=\count457
-\blx@parenlevel@foot=\count458
-\blx@sectionciteorder@0=\count459
-\blx@entrysetcounter=\count460
-\labelnumberwidth=\skip267
-\labelalphawidth=\skip268
-\biblabelsep=\skip269
-\bibnamesep=\skip270
-\bibinitsep=\skip271
-\bibparsep=\skip272
-\bibhang=\skip273
-\blx@bcfin=\read8
+\c@tabx@nest=\count437
+\c@listtotal=\count438
+\c@listcount=\count439
+\c@liststart=\count440
+\c@liststop=\count441
+\c@citecount=\count442
+\c@citetotal=\count443
+\c@multicitecount=\count444
+\c@multicitetotal=\count445
+\c@instcount=\count446
+\c@maxnames=\count447
+\c@minnames=\count448
+\c@maxitems=\count449
+\c@minitems=\count450
+\c@citecounter=\count451
+\c@maxcitecounter=\count452
+\c@savedcitecounter=\count453
+\c@uniquelist=\count454
+\c@uniquename=\count455
+\c@refsection=\count456
+\c@refsegment=\count457
+\c@maxextratitle=\count458
+\c@maxextratitleyear=\count459
+\c@maxextraname=\count460
+\c@maxextradate=\count461
+\c@maxextraalpha=\count462
+\c@abbrvpenalty=\count463
+\c@highnamepenalty=\count464
+\c@lownamepenalty=\count465
+\c@maxparens=\count466
+\c@parenlevel=\count467
+\blx@tempcnta=\count468
+\blx@tempcntb=\count469
+\blx@tempcntc=\count470
+\blx@maxsection=\count471
+\blx@maxsegment@0=\count472
+\blx@notetype=\count473
+\blx@parenlevel@text=\count474
+\blx@parenlevel@foot=\count475
+\blx@sectionciteorder@0=\count476
+\blx@entrysetcounter=\count477
+\labelnumberwidth=\skip277
+\labelalphawidth=\skip278
+\biblabelsep=\skip279
+\bibnamesep=\skip280
+\bibinitsep=\skip281
+\bibparsep=\skip282
+\bibhang=\skip283
+\blx@bcfin=\read9
 \blx@bcfout=\write7
 \blx@langwohyphens=\language86
-\c@mincomprange=\count461
-\c@maxcomprange=\count462
-\c@mincompwidth=\count463
+\c@mincomprange=\count478
+\c@maxcomprange=\count479
+\c@mincompwidth=\count480
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/blx-dm.def
@@ -1502,88 +1959,88 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'numeric-comp.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count464
-\c@savedafterword=\count465
-\c@annotator=\count466
-\c@savedannotator=\count467
-\c@author=\count468
-\c@savedauthor=\count469
-\c@bookauthor=\count470
-\c@savedbookauthor=\count471
-\c@commentator=\count472
-\c@savedcommentator=\count473
-\c@editor=\count474
-\c@savededitor=\count475
-\c@editora=\count476
-\c@savededitora=\count477
-\c@editorb=\count478
-\c@savededitorb=\count479
-\c@editorc=\count480
-\c@savededitorc=\count481
-\c@foreword=\count482
-\c@savedforeword=\count483
-\c@holder=\count484
-\c@savedholder=\count485
-\c@introduction=\count486
-\c@savedintroduction=\count487
-\c@namea=\count488
-\c@savednamea=\count489
-\c@nameb=\count490
-\c@savednameb=\count491
-\c@namec=\count492
-\c@savednamec=\count493
-\c@translator=\count494
-\c@savedtranslator=\count495
-\c@shortauthor=\count496
-\c@savedshortauthor=\count497
-\c@shorteditor=\count498
-\c@savedshorteditor=\count499
-\c@labelname=\count500
-\c@savedlabelname=\count501
-\c@institution=\count502
-\c@savedinstitution=\count503
-\c@lista=\count504
-\c@savedlista=\count505
-\c@listb=\count506
-\c@savedlistb=\count507
-\c@listc=\count508
-\c@savedlistc=\count509
-\c@listd=\count510
-\c@savedlistd=\count511
-\c@liste=\count512
-\c@savedliste=\count513
-\c@listf=\count514
-\c@savedlistf=\count515
-\c@location=\count516
-\c@savedlocation=\count517
-\c@organization=\count518
-\c@savedorganization=\count519
-\c@origlocation=\count520
-\c@savedoriglocation=\count521
-\c@origpublisher=\count522
-\c@savedorigpublisher=\count523
-\c@publisher=\count524
-\c@savedpublisher=\count525
-\c@language=\count526
-\c@savedlanguage=\count527
-\c@origlanguage=\count528
-\c@savedoriglanguage=\count529
-\c@pageref=\count530
-\c@savedpageref=\count531
-\shorthandwidth=\skip274
-\shortjournalwidth=\skip275
-\shortserieswidth=\skip276
-\shorttitlewidth=\skip277
-\shortauthorwidth=\skip278
-\shorteditorwidth=\skip279
-\locallabelnumberwidth=\skip280
-\locallabelalphawidth=\skip281
-\localshorthandwidth=\skip282
-\localshortjournalwidth=\skip283
-\localshortserieswidth=\skip284
-\localshorttitlewidth=\skip285
-\localshortauthorwidth=\skip286
-\localshorteditorwidth=\skip287
+\c@afterword=\count481
+\c@savedafterword=\count482
+\c@annotator=\count483
+\c@savedannotator=\count484
+\c@author=\count485
+\c@savedauthor=\count486
+\c@bookauthor=\count487
+\c@savedbookauthor=\count488
+\c@commentator=\count489
+\c@savedcommentator=\count490
+\c@editor=\count491
+\c@savededitor=\count492
+\c@editora=\count493
+\c@savededitora=\count494
+\c@editorb=\count495
+\c@savededitorb=\count496
+\c@editorc=\count497
+\c@savededitorc=\count498
+\c@foreword=\count499
+\c@savedforeword=\count500
+\c@holder=\count501
+\c@savedholder=\count502
+\c@introduction=\count503
+\c@savedintroduction=\count504
+\c@namea=\count505
+\c@savednamea=\count506
+\c@nameb=\count507
+\c@savednameb=\count508
+\c@namec=\count509
+\c@savednamec=\count510
+\c@translator=\count511
+\c@savedtranslator=\count512
+\c@shortauthor=\count513
+\c@savedshortauthor=\count514
+\c@shorteditor=\count515
+\c@savedshorteditor=\count516
+\c@labelname=\count517
+\c@savedlabelname=\count518
+\c@institution=\count519
+\c@savedinstitution=\count520
+\c@lista=\count521
+\c@savedlista=\count522
+\c@listb=\count523
+\c@savedlistb=\count524
+\c@listc=\count525
+\c@savedlistc=\count526
+\c@listd=\count527
+\c@savedlistd=\count528
+\c@liste=\count529
+\c@savedliste=\count530
+\c@listf=\count531
+\c@savedlistf=\count532
+\c@location=\count533
+\c@savedlocation=\count534
+\c@organization=\count535
+\c@savedorganization=\count536
+\c@origlocation=\count537
+\c@savedoriglocation=\count538
+\c@origpublisher=\count539
+\c@savedorigpublisher=\count540
+\c@publisher=\count541
+\c@savedpublisher=\count542
+\c@language=\count543
+\c@savedlanguage=\count544
+\c@origlanguage=\count545
+\c@savedoriglanguage=\count546
+\c@pageref=\count547
+\c@savedpageref=\count548
+\shorthandwidth=\skip284
+\shortjournalwidth=\skip285
+\shortserieswidth=\skip286
+\shorttitlewidth=\skip287
+\shortauthorwidth=\skip288
+\shorteditorwidth=\skip289
+\locallabelnumberwidth=\skip290
+\locallabelalphawidth=\skip291
+\localshorthandwidth=\skip292
+\localshortjournalwidth=\skip293
+\localshortserieswidth=\skip294
+\localshorttitlewidth=\skip295
+\localshortauthorwidth=\skip296
+\localshorteditorwidth=\skip297
 Package biblatex Info: Trying to load enhanced support for Unicode engines...
 Package biblatex Info: ... file 'blx-unicode.def' found.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/blx-unicode.def)
@@ -1596,19 +2053,19 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
-\c@textcitecount=\count532
-\c@textcitetotal=\count533
-\c@textcitemaxnames=\count534
-\c@biburlbigbreakpenalty=\count535
-\c@biburlbreakpenalty=\count536
-\c@biburlnumpenalty=\count537
-\c@biburlucpenalty=\count538
-\c@biburllcpenalty=\count539
+\c@textcitecount=\count549
+\c@textcitetotal=\count550
+\c@textcitemaxnames=\count551
+\c@biburlbigbreakpenalty=\count552
+\c@biburlbreakpenalty=\count553
+\c@biburlnumpenalty=\count554
+\c@biburlucpenalty=\count555
+\c@biburllcpenalty=\count556
 \biburlbigskip=\muskip19
 \biburlnumskip=\muskip20
 \biburlucskip=\muskip21
 \biburllcskip=\muskip22
-\c@smartand=\count540
+\c@smartand=\count557
 )
 Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
 Package biblatex Info: ... file 'numeric-comp.bbx' found.
@@ -1622,15 +2079,15 @@ Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2019/12/01 v3.14 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count541
-\c@bbx:relatedtotal=\count542
+\c@bbx:relatedcount=\count558
+\c@bbx:relatedtotal=\count559
 )))
 Package biblatex Info: Trying to load citation style 'numeric-comp'...
 Package biblatex Info: ... file 'numeric-comp.cbx' found.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/cbx/numeric-comp.cbx
 File: numeric-comp.cbx 2019/12/01 v3.14 biblatex citation style (PK/MW)
-\c@cbx@tempcnta=\count543
-\c@cbx@tempcntb=\count544
+\c@cbx@tempcnta=\count560
+\c@cbx@tempcntb=\count561
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
@@ -1652,8 +2109,8 @@ File: biblatex.cfg
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
 
-\@quotelevel=\count545
-\@quotereset=\count546
+\@quotelevel=\count562
+\@quotereset=\count563
 (/Users/malte/ETH-Documents/thesis/chapter_2_sup/build/ch2_sup.aux)
 \openout1 = `ch2_sup.aux'.
 
@@ -1746,7 +2203,7 @@ Package: ltcaption 2018/08/26 v1.4a longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
  ABD: EveryShipout initializing macros
-\AtBeginShipoutBox=\box87
+\AtBeginShipoutBox=\box94
  (/usr/local/texlive/2020/texmf-dist/tex/latex/translator/translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg
@@ -1760,7 +2217,7 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (/usr/local/texlive/2020/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count547
+\c@section@level=\count564
 )
 Redoing nameref's sectioning
 Redoing nameref's label
@@ -1768,6 +2225,9 @@ LaTeX Info: Redefining \nameref on input line 7.
 LaTeX Info: Redefining \ref on input line 7.
 LaTeX Info: Redefining \pageref on input line 7.
 LaTeX Info: Redefining \nameref on input line 7.
+
+Package chemgreek Info: Activating mapping `fontspec' on line 7.
+
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 (/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/lbx/english.lbx
@@ -2193,7 +2653,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
  (./chapter_2_sup/commands.tex
-\tikzbox=\box88
+\tikzbox=\box95
 )
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `Optima' (encoding: TU).
@@ -2833,12 +3293,12 @@ Package logreq Info: Writing requests to 'ch2_sup.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 47148 strings out of 479418
- 918410 string characters out of 5884586
- 1827801 words of memory out of 5000000
- 63696 multiletter control sequences out of 15000+600000
+ 49023 strings out of 479418
+ 957972 string characters out of 5884586
+ 1907154 words of memory out of 5000000
+ 65541 multiletter control sequences out of 15000+600000
  547410 words of font info for 140 fonts, out of 8000000 for 9000
  1350 hyphenation exceptions out of 8191
  82i,19n,133p,4746b,3958s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on /Users/malte/ETH-Documents/thesis/chapter_2_sup/build/ch2_sup.xdv (37 pages, 722140 bytes).
+Output written on /Users/malte/ETH-Documents/thesis/chapter_2_sup/build/ch2_sup.xdv (37 pages, 723952 bytes).

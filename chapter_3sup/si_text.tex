@@ -1,0 +1,535 @@
+\section{Mathematical descriptions}\label{sec:math}
+
+\subsection{Light-related terminology.}
+In this manuscript, \emph{total luminosity} ($L$) refers to the total light output produced by $B$ bacteria of a \emph{bioluminescent} bacterial culture in a well with volume $V_w$.  
+During the \emph{luminescence assays}, we capture a fraction $\kappa$ of the total luminosity ($\phi B$) as light intensity $I(t) = \kappa \phi B$.
+We call the exponential decline rates based on these intensities \emph{luminescence-based rates}, $\psi_I$.
+We use \emph{cell-specific luminosity} ($\phi$) for light output per cell and \emph{volume-specific luminosity} ($\theta$) for light output per unit cell volume.  
+When $I(t)$ is normalized by the measured optical density, we obtain $\omega$, the \emph{OD-normalized light intensity}.
+$J(t)$ is the light intensity $I(t)$ adjusted by the relative change in cell volume $\frac{v_0}{v(t)}$.
+
+
+\subsection{Testing for linearity between bacterial density and luminescent light intensity.}
+
+To test whether bacterial density and bacterial luminescent light intensity are linearly related, we grew three replicate overnight cultures.
+To replenish nutrients, we diluted each culture 1:10 in fresh LB medium and incubated for 60 minutes.
+We subsequently performed a 10-fold dilution series in a 384-well white plate (Greiner, 781073) and immediately measured the light intensity (see Fig.~1 in the main text).
+Each plate included wells containing only medium to determine a blank (median \(\approx \SI{37.33}{rlu}\)), which we subtracted from all measurements.
+
+
+We assessed linearity between light intensity ($I$) and bacterial density ($b$) by fitting a linear model without intercept on the original scale,
+\[
+I_i = m \cdot b_i,
+\]
+which corresponds to a log–log regression with intercept:
+\[
+\ln(I_i) = \ln(m) + \ln(b_i).
+\]
+Summing over all \(n\) observations gives
+\[
+n\,\ln(m) = \sum_{i=1}^n \ln(I_i) - \sum_{i=1}^n \ln(b_i),
+\]
+The optimal conversion factor \(m\) is then
+\[
+m = \frac{\left(\prod_{i=1}^n I_i\right)^{\frac{1}{n}}}{\left(\prod_{i=1}^n b_i\right)^{\frac{1}{n}}},
+\]
+yielding \(m = 0.006\;\frac{\mathrm{rlu}\,\mathrm{ml}}{\mathrm{CFU}}\).
+
+We observed a linear relationship  (\(R^2 = 0.987\), \(F = 1164.14\), \(p < 10^{-14}\)) between bacterial density and light intensity for intensities above \(\SI{20}{rlu}\) (\(\sim 3\times10^2\,\text{CFU/ml}\)).
+Consequently, we use \(\SI{20}{rlu}\) as the lower detection limit for luminescence.
+Additionally, we conclude that \(\kappa\) is independent of the bacterial density (no overshadowing effects), within the relevant range of densities.  
+Since the plate reader setup remains constant within an experiment, we assume \(\kappa\) to be constant for following analyses.
+
+
+\subsection{Rate of change of CFU count.}
+To infer the rate of change of CFU, we assume bacteria spend only a short time in the low‐nutrient dilution medium, so replication and death are negligible during that phase.
+
+Most colonies originate from clusters only comprising a single cell, but some from founding clusters of multiple cells.
+Let \(f(n)\) be the probability that a randomly chosen cluster contains \(n\) bacteria.
+A cluster of size \(n\) forms a colony with probability
+\begin{equation}
+    1-(p_E)^n,
+\end{equation}
+where \(p_E\) is the probability that a lineage originating from a single bacterium goes extinct (extinction probability).
+The mean probability that a plated cluster forms a colony is: 
+\begin{equation}
+    \bar g=\sum_{n=1}^{N}f(n)\,(1-(p_E)^n).
+\end{equation}
+
+The mean cluster size is
+\begin{equation}
+    \bar n=\sum_{n=1}^{N}n\,f(n). \label{eq:cluster_size}
+\end{equation}
+
+The mean number of colonies emerging per plated bacterium can be approximated by:
+\begin{equation}
+\eta=\frac{\bar g}{\bar n},  \hspace{2cm} \eta \in [0, 1]. \label{eq:form_prob}
+\end{equation}
+
+
+The predicted CFU per ml given a bacterial density \(b=\frac{B}{V_w}\), with \(B\) the number of bacteria per well and \(V_w\) the constant well volume, is:
+\begin{equation}
+  \mathrm{CFU} = \eta \frac{B}{V_w}.
+\end{equation}
+Taking the logarithmic derivative yields:
+\begin{equation}
+  \psi_{\mathrm{CFU}} = \frac{d}{dt}\ln(\mathrm{CFU})
+    = \frac{d}{dt}\ln(\eta) + \frac{d}{dt}\ln(B) .
+    \label{eq:psi_cfu}
+\end{equation}
+In practice \(\eta\) is often unknown. 
+We can only estimate \(\psi_B\) from CFU data if we assume that \(\eta\) is constant over time.
+
+\begin{equation}
+  \psi_{\mathrm{CFU}} = \frac{d}{dt}\ln(B) = \psi_B.
+\end{equation}
+
+
+To justify a constant \(\eta\) we must assume that the cluster‐size distribution \(f(n)\) and the extinction probability \(p_E\) do not change over time.
+Both assumptions may fail, for example if cells filament or if the division or death rate change.
+We discuss the behaviour of \(p_E\) below.
+
+\subsection{Rate of change of luminescence.}
+The observed light intensity $I$ is a fraction $\kappa$ of the total luminosity ($\phi B$) of a bioluminescent culture, where $\phi$ is the cell-specific luminosity (the amount of light emitted by one bacterium).
+The light intensity can thus be written as:
+\begin{equation}
+    I = \kappa \phi B.
+\end{equation}
+The rate of change of light intensity is therefore:
+\begin{equation}
+    \psi_I = \frac{d}{dt}\ln(I) = \frac{d(\ln(\kappa) + \ln(\phi) + \ln(B))}{dt}.\label{eq:psi_I}
+\end{equation}
+We assume that $\kappa$ remains constant over time, as we explained above (``Testing for linearity between bacterial density and luminescent light intensity'').
+If we assume that the cell-specific luminosity $\phi$ is also constant, $\psi_I$ equals the rate of bacterial count change $\psi_B$, as \autoref{eq:psi_I} simplifies to:
+\begin{equation}
+    \psi_I = \frac{d}{dt}\ln(I)  = \frac{d}{dt}\ln(B)  = \psi_B.
+\end{equation}
+
+
+\subsection{Rate of change of volume-corrected luminescence.}
+Alternatively, we can link the measured light intensity to the number of bacteria using the mean cell-specific volume ($v$) and the volume-specific luminosity ($\theta$):
+\begin{equation}
+    I = \kappa \theta v B. \label{eq:I_vol}
+\end{equation}
+Defining the volume-corrected luminescence as $J(t) = I(t) v_0/v(t)$, we can compute its rate of change as:
+\begin{equation}
+    \psi_J = \frac{d(\ln(I \cdot v_0/v))}{dt} = \frac{d(\ln(\kappa) + \ln(v_0) + \ln(\theta) + \ln(B))}{dt}. \label{eq:psi_J}
+\end{equation}
+
+If we assume that the volume-specific luminosity $\theta$ is constant, this estimate equals the rate of change of the number of living bacteria ($B$):
+\begin{equation}
+    \psi_J = \frac{d}{dt}\ln(I \cdot v_0/v) = \frac{d}{dt}\ln(B) = \psi_B.
+\end{equation}
+
+\pagebreak
+\subsection{Change of light intensity is closer to the rate of change of total cell-volume than to the rate of change of number of bacteria.}
+
+We made two empirical observations under all tested drug conditions:
+
+\textbf{(i)} \emph{For the subset of drugs imaged using microscopy, the mean specific cell volume never significantly decreased between the first and second time point}:
+\begin{equation}
+  \frac{d\ln v}{dt} \geq 0
+\end{equation}
+
+The rate of change of total cell volume is given by:
+\begin{equation}
+      \psi_V =\frac{d\ln(vB)}{dt} =\frac{d\ln v}{dt}+\psi_B. \label{eq:psi_V}
+\end{equation}
+
+From this relation and observation \textbf{(i)}, we directly obtain:
+\begin{equation}
+  \boxed{\psi_V \ge\psi_B} \label{eq:psi_V_B}
+\end{equation}
+
+\textbf{(ii)} \emph{The rate of change of volume-corrected light intensity was never significantly lower than the corresponding rate of change of CFU}:
+\begin{equation}
+  \psi_J=\frac{d\ln J}{dt}\ge\psi_\mathrm{CFU}
+  \label{eq:psi_J_ge_B}
+\end{equation}
+
+Since we can express the light intensity as $I=\kappa\theta vB$, the volume-corrected luminescence rate becomes:
+\begin{equation}
+\psi_J = \frac{d}{dt}\ln(\kappa\theta v_0 B)=\psi_B+\frac{d\ln\theta}{dt}.
+\end{equation}
+
+Observation \textbf{(ii)} thus implies:
+\begin{equation}
+\psi_B+\frac{d\ln\theta}{dt} \geq \psi_\mathrm{CFU}   
+\end{equation}
+If we make the assumption that the rate of change of CFU equals that of bacterial count ($\psi_\mathrm{CFU}=\psi_B$) we obtain:
+
+\begin{equation}
+    \frac{d\ln\theta}{dt} \geq 0 \label{eq:theta}
+\end{equation}
+
+Using the rate of change of light intensity we get:
+\begin{equation}
+\psi_I = \frac{d\ln(\kappa\theta vB)}{dt} = \psi_V + \frac{d\ln\theta}{dt}.
+\end{equation}
+
+From this relation and \autoref{eq:theta}, we follow:
+\begin{equation}
+\boxed{\psi_I \ge \psi_V} \label{eq:psi_L_V}
+\end{equation}
+
+Combining \autoref{eq:psi_V_B} and \autoref{eq:psi_L_V} yields:
+\begin{equation}
+    \boxed{\psi_I \ge \psi_V \ge \psi_B} \label{eq:I_V_B}
+\end{equation}
+allowing us to conclude that, during our experiments, the luminescence-based rate is closer to the rate of change of total cell volume (likely identical to the rate of change of biomass) than to the rate of change of bacterial count.
+
+
+\subsection{Colony formation -- birth-death Markov Model.\label{ssec:markov}}
+We use a basic birth-death Markov model, as described by \cite{Coates2018}, \cite{Novozhilov2006}, \cite{Kendall1948}, and \cite{Feller1939}, to model the probability that a single plated bacterium creates a colony.
+
+In this model, as in \cite{Coates2018}, $P_0(t)$ describes the probability that the population originating from this single bacterium goes extinct by the time $t$:
+\begin{equation}
+    P_0(t) = \frac{\delta}{\lambda} \cdot \frac{E(t) - 1}{E(t) - \frac{\delta}{\lambda}},
+\end{equation}
+where $\delta$ is the death rate, $\lambda$ the division rate, and $E(t) = e^{(\lambda - \delta)t}$.
+For $t \to \infty$, $P_0(t)$ converges to the extinction probability $p_E$ for a lineage originating from a single cell.
+
+\begin{equation}
+    p_E = 
+    \begin{cases} 
+      1, & \text{if } \lambda \leq \delta, \\
+      \frac{\delta}{\lambda}, & \text{if } \lambda > \delta.
+    \end{cases}
+\end{equation}
+
+
+\subsection{Colony formation for bacteriostatic and bactericidal drugs.}
+In the following, we call the death and division rate in the absence of treatment $\delta_0$ and $\lambda_0$, respectively, and the treatment-induced increase in death and reduction in division rate $\delta_T$ and $\lambda_T$, respectively.
+We then rewrite the net growth rate as:
+\begin{equation}
+    \psi = \lambda_0 - \lambda_T - \delta_0 - \delta_T
+\end{equation}
+Furthermore, we define the combined treatment effect:
+\begin{equation}
+    \tau = \psi_0 - \psi = \delta_T + \lambda_T
+\end{equation}
+We write the probability of colony formation (from a single cell) as:
+\begin{equation}
+    p_E = 
+    \begin{cases} 
+      1, & \text{if } \lambda_0 - \lambda_T \leq \delta_0 + \delta_T, \\
+      \frac{\delta_0 + \delta_T}{\lambda_0 - \lambda_T}, & \text{if } \lambda_0 - \lambda_T > \delta_0 + \delta_T.
+    \end{cases}
+\end{equation}
+
+We then define the extinction probability for purely bacteriostatic drugs ($\delta_T = 0$ and $\lambda_T = \tau$) as: 
+\begin{equation}
+    p_{E, \text{stat}} = 
+    \begin{cases} 
+      1, & \text{if } \lambda_0 - \tau \leq \delta_0, \\
+      \frac{\delta_0}{\lambda_0 - \tau}, & \text{if } \lambda_0 - \tau > \delta_0.
+    \end{cases}
+\end{equation}
+
+We define the extinction probability for purely bactericidal drugs ($\delta_T = \tau$ and $\lambda_T = 0$) as: 
+\begin{equation}
+    p_{E, \text{cidal}} = 
+    \begin{cases} 
+      1, & \text{if } \lambda_0  \leq \delta_0 + \tau, \\
+      \frac{\delta_0 + \tau}{\lambda_0}, & \text{if } \lambda_0  > \delta_0 + \tau.
+    \end{cases}
+    \label{eq:pE_cidal}
+\end{equation}
+
+In \autoref{fig:colony_formation}, we plot the colony formation probability for a single bacterium plated on agar (\(p_C = 1 - p_E\)) as a function of the treatment effect \(\tau\), showing purely bacteriostatic (red) and purely bactericidal (blue) drugs.
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%% FILAMENTATION
+\section{Filamentation Model}\label{sec:model}
+To model bacterial filamentation we discretize the cell volumes 
+into \(K\) classes indexed by \(i \in \{1, 2, \dots, K\}\). 
+Each class contains the bacterial density \(b_i(t)\) of cells with volume 
+\begin{equation}
+    v_i = i\,\epsilon,
+\end{equation}
+where \(\epsilon\) is a unit volume increment. We define the following rules for growth, division, and death of cells
+\begin{itemize}
+    \item cells in class \(i=1\) cannot divide
+    \item cells in class \(i=K\) cannot grow
+    \item cells in class \(i=1,\ldots,K-1\) shift from class \(i\) to \(i+1\) at rate \(\gamma\)
+    \item cells in class \(i=2,\ldots,K\) divide at rate \(\lambda\), resulting in a redistribution cells from class \(i\) 
+      into smaller classes (e.g.\ if \(i\) is even, two cells appear in class \(i/2\); 
+      if \(i\) is odd, one cell each appears in classes 
+      \(\tfrac{i-1}{2}\) and \(\tfrac{i+1}{2}\)).
+\item cells in all classes die at rate \(\delta\).
+\end{itemize}
+
+\noindent
+We collect the populations into a vector
+\begin{equation*}
+\vec{b}(t) 
+= 
+\bigl(b_1(t),\,b_2(t),\,\dots,\,b_K(t)\bigr)^\mathsf{T},
+\end{equation*}
+and write the dynamics as
+\begin{equation}
+\label{eq:filamentation-ode}
+\frac{d\vec{b}}{dt} 
+= 
+\lambda\,\Lambda\,\vec{b} 
++ 
+\gamma\,\Gamma\,\vec{b} 
+-
+\delta\,\vec{b},
+\end{equation}
+where \(\Lambda\) and \(\Gamma\) are transition matrices for division and growth, respectively. 
+An example form for \(\Gamma\) (volume acquisition) is
+\begin{equation*}
+    \Gamma 
+    = 
+    \begin{pmatrix}
+        -1 & 0 & 0 & 0 & \cdots & 0 & 0\\
+        1 & -1 & 0 & 0 & \cdots & 0 & 0\\
+        0 & 1 & -1 & 0 & \cdots & 0 & 0\\
+        \vdots & \vdots & \vdots & \vdots & \ddots & \vdots & \vdots\\
+        0 & 0 & 0 & 0 & \cdots & 1 & 0
+    \end{pmatrix},
+\end{equation*}
+which shifts cells from class \(i\) to \(i+1\). 
+An example \(\Lambda\) (division) might be
+\begin{equation*}
+    \Lambda 
+    = 
+    \begin{pmatrix}
+        0 & 2 & 1 & 0 & \cdots & 0 \\
+        0 & -1 & 1 & 0 & \cdots & 0 \\
+        0 & 0 & -1 & 1 & \cdots & 0 \\
+        \vdots & \vdots & \vdots & \vdots & \ddots & \vdots \\
+        0 & 0 & 0 & 0 & \cdots & -1
+    \end{pmatrix}.
+\end{equation*}
+We assume that the volume of the two new cells after division is identical to the original volume of the parent cell before division:
+\begin{equation}
+\sum_{i=1}^{K} i\,(\Lambda\, \vec{b})_i = 0.
+\end{equation}
+Furthermore the volume acquisition does not impact the number of cells:
+\begin{equation}
+\sum_{i=1}^{K} (\Gamma\, \vec{b})_i = 0.
+\end{equation}
+
+\pagebreak
+\subsection{Population‐level quantities.}
+We define the total bacterial density across all volume classes as
+\begin{equation}
+b(t)=\sum_{i=1}^{K} b_i(t),
+\end{equation}
+and \emph{total biovolume density}:
+\begin{equation}
+V(t)=\epsilon\sum_{i=1}^{K} i\,b_i(t)=\sum_{i=1}^{K} v_i\,b_i(t).
+\end{equation}
+Then the \emph{mean cell volume} is
+\begin{equation}
+v(t)=\frac{V(t)}{b(t)}.
+\end{equation}
+
+In the finite model, boundary effects arise because the smallest cells cannot divide and the largest cannot grow.  
+In the continuum limit \(\epsilon \to 0,\; K \to \infty\), these effects vanish and all cells experience uniform rates, so the following equalities hold:
+\begin{equation}
+\frac{db}{dt}=(\lambda-\delta)\,b,\label{eq:dbdt}
+\end{equation}
+\begin{equation}
+\frac{dV}{dt}=\epsilon\,\gamma\,b-\delta\,V,\label{eq:dVdt}
+\end{equation}
+\begin{equation}
+\frac{dv}{dt}=\epsilon\,\gamma-\lambda\,v.\label{eq:dvdt}
+\end{equation}
+Setting \(\tfrac{dv}{dt}=0\) yields the equilibrium mean volume
+\begin{equation}
+v_{\mathrm{eq}}=\frac{\epsilon\,\gamma}{\lambda}.
+\end{equation}
+Integrating \autoref{eq:dbdt} gives
+\begin{equation}
+\label{eq:b_sol}
+b(t)=b_0\exp\bigl((\lambda-\delta)t\bigr).
+\end{equation}
+
+Substituting this result into \autoref{eq:dVdt} and integrating with the integrating factor \(\exp(\delta t)\) yields the analytic solution for the total biovolume density accross all size classes:
+
+\begin{equation}
+    \label{eq:V_sol}
+    V(t)=v_{\mathrm{eq}}\,b(t)+\bigl(V_0-v_{\mathrm{eq}}\,b_0\bigr)\exp(-\delta t).
+\end{equation}
+Finally, writing \(v_0 = V_0 / b_0\), we obtain the analytical solution for the mean cell volume:
+\begin{equation}
+    \label{eq:v_sol}
+    v(t)=v_{\mathrm{eq}}+\bigl(v_0-v_{\mathrm{eq}}\bigr)\exp(-\lambda t).
+\end{equation}
+
+
+\subsection{Parameter sensitivity.}
+We evaluated the impact of changes in the division rate, $\Delta \lambda \in [-1.5, 0.5]$, and the death rate, $\delta \in \{0, 2, 4\}$, on the difference between the luminescence-based rate and the true net growth rate.
+To this end, we set the treatment-free division rate to $\lambda_0 = 1.5$, the treatment-free death rate to $\delta_0 = 0$, the biovolume acquisition rate in the presence and absence of treatment to $\gamma = 150 h^{-1}$ , the size of a volume increment to $\epsilon = 0.04 \mu m^3$ , and volume-specific luminosity to $\theta = 0.015$. 
+We simulated each parameter set for four hours using $K = 1000$. Furthermore we added the estimate based on luminescence if the first two hours of data are excluded.
+
+
+
+\subsection{Volume correction and parameter estimation}
+
+To correct the light signal for dynamic changes in biovolume, we combine two sources of information:  
+(i) two morphology snapshots before ($v_{\mathrm{obs},0}$) and after 2 hours of treatment ($v_{\mathrm{obs},2\mathrm h}$), and  
+(ii) the luminescence time series $I_{\mathrm{obs}}(t_i)$.
+
+We first rewrite \autoref{eq:v_sol} using the equilibrium–to–initial volume ratio $\alpha = v_{\mathrm{eq}} / v_{0}$ as:
+\begin{equation}
+    \label{eq:v_model}
+    v(t) = \alpha v_{0} + (1 - \alpha)\, v_{0}\, \mathrm{e}^{-\lambda t}.
+\end{equation}
+
+To avoid fitting $\alpha$ as a free parameter, we insert $v_{\mathrm{obs},0}$ and $v_{\mathrm{obs},2\mathrm h}$ into \autoref{eq:v_model} to express $\alpha$ as a function of $\lambda$:
+\begin{equation}
+    \label{eq:alpha_constraint}
+    \alpha(\lambda) = \frac{v_{\mathrm{obs},2\mathrm h} - v_{\mathrm{obs},0} \mathrm{e}^{-2\lambda}}{v_{\mathrm{obs},0}(1 - \mathrm{e}^{-2\lambda})},
+    \qquad \alpha > 0.
+\end{equation}
+
+Assuming constant volume-specific luminosity, we insert this constrained $\alpha$ into \autoref{eq:I_vol} to obtain:
+\begin{equation}
+    \label{eq:I_model}
+    I(t) = I_0\, \mathrm{e}^{(\lambda - \delta)t} \left[ \alpha + (1 - \alpha)\, \mathrm{e}^{-\lambda t} \right],
+\end{equation}
+with scale parameter $I_0 = \kappa \theta v_{\mathrm{obs},0} b_0 V_w$.
+
+To estimate the division rate $\lambda$ and death rate $\delta$, we eliminate the nuisance parameter $I_0$ by defining
+\begin{equation}
+    \label{eq:F_def}
+    F_i := \mathrm{e}^{(\lambda - \delta)t_i} \left[ \alpha + (1 - \alpha)\, \mathrm{e}^{-\lambda t_i} \right],
+\end{equation}
+so that
+\begin{equation}
+    \label{eq:lnI}
+    \ln I(t_i) = \ln I_0 + \ln F_i.
+\end{equation}
+
+Minimizing the residual sum of squares over $\ln I_0$ yields the optimal
+\begin{equation}
+    \label{eq:I_star}
+    \ln I_0^\ast = \overline{\ln I_{\mathrm{obs}}} - \overline{\ln F},
+\end{equation}
+where the overline denotes the sample mean across all $i$.
+
+Minimizing the residual $\ln I(t_i) - \ln I_{\mathrm{obs}}(t_i)$ by substituting \eqref{eq:lnI} and \eqref{eq:I_star} yields the final loss function:
+\begin{equation}
+    \label{eq:L_mini}
+    \mathcal{L}(\lambda, \delta) =
+    \sum_{i=1}^{n} \left[
+      \left( \ln F_i - \overline{\ln F} \right) -
+      \left( \ln I_{\mathrm{obs}}(t_i) - \overline{\ln I_{\mathrm{obs}}} \right)
+    \right]^2.
+\end{equation}
+
+To balance the dataset of observed specific volumes $v$, we sample 200 values per replicate and pool them.  
+We then use the same bootstrapped light intensity datasets as in the main method for estimating $\psi_I$.  
+For each bootstrap sample, we randomly pair one $v_{\mathrm{obs},0}$ and one $v_{\mathrm{obs},2\mathrm h}$ with one luminescence trajectory and minimize \eqref{eq:L_mini} over the biologically plausible region:
+\[
+0.01 \le \lambda \le 1.75, \qquad \delta \ge 0.
+\]
+The remaining quantities $\psi = \lambda - \delta$, $\alpha(\lambda)$, and $I_0^\ast$ are computed algebraically.
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Experiments\label{sec:experiments}}
+
+\subsection{SOS experiment.}
+We conducted this experiment to test whether activating the SOS response by UV light would increase the specific luminosity and thereby explain the shallower decline of light intensity compared to the decline in CFU counts.
+This hypothesis rests on the possibility that the phage promoter driving the lux cassette up-regulates when the cell experiences stress.
+
+To test this, we diluted three replicate overnight cultures 1:100 and grew them for approximately \SI{1.5}{\hour} to mid-exponential phase. 
+Each of the three exponential-phase cultures was split into two aliquots: one was assigned to UV treatment and placed in the upper half of a white 96-well plate (rows B--D), while the other served as an untreated control in the lower half (rows E--G) (Greiner, 655098).
+
+We started the experiment by measuring luminescence and OD in the plate reader.
+Then we alternated between exposing the strains for repeated intervals to UV light in a cross-linker (Hoefer, UVC 500 crosslinker, at \SI{10}{\micro\joule\per\centi\meter\squared}) in a temperature-regulated environment (\SI{36.5}{\celsius}); followed by luminescence and OD measurements.
+During UV exposure, we shielded the control samples by covering the lower half of the plate with a metal lid.
+The durations of UV treatment were 30 s, 1 min, 2 min, 4 min and 8 min. 
+
+OD increased in both UV-treated and control cultures; however, UV exposure visibly impaired OD growth compared to the controls (\autoref{fig:SOS}a).
+We normalized the luminescence signals (\autoref{fig:SOS}b) by dividing through the OD signal, resulting in the OD-normalized light intensity $\omega$ (\autoref{fig:SOS}c).
+We observed that the OD-normalized light intensity of UV-treated cultures falls with the duration of treatment compared to the OD-normalized light intensity of the controls ($\omega_\text{UV} - \omega_\text{ctrl}$; see \autoref{fig:SOS}d; t-test, $p = 3 \cdot 10^{-5}$ for the last timepoint).
+
+Based on these results, we find it unlikely that upregulation of the promoter explains the shallower decline of light intensity compared to that of CFU count.
+However, we cannot exclude the possibility that this result does not hold if the SOS response is triggered by another mechanism.
+
+
+\subsection{Morphology evaluation.}
+We analyzed the microscopy images in several steps.
+First, we manually applied lower and upper thresholds to the red and green channel to enhance the visual contrast (\autoref{fig:micro_ctrl0}--\autoref{fig:micro_tri}).
+Next, we used ``Ilastik-1.4.0'' to infer the probability that each pixel in the thresholded green channel image belonged to a bacterium.
+Ilastik employs a neural network trained directly on the microscopy images.
+
+Subsequently, we used a Python script (\cite{soft_code}) to convert these probabilities into markers representing individual bacteria.
+Misidentified markers were manually excluded, e.g., if they only partially covered a bacterium or covered multiple overlapping bacteria.
+For each marker, we fitted a spline through its center, providing the spline length $l_s$.
+We then optimized the radius $r_s$ by maximizing the marker area within a distance $r_s$ from the spline while minimizing the area within $r_s$ that did not belong to the marker.
+
+Using these parameters, we calculated for each bacterium the length $l_b = l_s + 2 \cdot r_s$, width $w_b = 2 \cdot r_s$, and volume $v = 2 \cdot \pi \cdot r_s^2 \cdot l_s + \frac{4}{3} \cdot \pi \cdot r_s^3$.To create a volume distribution for each treatment, we resampled the fitted volume estimates from each image (replicate) 200 times with replacement, preserving the original sample size, and aggregated the resulting datasets.
+Based on these distributions, we determined whether cells were significantly filamented using the significance criterion described in the methods section of the main paper.
+
+
+\subsection{Antimicrobial peptide deactivation experiment.}
+To assess whether pexiganan-treated bacteria continued to die in a 1:100 diluted PBS environment, we exposed exponential-phase cultures to \SI{16}{\micro\gram\per\milli\liter} pexiganan for \SI{1}{\minute}.
+Following this treatment, \SI{10}{\micro\liter} of each culture was diluted in \SI{990}{\micro\liter} of PBS supplemented with 0, 1, 10, or \SI{100}{\milli M} \ce{CaCl2} or \ce{MgCl2}.
+Every \SI{45}{\minute}, we sampled from each diluted culture and plated \SI{10}{\micro\liter} aliquots using the automated plating method described in the methods section of the main paper.
+
+We observed a substantial effect of both supplements on the measured bacterial density (\autoref{fig:PBS_suppl}a, b).
+Increasing the supplement concentration consistently resulted in higher bacterial densities, indicating that the supplemented ions reduce bacterial killing.
+Most data points for the unsupplemented medium resulted in empty agar plates.
+The highest CFU count was observed for strains diluted in \SI{100}{\milli M} \ce{MgCl2} (\autoref{tab:pbs_ols}).
+
+
+\subsection{Manual pexiganan time-kill curve experiment.}
+In this setup, we captured four time points within \SI{5}{\minute} using CFU plus the pre-treatment bacterial density.
+The experiment was performed manually using the traditional CFU plating method.
+Round agar plates (Sarstedt, 82.1473.001) containing \SI{25}{\milli\liter} of agar were used, and \SI{100}{\micro\liter} of each dilution was plated.
+This approach increases sensitivity by using \SI{100}{\micro\liter}, rather than \SI{10}{\micro\liter}, for plating.
+
+Cultures were treated in a 96-deepwell plate (Greiner, 780285) by adding \SI{100}{\micro\liter} of a 10x stock to \SI{900}{\micro\liter} of exponential-phase culture.
+Samples were taken directly from the deepwell plate, and two simultaneous dilution series were prepared in a 96-well plate (Greiner, 655101) at each time point to halt the killing.
+One dilution series was prepared in pure PBS, and the other in PBS supplemented with \SI{100}{\milli M} \ce{MgCl2}.
+
+For this experiment, we plated three dilutions (factors of 100, 1{,}000, and 10{,}000) and counted the colonies on all plates.
+We observed that when PBS without \ce{MgCl2} was used, higher dilution factors led to higher CFU estimates (\autoref{fig:pexi_hand}).
+This discrepancy diminished over time, in parallel with a weakening of the observed kill rate.
+In contrast, when the dilution medium was supplemented with \ce{MgCl2}, we did not observe this effect.
+
+\subsection{Supernatant experiment.}
+During the measured pexiganan kill curve described above, we observed a steep decline in CFU counts, followed by a nearly constant plateau.
+Two non-exclusive explanations may account for this observed decrease in killing:
+(i) the surviving bacteria are persisters or resistant to the AMP,
+or (ii) the AMP molecules become deactivated, leaving the supernatant without killing activity.
+
+To investigate the supernatant’s remaining bactericidal effects, we conducted a multi-step experiment:
+
+
+\textbf{Step 1: preparation.}
+Three overnight (O/N) cultures were diluted 1:100 in LB and incubated at \SI{37}{\celsius} with shaking for \SI{2}{\hour}.
+From each culture, we took three samples: one to measure the bacterial density before treatment, the second (1 ml) to accumulate pure bacteria for supernatant exposure, and the third \SI{1.35}{\milli\liter} was reserved for supernatant production and measuring the initial kill rate.
+
+\textbf{Step 2: purification of bacteria.}
+To purify bacteria we pelleted the previously collected \SI{1}{\milli\liter} bacterial aliquots at \SI{3000}{\times g} for \SI{5}{\minute}, discarded the supernatant and stored them in the fridge.
+
+\textbf{Step 3: initial killing and supernatant production.}
+To generate the supernatant, each \SI{1.35}{\milli\liter} sample was treated with a \SI{160}{\micro\gram\per\milli\liter} pexiganan stock at a 1:10 ratio, yielding a final concentration of \SI{16}{\micro\gram\per\milli\liter}.
+After \SI{5}{\minute}, we plated samples for CFU counts and centrifuged the remaining culture at maximum speed for \SI{2}{\minute} to remove cellular debris. Plate counts of these treated samples revealed rapid bacterial killing (rate of CFU count change $\psi_\mathrm{CFU} \approx -46$ per hour) (\autoref{fig:supernatant}, \autoref{tab:supernatant}).
+We collected \SI{1}{\milli\liter} of the clarified supernatant for the subsequent exposure experiment.
+
+
+\textbf{Step 4: supernatant killing.}
+In that final step we dissolved the pelleted bacteria (from step 2) in the supernatant collected during step 3.
+After another \SI{5}{\minute} incubation, we plated samples (dilutions 1:100, 1:1{,}000, and 1:10{,}000) to estimate bacterial density.
+No significant killing was observed, indicating that the supernatant alone no longer exhibited bactericidal activity—supporting explanation (ii), without rejecting (i).
+
+
+Our current hypothesis is that AMP molecules bind to the surface of intact bacteria and to newly exposed targets from lysed bacteria, thereby becoming deactivated.
+Thus, cells that survive the initial kill phase may have an increased chance of continued survival.
+Possible explanations for why specific bacteria survive this phase include reduced surface area due to clumping or adhesion to well walls, smaller cell size, and other factors that might confer protection, potentially related to the cell cycle.
+

@@ -1,0 +1,70 @@
+\begin{table}[h]
+  \centering
+  \captionof{table}{
+    Drugs used in this study, their MICs, working concentrations, and stock solvents.
+    In the MIC column, we report the highest concentration of the dilution series (numerator) and the maximum inhibiting dilution (denominator).
+    Kanamycin (\SI{50}{\micro\gram\per\milli\liter}) was used as the selection marker for the \textit{lux} operon.
+  }
+  \input{chapter_3sup/tables/drug_table}
+  \label{tab:drugs}
+\end{table}
+
+\begin{table}
+  \captionof{table}{
+    Point estimates and 95\% percentile intervals of $\psi_\mathrm{CFU}$, $\psi_I$, $\psi_I^*$, and $\psi_J$ for different treatments.
+    Sig$_X$ indicates whether the rate of change of signal $X \in \{I, I^*, J\}$ differs significantly (*) from the distribution of $\psi_\mathrm{CFU}$, or not (n.s.), based on the significance criterion defined in the Methods section.
+    Estimates are based on data from the CFU-luminescence assays (see Methods).
+  }
+  \setlength{\tabcolsep}{3pt}
+  \input{chapter_3sup/tables/comparison_table}
+  \label{tab:comp_stats}
+\end{table}
+
+\begin{table}
+  \centering
+  \captionof{table}{
+    Bootstrapped 95\% confidence intervals and point estimates for the length, width, and volume of cells after 2\,h of treatment, estimated from microscopy images.
+  Significance was assessed by comparing the confidence intervals of cell volumes for each antibiotic treatment to the untreated control (\texttt{control\_2h}), as described in the Methods section of the main paper.}
+
+  \setlength{\tabcolsep}{3pt}
+  \renewcommand{\arraystretch}{1.75}
+  \input{chapter_3sup/tables/morph_post}
+  \label{tab:morph_post}
+\end{table}
+\vspace{3cm}
+
+\begin{table}
+  \centering
+  \captionof{table}{
+    Estimated group means and $95\%$ confidence intervals from an ordinary least squares (OLS) model fitted to log-transformed CFU data, collected from the first sampled time point after diluting pexiganan-treated strains in supplemented PBS.
+    Grouping is based on the supplement (\ce{CaCl2} or \ce{MgCl2}) and concentration (\SIrange{0}{100}{\milli M}).
+    Confidence intervals were computed using heteroscedasticity-consistent standard errors (HC3).
+  The compact letter display (cld) indicates groups that are not significantly different by sharing a common letter, based on mutual inclusion of their $95\%$ confidence intervals.}
+  \input{chapter_3sup/tables/group_summary}
+  \label{tab:pbs_ols}
+\end{table}
+
+\begin{table}
+  \centering
+  \captionof{table}{Comparison of kill rates [$h^{-1}$] between cultures treated with pexiganan (\SI{16}{\micro\gram\per\milli\liter}) for 5 minutes and cultures exposed to the supernatant collected after the kill assay.
+  The two rates differ significantly; the confidence interval of the rate of change of CFU in the supernatant includes zero.}
+  \input{chapter_3sup/tables/supernatant}
+  \label{tab:supernatant}
+\end{table}
+
+\begin{table}
+  \centering
+  \captionof{table}{Primer sequences used for $\lambda$-red mediated integration of the \emph{luxCDABE} operon into \textit{E. coli}.
+  Lowercase letters indicate homology regions binding to the \emph{lux} operon on the plasmid; uppercase letters indicate chromosomal homology regions at the integration site.}
+
+  \label{tab:primers}
+  \begin{tabular}{ll}
+    \toprule
+    Primer name & Sequence (5' $\rightarrow$ 3')\\
+    \midrule
+    forward primer & CGGTACGGCTGACCATCGGGTGCCAGTGCGGGAGTTTCGT\textbf{acccagtaaggcagcggtatc}\\
+    reverse primer & AGTCAGCGATATCCATTTTCGCGAATCCGGAGTGTAAGAA\textbf{taggtctagggcggcgga}\\
+    \bottomrule
+  \end{tabular}
+  \vspace{2cm}
+\end{table}

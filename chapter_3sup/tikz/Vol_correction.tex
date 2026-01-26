@@ -1,0 +1,17 @@
+\begin{tikzpicture}[>=stealth,scale=1.1]
+\centering
+%Start
+\draw[-] (0,.4) -- (0,1.1);
+
+% L to L-corr
+\draw[|<-|] (1,1) -- (5,1);
+\node[below] at (5,1.5) {$\psi_{L}$};
+\node[below] at (1.5,1.5) {$\psi_{L}-\Delta_M$};
+\node[below] at (0,1.5) {$\psi_{C}$};
+
+% M to psi^*
+\draw[<-|] (0,0.5) -- (4,0.5);
+\node[below] at (4,0.5) {$\psi_{M}$};
+\node[below] at (1,0.5) {$\psi_N = \psi_M - \Delta_M$};
+
+\end{tikzpicture}

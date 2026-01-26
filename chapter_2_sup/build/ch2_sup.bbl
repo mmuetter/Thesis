@@ -57,11 +57,11 @@
            given={Andreas\bibnamedelima F.},
            giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
       }
-      \strng{namehash}{9804ad493d4e0f77a8561f512e24c8e7}
+      \strng{namehash}{0e3a4b357949ce42d685ccbb99de0157}
       \strng{fullhash}{9804ad493d4e0f77a8561f512e24c8e7}
-      \strng{bibnamehash}{9804ad493d4e0f77a8561f512e24c8e7}
-      \strng{authorbibnamehash}{9804ad493d4e0f77a8561f512e24c8e7}
-      \strng{authornamehash}{9804ad493d4e0f77a8561f512e24c8e7}
+      \strng{bibnamehash}{0e3a4b357949ce42d685ccbb99de0157}
+      \strng{authorbibnamehash}{0e3a4b357949ce42d685ccbb99de0157}
+      \strng{authornamehash}{0e3a4b357949ce42d685ccbb99de0157}
       \strng{authorfullhash}{9804ad493d4e0f77a8561f512e24c8e7}
       \field{sortinit}{1}
       \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
@@ -116,12 +116,13 @@
            given={Sebastian},
            giveni={S\bibinitperiod}}}%
       }
-      \strng{namehash}{b1c84522fe81c85418b5c7b0e86368ad}
+      \strng{namehash}{55bf8e501413b523936745d168985a95}
       \strng{fullhash}{b1c84522fe81c85418b5c7b0e86368ad}
-      \strng{bibnamehash}{b1c84522fe81c85418b5c7b0e86368ad}
-      \strng{authorbibnamehash}{b1c84522fe81c85418b5c7b0e86368ad}
-      \strng{authornamehash}{b1c84522fe81c85418b5c7b0e86368ad}
+      \strng{bibnamehash}{55bf8e501413b523936745d168985a95}
+      \strng{authorbibnamehash}{55bf8e501413b523936745d168985a95}
+      \strng{authornamehash}{55bf8e501413b523936745d168985a95}
       \strng{authorfullhash}{b1c84522fe81c85418b5c7b0e86368ad}
+      \field{extraname}{1}
       \field{sortinit}{2}
       \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
       \field{labelnamesource}{author}
@@ -194,11 +195,11 @@
            given={Csaba},
            giveni={C\bibinitperiod}}}%
       }
-      \strng{namehash}{15e49d509166463df7e788c4904cfae7}
+      \strng{namehash}{79a512674be7e3c050455cec27e50075}
       \strng{fullhash}{15e49d509166463df7e788c4904cfae7}
-      \strng{bibnamehash}{15e49d509166463df7e788c4904cfae7}
-      \strng{authorbibnamehash}{15e49d509166463df7e788c4904cfae7}
-      \strng{authornamehash}{15e49d509166463df7e788c4904cfae7}
+      \strng{bibnamehash}{79a512674be7e3c050455cec27e50075}
+      \strng{authorbibnamehash}{79a512674be7e3c050455cec27e50075}
+      \strng{authornamehash}{79a512674be7e3c050455cec27e50075}
       \strng{authorfullhash}{15e49d509166463df7e788c4904cfae7}
       \field{sortinit}{3}
       \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
@@ -253,11 +254,11 @@
            given={E.\bibnamedelimi John},
            giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
       }
-      \strng{namehash}{e56c135ae12bf3ef935012f5d6d251b4}
+      \strng{namehash}{f9a79b61d5469451d62319b788febd87}
       \strng{fullhash}{e56c135ae12bf3ef935012f5d6d251b4}
-      \strng{bibnamehash}{e56c135ae12bf3ef935012f5d6d251b4}
-      \strng{authorbibnamehash}{e56c135ae12bf3ef935012f5d6d251b4}
-      \strng{authornamehash}{e56c135ae12bf3ef935012f5d6d251b4}
+      \strng{bibnamehash}{f9a79b61d5469451d62319b788febd87}
+      \strng{authorbibnamehash}{f9a79b61d5469451d62319b788febd87}
+      \strng{authornamehash}{f9a79b61d5469451d62319b788febd87}
       \strng{authorfullhash}{e56c135ae12bf3ef935012f5d6d251b4}
       \field{sortinit}{4}
       \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
@@ -323,12 +324,13 @@
       \list{publisher}{1}{%
         {Elsevier Inc.}%
       }
-      \strng{namehash}{e405a98ca9da4a558e819cc0784d552d}
+      \strng{namehash}{55bf8e501413b523936745d168985a95}
       \strng{fullhash}{e405a98ca9da4a558e819cc0784d552d}
-      \strng{bibnamehash}{e405a98ca9da4a558e819cc0784d552d}
-      \strng{authorbibnamehash}{e405a98ca9da4a558e819cc0784d552d}
-      \strng{authornamehash}{e405a98ca9da4a558e819cc0784d552d}
+      \strng{bibnamehash}{55bf8e501413b523936745d168985a95}
+      \strng{authorbibnamehash}{55bf8e501413b523936745d168985a95}
+      \strng{authornamehash}{55bf8e501413b523936745d168985a95}
       \strng{authorfullhash}{e405a98ca9da4a558e819cc0784d552d}
+      \field{extraname}{2}
       \field{sortinit}{5}
       \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
       \field{labelnamesource}{author}
@@ -1119,11 +1121,11 @@
            given={Sebastian},
            giveni={S\bibinitperiod}}}%
       }
-      \strng{namehash}{3dc6174315493561668f52ac208e4e1b}
+      \strng{namehash}{4a31c6a8ec79404b3a1275cbc7fd9a24}
       \strng{fullhash}{3dc6174315493561668f52ac208e4e1b}
-      \strng{bibnamehash}{3dc6174315493561668f52ac208e4e1b}
-      \strng{authorbibnamehash}{3dc6174315493561668f52ac208e4e1b}
-      \strng{authornamehash}{3dc6174315493561668f52ac208e4e1b}
+      \strng{bibnamehash}{4a31c6a8ec79404b3a1275cbc7fd9a24}
+      \strng{authorbibnamehash}{4a31c6a8ec79404b3a1275cbc7fd9a24}
+      \strng{authornamehash}{4a31c6a8ec79404b3a1275cbc7fd9a24}
       \strng{authorfullhash}{3dc6174315493561668f52ac208e4e1b}
       \field{sortinit}{1}
       \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
@@ -1178,11 +1180,11 @@
            given={Tobias},
            giveni={T\bibinitperiod}}}%
       }
-      \strng{namehash}{45d09a9aeb19e81ce12566d62af69d84}
+      \strng{namehash}{1ed48116e19da0ecd9ba648e2f25df4a}
       \strng{fullhash}{45d09a9aeb19e81ce12566d62af69d84}
-      \strng{bibnamehash}{45d09a9aeb19e81ce12566d62af69d84}
-      \strng{authorbibnamehash}{45d09a9aeb19e81ce12566d62af69d84}
-      \strng{authornamehash}{45d09a9aeb19e81ce12566d62af69d84}
+      \strng{bibnamehash}{1ed48116e19da0ecd9ba648e2f25df4a}
+      \strng{authorbibnamehash}{1ed48116e19da0ecd9ba648e2f25df4a}
+      \strng{authornamehash}{1ed48116e19da0ecd9ba648e2f25df4a}
       \strng{authorfullhash}{45d09a9aeb19e81ce12566d62af69d84}
       \field{sortinit}{1}
       \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}

@@ -2372,6 +2372,23 @@
     <bcf:datasource type="file" datatype="bibtex">bibliographies/Luminescence_Paper.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="6">
+    <bcf:citekey order="1">Coates2018</bcf:citekey>
+    <bcf:citekey order="2">Novozhilov2006</bcf:citekey>
+    <bcf:citekey order="3">Kendall1948</bcf:citekey>
+    <bcf:citekey order="4">Feller1939</bcf:citekey>
+    <bcf:citekey order="5">Coates2018</bcf:citekey>
+    <bcf:citekey order="6">soft_code</bcf:citekey>
+  </bcf:section>
+  <!-- SECTION 0 (cont.) -->
+  <bcf:section number="0">
+  </bcf:section>
+  <!-- SECTION 7 -->
+  <bcf:bibdata section="7">
+    <bcf:datasource type="file" datatype="bibtex">bibliographies/TSPlasmid.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex">bibliographies/thesis.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex">bibliographies/Luminescence_Paper.bib</bcf:datasource>
+  </bcf:bibdata>
+  <bcf:section number="7">
     <bcf:citekey order="1">Gregory2018</bcf:citekey>
     <bcf:citekey order="2">Kishony2003</bcf:citekey>
     <bcf:citekey order="3">Edgeworth2020</bcf:citekey>
@@ -2434,6 +2451,15 @@
                 labelalphanametemplatename="global">
   </bcf:datalist>
   <bcf:datalist section="6"
+                name="none/global//global/global"
+                type="entry"
+                sortingtemplatename="none"
+                sortingnamekeytemplatename="global"
+                labelprefix=""
+                uniquenametemplatename="global"
+                labelalphanametemplatename="global">
+  </bcf:datalist>
+  <bcf:datalist section="7"
                 name="none/global//global/global"
                 type="entry"
                 sortingtemplatename="none"

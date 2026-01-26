@@ -1,0 +1,346 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%% linearity %%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}
+  \centering
+  \includegraphics[width=\draftwidth]{chapter_3sup/figures/linearity.pdf}
+  \caption{
+    Light intensity scales linearly with bacterial density.
+    Serial tenfold dilutions of bacterial cultures were prepared in a 384‐well white microplate, and luminescence was measured immediately.
+    Linear regression of the luminescence signal against bacterial density (CFU) yielded a conversion factor of \(m_{\mathrm{fit}} = 0.006\,\mathrm{rlu \cdot ml \cdot CFU}^{-1}\).
+    The high correlation (\(R^2 = 0.987\) in log-log space) confirms a linear relationship between luminescence and bacterial density.
+  }
+  \label{fig:linearity}
+\end{figure}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%% time series %%ampicillin_comp_combined%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\cbase}{The CFU signal is shown as blue diamonds and the light intensity as orange triangles for data points above their respective detection limits (\SI{e4}{CFU/\milli\liter} for CFU and 20~rlu for luminescence).
+Lines represent log-linear fits to the corresponding signals}
+
+\newcommand{\cmorph}{The morphology-corrected luminescence signal is shown as orange pentagons with red frames, and the corresponding rate fit indicated by a red line}
+
+\newcommand{\cpeak}{Green-framed data points and corresponding green fit lines indicate analyses excluding early data points until the first peak}
+
+\newcommand{\cx}{If a signal ends early (due to dropping below its detection limit), the corresponding data point of the other signal was cut to the same endpoint for a consitent comparison.
+These excluded data points are marked as `X'}
+
+\newcommand{\cplus}{`+' indicates data points below detection limit or otherwise excluded (for CFU, symbolically plotted at \SI{e4}{CFU/\milli\liter} to visualize missing data)}
+
+\begin{figure}
+  \centering
+  \begin{overpic}[width=\draftwidth]{chapter_3sup/figures/ampicillin_comp.pdf}
+  \put(5,60){\large\bfseries a)}
+\end{overpic}
+\vspace{0.5cm}
+
+\begin{overpic}[width=\draftwidth]{chapter_3sup/figures/ampicillin_low_comp.pdf}
+\put(5,60){\large\bfseries b)}
+\end{overpic}
+
+\caption{Ampicillin. \cbase. \cmorph. \cplus, and \cx.}
+\label{fig:ampicillin_comp_combined}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=\draftwidth]{chapter_3sup/figures/cefepime_comp.pdf}
+\caption{Cefepime. \cbase. \cpeak.}
+\label{fig:cefepime_comp}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=\draftwidth]{chapter_3sup/figures/ceftazidime_comp.pdf}
+\caption{Ceftazidime. \cbase. \cmorph. }
+\label{fig:ceftazidime_comp}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=\draftwidth]{chapter_3sup/figures/cefuroxime_comp.pdf}
+\caption{Cefuroxime. \cbase. \cplus.}
+\label{fig:cefuroxime_comp}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=\draftwidth]{chapter_3sup/figures/chloramphenicol_comp.pdf}
+\caption{Chloramphenicol. \cbase.}
+\label{fig:chloramphenicol_comp}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=\draftwidth]{chapter_3sup/figures/ciprofloxacin_comp.pdf}
+\caption{Ciprofloxacin. \cbase. \cmorph.}
+\label{fig:ciprofloxacin_comp}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=\draftwidth]{chapter_3sup/figures/colistin_comp.pdf}
+\caption{Colistin. \cbase. \cplus}
+\label{fig:colistin_comp}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=\draftwidth]{chapter_3sup/figures/doripenem_comp.pdf}
+\caption{Doripenem. \cbase. \cpeak.}
+\label{fig:doripenem_comp}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=\draftwidth]{chapter_3sup/figures/fosfomycin_comp.pdf}
+\caption{Fosfomycin. \cbase. }
+\label{fig:fosfomycin_comp}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=\draftwidth]{chapter_3sup/figures/imipenem_comp.pdf}
+\caption{Imipenem. \cbase. \cplus.}
+\label{fig:imipenem_comp}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=\draftwidth]{chapter_3sup/figures/mecillinam_comp.pdf}
+\caption{Mecillinam. \cbase.}
+\label{fig:mecillinam_comp}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=\draftwidth]{chapter_3sup/figures/meropenem_comp.pdf}
+\caption{Meropenem. \cbase. \cmorph. \cplus.}
+\label{fig:meropenem_comp}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=\draftwidth]{chapter_3sup/figures/penicillin_comp.pdf}
+\caption{Penicillin. \cbase. \cplus, and \cx.}
+\label{fig:penicillin_comp}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=\draftwidth]{chapter_3sup/figures/piperacillin_comp.pdf}
+\caption{Piperacillin. \cbase. }
+\label{fig:piperacillin_comp}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=\draftwidth]{chapter_3sup/figures/polymyxinB_comp.pdf}
+\caption{Polymyxin B. \cbase. \cplus.}
+\label{fig:polymyxinB_comp}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=\draftwidth]{chapter_3sup/figures/rifampicin_comp.pdf}
+\caption{Rifampicin (\SI{25}{\micro\gram/\milli\liter}). \cbase.}
+\label{fig:rifampicin_comp}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=\draftwidth]{chapter_3sup/figures/tetracycline_comp.pdf}
+\caption{Tetracycline. \cbase.}
+\label{fig:tetracycline_comp}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=\draftwidth]{chapter_3sup/figures/trimethoprim_comp.pdf}
+\caption{Trimethoprim. \cbase. \cmorph.}
+\label{fig:trimethoprim_comp}
+\end{figure}
+
+%%%% PEXIGANAN ROBO
+\begin{figure}
+\centering
+\begin{overpic}[width=\draftwidth] {chapter_3sup/figures/pexiganan_low_comp.pdf}
+\put(5,60){\large\bfseries a)}
+\end{overpic}
+\vspace{0.5cm}
+
+\begin{overpic}[width=\draftwidth]{chapter_3sup/figures/pexiganan_comp.pdf}
+\put(5,60){\large\bfseries b)}
+\end{overpic}
+
+\caption{Comparison of the CFU and luminescence signals from the pexiganan kill curve experiment using the liquid handling platform.
+The first data points at $t_0$ represent the pretreatment CFU and light intensity values.}
+\label{fig:pex_robo}
+\end{figure}
+
+%%% SOS - Experiments
+\begin{figure}
+\centering
+\begin{overpic}[width=0.49\textwidth]{chapter_3sup/figures/od_sos_exp.pdf}
+\put(5,65){\small\bfseries a)}
+\end{overpic}
+\hfill
+\begin{overpic}[width=0.49\textwidth]{chapter_3sup/figures/lum_sos_exp.pdf}
+\put(5,65){\small\bfseries b)}
+\end{overpic}
+
+\vspace{0.5cm}
+
+\begin{overpic}[width=0.49\textwidth]{chapter_3sup/figures/od_per_lum_sos_exp.pdf}
+\put(5,65){\small\bfseries c)}
+\end{overpic}
+\hfill
+\begin{overpic}[width=0.49\textwidth]{chapter_3sup/figures/diff_sos_exp.pdf}
+\put(5,65){\small\bfseries d)}
+\end{overpic}
+\caption{Panel plot showing the effects of UV treatment on bacterial density (approximated by OD) and light intensity (I) over time by comparing treated (UV) and untreated (ctrl) cultures. (a) Optical density (OD), (b) light intensity, (c) OD-specific light intensity $\omega = I(t)/\mathrm{OD}(t)$, and (d) the difference in OD-specific light intensity between UV-treated and control.}
+\label{fig:SOS}
+\end{figure}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% MICROSCOPY
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Microscopy images
+\input{si_images}
+
+% Morphplot
+\begin{figure}
+\centering
+\hspace{.5cm}
+\begin{overpic}[width=.945\draftwidth]{chapter_3sup/figures/filamentation_summary_pre.pdf}
+\put(-.5,15){\small\bfseries a)}
+\end{overpic}
+
+\begin{overpic}[width=\draftwidth]{chapter_3sup/figures/filamentation_summary_post.pdf}
+\put(5,77){\small\bfseries b)}
+\end{overpic}
+\caption{
+Pooled density distributions (95\% prediction intervals) of cell widths (red) and lengths (blue), obtained from microscopy images (a) before and (b) after 2\,h of antibiotic treatment.
+Boxes indicate the interquartile range (Q1–Q3), and the mean is marked by ($\mid$).
+$\ddagger$ Poor fit quality for meropenem-treated cells, which adopt a lemon-like shape (\autoref{fig:micro_mero}), due to our algorithm assuming cylindrical geometry.
+}
+\label{fig:filamentation_summary}
+\end{figure}
+
+%% MODEL
+\begin{figure}
+\centering
+% Top row
+\begin{overpic}[width=0.49\textwidth]{chapter_3sup/figures/lambda_15_delta1.pdf}
+\put(5,75){\small\bfseries a) \hspace{2cm} $\Delta \lambda = 0, \delta = 1$}
+\end{overpic}%
+\hfill
+\begin{overpic}[width=0.49\textwidth]{chapter_3sup/figures/lambda_03_delta1.pdf}
+\put(5,75){\small\bfseries b)  \hspace{2cm} $\Delta \lambda = -1.2, \delta = 1$}
+\end{overpic}
+
+\vspace{0.5cm} % Adjust vertical spacing between rows
+
+% Middle row
+\begin{overpic}[width=0.49\textwidth]{chapter_3sup/figures/lambda_15_delta4.pdf}
+\put(5,75){\small\bfseries c)  \hspace{2cm} $\Delta \lambda = 0, \delta = 4$}
+\end{overpic}%
+\hfill
+\begin{overpic}[width=0.49\textwidth]{chapter_3sup/figures/lambda_03_delta4.pdf}
+\put(5,75){\small\bfseries d)  \hspace{2cm} $\Delta \lambda = -1.2, \delta = 4$}
+\end{overpic}
+
+\vspace{0.5cm} % Adjust vertical spacing between rows
+
+% Bottom row
+\raggedright
+\begin{overpic}[height=0.36\textwidth]{chapter_3sup/figures/fila_violin.pdf}
+\put(5,80){\small{\bfseries e)} \hspace{1.5cm}converged volume distribution}
+\end{overpic}%
+\hspace{.62cm}
+\begin{overpic}[height=0.36\textwidth]{chapter_3sup/figures/fila_vmean.pdf}
+\put(5,87){\small{\bfseries f}) \hspace{1.6cm} shift of $v_\text{mean}$ over time}
+\end{overpic}
+\hspace{.9cm}
+
+\captionsetup{skip=2pt}
+\caption{
+Illustrative simulations using the filamentation model relating (a–d) bacterial population size (blue) and light intensity (orange) under different combinations of treatment-induced changes in division rate ($\Delta \lambda$) and death rate ($\delta$).
+Panel (e) shows the distributions of converged cell volumes for $\lambda = 0.3$ and $\lambda = 1.5$.
+Panel (f) shows the shift of mean cell volumes over time for $\Delta \lambda = -1.2$ and $\Delta \lambda = 0$.
+For all simulations, we used $\lambda_0 = 1.5$, $\gamma = 150$, $\phi = 0.015$, and $\epsilon = 0.04$.
+As shown in panel (b), treatment-induced filamentation can lead to a temporary discrepancy between luminescence- and CFU-based rates.
+}
+
+\label{fig:filamentation_model}
+\end{figure}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%% colony formation %%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}
+\centering
+\includegraphics[width=\draftwidth]{chapter_3sup/figures/colony_formation_probability.pdf}
+\caption{Example of the probability of colony formation  $p_C = 1-p_E$ (see \autoref{sec:math}) for a single plated bacterium.
+Blue shows $p_C$ for a purely bactericidal drug ($\lambda_T = 0$) and red for a purely bacteriostatic drug ($\delta_T = 0$), plotted over the treatment effect $\tau = \delta_T + \lambda_T$.
+In this illustrative example we use $\lambda_0 = 1.35  h^{-1}$ and $\delta_0 = 0.1 h^{-1}$.}
+\label{fig:colony_formation}
+\end{figure}
+
+%%%% PEXIGANAN PBS
+\begin{figure}
+\centering
+\begin{overpic}[width=\draftwidth]{chapter_3sup/figures/pexi_cacl2.png}
+\put(5,70){\small\bfseries a)}
+\end{overpic}
+\vspace{0.5cm}
+\begin{overpic}[width=\draftwidth]{chapter_3sup/figures/pexi_mgcl2.png}
+\put(5,70){\small\bfseries b)}
+\end{overpic}
+
+\caption{
+CFU measured over time in supplemented dilution media.
+Bacterial cultures treated for 1\,min with \SI{16}{\mu g \per ml} pexiganan were diluted (1:100) in PBS supplemented with varying concentrations of (a) \ce{CaCl2} and (b) \ce{MgCl2}.
+Diluted samples were repeatedly plated over time to test whether supplementation prevents further bacterial killing.
+}
+
+\label{fig:PBS_suppl}
+\end{figure}
+
+%%%% PEXIGANAN HAND
+\begin{figure}
+\centering
+\begin{overpic}[width=\draftwidth]{chapter_3sup/figures/amp_hand_experiment_ctrl.pdf}
+\put(5,68){\small{\bfseries a)} \hspace{4cm}Dilution in pure PBS (Control)}
+\end{overpic}
+\vspace{0.5cm}
+\begin{overpic}[width=\draftwidth]{chapter_3sup/figures/amp_hand_experiment_mgcl.pdf}
+\put(5,68){\small{\bfseries b)} \hspace{4cm}Dilution in PBS + $MgCl_2$}
+\end{overpic}
+
+\caption{
+CFU time-kill curves for pexiganan, performed manually, comparing dilution in (a) unsupplemented PBS and (b) PBS supplemented with \SI{100}{\milli M} MgCl$_2$.
+Timepoints correspond to:
+$t_0 \approx 0\,\mathrm{s}$,
+$t_1 \approx 20\,\mathrm{s}$,
+$t_2 \approx 2\,\mathrm{min}$,
+$t_3 \approx 3\,\mathrm{min}\,20\,\mathrm{s}$, and
+$t_4 \approx 5\,\mathrm{min}$.
+The black boxplot ($t_0$) indicates the pre-treatment bacterial density.
+}
+
+\label{fig:pexi_hand}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=\draftwidth]{chapter_3sup/figures/supernatant.pdf}
+\caption{
+Experiment AMP kill curve vs supernatant kill curve.
+Here we show the original AMP-Killcurve in blue and the change of CFU over time in the supernatant.
+The error bars show the min/max interval of the three replicates.
+\autoref{tab:supernatant} lists the confidence interval and mean for the bootstrapped rates. According to the significance criterion (defined in methods) these two rates are significantly different.
+The confidence interval of the rate of change of CFU in the supernatant includes zero.}
+\label{fig:supernatant}
+\end{figure}

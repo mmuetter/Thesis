@@ -32,6 +32,7 @@
 % Colors
 %----------------------------------------------------------
 \RequirePackage{xcolor}
+\RequirePackage{colortbl}
 \definecolor{grey}{HTML}{4D4D4D}
 \definecolor{plot_grey}{HTML}{4D4D4D}
 \definecolor{plot_blue}{HTML}{0066CC}
@@ -52,6 +53,8 @@
 \RequirePackage{subfiles}
 \RequirePackage{bookmark,hyperref}
 \RequirePackage{etoolbox}
+\sisetup{per-mode = fraction}
+\DeclareSIUnit\ml{ml}
 
 % LAYOUT AND FORMATTING
 \RequirePackage{overpic}

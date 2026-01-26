@@ -7889,6 +7889,182 @@
 
 \refsection{6}
   \datalist[entry]{none/global//global/global}
+    \entry{Coates2018}{article}{}
+      \name{author}{6}{}{%
+        {{hash=15c9e83fe45f7f16fa616a67e04d79e5}{%
+           family={Coates},
+           familyi={C\bibinitperiod},
+           given={Jessica},
+           giveni={J\bibinitperiod}}}%
+        {{hash=dbc2acd251eb345a945ae5a8f8b79139}{%
+           family={Park},
+           familyi={P\bibinitperiod},
+           given={Bo\bibnamedelima Ryoung},
+           giveni={B\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=105cb4c4b3e3d8e395732e6b18a610d9}{%
+           family={Le},
+           familyi={L\bibinitperiod},
+           given={Dai},
+           giveni={D\bibinitperiod}}}%
+        {{hash=cf47403fc0ec0414e93150a219d32239}{%
+           family={Şimşek},
+           familyi={Ş\bibinitperiod},
+           given={Emrah},
+           giveni={E\bibinitperiod}}}%
+        {{hash=85bdbed2798ffc55a6f44df4d31d3cbd}{%
+           family={Chaudhry},
+           familyi={C\bibinitperiod},
+           given={Waqas},
+           giveni={W\bibinitperiod}}}%
+        {{hash=52398e4a5b4aa6b6a34f8822104a849b}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Minsu},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{63091ddd975e1f672f1fbb98bf5e5335}
+      \strng{fullhash}{06092f54b1be0f6cd37f08004a644995}
+      \strng{bibnamehash}{63091ddd975e1f672f1fbb98bf5e5335}
+      \strng{authorbibnamehash}{63091ddd975e1f672f1fbb98bf5e5335}
+      \strng{authornamehash}{63091ddd975e1f672f1fbb98bf5e5335}
+      \strng{authorfullhash}{06092f54b1be0f6cd37f08004a644995}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Effective antibiotic use that minimizes treatment failures remains a challenge. A better understanding of how bacterial populations respond to antibiotics is necessary. Previous studies of large bacterial populations established the deterministic framework of pharmacodynamics. Here, characterizing the dynamics of population extinction, we demonstrated the stochastic nature of eradicating bacteria with antibiotics. Antibiotics known to kill bacteria (bactericidal) induced population fluctuations. Thus, at high antibiotic concentrations, the dynamics of bacterial clearance were heterogeneous. At low concentrations, clearance still occurred with a non-zero probability. These striking outcomes of population fluctuations were well captured by our probabilistic model. Our model further suggested a strategy to facilitate eradication by increasing extinction probability. We experimentally tested this prediction for antibiotic-susceptible and clinically-isolated resistant bacteria. This new knowledge exposes fundamental limits in our ability to predict bacterial eradication. Additionally, it demonstrates the potential of using antibiotic concentrations that were previously deemed inefficacious to eradicate bacteria.}
+      \field{issn}{2050084X}
+      \field{journaltitle}{Elife}
+      \field{title}{{Antibiotic-induced population fluctuations and stochastic clearance of bacteria}}
+      \field{volume}{7}
+      \field{year}{2018}
+      \field{pages}{1\bibrangedash 26}
+      \range{pages}{26}
+      \verb{doi}
+      \verb 10.7554/eLife.32976
+      \endverb
+      \verb{file}
+      \verb :Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/2018/Coates et al. - 2018 - Antibiotic-induced population fluctuations and stochastic clearance of bacteria - eLife.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Novozhilov2006}{article}{}
+      \name{author}{3}{}{%
+        {{hash=c882d7c0e0db0b210a835278aca99d29}{%
+           family={Novozhilov},
+           familyi={N\bibinitperiod},
+           given={Artem\bibnamedelima S.},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=618f8876daa420a8d147dd4bc5dd0520}{%
+           family={Karev},
+           familyi={K\bibinitperiod},
+           given={Georgy\bibnamedelima P.},
+           giveni={G\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=bca4c562f895947d90e1e03fe873e750}{%
+           family={Koonin},
+           familyi={K\bibinitperiod},
+           given={Eugene\bibnamedelima V.},
+           giveni={E\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+      }
+      \strng{namehash}{ece9a5f80774a9dacd4d648aaaa55aaf}
+      \strng{fullhash}{ece9a5f80774a9dacd4d648aaaa55aaf}
+      \strng{bibnamehash}{ece9a5f80774a9dacd4d648aaaa55aaf}
+      \strng{authorbibnamehash}{ece9a5f80774a9dacd4d648aaaa55aaf}
+      \strng{authornamehash}{ece9a5f80774a9dacd4d648aaaa55aaf}
+      \strng{authorfullhash}{ece9a5f80774a9dacd4d648aaaa55aaf}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this review, we discuss applications of the theory of birth-and-death processes to problems in biology, primarily, those of evolutionary genomics. The mathematical principles of the theory of these processes are briefly described. Birth-and-death processes, with some straightforward additions such as innovation, are a simple, natural and formal framework for modeling a vast variety of biological processes such as population dynamics, speciation, genome evolution, including growth of paralogous gene families and horizontal gene transfer and somatic evolution of cancers. We further describe how empirical data, e.g. distributions of paralogous gene family size, can be used to choose the model that best reflects the actual course of evolution among different versions of birth-death-and-innovation models. We conclude that birth-and-death processes, thanks to their mathematical transparency, flexibility and relevance to fundamental biological processes, are going to be an indispensable mathematical tool for the burgeoning field of systems biology. © Copyright 2006 Oxford University Press.}
+      \field{issn}{14675463}
+      \field{journaltitle}{Brief. Bioinform.}
+      \field{number}{1}
+      \field{title}{{Biological applications of the theory of birth-and-death processes}}
+      \field{volume}{7}
+      \field{year}{2006}
+      \field{pages}{70\bibrangedash 85}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1093/bib/bbk006
+      \endverb
+      \verb{file}
+      \verb :Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/2006/Novozhilov, Karev, Koonin - 2006 - Biological applications of the theory of birth-and-death processes - Briefings in Bioinformatics.pdf:pdf
+      \endverb
+      \keyw{Birth-and-death process,Genome evolution,Horizontal gene transfer,Mathematical modeling,Moran model,Tumorigenesis}
+    \endentry
+    \entry{Kendall1948}{article}{}
+      \name{author}{1}{}{%
+        {{hash=5dbf9933b60627d4ccd3bc0f61a69e57}{%
+           family={Kendall},
+           familyi={K\bibinitperiod},
+           given={David\bibnamedelima G.},
+           giveni={D\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \strng{namehash}{5dbf9933b60627d4ccd3bc0f61a69e57}
+      \strng{fullhash}{5dbf9933b60627d4ccd3bc0f61a69e57}
+      \strng{bibnamehash}{5dbf9933b60627d4ccd3bc0f61a69e57}
+      \strng{authorbibnamehash}{5dbf9933b60627d4ccd3bc0f61a69e57}
+      \strng{authornamehash}{5dbf9933b60627d4ccd3bc0f61a69e57}
+      \strng{authorfullhash}{5dbf9933b60627d4ccd3bc0f61a69e57}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The use of transformations to stabilize the variance of binomial or Poisson data is familiar(Anscombe 1, Bartlett 2, 3, Curtiss 4, Eisenhart 5). The comparison of transformed binomial or Poisson data with percentage points of the normal distribution to make approximate significance tests or to set approximate confidence intervals is less familiar. Mosteller and Tukey 6 have recently made a graphical application of a transformation related to the square-root transformation for such purposes, where the use of "binomial probability paper" avoids all computation. We report here on an empirical study of a number of approximations, some intended for significance and confidence work and others for variance stabilization. For significance testing and the setting of confidence limits, we should like to use the normal deviate K exceeded with the same probability as the number of successes x from n in a binomial distribution with expectation np, which is defined by frac12pi int{\^}K-infty e{\^}-frac12t{\^}2 dt = operatornameProb x leq k mid operatornamebinomial, n, p. The most useful approximations to K that we can propose here are N (very simple), N{\^}+ (accurate near the usual percentage points), and N{\^}astast (quite accurate generally), where N = 2 (sqrt(k + 1)q - sqrt(n - k)p). (This is the approximation used with binomial probability paper.) N{\^}+ = N + fracN + 2p - 112sqrtE,quad E = textlesser of np textand nq, N{\^}ast = N + frac(N - 2)(N + 2)12 big(frac1sqrtnp + 1 - frac1sqrtnq + 1big), N{\^}astast = N{\^}ast + fracN{\^}ast + 2p - 112 sqrtEcdotquad E = textlesser of np textand nq. For variance stabilization, the averaged angular transformation sin{\^}-1sqrtfracxn + 1 + sin{\^}-1 sqrtfracx + 1n+1 has variance within pm 6{\%} of frac1n + frac12 text(angles in radians), frac821n + frac12 text(angles in degrees), for almost all cases where np geq 1. In the Poisson case, this simplifies to using sqrtx + sqrtx + 1 as having variance 1.}
+      \field{issn}{0003-4851}
+      \field{journaltitle}{Ann. Math. Stat.}
+      \field{number}{1}
+      \field{title}{{On the Generalized "Birth-and-Death" Process}}
+      \field{volume}{19}
+      \field{year}{1948}
+      \field{pages}{1\bibrangedash 15}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1214/aoms/1177730285
+      \endverb
+      \verb{file}
+      \verb :Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/1948/Kendall - 1948 - On the Generalized Birth-and-Death Process - The Annals of Mathematical Statistics.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Feller1939}{article}{}
+      \name{author}{1}{}{%
+        {{hash=327a6c9a91a8e2c75d5aacfa8bcb0164}{%
+           family={Feller},
+           familyi={F\bibinitperiod},
+           given={Willy},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{327a6c9a91a8e2c75d5aacfa8bcb0164}
+      \strng{fullhash}{327a6c9a91a8e2c75d5aacfa8bcb0164}
+      \strng{bibnamehash}{327a6c9a91a8e2c75d5aacfa8bcb0164}
+      \strng{authorbibnamehash}{327a6c9a91a8e2c75d5aacfa8bcb0164}
+      \strng{authornamehash}{327a6c9a91a8e2c75d5aacfa8bcb0164}
+      \strng{authorfullhash}{327a6c9a91a8e2c75d5aacfa8bcb0164}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{15728358}
+      \field{journaltitle}{Acta Biotheor.}
+      \field{number}{1}
+      \field{title}{{Die Grundlagen der Volterraschen Theorie des Kampfes ums Dasein in wahrscheinlichkeitstheoretischer Behandlung}}
+      \field{volume}{5}
+      \field{year}{1939}
+      \field{pages}{11\bibrangedash 40}
+      \range{pages}{30}
+      \verb{doi}
+      \verb 10.1007/BF01602932
+      \endverb
+      \verb{file}
+      \verb :Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/1939/Feller - 1939 - Die Grundlagen der Volterraschen Theorie des Kampfes ums Dasein in wahrscheinlichkeitstheoretischer Behandlung - Acta Bi.pdf:pdf
+      \endverb
+    \endentry
+  \enddatalist
+  \missing{soft_code}
+\endrefsection
+
+\refsection{7}
+  \datalist[entry]{none/global//global/global}
     \entry{Kishony2003}{article}{}
       \name{author}{2}{}{%
         {{hash=6bcdb0ad30a371c01267d28f47c5e5da}{%

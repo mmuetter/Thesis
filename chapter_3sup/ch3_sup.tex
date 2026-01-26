@@ -1,0 +1,28 @@
+% !TEX root = ../main.tex
+
+\documentclass[../main.tex]{subfiles}
+\input{commands.tex}
+
+\newcommand{\ncolwidth}{89mm}
+
+\newlength{\draftwidth}
+\setlength{\draftwidth}{12.5cm}
+\definecolor{optional_color}{rgb}{.05,.7,.1}
+\definecolor{obligatory_color}{rgb}{0.08,0.4,.8}
+\definecolor{prohibited_color}{rgb}{0.8,0.2,0.2}
+\definecolor{experimental}{rgb}{0.9, 0.6, 0.6}
+\definecolor{insilico}{rgb}{0.7, 0, 0.7}
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
+
+\renewcommand{\arraystretch}{1.25}
+\setlength{\aboverulesep}{-1pt}
+\setlength{\belowrulesep}{-1pt}
+\definecolor{tablecolor}{rgb}{0.4, 0.7, 0.8}
+
+\begin{document}
+\section{Supplementary Information Chapter 3}
+\input{chapter_3sup/si_text.tex}
+\input{chapter_3sup/si_tables.tex}
+\input{chapter_3sup/si_figures.tex}
+\end{document}

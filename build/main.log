@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2021.2.1)  26 JAN 2026 20:58
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2021.2.1)  26 JAN 2026 21:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -860,9 +860,13 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
+\everycr=\toks35
+\minrowclearance=\skip194
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2019/11/18 v2.7d Micro-typographical refinements (RS)
-\MT@toks=\toks35
+\MT@toks=\toks36
 \MT@count=\count335
 LaTeX Info: Redefining \textls on input line 790.
 \MT@outer@kern=\dimen260
@@ -891,13 +895,13 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layoutheight=\dimen266
 \Gm@layouthoffset=\dimen267
 \Gm@layoutvoffset=\dimen268
-\Gm@dimlist=\toks36
+\Gm@dimlist=\toks37
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count340
-\float@exts=\toks37
+\float@exts=\toks38
 \float@box=\box53
-\@float@everytoks=\toks38
+\@float@everytoks=\toks39
 \@floatcapt=\box54
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/adjustbox/adjustbox.sty
 Package: adjustbox 2019/01/04 v1.2 Adjusting TeX boxes (trim, clip, ...)
@@ -975,7 +979,7 @@ Package caption Info: float package is loaded.
 \c@subfigure=\count345
 \c@subtable=\count346
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks39
+\pgfutil@everybye=\toks40
 \pgfutil@tempdima=\dimen292
 \pgfutil@tempdimb=\dimen293
  (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex)) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
@@ -989,10 +993,10 @@ Package: pgf 2020/01/08 v3.1.5b (3.1.5b)
  (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2020/01/08 v3.1.5b (3.1.5b)
  (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks40
-\pgfkeys@temptoks=\toks41
+\pgfkeys@pathtoks=\toks41
+\pgfkeys@temptoks=\toks42
  (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
-\pgfkeys@tmptoks=\toks42
+\pgfkeys@tmptoks=\toks43
 ))
 \pgf@x=\dimen294
 \pgf@y=\dimen295
@@ -1010,9 +1014,9 @@ Package: pgfsys 2020/01/08 v3.1.5b (3.1.5b)
 \c@pgf@countb=\count348
 \c@pgf@countc=\count349
 \c@pgf@countd=\count350
-\t@pgf@toka=\toks43
-\t@pgf@tokb=\toks44
-\t@pgf@tokc=\toks45
+\t@pgf@toka=\toks44
+\t@pgf@tokb=\toks45
+\t@pgf@tokc=\toks46
 \pgf@sys@id@count=\count351
  (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2020/01/08 v3.1.5b (3.1.5b)
@@ -1038,9 +1042,9 @@ Package: pgfcore 2020/01/08 v3.1.5b (3.1.5b)
 \pgfmath@dimen=\dimen304
 \pgfmath@count=\count355
 \pgfmath@box=\box58
-\pgfmath@toks=\toks46
-\pgfmath@stack@operand=\toks47
-\pgfmath@stack@operation=\toks48
+\pgfmath@toks=\toks47
+\pgfmath@stack@operand=\toks48
+\pgfmath@stack@operation=\toks49
 ) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex))) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
 \c@pgfmathroundto@lastzeros=\count356
 )) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
@@ -1124,8 +1128,8 @@ Package: pgffor 2020/01/08 v3.1.5b (3.1.5b)
  (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
 \pgffor@iter=\dimen331
 \pgffor@skip=\dimen332
-\pgffor@stack=\toks49
-\pgffor@toks=\toks50
+\pgffor@stack=\toks50
+\pgffor@toks=\toks51
 )) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2020/01/08 v3.1.5b (3.1.5b)
  (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
@@ -1163,10 +1167,10 @@ Package: dashrule 2013/03/28 v1.3 Dashed rules
 \c@hdr@segments=\count369
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
-\LTleft=\skip194
-\LTright=\skip195
-\LTpre=\skip256
-\LTpost=\skip257
+\LTleft=\skip195
+\LTright=\skip256
+\LTpre=\skip257
+\LTpost=\skip258
 \LTchunksize=\count370
 \LTcapwidth=\dimen342
 \LT@head=\box68
@@ -1177,7 +1181,7 @@ Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
 \LT@rows=\count372
 \c@LT@tables=\count373
 \c@LT@chunks=\count374
-\LT@p@ftn=\toks51
+\LT@p@ftn=\toks52
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/pdflscape/pdflscape.sty
 Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
  (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/lscape.sty
@@ -1192,14 +1196,14 @@ Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
 ))) (/usr/local/texlive/2020/texmf-dist/tex/latex/tools/afterpage.sty
 Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
-\AP@output=\toks52
+\AP@output=\toks53
 \AP@partial=\box72
 \AP@footins=\box73
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
-\labelindent=\skip258
+\labelindent=\skip259
 \enit@outerparindent=\dimen343
-\enit@toks=\toks53
+\enit@toks=\toks54
 \enit@inbox=\box74
 \enit@count@id=\count375
 \enitdp@description=\count376
@@ -1238,8 +1242,8 @@ Package: siunitx 2020/02/25 v2.8b A comprehensive (SI) units package
 \l__siunitx_unit_prefix_base_int=\count394
 \l__siunitx_unit_prefix_gram_int=\count395
 \l__siunitx_number_product_int=\count396
-\c__siunitx_one_fill_skip=\skip259
-\l__siunitx_table_unit_align_skip=\skip260
+\c__siunitx_one_fill_skip=\skip260
+\l__siunitx_table_unit_align_skip=\skip261
 \l__siunitx_table_exponent_dim=\dimen347
 \l__siunitx_table_integer_dim=\dimen348
 \l__siunitx_table_mantissa_dim=\dimen349
@@ -1253,8 +1257,8 @@ Package: siunitx 2020/02/25 v2.8b A comprehensive (SI) units package
 \l__siunitx_table_post_box=\box80
 \l__siunitx_table_mantissa_box=\box81
 \l__siunitx_table_result_box=\box82
-\l__siunitx_table_number_align_skip=\skip261
-\l__siunitx_table_text_align_skip=\skip262
+\l__siunitx_table_number_align_skip=\skip262
+\l__siunitx_table_text_align_skip=\skip263
  (/usr/local/texlive/2020/texmf-dist/tex/latex/translator/translator.sty
 Package: translator 2019-05-31 v1.12a Easy translation of strings in LaTeX
 )) (/usr/local/texlive/2020/texmf-dist/tex/latex/csvsimple/csvsimple.sty
@@ -1285,7 +1289,7 @@ Package pict2e Info: Driver file for pict2e: p2e-xetex.def on input line 121.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/pict2e/p2e-xetex.def
 File: p2e-xetex.def 2016/02/05 v0.1u Driver-dependant file (RN,HjG,JT)
 )
-\pIIe@GRAPH=\toks54
+\pIIe@GRAPH=\toks55
 \@arclen=\dimen356
 \@arcrad=\dimen357
 \@tempdimd=\dimen358
@@ -1295,12 +1299,12 @@ Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Bcount=\count402
 \calc@Adimen=\dimen359
 \calc@Bdimen=\dimen360
-\calc@Askip=\skip263
-\calc@Bskip=\skip264
+\calc@Askip=\skip264
+\calc@Bskip=\skip265
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count403
-\calc@Cskip=\skip265
+\calc@Cskip=\skip266
 )
 \diagbox@boxa=\box83
 \diagbox@boxb=\box84
@@ -1412,7 +1416,7 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 286.
 )
-\Hy@SectionHShift=\skip266
+\Hy@SectionHShift=\skip267
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/bookmark/bkm-dvipdfm.def
 File: bkm-dvipdfm.def 2019/12/03 v1.28 bookmark driver for dvipdfm (HO)
 \BKM@id=\count418
@@ -1679,7 +1683,7 @@ File: pgflibraryarrows.meta.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \CF_boxstuff=\box91
 \CF_testbox=\box92
 \CF_chargebox=\box93
-\CF_substtoks=\toks55
+\CF_substtoks=\toks56
 Invalid UTF-8 byte or sequence at line 161 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 187 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 216 replaced by U+FFFD.
@@ -1850,16 +1854,16 @@ Package: chemgreek 2020/01/16 v1.1a interface for upright Greek letters for use 
 \g__chemgreek_tmpa_int=\count433
 )
 \l__mhchem_ce_distanceFromLastComma_int=\count434
-\__mhchem_arrow_extPgfLength_skip=\skip267
-\mhchem@minispace@tmp=\skip268
-\mhchem@minibackspace@tmp=\skip269
-\mhchem@bondwidth=\skip270
-\mhchem@bondheight=\skip271
-\mhchem@smallbondwidth@tmpA=\skip272
-\mhchem@smallbondwidth@tmpB=\skip273
-\mhchem@smallbondwidth=\skip274
-\mhchem@bondtmp@minussidebearingleft=\skip275
-\mhchem@bondtmp@minussidebearingright=\skip276
+\__mhchem_arrow_extPgfLength_skip=\skip268
+\mhchem@minispace@tmp=\skip269
+\mhchem@minibackspace@tmp=\skip270
+\mhchem@bondwidth=\skip271
+\mhchem@bondheight=\skip272
+\mhchem@smallbondwidth@tmpA=\skip273
+\mhchem@smallbondwidth@tmpB=\skip274
+\mhchem@smallbondwidth=\skip275
+\mhchem@bondtmp@minussidebearingleft=\skip276
+\mhchem@bondtmp@minussidebearingright=\skip277
 \l__mhchem_option_version_int=\count435
 \mhchem@option@minusmathsidebearingleft=\dimen384
 \mhchem@option@minusmathsidebearingright=\dimen385
@@ -1924,13 +1928,13 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 \blx@parenlevel@foot=\count475
 \blx@sectionciteorder@0=\count476
 \blx@entrysetcounter=\count477
-\labelnumberwidth=\skip277
-\labelalphawidth=\skip278
-\biblabelsep=\skip279
-\bibnamesep=\skip280
-\bibinitsep=\skip281
-\bibparsep=\skip282
-\bibhang=\skip283
+\labelnumberwidth=\skip278
+\labelalphawidth=\skip279
+\biblabelsep=\skip280
+\bibnamesep=\skip281
+\bibinitsep=\skip282
+\bibparsep=\skip283
+\bibhang=\skip284
 \blx@bcfin=\read8
 \blx@bcfout=\write7
 \blx@langwohyphens=\language86
@@ -2014,20 +2018,20 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \c@savedoriglanguage=\count546
 \c@pageref=\count547
 \c@savedpageref=\count548
-\shorthandwidth=\skip284
-\shortjournalwidth=\skip285
-\shortserieswidth=\skip286
-\shorttitlewidth=\skip287
-\shortauthorwidth=\skip288
-\shorteditorwidth=\skip289
-\locallabelnumberwidth=\skip290
-\locallabelalphawidth=\skip291
-\localshorthandwidth=\skip292
-\localshortjournalwidth=\skip293
-\localshortserieswidth=\skip294
-\localshorttitlewidth=\skip295
-\localshortauthorwidth=\skip296
-\localshorteditorwidth=\skip297
+\shorthandwidth=\skip285
+\shortjournalwidth=\skip286
+\shortserieswidth=\skip287
+\shorttitlewidth=\skip288
+\shortauthorwidth=\skip289
+\shorteditorwidth=\skip290
+\locallabelnumberwidth=\skip291
+\locallabelalphawidth=\skip292
+\localshorthandwidth=\skip293
+\localshortjournalwidth=\skip294
+\localshortserieswidth=\skip295
+\localshorttitlewidth=\skip296
+\localshortauthorwidth=\skip297
+\localshorteditorwidth=\skip298
 Package biblatex Info: Trying to load enhanced support for Unicode engines...
 Package biblatex Info: ... file 'blx-unicode.def' found.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/blx-unicode.def)
@@ -2251,11 +2255,21 @@ Package biblatex Info: ... file 'main.bbl' found.
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database (refsection 6):
+(biblatex)                soft_code
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database (refsection 7):
 (biblatex)                Gregory2018
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
 )
+
+Package biblatex Warning: citation 'soft_code' was not found at all in the .bbl, bibliography labels cannot be generated, please correct the citation.
+
 
 Package biblatex Warning: citation 'Gregory2018' was not found at all in the .bbl, bibliography labels cannot be generated, please correct the citation.
 
@@ -3222,7 +3236,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 94--99
  []
 
 
-Overfull \hbox (15.81978pt too wide) in paragraph at lines 92--115
+Overfull \hbox (15.81975pt too wide) in paragraph at lines 92--115
  [][] 
  []
 
@@ -3329,7 +3343,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 179--179
  []
 
 
-Overfull \hbox (15.81978pt too wide) in paragraph at lines 163--183
+Overfull \hbox (15.81975pt too wide) in paragraph at lines 163--183
  [][] 
  []
 
@@ -3494,17 +3508,17 @@ Missing character: There is no 𝜗 in font [Erewhon-Bold.otf]/OT:script=latn;la
 Missing character: There is no 𝜗 in font [Erewhon-Bold.otf]/OT:script=latn;language=dflt;!
 Missing character: There is no 𝜗 in font [Erewhon-Bold.otf]/OT:script=latn;language=dflt;!
 
-Overfull \hbox (83.10564pt too wide) in paragraph at lines 18--19
+Overfull \hbox (83.10559pt too wide) in paragraph at lines 18--19
  [][] 
  []
 
 (./chapter_2_sup/tables/man_ferroni.tex)
-Overfull \hbox (44.80643pt too wide) in paragraph at lines 1--27
+Overfull \hbox (44.80635pt too wide) in paragraph at lines 1--27
  [][] 
  []
 
 (./chapter_2_sup/tables/loss_data.tex)
-Overfull \hbox (70.09569pt too wide) in paragraph at lines 1--39
+Overfull \hbox (70.09555pt too wide) in paragraph at lines 1--39
  [][] 
  []
 
@@ -3521,7 +3535,7 @@ Overfull \vbox (8.0pt too high) has occurred while \output is active []
 
 
 ] (./chapter_2_sup/tables/growthcurves_and_rates.tex)
-Overfull \hbox (12.38338pt too wide) in paragraph at lines 75--86
+Overfull \hbox (12.38327pt too wide) in paragraph at lines 75--86
  [][] 
  []
 
@@ -3529,22 +3543,22 @@ Overfull \hbox (12.38338pt too wide) in paragraph at lines 75--86
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [51] (./chapter_2_sup/tables/best_stats_no_preex.tex)
-Overfull \hbox (27.70906pt too wide) in paragraph at lines 1--135
+Overfull \hbox (27.70892pt too wide) in paragraph at lines 1--135
  [][] 
  []
 
 (./chapter_2_sup/tables/worst_stats_no_preex.tex)
-Overfull \hbox (6.86905pt too wide) in paragraph at lines 1--144
+Overfull \hbox (6.86891pt too wide) in paragraph at lines 1--144
  [][] 
  []
 
 (./chapter_2_sup/tables/best_stats_preexisting.tex)
-Overfull \hbox (27.70906pt too wide) in paragraph at lines 1--153
+Overfull \hbox (27.70892pt too wide) in paragraph at lines 1--153
  [][] 
  []
 
 (./chapter_2_sup/tables/worst_stats_preexisting.tex)
-Overfull \hbox (6.86905pt too wide) in paragraph at lines 1--162
+Overfull \hbox (6.86891pt too wide) in paragraph at lines 1--162
  [][] 
  []
 
@@ -3646,14 +3660,7 @@ File: chapter_3/figures/volume_summary_pre.pdf Graphic file (type pdf)
 <use chapter_3/figures/volume_summary_pre.pdf>
 File: chapter_3/figures/volume_summary_post.pdf Graphic file (type pdf)
 <use chapter_3/figures/volume_summary_post.pdf>
-
-
-LaTeX Warning: Reference `fig:micro_mero' on page 74 undefined on input line 108.
-
-
-LaTeX Warning: Reference `fig:micro_mero' on page 74 undefined on input line 108.
-
-[74] [75]
+ [74] [75]
 Underfull \vbox (badness 7221) has occurred while \output is active []
 
  [76]
@@ -3684,10 +3691,7 @@ Overfull \hbox (6.93636pt too wide) in paragraph at lines 26--30
 []\TU/utopia/b/it/10 The platform is controlled by custom-generated worklists executed in the native software “Evoware”.
  []
 
-
-Underfull \vbox (badness 3128) has occurred while \output is active []
-
- [85]
+[85]
 Overfull \hbox (6.96167pt too wide) in paragraph at lines 49--54
 []\TU/Optima(1)/b/n/10 Morphology experiments.[] \TU/utopia/b/it/10 To assess treatment-induced morphological changes, we imaged treated
  []
@@ -3701,23 +3705,268 @@ Overfull \hbox (2.15347pt too wide) in paragraph at lines 38--38
 
 ] [89]
 Package biblatex Info: Reference section=0 on input line 38.
- [90]
 \blx@maxsegment@6=\count575
 \blx@sectionciteorder@6=\count576
-Package biblatex Info: Reference section=6 on input line 49.
-Package biblatex Info: Setting label 'refsection:6' on input line 49.
- (./chapter_5/ch5.tex [91
+Package biblatex Info: Reference section=6 on input line 39.
+Package biblatex Info: Setting label 'refsection:6' on input line 39.
+ (./chapter_3sup/ch3_sup.tex (./commands.tex)
+\draftwidth=\skip299
+ (./chapter_3sup/si_text.tex [90] [91] [92]
+Underfull \vbox (badness 6032) has occurred while \output is active []
+
+ [93] [94] [95] [96] [97] [98] [99] [100] [101]
+Overfull \hbox (1.56635pt too wide) in paragraph at lines 483--487
+[]\TU/utopia/b/it/10 We observed a substantial effect of both supplements on the measured bacterial density ([]Fig. 3.41[][]a,
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [102]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [103]) (./chapter_3sup/si_tables.tex (./chapter_3sup/tables/drug_table.tex
+
+LaTeX Font Warning: Font shape `TU/phv/b/n' undefined
+(Font)              using `TU/phv/m/n' instead on input line 10.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--18
+[]||[]\TU/phv/b/n/10 cwork
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--22
+[]||[]\TU/phv/b/n/10 cwork
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--102
+[]||\TU/phv/b/n/10 ThermoFisher,
+ []
+
+
+Overfull \hbox (15.37476pt too wide) in paragraph at lines 154--154
+[]||\TU/phv/b/n/10 Chloramphenicol| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 246--246
+[]||\TU/phv/b/n/10 VWR,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 270--270
+[]||\TU/phv/b/n/10 VWR, APOS-
+ []
+
+
+Overfull \hbox (2.34476pt too wide) in paragraph at lines 490--490
+[]||\TU/phv/b/n/10 Trimethoprim| 
+ []
+
+) (./chapter_3sup/tables/comparison_table.tex)
+Overfull \hbox (121.80797pt too wide) in paragraph at lines 1--21
+[][]
+ []
+
+(./chapter_3sup/tables/morph_post.tex)
+Overfull \hbox (104.31636pt too wide) in paragraph at lines 1--33
+ [][] 
+ []
+
+(./chapter_3sup/tables/group_summary.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [104] (./chapter_3sup/tables/supernatant.tex)
+Overfull \hbox (67.23633pt too wide) in paragraph at lines 61--70
+ [][] 
+ []
+
+) (./chapter_3sup/si_figures.tex
+File: chapter_3sup/figures/linearity.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/linearity.pdf>
+File: chapter_3sup/figures/ampicillin_comp.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/ampicillin_comp.pdf>
+File: chapter_3sup/figures/ampicillin_low_comp.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/ampicillin_low_comp.pdf>
+File: chapter_3sup/figures/cefepime_comp.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/cefepime_comp.pdf>
+File: chapter_3sup/figures/ceftazidime_comp.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/ceftazidime_comp.pdf>
+File: chapter_3sup/figures/cefuroxime_comp.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/cefuroxime_comp.pdf>
+File: chapter_3sup/figures/chloramphenicol_comp.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/chloramphenicol_comp.pdf>
+File: chapter_3sup/figures/ciprofloxacin_comp.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/ciprofloxacin_comp.pdf>
+File: chapter_3sup/figures/colistin_comp.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/colistin_comp.pdf>
+File: chapter_3sup/figures/doripenem_comp.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/doripenem_comp.pdf>
+File: chapter_3sup/figures/fosfomycin_comp.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/fosfomycin_comp.pdf>
+File: chapter_3sup/figures/imipenem_comp.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/imipenem_comp.pdf>
+File: chapter_3sup/figures/mecillinam_comp.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/mecillinam_comp.pdf>
+File: chapter_3sup/figures/meropenem_comp.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/meropenem_comp.pdf>
+File: chapter_3sup/figures/penicillin_comp.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/penicillin_comp.pdf>
+File: chapter_3sup/figures/piperacillin_comp.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/piperacillin_comp.pdf>
+File: chapter_3sup/figures/polymyxinB_comp.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/polymyxinB_comp.pdf>
+File: chapter_3sup/figures/rifampicin_comp.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/rifampicin_comp.pdf>
+File: chapter_3sup/figures/tetracycline_comp.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/tetracycline_comp.pdf>
+File: chapter_3sup/figures/trimethoprim_comp.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/trimethoprim_comp.pdf>
+File: chapter_3sup/figures/pexiganan_low_comp.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/pexiganan_low_comp.pdf>
+File: chapter_3sup/figures/pexiganan_comp.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/pexiganan_comp.pdf>
+File: chapter_3sup/figures/od_sos_exp.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/od_sos_exp.pdf>
+File: chapter_3sup/figures/lum_sos_exp.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/lum_sos_exp.pdf>
+File: chapter_3sup/figures/od_per_lum_sos_exp.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/od_per_lum_sos_exp.pdf>
+File: chapter_3sup/figures/diff_sos_exp.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/diff_sos_exp.pdf>
+ (./chapter_3sup/si_images.tex
+File: chapter_3sup/images/micro_ctrl_D1.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_ctrl_D1.pdf>
+File: chapter_3sup/images/micro_ctrl_D1_2.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_ctrl_D1_2.pdf>
+File: chapter_3sup/images/micro_ctrl_D1_3.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_ctrl_D1_3.pdf>
+File: chapter_3sup/images/micro_ctrl1_2h.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_ctrl1_2h.pdf>
+File: chapter_3sup/images/micro_ctrl2_2h.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_ctrl2_2h.pdf>
+File: chapter_3sup/images/micro_ctrl3_2h.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_ctrl3_2h.pdf>
+File: chapter_3sup/images/micro_amp1.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_amp1.pdf>
+File: chapter_3sup/images/micro_amp2.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_amp2.pdf>
+File: chapter_3sup/images/micro_amp3.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_amp3.pdf>
+File: chapter_3sup/images/micro_amx1.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_amx1.pdf>
+File: chapter_3sup/images/micro_amx2.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_amx2.pdf>
+File: chapter_3sup/images/micro_amox2.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_amox2.pdf>
+File: chapter_3sup/images/micro_caz_D1_1.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_caz_D1_1.pdf>
+File: chapter_3sup/images/micro_caz_D1_2.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_caz_D1_2.pdf>
+File: chapter_3sup/images/micro_caz_d1_3d.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_caz_d1_3d.pdf>
+File: chapter_3sup/images/micro_cip.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_cip.pdf>
+File: chapter_3sup/images/micro_cip2.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_cip2.pdf>
+File: chapter_3sup/images/micro_cip3.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_cip3.pdf>
+File: chapter_3sup/images/micro_col1.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_col1.pdf>
+File: chapter_3sup/images/micro_col2.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_col2.pdf>
+File: chapter_3sup/images/micro_col3.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_col3.pdf>
+File: chapter_3sup/images/micro_fos1.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_fos1.pdf>
+File: chapter_3sup/images/micro_fos2b.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_fos2b.pdf>
+File: chapter_3sup/images/micro_fos3.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_fos3.pdf>
+File: chapter_3sup/images/micro_mero1.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_mero1.pdf>
+File: chapter_3sup/images/micro_mero2.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_mero2.pdf>
+File: chapter_3sup/images/micro_mero3.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_mero3.pdf>
+File: chapter_3sup/images/micro_pex1b.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_pex1b.pdf>
+File: chapter_3sup/images/micro_pex2.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_pex2.pdf>
+File: chapter_3sup/images/micro_pex3c.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_pex3c.pdf>
+File: chapter_3sup/images/micro_rif1b.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_rif1b.pdf>
+File: chapter_3sup/images/micro_rif2a.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_rif2a.pdf>
+File: chapter_3sup/images/micro_rif3.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_rif3.pdf>
+File: chapter_3sup/images/micro_tet1.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_tet1.pdf>
+File: chapter_3sup/images/micro_tet2.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_tet2.pdf>
+File: chapter_3sup/images/micro_tet3.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_tet3.pdf>
+File: chapter_3sup/images/micro_tri1b.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_tri1b.pdf>
+File: chapter_3sup/images/micro_tri2b.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_tri2b.pdf>
+File: chapter_3sup/images/micro_tri3.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_tri3.pdf>
+)
+File: chapter_3sup/figures/filamentation_summary_pre.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/filamentation_summary_pre.pdf>
+File: chapter_3sup/figures/filamentation_summary_post.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/filamentation_summary_post.pdf>
+File: chapter_3sup/figures/lambda_15_delta1.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/lambda_15_delta1.pdf>
+File: chapter_3sup/figures/lambda_03_delta1.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/lambda_03_delta1.pdf>
+File: chapter_3sup/figures/lambda_15_delta4.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/lambda_15_delta4.pdf>
+File: chapter_3sup/figures/lambda_03_delta4.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/lambda_03_delta4.pdf>
+File: chapter_3sup/figures/fila_violin.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/fila_violin.pdf>
+File: chapter_3sup/figures/fila_vmean.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/fila_vmean.pdf>
+File: chapter_3sup/figures/colony_formation_probability.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/colony_formation_probability.pdf>
+File: chapter_3sup/figures/pexi_cacl2.png Graphic file (type bmp)
+<chapter_3sup/figures/pexi_cacl2.png>
+File: chapter_3sup/figures/pexi_mgcl2.png Graphic file (type bmp)
+<chapter_3sup/figures/pexi_mgcl2.png>
+Missing character: There is no 𝜇 in font [Erewhon-Regular.otf]/OT:script=latn;language=dflt;!
+Missing character: There is no 𝜇 in font [Erewhon-Regular.otf]/OT:script=latn;language=dflt;!
+File: chapter_3sup/figures/amp_hand_experiment_ctrl.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/amp_hand_experiment_ctrl.pdf>
+File: chapter_3sup/figures/amp_hand_experiment_mgcl.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/amp_hand_experiment_mgcl.pdf>
+File: chapter_3sup/figures/supernatant.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/supernatant.pdf>
+)) [105] [106] [107] [108] [109] [110] [111] [112] [113] [114] [115] [116] [117] [118] [119] [120] [121] [122] [123] [124] [125] [126] [127] [128] [129] [130] [131] [132] [133] [134] [135] [136] [137]
+Package biblatex Info: Reference section=0 on input line 39.
+ [138
+
+]
+\blx@maxsegment@7=\count577
+\blx@sectionciteorder@7=\count578
+Package biblatex Info: Reference section=7 on input line 49.
+Package biblatex Info: Setting label 'refsection:7' on input line 49.
+ (./chapter_5/ch5.tex [139
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [92]
+ [140]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [93]
+ [141]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [94]) [95]
+ [142]) [143]
 Package biblatex Info: Reference section=0 on input line 49.
 
 
@@ -3726,7 +3975,7 @@ Class memoir Warning: The material used in the headers is too large
 either increase the head height or redesign the header
 (in both cases you will find help in the memoir manual). on input line 54.
 
-[96
+[144
 
 ]
 \tf@toc=\write8
@@ -3741,21 +3990,18 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 54.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were undefined references.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 54.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 49985 strings out of 479418
- 984539 string characters out of 5884586
- 2210383 words of memory out of 5000000
- 66407 multiletter control sequences out of 15000+600000
- 548052 words of font info for 155 fonts, out of 8000000 for 9000
+ 50767 strings out of 479418
+ 1009160 string characters out of 5884586
+ 2307729 words of memory out of 5000000
+ 67031 multiletter control sequences out of 15000+600000
+ 550957 words of font info for 195 fonts, out of 8000000 for 9000
  1350 hyphenation exceptions out of 8191
- 70i,19n,120p,6407b,6396s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 70i,24n,120p,6407b,6396s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on /Users/malte/ETH-Documents/thesis/build/main.xdv (106 pages, 2282520 bytes).
+Output written on /Users/malte/ETH-Documents/thesis/build/main.xdv (154 pages, 2853468 bytes).

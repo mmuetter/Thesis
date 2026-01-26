@@ -33,7 +33,7 @@
 \contentsline {paragraph}{Computational Model.}{28}{section*.31}%
 \contentsline {paragraph}{\textit {In Silico} Sensitivity Analysis.}{28}{section*.32}%
 \contentsline {paragraph}{Data Availability}{29}{section*.33}%
-\contentsline {section}{\numberline {2.6}Supplementary Information}{31}{section.2.6}%
+\contentsline {section}{\numberline {2.6}Supplementary Information Chapter 2}{31}{section.2.6}%
 \contentsline {subsection}{SI Methods}{31}{section*.36}%
 \contentsline {paragraph}{Strains}{31}{section*.37}%
 \contentsline {paragraph}{Drugs.}{31}{section*.38}%
@@ -83,8 +83,28 @@
 \contentsline {paragraph}{Morphology experiments.}{86}{section*.130}%
 \contentsline {paragraph}{Fitting rates of change $\mitpsi $.}{86}{section*.131}%
 \contentsline {paragraph}{Significance.}{87}{section*.132}%
-\contentsline {chapter}{\chapternumberline {4}Concluding Remarks}{91}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Is combination therapy the best treatment strategy?}{91}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Can luminescence serve as a proxy for net growth?}{93}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Can interaction data from sub-MIC concentrations be extrapolated to the killing range?}{94}{section.4.3}%
-\contentsline {section}{\numberline {4.4}General concluding note}{94}{section.4.4}%
+\contentsline {section}{\numberline {3.6}Supplementary Information Chapter 3}{90}{section.3.6}%
+\contentsline {section}{\numberline {3.7}Mathematical descriptions}{90}{section.3.7}%
+\contentsline {subsection}{Light-related terminology.}{90}{section*.136}%
+\contentsline {subsection}{Testing for linearity between bacterial density and luminescent light intensity.}{90}{section*.137}%
+\contentsline {subsection}{Rate of change of CFU count.}{91}{section*.138}%
+\contentsline {subsection}{Rate of change of luminescence.}{92}{section*.139}%
+\contentsline {subsection}{Rate of change of volume-corrected luminescence.}{93}{section*.140}%
+\contentsline {subsection}{Change of light intensity is closer to the rate of change of total cell-volume than to the rate of change of number of bacteria.}{94}{section*.141}%
+\contentsline {subsection}{Colony formation -- birth-death Markov Model.}{95}{section*.142}%
+\contentsline {subsection}{Colony formation for bacteriostatic and bactericidal drugs.}{95}{section*.143}%
+\contentsline {section}{\numberline {3.8}Filamentation Model}{96}{section.3.8}%
+\contentsline {subsection}{Population‐level quantities.}{98}{section*.144}%
+\contentsline {subsection}{Parameter sensitivity.}{99}{section*.145}%
+\contentsline {subsection}{Volume correction and parameter estimation}{99}{section*.146}%
+\contentsline {section}{\numberline {3.9}Experiments}{100}{section.3.9}%
+\contentsline {subsection}{SOS experiment.}{100}{section*.147}%
+\contentsline {subsection}{Morphology evaluation.}{101}{section*.148}%
+\contentsline {subsection}{Antimicrobial peptide deactivation experiment.}{102}{section*.149}%
+\contentsline {subsection}{Manual pexiganan time-kill curve experiment.}{102}{section*.150}%
+\contentsline {subsection}{Supernatant experiment.}{103}{section*.151}%
+\contentsline {chapter}{\chapternumberline {4}Concluding Remarks}{139}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Is combination therapy the best treatment strategy?}{139}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Can luminescence serve as a proxy for net growth?}{141}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Can interaction data from sub-MIC concentrations be extrapolated to the killing range?}{142}{section.4.3}%
+\contentsline {section}{\numberline {4.4}General concluding note}{142}{section.4.4}%
