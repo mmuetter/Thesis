@@ -1,0 +1,39 @@
+We quantified interaction patterns across a wide concentration range for several drug combinations with different modes of action. 
+Quantifying the size of the bacterial population is notoriously difficult because bacterial death is not well defined, has multiple aspects, and no single method captures all of them \cite{Wu2024}. 
+In this work, we used bioluminescence as a proxy for population size. 
+This choice enabled us to record \num{8640} finely time-resolved (every 10 minutes for five hours) growth trajectories at high throughput. 
+The approach assumes that the mean per-cell luminosity remains approximately constant over time, which may not always hold. 
+Consequently, we restricted our analysis to drugs for which luminescence was previously shown to track population dynamics reasonably well \cite{Muetter2025}, hence, we do not expect qualitatively different conclusions when using an alternative readout. 
+
+For many of these trajectories, particularly those treated with a polymyxin, the light intensity dropped below the detection limit within the first few minutes.
+In principle, slope-based estimates can still be inferred for such curves. 
+However, comparing these estimates to trajectories with weaker but constant treatment effects is conceptually hard to justify. 
+To enable fair comparisons across drugs with different onset times and killing dynamics, we used a weighted growth measure integrated over a longer timeframe, which is equal for all trajectories (\(T \approx \SI{2}{\hour}\)).
+However, this choice comes at the cost of having to discard all trajectories that fall below the detection limit within that timeframe. 
+
+To investigate how these different treatment dynamics combine, we developed a simplified antibiotic--peptide interaction model.
+This model predicts that combinations of a short-acting, peptide-like drug with a time-invariant drug should follow Bliss independence, while drugs with similar mechanisms should follow Loewe additivity.
+We observed these behaviours qualitatively across combinations to varying degrees in \autoref{fig:surface_isoboles} and \autoref{fig:surface_pd}.
+
+To address our core question—how predictive sub-MIC interaction patterns are for inhibitory interactions—we aggregated interaction estimates for sub-inhibitory and inhibitory conditions and compared them.
+For both reference models, we observed that more than half of the combinations showed soft disagreement between inhibitory and sub-inhibitory regimes.
+This does not necessarily imply that sub-inhibitory measures are uninformative, because soft disagreement involves a neutral classification in one regime, and neutrality can arise from variance. 
+This variance is partly a consequence of aggregating across a diverse set of conditions covering a wide range of mixing ratios, which we observed can influence the interaction type (\autoref{fig:surface_angular_interaction}).
+Importantly, for both reference models, we observed more cases of synergistic or antagonistic agreement than strong disagreement, indicating that sub-inhibitory interaction measures retain some qualitative predictive value.
+
+Our results also confirm the practical limitations of Loewe-based interaction measures at high concentrations that have been reported previously (\cite{Meyer2019}). 
+Since Loewe relies on the inverse of the pharmacodynamic function of the single drugs, it is only defined when the combination effect lies within the dynamic ranges of both monotreatment effects. 
+For drug pairs with strongly different maximal killing capacities, this condition fails in large parts of the checkerboard (see undefined regions in \autoref{fig:fici_interaction_heatmap}). 
+This is a severe limitation that prohibits the quantification of drug interactions for a large number of therapeutically relevant conditions.
+Consistent with previous work (e.g. \cite{Vlot2019}), we found that the Bliss and Loewe frameworks can produce contrasting classifications.
+
+Our findings show that conclusions about synergy or antagonism depend on the concentration range, mixing ratio, and the chosen interaction model. 
+Accordingly, single-point measurements at a single sub-inhibitory concentration are insufficient to reliably characterise drug interactions at clinically relevant inhibitory concentrations.
+
+\begin{comment}
+For a subset of combinations, we found unambiguous interaction classifications across conditions and models (see \autoref{tab:intearction_summary}). 
+Specifically, we consistently observed antagonism (AAAA) for COL--PEN, AMO--CHL, AMO--POL, and CHL--PEN, with PEN--TET and AMO--COL showing similarly strong trends (three times antagonism and one neutral classification). 
+The observation that pairing \(\beta\)-lactams with ribosome-targeting drugs is antagonistic is well supported in the literature (e.g. by \cite{Jawetz1957, Ocampo2014}), whereas reports for penicillins combined with polymyxins are comparatively scarce and heterogeneous. 
+In contrast, we consistently observed synergy (SSSS) for CHL--POL, while CHL--COL also tended towards synergy but with more mixed classifications (ASNS). 
+For polymyxins, synergy with chloramphenicol has also been reported in the colistin-combination literature.
+\end{comment}

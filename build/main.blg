@@ -1,144 +1,238 @@
 [0] Config.pm:304> INFO - This is Biber 2.14
 [0] Config.pm:307> INFO - Logfile is 'build/main.blg'
-[76] biber-darwin:322> INFO - === Mo Jan 26, 2026, 21:33:51
-[91] Biber.pm:415> INFO - Reading 'build/main.bcf'
-[203] Biber.pm:943> INFO - Found 0 citekeys in bib section 0
-[203] Biber.pm:943> INFO - Found 0 citekeys in bib section 1
-[204] Biber.pm:943> INFO - Found 0 citekeys in bib section 0
-[204] Biber.pm:943> INFO - Found 23 citekeys in bib section 2
-[204] Biber.pm:943> INFO - Found 0 citekeys in bib section 0
-[205] Biber.pm:943> INFO - Found 16 citekeys in bib section 3
-[205] Biber.pm:943> INFO - Found 0 citekeys in bib section 0
-[205] Biber.pm:943> INFO - Found 11 citekeys in bib section 4
-[205] Biber.pm:943> INFO - Found 0 citekeys in bib section 0
-[207] Biber.pm:943> INFO - Found 38 citekeys in bib section 5
-[207] Biber.pm:943> INFO - Found 0 citekeys in bib section 0
-[208] Biber.pm:943> INFO - Found 5 citekeys in bib section 6
-[208] Biber.pm:943> INFO - Found 0 citekeys in bib section 0
-[208] Biber.pm:943> INFO - Found 5 citekeys in bib section 7
-[208] Biber.pm:943> INFO - Found 0 citekeys in bib section 0
-[261] Biber.pm:4256> INFO - Processing section 2
-[262] Utils.pm:75> INFO - Globbing data source 'bibliographies/TSPlasmid.bib'
-[262] Utils.pm:91> INFO - Globbed data source 'bibliographies/TSPlasmid.bib' to bibliographies/TSPlasmid.bib
-[262] Utils.pm:75> INFO - Globbing data source 'bibliographies/thesis.bib'
-[262] Utils.pm:91> INFO - Globbed data source 'bibliographies/thesis.bib' to bibliographies/thesis.bib
-[262] Utils.pm:75> INFO - Globbing data source 'bibliographies/Luminescence_Paper.bib'
-[262] Utils.pm:91> INFO - Globbed data source 'bibliographies/Luminescence_Paper.bib' to bibliographies/Luminescence_Paper.bib
-[273] Biber.pm:4455> INFO - Looking for bibtex format file 'bibliographies/TSPlasmid.bib' for section 2
-[284] bibtex.pm:1653> INFO - LaTeX decoding ...
-[532] bibtex.pm:1471> INFO - Found BibTeX data source 'bibliographies/TSPlasmid.bib'
-[618] Utils.pm:304> WARN - BibTeX subsystem: /var/folders/f7/ks4rl3915yj6crhznly5p28h0000gq/T/biber_tmp_aJbx/TSPlasmid.bib_35200.utf8, line 6, warning: 176 characters of junk seen at toplevel
-[619] Biber.pm:4455> INFO - Looking for bibtex format file 'bibliographies/thesis.bib' for section 2
-[625] bibtex.pm:1653> INFO - LaTeX decoding ...
-[806] bibtex.pm:1471> INFO - Found BibTeX data source 'bibliographies/thesis.bib'
-[806] Utils.pm:304> WARN - Duplicate entry key: 'Sutter2016' in file 'bibliographies/thesis.bib', skipping ...
-[808] Utils.pm:304> WARN - Duplicate entry key: 'Bonhoeffer1997' in file 'bibliographies/thesis.bib', skipping ...
-[809] Utils.pm:304> WARN - Duplicate entry key: 'Skylakakis1981' in file 'bibliographies/thesis.bib', skipping ...
-[809] Utils.pm:304> WARN - Duplicate entry key: 'Uecker2021' in file 'bibliographies/thesis.bib', skipping ...
-[809] Utils.pm:304> WARN - Duplicate entry key: 'Kable1980' in file 'bibliographies/thesis.bib', skipping ...
-[809] Utils.pm:304> WARN - Duplicate entry key: 'Angst2021' in file 'bibliographies/thesis.bib', skipping ...
-[810] Utils.pm:304> WARN - Duplicate entry key: 'Ocampo2014' in file 'bibliographies/thesis.bib', skipping ...
-[810] Utils.pm:304> WARN - Duplicate entry key: 'Goldberg2012' in file 'bibliographies/thesis.bib', skipping ...
-[811] Utils.pm:304> WARN - Duplicate entry key: 'Delp1980' in file 'bibliographies/thesis.bib', skipping ...
-[811] Utils.pm:304> WARN - Duplicate entry key: 'Tepekule2017' in file 'bibliographies/thesis.bib', skipping ...
-[812] Utils.pm:304> WARN - Duplicate entry key: 'siedentop_metaanalysis_2024' in file 'bibliographies/thesis.bib', skipping ...
-[816] Utils.pm:304> WARN - month field 'jun' in entry 'Kirby1944' is not an integer - this will probably not sort properly.
-[1397] Utils.pm:304> WARN - month field 'sep' in entry 'Naghavi2024' is not an integer - this will probably not sort properly.
-[1403] Utils.pm:304> WARN - month field 'dec' in entry 'Bates1998' is not an integer - this will probably not sort properly.
-[1421] Utils.pm:304> WARN - month field 'jan' in entry 'Bell2014' is not an integer - this will probably not sort properly.
-[1425] Utils.pm:304> WARN - month field 'jun' in entry 'Rahman2023' is not an integer - this will probably not sort properly.
-[1431] Utils.pm:304> WARN - month field 'feb' in entry 'Leekha2011' is not an integer - this will probably not sort properly.
-[1439] Utils.pm:304> WARN - month field 'may' in entry 'Jernberg2007' is not an integer - this will probably not sort properly.
-[1471] Utils.pm:304> WARN - ISBN '4146702017734' in entry 'Kavcic2020' is invalid - run biber with '--validate_datamodel' for details.
-[1471] Utils.pm:304> WARN - BibTeX subsystem: /var/folders/f7/ks4rl3915yj6crhznly5p28h0000gq/T/biber_tmp_aJbx/thesis.bib_35200.utf8, line 6, warning: 176 characters of junk seen at toplevel
-[1518] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1519] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1519] Biber.pm:4084> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[1519] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
-[1557] Biber.pm:4256> INFO - Processing section 3
-[1558] Utils.pm:75> INFO - Globbing data source 'bibliographies/TSPlasmid.bib'
-[1558] Utils.pm:91> INFO - Globbed data source 'bibliographies/TSPlasmid.bib' to bibliographies/TSPlasmid.bib
-[1558] Utils.pm:75> INFO - Globbing data source 'bibliographies/thesis.bib'
-[1558] Utils.pm:91> INFO - Globbed data source 'bibliographies/thesis.bib' to bibliographies/thesis.bib
-[1558] Utils.pm:75> INFO - Globbing data source 'bibliographies/Luminescence_Paper.bib'
-[1558] Utils.pm:91> INFO - Globbed data source 'bibliographies/Luminescence_Paper.bib' to bibliographies/Luminescence_Paper.bib
-[1558] Biber.pm:4455> INFO - Looking for bibtex format file 'bibliographies/TSPlasmid.bib' for section 3
-[1710] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1710] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1710] Biber.pm:4084> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[1710] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
-[1722] Biber.pm:4256> INFO - Processing section 4
-[1722] Utils.pm:75> INFO - Globbing data source 'bibliographies/TSPlasmid.bib'
-[1722] Utils.pm:91> INFO - Globbed data source 'bibliographies/TSPlasmid.bib' to bibliographies/TSPlasmid.bib
-[1723] Utils.pm:75> INFO - Globbing data source 'bibliographies/thesis.bib'
-[1723] Utils.pm:91> INFO - Globbed data source 'bibliographies/thesis.bib' to bibliographies/thesis.bib
-[1723] Utils.pm:75> INFO - Globbing data source 'bibliographies/Luminescence_Paper.bib'
-[1723] Utils.pm:91> INFO - Globbed data source 'bibliographies/Luminescence_Paper.bib' to bibliographies/Luminescence_Paper.bib
-[1723] Biber.pm:4455> INFO - Looking for bibtex format file 'bibliographies/TSPlasmid.bib' for section 4
-[1949] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1949] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1949] Biber.pm:4084> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[1949] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
-[1961] Biber.pm:4256> INFO - Processing section 5
-[1961] Utils.pm:75> INFO - Globbing data source 'bibliographies/TSPlasmid.bib'
-[1961] Utils.pm:91> INFO - Globbed data source 'bibliographies/TSPlasmid.bib' to bibliographies/TSPlasmid.bib
-[1961] Utils.pm:75> INFO - Globbing data source 'bibliographies/thesis.bib'
-[1961] Utils.pm:91> INFO - Globbed data source 'bibliographies/thesis.bib' to bibliographies/thesis.bib
-[1961] Utils.pm:75> INFO - Globbing data source 'bibliographies/Luminescence_Paper.bib'
-[1961] Utils.pm:91> INFO - Globbed data source 'bibliographies/Luminescence_Paper.bib' to bibliographies/Luminescence_Paper.bib
-[1961] Biber.pm:4455> INFO - Looking for bibtex format file 'bibliographies/TSPlasmid.bib' for section 5
-[1971] Biber.pm:4455> INFO - Looking for bibtex format file 'bibliographies/thesis.bib' for section 5
-[1995] Utils.pm:304> WARN - ISBN '4146702017734' in entry 'Kavcic2020' is invalid - run biber with '--validate_datamodel' for details.
-[1996] Biber.pm:4455> INFO - Looking for bibtex format file 'bibliographies/Luminescence_Paper.bib' for section 5
-[2003] bibtex.pm:1653> INFO - LaTeX decoding ...
-[2189] bibtex.pm:1471> INFO - Found BibTeX data source 'bibliographies/Luminescence_Paper.bib'
-[2247] Utils.pm:304> WARN - month field 'jul' in entry 'Loeliger2003' is not an integer - this will probably not sort properly.
-[2272] Utils.pm:304> WARN - month field 'nov' in entry 'Larsson2014' is not an integer - this will probably not sort properly.
-[2280] Utils.pm:304> WARN - month field 'jun' in entry 'Salisbury1999' is not an integer - this will probably not sort properly.
-[2318] Utils.pm:304> WARN - month field 'jul' in entry 'Besnard2002' is not an integer - this will probably not sort properly.
-[2322] Utils.pm:304> WARN - month field 'feb' in entry 'Oliver2005' is not an integer - this will probably not sort properly.
-[2358] Utils.pm:304> WARN - month field 'oct' in entry 'Marques2005' is not an integer - this will probably not sort properly.
-[2381] Utils.pm:304> WARN - month field 'sep' in entry 'Wu2024' is not an integer - this will probably not sort properly.
-[2390] Utils.pm:304> WARN - month field 'feb' in entry 'Fanous2025' is not an integer - this will probably not sort properly.
-[2425] Utils.pm:304> WARN - month field 'may' in entry 'Deguchi2011' is not an integer - this will probably not sort properly.
-[2430] Utils.pm:304> WARN - month field 'feb' in entry 'Cayron2023' is not an integer - this will probably not sort properly.
-[2436] Utils.pm:304> WARN - month field 'jun' in entry 'Datsenko2000' is not an integer - this will probably not sort properly.
-[2457] Utils.pm:304> WARN - BibTeX subsystem: /var/folders/f7/ks4rl3915yj6crhznly5p28h0000gq/T/biber_tmp_aJbx/Luminescence_Paper.bib_35200.utf8, line 6, warning: 176 characters of junk seen at toplevel
-[2494] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[2494] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[2494] Biber.pm:4084> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[2494] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
-[2519] Biber.pm:4256> INFO - Processing section 6
-[2519] Utils.pm:75> INFO - Globbing data source 'bibliographies/TSPlasmid.bib'
-[2519] Utils.pm:91> INFO - Globbed data source 'bibliographies/TSPlasmid.bib' to bibliographies/TSPlasmid.bib
-[2519] Utils.pm:75> INFO - Globbing data source 'bibliographies/thesis.bib'
-[2519] Utils.pm:91> INFO - Globbed data source 'bibliographies/thesis.bib' to bibliographies/thesis.bib
-[2519] Utils.pm:75> INFO - Globbing data source 'bibliographies/Luminescence_Paper.bib'
-[2520] Utils.pm:91> INFO - Globbed data source 'bibliographies/Luminescence_Paper.bib' to bibliographies/Luminescence_Paper.bib
-[2520] Biber.pm:4455> INFO - Looking for bibtex format file 'bibliographies/TSPlasmid.bib' for section 6
-[2521] Biber.pm:4455> INFO - Looking for bibtex format file 'bibliographies/thesis.bib' for section 6
-[2521] Biber.pm:4455> INFO - Looking for bibtex format file 'bibliographies/Luminescence_Paper.bib' for section 6
-[2545] Utils.pm:304> WARN - I didn't find a database entry for 'soft_code' (section 6)
-[2555] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[2555] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[2555] Biber.pm:4084> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[2555] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
-[2558] Biber.pm:4256> INFO - Processing section 7
-[2558] Utils.pm:75> INFO - Globbing data source 'bibliographies/TSPlasmid.bib'
-[2558] Utils.pm:91> INFO - Globbed data source 'bibliographies/TSPlasmid.bib' to bibliographies/TSPlasmid.bib
-[2558] Utils.pm:75> INFO - Globbing data source 'bibliographies/thesis.bib'
-[2558] Utils.pm:91> INFO - Globbed data source 'bibliographies/thesis.bib' to bibliographies/thesis.bib
-[2558] Utils.pm:75> INFO - Globbing data source 'bibliographies/Luminescence_Paper.bib'
-[2558] Utils.pm:91> INFO - Globbed data source 'bibliographies/Luminescence_Paper.bib' to bibliographies/Luminescence_Paper.bib
-[2558] Biber.pm:4455> INFO - Looking for bibtex format file 'bibliographies/TSPlasmid.bib' for section 7
-[2559] Biber.pm:4455> INFO - Looking for bibtex format file 'bibliographies/thesis.bib' for section 7
-[2607] Utils.pm:304> WARN - month field 'jun' in entry 'Kyaw2006' is not an integer - this will probably not sort properly.
-[2608] Biber.pm:4455> INFO - Looking for bibtex format file 'bibliographies/Luminescence_Paper.bib' for section 7
-[2609] Utils.pm:304> WARN - I didn't find a database entry for 'Gregory2018' (section 7)
-[2619] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[2619] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[2619] Biber.pm:4084> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[2619] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
-[2623] bbl.pm:652> INFO - Writing 'build/main.bbl' with encoding 'UTF-8'
-[3952] bbl.pm:755> INFO - Output to build/main.bbl
-[3952] Biber.pm:128> INFO - WARNINGS: 37
+[77] biber-darwin:322> INFO - === Mo Jan 26, 2026, 22:14:37
+[92] Biber.pm:415> INFO - Reading 'build/main.bcf'
+[192] Biber.pm:943> INFO - Found 0 citekeys in bib section 0
+[192] Biber.pm:943> INFO - Found 0 citekeys in bib section 1
+[192] Biber.pm:943> INFO - Found 0 citekeys in bib section 0
+[192] Biber.pm:943> INFO - Found 23 citekeys in bib section 2
+[193] Biber.pm:943> INFO - Found 0 citekeys in bib section 0
+[193] Biber.pm:943> INFO - Found 16 citekeys in bib section 3
+[193] Biber.pm:943> INFO - Found 0 citekeys in bib section 0
+[193] Biber.pm:943> INFO - Found 11 citekeys in bib section 4
+[193] Biber.pm:943> INFO - Found 0 citekeys in bib section 0
+[195] Biber.pm:943> INFO - Found 38 citekeys in bib section 5
+[195] Biber.pm:943> INFO - Found 0 citekeys in bib section 0
+[195] Biber.pm:943> INFO - Found 5 citekeys in bib section 6
+[195] Biber.pm:943> INFO - Found 0 citekeys in bib section 0
+[196] Biber.pm:943> INFO - Found 39 citekeys in bib section 7
+[197] Biber.pm:943> INFO - Found 0 citekeys in bib section 0
+[197] Biber.pm:943> INFO - Found 2 citekeys in bib section 8
+[197] Biber.pm:943> INFO - Found 0 citekeys in bib section 0
+[197] Biber.pm:943> INFO - Found 5 citekeys in bib section 9
+[197] Biber.pm:943> INFO - Found 0 citekeys in bib section 0
+[252] Biber.pm:4256> INFO - Processing section 2
+[253] Utils.pm:75> INFO - Globbing data source 'bibliographies/TSPlasmid.bib'
+[253] Utils.pm:91> INFO - Globbed data source 'bibliographies/TSPlasmid.bib' to bibliographies/TSPlasmid.bib
+[253] Utils.pm:75> INFO - Globbing data source 'bibliographies/thesis.bib'
+[253] Utils.pm:91> INFO - Globbed data source 'bibliographies/thesis.bib' to bibliographies/thesis.bib
+[253] Utils.pm:75> INFO - Globbing data source 'bibliographies/Luminescence_Paper.bib'
+[253] Utils.pm:91> INFO - Globbed data source 'bibliographies/Luminescence_Paper.bib' to bibliographies/Luminescence_Paper.bib
+[253] Utils.pm:75> INFO - Globbing data source 'bibliographies/zenodo.bib'
+[253] Utils.pm:91> INFO - Globbed data source 'bibliographies/zenodo.bib' to bibliographies/zenodo.bib
+[253] Utils.pm:75> INFO - Globbing data source 'bibliographies/combination_paper.bib'
+[253] Utils.pm:91> INFO - Globbed data source 'bibliographies/combination_paper.bib' to bibliographies/combination_paper.bib
+[262] Biber.pm:4455> INFO - Looking for bibtex format file 'bibliographies/TSPlasmid.bib' for section 2
+[271] bibtex.pm:1653> INFO - LaTeX decoding ...
+[527] bibtex.pm:1471> INFO - Found BibTeX data source 'bibliographies/TSPlasmid.bib'
+[639] Utils.pm:304> WARN - BibTeX subsystem: /var/folders/f7/ks4rl3915yj6crhznly5p28h0000gq/T/biber_tmp_jYhJ/TSPlasmid.bib_39517.utf8, line 6, warning: 176 characters of junk seen at toplevel
+[639] Biber.pm:4455> INFO - Looking for bibtex format file 'bibliographies/thesis.bib' for section 2
+[647] bibtex.pm:1653> INFO - LaTeX decoding ...
+[817] bibtex.pm:1471> INFO - Found BibTeX data source 'bibliographies/thesis.bib'
+[818] Utils.pm:304> WARN - Duplicate entry key: 'Sutter2016' in file 'bibliographies/thesis.bib', skipping ...
+[820] Utils.pm:304> WARN - Duplicate entry key: 'Bonhoeffer1997' in file 'bibliographies/thesis.bib', skipping ...
+[820] Utils.pm:304> WARN - Duplicate entry key: 'Skylakakis1981' in file 'bibliographies/thesis.bib', skipping ...
+[820] Utils.pm:304> WARN - Duplicate entry key: 'Uecker2021' in file 'bibliographies/thesis.bib', skipping ...
+[821] Utils.pm:304> WARN - Duplicate entry key: 'Kable1980' in file 'bibliographies/thesis.bib', skipping ...
+[821] Utils.pm:304> WARN - Duplicate entry key: 'Angst2021' in file 'bibliographies/thesis.bib', skipping ...
+[821] Utils.pm:304> WARN - Duplicate entry key: 'Ocampo2014' in file 'bibliographies/thesis.bib', skipping ...
+[822] Utils.pm:304> WARN - Duplicate entry key: 'Goldberg2012' in file 'bibliographies/thesis.bib', skipping ...
+[822] Utils.pm:304> WARN - Duplicate entry key: 'Delp1980' in file 'bibliographies/thesis.bib', skipping ...
+[822] Utils.pm:304> WARN - Duplicate entry key: 'Tepekule2017' in file 'bibliographies/thesis.bib', skipping ...
+[823] Utils.pm:304> WARN - Duplicate entry key: 'siedentop_metaanalysis_2024' in file 'bibliographies/thesis.bib', skipping ...
+[826] Utils.pm:304> WARN - month field 'jun' in entry 'Kirby1944' is not an integer - this will probably not sort properly.
+[1418] Utils.pm:304> WARN - month field 'sep' in entry 'Naghavi2024' is not an integer - this will probably not sort properly.
+[1424] Utils.pm:304> WARN - month field 'dec' in entry 'Bates1998' is not an integer - this will probably not sort properly.
+[1443] Utils.pm:304> WARN - month field 'jan' in entry 'Bell2014' is not an integer - this will probably not sort properly.
+[1448] Utils.pm:304> WARN - month field 'jun' in entry 'Rahman2023' is not an integer - this will probably not sort properly.
+[1454] Utils.pm:304> WARN - month field 'feb' in entry 'Leekha2011' is not an integer - this will probably not sort properly.
+[1461] Utils.pm:304> WARN - month field 'may' in entry 'Jernberg2007' is not an integer - this will probably not sort properly.
+[1488] Utils.pm:304> WARN - ISBN '4146702017734' in entry 'Kavcic2020' is invalid - run biber with '--validate_datamodel' for details.
+[1489] Utils.pm:304> WARN - BibTeX subsystem: /var/folders/f7/ks4rl3915yj6crhznly5p28h0000gq/T/biber_tmp_jYhJ/thesis.bib_39517.utf8, line 6, warning: 176 characters of junk seen at toplevel
+[1528] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1528] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1528] Biber.pm:4084> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[1528] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
+[1561] Biber.pm:4256> INFO - Processing section 3
+[1561] Utils.pm:75> INFO - Globbing data source 'bibliographies/TSPlasmid.bib'
+[1561] Utils.pm:91> INFO - Globbed data source 'bibliographies/TSPlasmid.bib' to bibliographies/TSPlasmid.bib
+[1561] Utils.pm:75> INFO - Globbing data source 'bibliographies/thesis.bib'
+[1561] Utils.pm:91> INFO - Globbed data source 'bibliographies/thesis.bib' to bibliographies/thesis.bib
+[1561] Utils.pm:75> INFO - Globbing data source 'bibliographies/Luminescence_Paper.bib'
+[1561] Utils.pm:91> INFO - Globbed data source 'bibliographies/Luminescence_Paper.bib' to bibliographies/Luminescence_Paper.bib
+[1561] Utils.pm:75> INFO - Globbing data source 'bibliographies/zenodo.bib'
+[1561] Utils.pm:91> INFO - Globbed data source 'bibliographies/zenodo.bib' to bibliographies/zenodo.bib
+[1561] Utils.pm:75> INFO - Globbing data source 'bibliographies/combination_paper.bib'
+[1562] Utils.pm:91> INFO - Globbed data source 'bibliographies/combination_paper.bib' to bibliographies/combination_paper.bib
+[1562] Biber.pm:4455> INFO - Looking for bibtex format file 'bibliographies/TSPlasmid.bib' for section 3
+[1706] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1706] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1706] Biber.pm:4084> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[1707] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
+[1717] Biber.pm:4256> INFO - Processing section 4
+[1717] Utils.pm:75> INFO - Globbing data source 'bibliographies/TSPlasmid.bib'
+[1717] Utils.pm:91> INFO - Globbed data source 'bibliographies/TSPlasmid.bib' to bibliographies/TSPlasmid.bib
+[1717] Utils.pm:75> INFO - Globbing data source 'bibliographies/thesis.bib'
+[1717] Utils.pm:91> INFO - Globbed data source 'bibliographies/thesis.bib' to bibliographies/thesis.bib
+[1717] Utils.pm:75> INFO - Globbing data source 'bibliographies/Luminescence_Paper.bib'
+[1717] Utils.pm:91> INFO - Globbed data source 'bibliographies/Luminescence_Paper.bib' to bibliographies/Luminescence_Paper.bib
+[1717] Utils.pm:75> INFO - Globbing data source 'bibliographies/zenodo.bib'
+[1718] Utils.pm:91> INFO - Globbed data source 'bibliographies/zenodo.bib' to bibliographies/zenodo.bib
+[1718] Utils.pm:75> INFO - Globbing data source 'bibliographies/combination_paper.bib'
+[1718] Utils.pm:91> INFO - Globbed data source 'bibliographies/combination_paper.bib' to bibliographies/combination_paper.bib
+[1718] Biber.pm:4455> INFO - Looking for bibtex format file 'bibliographies/TSPlasmid.bib' for section 4
+[1943] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1943] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1943] Biber.pm:4084> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[1943] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
+[1953] Biber.pm:4256> INFO - Processing section 5
+[1954] Utils.pm:75> INFO - Globbing data source 'bibliographies/TSPlasmid.bib'
+[1954] Utils.pm:91> INFO - Globbed data source 'bibliographies/TSPlasmid.bib' to bibliographies/TSPlasmid.bib
+[1954] Utils.pm:75> INFO - Globbing data source 'bibliographies/thesis.bib'
+[1954] Utils.pm:91> INFO - Globbed data source 'bibliographies/thesis.bib' to bibliographies/thesis.bib
+[1954] Utils.pm:75> INFO - Globbing data source 'bibliographies/Luminescence_Paper.bib'
+[1954] Utils.pm:91> INFO - Globbed data source 'bibliographies/Luminescence_Paper.bib' to bibliographies/Luminescence_Paper.bib
+[1954] Utils.pm:75> INFO - Globbing data source 'bibliographies/zenodo.bib'
+[1954] Utils.pm:91> INFO - Globbed data source 'bibliographies/zenodo.bib' to bibliographies/zenodo.bib
+[1954] Utils.pm:75> INFO - Globbing data source 'bibliographies/combination_paper.bib'
+[1954] Utils.pm:91> INFO - Globbed data source 'bibliographies/combination_paper.bib' to bibliographies/combination_paper.bib
+[1954] Biber.pm:4455> INFO - Looking for bibtex format file 'bibliographies/TSPlasmid.bib' for section 5
+[1963] Biber.pm:4455> INFO - Looking for bibtex format file 'bibliographies/thesis.bib' for section 5
+[1987] Utils.pm:304> WARN - ISBN '4146702017734' in entry 'Kavcic2020' is invalid - run biber with '--validate_datamodel' for details.
+[1988] Biber.pm:4455> INFO - Looking for bibtex format file 'bibliographies/Luminescence_Paper.bib' for section 5
+[1996] bibtex.pm:1653> INFO - LaTeX decoding ...
+[2177] bibtex.pm:1471> INFO - Found BibTeX data source 'bibliographies/Luminescence_Paper.bib'
+[2227] Utils.pm:304> WARN - month field 'jul' in entry 'Loeliger2003' is not an integer - this will probably not sort properly.
+[2249] Utils.pm:304> WARN - month field 'nov' in entry 'Larsson2014' is not an integer - this will probably not sort properly.
+[2258] Utils.pm:304> WARN - month field 'jun' in entry 'Salisbury1999' is not an integer - this will probably not sort properly.
+[2296] Utils.pm:304> WARN - month field 'jul' in entry 'Besnard2002' is not an integer - this will probably not sort properly.
+[2299] Utils.pm:304> WARN - month field 'feb' in entry 'Oliver2005' is not an integer - this will probably not sort properly.
+[2335] Utils.pm:304> WARN - month field 'oct' in entry 'Marques2005' is not an integer - this will probably not sort properly.
+[2362] Utils.pm:304> WARN - month field 'sep' in entry 'Wu2024' is not an integer - this will probably not sort properly.
+[2371] Utils.pm:304> WARN - month field 'feb' in entry 'Fanous2025' is not an integer - this will probably not sort properly.
+[2401] Utils.pm:304> WARN - month field 'may' in entry 'Deguchi2011' is not an integer - this will probably not sort properly.
+[2406] Utils.pm:304> WARN - month field 'feb' in entry 'Cayron2023' is not an integer - this will probably not sort properly.
+[2411] Utils.pm:304> WARN - month field 'jun' in entry 'Datsenko2000' is not an integer - this will probably not sort properly.
+[2432] Utils.pm:304> WARN - BibTeX subsystem: /var/folders/f7/ks4rl3915yj6crhznly5p28h0000gq/T/biber_tmp_jYhJ/Luminescence_Paper.bib_39517.utf8, line 6, warning: 176 characters of junk seen at toplevel
+[2471] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[2471] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[2471] Biber.pm:4084> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[2471] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
+[2498] Biber.pm:4256> INFO - Processing section 6
+[2499] Utils.pm:75> INFO - Globbing data source 'bibliographies/TSPlasmid.bib'
+[2499] Utils.pm:91> INFO - Globbed data source 'bibliographies/TSPlasmid.bib' to bibliographies/TSPlasmid.bib
+[2499] Utils.pm:75> INFO - Globbing data source 'bibliographies/thesis.bib'
+[2499] Utils.pm:91> INFO - Globbed data source 'bibliographies/thesis.bib' to bibliographies/thesis.bib
+[2499] Utils.pm:75> INFO - Globbing data source 'bibliographies/Luminescence_Paper.bib'
+[2499] Utils.pm:91> INFO - Globbed data source 'bibliographies/Luminescence_Paper.bib' to bibliographies/Luminescence_Paper.bib
+[2499] Utils.pm:75> INFO - Globbing data source 'bibliographies/zenodo.bib'
+[2499] Utils.pm:91> INFO - Globbed data source 'bibliographies/zenodo.bib' to bibliographies/zenodo.bib
+[2499] Utils.pm:75> INFO - Globbing data source 'bibliographies/combination_paper.bib'
+[2499] Utils.pm:91> INFO - Globbed data source 'bibliographies/combination_paper.bib' to bibliographies/combination_paper.bib
+[2499] Biber.pm:4455> INFO - Looking for bibtex format file 'bibliographies/TSPlasmid.bib' for section 6
+[2500] Biber.pm:4455> INFO - Looking for bibtex format file 'bibliographies/thesis.bib' for section 6
+[2501] Biber.pm:4455> INFO - Looking for bibtex format file 'bibliographies/Luminescence_Paper.bib' for section 6
+[2524] Biber.pm:4455> INFO - Looking for bibtex format file 'bibliographies/zenodo.bib' for section 6
+[2525] bibtex.pm:1653> INFO - LaTeX decoding ...
+[2528] bibtex.pm:1471> INFO - Found BibTeX data source 'bibliographies/zenodo.bib'
+[2541] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[2541] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[2541] Biber.pm:4084> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[2541] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
+[2545] Biber.pm:4256> INFO - Processing section 7
+[2545] Utils.pm:75> INFO - Globbing data source 'bibliographies/TSPlasmid.bib'
+[2545] Utils.pm:91> INFO - Globbed data source 'bibliographies/TSPlasmid.bib' to bibliographies/TSPlasmid.bib
+[2545] Utils.pm:75> INFO - Globbing data source 'bibliographies/thesis.bib'
+[2545] Utils.pm:91> INFO - Globbed data source 'bibliographies/thesis.bib' to bibliographies/thesis.bib
+[2545] Utils.pm:75> INFO - Globbing data source 'bibliographies/Luminescence_Paper.bib'
+[2546] Utils.pm:91> INFO - Globbed data source 'bibliographies/Luminescence_Paper.bib' to bibliographies/Luminescence_Paper.bib
+[2546] Utils.pm:75> INFO - Globbing data source 'bibliographies/zenodo.bib'
+[2546] Utils.pm:91> INFO - Globbed data source 'bibliographies/zenodo.bib' to bibliographies/zenodo.bib
+[2546] Utils.pm:75> INFO - Globbing data source 'bibliographies/combination_paper.bib'
+[2546] Utils.pm:91> INFO - Globbed data source 'bibliographies/combination_paper.bib' to bibliographies/combination_paper.bib
+[2546] Biber.pm:4455> INFO - Looking for bibtex format file 'bibliographies/TSPlasmid.bib' for section 7
+[2599] Biber.pm:4455> INFO - Looking for bibtex format file 'bibliographies/thesis.bib' for section 7
+[3197] Utils.pm:304> WARN - month field 'sep' in entry 'Naghavi2024' is not an integer - this will probably not sort properly.
+[3224] Utils.pm:304> WARN - ISBN '4146702017734' in entry 'Kavcic2020' is invalid - run biber with '--validate_datamodel' for details.
+[3224] Biber.pm:4455> INFO - Looking for bibtex format file 'bibliographies/Luminescence_Paper.bib' for section 7
+[3236] Biber.pm:4455> INFO - Looking for bibtex format file 'bibliographies/zenodo.bib' for section 7
+[3236] Biber.pm:4455> INFO - Looking for bibtex format file 'bibliographies/combination_paper.bib' for section 7
+[3250] bibtex.pm:1653> INFO - LaTeX decoding ...
+[3534] bibtex.pm:1471> INFO - Found BibTeX data source 'bibliographies/combination_paper.bib'
+[3565] Utils.pm:304> WARN - month field 'sep' in entry 'Gulick1997' is not an integer - this will probably not sort properly.
+[3572] Utils.pm:304> WARN - month field 'dec' in entry 'Muetter2024' is not an integer - this will probably not sort properly.
+[3585] Utils.pm:304> WARN - month field 'jun' in entry 'Foucquier2015' is not an integer - this will probably not sort properly.
+[3590] Utils.pm:304> WARN - month field 'jan' in entry 'Duarte2022' is not an integer - this will probably not sort properly.
+[3606] Utils.pm:304> WARN - month field 'dec' in entry 'OShaughnessy2006' is not an integer - this will probably not sort properly.
+[3623] Utils.pm:304> WARN - month field 'aug' in entry 'Rezzoagli2020' is not an integer - this will probably not sort properly.
+[3630] Utils.pm:304> WARN - month field 'dec' in entry 'Sanchez-Hevia2025' is not an integer - this will probably not sort properly.
+[3659] Utils.pm:304> WARN - month field 'nov' in entry 'Yang2017' is not an integer - this will probably not sort properly.
+[3669] Utils.pm:304> WARN - month field 'nov' in entry 'Ruden2019' is not an integer - this will probably not sort properly.
+[3678] Utils.pm:304> WARN - month field 'feb' in entry 'Liu2022' is not an integer - this will probably not sort properly.
+[3685] Utils.pm:304> WARN - month field 'jul' in entry 'Rao2017' is not an integer - this will probably not sort properly.
+[3699] Utils.pm:304> WARN - month field 'may' in entry 'Caballero2018' is not an integer - this will probably not sort properly.
+[3705] Utils.pm:304> WARN - month field 'dec' in entry 'Chen2020' is not an integer - this will probably not sort properly.
+[3710] Utils.pm:304> WARN - month field 'oct' in entry 'Bognar2024' is not an integer - this will probably not sort properly.
+[3720] Utils.pm:304> WARN - month field 'jan' in entry 'Chou1984' is not an integer - this will probably not sort properly.
+[3727] Utils.pm:304> WARN - month field 'jun' in entry 'Meletiadis2007' is not an integer - this will probably not sort properly.
+[3733] Utils.pm:304> WARN - BibTeX subsystem: /var/folders/f7/ks4rl3915yj6crhznly5p28h0000gq/T/biber_tmp_jYhJ/combination_paper.bib_39517.utf8, line 6, warning: 176 characters of junk seen at toplevel
+[3789] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[3789] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[3789] Biber.pm:4084> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[3789] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
+[3827] Biber.pm:4256> INFO - Processing section 8
+[3827] Utils.pm:75> INFO - Globbing data source 'bibliographies/TSPlasmid.bib'
+[3827] Utils.pm:91> INFO - Globbed data source 'bibliographies/TSPlasmid.bib' to bibliographies/TSPlasmid.bib
+[3827] Utils.pm:75> INFO - Globbing data source 'bibliographies/thesis.bib'
+[3827] Utils.pm:91> INFO - Globbed data source 'bibliographies/thesis.bib' to bibliographies/thesis.bib
+[3828] Utils.pm:75> INFO - Globbing data source 'bibliographies/Luminescence_Paper.bib'
+[3828] Utils.pm:91> INFO - Globbed data source 'bibliographies/Luminescence_Paper.bib' to bibliographies/Luminescence_Paper.bib
+[3828] Utils.pm:75> INFO - Globbing data source 'bibliographies/zenodo.bib'
+[3828] Utils.pm:91> INFO - Globbed data source 'bibliographies/zenodo.bib' to bibliographies/zenodo.bib
+[3828] Utils.pm:75> INFO - Globbing data source 'bibliographies/combination_paper.bib'
+[3828] Utils.pm:91> INFO - Globbed data source 'bibliographies/combination_paper.bib' to bibliographies/combination_paper.bib
+[3828] Biber.pm:4455> INFO - Looking for bibtex format file 'bibliographies/TSPlasmid.bib' for section 8
+[3829] Biber.pm:4455> INFO - Looking for bibtex format file 'bibliographies/thesis.bib' for section 8
+[3833] Biber.pm:4455> INFO - Looking for bibtex format file 'bibliographies/Luminescence_Paper.bib' for section 8
+[3833] Biber.pm:4455> INFO - Looking for bibtex format file 'bibliographies/zenodo.bib' for section 8
+[3835] Biber.pm:4455> INFO - Looking for bibtex format file 'bibliographies/combination_paper.bib' for section 8
+[3855] Utils.pm:304> WARN - month field 'jan' in entry 'Pedregosa2011' is not an integer - this will probably not sort properly.
+[3863] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[3863] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[3863] Biber.pm:4084> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[3863] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
+[3865] Biber.pm:4256> INFO - Processing section 9
+[3865] Utils.pm:75> INFO - Globbing data source 'bibliographies/TSPlasmid.bib'
+[3865] Utils.pm:91> INFO - Globbed data source 'bibliographies/TSPlasmid.bib' to bibliographies/TSPlasmid.bib
+[3865] Utils.pm:75> INFO - Globbing data source 'bibliographies/thesis.bib'
+[3865] Utils.pm:91> INFO - Globbed data source 'bibliographies/thesis.bib' to bibliographies/thesis.bib
+[3865] Utils.pm:75> INFO - Globbing data source 'bibliographies/Luminescence_Paper.bib'
+[3866] Utils.pm:91> INFO - Globbed data source 'bibliographies/Luminescence_Paper.bib' to bibliographies/Luminescence_Paper.bib
+[3866] Utils.pm:75> INFO - Globbing data source 'bibliographies/zenodo.bib'
+[3866] Utils.pm:91> INFO - Globbed data source 'bibliographies/zenodo.bib' to bibliographies/zenodo.bib
+[3866] Utils.pm:75> INFO - Globbing data source 'bibliographies/combination_paper.bib'
+[3866] Utils.pm:91> INFO - Globbed data source 'bibliographies/combination_paper.bib' to bibliographies/combination_paper.bib
+[3866] Biber.pm:4455> INFO - Looking for bibtex format file 'bibliographies/TSPlasmid.bib' for section 9
+[3867] Biber.pm:4455> INFO - Looking for bibtex format file 'bibliographies/thesis.bib' for section 9
+[3909] Utils.pm:304> WARN - month field 'jun' in entry 'Kyaw2006' is not an integer - this will probably not sort properly.
+[3910] Biber.pm:4455> INFO - Looking for bibtex format file 'bibliographies/Luminescence_Paper.bib' for section 9
+[3911] Biber.pm:4455> INFO - Looking for bibtex format file 'bibliographies/zenodo.bib' for section 9
+[3911] Biber.pm:4455> INFO - Looking for bibtex format file 'bibliographies/combination_paper.bib' for section 9
+[3912] Utils.pm:304> WARN - I didn't find a database entry for 'Gregory2018' (section 9)
+[3921] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[3921] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[3921] Biber.pm:4084> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[3921] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
+[3924] bbl.pm:652> INFO - Writing 'build/main.bbl' with encoding 'UTF-8'
+[6373] bbl.pm:755> INFO - Output to build/main.bbl
+[6373] Biber.pm:128> INFO - WARNINGS: 56

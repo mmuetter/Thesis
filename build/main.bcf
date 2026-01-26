@@ -2182,6 +2182,8 @@
     <bcf:datasource type="file" datatype="bibtex">bibliographies/TSPlasmid.bib</bcf:datasource>
     <bcf:datasource type="file" datatype="bibtex">bibliographies/thesis.bib</bcf:datasource>
     <bcf:datasource type="file" datatype="bibtex">bibliographies/Luminescence_Paper.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex">bibliographies/zenodo.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex">bibliographies/combination_paper.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
   </bcf:section>
@@ -2190,6 +2192,8 @@
     <bcf:datasource type="file" datatype="bibtex">bibliographies/TSPlasmid.bib</bcf:datasource>
     <bcf:datasource type="file" datatype="bibtex">bibliographies/thesis.bib</bcf:datasource>
     <bcf:datasource type="file" datatype="bibtex">bibliographies/Luminescence_Paper.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex">bibliographies/zenodo.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex">bibliographies/combination_paper.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="1">
   </bcf:section>
@@ -2201,6 +2205,8 @@
     <bcf:datasource type="file" datatype="bibtex">bibliographies/TSPlasmid.bib</bcf:datasource>
     <bcf:datasource type="file" datatype="bibtex">bibliographies/thesis.bib</bcf:datasource>
     <bcf:datasource type="file" datatype="bibtex">bibliographies/Luminescence_Paper.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex">bibliographies/zenodo.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex">bibliographies/combination_paper.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="2">
     <bcf:citekey order="1">Kirby1944</bcf:citekey>
@@ -2238,6 +2244,8 @@
     <bcf:datasource type="file" datatype="bibtex">bibliographies/TSPlasmid.bib</bcf:datasource>
     <bcf:datasource type="file" datatype="bibtex">bibliographies/thesis.bib</bcf:datasource>
     <bcf:datasource type="file" datatype="bibtex">bibliographies/Luminescence_Paper.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex">bibliographies/zenodo.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex">bibliographies/combination_paper.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="3">
     <bcf:citekey order="1">Kable1980</bcf:citekey>
@@ -2269,6 +2277,8 @@
     <bcf:datasource type="file" datatype="bibtex">bibliographies/TSPlasmid.bib</bcf:datasource>
     <bcf:datasource type="file" datatype="bibtex">bibliographies/thesis.bib</bcf:datasource>
     <bcf:datasource type="file" datatype="bibtex">bibliographies/Luminescence_Paper.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex">bibliographies/zenodo.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex">bibliographies/combination_paper.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="4">
     <bcf:citekey order="1">Sutter2016</bcf:citekey>
@@ -2300,6 +2310,8 @@
     <bcf:datasource type="file" datatype="bibtex">bibliographies/TSPlasmid.bib</bcf:datasource>
     <bcf:datasource type="file" datatype="bibtex">bibliographies/thesis.bib</bcf:datasource>
     <bcf:datasource type="file" datatype="bibtex">bibliographies/Luminescence_Paper.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex">bibliographies/zenodo.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex">bibliographies/combination_paper.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="5">
     <bcf:citekey order="1">Regoes2004</bcf:citekey>
@@ -2370,6 +2382,8 @@
     <bcf:datasource type="file" datatype="bibtex">bibliographies/TSPlasmid.bib</bcf:datasource>
     <bcf:datasource type="file" datatype="bibtex">bibliographies/thesis.bib</bcf:datasource>
     <bcf:datasource type="file" datatype="bibtex">bibliographies/Luminescence_Paper.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex">bibliographies/zenodo.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex">bibliographies/combination_paper.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="6">
     <bcf:citekey order="1">Coates2018</bcf:citekey>
@@ -2387,8 +2401,84 @@
     <bcf:datasource type="file" datatype="bibtex">bibliographies/TSPlasmid.bib</bcf:datasource>
     <bcf:datasource type="file" datatype="bibtex">bibliographies/thesis.bib</bcf:datasource>
     <bcf:datasource type="file" datatype="bibtex">bibliographies/Luminescence_Paper.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex">bibliographies/zenodo.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex">bibliographies/combination_paper.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="7">
+    <bcf:citekey order="1">Naghavi2024</bcf:citekey>
+    <bcf:citekey order="2">Witzany2020</bcf:citekey>
+    <bcf:citekey order="3">Gulick1997</bcf:citekey>
+    <bcf:citekey order="3">Goldberg2012</bcf:citekey>
+    <bcf:citekey order="4">Bonhoeffer1997</bcf:citekey>
+    <bcf:citekey order="4">Tepekule2017</bcf:citekey>
+    <bcf:citekey order="4">Uecker2021</bcf:citekey>
+    <bcf:citekey order="5">Angst2021</bcf:citekey>
+    <bcf:citekey order="5">Muetter2024</bcf:citekey>
+    <bcf:citekey order="6">Siedentop2024</bcf:citekey>
+    <bcf:citekey order="7">Siedentop2024</bcf:citekey>
+    <bcf:citekey order="8">Foucquier2015</bcf:citekey>
+    <bcf:citekey order="8">Duarte2022</bcf:citekey>
+    <bcf:citekey order="9">Bliss1939</bcf:citekey>
+    <bcf:citekey order="10">Loewe1926</bcf:citekey>
+    <bcf:citekey order="11">Bliss1939</bcf:citekey>
+    <bcf:citekey order="12">Baeder2016</bcf:citekey>
+    <bcf:citekey order="13">Frei1913</bcf:citekey>
+    <bcf:citekey order="14">Loewe1926</bcf:citekey>
+    <bcf:citekey order="15">Loewe1926</bcf:citekey>
+    <bcf:citekey order="16">Regoes2004</bcf:citekey>
+    <bcf:citekey order="17">Yeh2006</bcf:citekey>
+    <bcf:citekey order="17">OShaughnessy2006</bcf:citekey>
+    <bcf:citekey order="17">Chevereau2015</bcf:citekey>
+    <bcf:citekey order="17">Russ2018</bcf:citekey>
+    <bcf:citekey order="17">Katzir2019</bcf:citekey>
+    <bcf:citekey order="17">Kavcic2020</bcf:citekey>
+    <bcf:citekey order="17">Rezzoagli2020</bcf:citekey>
+    <bcf:citekey order="17">Sanchez-Hevia2025</bcf:citekey>
+    <bcf:citekey order="17">huntelman2023</bcf:citekey>
+    <bcf:citekey order="18">Yang2017</bcf:citekey>
+    <bcf:citekey order="18">Ruden2019</bcf:citekey>
+    <bcf:citekey order="18">Liu2022</bcf:citekey>
+    <bcf:citekey order="19">Ocampo2014</bcf:citekey>
+    <bcf:citekey order="19">Rao2017</bcf:citekey>
+    <bcf:citekey order="19">Yu2016</bcf:citekey>
+    <bcf:citekey order="19">Caballero2018</bcf:citekey>
+    <bcf:citekey order="19">Chen2020</bcf:citekey>
+    <bcf:citekey order="20">Bognar2024</bcf:citekey>
+    <bcf:citekey order="21">Yu2018</bcf:citekey>
+    <bcf:citekey order="22">Chou1984</bcf:citekey>
+    <bcf:citekey order="22">OShaughnessy2006</bcf:citekey>
+    <bcf:citekey order="22">Meletiadis2007</bcf:citekey>
+    <bcf:citekey order="22">Rezzoagli2020</bcf:citekey>
+    <bcf:citekey order="22">Kavcic2021</bcf:citekey>
+    <bcf:citekey order="22">Meletiadis2007</bcf:citekey>
+  </bcf:section>
+  <!-- SECTION 0 (cont.) -->
+  <bcf:section number="0">
+  </bcf:section>
+  <!-- SECTION 8 -->
+  <bcf:bibdata section="8">
+    <bcf:datasource type="file" datatype="bibtex">bibliographies/TSPlasmid.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex">bibliographies/thesis.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex">bibliographies/Luminescence_Paper.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex">bibliographies/zenodo.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex">bibliographies/combination_paper.bib</bcf:datasource>
+  </bcf:bibdata>
+  <bcf:section number="8">
+    <bcf:citekey order="1">Bliss1939</bcf:citekey>
+    <bcf:citekey order="2">Pedregosa2011</bcf:citekey>
+  </bcf:section>
+  <!-- SECTION 0 (cont.) -->
+  <bcf:section number="0">
+  </bcf:section>
+  <!-- SECTION 9 -->
+  <bcf:bibdata section="9">
+    <bcf:datasource type="file" datatype="bibtex">bibliographies/TSPlasmid.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex">bibliographies/thesis.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex">bibliographies/Luminescence_Paper.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex">bibliographies/zenodo.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex">bibliographies/combination_paper.bib</bcf:datasource>
+  </bcf:bibdata>
+  <bcf:section number="9">
     <bcf:citekey order="1">Gregory2018</bcf:citekey>
     <bcf:citekey order="2">Kishony2003</bcf:citekey>
     <bcf:citekey order="3">Edgeworth2020</bcf:citekey>
@@ -2460,6 +2550,24 @@
                 labelalphanametemplatename="global">
   </bcf:datalist>
   <bcf:datalist section="7"
+                name="none/global//global/global"
+                type="entry"
+                sortingtemplatename="none"
+                sortingnamekeytemplatename="global"
+                labelprefix=""
+                uniquenametemplatename="global"
+                labelalphanametemplatename="global">
+  </bcf:datalist>
+  <bcf:datalist section="8"
+                name="none/global//global/global"
+                type="entry"
+                sortingtemplatename="none"
+                sortingnamekeytemplatename="global"
+                labelprefix=""
+                uniquenametemplatename="global"
+                labelalphanametemplatename="global">
+  </bcf:datalist>
+  <bcf:datalist section="9"
                 name="none/global//global/global"
                 type="entry"
                 sortingtemplatename="none"

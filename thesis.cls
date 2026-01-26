@@ -60,6 +60,9 @@
 \RequirePackage{overpic}
 \RequirePackage{chemfig}
 \RequirePackage{mhchem}
+\RequirePackage{bm}
+\RequirePackage{mdframed}
+\RequirePackage{xstring}
 
 %----------------------------------------------------------
 % Summay spacing using memoir’s own commands
@@ -211,6 +214,8 @@
 \addbibresource{bibliographies/TSPlasmid.bib}
 \addbibresource{bibliographies/thesis.bib}
 \addbibresource{bibliographies/Luminescence_Paper.bib}
+\addbibresource{bibliographies/zenodo.bib}
+\addbibresource{bibliographies/combination_paper.bib}
 
 % optional font for bib
 \AtBeginBibliography{\scriptsize}

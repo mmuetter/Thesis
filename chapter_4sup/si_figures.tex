@@ -1,0 +1,353 @@
+\section{SI figures}
+
+% --- Panel helpers with explicit cm sizing (pass full dimensions like 5.9cm) ---
+\newcommand{\TimecoursePanel}[3]{% #1 drug, #2 letter, #3 width (dimension)
+  \begin{overpic}[width=#3]{chapter_4sup/figures/timecourse_#1.pdf}%
+    \put(2,65){\large\textbf{#2}}%
+  \end{overpic}
+}
+\newcommand{\PDCurvePanel}[3]{% #1 drug, #2 letter, #3 width (dimension)
+  \begin{overpic}[width=#3]{chapter_4sup/figures/pdcurve_#1.pdf}%
+    \put(2,60){\large\textbf{#2}}%
+  \end{overpic}
+}
+
+% --- Layout constants (dimensions; no spaces) ---
+\newcommand{\SingleGridWidth}{18cm}
+\newcommand{\SingleColSep}{0.25cm}
+\newcommand{\SingleRowSep}{0.6em}
+\newcommand{\SinglePanelWidth}{7.5cm} % (= (12cm - 0.25cm)/2)
+
+% --- Figure 1: all timecourses (2 columns × 3 rows) ---
+\begin{figure}[h]
+  \centering
+  \begin{minipage}{\SingleGridWidth}
+    \centering
+  \TimecoursePanel{amoxicillin}{a)}{\SinglePanelWidth}
+\TimecoursePanel{chloramphenicol}{b)}{\SinglePanelWidth}
+\TimecoursePanel{colistin}{c)}{\SinglePanelWidth}
+\TimecoursePanel{penicillin}{d)}{\SinglePanelWidth}
+\TimecoursePanel{polymyxinB}{e)}{\SinglePanelWidth}
+\TimecoursePanel{tetracycline}{f)}{\SinglePanelWidth}
+\end{minipage}
+\captionsetup{width=\SingleGridWidth}
+\caption{Single-drug timecourse data for the six antibiotics used in this study.
+Panels~(a--f) show the single-drug trajectories across \num{12} concentrations for amoxicillin, chloramphenicol, colistin, penicillin, polymyxin~B, and tetracycline, respectively.
+For each concentration we aggregate \num{20} replicate curves, obtained from five independent combination experiments with four technical replicates each.
+Lines represent the concentration-wise median over replicates at each measurement cycle, and shaded bands indicate the central 50\,\% percentile interval (25th--75th percentiles).
+Time on the horizontal axis corresponds to the per-cycle mean acquisition time across wells to account for \SI{200}{\milli\second} per-well readout staggering.}
+\label{fig:single-timecourses}
+\end{figure}
+\clearpage
+
+% --- Figure 2: all PD curves (2 columns × 3 rows) ---
+\begin{figure}[p]
+\centering
+\begin{minipage}{\SingleGridWidth}
+\centering
+\PDCurvePanel{amoxicillin}{a)}{\SinglePanelWidth}\hspace{\SingleColSep}%
+\PDCurvePanel{chloramphenicol}{b)}{\SinglePanelWidth}
+\PDCurvePanel{colistin}{c)}{\SinglePanelWidth}\hspace{\SingleColSep}%
+\PDCurvePanel{penicillin}{d)}{\SinglePanelWidth}
+\PDCurvePanel{polymyxinB}{e)}{\SinglePanelWidth}\hspace{\SingleColSep}%
+\PDCurvePanel{tetracycline}{f)}{\SinglePanelWidth}
+\end{minipage}
+\captionsetup{width=\SingleGridWidth}
+\caption{Single-drug pharmacodynamic (PD) curves corresponding to the timecourse data in \autoref{fig:single-timecourses}.
+Panels~(a--f) show the net rate of population change as a function of drug concentration for amoxicillin, chloramphenicol, colistin, penicillin, polymyxin~B, and tetracycline, respectively.
+Curves are fitted to the same replicate-aggregated datasets as in \autoref{fig:single-timecourses}, and intervals indicate uncertainty in the fitted PD relationship.}
+\label{fig:single-pdcurves}
+\end{figure}
+\clearpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%% INTERACTION FIGURES %%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\InteractionGrid}[4]{%
+\begin{figure}[p]
+\centering
+% #1 = base filename prefix
+% #2 = caption text
+% #3 = legend filename (empty = no legend)
+% #4 = legend width (e.g. 40mm, 0.6\totalW)
+
+\newcommand{\totalW}{140mm}%
+\newcommand{\colsep}{1.5mm}%
+\newcommand{\PanelW}{(\totalW-2\colsep)/3}%
+
+% Row 1
+\begin{overpic}[width=\PanelW]{chapter_4sup/figures/#1_amoxicillin_chloramphenicol.pdf}\put(3,92){\large\textbf{a)}}
+\end{overpic}\hspace{\colsep}%
+\begin{overpic}[width=\PanelW]{chapter_4sup/figures/#1_amoxicillin_colistin.pdf}\put(3,92){\large\textbf{b)}}
+\end{overpic}\hspace{\colsep}%
+\begin{overpic}[width=\PanelW]{chapter_4sup/figures/#1_amoxicillin_penicillin.pdf}\put(3,92){\large\textbf{c)}}
+\end{overpic}\\
+
+% Row 2
+\begin{overpic}[width=\PanelW]{chapter_4sup/figures/#1_amoxicillin_polymyxinB.pdf}\put(3,92){\large\textbf{d)}}
+\end{overpic}\hspace{\colsep}%
+\begin{overpic}[width=\PanelW]{chapter_4sup/figures/#1_amoxicillin_tetracycline.pdf}\put(3,92){\large\textbf{e)}}
+\end{overpic}\hspace{\colsep}%
+\begin{overpic}[width=\PanelW]{chapter_4sup/figures/#1_chloramphenicol_colistin.pdf}\put(3,92){\large\textbf{f)}}
+\end{overpic}\\
+
+% Row 3
+\begin{overpic}[width=\PanelW]{chapter_4sup/figures/#1_chloramphenicol_penicillin.pdf}\put(3,92){\large\textbf{g)}}
+\end{overpic}\hspace{\colsep}%
+\begin{overpic}[width=\PanelW]{chapter_4sup/figures/#1_chloramphenicol_polymyxinB.pdf}\put(3,92){\large\textbf{h)}}
+\end{overpic}\hspace{\colsep}%
+\begin{overpic}[width=\PanelW]{chapter_4sup/figures/#1_chloramphenicol_tetracycline.pdf}\put(3,92){\large\textbf{i)}}
+\end{overpic}\\
+
+% Row 4
+\begin{overpic}[width=\PanelW]{chapter_4sup/figures/#1_colistin_penicillin.pdf}\put(3,92){\large\textbf{j)}}
+\end{overpic}\hspace{\colsep}%
+\begin{overpic}[width=\PanelW]{chapter_4sup/figures/#1_colistin_polymyxinB.pdf}\put(3,92){\large\textbf{k)}}
+\end{overpic}\hspace{\colsep}%
+\begin{overpic}[width=\PanelW]{chapter_4sup/figures/#1_colistin_tetracycline.pdf}\put(3,92){\large\textbf{l)}}
+\end{overpic}\\
+
+% Row 5
+\begin{overpic}[width=\PanelW]{chapter_4sup/figures/#1_penicillin_polymyxinB.pdf}\put(3,92){\large\textbf{m)}}
+\end{overpic}\hspace{\colsep}%
+\begin{overpic}[width=\PanelW]{chapter_4sup/figures/#1_penicillin_tetracycline.pdf}\put(3,92){\large\textbf{n)}}
+\end{overpic}\hspace{\colsep}%
+\begin{overpic}[width=\PanelW]{chapter_4sup/figures/#1_polymyxinB_tetracycline.pdf}\put(3,92){\large\textbf{o)}}
+\end{overpic}
+
+% Optional legend
+\if\relax\detokenize{#3}\relax
+\else
+\vspace{-2mm}
+\begin{center}
+\includegraphics[width=60mm]{chapter_4sup/figures/#3}
+\end{center}
+\fi
+
+\captionsetup{width=\totalW}%
+\caption{#2.}%
+\label{fig:#1}%
+\end{figure}%
+\clearpage%
+}
+
+\InteractionGrid{psi}{Distribution of the effective net growth rate $\psi$ across all drug combinations measured in checkerboard assays.
+Each panel corresponds to one drug pair, and each cell represents a single concentration condition.
+Colors indicate the median estimate of $\psi$ across bootstrap resamples.
+Symbols indicate whether $\psi$ differs significantly from zero: stars denote significantly positive growth, diamonds significantly negative growth.
+These effective growth rates are inferred from time-resolved luminescence trajectories as described in the Methods.}{psi_colorbar_global}{40mm}
+
+\InteractionGrid{mu_interaction_heatmap}{Bliss interaction classification based on bootstrap inference of treatment effects.
+For each concentration pair, treatment effects were resampled to obtain a distribution of the Bliss interaction index $\mu$.
+Cells are colored according to statistical significance: teal indicates synergistic interactions (95\% confidence interval entirely below zero), orange indicates antagonistic interactions (95\% confidence interval entirely above zero), and white indicates no significant deviation from additivity.
+All estimates are based on effective growth rates $\psi$ inferred from checkerboard experiments.}{interaction_legend_bliss}{80mm}
+
+\InteractionGrid{fici_interaction_heatmap}{Loewe interaction classification based on bootstrap inference of treatment effects.
+For each concentration pair, bootstrap samples were used to compute a distribution of the fractional inhibitory concentration index (FICI).
+Teal indicates significant synergy (95\% confidence interval entirely below 1), orange indicates significant antagonism (95\% confidence interval entirely above 1), and white indicates no significant deviation from Loewe additivity.
+All estimates are derived from effective growth rates $\psi$ obtained from checkerboard assays.}{interaction_legend_loewe}{80mm}
+
+\begin{figure}
+\centering
+
+\begin{overpic}[width=89mm]{chapter_4sup/figures/loewe_vs_bliss_sup.pdf}
+\put(2,96){\large\textbf{a)}}
+\end{overpic}
+
+\vspace{4mm}
+
+\begin{overpic}[width=89mm]{chapter_4sup/figures/loewe_vs_bliss_sub.pdf}
+\put(2,96){\large\textbf{b)}}
+\end{overpic}
+
+\caption{
+Comparison of Loewe and Bliss interaction scores in two growth regimes.
+(a) Inhibitory (super-MIC) concentrations.
+(b) Sub-inhibitory (sub-MIC) concentrations.
+Each point represents a drug combination with error bars indicating bootstrap confidence intervals.
+Colors encode agreement or disagreement between Loewe and Bliss classifications.
+}
+\label{fig:si-loewe-vs-bliss-2d}
+\end{figure}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%% SURFACE FIGURES  %%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% FILE TO EDIT: your macros file (e.g., supplementary_1/commands.tex)
+\newcommand{\overpicpanel}[6]{%
+\begin{overpic}[#2]{#1}%
+\pgfmathsetmacro{\panelULx}{#3}%
+\pgfmathsetmacro{\panelULy}{#4}%
+\pgfmathsetmacro{\panelLRx}{#5}%
+\pgfmathsetmacro{\panelLRy}{#6}%
+\pgfmathsetmacro{\panelNX}{3}%
+\pgfmathsetmacro{\panelNY}{5}%
+\pgfmathsetmacro{\panelDX}{(\panelLRx-\panelULx)/(\panelNX-1)}%
+\pgfmathsetmacro{\panelDY}{(\panelLRy-\panelULy)/(\panelNY-1)}%
+\setcounter{panelk}{0}%
+\foreach \rr in {0,...,4}{%
+\foreach \cc in {0,...,2}{%
+\pgfmathsetmacro{\panelX}{\panelULx+\cc*\panelDX}%
+\pgfmathsetmacro{\panelY}{\panelULy+\rr*\panelDY}%
+\stepcounter{panelk}%
+\StrChar{abcdefghijklmnopqrstuvwxy}{\thepanelk}[\panelLetter]%
+\put(\panelX,\panelY){\bfseries \small \panelLetter)}%
+}%
+}%
+\end{overpic}%
+}
+
+\begin{figure}
+\centering
+\overpicpanel{chapter_4sup/figures/surface_psi.pdf}{width=130mm}{1}{98}{39}{22}
+\caption{Effective net growth rate surfaces $\psi$ for all drug combinations.
+Each panel shows the median effective growth rate estimated from time-resolved luminescence trajectories across the concentration grid.
+Colors indicate the magnitude of $\psi$, with negative values corresponding to net killing and positive values to net growth.
+All panels share a common color scale to allow direct comparison across drug pairs.}
+\label{fig:surface_psi}
+\end{figure}
+
+\begin{figure}
+\centering
+\overpicpanel{chapter_4sup/figures/surface_pd.pdf}{width=130mm}{5}{98}{41}{23}
+\caption{
+Polar pharmacodynamic curves for all drug combinations.
+For each drug pair, we show one-dimensional cuts through the \(\psi\)-surface splines at \(\phi=45^\circ\) (equal mixing in units of \(\mathrm{zMIC}\)), plotting \(\psi\) as a function of the combined dose \(z\).
+The blue dotted line marks \(z=1/\sqrt{2}\), corresponding to both single-drug doses being at \(0.5\,\mathrm{zMIC}\), and the blue dashed line marks \(z=\sqrt{2}\), corresponding to both being at \(1\,\mathrm{zMIC}\).
+Solid curves show the median surface-derived \(\psi\), with corresponding Bliss- and Loewe-based predictions evaluated along the same trajectory.
+}
+\label{fig:surface_pd}
+\end{figure}
+
+\begin{figure}
+\centering
+\overpicpanel{chapter_4sup/figures/surface_isoboles.pdf}{width=130mm}{1}{98}{40}{21}
+\caption{Isoboles of constant effective growth rate $\psi$ derived from the interpolated response surfaces.
+Each panel shows curves of equal $\psi$ in concentration space, illustrating deviations from linear additivity.
+Bending toward the origin indicates synergistic interactions, whereas outward bending indicates antagonism.}
+\label{fig:surface_isoboles}
+\end{figure}
+
+\begin{figure}
+\centering
+\overpicpanel{chapter_4sup/figures/surface_angular_interaction.pdf}{width=130mm}{5}{98}{40}{23}
+\caption{
+Angular interaction profiles for all drug combinations.
+For each drug pair, we extract isoboles (paths of constant \(\psi\)) from the consensus \(\psi\)-surface and evaluate Bliss- and Loewe-based predictions for \(\psi\) along these paths $(z, \phi)$, plotted as a function of the mixing angle \(\phi\).
+Each combination is shown for one sub-inhibitory isobole, the MIC isobole, and one inhibitory isobole.
+}
+\label{fig:surface_angular_interaction}
+\end{figure}
+
+\begin{comment}
+\begin{figure}
+    \centering
+    \overpicpanel{chapter_4sup/figures/topo_fici_grid.pdf}{width=130mm}{1}{98}{39}{22}
+    \caption{Loewe interaction classification across all drug combinations.
+        Each panel shows the interaction class inferred from the fractional inhibitory concentration index (FICI).
+        Yellow indicates significant synergy (95\% confidence interval entirely below 1), orange indicates significant antagonism (95\% confidence interval entirely above 1), and white indicates no significant deviation from additivity.}
+    \label{fig:topo_fici_grid}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \overpicpanel{chapter_4sup/figures/topo_mu_grid.pdf}{width=130mm}{1}{98}{39}{22}
+    \caption{Bliss interaction classification across all drug combinations.
+        Each panel shows the interaction class inferred from the Bliss interaction index $\mu$.
+        Yellow indicates significant synergy (95\% confidence interval entirely below 0), orange indicates significant antagonism (95\% confidence interval entirely above 0), and white indicates no significant deviation from Bliss independence.}
+    \label{fig:topo_mu_grid}
+\end{figure}
+\end{comment}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%% PEPTIDE FIGURES  %%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{comment}
+\begin{figure}
+    \centering
+    \includegraphics[width=0.5\linewidth]{chapter_4sup/figures/colistin_distribution.pdf}
+    \caption{Caption}
+    \label{fig:placeholder}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.5\linewidth]{chapter_4sup/figures/colistin_k_fit.pdf}
+    \caption{Caption}
+    \label{fig:placeholder}
+\end{figure}
+\end{comment}
+\begin{comment}
+\begin{figure}[htbp]
+        \centering
+        \setlength{\unitlength}{1mm}
+        \begin{overpic}[height=5cm]{chapter_4sup/figures/colistin_amoxicillin_interaction.pdf}
+          \put(1,58){\textbf{(a)}}
+          \put(48,60){COL, \SI{1}{\micro\gram\per\milli\liter}}
+          \put(-3,24){\rotatebox{90}{AMX, \SI{8}{\micro\gram\per\milli\liter}}}
+        \end{overpic}%
+        \hspace{4mm}%
+        \begin{overpic}[height=5cm]{chapter_4sup/figures/polymyxinB_amoxicillin_interaction.pdf}
+          \put(-4,64){\textbf{(b)}}
+          \put(40,68){POL, \SI{1}{\micro\gram\per\milli\liter}}
+        \end{overpic}
+        \\[-6mm]
+        \begin{overpic}[height=5cm]{chapter_4sup/figures/colistin_chloramphenicol_interaction.pdf}
+          \put(1,58){\textbf{(c)}}
+          \put(-3,24){\rotatebox{90}{CHL, \SI{8}{\micro\gram\per\milli\liter}}}
+        \end{overpic}%
+        \hspace{4mm}%
+        \begin{overpic}[height=5cm]{chapter_4sup/figures/polymyxinB_chloramphenicol_interaction.pdf}
+          \put(-4,64){\textbf{(d)}}
+        \end{overpic}
+        \\[-6mm]
+        \begin{overpic}[height=5cm]{chapter_4sup/figures/colistin_penicillin_interaction.pdf}
+          \put(1,58){\textbf{(e)}}
+          \put(-3,24){\rotatebox{90}{PEN, \SI{64}{\micro\gram\per\milli\liter}}}
+        \end{overpic}%
+        \hspace{4mm}%
+        \begin{overpic}[height=5cm]{chapter_4sup/figures/polymyxinB_penicillin_interaction.pdf}
+          \put(-4,64){\textbf{(f)}}
+        \end{overpic}
+        \\[-6mm]
+        \begin{overpic}[height=5cm]{chapter_4sup/figures/colistin_tetracycline_interaction.pdf}
+          \put(1,58){\textbf{(g)}}
+          \put(-3,24){\rotatebox{90}{TET, \SI{2}{\micro\gram\per\milli\liter}}}
+        \end{overpic}%
+        \hspace{4mm}%
+        \begin{overpic}[height=5cm]{chapter_4sup/figures/polymyxinB_tetracycline_interaction.pdf}
+          \put(-4,64){\textbf{(h)}}
+        \end{overpic}
+        \\
+        \includegraphics[width=18.3cm]{chapter_4sup/figures/peptide_combi_legend.pdf}
+        \caption{
+        Time–kill trajectories for combinations of colistin at \SI{1}{\micro\gram\per\milli\liter} (a, c, e, g) or polymyxin B at \SI{1}{\micro\gram\per\milli\liter} (b, d, f, h) with amoxicillin at \SI{16}{\micro\gram\per\milli\liter} (a, b), chloramphenicol at \SI{8}{\micro\gram\per\milli\liter} (c, d), penicillin at \SI{256}{\micro\gram\per\milli\liter} (e, f), or tetracycline at \SI{8}{\micro\gram\per\milli\liter} (g, h).
+        We plot the kill curves of the peptides alone using solid lines, the antibiotics alone using dashed lines, and the combinations using dotted lines.
+        }
+        \label{fig:si_peptide-interactions}
+\end{figure}
+\end{comment}
+
+%\begin{figure}
+%\centering
+%\includegraphics[width=\textwidth]{chapter_4sup/figures/blank_dist.pdf}
+%\caption{First figure}
+%\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=12cm]{chapter_4sup/figures/dist_ratios.pdf}
+\caption{Light noise distribution (shows the fraction of the original light intensity arriving in neighbouring wells; dependent on the distance to the source well; in well lengths $d_W$.}
+\label{fig:light_distribution}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=12cm]{chapter_4sup/figures/inoculum_concentration_slopes.pdf}
+\caption{Slope of the inoculum effect ($\mathrm{d}\psi/\mathrm{d}I_0$) as a function of drug concentration.
+For each drug and concentration, slopes ($\mathrm{d}\psi/\mathrm{d}I_0$) are obtained by regressing the observed net growth rates across inocula.
+Crosses denote concentrations with non-significant inoculum effects, whereas stars indicate statistically significant effects.
+}
+\label{fig:inoculum}
+\end{figure}

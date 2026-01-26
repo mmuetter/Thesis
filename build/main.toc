@@ -103,8 +103,39 @@
 \contentsline {subsection}{Antimicrobial peptide deactivation experiment.}{102}{section*.149}%
 \contentsline {subsection}{Manual pexiganan time-kill curve experiment.}{102}{section*.150}%
 \contentsline {subsection}{Supernatant experiment.}{103}{section*.151}%
-\contentsline {chapter}{\chapternumberline {4}Concluding Remarks}{139}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Is combination therapy the best treatment strategy?}{139}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Can luminescence serve as a proxy for net growth?}{141}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Can interaction data from sub-MIC concentrations be extrapolated to the killing range?}{142}{section.4.3}%
-\contentsline {section}{\numberline {4.4}General concluding note}{142}{section.4.4}%
+\contentsline {chapter}{\chapternumberline {4}Antimicrobial Combination Effects at Subinhibitory Doses do not Reliably Predict Effects at Inhibitory Concentrations}{139}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Introduction}{139}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Results}{141}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Discussion}{141}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Methods}{141}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Data, Materials, and Software Availability}{141}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Supplementary Information Chapter 4}{144}{section.4.6}%
+\contentsline {section}{\numberline {4.7}SI TEXT}{145}{section.4.7}%
+\contentsline {subsection}{Time weighted net growth rates}{145}{section*.201}%
+\contentsline {subsection}{Quantifying Light Noise.}{147}{section*.202}%
+\contentsline {subsection}{Drug conditions and response functions}{147}{section*.203}%
+\contentsline {paragraph}{Single-drug pharmacodynamic curves.}{147}{section*.204}%
+\contentsline {paragraph}{Closed-form inversion.}{147}{section*.205}%
+\contentsline {paragraph}{Cartesian conditions.}{147}{section*.206}%
+\contentsline {paragraph}{Polar pharmacodynamic curves.}{148}{section*.207}%
+\contentsline {subsection}{Bliss independence}{148}{section*.208}%
+\contentsline {paragraph}{Time--varying hazards.}{148}{section*.209}%
+\contentsline {paragraph}{Bliss-based interaction index \(\mitmu \).}{148}{section*.210}%
+\contentsline {subsection}{Loewe additivity}{149}{section*.211}%
+\contentsline {paragraph}{Loewe interaction index (\(\mitnu \)).}{149}{section*.212}%
+\contentsline {subsection}{Peptide--antibiotic interaction model}{151}{section*.213}%
+\contentsline {subsection}{Condition-wise interaction inference on the checkerboard}{151}{section*.214}%
+\contentsline {paragraph}{Regime-wise aggregation across checkerboard conditions.}{152}{section*.215}%
+\contentsline {subsection}{Continuous interaction surfaces and geometric exploration}{153}{section*.216}%
+\contentsline {paragraph}{Density-based restriction of the surface domain.}{153}{section*.217}%
+\contentsline {paragraph}{Bootstrap datasets and coordinate transform.}{153}{section*.218}%
+\contentsline {paragraph}{Monotone surface construction.}{153}{section*.219}%
+\contentsline {paragraph}{Bliss and Loewe interaction indices on the surface.}{153}{section*.220}%
+\contentsline {subsection}{Single-drug inoculum effect analysis}{154}{section*.221}%
+\contentsline {section}{\numberline {4.8}SI tables}{156}{section.4.8}%
+\contentsline {section}{\numberline {4.9}SI figures}{156}{section.4.9}%
+\contentsline {chapter}{\chapternumberline {5}Concluding Remarks}{171}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Is combination therapy the best treatment strategy?}{171}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Can luminescence serve as a proxy for net growth?}{173}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Can interaction data from sub-MIC concentrations be extrapolated to the killing range?}{174}{section.5.3}%
+\contentsline {section}{\numberline {5.4}General concluding note}{174}{section.5.4}%

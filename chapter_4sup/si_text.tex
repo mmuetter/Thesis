@@ -1,0 +1,450 @@
+\pagebreak
+\section{SI TEXT}
+
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Time weighted net growth rates}\label{ssec:netgrowth}
+We define $\psi$ the linearly time weighted average of the temporal net growth rate $\hat{\psi}$:
+\begin{equation}
+    \psi =  \int_{0}^{T} \hat{\psi}(t)\,w(t)\,dt,
+    \qquad
+    w(t)=\frac{2}{T^{2}}(T-t),
+    \label{eq:psi_weighted}
+\end{equation}
+where  the kernel \(w(t)\) decreases linearly from \(T\) to \(0\) and is normalised such \(\int_0^T w(t)\,dt=1\). 
+To derive \(\psi\) from the luminescence trajectories \(I(t) = I_0 e^{\int_{0}^{t}\hat{\psi}(u)\,du}\), we first normalise
+\begin{equation}
+y(t)=\frac{I(t)}{I(0)}.
+\label{eq:norm}
+\end{equation}
+We then define the log-normalised trajectory
+\begin{equation}
+Y(t)=\ln y(t)=\ln I(t)-\ln I(0)=\int_{0}^{t}\hat{\psi}(u)\,du,
+\label{eq:Ydef}
+\end{equation}
+and obtain \(\psi\) directly from \(Y(t)\) by integrating over time. 
+Applying Fubini's theorem yields
+\begin{align}
+    \int_{0}^{T} Y(t)\, dt
+    &=
+    \int_{0}^{T} \left( \int_{0}^{t} \hat{\psi}(u)\, du \right) dt
+    =
+    \int_{0}^{T} (T - u)\, \hat{\psi}(u)\, du,
+    \label{eq:intY}
+\end{align}
+so that
+\begin{equation}
+\psi=\frac{2}{T^{2}}\int_{0}^{T}Y(t)\,dt.
+\label{eq:psi_eff}
+\end{equation}
+The area between two curves (control and treatment) is
+\begin{equation}
+\int_{0}^{T}\!\big(Y_{\mathrm{ctrl}}(t)-Y_{\mathrm{treat}}(t)\big)\,dt
+=
+\int_{0}^{T}\!(T-t)\,\big(\hat{\psi}_{\mathrm{ctrl}}(t)-\hat{\psi}_{\mathrm{treat}}(t)\big)\,dt,
+\label{eq:intYdiff}
+\end{equation}
+and we define the treatment effect as the difference between the corresponding time-weighted net growth rates,
+\begin{equation}
+\tau
+=
+\psi_{\mathrm{ctrl}}-\psi_{\mathrm{treat}}
+=
+\frac{2}{T^{2}}\int_{0}^{T}\!\big(Y_{\mathrm{ctrl}}(t)-Y_{\mathrm{treat}}(t)\big)\,dt.
+\label{eq:tau_eff}
+\end{equation}
+
+\begin{mdframed}[linewidth=0.8pt,backgroundcolor=gray!5,roundcorner=3pt]
+    \textbf{Intuition for \(\psi\) and \(\tau\).}\\
+
+    \emph{Non–monophasic case.}
+    If rates vary over time, \autoref{eq:intYdiff} shows that \(\tau\) represents a time–weighted average of instantaneous rate differences,
+    \[
+    \tau = 2/T^2 \int_{0}^{T}\!(T-t)\,\big(\hat{\psi}_{\mathrm{ctrl}}(t)-\hat{\psi}_{\mathrm{treat}}(t)\big)\,dt,
+    \]
+    where the weighting factor \((T-t)\) decreases linearly from \(T\) to \(0\).
+    Early rate differences thus contribute more strongly than later ones.
+    This weighting is desirable because an early population reduction has a bigger therapeutical impact than a delayed effect, even if both reach the same endpoint.
+
+    \medskip
+    
+    \emph{Constant–rate case.}
+    If the temporal net growth rate  is constant $\hat{\psi}(t) = \hat{\psi}$, \autoref{eq:psi_eff} simplifies to: 
+    \[\psi = \hat{\psi}.\]
+    Accordingly; if the temporal net growth rate of control and treatment condition are constant; the treatment effect (\autoref{eq:intYdiff}) simplifies to: 
+    \[\tau = \psi_\mathrm{ctrl} - \psi_\mathrm{treat}.\]
+    Hence, when trajectories are log–linear, \(\tau\) directly measures the difference in net rates.
+\end{mdframed}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+\pagebreak
+\subsection{Quantifying Light Noise.}\label{ssec:lightnoise}
+We quantified luminescence leakage by a calibration plate in which six source wells (E5, E12, E20, L5, L12, L20) contained \SI{50}{\micro\liter} of overnight culture and all other wells were empty. 
+A single luminescence read yielded raw intensities $\hat I$. 
+For each empty well $i$ we calculated the ratio $I_{\mathrm{empty}}/I_{\mathrm{culture}}$ relative to the nearest source well $j$ at the distance of the grid $d_{ij}$ (with diagonal neighbours at distance $\sqrt{2}$). 
+For each discrete distance, we summarized ratios by their median to obtain a kernel $r(d)$ (\autoref{fig:light_distribution}). 
+We estimate the light contribution from well $j$ into well $i$ as $\hat I_{ij}=r(d_{ij})\,\hat I_j$. 
+For each experimental plate and time point, we corrected each well by subtracting received light noise,
+\begin{equation}
+    I_i=\hat I_i-\sum_j r(d_{ij})\,\hat I_j,
+    \label{eq:noise_corr}
+\end{equation}
+where the sum is restricted to wells within $d\le 3$. 
+
+
+\begin{comment}
+\subsection{Estimating the effective growth rate per well.}
+For each well $w$, we normalize the noise-corrected light intensities $I_w(t)$ by the pre-treatment light intensity $I_w(0)$:
+\[
+y_w(t_i) = \frac{I_w(t_i)}{I_w(0)},
+\]
+and then log transform:
+\[
+Y_w(t_i) = \ln y_w(t_i).
+\]
+
+The effective net growth rate (\autoref{eq:psi_eff}) is approximated numerically using the trapezoidal rule,
+\[
+\psi_w
+\;\approx\;
+\frac{2}{T^{2}}
+\sum_{k=0}^{m-1}
+\frac{x_{k+1}-x_k}{2}\,
+\bigl(Y_w(x_k)+Y_w(x_{k+1})\bigr),
+\]
+as implemented via \texttt{numpy.trapz}.
+\end{comment}
+
+%%%
+%%% PD
+%%%
+
+\subsection{Drug conditions and response functions}
+
+\paragraph{Single-drug pharmacodynamic curves.}
+For each drug \(i\) we describe the relationship between concentration \(c\) and net growth rate by the fitted pharmacodynamic curve
+\begin{equation}
+f_i(c)
+=
+\psi_{0}
+-
+\frac{(\psi_{0}-\psi_{\min,i})(c/z_{\mathrm{MIC},i})^{\kappa_i}}
+{(c/z_{\mathrm{MIC},i})^{\kappa_i}-(\psi_{\min,i}/\psi_{0})},
+\qquad
+[0,\infty)\rightarrow[\psi_{\min,i},\psi_{0}].
+\label{eq:single_drug_pd_si}
+\end{equation}
+On this domain, \(f_i\) is monotone and therefore invertible, with inverse \(f_i^{-1}:[\psi_{\min,i},\psi_{0}]\to[0,\infty)\).
+
+\paragraph{Closed-form inversion.}
+Using \autoref{eq:single_drug_pd_si}, the inverse \(f_i^{-1}\) can be written in closed form as
+\begin{equation}
+f_i^{-1}(\psi)
+=
+z_{\mathrm{MIC},i}
+\left(
+\frac{\bigl(\psi_0-\psi\bigr)\,\psi_{\min,i}/\psi_0}
+{\bigl(\psi_0-\psi\bigr)-\bigl(\psi_0-\psi_{\min,i}\bigr)}
+\right)^{1/\kappa_i},
+\qquad
+\psi\in[\psi_{\min,i},\psi_0].
+\label{eq:psi_inverse_closed_form}
+\end{equation}
+
+\paragraph{Cartesian conditions.}
+A \emph{condition} is defined by a set of drug concentrations \(\{c_i\}\), with drug \(i \in \{\mathrm{AMO},\mathrm{CHL},\mathrm{COL},\mathrm{PEN},\mathrm{POL},\mathrm{TET}\}\).
+The control condition corresponds to \(\{c_i = 0\ \forall i\}\) and is denoted by \(\emptyset\).
+
+Throughout this work, quantities characterizing a treatment are written as functions of the underlying condition \(\{c_i\}\).
+For example, \(\psi(\{c_i\})\) denotes the effective growth rate associated with a condition.
+For brevity, we write \(\psi(c_A)\) when only one drug is present, \(\tau(c_A,c_B)\) when two drugs are present, and \(\psi_0\) for the untreated control.
+
+\paragraph{Polar pharmacodynamic curves.}
+For two-drug combinations, conditions are parameterized in polar coordinates \((z,\phi)\), and the corresponding effective growth rate is written as
+\begin{equation}
+    \psi(z,\phi) =
+    \psi_{0} -
+    \frac{\bigl(\psi_{0}-\psi_{\min}(\phi)\bigr)\,\bigl(z/z_{\mathrm{MIC}}(\phi)\bigr)^{\kappa(\phi)}}
+    {\bigl(z/z_{\mathrm{MIC}}(\phi)\bigr)^{\kappa(\phi)}-\psi_{\min}(\phi)/\psi_{0}}.
+    \label{eq:polar_pd}
+\end{equation}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Bliss independence}\label{ssec:bliss}
+Bliss independence is defined by assuming that the probabilities of a cell being killed by drugs \(A\) and \(B\) within a fixed observation window \(T>0\) are statistically independent \cite{Bliss1939}.
+Under this assumption,
+\begin{equation}
+p_{AB}^\mathrm{Bliss}=p_A+p_B-p_A\,p_B,
+\label{eq:bliss_prob}
+\end{equation}
+where \(p_A\) and \(p_B\) denote the single–drug kill probabilities within \(T\).
+
+
+\paragraph{Time--varying hazards.}
+Let \(\hat{\tau}_i(t)\ge 0\) denote a time--dependent kill hazard under treatment \(i\) on \(t\in[0,T]\).
+The survival fraction at time \(T\) is \(S_i(T)=\exp\!\big(-\int_0^T\hat{\tau}_i(u)\,du\big)\).
+Bliss independence implies multiplicative survival \(S_{AB}(T)=S_A(T)\,S_B(T)\), hence additive cumulative hazards:
+\begin{equation}
+    \int_0^T \hat{\tau}_{AB}^\mathrm{Bliss}(u)\,du=\int_0^T \hat{\tau}_A(u)\,du+\int_0^T \hat{\tau}_B(u)\,du.
+\label{eq:hazard_additivity}
+\end{equation}
+To connect this survival formulation to the growth-based log-trajectories, we interpret the instantaneous treatment effect as the reduction in temporal net growth relative to the untreated control, i.e.\ \(\hat{\tau}_i(t)=\hat{\psi}_{\mathrm{ctrl}}(t)-\hat{\psi}_i(t)\).
+With \(Y_i(t)=\int_{0}^{t}\hat{\psi}_i(u)\,du\) from \autoref{eq:Ydef}, it follows that
+\[
+Y_i(t)=Y_{\mathrm{ctrl}}(t)-\int_0^t \hat{\tau}_i(u)\,du.
+\]
+Using additive cumulative hazards under Bliss then yields
+\begin{equation}
+Y_{AB}^\mathrm{Bliss}(t)=Y_{A}(t)+Y_{B}(t)-Y_{\mathrm{ctrl}}(t).
+\label{eq:Y_additivity}
+\end{equation}
+
+Integrating \autoref{eq:Y_additivity} over time yields the Bliss prediction for the effective treatment effect:
+\begin{equation}
+\tau^{\mathrm{Bliss}}(c_A,c_B)
+=
+\tau(c_A)
++
+\tau(c_B).
+\label{eq:tau_eff_bliss}
+\end{equation}
+
+\paragraph{Bliss-based interaction index \(\mu\).}
+Based on the Bliss expectation for a combination at concentrations \((c_A,c_B)\), we define the interaction index
+\begin{equation}
+\mu(c_A,c_B)
+=
+\frac{\tau(c_A)+\tau(c_B)-\tau(c_A,c_B)}
+{\mathrm{median}\!\bigl(\tau(c_A)\bigr)+\mathrm{median}\!\bigl(\tau(c_B)\bigr)}.
+\label{eq:mu}
+\end{equation}
+To avoid division by zero, normalization is performed using the medians of the monotherapy effects.
+The index is only evaluated where a condition \((c_A,c_B)\) is classified as eligible if the combined effect \(\tau(c_A,c_B)\) is significant and at least one of the two monotherapy treatment effects, \(\tau(c_A)\) or \(\tau(c_B)\), is significant.
+
+
+
+\begin{mdframed}[linewidth=0.8pt,backgroundcolor=gray!5,roundcorner=3pt]
+\textbf{Interpreting \(\mu\).}\\[3pt]
+Positive values of \(\mu\) indicate synergy (\(\tau(c_A,c_B)>\tau(c_A)+\tau(c_B)\)),
+negative values indicate antagonism, and \(\mu=0\) corresponds to neutral interactions.
+\end{mdframed}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Loewe additivity}\label{ssec:loewe}
+Loewe additivity is a form of dose additivity and formalizes self--additivity, i.e.\ that a drug combined with itself should behave like a higher dose of the same drug.
+This concept is independent of the particular choice of effect measure, provided the effect can be represented on a shared, monotone dose--response scale.
+In our case, this effect scale is the effective net growth rate \(\psi\) (see \autoref{eq:psi_eff}).
+
+For a combination with observed effect \(\psi(c_A,c_B)\), Loewe additivity requires that the fractions of the corresponding monotherapy-equivalent concentrations sum to one,
+\begin{equation}
+\frac{c_A}{f_A^{-1}\!\big(\psi(c_A,c_B)\big)}
++
+\frac{c_B}{f_B^{-1}\!\big(\psi(c_A,c_B)\big)}
+=
+1,
+\label{eq:loewe_core}
+\end{equation}
+where \(f_A\) and \(f_B\) are the single--drug pharmacodynamic curves mapping concentrations to \(\psi\), and \(f_A^{-1}\) and \(f_B^{-1}\) map an effect level \(\psi\) to the corresponding monotherapy-equivalent concentration.
+As pharmacodynamic function \(f_i\), we use the fitted single-drug pharmacodynamic curve (\autoref{eq:single_drug_pd_si}) for the well-based interaction analysis, whereas for the surface-based analysis we infer \(f_i\) from the monotherapy edge profiles of the chequerboard surface splines.
+The Loewe prediction \(\psi_{\mathrm{Loewe}}(c_A,c_B)\) is obtained by numerically solving \autoref{eq:loewe_core} for \(\psi\).
+
+\paragraph{Loewe interaction index (\(\nu\)).}
+We quantify deviations from Loewe additivity by the centered dose-equivalence index
+\begin{equation}
+\nu(c_A,c_B)
+=
+\frac{c_A}{f_A^{-1}\!\big(\psi(c_A,c_B)\big)}
++
+\frac{c_B}{f_B^{-1}\!\big(\psi(c_A,c_B)\big)}
+-1.
+\label{eq:fici}
+\end{equation}
+The index is only evaluated where a condition \((c_A,c_B)\) is classified as eligible if the combined effect \(\tau(c_A,c_B)\) is significant and at least one of the two monotherapy treatment effects, \(\tau(c_A)\) or \(\tau(c_B)\), is significant.
+
+
+
+Because \(f_A^{-1}\) and \(f_B^{-1}\) are only defined on \(\mathrm{Im}(f_A)=[\psi_{\min,A},\psi_{0}]\) and \(\mathrm{Im}(f_B)=[\psi_{\min,B},\psi_{0}]\), \(\nu\) is only defined if
+\begin{equation}
+\psi(c_A,c_B)\in \mathrm{Im}(f_A)\cap \mathrm{Im}(f_B)=[\max(\psi_{\min,A},\psi_{\min,B}),\,\psi_{0}].
+\label{eq:loewe_domain}
+\end{equation}
+
+\begin{mdframed}[linewidth=0.8pt,backgroundcolor=gray!5,roundcorner=3pt]
+\textbf{Interpreting \(\nu\).}\\[3pt]
+By construction \(\nu=0\) corresponds to Loewe additivity, \(\nu<0\) indicates synergy, and \(\nu>0\) indicates antagonism.\\
+Because Loewe additivity requires monotherapy-equivalent concentrations for both drugs at the observed effect level, \(\nu\) can only be evaluated when \(\psi(c_A,c_B)\) lies in the overlap of the two monotherapy effect ranges, i.e.\ \(\psi\ge \max(\psi_{\min,A},\psi_{\min,B})\).
+\end{mdframed}
+
+
+\clearpage
+\subsection{Peptide--antibiotic interaction model}\label{ssec:toy_model}
+We consider two drugs, \(A\) and \(B\), acting on a population with size trajectory \(x(t)\).
+Drug~\(A\) represents a peptide-like effect that causes an instantaneous multiplicative reduction in population size by a factor \(\alpha\in(0,1]\), whereas drug~\(B\) represents a conventional antibiotic that changes the subsequent net growth rate but does not cause an initial drop. 
+We assume that the combination of two drugs induces a sharp drop by the factor $\alpha$ followed by net growth, determined by drug B:
+\begin{align}
+x_{\mathrm{ctrl}}(t) &= x_0\,\exp\!\big(\hat{\psi}_{\mathrm{ctrl}}\,t\big), \notag\\
+x_{B}(t) &= x_0\,\exp\!\big(\hat{\psi}_{B}\,t\big), \notag\\
+x_{A}(t) &= \alpha\,x_{\mathrm{ctrl}}(t), \notag\\
+x_{AB}(t) &= \alpha\,x_{B}(t), \notag
+\end{align}
+and:
+\begin{align}
+Y_{\mathrm{ctrl}}(t) &= \ln x_0+\hat{\psi}_{\mathrm{ctrl}}\,t, \notag\\
+Y_{B}(t) &= \ln x_0+\hat{\psi}_{B}\,t, \notag\\
+Y_{A}(t) &= Y_{\mathrm{ctrl}}(t)+\ln \alpha, \notag\\
+Y_{AB}(t) &= Y_{B}(t)+\ln \alpha. \notag
+\end{align}
+
+
+Using the definition of effective-rate \(\tau_i=\frac{2}{T^2}\int_0^T\!\big(Y_{\mathrm{ctrl}}(t)-Y_i(t)\big)\,dt\), we obtain the following.
+\[
+\tau_A=\frac{2}{T^2}\int_0^T\!(-\ln\alpha)\,dt,
+\qquad
+\tau_B=\frac{2}{T^2}\int_0^T\!\bigl(\hat{\psi}_{\mathrm{ctrl}}-\hat{\psi}_B\bigr)t\,dt,
+\]
+and
+\begin{equation}
+\tau_{AB}
+=
+\frac{2}{T^2}\int_0^T\!\Bigl(\bigl(\hat{\psi}_{\mathrm{ctrl}}-\hat{\psi}_B\bigr)t-\ln\alpha\Bigr)\,dt.
+\label{eq:combined_pep}
+\end{equation}
+Separating the two terms in \autoref{eq:combined_pep} yields
+\begin{equation}
+\tau_{AB}=\tau_A+\tau_B,
+\label{eq:toy_model}
+\end{equation}
+which matches the Bliss expectation for additive treatment effects.
+
+
+
+\subsection{Condition-wise interaction inference on the checkerboard}\label{ssec:bootstrap_interactions}
+Each condition \(\{c_i\}\) is realized by a pool of replicate wells \(\mathcal{W}(c_A, c_B)\), from which effective growth rates are inferred as described above.
+Treatment effects are estimated by bootstrap resampling from the pools of replicate wells.
+We draw \(B=200\) pairs consisting of one control well and one condition well, sampled with replacement from \(\mathcal{W}(\emptyset)\) and \(\mathcal{W}(c_A,c_B)\), respectively.
+For each draw \(b\), the treatment effect is defined as
+\[
+\tau_b(c_A,c_B)
+=
+\psi_b(\emptyset)-\psi_b(c_A,c_B),
+\]
+yielding a bootstrap distribution of treatment effects.
+
+For combination conditions, the corresponding mono-treatment growth rates \(\psi_b(c_A,0)\) and \(\psi_b(0,c_B)\) are sampled analogously and included in each bootstrap draw, as they are required for interaction analysis.
+
+\begin{comment}
+\paragraph{Significance of treatment effects.}
+A treatment effect was classified as significant if the corresponding 95-percentile interval excluded zero, and as not significant otherwise.
+All subsequent interaction metrics derived from $\tau$, including the Bliss interaction index $\mu_b$ and the Loewe-based $\nu_b$, inherit this bootstrap-based uncertainty quantification.
+\end{comment}
+
+\paragraph{Regime-wise aggregation across checkerboard conditions.}
+To summarise interactions for a given drug pair within a regime (sub-inhibitory or inhibitory), we combine the condition-wise bootstrap interaction estimates from all eligible checkerboard cells.
+In each aggregation draw, we sample 200 eligible conditions with replacement, using sampling probabilities proportional to
+\begin{equation}
+    w(\phi)=\sin(2\phi).
+    \label{eq:weights}
+\end{equation}
+This excludes monotherapy edges and gives the highest weight to near-equal mixing.
+For every sampled condition, we draw one interaction score from its condition-wise bootstrap distribution.
+Repeating this procedure yields an aggregated distribution, from which we report the median and central \(95\%\) interval for the regime-level interaction estimate.
+
+
+
+
+\begin{comment}
+\paragraph{Grouping inhibitory and sub-inhibitory conditions.}
+For a given condition, we counted the number of wells with $\psi>0$ and $\psi<0$ and applied a binomial sign test against the null hypothesis of equal probability.
+Conditions were classified as inhibitory if the binomial test supported $\psi<0$, as sub-inhibitory if it supported $\psi>0$, and as not significantly different from zero otherwise ($\alpha = .1)$.
+This condition-wise classification is used both to annotate the $\psi$ heatmaps and to define the sub-inhibitory, inhibitory, and not-different pools used in downstream interaction summaries.
+\end{comment}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\clearpage
+\subsection{Continuous interaction surfaces and geometric exploration}\label{ssec:surface}
+
+
+\paragraph{Density-based restriction of the surface domain.}
+For some drugs, the empirical data density decreases at high concentrations as trajectories drop below the detection limit and are excluded.
+We therefore restrict the chequerboard to the high-density subdomain.
+For each drug pair, we compute, for every grid cell \((i,j)\), the valid fraction \(f(i,j)=n_{\mathrm{valid}}(i,j)/4\) (with \(n_{\mathrm{valid}}\) counting non-\(\mathrm{NaN}\) values of \(\psi\)).
+We then fit a monotone-decreasing helper surface \(f_{\mathrm{dens}}(i,j)\) by alternating one-dimensional isotonic regression sweeps (\texttt{sklearn.isotonic.IsotonicRegression}) along both index axes, followed by bivariate spline interpolation on the \((i,j)\) grid (\texttt{scipy.interpolate.RectBivariateSpline}).
+Cells with \(f_{\mathrm{dens}}(i,j)<f_{\min}\) are excluded, and all subsequent bootstrap resampling and surface-spline fitting are performed only on the remaining cells.
+
+
+\paragraph{Bootstrap datasets and coordinate transform.}
+For each pair of drugs \((A,B)\) we first collect all wells belonging to that pair together with their estimated effective net growth rates \(\psi\).
+Each well is indexed by a normalised concentration pair  \((z_A, z_B)\).
+To stabilise interpolation near zero, we transform the axes to \(\mathrm{Z}_A=\log_2(z_A+1)\) and \(\mathrm{Z}_B=\log_2(z_B+1)\).
+For each bootstrap draw \(b\) we generate a resampled surface dataset by sampling, with replacement, one well for every occupied grid point, and retaining its triplet \((\mathrm{Z}_A,\mathrm{Z}_B,\psi)\). 
+
+
+\paragraph{Monotone surface construction.}
+For each bootstrap dataset we enforce a monotone-decreasing \(\psi\)-surface by alternating one-dimensional isotonic regressions along rows and columns.
+This is important to ensure that the backtransformation $z_\phi(\psi)$ is unique.
+Specifically, for each column and then for each row we apply an isotonic regression with a nonincreasing constraint using \texttt{sklearn.isotonic.IsotonicRegression} \cite{Pedregosa2011}.
+On each monotone grid we fit a bivariate spline \(s_{AB}^{(b)}(\mathrm{Z}_A,\mathrm{Z}_B)\) using \texttt{scipy.interpolate.RectBivariateSpline} with a linear basis functions in both directions.
+For each drug combination we calculate a consensus surface $\psi^\mathrm{cons}$ based on the median of the single splines.
+
+
+\paragraph{Bliss and Loewe interaction indices on the surface.}
+Given the consensus surface \(\psi^{\mathrm{cons}}(z_A,z_B)\), we evaluate Bliss and Loewe interaction measures on the same effect scales defined above.
+In particular, we use the surface-derived treatment effects \(\tau(\cdot)\) (see \autoref{eq:tau_eff}) to compute the Bliss expectation
+\[
+\tau_{\mathrm{Bliss}}(z_A,z_B)=\tau(z_A)+\tau(z_B),
+\]
+where \(\tau(z_A)\) and \(\tau(z_B)\) are obtained from the consensus edge profiles \(\psi^{\mathrm{cons}}(z_A,0)\) and \(\psi^{\mathrm{cons}}(0,z_B)\), with \(\psi^\mathrm{cons}(\emptyset)=\psi^{\mathrm{cons}}(0,0)\).
+We then define a normalized Bliss interaction index on the surface by
+\[
+\mu_{\mathrm{surf}}(z_A,z_B)
+=
+\frac{\tau_{\mathrm{Bliss}}(z_A,z_B)-\tau(z_A,z_B)}{\tau_{\mathrm{Bliss}}(z_A,z_B)},
+\]
+using the same sign convention as \autoref{eq:mu}.
+
+For Loewe additivity, we evaluate \(\nu(z_A,z_B)\) in the same way as \autoref{eq:fici}, using the consensus monotherapy edges to obtain the monotherapy-equivalent doses \(z_A^\ast\) and \(z_B^\ast\) at the observed effect \(\psi^{\mathrm{cons}}(z_A,z_B)\):
+\[
+\nu(z_A,z_B)
+=
+\frac{z_A}{z_A^\ast}
++
+\frac{z_B}{z_B^\ast} -1,
+\qquad
+\psi^{\mathrm{cons}}(z_A^\ast,0)=\psi^{\mathrm{cons}}(0,z_B^\ast)=\psi^{\mathrm{cons}}(z_A,z_B).
+\]
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%% vi 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Single-drug inoculum effect analysis}\label{ssec:inoculum}
+During data analysis, we noted that inocula varied more than expected, which we traced to variability induced by the pintool. 
+Across all wells, the pre-treatment luminescence standard diviation was ($\sigma(I_0)=6.89\times 10^{4}$\,RLU),  between experiments ($\sigma_{\mathrm{between}}=4.33\times 10^{4}$\,RLU) and within experiments ($\sigma_{\mathrm{within}}=5.47\times 10^{4}$\,RLU). 
+To investigate whether the observed net growth rates $\psi$ systematically depended on inoculum size, we used the pre-treatment luminescence signal ($I_0$) as a proxy for initial cell density. 
+
+For all monotherapy drug concentration conditions with at least \(n \ge 5\) replicates, we fitted an ordinary least-squares regression of \(\psi\) on \(I_0\) to obtain a concentration-specific slope \(\beta_{\mathrm{inoculum}}\) together with a confidence interval, the value \(p\) and the determination coefficient \(R^2\). 
+These slopes and their uncertainty summaries were visualised as concentration--slope profiles with \(95\%\) intervals in \autoref{fig:inoculum}. 
+Across AMO, CHL, PEN, and TET, the estimated slopes were negligible across concentrations, whereas COL and POL showed the strongest dependence on $I_0$ at intermediate concentrations (around \SI{1}{\micro\gram\per\milli\liter}). 
+
+To assess whether inoculum size varies systematically along the one-dimensional concentration index, we pooled all single-drug wells and mapped each well to its concentration index. 
+We then performed a permutation test on the ordinary least-squares slope of $\log_{10} I_0$ versus index by permuting $\log_{10} I_0$ across indices to obtain a null distribution. 
+We found no evidence for a systematic trend of inoculum size with index in our data ($p=0.092$), suggesting that inoculum variation contributes noise but does not introduce a strong directional bias along the concentration series. 
+Consistent with this, the inoculum effect primarily adds scatter at intermediate concentrations of COL and POL, contributing to the increased spread in the corresponding single-drug PD curves. 
+

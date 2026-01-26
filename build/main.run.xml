@@ -87,6 +87,8 @@
       <file>bibliographies/TSPlasmid.bib</file>
       <file>bibliographies/thesis.bib</file>
       <file>bibliographies/Luminescence_Paper.bib</file>
+      <file>bibliographies/zenodo.bib</file>
+      <file>bibliographies/combination_paper.bib</file>
     </requires>
   </external>
 </requests>

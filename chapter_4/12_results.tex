@@ -1,0 +1,177 @@
+% Results introduction
+We quantified drug interactions for 15 pairwise combinations of six antibiotics spanning three mechanistic classes: polymyxins (colistin, COL; polymyxin~B, POL), \(\beta\)-lactams (amoxicillin, AMO; penicillin, PEN), and ribosome-targeting inhibitors (chloramphenicol, CHL; tetracycline, TET).
+For each drug pair, we assessed 144 conditions in a \(12\times 12\) concentration checkerboard.
+We used light intensity trajectories  $I(t)$ measured for 8{,}640 bioluminescent cultures to infer changes in population size over time.
+Monotreatment trajectories are shown in \autoref{fig:single-timecourses}.
+
+\begin{figure}
+  \centering
+  \begin{overpic}[width=89mm]{chapter_4/figures/peptide_interaction.pdf}
+    \put(5,97){\small\textbf{(a)}}
+    \put(5,66){\small\textbf{(b)}}
+    \put(5,36){\small\textbf{(c)}}
+    \put(45,50){\scriptsize$\mathrm{AUC}_\mathrm{ctrl} = \displaystyle \int_{0}^{T} Y_{\mathrm{ctrl}}(t)\,\mathrm{d}t$}
+    \put(23,43){\scriptsize$\mathrm{AUC}_\mathrm{treat} = \displaystyle \int_{0}^{T} Y_{\mathrm{treat}}(t)\,\mathrm{d}t$}
+  \end{overpic}
+  \caption{
+    Panel (a) shows the median normalised light-intensity trajectories \(y(t)=I(t)/I(0)\) for the combination of polymyxin~B (POL, \SI{0.5}{\micro\gram\per\milli\liter}) and tetracycline (TET, \SI{2}{\micro\gram\per\milli\liter}), together with the corresponding monotherapies and the untreated control, with shaded bands indicating the interquartile range across biological replicates.
+    Panel (b) shows the log-transformed signal \(Y(t)=\ln(y(t))\) for the untreated control and the combination treatment from panel (a), together with their associated areas under the curve.
+    Panel (c) shows a simple peptide--antibiotic interaction model illustrating qualitatively distinct dynamics under: no drugs, antibiotic (slow constant decline), peptide (rapid initial decline), and peptide plus antibiotic (rapid initial decline followed by a constant slow decline).
+  }
+  \label{fig:peptide-interactions}
+\end{figure}
+
+%%%%%%%%
+%%% PEPTIDE - Antibitic Interactions
+%% Effective net growth
+%%%%%%%%%
+\paragraph{Time-variant growth rates and treatment effects.}
+Most drug-interaction metrics are based on estimates of \textit{treatment effects}, which summarise growth trajectories as a scalar.
+These estimates are typically either rate-based, obtained by fitting an exponential rate of change to a growth trajectory \cite{Regoes2004, Yeh2006, Chevereau2015a, Yu2016, Angermayr2022}, or area under the curve (AUC)-based, obtained by integrating a (transformed) growth trajectory over time \cite{MacGowan2000, Lenhard2015, Rao2017, Caballero2018, Chen2020, Sanchez-Hevia2025}.
+Rate-based approaches are easy to interpret and can be used directly in epidemiological models.
+However, under time-variant treatment effects, inferred slopes are sensitive to the choice of the fitting window.
+This sensitivity is especially problematic when assessing interactions among drugs with very different killing dynamics (e.g., in the example shown in \autoref{fig:peptide-interactions}a), where treatment effects start at different time points and persist for different durations.
+
+Given that many observed trajectories exhibited strongly time-varying treatment effects, we summarised each trajectory by the time-weighted net growth rate \(\psi\) (Methods), defined as a time-weighted average of the instantaneous net growth rate \(\hat{\psi}(t)\) (\autoref{eq:psi_weighted}).
+This way, we emphasise early treatment effects, as changes in net growth that occur earlier affect the trajectory longer than equally sized changes occurring later.
+Equivalently, \(\psi\) is proportional to the area under the log-normalised luminescence trajectory \(Y(t)=\ln(I(t)/I(0))\) (\autoref{eq:Ydef}).
+Treatment effects are then defined as the difference between the time-weighted net growth rates of an untreated control and the treated condition, and correspond to the scaled area between the curves (\autoref{fig:peptide-interactions}b).
+
+Median time-weighted net growth rates (\(n=4\)) for all conditions are shown in \autoref{fig:psi_chl_tet} and \autoref{fig:psi}, with markers indicating the classification as inhibitory (stars), sub-inhibitory (diamonds), or intermediate (no marker). For further details see Methods.
+We then fitted single-drug pharmacodynamic curves to the monotreatment estimates (\autoref{fig:single-pdcurves}).
+
+For each condition $(c_A, c_B)$ we estimate the bootstrap distribution \(\bm{\tau}(c_A,c_B)\) by resampling pairs of control and treatment wells with replacement (Methods, \siref{ssec:bootstrap\_interactions}).
+Throughout this manuscript, we denote distributions with bold symbols.
+For each bootstrap draw \(b\), we compute \(\tau_b(c_A,c_B)=\psi_b(\emptyset)-\psi_b(c_A,c_B)\).
+
+\begin{figure}
+  \centering
+  \includegraphics[width = 89 mm]{chapter_4/figures/psi_chloramphenicol_tetracycline.pdf}
+  \caption{
+    Time-weighted growth rate \(\psi\) for combinations of CHL and TET.
+    Each cell corresponds to one concentration pair, with colour indicating the median of $\psi$ across \(n=4\) biological replicates.
+    Markers denote whether the distribution of $\psi$ is significantly different from zero (see Methods): stars indicate significantly positive values (net growth), and diamonds indicate significantly negative values (net killing).
+  }
+  \label{fig:psi_chl_tet}
+\end{figure}
+
+%%%%%%%%
+%% Interaction Models
+%%%%%%%%%
+\paragraph{Bliss independence implies additive treatment effects.}
+Because the original Bliss formulation is probabilistic, we translate it into our growth-based treatment-effect framework (see \siref{ssec:bliss}).
+Bliss independence implies multiplicative survival  \(S_{AB}(T)=S_A(T)\,S_B(T)\) (\autoref{eq:bliss_prob}).
+After substituting \(S_i(T)=\exp\!\big(-\int_0^T \hat{\tau}_i(u)\,du\big)\) with \(\hat{\tau}_i(t)\), denoting the \emph{instantaneous treatment effect}, we can derive that Bliss implies additive \emph{time-weighted treatment effects}:
+\begin{equation}
+  \tau^{\mathrm{Bliss}}(c_A,c_B)=\tau(c_A)+\tau(c_B).
+  \label{eq:tau_bliss_main}
+\end{equation}
+
+% Not A Toy model.
+\paragraph{Peptide -- non-peptide interaction model.}
+We observed that a combination of non-peptide drugs with relatively constant inhibition dynamics and peptide-like drugs, which induce a sharp early decline followed by (almost) unimpaired growth, is dominated by the peptide drug in the early phase and by the non-peptide drug in the later phase.
+A well-behaved example of such a combination is shown in \autoref{fig:peptide-interactions}a for polymyxin~B (POL) and tetracycline (TET).
+Because most interaction metrics do not explicitly account for time-varying effects, it is unclear what combined treatment effects to expect.
+We, therefore, constructed a simple model for an idealised scenario.
+Drug~A immediately reduces the population by a factor \(\alpha\) but does not affect the subsequent dynamics, while drug~B acts invariantly over time by reducing the constant net growth rate from \(\hat{\psi}_{\mathrm{ctrl}}\) to \(\hat{\psi}_{B}\).
+In combination, the population is first reduced by \(\alpha\) and then grows with \(\hat{\psi}_{B}\).
+Substituting our rate definition (\autoref{eq:effective_psi}) into this model yields additive treatment effects, \(\tau_{AB}=\tau_A+\tau_B\) (see \siref{ssec:toy_model}), equivalent to the Bliss prediction derived above.
+
+\paragraph{Interaction scores $(\mu, \nu)$.}
+Based on the Bliss prediction  of combined treatment effects derived above, we define the Bliss interaction score \(\mu\) as the normalised deviation from the prediction (\autoref{eq:mu}).
+The distribution of \(\mu\) can be inferred based on the distributions of treatment effects $\bm{\tau}$ described above.
+For Loewe additivity, we define the interaction score \(\nu\) as the deviation from dose equivalence (\autoref{eq:fici}).
+We obtain \(\nu_b\) from the inverted single-drug pharmacodynamic curves \(f_i^{-1}(\psi_b)\) (\autoref{eq:psi_inverse_closed_form}).
+We then assign an interaction type (synergistic, neutral, antagonistic) depending on whether the \(95\%\) interval of \(\bm{\mu}\) or \(\bm{\nu}\) lies below, contains, or lies above zero.
+The resulting interaction types based on  \(\bm{\mu}\) and \(\bm{\nu}\) for each combination are shown in Figures \ref{fig:mu_interaction_heatmap} and \ref{fig:fici_interaction_heatmap}.
+
+%%%%%%%%
+%% Bootstrap treatment effects
+%%%%%%%%%
+\paragraph{Disagreement between sub-inhibitory and inhibitory  interaction types within reference models.}
+Using the per-condition distributions of interaction scores  described above, we next assessed whether interaction classifications remain consistent across concentration regimes.
+We normalised concentrations \(c_i\) by the corresponding \(\mathrm{zMIC}_i\) (defined by \(f_i(c_i) =0\); \autoref{tab:pd_curve_parameter}), setting \(z_i=c_i/\mathrm{zMIC}_i\).
+We then separately summarised inhibitory and sub-inhibitory conditions using a second, higher-level bootstrap.
+Specifically, we sampled conditions \((c_A,c_B)_r\) for \(r=(1,\dots,200)\) with replacement, weighted by their mixing ratio (\autoref{eq:weights}).
+For each sampled condition, we drew one estimate from the condition's distributions \(\bm{\mu}(c_A,c_B)\) and \(\bm{\nu}(c_A,c_B)\).
+To compare regimes and reference models, we define three alignment classes: agreement (same classification), soft disagreement (neutral in one but synergistic or antagonistic in the other), and strong disagreement (opposite classifications).
+The resulting comparisons between sub-inhibitory and inhibitory regimes for \(\bm{\nu}_{\mathrm{sub}}\), \(\bm{\nu}_{\mathrm{inh}}\) and \(\bm{\mu}_{\mathrm{sub}}\), \(\bm{\mu}_{\mathrm{inh}}\) are shown in \autoref{fig:interation-distributions}a,b and the resulting interaction types in \autoref{tab:intearction_summary}.
+
+Under Bliss independence, we observed six combinations with agreement and 9 cases of disagreement, of which one resulted in strong disagreement (AMO+PEN) and eight resulted in soft disagreement.
+Under Loewe additivity, we also observed six combinations with agreement and 9 cases of disagreement.
+Here, we observed two cases of strong disagreement (COL+TET and POL+TET) and seven with soft disagreement.
+
+\begin{figure*}
+  \centering
+  \begin{overpic}[width=189mm]{chapter_4/figures/distributions_triptych.pdf}
+  \put(5,44){\large\textbf{a)}}
+\put(38,44){\large\textbf{b)}}
+\put(70,44){\large\textbf{c)}}
+\end{overpic}
+
+\caption{
+Two-dimensional summaries of interaction estimates across regimes and models.
+Panels \textbf{(a)} and \textbf{(b)} compare sub--inhibitory vs.\ inhibitory interaction scores, using \textbf{(a)} the Bliss interaction score $\mu$ and \textbf{(b)} the Loewe interaction score $\nu$.
+Each point represents one drug combination, plotted as the median estimate in the sub--inhibitory regime (x-axis) against the median estimate in the inhibitory regime (y-axis), with 95\% bootstrap intervals shown as horizontal and vertical error bars.
+\textbf{(c)} Loewe vs.\ Bliss comparison across regimes: each point corresponds to one combination and regime, plotted as the median Loewe interaction score $\nu$ (x-axis) against the corresponding Bliss interaction score $\mu$ (y-axis), with 95\% bootstrap intervals.
+Markers encode the drug combination (shared legend for panels \textbf{(a)} and \textbf{(b)}), while marker shape encodes the regime in panel \textbf{(c)}.
+Colors indicate classification agreement between the two compared axes in each panel:
+\emph{agreement} if both classifications match (N--N, S--S, A--A),
+\emph{soft disagreement} if one classification is neutral and the other is non-neutral (N--S, N--A),
+and \emph{strong disagreement} if the classifications are opposite (S--A).
+}
+\label{fig:interation-distributions}
+\end{figure*}
+
+% BLISS VS LOEWE
+\paragraph{Disagreement between reference models, within concentration regimes.}
+\autoref{fig:interation-distributions}c replots the same interaction summaries described above, but now compares the Bliss interaction score \(\mu\) to the Loewe interaction score \(\nu\) across both sub-inhibitory and inhibitory regimes in a single panel.
+\autoref{fig:si-loewe-vs-bliss-2d}a,b show the same comparison but  separated by regime.
+Across all 30 (2\(\times\)15) comparisons, the Bliss and Loewe-based classifications agree in 14 cases, show soft disagreement in 15 cases, and show strong disagreement in one case (CHL+TET) (\autoref{fig:interation-distributions}c).
+
+%%%%%%%%
+%% SURFACE PART
+%%%%%%%%%
+\paragraph{Interaction types can change with dose even at fixed mixing ratio.}
+Above, we compared interaction summaries between sub-inhibitory and inhibitory regimes by aggregating condition-wise estimates across a range of doses and mixing ratios.
+We next ask whether interaction types also change (i) as the dose increases at a fixed mixing ratio, and (ii) as the mixing ratio varies at a fixed effect level.
+To facilitate both analyses, we reparameterize concentration pairs \((c_A,c_B)\) in polar coordinates \((z,\phi)\), where \(z\) is the combined dose and \(\phi\) is the mixing angle (\autoref{eq:polar_coordinates}).
+
+For each drug combination, we fitted 25 continuous, monotonically decreasing surface splines on bootstrap datasets of \(\psi(c_A,c_B)\) (\autoref{fig:surface_psi}).
+Based on these splines, we estimate \emph{polar pharmacodynamic curves}, which show \(\psi\) as a function of the combined dose \(z\) at a fixed mixing angle \(\phi=45^\circ\) (equal mixing in units of \(\mathrm{zMIC}\)).
+At a given dose, predicted values above the observed \(\psi\) indicate synergy, whereas predicted values below the observed \(\psi\) indicate antagonism.
+For both reference models, there are examples where the interaction changes direction as the combined dose increases.
+For the combination AMO+COL (\autoref{fig:surface_plots}a), the Loewe-based interaction shifts from antagonism at lower doses to synergy at higher doses.
+For AMO+PEN (\autoref{fig:surface_plots}b) Bliss-based interaction flips, with synergy at lower doses and strong antagonism at higher doses.
+\emph{Polar pharmacodynamic curves} at \(45^\circ\) for all combinations are shown in \autoref{fig:surface_pd}.
+
+\paragraph{Interaction types can depend on the mixing ratio.}
+To assess whether interaction types depend on the mixing ratio at a fixed effect level, we extracted isoboles from the median surface spline, i.e., the path \((z,\phi)\) along which the time-weighted net growth rate is constant (\(\psi=\SI{0}{\per\hour}\); \autoref{fig:surface_isoboles}).
+Along each isobole, we evaluate Bliss- and Loewe-based predictions and plot these predictions as a function of \(\phi\).
+For most combinations, the inferred interaction type is stable across \(\phi\), as exemplified by CHL+TET (\autoref{fig:surface_plots}c).
+However, some combinations show mixing-ratio dependence, as illustrated for COL+PEN (\autoref{fig:surface_plots}d).
+Plots for all combinations are shown in \autoref{fig:surface_angular_interaction}.
+
+%% FIGURE 4
+\begin{figure}
+\centering
+\begin{overpic}[width = 89mm]{chapter_4/figures/surface_plot.pdf}
+\put(2,95){\textbf{(a)}}
+\put(2,50){\textbf{(c)}}
+\put(51,95){\textbf{(b)}}
+\put(51,50){\textbf{(d)}}
+\end{overpic}
+\caption{
+Panels (a,b) show \emph{polar pharmacodynamic curves} at \(\phi=45^\circ\) (corresponding to a \(1{:}1\) ratio in units of \(\mathrm{zMIC}\)) for (a) AMO+COL and (b) AMO+PEN.
+The x-axis shows the combined dose \(z\), where \(z=1/\sqrt{2}\) (blue dotted line) corresponds to both single-drug doses equaling \(0.5\,\mathrm{zMIC}\), and \(z=\sqrt{2}\) (blue dashed line) corresponds to both equaling \(1\,\mathrm{zMIC}\).
+Panels (c,d) show the Bliss- and Loewe-based predictions for \(\psi\) over the mixing angle \(\phi\) along the observed isobole at \(\psi=\SI{0}{\per\hour}\) for (c) COL+PEN and (d) CHL+TET.
+}
+
+\label{fig:surface_plots}
+\end{figure}
+
+\paragraph{Inoculum effects.}
+We noticed a much larger-than-expected variation in pre-treatment light intensity $I_0$ in our data, which corresponds to the size of the inoculum.
+To assess the impact of this variation on the results, we regressed \(\psi\) for each single-drug and concentration on the pre-treatment signal \(I_0\) (\siref{ssec:inoculum}).
+We found negligible inoculum effects for AMO, CHL, PEN, and TET, but substantial effects for COL and POL at intermediate concentrations (see \autoref{fig:inoculum}).
+Because the size of the inoculum did not show a significant directional trend along the concentration index (\(p=0.092\)), the variance of the inoculum mainly adds noise at intermediate concentrations of COL and POL, contributing to an increased scatter in \autoref{fig:single-pdcurves}c,e.

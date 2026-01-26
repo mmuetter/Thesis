@@ -1,0 +1,19 @@
+\usepackage{xr}
+
+%%% HELPER CODE
+\makeatletter
+\newcommand*{\addFileDependency}[1]{% argument=file name and extension
+  \typeout{(#1)}% latexmk will find this
+  \@addtofilelist{#1}% include in \listfiles
+  \IfFileExists{#1}{}{\typeout{No file #1.}}% warn if file doesn't exist
+}
+\makeatother
+
+\newcommand*{\myexternaldocument}[1]{%
+    \externaldocument{#1}%
+    \addFileDependency{#1.aux}%
+}
+%%% END HELPER CODE
+
+%%% Use the relative path to your supplementary `.aux` file
+\myexternaldocument{settings/si_refs} % Path to the .aux file
