@@ -5755,6 +5755,2140 @@
 
 \refsection{5}
   \datalist[entry]{none/global//global/global}
+    \entry{Regoes2004}{article}{}
+      \name{author}{6}{}{%
+        {{hash=8b33cacd224cbc26088f640a4315ebd2}{%
+           family={Regoes},
+           familyi={R\bibinitperiod},
+           given={Roland\bibnamedelima R.},
+           giveni={R\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=d6e2ab83b4bc289fda0c357b636469ee}{%
+           family={Wiuff},
+           familyi={W\bibinitperiod},
+           given={Camilla},
+           giveni={C\bibinitperiod}}}%
+        {{hash=6d1c415be005097138e09cb1faf047ae}{%
+           family={Zappala},
+           familyi={Z\bibinitperiod},
+           given={Renata\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=021b8665c3a7a660c6cc40d131d1e4a5}{%
+           family={Garner},
+           familyi={G\bibinitperiod},
+           given={Kim\bibnamedelima N.},
+           giveni={K\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=60ec94c15d742cd165219f68c115473d}{%
+           family={Baquero},
+           familyi={B\bibinitperiod},
+           given={Fernando},
+           giveni={F\bibinitperiod}}}%
+        {{hash=7e66d2f0845ac9a131047e9217fdbe46}{%
+           family={Levin},
+           familyi={L\bibinitperiod},
+           given={Bruce\bibnamedelima R.},
+           giveni={B\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{743f25ea86300128c01e2be1a9bacd55}
+      \strng{fullhash}{1dc86b669d04ffd1687f63b15752808f}
+      \strng{bibnamehash}{743f25ea86300128c01e2be1a9bacd55}
+      \strng{authorbibnamehash}{743f25ea86300128c01e2be1a9bacd55}
+      \strng{authornamehash}{743f25ea86300128c01e2be1a9bacd55}
+      \strng{authorfullhash}{1dc86b669d04ffd1687f63b15752808f}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{There is a complex quantitative relationship between the concentrations of antibiotics and the growth and death rates of bacteria. Despite this complexity, in most cases only a single pharmacodynamic parameter, the MIC of the drug, is employed for the rational development of antibiotic treatment regimens. In this report, we use a mathematical model based on a Hill function - which we call the pharmacodynamic function and which is related to previously published E max models - to describe the relationship between the bacterial net growth rates and the concentrations of antibiotics of five different classes: ampicillin, ciprofloxacin, tetracycline, streptomycin, and rifampin. Using Escherichia coli O18:K1:H7, we illustrate how precise estimates of the four parameters of the pharmacodynamic function can be obtained from in vitro time-kill data. We show that, in addition to their respective MICs, these antibiotics differ in the values of the other pharmacodynamic parameters. Using a computer simulation of antibiotic treatment in vivo, we demonstrate that, as a consequence of differences in pharmacodynamic parameters, such as the steepness of the Hill function and the minimum bacterial net growth rate attained at high antibiotic concentrations, there can be profound differences in the microbiological efficacy of antibiotics with identical MICs. We discuss the clinical implications and limitations of these results.}
+      \field{issn}{00664804}
+      \field{journaltitle}{Antimicrob. Agents Chemother.}
+      \field{number}{10}
+      \field{title}{{Pharmacodynamic functions: A multiparameter approach to the design of antibiotic treatment regimens}}
+      \field{volume}{48}
+      \field{year}{2004}
+      \field{pages}{3670\bibrangedash 3676}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1128/AAC.48.10.3670-3676.2004
+      \endverb
+      \verb{file}
+      \verb :Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/2004/Regoes et al. - 2004 - Pharmacodynamic functions A multiparameter approach to the design of antibiotic treatment regimens - Antimicrobia.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Foerster2016}{article}{}
+      \name{author}{5}{}{%
+        {{hash=f44a82a184ad15efbbb933e3c87e8a9d}{%
+           family={Foerster},
+           familyi={F\bibinitperiod},
+           given={Sunniva},
+           giveni={S\bibinitperiod}}}%
+        {{hash=86b37ee3d1e04554149219a063475f8b}{%
+           family={Unemo},
+           familyi={U\bibinitperiod},
+           given={Magnus},
+           giveni={M\bibinitperiod}}}%
+        {{hash=8eb05d1ff1d062239d9fd6950add95c1}{%
+           family={Hathaway},
+           familyi={H\bibinitperiod},
+           given={Lucy\bibnamedelima J.},
+           giveni={L\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=2a5a010dda1dd04d9e75f840c8cef424}{%
+           family={Low},
+           familyi={L\bibinitperiod},
+           given={Nicola},
+           giveni={N\bibinitperiod}}}%
+        {{hash=e660c7041ccee4f6eefe96e8b16c64c1}{%
+           family={Althaus},
+           familyi={A\bibinitperiod},
+           given={Christian\bibnamedelima L.},
+           giveni={C\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {BMC Microbiology}%
+      }
+      \strng{namehash}{baaa17562fb28bfdc2a2a993de395014}
+      \strng{fullhash}{baaa17562fb28bfdc2a2a993de395014}
+      \strng{bibnamehash}{baaa17562fb28bfdc2a2a993de395014}
+      \strng{authorbibnamehash}{baaa17562fb28bfdc2a2a993de395014}
+      \strng{authornamehash}{baaa17562fb28bfdc2a2a993de395014}
+      \strng{authorfullhash}{baaa17562fb28bfdc2a2a993de395014}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Background: Gonorrhoea is a sexually transmitted infection caused by the Gram-negative bacterium Neisseria gonorrhoeae. Resistance to first-line empirical monotherapy has emerged, so robust methods are needed to evaluate the activity of existing and novel antimicrobials against the bacterium. Pharmacodynamic models describing the relationship between the concentration of antimicrobials and the minimum growth rate of the bacteria provide more detailed information than the MIC only. Results: In this study, a novel standardised in vitro time-kill curve assay was developed. The assay was validated using five World Health Organization N. gonorrhoeae reference strains and a range of ciprofloxacin concentrations below and above the MIC. Then the activity of nine antimicrobials with different target mechanisms was examined against a highly antimicrobial susceptible clinical strain isolated in 1964. The experimental time-kill curves were analysed and quantified with a previously established pharmacodynamic model. First, the bacterial growth rates at each antimicrobial concentration were estimated with linear regression. Second, we fitted the model to the growth rates, resulting in four parameters that describe the pharmacodynamic properties of each antimicrobial. A gradual decrease of bactericidal effects from ciprofloxacin to spectinomycin and gentamicin was found. The beta-lactams ceftriaxone, cefixime and benzylpenicillin showed bactericidal and time-dependent properties. Chloramphenicol and tetracycline were purely bacteriostatic as they fully inhibited the growth but did not kill the bacteria. We also tested ciprofloxacin resistant strains and found higher pharmacodynamic MICs (zMIC) in the resistant strains and attenuated bactericidal effects at concentrations above the zMIC. Conclusions: N. gonorrhoeae time-kill curve experiments analysed with a pharmacodynamic model have potential for in vitro evaluation of new and existing antimicrobials. The pharmacodynamic parameters based on a wide range of concentrations below and above the MIC provide information that could support improving future dosing strategies to treat gonorrhoea.}
+      \field{issn}{14712180}
+      \field{journaltitle}{BMC Microbiol.}
+      \field{number}{1}
+      \field{title}{{Time-kill curve analysis and pharmacodynamic modelling for in vitro evaluation of antimicrobials against Neisseria gonorrhoeae}}
+      \field{volume}{16}
+      \field{year}{2016}
+      \field{pages}{1\bibrangedash 11}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1186/s12866-016-0838-9
+      \endverb
+      \verb{file}
+      \verb :Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/2016/Foerster et al. - 2016 - Time-kill curve analysis and pharmacodynamic modelling for in vitro evaluation of antimicrobials against Neisse.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1186/s12866-016-0838-9
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1186/s12866-016-0838-9
+      \endverb
+      \keyw{Antimicrobial resistance,Gonorrhoea,Neisseria gonorrhoeae,Pharmacodynamics,Time-kill curves}
+    \endentry
+    \entry{Vellend1977}{misc}{}
+      \name{author}{8}{}{%
+        {{hash=59f258e843441aaf8028ef2c449c4aa6}{%
+           family={Vellend},
+           familyi={V\bibinitperiod},
+           given={H},
+           giveni={H\bibinitperiod}}}%
+        {{hash=1db77fd49eacf6ff59952e634e90cdce}{%
+           family={Turtle},
+           familyi={T\bibinitperiod},
+           given={S},
+           giveni={S\bibinitperiod}}}%
+        {{hash=31e3ab60930998ef9b8399d1398fbb38}{%
+           family={Schrock},
+           familyi={S\bibinitperiod},
+           given={C\bibnamedelima G},
+           giveni={C\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=44f5b7dd6bc46531f93575e430dbd203}{%
+           family={Deming},
+           familyi={D\bibinitperiod},
+           given={J\bibnamedelima W},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=60eb4a123c9bc15b6066f30b2c78161c}{%
+           family={Barza},
+           familyi={B\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod}}}%
+        {{hash=8f45cfd6db468d15ca64488191491799}{%
+           family={Wiemtein},
+           familyi={W\bibinitperiod},
+           given={L},
+           giveni={L\bibinitperiod}}}%
+        {{hash=df7d84ff836fa477f9443f7a5649f3aa}{%
+           family={Picciolo},
+           familyi={P\bibinitperiod},
+           given={G\bibnamedelima L},
+           giveni={G\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=33a825ae5f20f81edb4c2a3545e8ed7f}{%
+           family={Chappelle},
+           familyi={C\bibinitperiod},
+           given={E\bibnamedelima W},
+           giveni={E\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {NASA TECHNICAL NOTE}%
+      }
+      \strng{namehash}{b4ceb5b531b3395b1b4b73ff4787b84c}
+      \strng{fullhash}{acf4eeedd8541118f3fad74d8ca17711}
+      \strng{bibnamehash}{b4ceb5b531b3395b1b4b73ff4787b84c}
+      \strng{authorbibnamehash}{b4ceb5b531b3395b1b4b73ff4787b84c}
+      \strng{authornamehash}{b4ceb5b531b3395b1b4b73ff4787b84c}
+      \strng{authorfullhash}{acf4eeedd8541118f3fad74d8ca17711}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The development of a rapid method for determining microbial susceptibilities to antibiotics using the firefly luciferase assay for adenosine triphosphate (ATP) is documented. The reduction of bacterial ATP by an antimicrobial agent was determined to be a valid measure of drug effect in most cases. The effect of 12 antibiotics on 8 different bacterial species gave a 94 percent correlation with the standard Kirby-Buer-Agar disc diffusion method. A 93 percent correlation was obtained when the ATP assay method was applied directly to 50 urine specimens from patients with urinary tract infections. Urine samples were centrifuged first to that bacterial pellets could be suspended in broth. No primary isolation or subculturing was required. Mixed cultures in which one species was predominant gave accurate results for the most abundant organism. Since the method is based on an increase in bacterial ATP with time, the presence of leukocytes did not interfere with the interpretation of results. Both the incubation procedure and the ATP assays are compatible with automation.}
+      \field{title}{{Application of firefly luciferase assay for adenosine triphosphate (ATP) to antimicrobial drug sensitivity testing}}
+      \field{year}{1977}
+      \verb{file}
+      \verb :Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/1977/Vellend et al. - 1977 - Application of firefly luciferase assay for adenosine triphosphate (ATP) to antimicrobial drug sensitivity testi.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Jacobs1993}{article}{}
+      \name{author}{10}{}{%
+        {{hash=0adfa8d04249f566c2b1e20a3b979843}{%
+           family={Jacobs},
+           familyi={J\bibinitperiod},
+           given={William\bibnamedelima R.},
+           giveni={W\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=02368fc500d6420aaede3c84b74b74f2}{%
+           family={Barletta},
+           familyi={B\bibinitperiod},
+           given={Ra{ú}l\bibnamedelima G.},
+           giveni={R\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=4a788dacc26424aa1b5caf938945bbab}{%
+           family={Udani},
+           familyi={U\bibinitperiod},
+           given={Rupa},
+           giveni={R\bibinitperiod}}}%
+        {{hash=af99fee3957dd94e4109dd40cb6bdf47}{%
+           family={Chan},
+           familyi={C\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+        {{hash=e4d4920a3c5205b7850d5fc346f60caf}{%
+           family={Kalkut},
+           familyi={K\bibinitperiod},
+           given={Gary},
+           giveni={G\bibinitperiod}}}%
+        {{hash=9c2fa9e342d0d56efb99b03ca984d01d}{%
+           family={Sosne},
+           familyi={S\bibinitperiod},
+           given={Gabriel},
+           giveni={G\bibinitperiod}}}%
+        {{hash=66743291f25a55086f64fc6cfce2d00c}{%
+           family={Kieser},
+           familyi={K\bibinitperiod},
+           given={Tobias},
+           giveni={T\bibinitperiod}}}%
+        {{hash=51845ed5b9ab6478fd39ae3be6dc6d9b}{%
+           family={Sarkis},
+           familyi={S\bibinitperiod},
+           given={Gary\bibnamedelima J.},
+           giveni={G\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=ccf781085520ed8659d84ce571e28127}{%
+           family={Hatfull},
+           familyi={H\bibinitperiod},
+           given={Graham\bibnamedelima F.},
+           giveni={G\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=5d9890768daac6fd686378432756938b}{%
+           family={Bloom},
+           familyi={B\bibinitperiod},
+           given={Barry\bibnamedelima R.},
+           giveni={B\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{99afdb4308693293576e23a9a6e795e0}
+      \strng{fullhash}{a62a1d7dff16907710e4304be5fdd521}
+      \strng{bibnamehash}{99afdb4308693293576e23a9a6e795e0}
+      \strng{authorbibnamehash}{99afdb4308693293576e23a9a6e795e0}
+      \strng{authornamehash}{99afdb4308693293576e23a9a6e795e0}
+      \strng{authorfullhash}{a62a1d7dff16907710e4304be5fdd521}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Effective chemotherapy of tuberculosis requires rapid assessment of drug sensitivity because of the emergence of multidrug-resistant Mycobacterium tuberculosis . Drug susceptibility was assessed by a simple method based on the efficient production of photons by viable mycobacteria infected with specific reporter phages expressing the firefly luciferase gene. Light production was dependent on phage infection, expression of the luciferase gene, and the level of cellular adenosine triphosphate. Signals could be detected within minutes after infection of virulent M. tuberculosis with reporter phages. Culture of conventional strains with antituberculosis drugs, including isoniazid or rifampicin, resulted in extinction of light production. In contrast, light signals after luciferase reporter phage infection of drug-resistant strains continued to be produced. Luciferase reporter phages may help to reduce the time required for establishing antibiotic sensitivity of M. tuberculosis strains from weeks to days and to accelerate screening for new antituberculosis drugs.}
+      \field{issn}{0036-8075}
+      \field{journaltitle}{Science (80-. ).}
+      \field{number}{5109}
+      \field{title}{{Rapid Assessment of Drug Susceptibilities of Mycobacterium tuberculosis by Means of Luciferase Reporter Phages}}
+      \field{volume}{260}
+      \field{year}{1993}
+      \field{pages}{819\bibrangedash 822}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1126/science.8484123
+      \endverb
+      \verb{file}
+      \verb :Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/1993/Jacobs et al. - 1993 - Rapid Assessment of Drug Susceptibilities of Mycobacterium tuberculosis by Means of Luciferase Reporter Phages -.pdf:pdf;:Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/1993/Jacobs et al. - 1993 - Rapid Assessment of Drug Susceptibilities of Mycobacterium tuberculosis by Means of Luciferase Reporter Phages -.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Loeliger2003}{article}{}
+      \name{author}{6}{}{%
+        {{hash=cff84eb9b06d080b4998912c15605833}{%
+           family={Loeliger},
+           familyi={L\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=45ea851fb9edac9a54a8e64458faaf13}{%
+           family={Caldelari},
+           familyi={C\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod}}}%
+        {{hash=9f4c3449f55d586fe63ea14fb29dc29c}{%
+           family={Bizzini},
+           familyi={B\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=f021b475819b15fa0f12a715e9f14906}{%
+           family={Meier},
+           familyi={M\bibinitperiod},
+           given={P.\bibnamedelimi Stutzmann},
+           giveni={P\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=1e2a300e29e60d8755879f3f96268928}{%
+           family={Majcherczyk},
+           familyi={M\bibinitperiod},
+           given={P.\bibnamedelimi A.},
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=39267604585ef72120f9b8241c16aac6}{%
+           family={Moreillon},
+           familyi={M\bibinitperiod},
+           given={Philippe},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Mary Ann Liebert, Inc.}%
+      }
+      \strng{namehash}{4b3db9a19c2aa0cb8e32f7eb8802696a}
+      \strng{fullhash}{fa7f68792e74d59e4807c0404cc7938e}
+      \strng{bibnamehash}{4b3db9a19c2aa0cb8e32f7eb8802696a}
+      \strng{authorbibnamehash}{4b3db9a19c2aa0cb8e32f7eb8802696a}
+      \strng{authornamehash}{4b3db9a19c2aa0cb8e32f7eb8802696a}
+      \strng{authorfullhash}{fa7f68792e74d59e4807c0404cc7938e}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Measuring antibiotic-induced killing relies on time-consuming biological tests. The firefly luciferase gene (luc) was successfully used as a reporter gene to assess antibiotic efficacy rapidly in s...}
+      \field{issn}{10766294}
+      \field{journaltitle}{https://home.liebertpub.com/mdr}
+      \field{month}{7}
+      \field{number}{2}
+      \field{title}{{Antibiotic-Dependent Correlation Between Drug-Induced Killing and Loss of Luminescence in Streptococcus gordonii Expressing Luciferase}}
+      \field{volume}{9}
+      \field{year}{2003}
+      \field{pages}{123\bibrangedash 131}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1089/107662903765826705
+      \endverb
+      \verb{file}
+      \verb :Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/2003/Loeliger et al. - 2003 - Antibiotic-Dependent Correlation Between Drug-Induced Killing and Loss of Luminescence in Streptococcus gordoni.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.liebertpub.com/doi/10.1089/107662903765826705
+      \endverb
+      \verb{url}
+      \verb https://www.liebertpub.com/doi/10.1089/107662903765826705
+      \endverb
+    \endentry
+    \entry{Engebrecht1985}{article}{}
+      \name{author}{3}{}{%
+        {{hash=bc78cf7a8c38a073fa88244a408526ec}{%
+           family={Engebrecht},
+           familyi={E\bibinitperiod},
+           given={Joanne},
+           giveni={J\bibinitperiod}}}%
+        {{hash=8c05148d771681a795f1896134723673}{%
+           family={Simon},
+           familyi={S\bibinitperiod},
+           given={Melvin},
+           giveni={M\bibinitperiod}}}%
+        {{hash=a5cde4f8a487bfa989badee0d61e74d4}{%
+           family={Silverman},
+           familyi={S\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Science}%
+      }
+      \strng{namehash}{608f6918da276403b37c49528b883375}
+      \strng{fullhash}{608f6918da276403b37c49528b883375}
+      \strng{bibnamehash}{608f6918da276403b37c49528b883375}
+      \strng{authorbibnamehash}{608f6918da276403b37c49528b883375}
+      \strng{authornamehash}{608f6918da276403b37c49528b883375}
+      \strng{authorfullhash}{608f6918da276403b37c49528b883375}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Light is produced by recombinant Escherichia coli that contain lux genes cloned from the marine bacterium Vibrio fischen. The bioluminescence phenotype requires genes for regulatory and biochemical functions, the latter encoded by five lux genes contained in a single operon. These lux genes were disconnected from their native promoter and inserted into the transposon mini-Mu. The resulting transposon, mini-Mulux, could induce mutations by insertional inactivation of a target gene, and the lux DNA was oriented to align target gene transcription with that of the lux genes. Genes in Escherichia coli and Vibrio parahaemolyticus were mutagenized, and mutants containing transposon-generated lux gene fusions produced light as a function of target gene transcription. Light production offers a simple, sensitive, in vivo indicator of gene expression.}
+      \field{issn}{0036-8075}
+      \field{journaltitle}{Science}
+      \field{number}{4692}
+      \field{title}{{Measuring gene expression with light}}
+      \field{volume}{227}
+      \field{year}{1985}
+      \field{pages}{1345\bibrangedash 1347}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1126/SCIENCE.2983423
+      \endverb
+      \verb{file}
+      \verb :Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/1985/Engebrecht, Simon, Silverman - 1985 - Measuring gene expression with light - Science (New York, N.Y.).pdf:pdf;:Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/1985/Engebrecht, Simon, Silverman - 1985 - Measuring gene expression with light - Science (New York, N.Y.).pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://pubmed.ncbi.nlm.nih.gov/2983423/ https://pubmed.ncbi.nlm.nih.gov/2983423/?utm{\_}source=chatgpt.com
+      \endverb
+      \verb{url}
+      \verb https://pubmed.ncbi.nlm.nih.gov/2983423/%20https://pubmed.ncbi.nlm.nih.gov/2983423/?utm%7B%5C_%7Dsource=chatgpt.com
+      \endverb
+      \keyw{DNA,DNA Transposable Elements,Escherichia coli / genetics,Gene Expression Regulation*,J Engebrecht,Luciferases / genetics,Luminescence,Luminescent Proteins / genetics*,M Silverman,M Simon,MEDLINE,Mutation,NCBI,NIH,NLM,National Center for Biotechnology Information,National Institutes of Health,National Library of Medicine,Non-P.H.S.,Phenotype,Protein Biosynthesis,PubMed Abstract,Recombinant / metabolism*,Research Support,U.S. Gov't,Vibrio / genetics,Vibrio parahaemolyticus / metabolism,doi:10.1126/science.2983423,pmid:2983423}
+    \endentry
+    \entry{Meighen1991}{article}{}
+      \name{author}{1}{}{%
+        {{hash=aa9e2d222989ebc6a211e73d58abb468}{%
+           family={Meighen},
+           familyi={M\bibinitperiod},
+           given={Edward\bibnamedelima A.},
+           giveni={E\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{aa9e2d222989ebc6a211e73d58abb468}
+      \strng{fullhash}{aa9e2d222989ebc6a211e73d58abb468}
+      \strng{bibnamehash}{aa9e2d222989ebc6a211e73d58abb468}
+      \strng{authorbibnamehash}{aa9e2d222989ebc6a211e73d58abb468}
+      \strng{authornamehash}{aa9e2d222989ebc6a211e73d58abb468}
+      \strng{authorfullhash}{aa9e2d222989ebc6a211e73d58abb468}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{01460749}
+      \field{journaltitle}{Microbiol. Rev.}
+      \field{number}{1}
+      \field{title}{{Molecular biology of bacterial bioluminescence}}
+      \field{volume}{55}
+      \field{year}{1991}
+      \field{pages}{123\bibrangedash 142}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1128/mr.55.1.123-142.1991
+      \endverb
+      \verb{file}
+      \verb :Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/1991/Meighen - 1991 - Molecular biology of bacterial bioluminescence - Microbiological Reviews.pdf:pdf;:Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/1991/Meighen - 1991 - Molecular biology of bacterial bioluminescence - Microbiological Reviews.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Kishony2003}{article}{}
+      \name{author}{2}{}{%
+        {{hash=6bcdb0ad30a371c01267d28f47c5e5da}{%
+           family={Kishony},
+           familyi={K\bibinitperiod},
+           given={Roy},
+           giveni={R\bibinitperiod}}}%
+        {{hash=326f9ff59f7abd4a7d6257864345a5e1}{%
+           family={Leibler},
+           familyi={L\bibinitperiod},
+           given={Stanislas},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{ee7c95021ece4dd12583b8140eadc65a}
+      \strng{fullhash}{ee7c95021ece4dd12583b8140eadc65a}
+      \strng{bibnamehash}{ee7c95021ece4dd12583b8140eadc65a}
+      \strng{authorbibnamehash}{ee7c95021ece4dd12583b8140eadc65a}
+      \strng{authornamehash}{ee7c95021ece4dd12583b8140eadc65a}
+      \strng{authorfullhash}{ee7c95021ece4dd12583b8140eadc65a}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Background: Fundamental questions in evolutionary genetics, including the possible advantage of sexual reproduction, depend critically on the effects of deleterious mutations on fitness. Limited existing experimental evidence suggests that, on average, such effects tend to be aggravated under environmental stresses, consistent with the perception that stress diminishes the organism's ability to tolerate deleterious mutations. Here, we ask whether there are also stresses with the opposite influence, under which the organism becomes more tolerant to mutations. Results: We developed a technique, based on bioluminescence, which allows accurate automated measurements of bacterial growth rates at very low cell densities. Using this system, we measured growth rates of Escherichia coli mutants under a diverse set of environmental stresses. In contrast to the perception that stress always reduces the organism's ability to tolerate mutations, our measurements identified stresses that do the opposite - that is, despite decreasing wild-type growth, they alleviate on average the effect of deleterious mutations. Conclusions: Our results show a qualitative difference between various environmental stresses ranging from alleviation to aggravation of the average effect of mutations. We further show how the existence of stresses that are biased towards alleviation of the effects of mutations may imply the existence of average epistatic interactions between mutations. The results thus offer a connection between the two main factors controlling the effects of deleterious mutations: environmental conditions and epistatic interactions.}
+      \field{issn}{14785854}
+      \field{journaltitle}{J. Biol.}
+      \field{number}{2}
+      \field{title}{{Environmental stresses can alleviate the average deleterious effect of mutations}}
+      \field{volume}{2}
+      \field{year}{2003}
+      \field{pages}{1\bibrangedash 10}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1186/1475-4924-2-14
+      \endverb
+      \verb{file}
+      \verb :Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/2003/Kishony, Leibler - 2003 - Environmental stresses can alleviate the average deleterious effect of mutations - Journal of Biology.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Yeh2006}{article}{}
+      \name{author}{3}{}{%
+        {{hash=4300a1a74773da4650b7eab20e75ecb2}{%
+           family={Yeh},
+           familyi={Y\bibinitperiod},
+           given={Pamela},
+           giveni={P\bibinitperiod}}}%
+        {{hash=7fe60790b8c0cfc387be9814ca70d873}{%
+           family={Tschumi},
+           familyi={T\bibinitperiod},
+           given={Ariane\bibnamedelima I.},
+           giveni={A\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=6bcdb0ad30a371c01267d28f47c5e5da}{%
+           family={Kishony},
+           familyi={K\bibinitperiod},
+           given={Roy},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{7d7cce456c8f4e8ca8b5ab5ade6ef8e2}
+      \strng{fullhash}{7d7cce456c8f4e8ca8b5ab5ade6ef8e2}
+      \strng{bibnamehash}{7d7cce456c8f4e8ca8b5ab5ade6ef8e2}
+      \strng{authorbibnamehash}{7d7cce456c8f4e8ca8b5ab5ade6ef8e2}
+      \strng{authornamehash}{7d7cce456c8f4e8ca8b5ab5ade6ef8e2}
+      \strng{authorfullhash}{7d7cce456c8f4e8ca8b5ab5ade6ef8e2}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Multidrug treatments are increasingly important in medicine and for probing biological systems1-6. Although many studies have focused on interactions between specific drugs, little is known about the system properties of a full drug interaction network6. Like their genetic counterparts, two drugs may have no interaction, or they may interact synergistically or antagonistically to increase or suppress their individual effects. Here we use a sensitive bioluminescence technique7,8 to provide quantitative measurements of pairwise interactions among 21 antibiotics that affect growth rate in Escherichia coli. We find that the drug interaction network possesses a special property: it can be separated into classes of drugs such that any two classes interact either purely synergistically or purely antagonistically. These classes correspond directly to the cellular functions affected by the drugs. This network approach provides a new conceptual framework for understanding the functional mechanisms of drugs and their cellular targets and can be applied in systems intractable to mutant screening, biochemistry or microscopy. © 2006 Nature Publishing Group.}
+      \field{issn}{10614036}
+      \field{journaltitle}{Nat. Genet.}
+      \field{number}{4}
+      \field{title}{{Functional classification of drugs by properties of their pairwise interactions}}
+      \field{volume}{38}
+      \field{year}{2006}
+      \field{pages}{489\bibrangedash 494}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1038/ng1755
+      \endverb
+      \verb{file}
+      \verb :Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/2006/Yeh, Tschumi, Kishony - 2006 - Functional classification of drugs by properties of their pairwise interactions - Nature Genetics.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Chait2007}{article}{}
+      \name{author}{3}{}{%
+        {{hash=bda6ee025412c08d23a09c1712fc670a}{%
+           family={Chait},
+           familyi={C\bibinitperiod},
+           given={Remy},
+           giveni={R\bibinitperiod}}}%
+        {{hash=5978cd9837acc667e1ebacf108b44393}{%
+           family={Craney},
+           familyi={C\bibinitperiod},
+           given={Allison},
+           giveni={A\bibinitperiod}}}%
+        {{hash=6bcdb0ad30a371c01267d28f47c5e5da}{%
+           family={Kishony},
+           familyi={K\bibinitperiod},
+           given={Roy},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{1cbf4166ee2414156819a1468dce7384}
+      \strng{fullhash}{1cbf4166ee2414156819a1468dce7384}
+      \strng{bibnamehash}{1cbf4166ee2414156819a1468dce7384}
+      \strng{authorbibnamehash}{1cbf4166ee2414156819a1468dce7384}
+      \strng{authornamehash}{1cbf4166ee2414156819a1468dce7384}
+      \strng{authorfullhash}{1cbf4166ee2414156819a1468dce7384}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Multidrug combinations are increasingly important in combating the spread of antibiotic-resistance in bacterial pathogens. On a broader scale, such combinations are also important in understanding microbial ecology and evolution. Although the effects of multidrug combinations on bacterial growth have been studied extensively, relatively little is known about their impact on the differential selection between sensitive and resistant bacterial populations. Normally, the presence of a drug confers an advantage on its resistant mutants in competition with the sensitive wild-type population. Here we show, by using a direct competition assay between doxycycline-resistant and doxycycline-sensitive Escherichia coli, that this differential selection can be inverted in a hyper-antagonistic class of drug combinations. Used in such a combination, a drug can render the combined treatment selective against the drug's own resistance allele. Further, this inversion of selection seems largely insensitive to the underlying resistance mechanism and occurs, at sublethal concentrations, while maintaining inhibition of the wild type. These seemingly paradoxical results can be rationalized in terms of a simple geometric argument. Our findings demonstrate a previously unappreciated feature of the fitness landscape for the evolution of resistance and point to a trade-off between the effect of drug interactions on absolute potency and the relative competitive selection that they impose on emerging resistant populations. ©2007 Nature Publishing Group.}
+      \field{issn}{14764687}
+      \field{journaltitle}{Nature}
+      \field{number}{7136}
+      \field{title}{{Antibiotic interactions that select against resistance}}
+      \field{volume}{446}
+      \field{year}{2007}
+      \field{pages}{668\bibrangedash 671}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1038/nature05685
+      \endverb
+      \verb{file}
+      \verb :Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/2007/Chait, Craney, Kishony - 2007 - Antibiotic interactions that select against resistance - Nature.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Larsson2014}{article}{}
+      \name{author}{6}{}{%
+        {{hash=a9b8dd84a25e7182861a065bcf6d6a11}{%
+           family={Larsson},
+           familyi={L\bibinitperiod},
+           given={Marie\bibnamedelima C.},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=ec6f649f3dd132371bb1586c8c631587}{%
+           family={Lerm},
+           familyi={L\bibinitperiod},
+           given={Maria},
+           giveni={M\bibinitperiod}}}%
+        {{hash=3859349e54e9e2fd8807d4c4d12e1529}{%
+           family={{Ä}ngeby},
+           familyi={Ä\bibinitperiod},
+           given={Kristian},
+           giveni={K\bibinitperiod}}}%
+        {{hash=abe36331baf2a880e25c37560dd3c216}{%
+           family={Nordvall},
+           familyi={N\bibinitperiod},
+           given={Michaela},
+           giveni={M\bibinitperiod}}}%
+        {{hash=89e3afc0a5fabc9adb23ef4b4c408492}{%
+           family={Jur{é}en},
+           familyi={J\bibinitperiod},
+           given={Pontus},
+           giveni={P\bibinitperiod}}}%
+        {{hash=8f8ef17d79705570bf083597f4501040}{%
+           family={Sch{ö}n},
+           familyi={S\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{3ea2c751abf511b69a3ce453160a459c}
+      \strng{fullhash}{9d080129dbb621a79af5ba9a9dde8a28}
+      \strng{bibnamehash}{3ea2c751abf511b69a3ce453160a459c}
+      \strng{authorbibnamehash}{3ea2c751abf511b69a3ce453160a459c}
+      \strng{authornamehash}{3ea2c751abf511b69a3ce453160a459c}
+      \strng{authorfullhash}{9d080129dbb621a79af5ba9a9dde8a28}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The intracellular (IC) effect of drugs against Mycobacterium tuberculosis (Mtb) is not well established but increasingly important to consider when combining current and future multidrug regimens into the best possible treatment strategies. For this purpose, we developed an IC model based on a genetically modified Mtb H37Rv strain, expressing the Vibrio harvei luciferase (H37Rv-lux) infecting the human macrophage like cell line THP-1. Cells were infected at a low multiplicity of infection (1:1) and subsequently exposed to isoniazid (INH), ethambutol (EMB), amikacin (AMI) or levofloxacin (LEV) for 5. days in a 96-well format. Cell viability was evaluated by Calcein AM and was maintained throughout the experiment. The number of viable H37Rv-lux was determined by luminescence and verified by a colony forming unit analysis. The results were compared to the effects of the same drugs in broth cultures. AMI, EMB and LEV were significantly less effective intracellularly (MIC90: >. 4. mg/L, 8. mg/L and 2. mg/L, respectively) compared to extracellularly (MIC90: 0.5. mg/L for AMI and EMB; 0.25. mg/L for LEV). The reverse was the case for INH (IC: 0.064. mg/L vs EC: 0.25. mg/L). In conclusion, this luciferase based method, in which monitoring of cell viability is included, has the potential to become a useful tool while evaluating the intracellular effects of anti-mycobacterial drugs.}
+      \field{issn}{0167-7012}
+      \field{journaltitle}{J. Microbiol. Methods}
+      \field{month}{11}
+      \field{title}{{A luciferase-based assay for rapid assessment of drug activity against Mycobacterium tuberculosis including monitoring of macrophage viability}}
+      \field{volume}{106}
+      \field{year}{2014}
+      \field{pages}{146\bibrangedash 150}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1016/J.MIMET.2014.08.015
+      \endverb
+      \verb{file}
+      \verb :Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/2014/Larsson et al. - 2014 - A luciferase-based assay for rapid assessment of drug activity against Mycobacterium tuberculosis including moni.pdf:pdf
+      \endverb
+      \keyw{Drug susceptibility testing,Intracellular,Levofloxacin,Luminescence,Minimal inhibitory concentration,Tuberculosis}
+    \endentry
+    \entry{Kavcic2020}{article}{}
+      \name{author}{3}{}{%
+        {{hash=8095f8144073af037a87624ba66bd872}{%
+           family={Kav{č}i{č}},
+           familyi={K\bibinitperiod},
+           given={Bor},
+           giveni={B\bibinitperiod}}}%
+        {{hash=8d2ee99c3634d99cee3494b6558f9ae5}{%
+           family={Tka{č}ik},
+           familyi={T\bibinitperiod},
+           given={Ga{š}per},
+           giveni={G\bibinitperiod}}}%
+        {{hash=8f819f75914f55a6fad472199de5d587}{%
+           family={Bollenbach},
+           familyi={B\bibinitperiod},
+           given={Tobias},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{5f472fe5c5fb39abef77e95bdd32906b}
+      \strng{fullhash}{5f472fe5c5fb39abef77e95bdd32906b}
+      \strng{bibnamehash}{5f472fe5c5fb39abef77e95bdd32906b}
+      \strng{authorbibnamehash}{5f472fe5c5fb39abef77e95bdd32906b}
+      \strng{authornamehash}{5f472fe5c5fb39abef77e95bdd32906b}
+      \strng{authorfullhash}{5f472fe5c5fb39abef77e95bdd32906b}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Antibiotics that interfere with translation, when combined, interact in diverse and difficult-to-predict ways. Here, we explain these interactions by “translation bottlenecks”: points in the translation cycle where antibiotics block ribosomal progression. To elucidate the underlying mechanisms of drug interactions between translation inhibitors, we generate translation bottlenecks genetically using inducible control of translation factors that regulate well-defined translation cycle steps. These perturbations accurately mimic antibiotic action and drug interactions, supporting that the interplay of different translation bottlenecks causes these interactions. We further show that growth laws, combined with drug uptake and binding kinetics, enable the direct prediction of a large fraction of observed interactions, yet fail to predict suppression. However, varying two translation bottlenecks simultaneously supports that dense traffic of ribosomes and competition for translation factors account for the previously unexplained suppression. These results highlight the importance of “continuous epistasis” in bacterial physiology.}
+      \field{isbn}{4146702017734}
+      \field{issn}{20411723}
+      \field{journaltitle}{Nat. Commun.}
+      \field{number}{1}
+      \field{title}{{Mechanisms of drug interactions between translation-inhibiting antibiotics}}
+      \field{volume}{11}
+      \field{year}{2020}
+      \verb{doi}
+      \verb 10.1038/s41467-020-17734-z
+      \endverb
+      \verb{file}
+      \verb :Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/2020/Kav{\v{c}}i{\v{c}}, Tka{\v{c}}ik, Bollenbach - 2020 - Mechanisms of drug interactions between translation-inhibiting antibiotics - Nature Communication.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Angermayr2022}{article}{}
+      \name{author}{6}{}{%
+        {{hash=6ecc3593c1c317d8848dc2e34f229f31}{%
+           family={Angermayr},
+           familyi={A\bibinitperiod},
+           given={S\bibnamedelima Andreas},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=df5ad2a5f885c900e475593e741b8c5f}{%
+           family={Pang},
+           familyi={P\bibinitperiod},
+           given={Tin\bibnamedelima Yau},
+           giveni={T\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+        {{hash=277de9ac87e4573ba67dfa71e64d457b}{%
+           family={Chevereau},
+           familyi={C\bibinitperiod},
+           given={Guillaume},
+           giveni={G\bibinitperiod}}}%
+        {{hash=8c3c55168c93996471abff5a9e2e79e0}{%
+           family={Mitosch},
+           familyi={M\bibinitperiod},
+           given={Karin},
+           giveni={K\bibinitperiod}}}%
+        {{hash=1018208040d8bf378f4513e16e6ffcb3}{%
+           family={Lercher},
+           familyi={L\bibinitperiod},
+           given={Martin\bibnamedelima J},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=8f819f75914f55a6fad472199de5d587}{%
+           family={Bollenbach},
+           familyi={B\bibinitperiod},
+           given={Tobias},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{1ed48116e19da0ecd9ba648e2f25df4a}
+      \strng{fullhash}{45d09a9aeb19e81ce12566d62af69d84}
+      \strng{bibnamehash}{1ed48116e19da0ecd9ba648e2f25df4a}
+      \strng{authorbibnamehash}{1ed48116e19da0ecd9ba648e2f25df4a}
+      \strng{authornamehash}{1ed48116e19da0ecd9ba648e2f25df4a}
+      \strng{authorfullhash}{45d09a9aeb19e81ce12566d62af69d84}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Dose‐response relationships are a general concept for quantitatively describing biological systems across multiple scales, from the molecular to the whole‐cell level. A clinically relevant example is the bacterial growth response to antibiotics, which is routinely characterized by dose‐response curves. The shape of the dose‐response curve varies drastically between antibiotics and plays a key role for treatments, drug interactions, and resistance evolution. However, the mechanisms shaping the dose‐response curve remain largely unclear. Here, we show in Escherichia coli that the distinctively shallow dose‐response curve of the antibiotic trimethoprim is caused by a negative growth‐ mediated feedback loop: Trimethoprim slows growth, which in turn weakens the effect of this antibiotic. At the molecular level, this feedback is caused by the upregulation of the drug target dihydrofolate reductase (FolA/DHFR). We show that this upregulation is not a specific response to trimethoprim but follows a universal trend line that depends only on growth rate, irrespective of its cause. Rewiring the feedback loop alters the dose‐response curve in a predictable manner, which we corroborate with a mathematical model. Our results indicate that growth‐mediated feedback loops shape drug responses and could be exploited to design evolutionary traps that enable selection against drug resistance. {\#}{\#}{\#} Competing Interest Statement The authors have declared no competing interest.}
+      \field{issn}{1744-4292}
+      \field{journaltitle}{Mol. Syst. Biol.}
+      \field{number}{9}
+      \field{title}{{Growth‐mediated negative feedback shapes quantitative antibiotic response}}
+      \field{volume}{18}
+      \field{year}{2022}
+      \field{pages}{1\bibrangedash 19}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.15252/msb.202110490
+      \endverb
+      \verb{file}
+      \verb :Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/2022/Angermayr et al. - 2022 - Growth‐mediated negative feedback shapes quantitative antibiotic response - Molecular Systems Biology.pdf:pdf
+      \endverb
+      \keyw{antibiotics,dhfr,dihydrofolate reductase,dose,drug discovery,feedback loops,host pathogen interaction,pharmacology,resource allocation model,response curve,subject categories microbiology,virology}
+    \endentry
+    \entry{Salisbury1999}{article}{}
+      \name{author}{6}{}{%
+        {{hash=9f2acf37bba9d811876792be0f37d307}{%
+           family={Salisbury},
+           familyi={S\bibinitperiod},
+           given={Vyvyan},
+           giveni={V\bibinitperiod}}}%
+        {{hash=1a04f176ea4dda09ead69f844cec2f2d}{%
+           family={Pfoestl},
+           familyi={P\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod}}}%
+        {{hash=1424d1cd7acb31db9a9ef9425b884499}{%
+           family={Wiesinger-Mayr},
+           familyi={W\bibinithyphendelim M\bibinitperiod},
+           given={Herbert},
+           giveni={H\bibinitperiod}}}%
+        {{hash=cff42d2db3d11ea94eb0aa0eff171920}{%
+           family={Lewis},
+           familyi={L\bibinitperiod},
+           given={Roger},
+           giveni={R\bibinitperiod}}}%
+        {{hash=811ccaf1a6b153fe19f5418e70693f19}{%
+           family={Bowker},
+           familyi={B\bibinitperiod},
+           given={Karen\bibnamedelima E.},
+           giveni={K\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=dcd97027df3fa302458808d758cfb311}{%
+           family={MacGowan},
+           familyi={M\bibinitperiod},
+           given={Alasdair\bibnamedelima P.},
+           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford Academic}%
+      }
+      \strng{namehash}{61498f44f8ad39f4f378fbb239878547}
+      \strng{fullhash}{cbc1cb582c6055c77be578ca249af4ad}
+      \strng{bibnamehash}{61498f44f8ad39f4f378fbb239878547}
+      \strng{authorbibnamehash}{61498f44f8ad39f4f378fbb239878547}
+      \strng{authornamehash}{61498f44f8ad39f4f378fbb239878547}
+      \strng{authorfullhash}{cbc1cb582c6055c77be578ca249af4ad}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Escherichia coli isolate 16906 expressing lux genes was used for real-time monitoring of moxifloxacin effects on bacterial metabolism compared with effects on cell replication. Viable counts showed concentration-dependent killing by moxifloxacin; real-time measurement of bioluminescence on the same cultures showed metabolic activity over 54 h, but with greater inhibition at 1 x MIC than with higher MIC multiples. Post-antibiotic effect was longer when determined using bioluminescence than by viable counts. The control-related effective regrowth time was consistent with both methods. Bioluminescent bacteria provide a rapid and sensitive means for measuring antimicrobial effects on bacterial metabolism.}
+      \field{issn}{0305-7453}
+      \field{journaltitle}{J. Antimicrob. Chemother.}
+      \field{month}{6}
+      \field{number}{6}
+      \field{title}{{Use of a clinical Escherichia coli isolate expressing lux genes to study the antimicrobial pharmacodynamics of moxifloxacin}}
+      \field{volume}{43}
+      \field{year}{1999}
+      \field{pages}{829\bibrangedash 832}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1093/JAC/43.6.829
+      \endverb
+      \verb{file}
+      \verb :Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/1999/Salisbury et al. - 1999 - Use of a clinical Escherichia coli isolate expressing lux genes to study the antimicrobial pharmacodynamics of.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://dx.doi.org/10.1093/jac/43.6.829
+      \endverb
+      \verb{url}
+      \verb https://dx.doi.org/10.1093/jac/43.6.829
+      \endverb
+    \endentry
+    \entry{Beard2002}{article}{}
+      \name{author}{5}{}{%
+        {{hash=bbac3557c9a315c47de9080cb952217a}{%
+           family={Beard},
+           familyi={B\bibinitperiod},
+           given={S.\bibnamedelimi J.},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=ca60d04e416048af7365898228bc47db}{%
+           family={Salisbury},
+           familyi={S\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod}}}%
+        {{hash=4323e76c8af3d2ed70ce0c24f8bafbe7}{%
+           family={Lewis},
+           familyi={L\bibinitperiod},
+           given={R.\bibnamedelimi J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=15b82165975dbd0d13103839bb7fbd5a}{%
+           family={Sharpe},
+           familyi={S\bibinitperiod},
+           given={J.\bibnamedelimi A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=68fe2b7b826effda4b215b59c8609783}{%
+           family={MacGowan},
+           familyi={M\bibinitperiod},
+           given={A.\bibnamedelimi P.},
+           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{05d0a66cab9bf77c1672e7c5fa495bd3}
+      \strng{fullhash}{05d0a66cab9bf77c1672e7c5fa495bd3}
+      \strng{bibnamehash}{05d0a66cab9bf77c1672e7c5fa495bd3}
+      \strng{authorbibnamehash}{05d0a66cab9bf77c1672e7c5fa495bd3}
+      \strng{authornamehash}{05d0a66cab9bf77c1672e7c5fa495bd3}
+      \strng{authorfullhash}{05d0a66cab9bf77c1672e7c5fa495bd3}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A clinical isolate of Streptococcus pneumoniae was transformed with a plasmid containing the lux operon of Photorhabdus luminescens that had been modified to function in gram-positive bacteria. Cells containing this plasmid produced light stably and constitutively, without compromising the growth rate. Light output was correlated with measurements of optical density and viable counts during exponential growth and provided a sensitive, real-time measure of the pharmacodynamics of the fluoroquinolone gemifloxacin.}
+      \field{issn}{00664804}
+      \field{journaltitle}{Antimicrob. Agents Chemother.}
+      \field{number}{2}
+      \field{title}{{Expression of lux genes in a clinical isolate of Streptococcus pneumoniae: Using bioluminescence to monitor gemifloxacin activity}}
+      \field{volume}{46}
+      \field{year}{2002}
+      \field{pages}{538\bibrangedash 542}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1128/AAC.46.2.538-542.2002
+      \endverb
+      \verb{file}
+      \verb :Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/2002/Beard et al. - 2002 - Expression of lux genes in a clinical isolate of Streptococcus pneumoniae Using bioluminescence to monitor gemiflo.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://pmc.ncbi.nlm.nih.gov/articles/PMC127039/
+      \endverb
+      \verb{url}
+      \verb https://pmc.ncbi.nlm.nih.gov/articles/PMC127039/
+      \endverb
+    \endentry
+    \entry{Alloush2003}{article}{}
+      \name{author}{4}{}{%
+        {{hash=980483a01d85a142fe90c048d4bbb583}{%
+           family={Alloush},
+           familyi={A\bibinitperiod},
+           given={Habib\bibnamedelima M.},
+           giveni={H\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=9f2acf37bba9d811876792be0f37d307}{%
+           family={Salisbury},
+           familyi={S\bibinitperiod},
+           given={Vyvyan},
+           giveni={V\bibinitperiod}}}%
+        {{hash=f6bf5e93eea3b32071842537fa79120c}{%
+           family={Lewis},
+           familyi={L\bibinitperiod},
+           given={Roger\bibnamedelima J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=dcd97027df3fa302458808d758cfb311}{%
+           family={MacGowan},
+           familyi={M\bibinitperiod},
+           given={Alasdair\bibnamedelima P.},
+           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{1705a0c66b6b846219c05f7bc03aada3}
+      \strng{fullhash}{1705a0c66b6b846219c05f7bc03aada3}
+      \strng{bibnamehash}{1705a0c66b6b846219c05f7bc03aada3}
+      \strng{authorbibnamehash}{1705a0c66b6b846219c05f7bc03aada3}
+      \strng{authornamehash}{1705a0c66b6b846219c05f7bc03aada3}
+      \strng{authorfullhash}{1705a0c66b6b846219c05f7bc03aada3}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A bioluminescent clinical isolate of Streptococcus pneumoniae was used to test the real-time effects of the oxazolidinone antibiotic, linezolid, on metabolism compared with effects on cell replication. Viable counts and bioluminescence measurements showed that linezolid has little bactericidal effect, which was similar at minimum (6 mg/L), intermediate (13 mg/L) and maximum (20 mg/L) serum concentrations. The postantibiotic effect, however, was shorter when measured by light output than by viable counts. The results demonstrate that bioluminescence provides a rapid and sensitive means of measuring the effect of antimicrobials on bacterial metabolism, and that the latter recovers earlier than commencement of cell replication after linezolid exposure.}
+      \field{issn}{03057453}
+      \field{journaltitle}{J. Antimicrob. Chemother.}
+      \field{number}{3}
+      \field{title}{{Pharmacodynamics of linezolid in a clinical isolate of Streptococcus pneumoniae genetically modified to express lux genes}}
+      \field{volume}{52}
+      \field{year}{2003}
+      \field{pages}{511\bibrangedash 513}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1093/jac/dkg334
+      \endverb
+      \verb{file}
+      \verb :Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/2003/Alloush et al. - 2003 - Pharmacodynamics of linezolid in a clinical isolate of Streptococcus pneumoniae genetically modified to express.pdf:pdf;:Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/2003/Alloush et al. - 2003 - Pharmacodynamics of linezolid in a clinical isolate of Streptococcus pneumoniae genetically modified to express.pdf:pdf
+      \endverb
+      \keyw{Bioluminescence,Oxazolidinones,Streptococcus pneumoniae}
+    \endentry
+    \entry{Wang2010}{article}{}
+      \name{author}{7}{}{%
+        {{hash=2053a78b8c7e674d28eabbe236f2f077}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Ping},
+           giveni={P\bibinitperiod}}}%
+        {{hash=9c4ffa1ea82d2a1e3a77dc4a1a651873}{%
+           family={Robert},
+           familyi={R\bibinitperiod},
+           given={Lydia},
+           giveni={L\bibinitperiod}}}%
+        {{hash=42e020803aabeae4af77b79d3871d87d}{%
+           family={Pelletier},
+           familyi={P\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod}}}%
+        {{hash=b1d37bc050af2f0a45a75f69c3a73d04}{%
+           family={Dang},
+           familyi={D\bibinitperiod},
+           given={Wei\bibnamedelima Lien},
+           giveni={W\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=2f7715b3445531852d2da729b288b006}{%
+           family={Taddei},
+           familyi={T\bibinitperiod},
+           given={Francois},
+           giveni={F\bibinitperiod}}}%
+        {{hash=b0d9a37f2e0d2c0de3151b5efac260b1}{%
+           family={Wright},
+           familyi={W\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod}}}%
+        {{hash=9e555608d43a90e3b0eb6c0ab18d2e2a}{%
+           family={Jun},
+           familyi={J\bibinitperiod},
+           given={Suckjoon},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier Ltd}%
+      }
+      \strng{namehash}{8190c0970e042df07820c6d43fa5229c}
+      \strng{fullhash}{df546c984d3f5db4c160ec3789ce21de}
+      \strng{bibnamehash}{8190c0970e042df07820c6d43fa5229c}
+      \strng{authorbibnamehash}{8190c0970e042df07820c6d43fa5229c}
+      \strng{authornamehash}{8190c0970e042df07820c6d43fa5229c}
+      \strng{authorfullhash}{df546c984d3f5db4c160ec3789ce21de}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The quantitative study of the cell growth [1-5] has led to many fundamental insights in our understanding of a wide range of subjects, from the cell cycle [6-9] to senescence [10]. Of particular importance is the growth rate, whose constancy represents a physiological steady state of an organism. Recent studies, however, suggest that the rate of elongation during exponential growth of bacterial cells decreases cumulatively with replicative age for both asymmetrically [11] and symmetrically [12, 13] dividing organisms, implying that a "steady-state" population consists of individual cells that are never in a steady state of growth. To resolve this seeming paradoxical observation, we studied the long-term growth and division patterns of Escherichia coli cells by employing a microfluidic device designed to follow steady-state growth and division of a large number of cells at a defined reproductive age. Our analysis of approximately 105 individual cells reveals a remarkable stability of growth whereby the mother cell inherits the same pole for hundreds of generations. We further show that death of E. coli is not purely stochastic but is the result of accumulating damages. We conclude that E. coli, unlike all other aging model systems studied to date, has a robust mechanism of growth that is decoupled from cell death. © 2010 Elsevier Ltd. All rights reserved.}
+      \field{issn}{09609822}
+      \field{journaltitle}{Curr. Biol.}
+      \field{number}{12}
+      \field{title}{{Robust growth of escherichia coli}}
+      \field{volume}{20}
+      \field{year}{2010}
+      \field{pages}{1099\bibrangedash 1103}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1016/j.cub.2010.04.045
+      \endverb
+      \verb{file}
+      \verb :Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/2010/Wang et al. - 2010 - Robust growth of escherichia coli - Current Biology.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1016/j.cub.2010.04.045
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1016/j.cub.2010.04.045
+      \endverb
+      \keyw{CELLCYCLE}
+    \endentry
+    \entry{Eagle1949}{article}{}
+      \name{author}{2}{}{%
+        {{hash=69745e204bb8430a52f676475248e9ca}{%
+           family={Eagle},
+           familyi={E\bibinitperiod},
+           given={Harry},
+           giveni={H\bibinitperiod}}}%
+        {{hash=0d1599177cb58a6bbf35880c9fd513fd}{%
+           family={Musselman},
+           familyi={M\bibinitperiod},
+           given={Arlyne\bibnamedelima D},
+           giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{bb9614eca3c495078483e27fcc132737}
+      \strng{fullhash}{bb9614eca3c495078483e27fcc132737}
+      \strng{bibnamehash}{bb9614eca3c495078483e27fcc132737}
+      \strng{authorbibnamehash}{bb9614eca3c495078483e27fcc132737}
+      \strng{authornamehash}{bb9614eca3c495078483e27fcc132737}
+      \strng{authorfullhash}{bb9614eca3c495078483e27fcc132737}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{It was shown by Bigger (1944), Parker and Marsh (1946), and Parker and Luse (1948) that if staphylococci were exposed to lethal concentrations of penicillin in vitro, and if the drug was removed before all the organisms had been killed, the viable survivors did not then immediately resume multiplication. There followed instead a period of bacteriostasis during which the organisms, presumably recovering from the toxic effects of the drug, remained essentially constant in number. As will be shown in the present paper, this sublethal toxic effect of penicillin is not peculiar to staphylococci, but has been observed with every bacterial species studied so far. A number of factors have been found to modify both the toxic effect of the drug and the subsequent recovery of the damaged bacteria. Some implications with respect to the mode of action of penicillin are discussed in the text. METHODS AND MATERIALS Suspensions of bacteria during the logarithmic phase of growth were exposed at 37 C to varying concentrations of penicillin G. At intervals during this period, aliquot samples were withdrawn and the bactericidal action of the penicillin was terminated by the addition of "clarase" (Takamine) or "penicillinase" (Schenley) in appropriate concentrations. In the amounts used, the penicillin was almost completely inactivated within less than 5 minutes. This was shown by the fact that if mixtures of penicillin and the inactivating agent in the experimental concentrations were incubated for 5 minutes and then inoculated with bacteria, the organisms grew out at the same rate as they did in control tubes containing no penicillin. The number of viable organisms' in the aliquot samples at the time of penicillin inactivation was determined by plating out serial 40-fold dilutions in an appropri-1 It has been shown with cultured treponemata that organisms already rendered non-viable by penicillin may nevertheless remain actively motile for a number of hours (Eagle and Musselman, 1944). The agar plating technique here used determines, not the number of organisms that are still alive at the moment of penicillin inactivation, but the number of viable organisms capable of growing out in subculture. It follows that the bactericidal process as measured by this technique should stop abruptly when the penicillin is removed, unless the reacting mixture contains toxic factors other than penicillin which continue to cause the death of the organisms after the disappearance of the drug, but which are in-activated by dilution in blood agar. In most instances, the bactericidal process did cease abruptly on the addition of penicillinase; in some of the experiments, however, there was an unexplained continuing decrease in the number of viable bacteria for a period of approximately one hour.}
+      \field{journaltitle}{J. Bacteriol.}
+      \field{title}{the slow recovery of bacteria from the toxic effects of penicillin}
+      \field{volume}{58}
+      \field{year}{1949}
+      \field{pages}{475\bibrangedash 490}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1128/jb.58.4.475-490.1949
+      \endverb
+      \verb{file}
+      \verb :Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/1949/Eagle, Musselman - 1949 - the slow recovery of bacteria from the toxic effects of penicillin - Journal of Bacteriology.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://journals.asm.org/journal/jb
+      \endverb
+      \verb{url}
+      \verb https://journals.asm.org/journal/jb
+      \endverb
+    \endentry
+    \entry{Besnard2002}{article}{}
+      \name{author}{5}{}{%
+        {{hash=39c896ca84de967ea4747d43f611abe9}{%
+           family={Besnard},
+           familyi={B\bibinitperiod},
+           given={Val{é}rie},
+           giveni={V\bibinitperiod}}}%
+        {{hash=f4f01fbbf8bcaeabbbd01106eda38192}{%
+           family={Federighi},
+           familyi={F\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=4101e9c963227ce518fab444bfaaf472}{%
+           family={Declerq},
+           familyi={D\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod}}}%
+        {{hash=be396280f8b19782957815bac410ff9b}{%
+           family={Jugiau},
+           familyi={J\bibinitperiod},
+           given={Florence},
+           giveni={F\bibinitperiod}}}%
+        {{hash=7d55d17983719621bbc7619b26c7bdfb}{%
+           family={Cappelier},
+           familyi={C\bibinitperiod},
+           given={Jean\bibnamedelima Michel},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {EDP Sciences}%
+      }
+      \strng{namehash}{5bee5ba4cbe9a95f33e517b9d4ad09a3}
+      \strng{fullhash}{5bee5ba4cbe9a95f33e517b9d4ad09a3}
+      \strng{bibnamehash}{5bee5ba4cbe9a95f33e517b9d4ad09a3}
+      \strng{authorbibnamehash}{5bee5ba4cbe9a95f33e517b9d4ad09a3}
+      \strng{authornamehash}{5bee5ba4cbe9a95f33e517b9d4ad09a3}
+      \strng{authorfullhash}{5bee5ba4cbe9a95f33e517b9d4ad09a3}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Investigations of bacterial survival in natural environments have indicated that some organisms lose culturability on appropriate media under certain conditions and yet still exhibit signs of metabolic activity and thus viability. This reproducible loss of culturability in many bacterial species led to the description of a "Viable But Non Culturable" (VBNC) state. The purpose of this article is to determine environmental and physico-chemical factors which induce the VBNC state in a food-borne pathogen that has become a public concern: Listeria monocytogenes. The factors, i.e. inoculum size, natural sunlight, temperature (4 °C or 20 °C , NaCl concentration (0{\%} or 7{\%}) and pH (5 or 6) were studied on 4 strains (LO28, ATCC 19115, Scott A, CNL 895807). The culturability of the starved cell suspension was determined in each condition tested by the spread plate count, and the cell activity was determined by the Direct Viable Count technique and CTC-DAPI double staining. A strain effect was found in different test conditions. For the LO 28 and ATCC 19115 strains, the VBNC state was very transient in certain conditions. For the other strains tested (Scott A, CNL 895807), the VBNC state was maintained throughout the observation period. In the dark, the incubation temperature was the main factor in the production of VBNC forms in L. monocytogenes. However, natural sunlight rapidly produced the VBNC state in L. monocytogenes cells in microcosm water. We conclude that because of its ubiquity and the factors studied which are met in the food industry, the presence of VBNC L. monocytogenes cells could pose a major public health problem since they cannot be detected by traditional culturing methods. Further investigations are needed to establish virulence before and after resuscitation of VBNC L. monocytogenes cells.}
+      \field{issn}{09284249}
+      \field{journaltitle}{Vet. Res.}
+      \field{month}{7}
+      \field{number}{4}
+      \field{title}{{Environmental and physico-chemical factors induce VBNC state in Listeria monocytogenes}}
+      \field{volume}{33}
+      \field{year}{2002}
+      \field{pages}{359\bibrangedash 370}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1051/vetres:2002022
+      \endverb
+      \verb{file}
+      \verb :Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/2002/Besnard et al. - 2002 - Environmental and physico-chemical factors induce VBNC state in Listeria monocytogenes - Veterinary Research(2).pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1051/vetres:2002022
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1051/vetres:2002022
+      \endverb
+      \keyw{Environmental factors,Listeria monocytogenes,Stress,VBNC}
+    \endentry
+    \entry{Oliver2005}{article}{}
+      \name{author}{1}{}{%
+        {{hash=e5aa1744c859bab42fdd47b13492d75a}{%
+           family={Oliver},
+           familyi={O\bibinitperiod},
+           given={James\bibnamedelima D.},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {J Microbiol}%
+      }
+      \strng{namehash}{e5aa1744c859bab42fdd47b13492d75a}
+      \strng{fullhash}{e5aa1744c859bab42fdd47b13492d75a}
+      \strng{bibnamehash}{e5aa1744c859bab42fdd47b13492d75a}
+      \strng{authorbibnamehash}{e5aa1744c859bab42fdd47b13492d75a}
+      \strng{authornamehash}{e5aa1744c859bab42fdd47b13492d75a}
+      \strng{authorfullhash}{e5aa1744c859bab42fdd47b13492d75a}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{It had long been assumed that a bacterial cell was dead when it was no longer able to grow on routine culture media. We now know that this assumption is simplistic, and that there are many situations where a cell loses culturability but remains viable and potentially able to regrow. This mini-review defines what the "viable but nonculturable" (VBNC) state is, and illustrates the methods that can be used to show that a bacterial cell is in this physiological state. The diverse environmental factors which induce this state, and the variety of bacteria which have been shown to enter into the VBNC state, are listed. In recent years, a great amount of research has revealed what occurs in cells as they enter and exist in this state, and these studies are also detailed. The ability of cells to resuscitate from the VBNC state and return to an actively metabolizing and culturable form is described, as well as the ability of these cells to retain virulence. Finally, the question of why cells become nonculturable is addressed. It is hoped that this mini-review will encourage researchers to consider this survival state in their studies as an alternative to the conclusion that a lack of culturability indicates the cells they are examining are dead. Copyright © 2005, The Microbiological Society of Korea.}
+      \field{issn}{1225-8873}
+      \field{journaltitle}{J. Microbiol.}
+      \field{month}{2}
+      \field{title}{{The viable but nonculturable state in bacteria}}
+      \field{volume}{43 Spec No}
+      \field{year}{2005}
+      \field{pages}{93\bibrangedash 100}
+      \range{pages}{8}
+      \verb{file}
+      \verb :Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/2005/Oliver - 2005 - The viable but nonculturable state in bacteria - Journal of microbiology.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://pubmed.ncbi.nlm.nih.gov/15765062/
+      \endverb
+      \verb{url}
+      \verb https://pubmed.ncbi.nlm.nih.gov/15765062/
+      \endverb
+      \keyw{Bacteria / growth {\&} development*,Bacteria / metabolism*,Bacteria / pathogenicity,Colony Count,Culture Media,Humans,James D Oliver,MEDLINE,Microbial,NCBI,NIH,NLM,National Center for Biotechnology Information,National Institutes of Health,National Library of Medicine,PubMed Abstract,Review,Virulence,pmid:15765062}
+    \endentry
+    \entry{Li2014}{article}{}
+      \name{author}{5}{}{%
+        {{hash=c6e5116216f202df494523d31058859a}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Laam},
+           giveni={L\bibinitperiod}}}%
+        {{hash=7113026a8968ee83142b259d21606197}{%
+           family={Mendis},
+           familyi={M\bibinitperiod},
+           given={Nilmini},
+           giveni={N\bibinitperiod}}}%
+        {{hash=bd81fbf45beab82b7fe4bd586a65d9bc}{%
+           family={Trigui},
+           familyi={T\bibinitperiod},
+           given={Hana},
+           giveni={H\bibinitperiod}}}%
+        {{hash=e5aa1744c859bab42fdd47b13492d75a}{%
+           family={Oliver},
+           familyi={O\bibinitperiod},
+           given={James\bibnamedelima D.},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=f26d7a253dae294d36b0f8cf51ab31f1}{%
+           family={Faucher},
+           familyi={F\bibinitperiod},
+           given={Sebastien\bibnamedelima P.},
+           giveni={S\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{11a93bc15699a78a744b714e2f4fbd77}
+      \strng{fullhash}{11a93bc15699a78a744b714e2f4fbd77}
+      \strng{bibnamehash}{11a93bc15699a78a744b714e2f4fbd77}
+      \strng{authorbibnamehash}{11a93bc15699a78a744b714e2f4fbd77}
+      \strng{authornamehash}{11a93bc15699a78a744b714e2f4fbd77}
+      \strng{authorfullhash}{11a93bc15699a78a744b714e2f4fbd77}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Many bacterial species have been found to exist in a viable but non-culturable (VBNC) state since its discovery in 1982. VBNC cells are characterized by a loss of culturability on routine agar, which impairs their detection by conventional plate count techniques. This leads to an underestimation of total viable cells in environmental or clinical samples, and thus poses a risk to public health. In this review, we present recent findings on the VBNC state of human bacterial pathogens. The characteristics of VBNC cells, including the similarities and differences to viable, culturable cells and dead cells, and different detection methods are discussed. Exposure to various stresses can induce the VBNC state, and VBNC cells may be resuscitated back to culturable cells under suitable stimuli. The conditions that trigger the induction of the VBNC state and resuscitation from it are summarized and the mechanisms underlying these two processes are discussed. Last but not least, the significance of VBNC cells and their potential influence on human health are also reviewed. © 2014 Li, Mendis, Trigui, Oliver, Faucher.}
+      \field{issn}{1664302X}
+      \field{journaltitle}{Front. Microbiol.}
+      \field{number}{JUN}
+      \field{title}{{The importance of the viable but non-culturable state in human bacterial pathogens}}
+      \field{volume}{5}
+      \field{year}{2014}
+      \field{pages}{1\bibrangedash 1}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3389/fmicb.2014.00258
+      \endverb
+      \verb{file}
+      \verb :Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/2014/Li et al. - 2014 - The importance of the viable but non-culturable state in human bacterial pathogens - Frontiers in Microbiology.pdf:pdf;:Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/2014/Li et al. - 2014 - The importance of the viable but non-culturable state in human bacterial pathogens - Frontiers in Microbiology.pdf:pdf
+      \endverb
+      \keyw{Antibiotic,Biofilm,Human pathogens,Resuscitation,Stress,VBNC,Virulence}
+    \endentry
+    \entry{Pearson1980}{article}{}
+      \name{author}{4}{}{%
+        {{hash=e456abd7dd392cc0bb89e9db75711eb4}{%
+           family={Pearson},
+           familyi={P\bibinitperiod},
+           given={R.\bibnamedelimi D.},
+           giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=c1b419759ed5a1adeacddf96783c3065}{%
+           family={Steigbigel},
+           familyi={S\bibinitperiod},
+           given={R.\bibnamedelimi T.},
+           giveni={R\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=eb3b79a46c07cdc61102cfbae6b410b1}{%
+           family={Davis},
+           familyi={D\bibinitperiod},
+           given={H.\bibnamedelimi T.},
+           giveni={H\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=8d802819566b2e8d5894144054b23199}{%
+           family={Chapman},
+           familyi={C\bibinitperiod},
+           given={S.\bibnamedelimi W.},
+           giveni={S\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{88404909953cecb43e4af54696484f2e}
+      \strng{fullhash}{88404909953cecb43e4af54696484f2e}
+      \strng{bibnamehash}{88404909953cecb43e4af54696484f2e}
+      \strng{authorbibnamehash}{88404909953cecb43e4af54696484f2e}
+      \strng{authornamehash}{88404909953cecb43e4af54696484f2e}
+      \strng{authorfullhash}{88404909953cecb43e4af54696484f2e}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The lack of a standardized, statistically reliable method for in vitro determinations of the minimal lethal or bactericidal concentrations of antibiotics has complicated analyses of isolates of Staphylococcus aureus which appear to be inhibited but not killed by the usual concentrations of cell wall-active antibiotics. We describe a method which identifies some of the covariants involved in determinations of minimal lethal concentrations. Lethality was defined as a 99.9{\%} reduction in the initial inoculum of bacteria after 24 h of incubation. We limited the sample volume to 0.01 ml to minimize the inhibitory effect of antibiotic carried over to the subculture plates. We provided a range for the initial inoculum and corresponding rejection values, which detected lethality with a high degree of sensitivity and specificity. When the number of colonies on subculture was equal to or less than the rejection value, the antibiotic was considered lethal for the test organism. Rejection values encompassed initial inocula from 105 to 107 colony-forming units per ml for single and duplicate samples and allowed for 1 or 5{\%} variability in pipette volumes and errors in initial inoculum determinations. This method was used to determine the minimal lethal concentrations of semisynthetic penicillins for S. aureus isolates, one of which was tolerant to the killing action of penicillin.}
+      \field{issn}{00664804}
+      \field{journaltitle}{Antimicrob. Agents Chemother.}
+      \field{number}{5}
+      \field{title}{{Method for reliable determination of minimal lethal antibiotic concentrations}}
+      \field{volume}{18}
+      \field{year}{1980}
+      \field{pages}{699\bibrangedash 708}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1128/AAC.18.5.699
+      \endverb
+      \verb{file}
+      \verb :Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/1980/Pearson et al. - 1980 - Method for reliable determination of minimal lethal antibiotic concentrations - Antimicrobial Agents and Chemoth.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Eng1991}{article}{}
+      \name{author}{4}{}{%
+        {{hash=4426702987f714efe18fedc664dd59df}{%
+           family={Eng},
+           familyi={E\bibinitperiod},
+           given={R.\bibnamedelimi H.K.},
+           giveni={R\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=eac9728b63e12d0039b86285b3cf27f0}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={S.\bibnamedelimi M.},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=85aed7e5a4eaa42056375c0f22d17301}{%
+           family={Cherubin},
+           familyi={C\bibinitperiod},
+           given={C.\bibnamedelimi E.},
+           giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=54396a24b0035c4f2cb6d9b967d91446}{%
+           family={Tan},
+           familyi={T\bibinitperiod},
+           given={E.\bibnamedelimi N.},
+           giveni={E\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+      }
+      \strng{namehash}{87a7459b1306fee5c5e5369a1ce4f4ab}
+      \strng{fullhash}{87a7459b1306fee5c5e5369a1ce4f4ab}
+      \strng{bibnamehash}{87a7459b1306fee5c5e5369a1ce4f4ab}
+      \strng{authorbibnamehash}{87a7459b1306fee5c5e5369a1ce4f4ab}
+      \strng{authornamehash}{87a7459b1306fee5c5e5369a1ce4f4ab}
+      \strng{authorfullhash}{87a7459b1306fee5c5e5369a1ce4f4ab}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The antibiotic carry-over effect occurs when antibiotic transferred onto the agar plate with the subcultured aliquot is sufficient to inhibit the growth of viable bacteria, and results in a falsely low MBC. This phenomenon was eliminated by widely streaking the transferred aliquot over at least one half of a 100 mm agar plate or by centrifugation and resuspension of the organisms in non-antibiotic-containing media prior to plating. Both methods require more effort than the current method of MBC determination, but can be performed in clinical laboratories and are thus highly recommended in the testing of organisms from endocarditis and meningitis patients. © 1991 Friedr. Vieweg {\&} Sohn Verlagsgesellschaft mbH.}
+      \field{issn}{09349723}
+      \field{journaltitle}{Eur. J. Clin. Microbiol. Infect. Dis.}
+      \field{number}{1}
+      \field{title}{{Evaluation of two methods for overcoming the antibiotic carry-over effect}}
+      \field{volume}{10}
+      \field{year}{1991}
+      \field{pages}{34\bibrangedash 38}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1007/BF01967095
+      \endverb
+      \verb{file}
+      \verb :Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/1991/Eng et al. - 1991 - Evaluation of two methods for overcoming the antibiotic carry-over effect - European Journal of Clinical Microbiolog.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Coates2018}{article}{}
+      \name{author}{6}{}{%
+        {{hash=15c9e83fe45f7f16fa616a67e04d79e5}{%
+           family={Coates},
+           familyi={C\bibinitperiod},
+           given={Jessica},
+           giveni={J\bibinitperiod}}}%
+        {{hash=dbc2acd251eb345a945ae5a8f8b79139}{%
+           family={Park},
+           familyi={P\bibinitperiod},
+           given={Bo\bibnamedelima Ryoung},
+           giveni={B\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=105cb4c4b3e3d8e395732e6b18a610d9}{%
+           family={Le},
+           familyi={L\bibinitperiod},
+           given={Dai},
+           giveni={D\bibinitperiod}}}%
+        {{hash=cf47403fc0ec0414e93150a219d32239}{%
+           family={Şimşek},
+           familyi={Ş\bibinitperiod},
+           given={Emrah},
+           giveni={E\bibinitperiod}}}%
+        {{hash=85bdbed2798ffc55a6f44df4d31d3cbd}{%
+           family={Chaudhry},
+           familyi={C\bibinitperiod},
+           given={Waqas},
+           giveni={W\bibinitperiod}}}%
+        {{hash=52398e4a5b4aa6b6a34f8822104a849b}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Minsu},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{63091ddd975e1f672f1fbb98bf5e5335}
+      \strng{fullhash}{06092f54b1be0f6cd37f08004a644995}
+      \strng{bibnamehash}{63091ddd975e1f672f1fbb98bf5e5335}
+      \strng{authorbibnamehash}{63091ddd975e1f672f1fbb98bf5e5335}
+      \strng{authornamehash}{63091ddd975e1f672f1fbb98bf5e5335}
+      \strng{authorfullhash}{06092f54b1be0f6cd37f08004a644995}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Effective antibiotic use that minimizes treatment failures remains a challenge. A better understanding of how bacterial populations respond to antibiotics is necessary. Previous studies of large bacterial populations established the deterministic framework of pharmacodynamics. Here, characterizing the dynamics of population extinction, we demonstrated the stochastic nature of eradicating bacteria with antibiotics. Antibiotics known to kill bacteria (bactericidal) induced population fluctuations. Thus, at high antibiotic concentrations, the dynamics of bacterial clearance were heterogeneous. At low concentrations, clearance still occurred with a non-zero probability. These striking outcomes of population fluctuations were well captured by our probabilistic model. Our model further suggested a strategy to facilitate eradication by increasing extinction probability. We experimentally tested this prediction for antibiotic-susceptible and clinically-isolated resistant bacteria. This new knowledge exposes fundamental limits in our ability to predict bacterial eradication. Additionally, it demonstrates the potential of using antibiotic concentrations that were previously deemed inefficacious to eradicate bacteria.}
+      \field{issn}{2050084X}
+      \field{journaltitle}{Elife}
+      \field{title}{{Antibiotic-induced population fluctuations and stochastic clearance of bacteria}}
+      \field{volume}{7}
+      \field{year}{2018}
+      \field{pages}{1\bibrangedash 26}
+      \range{pages}{26}
+      \verb{doi}
+      \verb 10.7554/eLife.32976
+      \endverb
+      \verb{file}
+      \verb :Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/2018/Coates et al. - 2018 - Antibiotic-induced population fluctuations and stochastic clearance of bacteria - eLife.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Marques2005}{article}{}
+      \name{author}{5}{}{%
+        {{hash=590a683fecfa880ed2739ac9313af0b5}{%
+           family={Marques},
+           familyi={M\bibinitperiod},
+           given={Cl{á}udia\bibnamedelima N.H.},
+           giveni={C\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=33d0e63ffea4ff59eb2c35a0e06445df}{%
+           family={Salisbury},
+           familyi={S\bibinitperiod},
+           given={Vyvyan\bibnamedelima C.},
+           giveni={V\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=d9fb5cd62375d969ebc006271e1143d9}{%
+           family={Greenman},
+           familyi={G\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+        {{hash=811ccaf1a6b153fe19f5418e70693f19}{%
+           family={Bowker},
+           familyi={B\bibinitperiod},
+           given={Karen\bibnamedelima E.},
+           giveni={K\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=94267e45eb547edd9edaec6d192507c5}{%
+           family={Nelson},
+           familyi={N\bibinitperiod},
+           given={Shona\bibnamedelima M.},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford Academic}%
+      }
+      \strng{namehash}{1bd743e387d4f5b4e3bab343ba97943a}
+      \strng{fullhash}{1bd743e387d4f5b4e3bab343ba97943a}
+      \strng{bibnamehash}{1bd743e387d4f5b4e3bab343ba97943a}
+      \strng{authorbibnamehash}{1bd743e387d4f5b4e3bab343ba97943a}
+      \strng{authornamehash}{1bd743e387d4f5b4e3bab343ba97943a}
+      \strng{authorfullhash}{1bd743e387d4f5b4e3bab343ba97943a}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Objectives: To utilize bioluminescence to follow the effect of ciprofloxacin challenge on Pseudomonas aeruginosa biofilms. Methods: The Sorbarod continuous perfusion culture system was used for the cultivation of biofilms of a self-bioluminescent strain of P. aeruginosa PAO1. Biofilms were challenged with ciprofloxacin (5 mg/L) in the perfusing medium for 3 h and allowed to recover to pre-challenge population levels before initiation of a second 3 h challenge. In addition to determining eluate and biofilm cell survival by conventional viable plate counts, light output was monitored via a luminometer and a low-light-level ICCD camera, to give an indication of metabolism. The effect of drug challenge on biofilm structure was investigated using an environmental scanning electron microscope, which allowed discernment of changes to the three-dimensional biofilm architecture. Results: On challenge with ciprofloxacin, eluate light output measurements declined to a lesser extent than viable counts for the same samples and also indicated that post-challenge recovery of the biofilm metabolism did not occur as rapidly as suggested by viable count data. Photon detection by ICCD camera allowed real-time, non-invasive imaging of metabolic activity within intact biofilms. Conclusions: The application of a bioluminescent reporter strain to biofilm research provides valuable real-time positional data on the efficacy of anti-biofilm treatment strategies. © The Author 2005. Published by Oxford University Press on behalf of the British Society for Antimicrobial Chemotherapy. All rights reserved.}
+      \field{issn}{03057453}
+      \field{journaltitle}{J. Antimicrob. Chemother.}
+      \field{month}{10}
+      \field{number}{4}
+      \field{title}{{Discrepancy between viable counts and light output as viability measurements, following ciprofloxacin challenge of self-bioluminescent Pseudomonas aeruginosa biofilms}}
+      \field{volume}{56}
+      \field{year}{2005}
+      \field{pages}{665\bibrangedash 671}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1093/jac/dki285
+      \endverb
+      \verb{file}
+      \verb :Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/2005/Marques et al. - 2005 - Discrepancy between viable counts and light output as viability measurements, following ciprofloxacin challenge.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://dx.doi.org/10.1093/jac/dki285
+      \endverb
+      \verb{url}
+      \verb https://dx.doi.org/10.1093/jac/dki285
+      \endverb
+      \keyw{Biofilms,Bioluminescence,P. aeruginosa}
+    \endentry
+    \entry{Levine1998}{article}{}
+      \name{author}{3}{}{%
+        {{hash=2d41dc4c670a846c756fd038888ebb08}{%
+           family={Levine},
+           familyi={L\bibinitperiod},
+           given={Cindy},
+           giveni={C\bibinitperiod}}}%
+        {{hash=2e36ca0291c48bc860008695c897a47e}{%
+           family={Hiasa},
+           familyi={H\bibinitperiod},
+           given={Hiroshi},
+           giveni={H\bibinitperiod}}}%
+        {{hash=fbcfea65382a5e3930b3962e14b0293a}{%
+           family={Marians},
+           familyi={M\bibinitperiod},
+           given={Kenneth\bibnamedelima J.},
+           giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{34d0258a874c65d78e0d5badf11efc2c}
+      \strng{fullhash}{34d0258a874c65d78e0d5badf11efc2c}
+      \strng{bibnamehash}{34d0258a874c65d78e0d5badf11efc2c}
+      \strng{authorbibnamehash}{34d0258a874c65d78e0d5badf11efc2c}
+      \strng{authornamehash}{34d0258a874c65d78e0d5badf11efc2c}
+      \strng{authorfullhash}{34d0258a874c65d78e0d5badf11efc2c}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{DNA gyrase and topoisomerase IV are the two type II topoisomerases present in bacteria. Though clearly related, based on amino acid sequence similarity, they each play crucial, but distinct, roles in the cell. Gyrase is involved primarily in supporting nascent chain elongation during replication of the chromosome, whereas topoisomerase IV separates the topologically linked daughter chromosomes during the terminal stage of DNA replication. These different roles can be attributed to differences in the biochemical properties of the two enzymes. The biochemical activities, physiological roles, and drug sensitivities of the enzymes are reviewed.}
+      \field{issn}{01674781}
+      \field{journaltitle}{Biochim. Biophys. Acta - Gene Struct. Expr.}
+      \field{number}{1-3}
+      \field{title}{{DNA gyrase and topoisomerase IV: Biochemical activities, physiological roles during chromosome replication, and drug sensitivities}}
+      \field{volume}{1400}
+      \field{year}{1998}
+      \field{pages}{29\bibrangedash 43}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1016/S0167-4781(98)00126-2
+      \endverb
+      \verb{file}
+      \verb :Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/1998/Levine, Hiasa, Marians - 1998 - DNA gyrase and topoisomerase IV Biochemical activities, physiological roles during chromosome replicatio.pdf:pdf
+      \endverb
+      \keyw{Chromosome decatenation,DNA replication,Drug resistance,Mechanism,Type II}
+    \endentry
+    \entry{Wu2024}{article}{}
+      \name{author}{13}{}{%
+        {{hash=7b0f155d0ed2ea38da231522c80517e7}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Renfei},
+           giveni={R\bibinitperiod}}}%
+        {{hash=cd8c48cf5e0cd993b32262c1ad387042}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Cong},
+           giveni={C\bibinitperiod}}}%
+        {{hash=6233a666b2dfa47d3113a410dd3d8b78}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Jiuyi},
+           giveni={J\bibinitperiod}}}%
+        {{hash=910b8f82283363aafefc8ed321b26079}{%
+           family={Sjollema},
+           familyi={S\bibinitperiod},
+           given={Jelmer},
+           giveni={J\bibinitperiod}}}%
+        {{hash=c574e4ce85e33ec2005e9023da8fbb77}{%
+           family={Geertsema-Doornbusch},
+           familyi={G\bibinithyphendelim D\bibinitperiod},
+           given={G{é}sinda\bibnamedelima I.},
+           giveni={G\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=e989208af22e896dee0355f1ddf8b23a}{%
+           family={Haan-Visser},
+           familyi={H\bibinithyphendelim V\bibinitperiod},
+           given={H.\bibnamedelimi Willy},
+           giveni={H\bibinitperiod\bibinitdelim W\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=7279901d79d872378502b8f6c1e72673}{%
+           family={Dijkstra},
+           familyi={D\bibinitperiod},
+           given={Emma\bibnamedelima S.C.},
+           giveni={E\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=9a0a080b476178a67d77eda818f1b82a}{%
+           family={Ren},
+           familyi={R\bibinitperiod},
+           given={Yijin},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=7543a8e3f9b4a19784e621d783c6a960}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Zexin},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=fd903bc507de58459375d974764ab4ea}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Jian},
+           giveni={J\bibinitperiod}}}%
+        {{hash=a9c03c25179c5d53e4188d5d7c0f27d2}{%
+           family={Flemming},
+           familyi={F\bibinitperiod},
+           given={Hans\bibnamedelima C.},
+           giveni={H\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=9ffb535815a26608901f68084f14c646}{%
+           family={Busscher},
+           familyi={B\bibinitperiod},
+           given={Henk\bibnamedelima J.},
+           giveni={H\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=e94da859400eef72fbc586b6d5150409}{%
+           family={Mei},
+           familyi={M\bibinitperiod},
+           given={Henny\bibnamedelima C.},
+           giveni={H\bibinitperiod\bibinitdelim C\bibinitperiod},
+           prefix={van\bibnamedelima der},
+           prefixi={v\bibinitperiod\bibinitdelim d\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{7612105838ac2a865280b7a620095d95}
+      \strng{fullhash}{e66ac1d0214d657f27c403a23a4e58a5}
+      \strng{bibnamehash}{7612105838ac2a865280b7a620095d95}
+      \strng{authorbibnamehash}{7612105838ac2a865280b7a620095d95}
+      \strng{authornamehash}{7612105838ac2a865280b7a620095d95}
+      \strng{authorfullhash}{e66ac1d0214d657f27c403a23a4e58a5}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Bacteria can be dead, alive, or exhibit slowed or suspended life forms, making bacterial death difficult to establish. Here, agar-plating, microscopic-counting, SYTO9/propidium-iodide staining, MTT-conversion, and bioluminescence-imaging were used to determine bacterial death upon exposure to different conditions. Rank correlations between pairs of assay outcomes were low, indicating different assays measure different aspects of bacterial death. Principal-component analysis yielded two principal components, named “reproductive-ability” (PC1) and “metabolic-activity” (PC2). Plotting of these principal components in two-dimensional space revealed a dead region, with borders defined by the PC1 and PC2 values. Sensu stricto implies an unpractical reality that all assays determining PC1 and PC2 must be carried out in order to establish bacterial death. Considering this unpracticality, it is suggested that at least one assay determining reproductive activity (PC1) and one assay determining metabolic activity (PC2) should be used to establish bacterial death. Minimally, researchers should specifically describe which dimension of bacterial death is assessed, when addressing bacterial death.}
+      \field{issn}{2055-5008}
+      \field{journaltitle}{npj Biofilms Microbiomes 2024 101}
+      \field{month}{9}
+      \field{number}{1}
+      \field{title}{{Bacterial killing and the dimensions of bacterial death}}
+      \field{volume}{10}
+      \field{year}{2024}
+      \field{pages}{1\bibrangedash 8}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1038/s41522-024-00559-9
+      \endverb
+      \verb{file}
+      \verb :Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/2024/Wu et al. - 2024 - Bacterial killing and the dimensions of bacterial death - npj Biofilms and Microbiomes 2024 101.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.nature.com/articles/s41522-024-00559-9
+      \endverb
+      \verb{url}
+      \verb https://www.nature.com/articles/s41522-024-00559-9
+      \endverb
+      \keyw{Antimicrobials,Applied microbiology}
+    \endentry
+    \entry{Fanous2025}{article}{}
+      \name{author}{6}{}{%
+        {{hash=3012dc13bca700401a94f9513fd6f96d}{%
+           family={Fanous},
+           familyi={F\bibinitperiod},
+           given={Joseph},
+           giveni={J\bibinitperiod}}}%
+        {{hash=3437bc3c26341ce9fcaa59128ccbfacb}{%
+           family={Claudi},
+           familyi={C\bibinitperiod},
+           given={Beatrice},
+           giveni={B\bibinitperiod}}}%
+        {{hash=00887c2d615589257faddf7201f3e931}{%
+           family={Tripathi},
+           familyi={T\bibinitperiod},
+           given={Vishwachi},
+           giveni={V\bibinitperiod}}}%
+        {{hash=17ed67aeef2c801769c4ed17ad8b1b8b}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Jiagui},
+           giveni={J\bibinitperiod}}}%
+        {{hash=0e1d02a7cea1905680004f8a9f7a72a2}{%
+           family={Goormaghtigh},
+           familyi={G\bibinitperiod},
+           given={Fr{é}d{é}ric},
+           giveni={F\bibinitperiod}}}%
+        {{hash=e926d070075f30bf4ac550ce3575bf22}{%
+           family={Bumann},
+           familyi={B\bibinitperiod},
+           given={Dirk},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{23a605f192348109d7ef4809b9ba25af}
+      \strng{fullhash}{73b2cb5fbd2dc9582218d38f4bffe780}
+      \strng{bibnamehash}{23a605f192348109d7ef4809b9ba25af}
+      \strng{authorbibnamehash}{23a605f192348109d7ef4809b9ba25af}
+      \strng{authornamehash}{23a605f192348109d7ef4809b9ba25af}
+      \strng{authorfullhash}{73b2cb5fbd2dc9582218d38f4bffe780}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Antimicrobial compounds are essential for controlling bacterial infections. Stress-induced bacterial tolerance and persisters can undermine antimicrobial activities under laboratory conditions, but their quantitative effects under physiological conditions remain unclear1,2. Here we determined constraints on clearance of Salmonella by antimicrobials in infected mice and tissue-mimicking chemostats. The antibiotics enrofloxacin and ceftriaxone exhibited poor anti-Salmonella activity under both conditions, primarily owing to severe nutrient starvation, which restricted Salmonella replication3, 4–5. Other infection-associated conditions, such as acidic pH, glucose, oxidative stress, nitrosative stress, antimicrobial peptides, osmolarity, oxygen limitation, carbon dioxide and carbonate, as well as drug efflux, toxin–antitoxin modules and cell size had limited effects. A subset of resilient Salmonella appeared as a key obstacle for clearance by enrofloxacin, based on the biphasic decline of Salmonella colony-forming units. However, these data were misleading, because colony formation was confounded by extensive post-exposure killing. More accurate single-cell, real-time assays showed uniformly slow damage, indicating high resilience across the entire Salmonella population. The resulting extensive survival of bulk bacteria minimized the effect of hyper-resilient persisters. Thus, starvation-induced general resilience of Salmonella was the main cause of poor antibiotic clearance. These findings highlight the importance of quantifying antibiotic activity with real-time, single-cell assays under physiological conditions.}
+      \field{issn}{14764687}
+      \field{journaltitle}{Nature}
+      \field{month}{2}
+      \field{number}{8053}
+      \field{title}{{Limited impact of Salmonella stress and persisters on antibiotic clearance}}
+      \field{volume}{639}
+      \field{year}{2025}
+      \field{pages}{181\bibrangedash 189}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1038/s41586-024-08506-6
+      \endverb
+      \verb{file}
+      \verb :Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/2025/Fanous et al. - 2025 - Limited impact of Salmonella stress and persisters on antibiotic clearance - Nature.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.nature.com/articles/s41586-024-08506-6
+      \endverb
+      \verb{url}
+      \verb https://www.nature.com/articles/s41586-024-08506-6
+      \endverb
+      \keyw{Antibiotics,Pathogens}
+    \endentry
+    \entry{Gleckman1981}{article}{}
+      \name{author}{3}{}{%
+        {{hash=3afa91e8a1c4b8870fe1ee97c899eac4}{%
+           family={Gleckman},
+           familyi={G\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod}}}%
+        {{hash=e0f570209cac114e28feca14a08feabe}{%
+           family={Blagg},
+           familyi={B\bibinitperiod},
+           given={Noel},
+           giveni={N\bibinitperiod}}}%
+        {{hash=298a23cf5f14a558e087b89bf30c834f}{%
+           family={Joubert},
+           familyi={J\bibinitperiod},
+           given={Dennis\bibnamedelima W.},
+           giveni={D\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{57579ce4483006bed3a4a06978b61bba}
+      \strng{fullhash}{57579ce4483006bed3a4a06978b61bba}
+      \strng{bibnamehash}{57579ce4483006bed3a4a06978b61bba}
+      \strng{authorbibnamehash}{57579ce4483006bed3a4a06978b61bba}
+      \strng{authornamehash}{57579ce4483006bed3a4a06978b61bba}
+      \strng{authorfullhash}{57579ce4483006bed3a4a06978b61bba}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Trimethoprim has recently been marketed as a single‐entity product for the treatment of initial episodes of uncomplicated symptomatic urinary tract infections; it was previously available only in combination with sulfamethoxazole. Trimethoprim exerts antimicrobial activity by blocking the reduction of dihydrofolate to tetrahydrofolate, the active form of folic acid, by susceptible organisms. It has inhibitory activity for most gram‐positive aerobic cocci and some gram‐negative aerobic bacilli. Resistance to trimethoprim may be either intrinsic or acquired. Acquired resistance most commonly stems from a chromosomal mutation that results in the production of a dihydrofolate reductase enzyme which is less vulnerable to trimethoprim inhibition. Gastrointestinal intolerance and skin eruptions are the most common untoward reactions resulting from the administration of trimethoprim. Trimethoprim constitutes very effective therapy for women with acute symptomatic urinary tract infections caused by E. coli, and the compound compares favorably with alternative standard agents, such as ampicillin and cephalexin. The safety of trimethoprim in the pregnant woman has not been established. Since indiscriminate use of trimethoprim could foster the emergence of trimethoprim resistance, thereby negating the value of both trimethoprim and trimethoprim‐sulfamethoxazole, trimethoprim should only be prescribed for well defined indications. Trimethoprim is currently being investigated as definitive therapy for a wide range of infections, including bacterial exacerbations of chronic bronchitis, bacterial pneumonia, and typhoid fever. Initial reports are encouraging. (Pharmacotherapy 1981;1:14–20) 1981 Pharmacotherapy Publications Inc.}
+      \field{issn}{18759114}
+      \field{journaltitle}{Pharmacother. J. Hum. Pharmacol. Drug Ther.}
+      \field{number}{1}
+      \field{title}{{Trimethoprim: Mechanisms of Action, Antimicrobial Activity, Bacterial Resistance, Pharmacokinetics, Adverse Reactions, and Therapeutic Indications}}
+      \field{volume}{1}
+      \field{year}{1981}
+      \field{pages}{14\bibrangedash 19}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1002/j.1875-9114.1981.tb03548.x
+      \endverb
+      \verb{file}
+      \verb :Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/1981/Gleckman, Blagg, Joubert - 1981 - Trimethoprim Mechanisms of Action, Antimicrobial Activity, Bacterial Resistance, Pharmacokinetics, Adv.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Deslouches2005}{article}{}
+      \name{author}{6}{}{%
+        {{hash=5b0d0f48bea7f4690c76ee9631175570}{%
+           family={Deslouches},
+           familyi={D\bibinitperiod},
+           given={Berthony},
+           giveni={B\bibinitperiod}}}%
+        {{hash=ff63ab9f1c71119c67c5ddb589d4ccd3}{%
+           family={Islam},
+           familyi={I\bibinitperiod},
+           given={Kazi},
+           giveni={K\bibinitperiod}}}%
+        {{hash=dda445cf5ed5abf78223f2e4881b5c76}{%
+           family={Craigo},
+           familyi={C\bibinitperiod},
+           given={Jodi\bibnamedelima K.},
+           giveni={J\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=0c0e35ff1a71a901eda7d17cc479efc0}{%
+           family={Paranjape},
+           familyi={P\bibinitperiod},
+           given={Shruti\bibnamedelima M.},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=4d76df6a11c002c80290888a8b70a2f0}{%
+           family={Montelaro},
+           familyi={M\bibinitperiod},
+           given={Ronald\bibnamedelima C.},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=7461c6c2e55bc89d39bb3eece132fbb5}{%
+           family={Mietzner},
+           familyi={M\bibinitperiod},
+           given={Timothy\bibnamedelima A.},
+           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{822a89ba2d6480afdc593eafc75f5cd5}
+      \strng{fullhash}{8d4a1ed7b99431b45632aefc0592b06d}
+      \strng{bibnamehash}{822a89ba2d6480afdc593eafc75f5cd5}
+      \strng{authorbibnamehash}{822a89ba2d6480afdc593eafc75f5cd5}
+      \strng{authornamehash}{822a89ba2d6480afdc593eafc75f5cd5}
+      \strng{authorfullhash}{8d4a1ed7b99431b45632aefc0592b06d}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Cationic amphipathic peptides have been extensively investigated as a potential source of new antimicrobials that can complement current antibiotic regimens in the face of emerging drug-resistant bacteria. However, the suppression of antimicrobial activity under certain biologically relevant conditions (e.g., serum and physiological salt concentrations) has hampered efforts to develop safe and effective antimicrobial peptides for clinical use. We have analyzed the activity and selectivity of the human peptide LL37 and the de novo engineered antimicrobial peptide WLBU2 in several biologically relevant conditions. The host-derived synthetic peptide LL37 displayed high activity against Pseudomonas aeruginosa but demonstrated staphylococcus-specific sensitivity to NaCl concentrations varying from 50 to 300 niM. Moreover, LL37 potency was variably suppressed in the presence of 1 to 6 mM Mg2+ and Ca2+ ions. In contrast, WLBU2 maintained its activity in NaCl and physiologic serum concentrations of Mg2+ and Ca2+. WLBU2 is able to kill P. aeruginosa (106 CFU/ml) in human serum, with a minimum bactericidal concentration of <9 $\mu$M. Conversely, LL37 is inactive in the presence of human serum. Bacterial killing kinetic assays in serum revealed that WLBU2 achieved complete bacterial killing in 20 min. Consistent with these results was the ability of WLBU2 (15 to 20 $\mu$M) to eradicate bacteria from ex vivo samples of whole blood. The selectivity of WLBU2 was further demonstrated by its ability to specifically eliminate P. aeruginosa in coculture with human monocytes or skin fibroblasts without detectable adverse effects to the host cells. Finally, WLBU2 displayed potent efficacy against P. aeruginosa in an intraperitoneal infection model using female Swiss Webster mice. These results establish a potential application of WLBU2 in the treatment of bacterial sepsis. Copyright © 2005, American Society for Microbiology. All Rights Reserved.}
+      \field{issn}{00664804}
+      \field{journaltitle}{Antimicrob. Agents Chemother.}
+      \field{number}{8}
+      \field{title}{{Activity of the de novo engineered antimicrobial peptide WLBU2 against Pseudomonas aeruginosa in human serum and whole blood: Implications for systemic applications}}
+      \field{volume}{49}
+      \field{year}{2005}
+      \field{pages}{3208\bibrangedash 3216}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1128/AAC.49.8.3208-3216.2005
+      \endverb
+      \verb{file}
+      \verb :Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/2005/Deslouches et al. - 2005 - Activity of the de novo engineered antimicrobial peptide WLBU2 against Pseudomonas aeruginosa in human serum.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Baquero1986}{article}{}
+      \name{author}{6}{}{%
+        {{hash=cac3ef52fa57234cda0b99b547123aa4}{%
+           family={Baquero},
+           familyi={B\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=88dfb3819418e9a46c8fbd80bb827fec}{%
+           family={Culebras},
+           familyi={C\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=3c7e57bf21363d5bd8f1e38516e041b6}{%
+           family={Patron},
+           familyi={P\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=0d6236665394b96a800a7cca1d6ebb37}{%
+           family={P{é}rez-D{í}az},
+           familyi={P\bibinithyphendelim D\bibinitperiod},
+           given={J.\bibnamedelimi C.},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=3c4a2980161564746fe1357260e11dc0}{%
+           family={Medrano},
+           familyi={M\bibinitperiod},
+           given={J.\bibnamedelimi C.},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=976ee33eb4b1fbe2894083023e75e8d8}{%
+           family={Vicente},
+           familyi={V\bibinitperiod},
+           given={M.\bibnamedelimi F.},
+           giveni={M\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {J Antimicrob Chemother}%
+      }
+      \strng{namehash}{7d1226da982b3817ecbf28cbe7b03a41}
+      \strng{fullhash}{aa79b045de7046eddcd0e7810de846fd}
+      \strng{bibnamehash}{7d1226da982b3817ecbf28cbe7b03a41}
+      \strng{authorbibnamehash}{7d1226da982b3817ecbf28cbe7b03a41}
+      \strng{authornamehash}{7d1226da982b3817ecbf28cbe7b03a41}
+      \strng{authorfullhash}{aa79b045de7046eddcd0e7810de846fd}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The bactericidal effect (BE) of an antibiotic reduces the infective population, and its postantibiotic effect (PAE) assures a persistent inhibition of bacterial cells after a short exposure to the antimicrobial agent. Both effects prevent the early regrowth of the infecting organisms when the antibiotic tissue levels decrease to below the MIC value. The BE and the PAE of imipenem, cefotaxime, ceftazidime, piperacillin, gentamicin and ampicillin on Escherichia coli, Klebsiella pneumoniae, Enterobacter cloacae, Pseudomonas aeruginosa, Acinetobacter calcoaceticus, Staphylococcus aureus and Streptococcus faecalis were investigated with viable counts and continuous impedance monitoring of broth cultures. Imipenem and gentamicin gave similar high BE and PAE values at low concentrations and with short drug exposures in most strains tested. PAE is low or non-existent for Gram-negative strains with other $\beta$-lactam antibiotics. These results suggest the possibility of future clinical studies with new experimental dosage schedules for imipenem.}
+      \field{issn}{0305-7453}
+      \field{journaltitle}{J. Antimicrob. Chemother.}
+      \field{number}{SUPPL. E}
+      \field{title}{{Postantibiotic effect of imipenem on gram-positive and gram-negative micro-organisms}}
+      \field{volume}{18 Suppl E}
+      \field{year}{1986}
+      \field{pages}{47\bibrangedash 59}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1093/JAC/18.SUPPLEMENT_E.47
+      \endverb
+      \verb{file}
+      \verb :Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/1986/Baquero et al. - 1986 - Postantibiotic effect of imipenem on gram-positive and gram-negative micro-organisms - The Journal of antimicrob.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://pubmed.ncbi.nlm.nih.gov/3546247/
+      \endverb
+      \verb{url}
+      \verb https://pubmed.ncbi.nlm.nih.gov/3546247/
+      \endverb
+      \keyw{Anti-Bacterial Agents / pharmacology*,E Culebras,Escherichia coli / drug effects,F Baquero,Gram-Negative Bacteria / drug effects*,Gram-Positive Bacteria / drug effects*,Imipenem,M F Vicente,MEDLINE,NCBI,NIH,NLM,National Center for Biotechnology Information,National Institutes of Health,National Library of Medicine,Non-U.S. Gov't,PubMed Abstract,Research Support,Thienamycins / pharmacology*,doi:10.1093/jac/18.supplement{\_}e.47,pmid:3546247}
+    \endentry
+    \entry{Deguchi2011}{article}{}
+      \name{author}{7}{}{%
+        {{hash=99b7f1c131e5f078c71dd9caf040418d}{%
+           family={Deguchi},
+           familyi={D\bibinitperiod},
+           given={Shigeru},
+           giveni={S\bibinitperiod}}}%
+        {{hash=c96398749d726c467c080c29d556ea20}{%
+           family={Shimoshige},
+           familyi={S\bibinitperiod},
+           given={Hirokazu},
+           giveni={H\bibinitperiod}}}%
+        {{hash=f31db6d5f3cb54095d4edd5a2601a7b2}{%
+           family={Tsudome},
+           familyi={T\bibinitperiod},
+           given={Mikiko},
+           giveni={M\bibinitperiod}}}%
+        {{hash=46cd0781152bdc52d3503670331f37a6}{%
+           family={Mukai},
+           familyi={M\bibinitperiod},
+           given={Sada\bibnamedelima Atsu},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=fe2fccdaedb151b366cad0f6a148d981}{%
+           family={Corkery},
+           familyi={C\bibinitperiod},
+           given={Robert\bibnamedelima W.},
+           giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=1c4d2694cb8e1a71935eb237d90022c7}{%
+           family={Ito},
+           familyi={I\bibinitperiod},
+           given={Susumu},
+           giveni={S\bibinitperiod}}}%
+        {{hash=3477bd4eb8ea3839195bb7bbf9931fde}{%
+           family={Horikoshi},
+           familyi={H\bibinitperiod},
+           given={Koki},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {National Academy of Sciences}%
+      }
+      \strng{namehash}{8f750668a2f871e74c637dcbca5e6fb0}
+      \strng{fullhash}{154d902e5f876c69f0f998f919d13078}
+      \strng{bibnamehash}{8f750668a2f871e74c637dcbca5e6fb0}
+      \strng{authorbibnamehash}{8f750668a2f871e74c637dcbca5e6fb0}
+      \strng{authornamehash}{8f750668a2f871e74c637dcbca5e6fb0}
+      \strng{authorfullhash}{154d902e5f876c69f0f998f919d13078}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{It is well known that prokaryotic life can withstand extremes of temperature, pH, pressure, and radiation. Little is known about the proliferation of prokaryotic life under conditions of hyper-acceleration attributable to extreme gravity, however. We found that living organisms can be surprisingly proliferative during hyperacceleration. In tests reported here, a variety of microorganisms, including Gram-negative Escherichia coli, Paracoccus denitrificans, and Shewanella amazonensis; Gram-positive Lactobacillus delbrueckii; and eukaryotic Saccharomyces cerevisiae, were cultured while being subjected to hyperaccelerative conditions. We observed and quantified robust cellular growth in these cultures across a wide range of hyperacceleration values. Most notably, the organisms P. denitrificans and E. coli were able to proliferate even at 403,627 x g. Analysis shows that the small size of prokaryotic cells is essential for their proliferation under conditions of hyper-acceleration. Our results indicate that microorganisms cannot only survive during hyperacceleration but can display such robust proliferative behavior that the habitability of extraterrestrial environments must not be limited by gravity.}
+      \field{issn}{00278424}
+      \field{journaltitle}{Proc. Natl. Acad. Sci. U. S. A.}
+      \field{month}{5}
+      \field{number}{19}
+      \field{title}{{Microbial growth at hyperaccelerations up to 403,627 x g}}
+      \field{volume}{108}
+      \field{year}{2011}
+      \field{pages}{7997\bibrangedash 8002}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1073/PNAS.1018027108
+      \endverb
+      \verb{file}
+      \verb :Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/2011/Deguchi et al. - 2011 - Microbial growth at hyperaccelerations up to 403,627 x g - Proceedings of the National Academy of Sciences of th.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.pnas.org/doi/abs/10.1073/pnas.1018027108
+      \endverb
+      \verb{url}
+      \verb https://www.pnas.org/doi/abs/10.1073/pnas.1018027108
+      \endverb
+      \keyw{Astrobiology,Extremophiles}
+    \endentry
+    \entry{Cayron2023}{article}{}
+      \name{author}{3}{}{%
+        {{hash=422791df6e9dc56cf2e291c329d99333}{%
+           family={Cayron},
+           familyi={C\bibinitperiod},
+           given={Julien},
+           giveni={J\bibinitperiod}}}%
+        {{hash=32f5dbb78eba5d99040b4670288d3ad0}{%
+           family={Dedieu-Berne},
+           familyi={D\bibinithyphendelim B\bibinitperiod},
+           given={Annick},
+           giveni={A\bibinitperiod}}}%
+        {{hash=6b0291887e49ad30121fa51799b7972d}{%
+           family={Lesterlin},
+           familyi={L\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {John Wiley}%
+        {Sons Inc}%
+      }
+      \strng{namehash}{cf8bd1c2e4b3d3a656a5c69edbf81cea}
+      \strng{fullhash}{cf8bd1c2e4b3d3a656a5c69edbf81cea}
+      \strng{bibnamehash}{cf8bd1c2e4b3d3a656a5c69edbf81cea}
+      \strng{authorbibnamehash}{cf8bd1c2e4b3d3a656a5c69edbf81cea}
+      \strng{authornamehash}{cf8bd1c2e4b3d3a656a5c69edbf81cea}
+      \strng{authorfullhash}{cf8bd1c2e4b3d3a656a5c69edbf81cea}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Filamentation is a reversible morphological change triggered in response to various stresses that bacteria might encounter in the environment, during host infection or antibiotic treatments. Here we re-visit the dynamics of filament formation and recovery using a consistent framework based on live-cells microscopy. We compare the fate of filamentous Escherichia coli induced by cephalexin that inhibits cell division or by UV-induced DNA-damage that additionally perturbs chromosome segregation. We show that both filament types recover by successive and accelerated rounds of divisions that preferentially occur at the filaments' tip, thus resulting in the rapid production of multiple daughter cells with tightly regulated size. The DNA content, viability and further division of the daughter cells essentially depends on the coordination between chromosome segregation and division within the mother filament. Septum positioning at the filaments' tip depends on the Min system, while the nucleoid occlusion protein SlmA regulates the timing of division to prevent septum closure on unsegregated chromosomes. Our results not only recapitulate earlier conclusions but provide a higher level of detail regarding filaments division and the fate of the daughter cells. Together with previous reports, this work uncovers how filamentation recovery allows for a rapid cell proliferation after stress treatment.}
+      \field{issn}{13652958}
+      \field{journaltitle}{Mol. Microbiol.}
+      \field{month}{2}
+      \field{number}{2}
+      \field{title}{{Bacterial filaments recover by successive and accelerated asymmetric divisions that allow rapid post-stress cell proliferation}}
+      \field{volume}{119}
+      \field{year}{2023}
+      \field{pages}{237\bibrangedash 251}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1111/MMI.15016
+      \endverb
+      \verb{file}
+      \verb :Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/2023/Cayron, Dedieu-Berne, Lesterlin - 2023 - Bacterial filaments recover by successive and accelerated asymmetric divisions that allow rapid.pdf:pdf
+      \endverb
+      \keyw{bacterial filaments,cell division,chromosome segregation,live-cells microscopy,stress response}
+    \endentry
+    \entry{Datsenko2000}{article}{}
+      \name{author}{2}{}{%
+        {{hash=620d079560311b176318c64361f7ff40}{%
+           family={Datsenko},
+           familyi={D\bibinitperiod},
+           given={Kirill\bibnamedelima A.},
+           giveni={K\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=ac7611b766ce72b8cbed01e28e9e1705}{%
+           family={Wanner},
+           familyi={W\bibinitperiod},
+           given={Barry\bibnamedelima L.},
+           giveni={B\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{d18de0827b4328556ce389e914a543fa}
+      \strng{fullhash}{d18de0827b4328556ce389e914a543fa}
+      \strng{bibnamehash}{d18de0827b4328556ce389e914a543fa}
+      \strng{authorbibnamehash}{d18de0827b4328556ce389e914a543fa}
+      \strng{authornamehash}{d18de0827b4328556ce389e914a543fa}
+      \strng{authorfullhash}{d18de0827b4328556ce389e914a543fa}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We have developed a simple and highly efficient method to disrupt chromosomal genes in Escherichia coli in which PCR primers provide the homology to the targeted gene(s). In this procedure, recombination requires the phage $\lambda$ Red recombinase, which is synthesized under the control of an inducible promoter on an easily curable, low copy number plasmid. To demonstrate the utility of this approach, we generated PCR products by using primers with 36- to 50-nt extensions that are homologous to regions adjacent to the gene to be inactivated and template plasmids carrying antibiotic resistance genes that are flanked by FRT (FLP recognition target) sites. By using the respective PCR products, we made 13 different disruptions of chromosomal genes. Mutants of the arcB, cyaA, lacZYA, ompR-envZ, phnR, pstB, pstCA, pstS, pstSCAB-phoU, recA, and torSTRCAD genes or operons were isolated as antibiotic-resistant colonies after the introduction into bacteria carrying a Red expression plasmid of synthetic (PCR-generated) DNA. The resistance genes were then eliminated by using a helper plasmid encoding the FLP recombinase which is also easily curable. This procedure should be widely useful, especially in genome analysis of E. coli and other bacteria because the procedure can be done in wild-type cells.}
+      \field{issn}{00278424}
+      \field{journaltitle}{Proc. Natl. Acad. Sci. U. S. A.}
+      \field{month}{6}
+      \field{number}{12}
+      \field{title}{{One-step inactivation of chromosomal genes in Escherichia coli K-12 using PCR products}}
+      \field{volume}{97}
+      \field{year}{2000}
+      \field{pages}{6640\bibrangedash 6645}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1073/PNAS.120163297
+      \endverb
+      \verb{file}
+      \verb :Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/2000/Datsenko, Wanner - 2000 - One-step inactivation of chromosomal genes in Escherichia coli K-12 using PCR products - Proceedings of the Na.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.pnas.org/doi/10.1073/pnas.120163297
+      \endverb
+      \verb{url}
+      \verb https://www.pnas.org/doi/10.1073/pnas.120163297
+      \endverb
+      \keyw{Bacterial genomics,FLP recombinase,FRT Sites,Red recombinase}
+    \endentry
+    \entry{Hughes2015}{misc}{}
+      \name{author}{3}{}{%
+        {{hash=0b610dba5104b35b00d9f89d1c867b61}{%
+           family={Hughes},
+           familyi={H\bibinitperiod},
+           given={Diarmaid},
+           giveni={D\bibinitperiod}}}%
+        {{hash=9b2ec27b0966bd8bd47f938b05b8c1bc}{%
+           family={Lazazzera},
+           familyi={L\bibinitperiod},
+           given={Beth},
+           giveni={B\bibinitperiod}}}%
+        {{hash=e27952c0944614d718226620999559aa}{%
+           family={Yildiz},
+           familyi={Y\bibinitperiod},
+           given={Fitnat},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Uppsala}%
+      }
+      \list{publisher}{1}{%
+        {Lecture Script}%
+      }
+      \strng{namehash}{c65b1f999276e4de4977cc6ccd0eaac1}
+      \strng{fullhash}{c65b1f999276e4de4977cc6ccd0eaac1}
+      \strng{bibnamehash}{c65b1f999276e4de4977cc6ccd0eaac1}
+      \strng{authorbibnamehash}{c65b1f999276e4de4977cc6ccd0eaac1}
+      \strng{authornamehash}{c65b1f999276e4de4977cc6ccd0eaac1}
+      \strng{authorfullhash}{c65b1f999276e4de4977cc6ccd0eaac1}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Experiments in Bacterial Genetics}}
+      \field{year}{2013}
+      \field{pages}{496}
+      \range{pages}{1}
+      \verb{file}
+      \verb :Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/2013/Hughes, Lazazzera, Yildiz - 2013 - Experiments in Bacterial Genetics - Unknown.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Bjarnason2003}{article}{}
+      \name{author}{3}{}{%
+        {{hash=a10f9006f5680bb1f485f8356c3856c8}{%
+           family={Bjarnason},
+           familyi={B\bibinitperiod},
+           given={Jaime},
+           giveni={J\bibinitperiod}}}%
+        {{hash=31637cf52e45b6706a940105894acb57}{%
+           family={Southward},
+           familyi={S\bibinitperiod},
+           given={Carolyn\bibnamedelima M.},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=a7a31733c0fd15c72aa87348e606aec7}{%
+           family={Surette},
+           familyi={S\bibinitperiod},
+           given={Michael\bibnamedelima G.},
+           giveni={M\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \strng{namehash}{8d25e558cc368e64157218709616f8bb}
+      \strng{fullhash}{8d25e558cc368e64157218709616f8bb}
+      \strng{bibnamehash}{8d25e558cc368e64157218709616f8bb}
+      \strng{authorbibnamehash}{8d25e558cc368e64157218709616f8bb}
+      \strng{authornamehash}{8d25e558cc368e64157218709616f8bb}
+      \strng{authorfullhash}{8d25e558cc368e64157218709616f8bb}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The importance of iron to bacteria is shown by the presence of numerous iron-scavenging and transport systems and by many genes whose expression is tightly regulated by iron availability. We have taken a global approach to gene expression analysis of Salmonella enterica serovar Typhimurium in response to iron by combining efficient, high-throughput methods with sensitive, luminescent reporting of gene expression using a random promoter library. Real-time expression profiles of the library were generated under low- and high-iron conditions to identify iron-regulated promoters, including a number of previously identified genes. Our results indicate that approximately 7{\%} of the genome may be regulated directly or indirectly by iron. Further analysis of these clones using a Fur titration assay revealed three separate classes of genes; two of these classes consist of Fur-regulated genes. A third class was Fur independent and included both negatively and positively iron-responsive genes. These may reflect new iron-dependent regulons. Iron-responsive genes included iron transporters, iron storage and mobility proteins, iron-containing proteins (redox proteins, oxidoreductases, and cytochromes), transcriptional regulators, and the energy transducer tonB. By identifying a wide variety of iron-responsive genes, we extend our understanding of the global effect of iron availability on gene expression in the bacterial cell.}
+      \field{issn}{00219193}
+      \field{journaltitle}{J. Bacteriol.}
+      \field{number}{16}
+      \field{title}{{Genomic profiling of iron-responsive genes in Salmonella enterica serovar Typhimurium by high-throughput screening of a random promoter library}}
+      \field{volume}{185}
+      \field{year}{2003}
+      \field{pages}{4973\bibrangedash 4982}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1128/JB.185.16.4973-4982.2003
+      \endverb
+      \verb{file}
+      \verb :Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/2003/Bjarnason, Southward, Surette - 2003 - Genomic profiling of iron-responsive genes in Salmonella enterica serovar Typhimurium by high-thr.pdf:pdf
+      \endverb
+    \endentry
+    \entry{EUCAST2025}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=b9bb361e2100a604618766ca5a5980b6}{%
+           family={{European Committee on Antimicrobial Susceptibility Testing (EUCAST)}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{b9bb361e2100a604618766ca5a5980b6}
+      \strng{fullhash}{b9bb361e2100a604618766ca5a5980b6}
+      \strng{bibnamehash}{b9bb361e2100a604618766ca5a5980b6}
+      \strng{authorbibnamehash}{b9bb361e2100a604618766ca5a5980b6}
+      \strng{authornamehash}{b9bb361e2100a604618766ca5a5980b6}
+      \strng{authorfullhash}{b9bb361e2100a604618766ca5a5980b6}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{EUCAST broth microdilution reading guide updated}}
+      \field{urlday}{3}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb :Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/2025/European Committee on Antimicrobial Susceptibility Testing (EUCAST) - 2025 - EUCAST broth microdilution reading guide updated - Unknown.pdf:pdf;:Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/2025/European Committee on Antimicrobial Susceptibility Testing (EUCAST) - 2025 - EUCAST broth microdilution reading guide updated - Unknown.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.eucast.org/eucast{\_}news/news{\_}singleview?tx{\_}ttnews{\%}5Btt{\_}news{\%}5D=362{\&}cHash=f2196d399c8618b7313ccb7f048f7af5 https://www.eucast.org/ast{\_}of{\_}bacteria/mic{\_}determination
+      \endverb
+      \verb{url}
+      \verb https://www.eucast.org/eucast%7B%5C_%7Dnews/news%7B%5C_%7Dsingleview?tx%7B%5C_%7Dttnews%7B%5C%%7D5Btt%7B%5C_%7Dnews%7B%5C%%7D5D=362%7B%5C&%7DcHash=f2196d399c8618b7313ccb7f048f7af5%20https://www.eucast.org/ast%7B%5C_%7Dof%7B%5C_%7Dbacteria/mic%7B%5C_%7Ddetermination
+      \endverb
+    \endentry
+    \entry{Jett1997}{article}{}
+      \name{author}{4}{}{%
+        {{hash=e6d5ba195fd4795f094591bb94d29dc4}{%
+           family={Jett},
+           familyi={J\bibinitperiod},
+           given={Bradley\bibnamedelima D.},
+           giveni={B\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=f6430174ed4c728342a55380a3b5e21d}{%
+           family={Hatter},
+           familyi={H\bibinitperiod},
+           given={Kenneth\bibnamedelima L.},
+           giveni={K\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=32cbe8c35a941db40ffafa8a5fa1f03c}{%
+           family={Huycke},
+           familyi={H\bibinitperiod},
+           given={Mark\bibnamedelima M.},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=662773386c5d7df59e2df912891cc4d2}{%
+           family={Gilmore},
+           familyi={G\bibinitperiod},
+           given={Michael\bibnamedelima S.},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Eaton Publishing Company}%
+      }
+      \strng{namehash}{f3d4951ee65a658d37ce303b6288dcd8}
+      \strng{fullhash}{f3d4951ee65a658d37ce303b6288dcd8}
+      \strng{bibnamehash}{f3d4951ee65a658d37ce303b6288dcd8}
+      \strng{authorbibnamehash}{f3d4951ee65a658d37ce303b6288dcd8}
+      \strng{authornamehash}{f3d4951ee65a658d37ce303b6288dcd8}
+      \strng{authorfullhash}{f3d4951ee65a658d37ce303b6288dcd8}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{07366205}
+      \field{journaltitle}{Biotechniques}
+      \field{number}{4}
+      \field{title}{{Simplified agar plate method for quantifying viable bacteria}}
+      \field{volume}{23}
+      \field{year}{1997}
+      \field{pages}{648\bibrangedash 650}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.2144/97234BM22
+      \endverb
+      \verb{file}
+      \verb :Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/1997/Jett et al. - 1997 - Simplified agar plate method for quantifying viable bacteria - BioTechniques.pdf:pdf
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+
+\refsection{6}
+  \datalist[entry]{none/global//global/global}
     \entry{Kishony2003}{article}{}
       \name{author}{2}{}{%
         {{hash=6bcdb0ad30a371c01267d28f47c5e5da}{%

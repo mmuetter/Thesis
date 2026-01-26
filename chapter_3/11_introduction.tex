@@ -1,0 +1,33 @@
+%Understanding how bacterial populations respond to selection requires knowledge of how the growth and death rates of their constituent members change as a function of the selective pressure.
+Accurate characterization of changes in population size under treatment is essential for understanding the evolution of antibiotic resistance.
+Commonly, the effect of treatment on bacterial populations is quantified by pharmacodynamic (PD) curves.
+PD curves quantify the relationship between drug concentration and the rate of population change (net growth) \cite{Regoes2004}.
+These range from no antibiotic, through sub-MIC concentrations that only reduce population growth, to super-MIC concentrations that kill bacteria and lead to a population decline.
+
+The growth parameter most often used in PD curves is the exponential rate of change in living bacteria, \(\psi_B\), reflecting both division and death.
+However, other population properties, such as changes in the number of culturable bacteria or total biomass, may also be relevant, depending on the specific biological question.
+
+In practice, PD-curves are fitted to the rate of change of a measured proxy signal such as optical density (OD), colony-forming units (CFU) or bioluminescent light intensity.
+
+OD is a cost-effective approach for real-time, high-throughput monitoring of culture turbidity without sacrificing the population.
+OD is positively correlated (within a certain range) to cell density.
+However, since OD cannot distinguish between living and dead cells, this estimate of cell density is only reliable for increasing or stable population sizes, making it unsuitable for quantifying negative rates (kill rates).
+
+CFU assays estimate bacterial density by counting the colonies that grow on permissive agar media from plated samples. They remain the gold standard for measuring population size under both sub-MIC and super-MIC conditions and are widely used to quantify pharmacodynamic curves (e.g.\ \cite{Regoes2004, Foerster2016}).
+
+Luminescence assays measure the light emitted by bioluminescent bacterial cultures and can be used as a proxy to estimate changes in population size.
+Two main approaches for biological assays are: eukaryotic \textit{luc} systems and the prokaryotic \textit{lux} systems. The \textit{luc} system, derived from eukaryotes such as fireflies, uses an ATP-dependent luciferase that oxidises luciferin to emit light \cite{Vellend1977}. It was adapted for bacterial reporters by chromosomal integration in \textit{Mycobacterium tuberculosis} \cite{Jacobs1993} and later tested for quantifying antibiotic killing in \textit{Streptococcus gordonii} \cite{Loeliger2003}.
+However, \textit{luc}-based assays are limited by sensitivity to intracellular ATP, the need for addition of a costly substrate, and luciferin degradation, making continuous measurement in the same culture impractical.
+
+By contrast, the \textit{lux} operon of prokaryotes such as \textit{Photorhabdus luminescens} encodes all components required to sustain the bioluminescence reaction \cite{Engebrecht1985,Meighen1991}.
+No external substrate is needed, so light production can be recorded continuously in the same culture, making the \textit{lux} system better suited for high-throughput applications than the luc system.
+Accordingly, it has been widely used to record growth curves and quantify sub-MIC treatment effects \cite{Kishony2003,Yeh2006,Chait2007,Larsson2014,Kavcic2020,Angermayr2022}.
+
+While high-throughput OD and luminescence measurements at sub-MIC concentrations provide valuable insights into drug effects on growth rates, the super-MIC range is clinically more relevant.
+A comprehensive investigation of super-MIC population dynamics (for example, pharmacodynamics of drug combinations or resistance mutations) using CFU remains impractical, as it is labor-intensive and inherently low-throughput.
+
+Whether lux luminescence can be extended to super-MIC ranges remains unclear, as direct comparisons between CFU- and luminescence-based measurements are scarce and so far limited to only a few drugs \cite{Salisbury1999, Beard2002, Alloush2003}.
+Here we evaluate the limitations of lux luminescence assays and assess whether they can reliably quantify growth rates at super-MIC concentrations.
+For this, we compare changes in light intensity with changes in CFU counts across 20 antimicrobials spanning 11 classes, including penicillins, cephalosporins, carbapenems, polymyxins, quinolones, rifamycins, tetracyclines, amphenicols, folate antagonists, fosfomycin, and antimicrobial peptides.
+Luminescence- and CFU-based rates aligned for some antimicrobials (e.g., colistin, amoxicillin) but diverged for others (e.g., ciprofloxacin).
+Here, we explore the potential and limitations of both methods, identify the conditions under which they align with the rate of change of population size, and discuss their implications for studying antimicrobial effectiveness across sub-MIC and super-MIC ranges.

@@ -1,0 +1,56 @@
+%% 1) WHAT WE FOUND
+We evaluated whether luminescence can serve as a high-throughput proxy for population dynamics by comparing it with CFU assays.
+We found no significant difference between CFU- and luminescence-based rates for treatments that neither induce substantial changes in culturability nor provoke strong morphological changes, such as filamentation.
+However, for drugs that induce filamentation and/or loss of culturability, the two methods can yield significantly different results.
+The divergence between the two rates does not imply that either method is incorrect; rather, each captures a different aspect of the population.
+
+%% 2A) WHAT CFU MEASURES
+The CFU method counts bacteria capable of forming colonies on permissive media (i.e., culturable cells).
+When inferring growth rates from CFU, the observed rate of change $\psi_{\mathrm{CFU}}$ reflects both the rate of change of population size $\psi_B$ and changes in the probability that a plated bacterium forms a colony, $\eta$ (\sieq{4}).
+The CFU-based rate equals $\psi_B$ only if $\eta$ remains constant over time.
+
+However, \(\eta\) can change for three main reasons.
+First, altered clustering behavior can change how many bacteria seed a single colony.
+This directly shifts the observed colony count.
+Second, physiological changes to the bacteria may lead to a temporary or permanent change in culturability (\cite{Eagle1949, Baquero1986, Besnard2002, Oliver2005, Li2014, Wu2024}), which may increase the fraction of viable cells that fail to form colonies, e.g. due to a reduced division rate.
+Third, residual drug activity carried over to the agar can alter on-plate conditions, thereby reducing division or increasing the death rate (\cite{Pearson1980, Eng1991, Coates2018}).
+
+Preventing antibiotic carryover when handling low-density cultures treated with highly concentrated antimicrobials is challenging and, in some cases, infeasible.
+Centrifugation‐based washing (pelleting bacteria and replacing the supernatant) can remove residual drug, but only if the processing delay is negligible relative to the antibiotic’s killing kinetics --- a condition unlikely to hold for fast‐acting agents such as pexiganan.
+Moreover, although bacteria generally tolerate high centrifugal forces (\cite{Deguchi2011}), the impact on compromised cells, such as those with destabilized walls, is unknown.
+As an alternative, we found that supplementing the dilution medium with \ce{MgCl2} effectively neutralizes residual AMP activity, preventing residual killing effects in CFU assays for pexiganan.
+However, this strategy is not generalizable, as for many antimicrobials the corresponding deactivating agents are unknown --- or may not even exist.
+For these cases, it may be impossible to accurately derive $\psi_B$ from CFU counts at high drug concentrations.
+
+%% 2C) WHAT LUMINESCENCE MEASURES
+In contrast to CFU assays, luminescence assays become more reliable at high, fast-killing concentrations.
+This is because \(\psi_I\) reflects both the rate of population size change, \(\psi_B\), and changes in cell-specific luminosity (\sieq{9}); when population declines rapidly, \(\psi_I\) converges to \(\psi_B\).
+One exception was observed for extremely rapid kill rates (exceeding $-60\,\mathrm{h}^{-1}$), as seen for highly concentrated pexiganan, likely due to short delays between cell death and cessation of luminescence.
+
+For lower kill rates, we observed that the absence of filamentation was a good indicator of stable cell-specific luminosity.
+In cases where drugs induced filamentation, CFU- and luminescence-based rates diverged.
+We further demonstrated that correcting for the increased cell size partly compensates for the difference between CFU- and luminescence-based estimates, and we found that the rate of change in light intensity is closer to the change in total cell volume than to the change in total cell number (\siappendix{2}).
+This makes a constant volume-specific (or mass-specific) luminosity a better assumption than a constant cell-specific luminosity.
+
+%% 3) WHICH PROPERTY IS “RIGHT”?
+Changes in both CFU and luminescence are used as proxy signals for population net growth rates (\cite{Regoes2004, Kishony2003, Yeh2006, Chait2007, Foerster2016, Kavcic2020, Angermayr2022}).
+Whether discrepancies between the changes in these proxy signals and the changes in living bacteria pose a problem depends on the underlying biological question.
+The rate of change of living bacteria, $\psi_B$, is most commonly applied in theoretical modeling to create predictions, making its estimation important.
+If, instead, the aim is to assess a population’s reproductive potential, for example, in studies focusing on evolutionary dynamics, examining changes in the number of culturable cells (as approximated by CFU) may be more relevant than $\psi_B$, as only culturable cells contribute to subsequent generations and thus to evolution.
+Additionally, tracking changes in total biomass (closer to $\psi_I$) can be more relevant than the number of living bacteria, as biomass accounts for a potential ``catch-up'' effect, whereby filamented cells fragment into multiple viable units once antibiotic pressure is removed (\cite{Baquero1986, Cayron2023}).
+
+%% 4A) Caveats
+A notable challenge of using luminescence assays is the absence of a fundamental biological principle linking cell-specific luminosity uniquely to a single biological property, such as biomass, cell number, or gene copy number.
+We therefore recommend applying luminescence-based methods primarily over short to intermediate timescales, during which abiotic conditions remain relatively stable.
+When the impact of treatment on cell size is unknown, one should assume that \(\psi_I\) primarily reflects the rate of change of biomass rather than cell number.
+Thus, to reliably estimate \(\psi_B\), it is essential to ensure either that cells do not filament, correct for changes in mean cell volume, or restrict analyses to intervals during which volume changes are minimal relative to population decline.
+Finally, because most drugs in this study were tested at only one concentration, the generalizability of our drug-specific findings remains to be shown.
+
+%% 4B) General conclusion
+Our results show that neither CFU nor luminescence is optimal for every experimental scenario.
+Instead, CFU and luminescence work best under different conditions, measure different population properties and complement each other well.
+At low and intermediate drug concentrations, changes in CFU accurately reflect changes in bacterial density, but CFU becomes unreliable at high drug concentrations.
+
+Luminescence, by contrast, becomes more reliable at high concentrations, where CFU becomes unreliable.
+In practice, the luminescence method significantly reduces labor, consumables, and costs: eight PD curves with twelve concentrations and four replicates each can be fit on a single 384-well plate, whereas measuring CFU would require more than 8,000 agar plates, hundreds of dilution plates, and substantial manual labor.
+Given their scalability and cost-effectiveness, luminescence assays offer a valuable alternative for high-throughput analysis, particularly at high antimicrobial concentrations, where traditional methods become unreliable or even unusable.

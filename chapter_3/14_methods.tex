@@ -1,0 +1,63 @@
+\paragraph{Strains.}
+We generated a bioluminescent strain by integrating a modified \textit{P. luminescens luxCDABE} operon, driven by the constitutive $\lambda$-Pr promoter, together with a kanamycin resistance cassette (as a marker) into the chromosome of \textit{Escherichia coli} MG1655.
+This integration replaced the galK gene and was achieved using $\lambda$-Red recombination (\cite{Datsenko2000}), following a protocol by Hughes \cite[19--26]{Hughes2015}.
+The integrated elements were derived from the pCS-$\lambda$ plasmid (\cite{Kishony2003, Bjarnason2003}).
+Primers are listed in \sitab{6}.
+For all time-course experiments, we prepared three replicate exponential cultures by diluting overnight cultures (grown for approximately 18 hours) 1:100 and growing them to exponential phase for 1--1.5 hours.
+
+\paragraph{Media.}
+We used LB (Sigma L3022) as a liquid medium and, as a solid medium for CFU plating, LB with \SI{1.5}{\percent} agar.
+Cultures were treated by diluting the tenfold working concentration of one of 20 antimicrobials 1:10.
+All MICs, determined by broth microdilution (\cite{EUCAST2025}), and the concentrations used are listed in \sitab{1}.
+Working concentrations were centered around the MIC, with some variation due to rounding convenience and variability in repeated MIC tests.
+For colistin and polymyxin B, we used lower concentrations, as higher concentrations in our setup consistently yielded too few colonies for meaningful analysis.
+
+Phosphate-buffered saline (PBS, Sigma 79383) was used as the diluent for CFU assays.
+If cultures were treated with pexiganan, \SI{100}{\milli M} \ce{MgCl2} was added.
+For microscopy, we added \SI{1}{\micro\gram\per\milli\liter} propidium iodide (PI) to the liquid medium and used PBS/PI agar plates (containing PBS with \SI{1.5}{\percent} agar and \SI{1}{\micro\gram\per\milli\liter} PI) as solid medium.
+
+\paragraph{Automated CFU plating.}
+We automated the high-throughput colony-count method described by \cite{Jett1997} using an Evo 200 liquid-handling platform (Tecan) integrated with a Liconic STX100 incubator.
+The platform handles liquids and automatically moves, images, and incubates plates.
+We produced six colony streaks by spotting six \SI{10}{\micro\liter} drops of diluted bacterial culture onto a one‑well agar plate.
+Plates were automatically tilted for \SI{7}{\second} on a custom‑built tilter integrated into the handling platform, to spread the drops and distribute the bacteria.
+After incubation, plate images were captured using the Pickolo camera (SciRobotics).
+
+The platform is controlled by custom-generated worklists executed in the native software ``Evoware''.
+These worklists were generated using the Python package \texttt{pypetting} (version 1.0.1).
+We analyzed the captured images of the agar plates using a custom colony-recognition script that automatically identifies colonies and allowed the manual addition of unidentified colonies and the removal of mismatched ones.
+All Python classes for generating the worklists and analyzing colonies are available at Zenodo (DOI: \href{https://doi.org/10.5281/zenodo.15261184}{10.5281/zenodo.15261184}).
+
+\paragraph{Luminescence measurements.}
+To record the luminescent light intensity, we used an Infinite F200 spectrophotometer plate reader (Tecan), which is also integrated into the liquid-handling platform, with an exposure time of one second.
+We set \(20\;\mathrm{rlu}\) as the lower detection limit and excluded all data points below.
+
+\paragraph{Luminescence-CFU assay setup.}
+To measure the CFU and light intensity at seven time points, we treated the exponential cultures and then distributed them onto seven (one for each time point) white 384-well plates (Greiner, 781073), with each culture well containing \SI{54}{\micro\liter} medium and \SI{6}{\micro\liter} 10x stock solution.
+We adjusted the duration of the experiments between two and five hours, depending on the anticipated kill rate.
+For each time point, an assay plate was transferred from the incubator to the plate reader for luminescence measurement.
+Subsequently, a dilution series was conducted directly in the white plate and plated using the automated plating method, after which the plate was discarded.
+
+\paragraph{Rapid luminescence-CFU assay setup.}
+This experiment is a variation of the \textit{Luminescence-CFU assay setup}, adjusted to measure rapid kill curves for the antimicrobial peptide pexiganan.
+In this setup, we captured four time points within \SI{5}{\minute}.
+Cultures were treated in a 96-deep-well plate (Greiner, 780285) by adding \SI{100}{\micro\liter} of the 10x stock solution to \SI{900}{\micro\liter} exponential phase culture.
+\SI{60}{\micro\liter} of the treated culture was then transferred to a 384-well white plate (Greiner, 781073) and placed in the plate reader for continuous luminescence recording.
+For the four CFU time points, samples were taken directly from the deep-well plate, automatically diluted in PBS supplemented with 100mM \ce{MgCl2} in a 96-well plate (Greiner, 655101) to halt the antimicrobial activity and then plated.
+
+\paragraph{Morphology experiments.}
+To assess treatment-induced morphological changes, we imaged treated (for 2 hours) and untreated bacteria by spotting \SI{2}{\micro\liter} droplets onto PBS/PI-agar plates.
+The spots were cut out and flipped onto Ibidi $\mu$-dishes (Ibidi, 80136) for imaging.
+We used an Eclipse Ti2 microscope (Nikon) with a 100x objective connected to a DS-Qi2 Nikon Scientific CMOS (sCMOS) camera to image the bacterial cells.
+The microscope setup included an additional 1.5x zoom, which was used only for some images due to unintentional variation.
+We estimated the width and length of the bacterial cells using a custom Python script, as described in \siappendix{4}.
+
+\paragraph{Fitting rates of change $\psi$.}
+To compare the rates of change of two signals, we first excluded all data below the detection limits (empty plates or light intensity below \SI{20}{rlu}).
+We then truncated both signals at the latest time point where both remained above the detection limit, ensuring the same time frame was used for comparison.
+Next, we bootstrapped 200 datasets with replacement per signal, while ensuring that each dataset contained more than one time point
+For each dataset, we applied a simple regression to fit an exponential function to all time points of each time-kill curve resulting in distributions with 200 rate estimates each.
+
+\paragraph{Significance.}
+We classify two distributions of rates as not significantly different (n.s.) if the mean of each distribution falls within the 95\% confidence interval of the other.
+Otherwise, we classify them as significantly different (*).

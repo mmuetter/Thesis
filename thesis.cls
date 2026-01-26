@@ -53,12 +53,17 @@
 \RequirePackage{bookmark,hyperref}
 \RequirePackage{etoolbox}
 
+% LAYOUT AND FORMATTING
+\RequirePackage{overpic}
+\RequirePackage{chemfig}
+\RequirePackage{mhchem}
+
 %----------------------------------------------------------
 % Summay spacing using memoir’s own commands
 %----------------------------------------------------------
 \newenvironment{summaryspacing}{%
   \begingroup
-    \SingleSpacing  % switch to single spacing
+  \SingleSpacing  % switch to single spacing
 }{%
   \endgroup
 }
@@ -105,7 +110,7 @@
 \setsubsecheadstyle{\normalsize\chaptitleoptima}
 \setparaheadstyle{\bfseries\normalsize\chaptitleoptima}
 \setbeforesecskip{3ex}
-\setaftersecskip{0.01ex} 
+\setaftersecskip{0.01ex}
 
 %----------------------------------------------------------
 % Captions
@@ -188,8 +193,6 @@
 \pretocmd{\appendix}{\pagestyle{pst_app}}{}{}
 \makeatother
 
-
-
 %----------------------------------------------------------
 % Bibliography (Biber + biblatex)
 %----------------------------------------------------------
@@ -202,9 +205,9 @@
   defernumbers=true
 ]{biblatex}
 
-
 \addbibresource{bibliographies/TSPlasmid.bib}
 \addbibresource{bibliographies/thesis.bib}
+\addbibresource{bibliographies/Luminescence_Paper.bib}
 
 % optional font for bib
 \AtBeginBibliography{\scriptsize}
@@ -214,24 +217,25 @@
 % -------------------------------------------------
 \AtBeginDocument{%
   \defbibenvironment{compactbib}                % <- correct macro
+  {%
+    \list
+    {\printtext[labelnumberwidth]{%
+    \printfield{labelprefix}\printfield{labelnumber}}}%
     {%
-      \list
-        {\printtext[labelnumberwidth]{%
-           \printfield{labelprefix}\printfield{labelnumber}}}%
-        {%
-         % hanging‑indent layout
-         \setlength{\labelwidth}{\labelnumberwidth}%
-         \setlength{\labelsep}{\biblabelsep}%
-         \setlength{\leftmargin}{\dimexpr\labelwidth+\labelsep\relax}%
-         % tighter vertical spacing
-         \setlength{\itemsep}{0.1\baselineskip}%
-         \setlength{\parsep}{0pt}%
-         \setlength{\parskip}{0pt}%
-         % start of each entry
-         \usebibmacro{begentry}}%
-    }%
-    {\endlist}      % what to do at the end
-    {\item\usebibmacro{finentry}} % each \item
+      % hanging‑indent layout
+      \setlength{\labelwidth}{\labelnumberwidth}%
+      \setlength{\labelsep}{\biblabelsep}%
+      \setlength{\leftmargin}{\dimexpr\labelwidth+\labelsep\relax}%
+      % tighter vertical spacing
+      \setlength{\itemsep}{0.1\baselineskip}%
+      \setlength{\parsep}{0pt}%
+      \setlength{\parskip}{0pt}%
+      % start of each entry
+    \usebibmacro{begentry}}%
+  }%
+  {\endlist}      % what to do at the end
+  {
+\item\usebibmacro{finentry}} % each \item
 }
 
 % -------------------------------------------------

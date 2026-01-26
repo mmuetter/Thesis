@@ -1,0 +1,131 @@
+\documentclass[times, twoside, watermark,labelsep=period, figurename=Fig.]{SimpleTemplate}
+
+% Lead author for footer
+\leadauthor{Muetter}
+
+\usepackage{graphicx}
+\usepackage{multirow}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{mathrsfs}
+\usepackage[title]{appendix}
+\usepackage{xcolor}
+\usepackage{textcomp}
+\usepackage{booktabs}
+\usepackage{algorithm}
+\usepackage{algorithmicx}
+\usepackage{algpseudocode}
+\usepackage{listings}
+\usepackage{siunitx}
+\usepackage{colortbl}
+\usepackage{subcaption}
+\usepackage{overpic}
+\usepackage{mhchem}
+\usepackage{hyperref}
+\usepackage{xr}
+\usepackage{xcite}
+\usepackage[switch]{lineno} 
+\usepackage{placeins}
+\usepackage{enumitem}
+\usepackage{stfloats}
+
+\sisetup{per-mode = fraction}
+\DeclareSIUnit\ml{ml}
+
+\renewcommand{\arraystretch}{1.25}
+\setlength{\aboverulesep}{-1pt} 
+\setlength{\belowrulesep}{-1pt}
+\definecolor{tablecolor}{rgb}{0.4, 0.7, 0.8}
+
+% Input custom macros, if they exist
+\input{settings/crossref}
+\input{settings/commands}
+
+\title{High-Throughput Quantification of Population Dynamics using Luminescence}
+\shorttitle{Luminescence-based quantification}
+
+\author[1,\Letter]{Malte Muetter}
+\author[1]{Daniel Angst}
+\author[1]{Roland Regoes}
+\author[1, \Letter]{Sebastian Bonhoeffer}
+
+\affil[1]{Department of Environmental Systems Science, ETH Zürich, Universitätstrasse 16, 8092 Zürich, Switzerland}
+
+
+
+\begin{document}
+
+\linenumbers
+\maketitle
+
+%TC:break Abstract
+\begin{abstract}
+    The dynamics of bacterial population decline at antibiotic concentrations above the minimum inhibitory concentration (MIC) remain poorly characterized.
+    This is because measuring colony-forming units (CFU), the standard assay to quantify inhibition, is slow, labour-intensive, costly, and can be unreliable at high drug concentrations.
+    Luminescence assays are widely used to quantify population dynamics at subinhibitory concentrations, yet their limitations and reliability at super-MIC concentrations remain underexplored.
+    To fill this gap, we compared luminescence- and CFU-based rates across 20 antimicrobials.
+    In our experiments luminescence- and CFU-based rates did not differ significantly for half of them. For the other half, CFU-based estimates of rates of decline were consistently higher. 
+    The estimates differed for two main reasons: 
+    First, because light intensity tracks biomass more closely than population size, luminescence declined more slowly than the population when bacteria filamented. 
+    Second, CFU-based estimates indicated a steeper decline when antimicrobial treatment reduced the number of colonies formed per plated bacterium. 
+    This effect can result from changes in clustering behaviour, physiological changes that impair culturability, or antimicrobial carry-over.
+    Thus, the suitability of luminescence to quantify bacterial decline depends on the physiological effects of the antimicrobial used (e.g. filamentation) and whether the quantity of interest is cell number or biomass.
+    Within these limitations, luminescence can serve as an efficient, high-throughput alternative for quantifying bacterial dynamics at super-MIC concentrations.
+\end{abstract}
+%TC:break main
+
+
+
+
+\begin{keywords}
+bioluminescence | colony forming units | pharmacodynamics | antibiotics | time-kill curves
+\end{keywords}
+
+\begin{corrauthor}
+maltemuetter\at posteo.de, 
+seb\at env.ethz.ch
+\end{corrauthor}
+
+% Main text
+%%%%%%%%%%%%%%%%% INTRODUCTION %%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Introduction}\label{sec:introduction}
+\input{11_introduction}
+
+
+%%%%%%%%%%%%%%%%% Results %%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Results}\label{sec:results}
+\input{12_results}
+
+
+%%%%%%%%%%%%%%%%% Discussion %%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Discussion}\label{sec:discussion}
+\input{13_discussion}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%% METHODS      %%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Methods}\label{sec:methods}
+\input{14_methods}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%% Data Availability %%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Data, Materials, and Software Availability}
+Experimental datasets are available at Zenodo (DOI: \href{https://doi.org/10.5281/zenodo.15261454}{10.5281/zenodo.15261454}).
+Analysis scripts, plate-handling worklists, colony-recognition code, and model code are available at Zenodo (DOI: \href{https://doi.org/10.5281/zenodo.15261184}{10.5281/zenodo.15261184}).
+
+
+
+\section*{Acknowledgements}
+We thank Marco La Fortezza and Ricardo León Sampedro for assistance with microscopy imaging.
+During manuscript preparation, we used OpenAI’s ChatGPT for editorial assistance (grammar, phrasing, and proofreading).
+This work was supported by funding from ETH Zurich.
+
+% References
+\section*{Bibliography}
+\bibliography{settings/Luminescence_Paper,settings/zenodo}
+
+\end{document}

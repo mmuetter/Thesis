@@ -86,6 +86,7 @@
     <requires type="editable">
       <file>bibliographies/TSPlasmid.bib</file>
       <file>bibliographies/thesis.bib</file>
+      <file>bibliographies/Luminescence_Paper.bib</file>
     </requires>
   </external>
 </requests>
