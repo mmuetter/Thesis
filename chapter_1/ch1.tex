@@ -4,30 +4,16 @@
 
 \begin{document}
 
-\section{maybe fun to add.}
-
-Yuan2000,
-While many modern drugs originated from plants, unpuri- fied herbal preparations are used extensively in both Europe and Asia. Western herbal medicines are often standardized ex- tracts of single herbs used for particular conditions. For exam- ple, valerian and St. John’s wort are used for sleep aid and mild depression, respectively. In comparison, traditional Chi- nese medicines (TCMs) are decoctions of mixtures of up to 20 herbs that are customized for each individual patient. TCMs represent one aspect of Chinese medical philosophy that is characterized by its emphasis on maintaining and restoring balance. This medical approach is much more appropriate to disease prevention and the treatment of chronic diseases with- out an unacceptably high level of collateral damage.
-Most Chinese formulations contain a mixture of herbs. There are different methods of classifying the ways in which these can be combined. When combined, two biolog- ically active substances can be observed to have the follow- ing effects: mutual accentuation, mutual enhancement, mu- tual counteraction, mutual suppression, mutual antagonism, and mutual incompatibility. The principal ingredient is a substance that provides the main therapeutic thrust, the sec- ond principal ingredient enhances or assists the therapeutic actions of the first. The rest serve one of the following func- tions: treat accompanying symptoms, moderate the harsh- ness or toxicity of the primary ones, guide the medicine to the proper organs, or exert a harmonizing effect.
-
-Chevereau2015
-For some of the most worrisome infectious diseases, including tuberculosis, drug resistance evolves mainly via spontaneous mutations that render antibiotics ineffective [4,5]. A possible way ofaverting the looming resistance crisis is developing novel treatment strategies that use established drugs in ways that minimize resistance evolution [6–9]. To rationally design such strategies, it is cru- cial to understand the genetic
-source for MDR tuberculosis: https://doi.org/10.1016/j.mcna.2013.03.012
-
-Gjini2021:
-- Drug interactions can shape resistance evolution.
-- Difficult to draw general conclusion (e.g. synergistic combinations always accelerate resistance")
-
-- Drug interactions are very confusing.
-- we dont know which interaction we want. we dont know how to define them. and they change over dosing and ratios.
-it seems very pointless to proceed from here.
-What we need instead are within and between host pkpd models that we can parameterize with exp data of the kind i generated.
-based on these we can set goals; like minimizing prob that resistance emerges, or maximizing the number of uninfected patients.
-
 \chapter{introduction}
+
+\section{Antibiotic resistance evolution and treatment strategies}
 Antibiotics have nearly eliminated premature death from bacterial infections in most parts of the developed world, to the extent that effective treatment is now often taken for granted.
 The threat to this achievement posed by antibiotic resistance was recognized early, for instance by \cite{Kirby1944}, and explicitly highlighted by Alexander Fleming in his 1945 Nobel Prize speech.
 Today, this threat has materialized: antimicrobial resistance (AMR) contributed to an estimated 4.71 million deaths in 2021, with 1.14 million deaths directly attributable to resistant infections~\cite{Naghavi2024}.
+\textcolor{orange}{
+  Chevereau2015
+  For some of the most worrisome infectious diseases, including tuberculosis, drug resistance evolves mainly via spontaneous mutations that render antibiotics ineffective [4,5]. A possible way ofaverting the looming resistance crisis is developing novel treatment strategies that use established drugs in ways that minimize resistance evolution [6–9]. To rationally design such strategies, it is cru- cial to understand the genetic
+source for MDR tuberculosis: https://doi.org/10.1016/j.mcna.2013.03.012}
 The possibility of returning to a world where antibiotics are largely ineffective underscores the importance of understanding the ecological and evolutionary forces shaping AMR.
 
 Evolution of antibiotic resistance is driven by two key processes: mutation and selection. Resistance genes arise de novo through mutations, occurring either on bacterial chromosomes or on extrachromosomal mobile genetic elements that replicate independently, such as plasmids (small circular DNA molecules) or bacteriophages (viruses targeting bacteria). Once established, these genes can spread.
@@ -55,6 +41,9 @@ However, in clinical practice this is often not feasible: in emergency settings,
 In such cases of limited information, clinicians rely on empirical treatment strategies that aim to minimize the risk of selecting for resistance.
 Commonly discussed approaches include combination therapy (simultaneous use of multiple antibiotics), mixing (random patient allocation to different antibiotics), and cycling (periodic rotation of antibiotics over time).
 Among these, combination therapy, which was first introduced in agriculture to prevent resistance in plant pathogens~\cite{Kable1980, Delp1980, Skylakakis1981} is often considered the most promising strategy in theoretical models~\cite{Bonhoeffer1997, Tepekule2017,Uecker2021}.
+\textcolor{orange}{Yuan2000,
+  While many modern drugs originated from plants, unpuri- fied herbal preparations are used extensively in both Europe and Asia. Western herbal medicines are often standardized ex- tracts of single herbs used for particular conditions. For exam- ple, valerian and St. John’s wort are used for sleep aid and mild depression, respectively. In comparison, traditional Chi- nese medicines (TCMs) are decoctions of mixtures of up to 20 herbs that are customized for each individual patient. TCMs represent one aspect of Chinese medical philosophy that is characterized by its emphasis on maintaining and restoring balance. This medical approach is much more appropriate to disease prevention and the treatment of chronic diseases with- out an unacceptably high level of collateral damage.
+Most Chinese formulations contain a mixture of herbs. There are different methods of classifying the ways in which these can be combined. When combined, two biolog- ically active substances can be observed to have the follow- ing effects: mutual accentuation, mutual enhancement, mu- tual counteraction, mutual suppression, mutual antagonism, and mutual incompatibility. The principal ingredient is a substance that provides the main therapeutic thrust, the sec- ond principal ingredient enhances or assists the therapeutic actions of the first. The rest serve one of the following func- tions: treat accompanying symptoms, moderate the harsh- ness or toxicity of the primary ones, guide the medicine to the proper organs, or exert a harmonizing effect.}
 
 However, concerns persist.
 One major concern is that combination therapy might accelerate the selection for resistance, given the observed correlation between overall antibiotic consumption and resistance \cite{Bell2014, Rahman2023}, not only regarding the targeted pathogen but also for the microbiome \cite{Jernberg2007}.
@@ -77,6 +66,11 @@ Our results confirmed that combination therapy remains the most effective strate
 \subsection{Population Dynamics under Combination Therapy}
 To better understand the potential of combination therapy, a deeper insight into drug interactions is needed.
 Drug interaction studies evaluate how the combined effect of two antibiotics compares to a predicted neutral effect derived from their individual actions.
+\textcolor{orange}{
+  Gjini2021:
+  - Drug interactions can shape resistance evolution.
+- Difficult to draw general conclusion (e.g. synergistic combinations always accelerate resistance")}
+
 Two classical null models are typically used for this purpose: the Loewe additivity model~\cite{Loewe1926} and the Bliss independence model~\cite{Bliss1939}.
 Numerous studies have investigated drug interactions below the minimum inhibitory concentration (MIC)~\cite{Yeh2006,Chevereau2015a, Kavcic2020}, providing valuable insights into sublethal interactions.
 However, it remains unclear whether these findings extend to the super-MIC range, where antibiotics are expected to kill bacteria.

@@ -1,0 +1,257 @@
+
+
+To investigate the validity of luminescence assays as a high-throughput measure for bacterial population size and its change across the entire range of antimicrobial concentrations, we compared this measure to the number of colony-forming units (CFU).
+Specifically, we tested whether the rates of change in light intensity, $\psi_I$, and CFU, $\psi_{\mathrm{CFU}}$, agree for various drugs, and if not, we explored the reasons for any discrepancies.
+
+We used a modified luminescence operon \textit{luxCDABE} from \emph{P. luminescence}.
+To minimize plasmid copy-number effects on the light emitted by a single cell (cell-specific luminosity), we excised the operon from the pCS–\(\lambda\) plasmid (\cite{Kishony2003}) and inserted it into the \emph{Escherichia coli} chromosome.
+
+\begin{figure*}
+  \centering
+  \begin{subfigure}{\textwidth}
+    \centering
+    \begin{overpic}[width=\textwidth]{figures/rate_plot.pdf}
+    \put(4,68){\small\bfseries a)}%
+  \end{overpic}
+  \label{fig:antibiotic_rates}
+\end{subfigure}\\\vspace{-.7cm}
+\begin{subfigure}{\textwidth}
+  \raggedleft
+  \begin{overpic}[width=.95\textwidth]{figures/pex_rates.pdf}
+  \put(0,18) {\small\bfseries b)}%
+\end{overpic}
+\label{fig:pexiganan_rates}
+\end{subfigure}\vspace{-.5cm}
+
+\caption{
+Comparison of CFU-based and luminescence-based rates of change.
+For each drug, we generated 2000 bootstrapped datasets by resampling time‐series CFU and light‐intensity data with replacement and fitted an exponential function to each bootstrap replicate to obtain distributions of rates.
+Panel (a) shows these distributions for 20 drug–concentration assays across 19 antibiotics; panel (b) shows the antimicrobial peptide pexiganan at \SI{8}{\micro\gram\per\milli\liter} and \SI{16}{\micro\gram\per\milli\liter}.
+The distribution of $\psi_{\mathrm{CFU}}$ is shown in blue (lower half of each violin, diamond).
+The distribution of $\psi_{I}$ is shown in orange (upper half, triangle).
+Green distributions ($\psi_{I}^*$; triangle) represent luminescence‐based rates calculated from data starting at the first peak onward.
+Red distributions show volume‐adjusted luminescence rates ($\psi_{J}$; pentagon).
+Vertical lines mark the \SI{95}{\percent} confidence intervals.
+Asterisk (*) or letters (n.s.) indicate whether CFU-based rates differ significantly from the corresponding luminescence-based rate or not (see Methods), with color coding matching the respective luminescence-based distribution.
+Wide confidence intervals for pexiganan reflect biphasic killing, steep curves, and noisy CFU data.
+}
+\label{fig:rate_plot}
+\end{figure*}
+
+%% DILUTION / LUMINESCENCE EXPERIMENT
+\paragraph{Light intensity is proportional to bacterial density.}
+We first evaluated how the observed bioluminescent light intensity, \(I\), which represents a fraction \(\kappa\) of the total light emitted by the culture, correlates with bacterial density.
+To this end, we prepared three replicate overnight cultures of bioluminescent \emph{E.\ coli}, serially diluted them tenfold, and measured the light intensity for each dilution.
+We found that light intensity increased linearly with bacterial density for signals above approximately \(20\;\mathrm{rlu}\) (\sifig{1}; \(R^{2}=0.987\), \(n=20\), \(p<10^{-14}\)), with a  proportionality constant \(m = 0.006 \frac{\mathrm{rlu}\,\mathrm{ml}}{\mathrm{CFU}}\).
+From this observation, we conclude that \(\kappa\) remains independent of bacterial density,  indicating that, up to one-tenth of the stationary-phase density, high cell densities do not attenuate emitted light.
+Thus, provided we maintain the same luminescence plate-reader setup, we can assume \(\kappa\) to be constant for all subsequent analyses.
+
+\paragraph{Luminescence-based rates agree with CFU-based kill rates in 11 out of 22 antimicrobial assays.}
+Given the linearity between light intensity and bacterial density shown above, we tested whether the rate of change of light intensity $\psi_I$ aligns with the rate of change of bacterial population size ($\psi_B$) under super-MIC antimicrobial concentrations.
+Since we cannot measure $\psi_B$ directly, we first compared $\psi_I$ to the CFU-based rate, $\psi_\mathrm{CFU}$, and then discussed their relation to $\psi_B$.
+We measured CFU and light intensity over time for 20 drugs (\sitab{1}) using an automated liquid handler (Methods) and estimated the distributions of the rates of change of CFU ($\psi_{\mathrm{CFU}}$) and light intensity ($\psi_I$) by bootstrap (\autoref{fig:rate_plot}, \sitab{2}).
+We classified the luminescence and CFU‐based rate distributions as ``not significantly different''  (n.s.) if each mean fell within the other's 95\% percentile and otherwise significantly different (*).
+All time-series data are presented in Figures~\siref{2}--\siref{20}.
+For amoxicillin, cefuroxime, chloramphenicol, colistin, fosfomycin, penicillin, pexiganan, polymyxin B, rifampicin, and tetracycline, $\psi_I$ and $\psi_\mathrm{CFU}$ did not differ significantly.
+However, we observed significant discrepancies for ampicillin, cefepime, ceftazidime, ciprofloxacin, doripenem, imipenem, mecillinam, meropenem, piperacillin, and trimethoprim.
+
+For all cases where significant discrepancies were observed, the light intensity declined more slowly than the CFU signal.
+In the following we investigate potential reasons why the light signal may decline more slowly and the CFU signal more rapidly than the ``true'' \(\psi_B\).
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%% REASONS WHY LUMINESCENCE UNDERESTIMATES KILLRATES %%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\paragraph{No support for SOS-driven increase in luminescence promoter activity.}
+To explain the observed discrepancies between CFU- and luminescence-based rates, we tested whether the SOS response might upregulate lux expression, increasing the cell-specific luminosity.
+To this end, we exposed the strains to UV light to induce the SOS response.
+Specifically, we alternated between measuring light intensity and optical density, and exposing cultures to UV (\siappendix{4}).
+
+UV treatment impaired bacterial growth significantly, yet the OD-normalized light intensity ($\propto$ cell-specific luminosity) of UV-treated cells was lower than that of untreated controls (\sifig{21}d; t-test, $p = 3 \cdot 10^{-5}$ for the last time point).
+This implies that SOS induction did not upregulate lux expression, as cells under SOS had lower light output per cell than controls.
+While we cannot exclude the possibility that a non–UV-induced SOS response enhances cell-specific luminosity, our findings suggest that promoter upregulation is unlikely to explain why luminescence-based rates exceed CFU-based rates.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% MORPHOLOGY STUFF %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\paragraph{Filamentation aligns with divergence between CFU- and luminescence-based rates.}
+Antibiotic pressure is known to impair septation and induce bacterial filamentation.
+Our second hypothesis was that larger, filamented cells might emit more light per cell, thereby driving the divergence between CFU- and luminescence-based rates.
+We explored this for a subset of the antibiotics tested by imaging bacteria before and after two hours of antibiotic treatment (\sifig{22}--\siref{34}; see Methods).
+From these images, we measured bacterial length and width (\sifig{35}) and calculated the cell volumes (\autoref{fig:volume_combined}, \siappendix{4}).
+
+For antibiotics where microscopy showed no significant filamentation (amoxicillin, colistin, fosfomycin, rifampicin, and tetracycline, \sitab{3}), luminescence-based and CFU-based rates did not differ significantly (\autoref{fig:rate_plot}, \sitab{2}).
+In contrast, for those drugs where microscopy data indicated significant filamentation (ampicillin, ceftazidime, ciprofloxacin, meropenem, and trimethoprim), luminescence-based rates were significantly higher than CFU-based rates.
+
+\begin{figure}[htp]
+\centering
+\captionsetup{skip=4pt}
+
+\begin{subfigure}[t]{\columnwidth}
+\raggedleft
+\begin{overpic}[width=.9\columnwidth]{figures/volume_summary_pre.pdf}
+\put(-4,18){\small\bfseries a)}%
+\end{overpic}
+\label{fig:volume_pre}
+\end{subfigure}%
+
+\vspace{-.5cm}
+\begin{subfigure}[t]{\columnwidth}
+\centering
+\begin{overpic}[width=\columnwidth]{figures/volume_summary_post.pdf}
+\put(5,75){\small\bfseries b)}%
+\end{overpic}
+\label{fig:volume_post}
+\end{subfigure} \vspace{-.6cm}
+\caption{
+Density distributions (2.5--97.5\% percentile range) of pooled cell volumes acquired by microscopy imaging, shown (a) before and (b) after 2 h of antibiotic treatment.
+Boxes indicate the 25–75 \% interquartile range, and vertical bars mark the mean.
+Significance (*) was assessed by bootstrapping cell volumes 200 times with replacement for each replicate (image) and treatment, pooling the bootstrapped volumes by treatment, and comparing the resulting 95\% confidence interval of the mean to that of the untreated control (\texttt{control\_2h}).
+\(\ddagger\) Carbapenems tend to deform cells into a lemon-like shape (\autoref{fig:micro_mero}), resulting in poor fitting quality since our algorithm assumes a cylindrical geometry.
+}
+\label{fig:volume_combined}
+\end{figure}
+
+%%%%%%%%%%%%%%%%%%%%%%%% FILAMENTATION MODEL %%%%%%%%%%%%%%%%%%%%%%%%
+\paragraph{Filamentation model predicts divergence between luminescence- and CFU-based rates.}
+To further investigate the link between filamentation and the recorded light signal, we developed a simplified population dynamical model which incorporates bacterial filamentation (\siappendix{3}).
+In this model, cells elongate linearly \cite{Wang2010}, causing the population to converge to an equilibrium cell volume, provided the division rate remains above zero (\sifig{36}).
+We assume that cell-specific luminosity scales with cell volume --- i.e., the volume-specific luminosity remains constant.
+
+We simulate filament-inducing treatment by reducing the division rate by $\Delta \lambda$, which causes an initial rapid increase in average cell size.
+As the mean cell volume stabilizes and cell-specific luminosity reaches equilibrium, the luminescence-based rate converges to the rate of change of population size $\psi_B$ (\sifig{36}).
+Depending on the division and death rates, this dynamic can result in an initial peak in light intensity followed by a decline (\sifig{36}b).
+
+This initial peak in light intensity, as predicted by the model, was experimentally observed for several drugs associated with filamentation (Figures~\siref{3}, \siref{5}, \siref{9}, \siref{11}, \siref{12}, and \siref{13}).
+
+To investigate the dependence of \(\psi_B\) and \(\psi_I\) on treatment-induced changes in division rate and death rate (\(\delta\)), we simulated four hours of treatment (details and parameters in \siappendix{3}).
+Our model shows that a reduction in $\lambda$ leads to higher luminescence-based rates $\psi_I$ relative to the rate of change of population size $\psi_B$, with particularly large discrepancies when the death rate is low (\autoref{fig:sensitivity}).
+The results from this model suggest that excluding early data points, where the mean cell volume changes rapidly, improves agreement between the estimated rates \(\psi_I\) and \(\psi_B\).
+This is evident in \sifig{36}b, where the slopes inferred from luminescence and from population size differ initially but are nearly identical at later times.
+
+We tested this approach by refitting all experimentally acquired luminescence-based rates that exhibited an initial peak, excluding data points recorded before the light signal reached its maximum.
+The resulting distributions of $\psi_I^*$ (green) are shown in \autoref{fig:rate_plot}.
+An exception was made for meropenem, for which we know the change of cell volume and thus applied an alternative correction as described below.
+This adjustment substantially reduced the difference between CFU- and luminescence-based estimates for all tested drugs and fully eliminated the discrepancy for mecillinam.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% VOLUME CORRECTION %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\paragraph{Adjusting luminescence intensities by changes in volume narrows the gap between CFU- and luminescence-based rates.}
+Given the model-predicted differences between \(\psi_I\) and \(\psi_B\) in filamenting populations, we next tested whether combining morphological data with measured light intensities can help infer \(\psi_B\).
+This approach only works if the volume-specific luminosity is constant (\siappendix{2}, \sieq{12}).
+We used the mean cell volume data acquired by microscopy imaging before (\(v_{\mathrm{obs},0}\), \autoref{fig:volume_combined}a), and after treatment (\(v_{\mathrm{obs},2\mathrm h}\), \autoref{fig:volume_combined}b), for all drugs that caused significant filamentation (ampicillin, ceftazidime, ciprofloxacin, meropenem, and trimethoprim).
+The light intensities were then volume-corrected as \(J(t)=I(t)\,v_{\mathrm{obs},0}/v(t)\),
+where \(v(t)\) is derived from the filamentation model (\sieq{43}, \siappendix{3}).
+The free parameters were determined by minimizing \sieq{51}.
+All adjusted light signals \(J\) are shown in Figures~\siref{2a}, \siref{4}, \siref{7}, and \siref{13}.
+
+For ampicillin, the CFU-based and volume-corrected luminescence-based rates ($\psi_J$) did not differ significantly (\sitab{2}).
+For ceftazidime, ciprofloxacin, and meropenem, volume correction reduced the discrepancy, but $\psi_J$ remained significantly above $\psi_\mathrm{CFU}$.
+We observed in all experiments that volume correction narrowed but never reversed the discrepancy (\(\psi_{\mathrm{CFU}} \le \psi_J \le \psi_I\), \sieq{23}).
+From this observation and the derivation in the SI (\siappendix{2}), we conclude that \(\psi_I\) is closer to \(\psi_V\) (rate of total cell volume change) than to \(\psi_B\) (rate of bacterial number change).
+
+Three factors may explain these residual differences:
+(i) the assumption of constant volume-specific luminosity may not hold;
+(ii) the approximation of \(v(t)\) may be inaccurate, and excluding entangled or overlapping cells from the analysis introduces a bias that underestimates the volume of heavily filamented cells;
+(iii) the CFU-based method may underestimate $\psi_B$.
+
+For ciprofloxacin, the large disparity between \(\psi_{\mathrm{CFU}}\) and \(\psi_I\) is unlikely to be explained by factors (i) and (ii) alone.
+Bringing the two rates into agreement solely by adjusting cell-specific luminosity would require an almost four-order-of-magnitude increase, which appears implausible.
+We therefore conclude that, in this case, CFU-based measurements likely overestimate the rate of population decline, corresponding to an underestimation of \(\psi_B\) (iii).
+
+\begin{figure}
+\centering
+\includegraphics[width = \columnwidth]{figures/sensitivity_analysis.pdf}
+\vspace{-.8cm}
+\caption{
+Simulations based on the filamentation model quantifying how changes in division rate due to treatment ($\Delta \lambda$) and death rate ($\delta$) influence the rate of change of population size ($\psi_B$, blue), the rate of change of light intensity ($\psi_I$, orange), and the rate of change of light intensity when the first 2 hours of data are excluded ($\psi_{I}^*$, green).
+These illustrative simulations were conducted using an initial division rate $\lambda_0 = 1.5\,\mathrm{h}^{-1}$. More details and all parameter values can be found in \siappendix{3}.}
+\label{fig:sensitivity}
+\end{figure}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%% REASONS WHY CFU OVERESTIMATES KILL RATES %%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\paragraph{CFU-based estimates can overestimate the rate of population decline.}
+After exploring why luminescence assays can underestimate the rate of population decline, we now explore why CFU assays may overestimate it.
+By definition, the rate of change of the CFU signal, $\psi_{\mathrm{CFU}}$, only matches $\psi_B$ if the number of colonies emerging per plated bacterium, $\eta \in [0, 1]$  (\sieq{4}), is constant over time (\siappendix{2}, \sieq{6}).
+This assumption can be problematic for three main reasons:
+
+\begin{description}
+\item[a) Loss of culturability:]
+The number of colonies emerging per plated bacterium, \(\eta\), depends on the division rate \(\lambda\), which can be affected temporarily or permanently by treatment (\cite{Eagle1949}), e.g. due to DNA damage.
+In extreme cases, viable and culturable cells can be converted into viable but non-culturable (VBNC) cells (\cite{Besnard2002, Oliver2005, Li2014}), meaning they continue to be metabolically active but cease to divide ($\lambda = 0$) and therefore no longer form colonies on agar.
+Typically, cells can reproduce at the start of a time-kill assay but may, depending on the drug, partially or completely lose this ability as the assay progresses, causing an underestimation of $\psi_B$.
+
+\item[b) Antimicrobial carryover:]
+Antibiotics transferred onto agar by plating a diluted culture can experience a residual treatment effect; either on the division rate $\lambda$ or the death rate $\delta$, depending on the mode of action of the drug and thus reduce the probability of colony formation.
+This phenomenon, known as antimicrobial carryover, has been described in previous studies \cite{Pearson1980, Eng1991, Coates2018}.
+Its effect is usually minimal at the start of a time-kill assay, when bacterial density is high and plated samples are highly diluted.
+However, as the assay progresses and bacterial density declines, less dilution is needed, increasing the concentration of the transferred antibiotic.
+As a consequence, CFU-based rates would underestimate \(\psi_B\) between two time points \(t_0\) and \(t_1\) by \(\frac{\ln(\eta_1) - \ln(\eta_0)}{\Delta t}\), where \(\eta_i\) denotes the mean number of colonies formed per plated bacterium at time \(t_i\).
+
+\item[c) Aggregation:] Filamentation or altered cell adhesiveness can change the size distribution of colony-initiating clusters on agar after plating (\sieq{3}).
+Changes in cluster size in turn, affect the average number of clusters per plated bacterium, thereby biasing estimates of \(\psi_B\).
+\end{description}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% STERILIZATION %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\paragraph{Partial loss of culturability causes CFU to underestimate \(\psi_B\) for ciprofloxacin and trimethoprim treatment.}
+During ciprofloxacin treatment, CFU counts fell steeply while light intensity continued to rise (\sifig{7}).
+This discrepancy is consistent with previous reports comparing CFU and luminescence during fluoroquinolone killing \cite{Salisbury1999, Marques2005}.
+To investigate the cause of this discrepancy, we plated treated cultures on phosphate-buffered saline (PBS) agar containing propidium iodide (PI), a red fluorescent dye that binds to nucleic acids but cannot penetrate intact cell membranes.
+PI is a red fluorescent dye that binds to nucleic acids and is widely used to stain permeable cells due to its inability to penetrate intact cell membranes.
+Microscopic imaging (\sifig{27}) revealed almost no red fluorescence, indicating that the cells remained impermeable.
+Although impermeability alone does not confirm viability, additional observations support the conclusion that most cells were still alive: the absence of bacterial debris (as has been observed for drugs with similar decline in CFU such as amoxicillin), visible growth indicated by increased cell size compared to two hours earlier, and continued (and even increased) light emission.
+These findings suggest that most cells remain alive but are unable to form colonies under the provided conditions, possibly due to DNA damage induced by ciprofloxacin~\cite{Levine1998}.
+This observation aligns well with previous studies on ciprofloxacin, which found that CFU can underestimate viability relative to non-culture-based methods~\cite{Besnard2002, Wu2024, Fanous2025}.
+
+Trimethoprim treatment showed similar, though less pronounced, results (\sifig{19}).
+Trimethoprim, which impairs DNA replication (\cite{Gleckman1981}), likewise caused an increase in light intensity and a decline in CFU counts, while microscopy revealed intact, mostly impermeable, filamented cells (\sifig{34}).
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Antimicrobial carray over %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\paragraph{Antimicrobial carryover causes underestimation of $\psi_B$ for pexiganan using CFU.}
+Building on our understanding of when luminescence assays accurately estimate $\psi_B$, we hypothesized that antimicrobial peptides (AMPs) would be an ideal application for this method.
+We expected that, during the AMP’s short killing phase, changes in the cell‐specific luminosity would remain negligible compared to the high kill rates AMPs can achieve.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% mgcl cacl experiment %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Initially, however, we failed to recover almost any colonies on agar, despite the light intensity indicating a high enough bacterial density.
+Moreover, colony counts were inconsistent across dilutions: wells diluted 100‐fold and 1000‐fold from the same time point yielded similar colony numbers, instead of reflecting the tenfold difference.
+We suspected that AMPs from the liquid culture, including those attached to the bacterial surface, were carried over into the PBS dilution medium, causing continued cell death during dilution and after plating.
+
+To test this, cultures treated with pexiganan for \SI{1}{\minute} were diluted 1:100 in PBS and subsequently sampled and plated at four time points, approximately 45 minutes apart.
+As dilution medium, we tested PBS supplemented with various concentrations of \ce{CaCl2} and \ce{MgCl2}.
+These compounds were selected based on prior evidence that they inhibit the activity of other AMPs (\cite{Deslouches2005}).
+
+Our results show that supplementing the dilution medium increased the measured CFU substantially (\sifig{38}, \siappendix{4}).
+This indicates that bacterial survival probability increases when diluted in the supplemented medium.
+Conversely, diluting in unsupplemented PBS does not stop bacteria from dying.
+Supplementing \SI{100}{\milli M} \ce{MgCl2} yielded the highest CFU count for the first time point (\sitab{4}).
+Since CFU cannot systematically overestimate bacterial density, this count represents the best estimate of the bacterial density.
+Consequently, we supplemented the PBS with \SI{100}{\milli M} \ce{MgCl2} in subsequent pexiganan experiments.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% PEXI HAND CFU KILL CURVE %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Given this insight into the residual killing effect of pexiganan and how to mitigate it, we repeated the CFU time-kill experiment using two different dilution media (\siappendix{4}).
+We recorded three replicates for each of the two time-kill curves.
+We diluted the cultures at each time point in either pure PBS or PBS supplemented with \SI{100}{\milli M} \ce{MgCl2} and counted colonies on all agar plates from three dilution steps.
+To lower the detection limit by one order of magnitude, we increased the plated volume from \SI{10}{\micro\liter} to \SI{100}{\micro\liter}.
+Since this volume exceeds the capacity of the automated high-throughput setup, we used the standard manual CFU plating method instead.
+
+We observed a much steeper initial decline in CFU for the cultures diluted in pure PBS compared to the supplemented ones (\sifig{39}).
+In pure PBS, more highly diluted samples consistently yielded higher CFU estimates (\sifig{39}a), supporting the antimicrobial carryover hypothesis.
+This pattern diminished over time, suggesting a reduction in the residual killing effect of pexiganan, which we discuss below.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% PEXI ROBO EXPERIMENTS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\paragraph{Luminescence and CFU show identical decline rates for pexiganan time-kill curves if residual killing is prevented.}
+To confirm that eliminating residual pexiganan killing aligns CFU and luminescence, we supplemented PBS with \SI{100}{\milli M} \ce{MgCl2} and measured both signals at pexiganan concentrations of \SI{8}{\micro\gram\per\milli\liter}
+and \SI{16}{\micro\gram\per\milli\liter} using the ``rapid luminescence-CFU assay setup'' (Methods).
+We observed no significant difference between the CFU- and luminescence-based rates for either of the tested pexiganan concentrations (\autoref{fig:rate_plot}b, \sitab{2}).
+However, examining the time series (\sifig{20}) revealed that while CFU and luminescence signals declined in parallel for the \SI{8}{\micro\gram\per\milli\liter} treatment, they diverged for the \SI{16}{\micro\gram\per\milli\liter} kill curve.
+In this case, the CFU signal initially declined much faster (rates below \(-200\,\mathrm{h}^{-1}\)), and subsequently declined more slowly than the corresponding luminescence signal, ultimately resulting in a similar average rate (approximately \(-60\,\mathrm{h}^{-1}\)).
+
+This pattern suggests that luminescence assays may not be able to capture extremely rapid kill rates, potentially due to short delays between irreversible cell damage, actual cell death, and the subsequent cessation of luminescence.
+This limitation should not affect measurements for most conventional antibiotics, for which rates rarely exceed $-10\ \mathrm{h}^{-1}$.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% SUPERNATANT EXPERIMENTS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\paragraph{Pexiganan rapidly loses killing capacity.}
+During the pexiganan experiments, we observed an initial steep decline in bacterial density, predicted by both CFU and luminescence, followed by almost constant signals (Figures \sifig{20}, \sifig{39}).
+Two possible, non-exclusive explanations for this observation are: first, pexiganan is deactivated or sequestered from the medium by attaching to targets on the bacteria over time; and second, the remaining bacteria are unaffected by the AMP because they are resistant or persisters.
+To investigate the first explanation, we exposed bacteria to pexiganan for \SI{5}{\minute} at \SI{16}{\micro\gram\per\milli\liter}, after which the supernatant was collected and tested for its ability to kill bacteria (\siappendix{4}).
+While the initial treatment showed rapid bacterial killing ($\psi_{\text{CFU}} \approx -46\,\mathrm{h}^{-1}$ between $t_0 = 0$ and $t_1 = \SI{5}{\minute}$), bacteria exposed to the supernatant alone showed no significant reduction in viability (\sifig{40}, \sitab{5}).
+These results show that the supernatant has no residual killing effect.
+This makes deactivation or sequestration through attachment of pexiganan the likely explanation for the flattening CFU signal, even though we did not assess whether the surviving cells are resistant or persisters.

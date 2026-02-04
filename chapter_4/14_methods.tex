@@ -1,130 +1,122 @@
 %%% WETLAB STUFF
-\FloatBarrier
 \paragraph{Strains and Media.}
-We used the bioluminescent strain \textit{Escherichia coli} MG1655 \(\Delta\)galK::(kan\(^R\)-luxCDABE) constructed previously \cite{Muetter2025}.
-Cultures were grown in LB medium (Sigma L3022). 
+We used the bioluminescent strain \textit{Escherichia coli} MG1655 \(\Delta\)galK::(kan\(^R\)-luxCDABE) constructed previously \cite{Muetter2026}.
+Cultures were grown in LB medium (Sigma L3022).
 
 \paragraph{Drug preparation.}
-In the experiments, we explored the interactions among six drugs (\autoref{tab:drugs}), resulting in 15 drug-drug pairs.
-For each pair, one compound was designated drug~A and the other drug~B. 
-Each compound was prepared as a stock (\num{20}\,x) at the highest planned working concentration. 
-We then performed a twofold dilution series in a 12-column deepwell plate, resulting in 11 diluted concentrations and one drug-free column. 
-For drug~A, we transferred \SI{125}{\micro\liter} per well into a 96-well plate with a horizontal concentration gradient; this is referred to as subreservoir~A. 
-For drug~B, we transferred \SI{50}{\micro\liter} per well into two 96-well plates with vertical concentration gradients (each 6x12 layout); these are the antibiotic-reservoir plates (I and II). 
-All plates were stored at \SI{-80}{\celsius} to minimise degradation over time while accepting a one-time degradation due to freezing and thawing.
-
+We explored drug interactions among six drugs (\autoref{tab:drugs}), resulting in \num{15} drug--drug pairs.
+For each pair, one compound was designated drug~A and the other drug~B.
+Each compound was prepared as a \(\times 20\) stock of its highest working concentration.
+We then performed a twofold dilution series in a 12-column deepwell plate, resulting in \num{11} diluted concentrations and one drug-free column.
+For drug~A, we transferred \SI{125}{\micro\liter} per well into a 96-well plate (subreservoir~A) with a horizontal concentration gradient.
+For drug~B, we transferred \SI{50}{\micro\liter} per well into two 96-well plates (antibiotic reservoir plates I and II) with vertical concentration gradients (each \(6\times 12\) layout).
+All plates were stored at \SI{-80}{\celsius} to minimise degradation over time, accepting a one-time freeze--thaw-related degradation.
 
 %% DRUG TABLE
 \begin{table}
-    \caption{Drugs used in the experiments, the solvent, the estimated zMIC (obtained by fitting the single-drug pharmacodynamic curves), and the supplier with catalogue number.}
-    \centering
-    \small
-    \input{tables/drug_table}
-    \label{tab:drugs}
+  \caption{Drugs used in the experiments, the solvent, the estimated zMIC (by fitting the single-drug pharmacodynamic curves), and the supplier with catalogue number.}
+  \centering
+  \small
+  \input{tables/drug_table}
+  \label{tab:drugs}
 \end{table}
 
-
 \paragraph{Dose response assays.}
-For each assay, we prepared four overnight cultures grown for \SI{14}{\hour}. 
+For each assay, we prepared four overnight cultures grown for \SI{14}{\hour}.
 Cultures were distributed to fill an entire 384-well source plate (Greiner 781073), so that the replicates formed a \(2\times2\) block format (e.g. C1--rep1, C2--rep2, D1--rep3, D2--rep4).
-We then prefilled two white 384‑well assay plates (Greiner 781073) with \SI{54}{\micro\liter} LB per well and transferred inocula from the source plate to both assay plates (I, II)  using the Evo 200 liquid handling platform (Tecan) with a pintool (dilution approximately $1:150$). 
-Plates were incubated for \SI{2}{\hour} to reach exponential phase. 
-Simultaneously, subreservoir~A and both antibiotic‑reservoir plates were thawed. 
-\SI{50}{\micro\liter} from each well of the subreservoir~A were transferred to the corresponding wells of both antibiotic‑reservoir plates, generating a \num{10}\,x mixture of drugs A and B. 
+We then prefilled two white 384‑well assay plates (Greiner 781073) with \SI{54}{\micro\liter} LB per well and transferred inocula from the source plate to both assay plates (I, II) using an Evo 200 liquid handling platform (Tecan) with a pintool.
+The dilution is approximately \(1{:}150\), although we observed substantial well-to-well variation in the effective inoculum size (see below).
+Plates were incubated for \SI{2}{\hour} to reach exponential phase.
+Simultaneously, subreservoir~A and both antibiotic‑reservoir plates were thawed.
+\SI{50}{\micro\liter} from each well of the subreservoir~A were transferred to the corresponding wells of both antibiotic‑reservoir plates, generating a \num{10}\,x mixture of drugs A and B.
 For both assay plates, the assay started as follows: a baseline luminescence reading was taken, \SI{6}{\micro\liter} of the \num{10}\,x drug mixture was added (defining \(t=0\) at dosing for the respective wells), and a second luminescence reading was taken.
 Subsequently, we alternated between reading assay plates I and II for a total duration of \SI{5}{\hour}.
 Luminescence was recorded with an Infinite~F200 plate reader (Tecan) using a \SI{250}{\milli\second} integration time.
 
-
 \paragraph{Data preprocessing.}
-To estimate light noise, we conducted a calibration experiment in which six source wells (E5, E12, E20, L5, L12, L20) contained stationary-phase cultures while all other wells remained empty. 
-From a single luminescence read of the full plate, we constructed a distance-dependent light-noise kernel (\autoref{fig:light_distribution}) and corrected each well by subtracting the summed contributions from neighbouring wells (restricted to distances $d\le 3$, \autoref{eq:noise_corr}). 
-We defined the lower limit of detection as \(I_{\mathrm{LoD}}=\SI{10}{RLU}\) and the upper limit of detection as \SI{1e6}{RLU}.
-We defined the common analysis horizon \(T\) as the earliest time point at which any untreated control well exceeded the upper detection limit, yielding \(T\approx\SI{2}{\hour}\). 
-For each well, we computed the fraction of observations up to \(T\) below \(I_{\mathrm{LoD}}\). 
-Wells with more than $20\%$ of observations below \(I_{\mathrm{LoD}}\) were excluded from all subsequent analyses. 
-For retained wells, values below \(I_{\mathrm{LoD}}\) were censored by replacing them with \(I_{\mathrm{LoD}}\). 
-For numerical integration, we linearly interpolated the log-normalised signal to obtain values on the shared horizon \(t=T\) (see also \siref{ssec:lightnoise}). 
+To estimate stray.light contamination, we conducted a calibration experiment in which six source wells (E5, E12, E20, L5, L12, L20) contained stationary-phase cultures while all other wells remained empty.
+From a single luminescence read of the full plate, we constructed a distance-dependent stray-light kernel (\autoref{fig:light_distribution}) and corrected each well by subtracting the summed contributions from neighbouring wells (restricted to distances $d\le 3$, \autoref{eq:noise_corr}).
+We defined the lower limit of detection as \(I_{\mathrm{LoD}}=10\,\mathrm{RLU}\) and the upper limit of detection as \(10^{6}\,\mathrm{RLU}\).
+We defined the common analysis horizon \(T\) as the earliest time point at which any untreated control well exceeded the upper detection limit, yielding \(T\approx\SI{2}{\hour}\).
+For each well, we computed the fraction of observations up to \(T\) below \(I_{\mathrm{LoD}}\).
+Wells with more than $20\%$ of observations below \(I_{\mathrm{LoD}}\) were excluded from all subsequent analyses.
+For retained wells, values below \(I_{\mathrm{LoD}}\) were censored by replacing them with \(I_{\mathrm{LoD}}\).
+For numerical integration, we interpolated the log-normalised signal to obtain values on the shared horizon \(t=T\) (see also \autoref{ssec:lightnoise}).
 
 \paragraph{Time-weighted net growth rate.}
 We define \(\psi\) as the linearly time-weighted net growth rate (SI: \autoref{eq:psi_weighted}) over the common time horizon \(T\).
 We infer \(\psi\) by calculating the scaled area under the log-normalised light intensity \(Y(t)=\ln\!\big(I(t)/I(0)\big)\) (SI: \autoref{eq:norm}, \autoref{eq:Ydef}),
 \begin{equation}
-    \psi
-    =
-    \frac{2}{T^{2}} \int_{0}^{T}Y(t)\,\mathrm{d}t.
-    \label{eq:effective_psi}
+  \psi
+  =
+  \frac{2}{T^{2}} \int_{0}^{T}Y(t)\,\mathrm{d}t.
+  \label{eq:effective_psi}
 \end{equation}
-
-
 
 \paragraph{Classification of inhibitory and sub-inhibitory conditions.}
 We classify each checkerboard condition as inhibitory, sub-inhibitory, or not significantly different from zero by testing whether replicate time-weighted growth-rate estimates \(\psi(c_A,c_B)\) are consistently positive or negative.
 With four replicates, the binomial probability of observing all positive (or all negative) signs with equal probability is \(0.5^4=0.0625\).
 This classification is used to annotate the \(\psi\) heatmaps (\autoref{fig:psi_chl_tet}, \autoref{fig:psi}) and to define inhibitory and sub-inhibitory regime pools.
 
-
 \paragraph{Single-drug pharmacodynamic curve fitting.}
-For each drug, we aggregated all mono-treatment data across experiments and fitted a pharmacodynamic (PD) curve (\(f(c)\)) to the corresponding time-weighted growth-rate estimates \(\psi\).
+For each drug, we aggregated all single-drug data across experiments and fitted pharmacodynamic curves \(f(c)\) to the corresponding time-weighted growth-rate estimates \(\psi\):
 \begin{equation}
-    f(c) = \psi_{0} - \frac{(\psi_{0}-\psi_{\min})(c/z_{\mathrm{MIC}})^{\kappa}} {(c/z_{\mathrm{MIC}})^{\kappa}-(\psi_{\min}/\psi_{0})}, \quad [0,\infty)\rightarrow[\psi_{\min},\psi_{0}]
-    \label{eq:single_drug_pd}
+  f(c) = \psi_{0} - \frac{(\psi_{0}-\psi_{\min})(c/\mathrm{zMIC})^{\kappa}} {(c/\mathrm{zMIC})^{\kappa}-(\psi_{\min}/\psi_{0})}, \quad [0,\infty)\rightarrow[\psi_{\min},\psi_{0}]
+  \label{eq:single_drug_pd}
 \end{equation}
 Here, \(\psi_{0}\) denotes the maximum and \(\psi_{\min}\) the minimum time-weighted growth rate, corresponding to \(c=0\) and \(c\to\infty\), respectively.
-\(\kappa\) denotes the Hill coefficient and \(z_{\mathrm{MIC}}\) the concentration at which \(f(c)=0\). 
-The model parameters \(\psi_{0},\psi_{\min},\kappa,z_{\mathrm{MIC}}\) were jointly estimated by least-squares fitting of \autoref{eq:single_drug_pd}. 
+\(\kappa\) denotes the Hill coefficient and \(\mathrm{zMIC}\) the concentration at which \(f(\mathrm{zMIC})=0\).
+The model parameters $psi_{0}$, $\psi_{\min}$, $\kappa$, $\mathrm{zMIC}$ were jointly estimated by least-squares fitting of \autoref{eq:single_drug_pd}.
 
 \paragraph{Distribution of treatment effects.}
-We define the treatment effect $\tau$ as the linearly time-weighted average difference between the untreated and treated temporal net growth rates over the common time horizon \(T\) (SI: \autoref{eq:intYdiff}). 
-Equivalently, \(\tau\) is the scaled area between the control and treatment trajectories on the log-normalised scale (illustrated in \autoref{fig:peptide-interactions}b). 
-Because \(\tau\) is a comparative measure between one untreated and one treated well, we bootstrap treated--control well pairs with replacement (\(B=200\); details in \siref{ssec:bootstrap_interactions}). 
-For each condition \((c_A,c_B)\) and draw \(b\), we compute \(\tau_b(c_A,c_B)=\psi_b(\emptyset)-\psi_b(c_A,c_B)\), yielding the distribution of treatment effects $\bm{\tau}(c_A, c_B)$. 
+We define the treatment effect $\tau$ as the linearly time-weighted average difference between the untreated and treated instantaneous net growth rates over the common time horizon \(T\) (SI: \autoref{eq:intYdiff}).
+Equivalently, \(\tau\) is the scaled area between the control and treatment trajectories on the log-normalised scale (illustrated in \autoref{fig:peptide-interactions}b).
+Because \(\tau\) is a comparative measure between one untreated and one treated trajectory, we bootstrap treated--control well pairs with replacement (\(B=200\); details in \autoref{ssec:bootstrap_interactions}).
+For each condition \((c_A,c_B)\) and draw \(b\), we compute \(\tau_b(c_A,c_B)=\psi_b(\emptyset)-\psi_b(c_A,c_B)\), yielding the distribution of treatment effects $\symbf{\tau}(c_A, c_B)$.
 Throughout this manuscript, distributions are denoted by bold symbols.
-We classify such bootstrap distributions as significant if the central \(95\%\) bootstrap interval excludes zero, and as not significant otherwise. 
-
-
+We classify such bootstrap distributions as significant if the central \(95\%\) bootstrap interval excludes zero, and as not significant otherwise.
 
 \paragraph{Bliss-based interaction score \(\mu\).}
-We define the Bliss based interaction score as the normalised deviation from the Bliss-prediction for combined treatment effects (see \siref{ssec:bliss} and \autoref{eq:tau_bliss_main}):
+We define the Bliss based interaction score as the normalised deviation from the Bliss-prediction for combined treatment effects (see \autoref{ssec:bliss} and \autoref{eq:tau_bliss_main}):
 \begin{equation}
-    \mu_b(c_A,c_B)  =
-    \frac{\tau_b(c_A)+\tau_b(c_B)-\tau_b(c_A,c_B)}
-    {\mathrm{median}\!\bigl(\bm{\tau}(c_A)\bigr)+\mathrm{median}\!\bigl(\bm{\tau}(c_B)\bigr)}.
-    \label{eq:mu}
+  \mu_b(c_A,c_B)  =
+  \frac{\tau_b(c_A)+\tau_b(c_B)-\tau_b(c_A,c_B)}
+  {\mathrm{median}\!\bigl(\symbf{\tau}(c_A)\bigr)+\mathrm{median}\!\bigl(\symbf{\tau}(c_B)\bigr)}.
+  \label{eq:mu}
 \end{equation}
-To avoid misinterpreting noise as interaction, we only evaluate \(\mu(c_A,c_B)\) for eligible conditions.
-A condition is eligible if \(\bm{\tau}(c_A,c_B)\) and at least one of \(\bm{\tau}(c_A)\) or \(\bm{\tau}(c_B)\) are significant.
-
+To avoid misinterpreting noise as interaction, we only evaluate \(\nu(c_A,c_B)\) if \(\symbf{\tau}(c_A,c_B)\) is significantly greater than zero and at least one of \(\symbf{\tau}(c_A)\) or \(\symbf{\tau}(c_B)\) is significantly greater than zero.
 
 \paragraph{Loewe-based interaction score \(\nu\).}
-We define a Loewe interaction score (details in \siref{ssec:loewe}) that quantifies deviations from dose equivalence as
+We define a Loewe interaction score (details in \autoref{ssec:loewe}) that quantifies deviations from dose equivalence as
 \begin{equation}
-    \nu_b(c_A,c_B)
-    =
-    \frac{c_A}{f_A^{-1}\!\big(\psi_b(c_A,c_B)\big)}
-    +
-    \frac{c_B}{f_B^{-1}\!\big(\psi_b(c_A,c_B)\big)}
-    -1.
-    \label{eq:fici}
+  \nu_b(c_A,c_B)
+  =
+  \frac{c_A}{f_A^{-1}\!\big(\psi_b(c_A,c_B)\big)}
+  +
+  \frac{c_B}{f_B^{-1}\!\big(\psi_b(c_A,c_B)\big)}
+  -1.
+  \label{eq:fici}
 \end{equation}
-Here \(f_i\) denotes a pharmacodynamic function mapping concentration to net growth, \(f_i(c)=\psi\). 
-The inverse \(f_i^{-1}(\psi)\) is the corresponding monotreatment-equivalent concentration of drug \(i\). 
-Our definition of \(\nu\) is analogous to the combination index \((\mathrm{CI}-1)\) \cite{Chou1984}, but uses a different pharmacodynamic model \(f_i\) (either \autoref{eq:psi_inverse_closed_form} or inferred numerically from the monotreatment edges of the surface splines). 
-To avoid misinterpreting noise as interaction, we only evaluate \(\nu(c_A,c_B)\) if \(\bm{\tau}(c_A,c_B)\) is significant and at least one of \(\bm{\tau}(c_A,0)\) or \(\bm{\tau}(0,c_B)\) is significant. 
-
-
-
-
+Here \(f_i\) denotes a pharmacodynamic function mapping concentration to net growth, \(f_i(c)=\psi\).
+The inverse \(f_i^{-1}(\psi)\) is the corresponding single-drug equivalent concentration of drug \(i\).
+Our definition of \(\nu\) is analogous to the combination index \((\mathrm{CI}-1)\) \cite{Chou1984}, but uses a different pharmacodynamic model \(f_i\) (either \autoref{eq:psi_inverse_closed_form} or inferred numerically from the single-drug edges of the surface splines).
+To avoid misinterpreting noise as interaction, we only evaluate \(\nu(c_A,c_B)\) if \(\symbf{\tau}(c_A,c_B)\) is significantly greater than zero and at least one of \(\symbf{\tau}(c_A)\) or \(\symbf{\tau}(c_B)\) is significantly greater than zero.
 
 \paragraph{Polar reparametrization.}
-We normalise concentrations of drug \(i\) using the corresponding \(\mathrm{zMIC}_i\) estimates obtained from the single-drug PD fits (\autoref{tab:drugs}): \(z_i=c_i/\mathrm{zMIC}_i\).
+We normalise concentrations of drug \(i\) using the corresponding \(\mathrm{zMIC}_i\) estimates obtained from pharmacodynamic curve fits (\autoref{tab:drugs}): \(z_i=c_i/\mathrm{zMIC}_i\).
 We then define polar coordinates based on the normalised concentrations:
 \begin{equation}
-    z=\sqrt{z_{A}^{2}+z_{B}^{2}},
-    \qquad
-    \phi=\arctan2\!\bigl(z_{B},z_{A}\bigr),
-    \label{eq:polar_coordinates}
+  z=\sqrt{z_{A}^{2}+z_{B}^{2}},
+  \qquad
+  \phi=\arctan2\!\bigl(z_{B},z_{A}\bigr),
+  \label{eq:polar_coordinates}
 \end{equation}
-with \(\phi\) corresponding to the \emph{mixing angle} and \(z\) to the \emph{combined dose}. 
-These coordinates were used to plot polar pharmacodynamic curves, which show the treatment effect over the combined dose \(z\) for a fixed mixing angle \(\phi\). 
-We obtain these curves as one-dimensional cross-sections through the surface splines at fixed \(\phi\). 
+with \(\phi\) corresponding to the \emph{mixing angle} and \(z\) to the \emph{combined dose}.
+These coordinates were used to plot polar pharmacodynamic curves, which show the treatment effect over the combined dose \(z\) for a fixed mixing angle \(\phi\).
+These curves represent cross-sections through the surface splines at fixed \(\phi\).
+
+\paragraph{Inoculum effects.}
+We noticed a much larger-than-expected variation in pre-treatment light intensity \(I_0\) in our data, which we use as a proxy for inoculum size.
+To assess the impact of this variation on the results, we regressed \(\psi\) for each single-drug and concentration on the pre-treatment signal \(I_0\) (\autoref{ssec:inoculum}).
+We found negligible inoculum effects for AMO, CHL, PEN, and TET, but substantial effects for COL and POL at intermediate concentrations (see \autoref{fig:inoculum}).
+Because the size of the inoculum did not show a significant directional trend along the concentration index (\(p=0.092\)), the variance of the inoculum mainly adds noise at intermediate concentrations of COL and POL, contributing to an increased scatter in \autoref{fig:single-pdcurves}c,e.

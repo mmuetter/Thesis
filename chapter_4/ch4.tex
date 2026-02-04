@@ -6,26 +6,30 @@
 \begin{document}
 
 % Paper-specific metadata
-\chapter{Antimicrobial Combination Effects at Subinhibitory Doses do not Reliably Predict Effects at Inhibitory Concentrations}
+\chapter{Antimicrobial Combination Effects at Sub-inhibitory Doses do not Reliably Predict Effects at Inhibitory Concentrations}
 
 \begin{abstract}
-  Assessing how combinations of antibiotics inhibit bacterial growth above and beyond the individual constituent antibiotics is riddled with several difficulties: (i) measuring death rates at clinically relevant drug concentrations is challenging, (ii) there is no unifying definition of what constitutes synergistic or antagonistic interactions, and (iii) both synergism and antagonism may be concentration dependent.
-  To assess how well sub-inhibitory measurements predict inhibitory behaviour, we quantified drug interactions for 15 pairwise drug combinations on a \(12\times 12\) concentration checkerboard recording 8{,}640 time-resolved luminescence trajectories.
-  To handle time-varying treatment effects and allow fair comparisons between drugs with distinct killing dynamics, we introduced a growth-integrated rate-like metric \(\psi\) to summarise each trajectory and assigned interaction types (synergistic/neutral/antagonistic) based on Bliss independence and Loewe additivity.
+  Assessing whether drug combinations synergise or antagonise is difficult for several reasons: (i) measuring bacterial death rates at clinically relevant drug concentrations is methodologically challenging, (ii) there is no unifying definition of what constitutes synergistic or antagonistic interactions, and (iii) both synergism and antagonism may be concentration and mixing ratio dependent.
+  To assess how well sub-inhibitory measurements predict inhibitory behaviour, we quantified drug interactions for \num{15} pairwise drug combinations on a concentration checkerboard covering a wide range of inhibitory and sub-inhibitory concentrations.
+  To this end, we recorded \num{8640} time-resolved luminescence trajectories that have been shown to track bacterial population declines.
+  To handle time-varying treatment effects and allow fair comparisons between drugs with distinct killing dynamics, we introduced a growth-integrated rate-like metric \(\psi\) to summarise each trajectory, and assigned interaction types (synergistic/independent/antagonistic) based on Bliss independence and Loewe additivity.
   We found that the interaction type frequently changes as the concentration increases from sub-inhibitory to inhibitory concentrations.
-  Moreover, interaction type depended on the mixing ratio, implying that single-point sub-inhibitory measurements alone are not sufficient to predict interactions at clinically relevant concentrations.
+  Moreover, interaction type depended on the mixing ratio, implying that single-point sub-inhibitory measurements are not sufficient to predict interactions at clinically relevant concentrations.
 \end{abstract}
 
 % Include the actual content from text.tex
 
 \section{Introduction}
 \input{chapter_4/11_introduction.tex}
+
 \section{Results}
-%\input{chapter_4/12_results.tex}
+\input{chapter_4/12_results.tex}
+
 \section{Discussion}
-%\input{chapter_3/13_discussion.tex}
+\input{chapter_4/13_discussion.tex}
+
 \section{Methods}
-%\input{chapter_3/14_methods.tex}
+\input{chapter_4/14_methods.tex}
 
 \section{Data, Materials, and Software Availability}
 Experimental datasets and code are available at Zenodo (DOI: \href{https://doi.org/10.5281/zenodo.18374151}{10.5281/zenodo.18374151}).

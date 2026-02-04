@@ -11201,6 +11201,7 @@
       \strng{authorbibnamehash}{f7ea32f0eddd4d892ec2f1e723417dab}
       \strng{authornamehash}{f7ea32f0eddd4d892ec2f1e723417dab}
       \strng{authorfullhash}{f7ea32f0eddd4d892ec2f1e723417dab}
+      \field{extraname}{1}
       \field{sortinit}{5}
       \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
       \field{labelnamesource}{author}
@@ -11530,65 +11531,6 @@
       \endverb
       \verb{file}
       \verb :Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/1913/Frei - 1913 - Versuche {\"{u}}ber Kombination von Desinfektionsmitteln - Zeitschrift f{\"{u}}r Hygiene und Infektionskrankheiten.pdf:pdf
-      \endverb
-    \endentry
-    \entry{Regoes2004}{article}{}
-      \name{author}{6}{}{%
-        {{hash=8b33cacd224cbc26088f640a4315ebd2}{%
-           family={Regoes},
-           familyi={R\bibinitperiod},
-           given={Roland\bibnamedelima R.},
-           giveni={R\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
-        {{hash=d6e2ab83b4bc289fda0c357b636469ee}{%
-           family={Wiuff},
-           familyi={W\bibinitperiod},
-           given={Camilla},
-           giveni={C\bibinitperiod}}}%
-        {{hash=6d1c415be005097138e09cb1faf047ae}{%
-           family={Zappala},
-           familyi={Z\bibinitperiod},
-           given={Renata\bibnamedelima M.},
-           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{hash=021b8665c3a7a660c6cc40d131d1e4a5}{%
-           family={Garner},
-           familyi={G\bibinitperiod},
-           given={Kim\bibnamedelima N.},
-           giveni={K\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
-        {{hash=60ec94c15d742cd165219f68c115473d}{%
-           family={Baquero},
-           familyi={B\bibinitperiod},
-           given={Fernando},
-           giveni={F\bibinitperiod}}}%
-        {{hash=7e66d2f0845ac9a131047e9217fdbe46}{%
-           family={Levin},
-           familyi={L\bibinitperiod},
-           given={Bruce\bibnamedelima R.},
-           giveni={B\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
-      }
-      \strng{namehash}{743f25ea86300128c01e2be1a9bacd55}
-      \strng{fullhash}{1dc86b669d04ffd1687f63b15752808f}
-      \strng{bibnamehash}{743f25ea86300128c01e2be1a9bacd55}
-      \strng{authorbibnamehash}{743f25ea86300128c01e2be1a9bacd55}
-      \strng{authornamehash}{743f25ea86300128c01e2be1a9bacd55}
-      \strng{authorfullhash}{1dc86b669d04ffd1687f63b15752808f}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{There is a complex quantitative relationship between the concentrations of antibiotics and the growth and death rates of bacteria. Despite this complexity, in most cases only a single pharmacodynamic parameter, the MIC of the drug, is employed for the rational development of antibiotic treatment regimens. In this report, we use a mathematical model based on a Hill function - which we call the pharmacodynamic function and which is related to previously published E max models - to describe the relationship between the bacterial net growth rates and the concentrations of antibiotics of five different classes: ampicillin, ciprofloxacin, tetracycline, streptomycin, and rifampin. Using Escherichia coli O18:K1:H7, we illustrate how precise estimates of the four parameters of the pharmacodynamic function can be obtained from in vitro time-kill data. We show that, in addition to their respective MICs, these antibiotics differ in the values of the other pharmacodynamic parameters. Using a computer simulation of antibiotic treatment in vivo, we demonstrate that, as a consequence of differences in pharmacodynamic parameters, such as the steepness of the Hill function and the minimum bacterial net growth rate attained at high antibiotic concentrations, there can be profound differences in the microbiological efficacy of antibiotics with identical MICs. We discuss the clinical implications and limitations of these results.}
-      \field{issn}{00664804}
-      \field{journaltitle}{Antimicrob. Agents Chemother.}
-      \field{number}{10}
-      \field{title}{{Pharmacodynamic functions: A multiparameter approach to the design of antibiotic treatment regimens}}
-      \field{volume}{48}
-      \field{year}{2004}
-      \field{pages}{3670\bibrangedash 3676}
-      \range{pages}{7}
-      \verb{doi}
-      \verb 10.1128/AAC.48.10.3670-3676.2004
-      \endverb
-      \verb{file}
-      \verb :Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/2004/Regoes et al. - 2004 - Pharmacodynamic functions A multiparameter approach to the design of antibiotic treatment regimens - Antimicrobia.pdf:pdf
       \endverb
     \endentry
     \entry{Yeh2006}{article}{}
@@ -12667,8 +12609,8 @@
       \strng{authorbibnamehash}{a22b6115e2b813cea36151d03106465a}
       \strng{authornamehash}{a22b6115e2b813cea36151d03106465a}
       \strng{authorfullhash}{a22b6115e2b813cea36151d03106465a}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{While the rise of antibiotic resistance poses a global health challenge, the development of new antibiotics has slowed down over the past decades. This turned the attention of researchers towards the rational design of drug combination therapies to combat antibiotic resistance. In this review we discuss how drug combinations can exploit the deleterious pleiotropic effects of antibiotic resistance and conclude that each drug interaction has its prospective therapeutic application.}
@@ -12898,6 +12840,620 @@
       \endverb
       \verb{file}
       \verb :Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/2021/Kavcic, Tkacik, Bollenbach - 2021 - Minimal biophysical model of combined antibiotic action - PLoS Computational Biology.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Regoes2004}{article}{}
+      \name{author}{6}{}{%
+        {{hash=8b33cacd224cbc26088f640a4315ebd2}{%
+           family={Regoes},
+           familyi={R\bibinitperiod},
+           given={Roland\bibnamedelima R.},
+           giveni={R\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=d6e2ab83b4bc289fda0c357b636469ee}{%
+           family={Wiuff},
+           familyi={W\bibinitperiod},
+           given={Camilla},
+           giveni={C\bibinitperiod}}}%
+        {{hash=6d1c415be005097138e09cb1faf047ae}{%
+           family={Zappala},
+           familyi={Z\bibinitperiod},
+           given={Renata\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=021b8665c3a7a660c6cc40d131d1e4a5}{%
+           family={Garner},
+           familyi={G\bibinitperiod},
+           given={Kim\bibnamedelima N.},
+           giveni={K\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=60ec94c15d742cd165219f68c115473d}{%
+           family={Baquero},
+           familyi={B\bibinitperiod},
+           given={Fernando},
+           giveni={F\bibinitperiod}}}%
+        {{hash=7e66d2f0845ac9a131047e9217fdbe46}{%
+           family={Levin},
+           familyi={L\bibinitperiod},
+           given={Bruce\bibnamedelima R.},
+           giveni={B\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{743f25ea86300128c01e2be1a9bacd55}
+      \strng{fullhash}{1dc86b669d04ffd1687f63b15752808f}
+      \strng{bibnamehash}{743f25ea86300128c01e2be1a9bacd55}
+      \strng{authorbibnamehash}{743f25ea86300128c01e2be1a9bacd55}
+      \strng{authornamehash}{743f25ea86300128c01e2be1a9bacd55}
+      \strng{authorfullhash}{1dc86b669d04ffd1687f63b15752808f}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{There is a complex quantitative relationship between the concentrations of antibiotics and the growth and death rates of bacteria. Despite this complexity, in most cases only a single pharmacodynamic parameter, the MIC of the drug, is employed for the rational development of antibiotic treatment regimens. In this report, we use a mathematical model based on a Hill function - which we call the pharmacodynamic function and which is related to previously published E max models - to describe the relationship between the bacterial net growth rates and the concentrations of antibiotics of five different classes: ampicillin, ciprofloxacin, tetracycline, streptomycin, and rifampin. Using Escherichia coli O18:K1:H7, we illustrate how precise estimates of the four parameters of the pharmacodynamic function can be obtained from in vitro time-kill data. We show that, in addition to their respective MICs, these antibiotics differ in the values of the other pharmacodynamic parameters. Using a computer simulation of antibiotic treatment in vivo, we demonstrate that, as a consequence of differences in pharmacodynamic parameters, such as the steepness of the Hill function and the minimum bacterial net growth rate attained at high antibiotic concentrations, there can be profound differences in the microbiological efficacy of antibiotics with identical MICs. We discuss the clinical implications and limitations of these results.}
+      \field{issn}{00664804}
+      \field{journaltitle}{Antimicrob. Agents Chemother.}
+      \field{number}{10}
+      \field{title}{{Pharmacodynamic functions: A multiparameter approach to the design of antibiotic treatment regimens}}
+      \field{volume}{48}
+      \field{year}{2004}
+      \field{pages}{3670\bibrangedash 3676}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1128/AAC.48.10.3670-3676.2004
+      \endverb
+      \verb{file}
+      \verb :Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/2004/Regoes et al. - 2004 - Pharmacodynamic functions A multiparameter approach to the design of antibiotic treatment regimens - Antimicrobia.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Chevereau2015a}{article}{}
+      \name{author}{2}{}{%
+        {{hash=277de9ac87e4573ba67dfa71e64d457b}{%
+           family={Chevereau},
+           familyi={C\bibinitperiod},
+           given={Guillaume},
+           giveni={G\bibinitperiod}}}%
+        {{hash=8f819f75914f55a6fad472199de5d587}{%
+           family={Bollenbach},
+           familyi={B\bibinitperiod},
+           given={Tobias},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{ef76cc2b2671f1ca940594f16700d2e5}
+      \strng{fullhash}{ef76cc2b2671f1ca940594f16700d2e5}
+      \strng{bibnamehash}{ef76cc2b2671f1ca940594f16700d2e5}
+      \strng{authorbibnamehash}{ef76cc2b2671f1ca940594f16700d2e5}
+      \strng{authornamehash}{ef76cc2b2671f1ca940594f16700d2e5}
+      \strng{authorfullhash}{ef76cc2b2671f1ca940594f16700d2e5}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Drug combinations are increasingly important in disease treatments, for combating drug resistance, and for elucidating fundamental relationships in cell physiology. When drugs are combined, their individual effects on cells may be amplified or weakened. Such drug interactions are crucial for treatment efficacy, but their underlying mechanisms remain largely unknown. To uncover the causes of drug interactions, we developed a systematic approach based on precise quantification of the individual and joint effects of antibiotics on growth of genome-wide Escherichia coli gene deletion strains. We found that drug interactions between antibiotics representing the main modes of action are highly robust to genetic perturbation. This robustness is encapsulated in a general principle of bacterial growth, which enables the quantitative prediction of mutant growth rates under drug combinations. Rare violations of this principle exposed recurring cellular functions controlling drug interactions. In particular, we found that polysaccharide and ATP synthesis control multiple drug interactions with previously unexplained mechanisms, and small molecule adjuvants targeting these functions synthetically reshape drug interactions in predictable ways. These results provide a new conceptual framework for the design of multidrug combinations and suggest that there are universal mechanisms at the heart of most drug interactions.}
+      \field{annotation}{describes method how they did their growthcurves}
+      \field{issn}{1744-4292}
+      \field{journaltitle}{Mol. Syst. Biol.}
+      \field{number}{4}
+      \field{title}{{Systematic discovery of drug interaction mechanisms}}
+      \field{volume}{11}
+      \field{year}{2015}
+      \field{pages}{807}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.15252/msb.20156098
+      \endverb
+      \verb{file}
+      \verb :Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/2015/Chevereau, Bollenbach - 2015 - Systematic discovery of drug interaction mechanisms - Molecular Systems Biology.pdf:pdf
+      \endverb
+      \keyw{antibiotics,drug combination design,drug discovery,drug interaction,dynamical systems,escherichia coli,general principles of biological,mechanisms,pharmacology,subject categories quantitative biology,systems}
+    \endentry
+    \entry{Angermayr2022}{article}{}
+      \name{author}{6}{}{%
+        {{hash=6ecc3593c1c317d8848dc2e34f229f31}{%
+           family={Angermayr},
+           familyi={A\bibinitperiod},
+           given={S\bibnamedelima Andreas},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=df5ad2a5f885c900e475593e741b8c5f}{%
+           family={Pang},
+           familyi={P\bibinitperiod},
+           given={Tin\bibnamedelima Yau},
+           giveni={T\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+        {{hash=277de9ac87e4573ba67dfa71e64d457b}{%
+           family={Chevereau},
+           familyi={C\bibinitperiod},
+           given={Guillaume},
+           giveni={G\bibinitperiod}}}%
+        {{hash=8c3c55168c93996471abff5a9e2e79e0}{%
+           family={Mitosch},
+           familyi={M\bibinitperiod},
+           given={Karin},
+           giveni={K\bibinitperiod}}}%
+        {{hash=1018208040d8bf378f4513e16e6ffcb3}{%
+           family={Lercher},
+           familyi={L\bibinitperiod},
+           given={Martin\bibnamedelima J},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=8f819f75914f55a6fad472199de5d587}{%
+           family={Bollenbach},
+           familyi={B\bibinitperiod},
+           given={Tobias},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{1ed48116e19da0ecd9ba648e2f25df4a}
+      \strng{fullhash}{45d09a9aeb19e81ce12566d62af69d84}
+      \strng{bibnamehash}{1ed48116e19da0ecd9ba648e2f25df4a}
+      \strng{authorbibnamehash}{1ed48116e19da0ecd9ba648e2f25df4a}
+      \strng{authornamehash}{1ed48116e19da0ecd9ba648e2f25df4a}
+      \strng{authorfullhash}{45d09a9aeb19e81ce12566d62af69d84}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Dose‐response relationships are a general concept for quantitatively describing biological systems across multiple scales, from the molecular to the whole‐cell level. A clinically relevant example is the bacterial growth response to antibiotics, which is routinely characterized by dose‐response curves. The shape of the dose‐response curve varies drastically between antibiotics and plays a key role for treatments, drug interactions, and resistance evolution. However, the mechanisms shaping the dose‐response curve remain largely unclear. Here, we show in Escherichia coli that the distinctively shallow dose‐response curve of the antibiotic trimethoprim is caused by a negative growth‐ mediated feedback loop: Trimethoprim slows growth, which in turn weakens the effect of this antibiotic. At the molecular level, this feedback is caused by the upregulation of the drug target dihydrofolate reductase (FolA/DHFR). We show that this upregulation is not a specific response to trimethoprim but follows a universal trend line that depends only on growth rate, irrespective of its cause. Rewiring the feedback loop alters the dose‐response curve in a predictable manner, which we corroborate with a mathematical model. Our results indicate that growth‐mediated feedback loops shape drug responses and could be exploited to design evolutionary traps that enable selection against drug resistance. {\#}{\#}{\#} Competing Interest Statement The authors have declared no competing interest.}
+      \field{issn}{1744-4292}
+      \field{journaltitle}{Mol. Syst. Biol.}
+      \field{number}{9}
+      \field{title}{{Growth‐mediated negative feedback shapes quantitative antibiotic response}}
+      \field{volume}{18}
+      \field{year}{2022}
+      \field{pages}{1\bibrangedash 19}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.15252/msb.202110490
+      \endverb
+      \verb{file}
+      \verb :Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/2022/Angermayr et al. - 2022 - Growth‐mediated negative feedback shapes quantitative antibiotic response - Molecular Systems Biology.pdf:pdf
+      \endverb
+      \keyw{antibiotics,dhfr,dihydrofolate reductase,dose,drug discovery,feedback loops,host pathogen interaction,pharmacology,resource allocation model,response curve,subject categories microbiology,virology}
+    \endentry
+    \entry{MacGowan2000}{article}{}
+      \name{author}{5}{}{%
+        {{hash=153625952d0b16a9d8b49ba2eab73a75}{%
+           family={MacGowan},
+           familyi={M\bibinitperiod},
+           given={Alasdair},
+           giveni={A\bibinitperiod}}}%
+        {{hash=1783f27ccec25038f404bb5609040046}{%
+           family={Rogers},
+           familyi={R\bibinitperiod},
+           given={Chris},
+           giveni={C\bibinitperiod}}}%
+        {{hash=4d08bb9584caa342381219a1303db299}{%
+           family={Holt},
+           familyi={H\bibinitperiod},
+           given={H.\bibnamedelimi Alan},
+           giveni={H\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=5a6e283a5eeebcc0c033859069e5096c}{%
+           family={Wootton},
+           familyi={W\bibinitperiod},
+           given={Mandy},
+           giveni={M\bibinitperiod}}}%
+        {{hash=2e2efde8ce632d138e08fd333f2ea345}{%
+           family={Bowker},
+           familyi={B\bibinitperiod},
+           given={Karen},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford Academic}%
+      }
+      \strng{namehash}{046068c09257ba801eaf68426023f10b}
+      \strng{fullhash}{046068c09257ba801eaf68426023f10b}
+      \strng{bibnamehash}{046068c09257ba801eaf68426023f10b}
+      \strng{authorbibnamehash}{046068c09257ba801eaf68426023f10b}
+      \strng{authornamehash}{046068c09257ba801eaf68426023f10b}
+      \strng{authorfullhash}{046068c09257ba801eaf68426023f10b}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A dilutional culture in vitro pharmacodynamic model of infection was used to assess the best measure of antibacterial effect for moxifloxacin at simulated human doses of 400 mg 24 hourly for 48 h. This was then related to two pharmacodynamic parameters, the drug area under curve: MIC ratio (AUC/MIC) and the length of time that the drug concentration remained above the MIC of the bacterium (T > MIC). Twenty-one bacterial strains (Streptococcus pneumoniae n = 6; Haemophilus influenzae n = 6; Moraxella catarrhalis n = 3; $\beta$-haemolytic streptococci n = 3; Staphylococcus aureus n = 3; MIC range 0.06-3.6 mg/L) were tested in 69 individual simulations. The measures or parameters of antibacterial effect considered were log change in viable count in the initial inoculum at 12 h ($\Delta$12), 24 h ($\Delta$24), 36 h ($\Delta$36), 48 h ($\Delta$48), maximum reduction in count ($\Delta$(max)); time for bacterial counts to reduce by 100-fold from the initial density (T99) or 1,000-fold (T99.9); and area under the bacterial kill curve from 0 to 24 h (AUBKC24) or from 0 to 48 h (AUBKC48). $\Delta$12, $\Delta$24, $\Delta$36, $\Delta$48, $\Delta$(max), T99, T99.9 did not vary over the complete range of MICs; at high MICs, especially with Gram-positive bacteria the T99 and T99.9 values were >48 h while at low MICs, especially with Gram-negative bacteria, bacterial counts were reduced below the limit of detection with $\Delta$12, $\Delta$24, $\Delta$36, $\Delta$48 and $\Delta$(max) exceeding >6.5 log reduction. AUBKC24 and AUBKC48 varied more completely over the range of MICs and more importantly had the best within-strain reproducibility (median percentage coefficient of variation <15{\%}). The relationship between the transformed AUBKC24 and AUC/MIC could be described by a sigmoid E(max) model but the relationship with T>MIC could not. Use of weighted least squares regression to examine the combined effect of AUC/MIC and T> MIC on AUBKC24 indicated that AUC/MIC provided a good fit to the data (r2 = 0.94) and adding T>MIC did not improve the model fit. Cox proportional hazards regression indicated that AUC/MIC was predictive of T99 and in a multivariate model although AUC/MIC predicted outcome after fitting AUC/MIC, T> MIC was not significant. AUBKC was thus shown to be the optimum measure of antibacterial effect to use in pharmacodynamic studies of moxifloxacin and AUC/MIC the best predictor of antibacterial effect as measured by AUBKC24 or T99. These results are in good agreement with with animal data on moxifloxacin pharmacodynamics and human data for some other fluoroquinolones.}
+      \field{issn}{0305-7453}
+      \field{journaltitle}{J. Antimicrob. Chemother.}
+      \field{month}{7}
+      \field{number}{1}
+      \field{title}{{Assessment of different antibacterial effect measures used in in vitro models of infection and subsequent use in pharmacodynamic correlations for moxifloxacin}}
+      \field{volume}{46}
+      \field{year}{2000}
+      \field{pages}{73\bibrangedash 78}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1093/JAC/46.1.73
+      \endverb
+      \verb{file}
+      \verb :Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/2000/MacGowan et al. - 2000 - Assessment of different antibacterial effect measures used in in vitro models of infection and subsequent use i.pdf:pdf;:Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/2000/MacGowan et al. - 2000 - Assessment of different antibacterial effect measures used in in vitro models of infection and subsequent use i.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://dx.doi.org/10.1093/jac/46.1.73
+      \endverb
+      \verb{url}
+      \verb https://dx.doi.org/10.1093/jac/46.1.73
+      \endverb
+    \endentry
+    \entry{Lenhard2015}{article}{}
+      \name{author}{8}{}{%
+        {{hash=e534fdf9bb7dca0ac39e3d127cc26158}{%
+           family={Lenhard},
+           familyi={L\bibinitperiod},
+           given={Justin\bibnamedelima R},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=e6d0a3d42dc8f37a2d29b0b93a72eac6}{%
+           family={{Von Eiff}},
+           familyi={V\bibinitperiod},
+           given={Christof},
+           giveni={C\bibinitperiod}}}%
+        {{hash=21e81af400630d4a177b934d9cb1cece}{%
+           family={Hong},
+           familyi={H\bibinitperiod},
+           given={Irene\bibnamedelima S},
+           giveni={I\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=154220fd154b542de0967eea602a7621}{%
+           family={Holden},
+           familyi={H\bibinitperiod},
+           given={Patricia\bibnamedelima N},
+           giveni={P\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=88268f7df79222b1fc97942962965a82}{%
+           family={Bear},
+           familyi={B\bibinitperiod},
+           given={Michael\bibnamedelima D},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=f55e1d5f3b9e8cf76b771e240185fdfd}{%
+           family={Suen},
+           familyi={S\bibinitperiod},
+           given={Amy},
+           giveni={A\bibinitperiod}}}%
+        {{hash=3343cdad278b01c5d805972718d9729d}{%
+           family={Bulman},
+           familyi={B\bibinitperiod},
+           given={Zackery\bibnamedelima P},
+           giveni={Z\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=19478dd3afda3b365186e4376b772967}{%
+           family={Tsuji},
+           familyi={T\bibinitperiod},
+           given={Brian\bibnamedelima T},
+           giveni={B\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \strng{namehash}{9bc0b6ae91079bf64bef426df82340e6}
+      \strng{fullhash}{5318bcece1eefa598bd497f74e2f28fb}
+      \strng{bibnamehash}{9bc0b6ae91079bf64bef426df82340e6}
+      \strng{authorbibnamehash}{9bc0b6ae91079bf64bef426df82340e6}
+      \strng{authornamehash}{9bc0b6ae91079bf64bef426df82340e6}
+      \strng{authorfullhash}{5318bcece1eefa598bd497f74e2f28fb}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Staphylococcus aureus small-colony variants (SCVs) often persist despite antibiotic therapy. Against a 10 8-CFU/ml methicillin-resistant S. aureus (MRSA) (strain COL) population of which 0{\%}, 1{\%}, 10{\%}, 50{\%}, or 100{\%} was an isogenic hemB knockout (Ia48) subpopulation displaying the SCV phenotype, vancomycin achieved maximal reductions of 4.99, 5.39, 4.50, 3.28, and 1.66 log 10 CFU/ml over 48 h. Vancomycin at >16 mg/liter shifted a population from 50{\%} SCV cells at 0 h to 100{\%} SCV cells at 48 h, which was well characterized by a Hill-type model (R 2 > 0.90). S taphylococcus aureus is a virulent pathogen responsible for a myriad of infections ranging from minor community-acquired skin and soft tissue infections to severe nosocomial infections (1). While the current IDSA guidelines recommend vanco-mycin as the primary agent for treatment of methicillin-resistant S. aureus (MRSA) infections, the utility of the drug has been brought into question due to increasing reports of heterogeneous resistance, treatment failure, and nephrotoxicity (2-4). Despite the global decrease in vancomycin susceptibility, the exact mechanism by which S. aureus develops resistance is not well understood (5). It has been suggested that S. aureus adapts by utilizing an array of genotypic alterations that arise stepwise during the selective pressure of antimicrobial therapy (6, 7). One pathway that S. aureus may exploit during the evolution of antimicrobial resistance is the development of small-colony variants (SCVs) that grow slowly relative to strains of the normal phenotype (NP) (8-10). In vitro testing and macrophage models have confirmed that the SCV phenotype is less susceptible to van-comycin (11, 12). Studies with other antibiotics also suggest that SCV subpopulations may cooperate with NP S. aureus to attenuate antimicrobial activity (13). At present, it is unknown whether SCVs alter vancomycin pharmacodynamics through interactions with NP S. aureus or how the selection of a vancomycin regimen influences the relationship between the two phenotypes. The objective of the current study was, therefore, to utilize reconstructive population biology to determine how the interplay of both phenotypes alters vancomycin pharmacodynamics. The MRSA strain COL (NP) and its isogenic hemB knockout Ia48 (COL hemB::ermB, a stable SCV phenotype) were utilized. The creation of the mutant strain and its features were previously characterized (14). Prior to each experiment, a solution of vanco-mycin was prepared using analytical-grade powder (Sigma Chemical , St. Louis, MO) in the following concentrations: 0, 0.5, 1, 2, 4, 8, 16, 32, 64, and 128 mg/liter. Brain heart infusion (BHI) broth supplemented with magnesium (12.5 mg/liter) and calcium (25 mg/liter) was used for every experiment. SCV and NP cell suspen-sions were volumetrically titrated to achieve 5 different starting compositions, with a total bacterial load of 10 8 CFU/ml. Two experiments were conducted exclusively investigating the NP or the SCV phenotype (0{\%} SCV/100{\%} NP cells and 100{\%} SCV/0{\%} NP cells), and three mixed populations were investigated with starting inoculums of approximately 1{\%} SCV/99{\%} NP cells, 10{\%} SCV/ 90{\%} NP cells, and 50{\%} SCV/50{\%} NP cells adapted as previously described (30). Time-killing experiments were conducted over 48 h as previously described (11). In mixed-population experiments, bacteria were plated on both plain BHI agar and BHI containing gentamicin (2.0 mg/liter) to select for the SCV phenotype. An integrated pharmacokinetics/pharmacodynamics (PK/PD) approach was utilized as defined previously (11). Using the linear trapezoid rule, the area under the CFU curve in a 48-h time span (AUCFU 0-48) was calculated for each concentration and a growth control. The log ratio area was then calculated as the logarithm of the AUCFU 0-48 of drug divided by the AUCFU 0-48 of the growth control (equation 1). log ratio area log 10 AUCFU drug AUCFU control (1) E E 0 E max (C) H (EC 50) H (C) H (2) A four-parameter concentration-effect Hill-type model was fit to the effect parameter using Systat (version 12; Systat Software Inc., San Jose, CA) (11). In equation 2, E (dependent variable) represents the log ratio area, E 0 is the effect at a vancomycin concentration of 0, E max is the drug's maximum effect, C is the concentration of vancomycin, EC 50 is the vancomycin concentration displaying 50{\%} of the maximum effect, and H is the sigmoidicity constant. The overall model fits were assessed based on coefficients of determination (R 2).}
+      \field{title}{{Evolution of Staphylococcus aureus under Vancomycin Selective Pressure: the Role of the Small-Colony Variant Phenotype Antimicrobial Agents and Chemotherapy}}
+      \field{volume}{59}
+      \field{year}{2015}
+      \field{pages}{1347}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1128/AAC.04508-14
+      \endverb
+      \verb{file}
+      \verb :Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/2015/Lenhard et al. - 2015 - Evolution of Staphylococcus aureus under Vancomycin Selective Pressure the Role of the Small-Colony Variant Phen.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://journals.asm.org/journal/aac
+      \endverb
+      \verb{url}
+      \verb https://journals.asm.org/journal/aac
+      \endverb
+    \endentry
+    \entry{Wu2024}{article}{}
+      \name{author}{13}{}{%
+        {{hash=7b0f155d0ed2ea38da231522c80517e7}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Renfei},
+           giveni={R\bibinitperiod}}}%
+        {{hash=cd8c48cf5e0cd993b32262c1ad387042}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Cong},
+           giveni={C\bibinitperiod}}}%
+        {{hash=6233a666b2dfa47d3113a410dd3d8b78}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Jiuyi},
+           giveni={J\bibinitperiod}}}%
+        {{hash=910b8f82283363aafefc8ed321b26079}{%
+           family={Sjollema},
+           familyi={S\bibinitperiod},
+           given={Jelmer},
+           giveni={J\bibinitperiod}}}%
+        {{hash=c574e4ce85e33ec2005e9023da8fbb77}{%
+           family={Geertsema-Doornbusch},
+           familyi={G\bibinithyphendelim D\bibinitperiod},
+           given={G{é}sinda\bibnamedelima I.},
+           giveni={G\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=e989208af22e896dee0355f1ddf8b23a}{%
+           family={Haan-Visser},
+           familyi={H\bibinithyphendelim V\bibinitperiod},
+           given={H.\bibnamedelimi Willy},
+           giveni={H\bibinitperiod\bibinitdelim W\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=7279901d79d872378502b8f6c1e72673}{%
+           family={Dijkstra},
+           familyi={D\bibinitperiod},
+           given={Emma\bibnamedelima S.C.},
+           giveni={E\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=9a0a080b476178a67d77eda818f1b82a}{%
+           family={Ren},
+           familyi={R\bibinitperiod},
+           given={Yijin},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=7543a8e3f9b4a19784e621d783c6a960}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Zexin},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=fd903bc507de58459375d974764ab4ea}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Jian},
+           giveni={J\bibinitperiod}}}%
+        {{hash=a9c03c25179c5d53e4188d5d7c0f27d2}{%
+           family={Flemming},
+           familyi={F\bibinitperiod},
+           given={Hans\bibnamedelima C.},
+           giveni={H\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=9ffb535815a26608901f68084f14c646}{%
+           family={Busscher},
+           familyi={B\bibinitperiod},
+           given={Henk\bibnamedelima J.},
+           giveni={H\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=e94da859400eef72fbc586b6d5150409}{%
+           family={Mei},
+           familyi={M\bibinitperiod},
+           given={Henny\bibnamedelima C.},
+           giveni={H\bibinitperiod\bibinitdelim C\bibinitperiod},
+           prefix={van\bibnamedelima der},
+           prefixi={v\bibinitperiod\bibinitdelim d\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{7612105838ac2a865280b7a620095d95}
+      \strng{fullhash}{e66ac1d0214d657f27c403a23a4e58a5}
+      \strng{bibnamehash}{7612105838ac2a865280b7a620095d95}
+      \strng{authorbibnamehash}{7612105838ac2a865280b7a620095d95}
+      \strng{authornamehash}{7612105838ac2a865280b7a620095d95}
+      \strng{authorfullhash}{e66ac1d0214d657f27c403a23a4e58a5}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Bacteria can be dead, alive, or exhibit slowed or suspended life forms, making bacterial death difficult to establish. Here, agar-plating, microscopic-counting, SYTO9/propidium-iodide staining, MTT-conversion, and bioluminescence-imaging were used to determine bacterial death upon exposure to different conditions. Rank correlations between pairs of assay outcomes were low, indicating different assays measure different aspects of bacterial death. Principal-component analysis yielded two principal components, named “reproductive-ability” (PC1) and “metabolic-activity” (PC2). Plotting of these principal components in two-dimensional space revealed a dead region, with borders defined by the PC1 and PC2 values. Sensu stricto implies an unpractical reality that all assays determining PC1 and PC2 must be carried out in order to establish bacterial death. Considering this unpracticality, it is suggested that at least one assay determining reproductive activity (PC1) and one assay determining metabolic activity (PC2) should be used to establish bacterial death. Minimally, researchers should specifically describe which dimension of bacterial death is assessed, when addressing bacterial death.}
+      \field{issn}{2055-5008}
+      \field{journaltitle}{npj Biofilms Microbiomes 2024 101}
+      \field{month}{9}
+      \field{number}{1}
+      \field{title}{{Bacterial killing and the dimensions of bacterial death}}
+      \field{volume}{10}
+      \field{year}{2024}
+      \field{pages}{1\bibrangedash 8}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1038/s41522-024-00559-9
+      \endverb
+      \verb{file}
+      \verb :Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/2024/Wu et al. - 2024 - Bacterial killing and the dimensions of bacterial death - npj Biofilms and Microbiomes 2024 101.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.nature.com/articles/s41522-024-00559-9
+      \endverb
+      \verb{url}
+      \verb https://www.nature.com/articles/s41522-024-00559-9
+      \endverb
+      \keyw{Antimicrobials,Applied microbiology}
+    \endentry
+    \entry{Muetter2026}{article}{}
+      \name{author}{4}{}{%
+        {{hash=63fed943a7e4e66be13e8c77234a4b49}{%
+           family={Muetter},
+           familyi={M\bibinitperiod},
+           given={Malte},
+           giveni={M\bibinitperiod}}}%
+        {{hash=d719a59727ada439bd7cfe268af6930a}{%
+           family={Angst},
+           familyi={A\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=fa079418a4a86bb7cbfefd7f8640b65a}{%
+           family={Regoes},
+           familyi={R\bibinitperiod},
+           given={Roland},
+           giveni={R\bibinitperiod}}}%
+        {{hash=f3106e97b33eed46e76c565b4696b91e}{%
+           family={Bonhoeffer},
+           familyi={B\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {eLife}%
+      }
+      \list{publisher}{1}{%
+        {eLife Sciences Publications Limited}%
+      }
+      \strng{namehash}{23f7ab168d3265ff6ea1abbb89578a8d}
+      \strng{fullhash}{23f7ab168d3265ff6ea1abbb89578a8d}
+      \strng{bibnamehash}{23f7ab168d3265ff6ea1abbb89578a8d}
+      \strng{authorbibnamehash}{23f7ab168d3265ff6ea1abbb89578a8d}
+      \strng{authornamehash}{23f7ab168d3265ff6ea1abbb89578a8d}
+      \strng{authorfullhash}{23f7ab168d3265ff6ea1abbb89578a8d}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The dynamics of bacterial population decline at antibiotic concentrations above the minimum inhibitory concentration (MIC) remain poorly characterized. This is because measuring colony-forming units (CFU), the standard assay to quantify inhibition, is slow, labour-intensive, costly, and can be unreliable at high drug concentrations. Luminescence assays are widely used to quantify population dynamics at subinhibitory concentrations, yet their limitations and reliability at super-MIC concentrations remain underexplored. To fill this gap, we compared luminescence- and CFU-based rates across 20 antimicrobials. In our experiments luminescence- and CFU-based rates did not differ significantly for half of them. For the other half, CFU-based estimates of rates of decline were consistently higher. The estimates differed for two main reasons: First, because light intensity tracks biomass more closely than population size, luminescence declined more slowly than the population when bacteria filamented. Second, CFU-based estimates indicated a steeper decline when antimicrobial treatment reduced the number of colonies formed per plated bacterium. This effect can result from changes in clustering behaviour, physiological changes that impair culturability, or antimicrobial carry-over. Thus, the suitability of luminescence to quantify bacterial decline depends on the physiological effects of the antimicrobial used (e.g. filamentation) and whether the quantity of interest is cell number or biomass. Within these limitations, luminescence can serve as an efficient, high-throughput alternative for quantifying bacterial dynamics at super-MIC concentrations.}
+      \field{journaltitle}{Elife}
+      \field{month}{2}
+      \field{title}{{High-Throughput Quantification of Population Dynamics using Luminescence}}
+      \field{volume}{15}
+      \field{year}{2026}
+      \verb{doi}
+      \verb 10.7554/eLife.109213.1
+      \endverb
+      \verb{urlraw}
+      \verb https://elifesciences.org/reviewed-preprints/109213
+      \endverb
+      \verb{url}
+      \verb https://elifesciences.org/reviewed-preprints/109213
+      \endverb
+    \endentry
+    \entry{Meyer2019}{article}{}
+      \name{author}{10}{}{%
+        {{hash=7bf30ca064c0ca8467fc606e9e7c468c}{%
+           family={Meyer},
+           familyi={M\bibinitperiod},
+           given={Christian\bibnamedelima T.},
+           giveni={C\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=7eb64ff68a28d7782281e0b035960ac3}{%
+           family={Wooten},
+           familyi={W\bibinitperiod},
+           given={David\bibnamedelima J.},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=885b3fac6b2e0cfa8c1c68c324bf1402}{%
+           family={Paudel},
+           familyi={P\bibinitperiod},
+           given={B.\bibnamedelimi Bishal},
+           giveni={B\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=f6f56639247112510c299ad9da37400b}{%
+           family={Bauer},
+           familyi={B\bibinitperiod},
+           given={Joshua},
+           giveni={J\bibinitperiod}}}%
+        {{hash=1fe7aa76af7ef65fbcf12acdd5740f45}{%
+           family={Hardeman},
+           familyi={H\bibinitperiod},
+           given={Keisha\bibnamedelima N.},
+           giveni={K\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=82d292bca1c327fe538d8cbecef93c99}{%
+           family={Westover},
+           familyi={W\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=92578ba1f53e2d9b020cb06d52050289}{%
+           family={Lovly},
+           familyi={L\bibinitperiod},
+           given={Christine\bibnamedelima M.},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=3b739c6b30ca758a0f2994e33ad87790}{%
+           family={Harris},
+           familyi={H\bibinitperiod},
+           given={Leonard\bibnamedelima A.},
+           giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=07691e5e81369eed44d7ecae1ab58dcb}{%
+           family={Tyson},
+           familyi={T\bibinitperiod},
+           given={Darren\bibnamedelima R.},
+           giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=d707526d0407c8dd3829b62bce12a336}{%
+           family={Quaranta},
+           familyi={Q\bibinitperiod},
+           given={Vito},
+           giveni={V\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier Inc.}%
+      }
+      \strng{namehash}{2a7100b624cffd5ac572bcf19c03a354}
+      \strng{fullhash}{2860231107a23cbbe6f4ec317a48e490}
+      \strng{bibnamehash}{2a7100b624cffd5ac572bcf19c03a354}
+      \strng{authorbibnamehash}{2a7100b624cffd5ac572bcf19c03a354}
+      \strng{authornamehash}{2a7100b624cffd5ac572bcf19c03a354}
+      \strng{authorfullhash}{2860231107a23cbbe6f4ec317a48e490}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Two goals motivate treating diseases with drug combinations: reduce off-target toxicity by minimizing doses (synergistic potency) and improve outcomes by escalating effect (synergistic efficacy). Established drug synergy frameworks obscure such distinction, failing to harness the potential of modern chemical libraries. We therefore developed multi-dimensional synergy of combinations (MuSyC), a formalism based on a generalized, multi-dimensional Hill equation, which decouples synergistic potency and efficacy. In mutant-EGFR-driven lung cancer, MuSyC reveals that combining a mutant-EGFR inhibitor with inhibitors of other kinases may result only in synergistic potency, whereas synergistic efficacy can be achieved by co-targeting mutant-EGFR and epigenetic regulation or microtubule polymerization. In mutant-BRAF melanoma, MuSyC determines whether a molecular correlate of BRAFi insensitivity alters a BRAF inhibitor's potency, efficacy, or both. These findings showcase MuSyC's potential to transform the enterprise of drug-combination screens by precisely guiding translation of combinations toward dose reduction, improved efficacy, or both. Meyer et al. developed a framework for measuring drug combination synergy. The framework, termed MuSyC, distinguishes between two types of synergy. The first quantifies the change in the maximal effect with the combination (synergistic efficacy), and the second measures the change in a drug's potency due to the combination (synergistic potency). By decoupling these two synergies conflated in prior methods, MuSyC rationally guides discovery and translation of drug combinations for the improvement of therapeutic efficacy and reduction of off-target toxicities via dose reduction.}
+      \field{issn}{24054720}
+      \field{journaltitle}{Cell Syst.}
+      \field{number}{2}
+      \field{title}{{Quantifying Drug Combination Synergy along Potency and Efficacy Axes}}
+      \field{volume}{8}
+      \field{year}{2019}
+      \field{pages}{97\bibrangedash 108.e16}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1016/j.cels.2019.01.003
+      \endverb
+      \verb{file}
+      \verb :Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/2019/Meyer et al. - 2019 - Quantifying Drug Combination Synergy along Potency and Efficacy Axes - Cell Systems.pdf:pdf;:Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/2019/Meyer et al. - 2019 - Quantifying Drug Combination Synergy along Potency and Efficacy Axes - Cell Systems.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1016/j.cels.2019.01.003
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1016/j.cels.2019.01.003
+      \endverb
+      \keyw{BRAF-mutant melanoma,drug synergy,high-throughput combination drug screens,non-small-cell lung cancer,systems pharmacology}
+    \endentry
+    \entry{Vlot2019}{article}{}
+      \name{author}{5}{}{%
+        {{hash=ec4c306e72e79a56d094a05a016cf4da}{%
+           family={Vlot},
+           familyi={V\bibinitperiod},
+           given={Anna\bibnamedelima H.C.},
+           giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=76b6713703490d51275ef75135262570}{%
+           family={Aniceto},
+           familyi={A\bibinitperiod},
+           given={Nat{á}lia},
+           giveni={N\bibinitperiod}}}%
+        {{hash=e8eb7e7f662af76216724c24245ed005}{%
+           family={Menden},
+           familyi={M\bibinitperiod},
+           given={Michael\bibnamedelima P.},
+           giveni={M\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=fcfe5cb88ac6a4c3645b23e69069a85a}{%
+           family={Ulrich-Merzenich},
+           familyi={U\bibinithyphendelim M\bibinitperiod},
+           given={Gudrun},
+           giveni={G\bibinitperiod}}}%
+        {{hash=8cf90897a363ce99d63372266fbc6a5a}{%
+           family={Bender},
+           familyi={B\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier Current Trends}%
+      }
+      \strng{namehash}{84d76fdbbad9a08535387b9be0641fa5}
+      \strng{fullhash}{84d76fdbbad9a08535387b9be0641fa5}
+      \strng{bibnamehash}{84d76fdbbad9a08535387b9be0641fa5}
+      \strng{authorbibnamehash}{84d76fdbbad9a08535387b9be0641fa5}
+      \strng{authornamehash}{84d76fdbbad9a08535387b9be0641fa5}
+      \strng{authorfullhash}{84d76fdbbad9a08535387b9be0641fa5}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Synergistic drug combinations are commonly sought to overcome monotherapy resistance in cancer treatment. To identify such combinations, high-throughput cancer cell line combination screens are performed; and synergy is quantified using competing models based on fundamentally different assumptions. Here, we compare the behaviour of four synergy models, namely Loewe additivity, Bliss independence, highest single agent and zero interaction potency, using the Merck oncology combination screen. We evaluate agreements and disagreements between the models and investigate putative artefacts of each model's assumptions. Despite at least moderate concordance between scores (Pearson's r >0.32, Spearman's $\rho$ > 0.34), multiple instances of strong disagreement were observed. Those disagreements are driven by, among others, large differences in tested concentrations, maximum response values and median effective concentrations.}
+      \field{issn}{1359-6446}
+      \field{journaltitle}{Drug Discov. Today}
+      \field{month}{12}
+      \field{number}{12}
+      \field{title}{{Applying synergy metrics to combination screening data: agreements, disagreements and pitfalls}}
+      \field{volume}{24}
+      \field{year}{2019}
+      \field{pages}{2286\bibrangedash 2298}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1016/J.DRUDIS.2019.09.002
+      \endverb
+      \verb{file}
+      \verb :Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/2019/Vlot et al. - 2019 - Applying synergy metrics to combination screening data agreements, disagreements and pitfalls - Drug Discovery Toda.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S1359644619303460?via{\%}3Dihub
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S1359644619303460?via%7B%5C%%7D3Dihub
       \endverb
     \endentry
   \enddatalist

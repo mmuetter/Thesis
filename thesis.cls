@@ -10,7 +10,7 @@
 %----------------------------------------------------------
 % Encoding & language
 %----------------------------------------------------------
-\RequirePackage[utf8]{inputenc}
+%\RequirePackage[utf8]{inputenc}
 \RequirePackage[french,ngerman,english]{babel}
 % Ensure Utopia font and small caps support
 \RequirePackage{fourier-otf}
@@ -48,7 +48,7 @@
 \RequirePackage{graphicx,subcaption,tikz}
 \RequirePackage{dashrule,booktabs,longtable,pdflscape}
 \RequirePackage{afterpage,enumitem,fancyvrb}
-\RequirePackage{amsmath,leftidx,siunitx}
+\RequirePackage{amsmath,leftidx,siunitx, unicode-math}
 \RequirePackage{csvsimple,diagbox,import}
 \RequirePackage{subfiles}
 \RequirePackage{bookmark,hyperref}
@@ -60,6 +60,7 @@
 \RequirePackage{overpic}
 \RequirePackage{chemfig}
 \RequirePackage{mhchem}
+\RequirePackage{fourier-otf}
 \RequirePackage{bm}
 \RequirePackage{mdframed}
 \RequirePackage{xstring}

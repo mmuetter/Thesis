@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2021.2.1)  26 JAN 2026 21:12
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2021.2.1)  4 FEB 2026 17:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -380,14 +380,6 @@ Package tocloft [2008/07/23] emulated by memoir.
 Package tocvsec2 [2008/07/23] emulated by memoir.
 Package verbatim [2008/07/23] emulated by memoir.
 Package verse [2008/07/23] emulated by memoir.
-) (/usr/local/texlive/2020/texmf-dist/tex/latex/base/inputenc.sty
-Package: inputenc 2018/08/11 v1.3c Input encoding file
-\inpenc@prehook=\toks25
-\inpenc@posthook=\toks26
-
-
-Package inputenc Warning: inputenc package ignored with utf8 based engines.
-
 ) (/usr/local/texlive/2020/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2020/03/22 3.42 The Babel package
  (/usr/local/texlive/2020/texmf-dist/tex/generic/babel/switch.def
@@ -417,7 +409,7 @@ Package french.ldf Info: No need for active punctuation characters
 \FB@guilf=\XeTeXcharclass5
 \FB@guilnul=\XeTeXcharclass6
 \FBguill@level=\count294
-\FBold@everypar=\toks27
+\FBold@everypar=\toks25
 \FB@Mht=\dimen180
 LaTeX Info: Redefining \degres on input line 782.
 \mc@charclass=\count295
@@ -448,7 +440,7 @@ Package babel Info: \l@newzealand = using hyphenrules for ukenglish
 (babel)             (\language21) on input line 108.
 )) (/usr/local/texlive/2020/texmf-dist/tex/latex/carlisle/scalefnt.sty) (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks28
+\KV@toks@=\toks26
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/erewhon-math/fourier-otf.sty
 Package: fourier-otf 2020/02/29 0.42
  (/usr/local/texlive/2020/texmf-dist/tex/latex/unicode-math/unicode-math.sty (/usr/local/texlive/2020/texmf-dist/tex/latex/l3kernel/expl3.sty
@@ -505,7 +497,7 @@ For additional information on amsmath, use the `?' option.
 Package: amstext 2000/06/29 v2.01 AMS text
  (/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks29
+\@emptytoks=\toks27
 \ex@=\dimen191
 )) (/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
@@ -533,21 +525,21 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
 \dotsspace@=\muskip16
 \c@parentequation=\count326
 \dspbrk@lvl=\count327
-\tag@help=\toks30
+\tag@help=\toks28
 \row@=\count328
 \column@=\count329
 \maxfields@=\count330
-\andhelp@=\toks31
+\andhelp@=\toks29
 \eqnshift@=\dimen194
 \alignsep@=\dimen195
 \tagshift@=\dimen256
 \tagwidth@=\dimen257
 \totwidth@=\dimen258
 \lineht@=\dimen259
-\@envbody=\toks32
+\@envbody=\toks30
 \multlinegap=\skip192
 \multlinetaggap=\skip193
-\mathdisplay@stack=\toks33
+\mathdisplay@stack=\toks31
 LaTeX Info: Redefining \[ on input line 2859.
 LaTeX Info: Redefining \] on input line 2860.
 )
@@ -583,13 +575,13 @@ Package fontspec Info: Font family 'FourierOrns-Regular.otf(0)' created for
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
  (/usr/local/texlive/2020/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks34
-\XKV@tempa@toks=\toks35
+\XKV@toks=\toks32
+\XKV@tempa@toks=\toks33
 )
 \XKV@depth=\count334
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
-\FOTtoks=\toks36
+\FOTtoks=\toks34
 
 Package fontspec Info: Font family 'Erewhon-Math.otf(0)' created for font
 (fontspec)             'Erewhon-Math.otf' with options
@@ -870,9 +862,13 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
+\everycr=\toks35
+\minrowclearance=\skip194
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2019/11/18 v2.7d Micro-typographical refinements (RS)
-\MT@toks=\toks37
+\MT@toks=\toks36
 \MT@count=\count335
 LaTeX Info: Redefining \textls on input line 790.
 \MT@outer@kern=\dimen260
@@ -901,13 +897,13 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layoutheight=\dimen266
 \Gm@layouthoffset=\dimen267
 \Gm@layoutvoffset=\dimen268
-\Gm@dimlist=\toks38
+\Gm@dimlist=\toks37
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count340
-\float@exts=\toks39
+\float@exts=\toks38
 \float@box=\box53
-\@float@everytoks=\toks40
+\@float@everytoks=\toks39
 \@floatcapt=\box54
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/adjustbox/adjustbox.sty
 Package: adjustbox 2019/01/04 v1.2 Adjusting TeX boxes (trim, clip, ...)
@@ -985,7 +981,7 @@ Package caption Info: float package is loaded.
 \c@subfigure=\count345
 \c@subtable=\count346
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks41
+\pgfutil@everybye=\toks40
 \pgfutil@tempdima=\dimen292
 \pgfutil@tempdimb=\dimen293
  (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex)) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
@@ -999,10 +995,10 @@ Package: pgf 2020/01/08 v3.1.5b (3.1.5b)
  (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2020/01/08 v3.1.5b (3.1.5b)
  (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks42
-\pgfkeys@temptoks=\toks43
+\pgfkeys@pathtoks=\toks41
+\pgfkeys@temptoks=\toks42
  (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
-\pgfkeys@tmptoks=\toks44
+\pgfkeys@tmptoks=\toks43
 ))
 \pgf@x=\dimen294
 \pgf@y=\dimen295
@@ -1020,9 +1016,9 @@ Package: pgfsys 2020/01/08 v3.1.5b (3.1.5b)
 \c@pgf@countb=\count348
 \c@pgf@countc=\count349
 \c@pgf@countd=\count350
-\t@pgf@toka=\toks45
-\t@pgf@tokb=\toks46
-\t@pgf@tokc=\toks47
+\t@pgf@toka=\toks44
+\t@pgf@tokb=\toks45
+\t@pgf@tokc=\toks46
 \pgf@sys@id@count=\count351
  (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2020/01/08 v3.1.5b (3.1.5b)
@@ -1048,9 +1044,9 @@ Package: pgfcore 2020/01/08 v3.1.5b (3.1.5b)
 \pgfmath@dimen=\dimen304
 \pgfmath@count=\count355
 \pgfmath@box=\box58
-\pgfmath@toks=\toks48
-\pgfmath@stack@operand=\toks49
-\pgfmath@stack@operation=\toks50
+\pgfmath@toks=\toks47
+\pgfmath@stack@operand=\toks48
+\pgfmath@stack@operation=\toks49
 ) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex))) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
 \c@pgfmathroundto@lastzeros=\count356
 )) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
@@ -1134,8 +1130,8 @@ Package: pgffor 2020/01/08 v3.1.5b (3.1.5b)
  (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
 \pgffor@iter=\dimen331
 \pgffor@skip=\dimen332
-\pgffor@stack=\toks51
-\pgffor@toks=\toks52
+\pgffor@stack=\toks50
+\pgffor@toks=\toks51
 )) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2020/01/08 v3.1.5b (3.1.5b)
  (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
@@ -1173,10 +1169,10 @@ Package: dashrule 2013/03/28 v1.3 Dashed rules
 \c@hdr@segments=\count369
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
-\LTleft=\skip194
-\LTright=\skip195
-\LTpre=\skip256
-\LTpost=\skip257
+\LTleft=\skip195
+\LTright=\skip256
+\LTpre=\skip257
+\LTpost=\skip258
 \LTchunksize=\count370
 \LTcapwidth=\dimen342
 \LT@head=\box68
@@ -1187,7 +1183,7 @@ Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
 \LT@rows=\count372
 \c@LT@tables=\count373
 \c@LT@chunks=\count374
-\LT@p@ftn=\toks53
+\LT@p@ftn=\toks52
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/pdflscape/pdflscape.sty
 Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
  (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/lscape.sty
@@ -1202,14 +1198,14 @@ Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
 ))) (/usr/local/texlive/2020/texmf-dist/tex/latex/tools/afterpage.sty
 Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
-\AP@output=\toks54
+\AP@output=\toks53
 \AP@partial=\box72
 \AP@footins=\box73
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
-\labelindent=\skip258
+\labelindent=\skip259
 \enit@outerparindent=\dimen343
-\enit@toks=\toks55
+\enit@toks=\toks54
 \enit@inbox=\box74
 \enit@count@id=\count375
 \enitdp@description=\count376
@@ -1248,8 +1244,8 @@ Package: siunitx 2020/02/25 v2.8b A comprehensive (SI) units package
 \l__siunitx_unit_prefix_base_int=\count394
 \l__siunitx_unit_prefix_gram_int=\count395
 \l__siunitx_number_product_int=\count396
-\c__siunitx_one_fill_skip=\skip259
-\l__siunitx_table_unit_align_skip=\skip260
+\c__siunitx_one_fill_skip=\skip260
+\l__siunitx_table_unit_align_skip=\skip261
 \l__siunitx_table_exponent_dim=\dimen347
 \l__siunitx_table_integer_dim=\dimen348
 \l__siunitx_table_mantissa_dim=\dimen349
@@ -1263,8 +1259,8 @@ Package: siunitx 2020/02/25 v2.8b A comprehensive (SI) units package
 \l__siunitx_table_post_box=\box80
 \l__siunitx_table_mantissa_box=\box81
 \l__siunitx_table_result_box=\box82
-\l__siunitx_table_number_align_skip=\skip261
-\l__siunitx_table_text_align_skip=\skip262
+\l__siunitx_table_number_align_skip=\skip262
+\l__siunitx_table_text_align_skip=\skip263
  (/usr/local/texlive/2020/texmf-dist/tex/latex/translator/translator.sty
 Package: translator 2019-05-31 v1.12a Easy translation of strings in LaTeX
 )) (/usr/local/texlive/2020/texmf-dist/tex/latex/csvsimple/csvsimple.sty
@@ -1295,7 +1291,7 @@ Package pict2e Info: Driver file for pict2e: p2e-xetex.def on input line 121.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/pict2e/p2e-xetex.def
 File: p2e-xetex.def 2016/02/05 v0.1u Driver-dependant file (RN,HjG,JT)
 )
-\pIIe@GRAPH=\toks56
+\pIIe@GRAPH=\toks55
 \@arclen=\dimen356
 \@arcrad=\dimen357
 \@tempdimd=\dimen358
@@ -1305,12 +1301,12 @@ Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Bcount=\count402
 \calc@Adimen=\dimen359
 \calc@Bdimen=\dimen360
-\calc@Askip=\skip263
-\calc@Bskip=\skip264
+\calc@Askip=\skip264
+\calc@Bskip=\skip265
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count403
-\calc@Cskip=\skip265
+\calc@Cskip=\skip266
 )
 \diagbox@boxa=\box83
 \diagbox@boxb=\box84
@@ -1425,7 +1421,7 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 286.
 )
-\Hy@SectionHShift=\skip266
+\Hy@SectionHShift=\skip267
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/bookmark/bkm-dvipdfm.def
 File: bkm-dvipdfm.def 2019/12/03 v1.28 bookmark driver for dvipdfm (HO)
 \BKM@id=\count418
@@ -1692,7 +1688,7 @@ File: pgflibraryarrows.meta.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \CF_boxstuff=\box91
 \CF_testbox=\box92
 \CF_chargebox=\box93
-\CF_substtoks=\toks57
+\CF_substtoks=\toks56
 Invalid UTF-8 byte or sequence at line 161 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 187 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 216 replaced by U+FFFD.
@@ -1863,16 +1859,16 @@ Package: chemgreek 2020/01/16 v1.1a interface for upright Greek letters for use 
 \g__chemgreek_tmpa_int=\count433
 )
 \l__mhchem_ce_distanceFromLastComma_int=\count434
-\__mhchem_arrow_extPgfLength_skip=\skip267
-\mhchem@minispace@tmp=\skip268
-\mhchem@minibackspace@tmp=\skip269
-\mhchem@bondwidth=\skip270
-\mhchem@bondheight=\skip271
-\mhchem@smallbondwidth@tmpA=\skip272
-\mhchem@smallbondwidth@tmpB=\skip273
-\mhchem@smallbondwidth=\skip274
-\mhchem@bondtmp@minussidebearingleft=\skip275
-\mhchem@bondtmp@minussidebearingright=\skip276
+\__mhchem_arrow_extPgfLength_skip=\skip268
+\mhchem@minispace@tmp=\skip269
+\mhchem@minibackspace@tmp=\skip270
+\mhchem@bondwidth=\skip271
+\mhchem@bondheight=\skip272
+\mhchem@smallbondwidth@tmpA=\skip273
+\mhchem@smallbondwidth@tmpB=\skip274
+\mhchem@smallbondwidth=\skip275
+\mhchem@bondtmp@minussidebearingleft=\skip276
+\mhchem@bondtmp@minussidebearingright=\skip277
 \l__mhchem_option_version_int=\count435
 \mhchem@option@minusmathsidebearingleft=\dimen384
 \mhchem@option@minusmathsidebearingright=\dimen385
@@ -1886,70 +1882,319 @@ Package mhchem Warning: You did not specify a 'version' option for the mhchem
 (mhchem)                compatibility mode), because you might get slightly
 (mhchem)                different output with the same input in future versions.
 
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2019/07/24 v1.2d Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup4
+\symboldletters=\mathgroup5
+\symboldsymbols=\mathgroup6
+\symboldlargesymbols=\mathgroup7
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
+LaTeX Info: Redefining \bm on input line 209.
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/mdframed/mdframed.sty
+Package: mdframed 2013/07/01 1.9b: mdframed
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/zref/zref-abspage.sty
+Package: zref-abspage 2020-03-03 v2.29 Module abspage for zref (HO)
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/zref/zref-base.sty
+Package: zref-base 2020-03-03 v2.29 Module base for zref (HO)
+Package zref Info: New property list: main on input line 763.
+Package zref Info: New property: default on input line 764.
+Package zref Info: New property: page on input line 765.
+)
+\c@abspage=\count436
+Package zref Info: New property: abspage on input line 66.
+)
+\mdf@templength=\skip278
+\c@mdf@globalstyle@cnt=\count437
+\mdf@skipabove@length=\skip279
+\mdf@skipbelow@length=\skip280
+\mdf@leftmargin@length=\skip281
+\mdf@rightmargin@length=\skip282
+\mdf@innerleftmargin@length=\skip283
+\mdf@innerrightmargin@length=\skip284
+\mdf@innertopmargin@length=\skip285
+\mdf@innerbottommargin@length=\skip286
+\mdf@splittopskip@length=\skip287
+\mdf@splitbottomskip@length=\skip288
+\mdf@outermargin@length=\skip289
+\mdf@innermargin@length=\skip290
+\mdf@linewidth@length=\skip291
+\mdf@innerlinewidth@length=\skip292
+\mdf@middlelinewidth@length=\skip293
+\mdf@outerlinewidth@length=\skip294
+\mdf@roundcorner@length=\skip295
+\mdf@footenotedistance@length=\skip296
+\mdf@userdefinedwidth@length=\skip297
+\mdf@needspace@length=\skip298
+\mdf@frametitleaboveskip@length=\skip299
+\mdf@frametitlebelowskip@length=\skip300
+\mdf@frametitlerulewidth@length=\skip301
+\mdf@frametitleleftmargin@length=\skip302
+\mdf@frametitlerightmargin@length=\skip303
+\mdf@shadowsize@length=\skip304
+\mdf@extratopheight@length=\skip305
+\mdf@subtitleabovelinewidth@length=\skip306
+\mdf@subtitlebelowlinewidth@length=\skip307
+\mdf@subtitleaboveskip@length=\skip308
+\mdf@subtitlebelowskip@length=\skip309
+\mdf@subtitleinneraboveskip@length=\skip310
+\mdf@subtitleinnerbelowskip@length=\skip311
+\mdf@subsubtitleabovelinewidth@length=\skip312
+\mdf@subsubtitlebelowlinewidth@length=\skip313
+\mdf@subsubtitleaboveskip@length=\skip314
+\mdf@subsubtitlebelowskip@length=\skip315
+\mdf@subsubtitleinneraboveskip@length=\skip316
+\mdf@subsubtitleinnerbelowskip@length=\skip317
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/mdframed/md-frame-0.mdf
+File: md-frame-0.mdf 2013/07/01\ 1.9b: md-frame-0
+)
+\mdf@frametitlebox=\box94
+\mdf@footnotebox=\box95
+\mdf@splitbox@one=\box96
+\mdf@splitbox@two=\box97
+\mdf@splitbox@save=\box98
+\mdfsplitboxwidth=\skip318
+\mdfsplitboxtotalwidth=\skip319
+\mdfsplitboxheight=\skip320
+\mdfsplitboxdepth=\skip321
+\mdfsplitboxtotalheight=\skip322
+\mdfframetitleboxwidth=\skip323
+\mdfframetitleboxtotalwidth=\skip324
+\mdfframetitleboxheight=\skip325
+\mdfframetitleboxdepth=\skip326
+\mdfframetitleboxtotalheight=\skip327
+\mdffootnoteboxwidth=\skip328
+\mdffootnoteboxtotalwidth=\skip329
+\mdffootnoteboxheight=\skip330
+\mdffootnoteboxdepth=\skip331
+\mdffootnoteboxtotalheight=\skip332
+\mdftotallinewidth=\skip333
+\mdfboundingboxwidth=\skip334
+\mdfboundingboxtotalwidth=\skip335
+\mdfboundingboxheight=\skip336
+\mdfboundingboxdepth=\skip337
+\mdfboundingboxtotalheight=\skip338
+\mdf@freevspace@length=\skip339
+\mdf@horizontalwidthofbox@length=\skip340
+\mdf@verticalmarginwhole@length=\skip341
+\mdf@horizontalspaceofbox=\skip342
+\mdfsubtitleheight=\skip343
+\mdfsubsubtitleheight=\skip344
+\c@mdfcountframes=\count438
+
+****** mdframed patching \endmdf@trivlist
+
+****** -- success******
+
+\mdf@envdepth=\count439
+\c@mdf@env@i=\count440
+\c@mdf@env@ii=\count441
+\c@mdf@zref@counter=\count442
+Package zref Info: New property: mdf@pagevalue on input line 895.
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/xstring/xstring.sty (/usr/local/texlive/2020/texmf-dist/tex/generic/xstring/xstring.tex
+\integerpart=\count443
+Invalid UTF-8 byte or sequence at line 35 replaced by U+FFFD.
+\decimalpart=\count444
+Invalid UTF-8 byte or sequence at line 79 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 79 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 83 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 86 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 102 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 114 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 120 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 125 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 147 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 147 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 147 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 182 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 182 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 182 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 183 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 184 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 185 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 185 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 185 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 189 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 189 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 190 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 190 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 193 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 208 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 208 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 208 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 208 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 208 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 208 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 221 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 221 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 241 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 241 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 241 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 241 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 266 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 284 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 295 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 300 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 300 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 301 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 301 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 301 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 302 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 303 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 332 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 332 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 332 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 332 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 333 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 334 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 334 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 334 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 406 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 406 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 409 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 410 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 428 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 434 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 457 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 457 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 464 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 464 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 466 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 466 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 541 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 541 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 541 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 586 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 586 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 588 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 588 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 595 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 597 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 599 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 602 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 605 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 605 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 610 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 615 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 632 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 632 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 633 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 635 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 637 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 647 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 653 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 678 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 700 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 705 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 715 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 715 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 715 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 719 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 732 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 732 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 741 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 741 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 742 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 742 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 762 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 773 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 773 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 774 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 774 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 774 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 797 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 797 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 810 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 824 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 824 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 831 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 838 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 838 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 846 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 846 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 861 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 862 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 864 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 864 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 908 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 909 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 909 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 934 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 934 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 936 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 936 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 940 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 940 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 962 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 962 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 964 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 965 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 1006 replaced by U+FFFD.
+)
+Package: xstring 2019/02/06 v1.83 String manipulations (CT)
 ) (/usr/local/texlive/2020/texmf-dist/tex/generic/stringenc/se-ascii-print.def
 File: se-ascii-print.def 2019/11/29 v1.12 stringenc: Printable ASCII characters
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2019/12/01 v3.14 programmable bibliographies (PK/MW)
  (/usr/local/texlive/2020/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count436
+\lrq@indent=\count445
  (/usr/local/texlive/2020/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
-\c@tabx@nest=\count437
-\c@listtotal=\count438
-\c@listcount=\count439
-\c@liststart=\count440
-\c@liststop=\count441
-\c@citecount=\count442
-\c@citetotal=\count443
-\c@multicitecount=\count444
-\c@multicitetotal=\count445
-\c@instcount=\count446
-\c@maxnames=\count447
-\c@minnames=\count448
-\c@maxitems=\count449
-\c@minitems=\count450
-\c@citecounter=\count451
-\c@maxcitecounter=\count452
-\c@savedcitecounter=\count453
-\c@uniquelist=\count454
-\c@uniquename=\count455
-\c@refsection=\count456
-\c@refsegment=\count457
-\c@maxextratitle=\count458
-\c@maxextratitleyear=\count459
-\c@maxextraname=\count460
-\c@maxextradate=\count461
-\c@maxextraalpha=\count462
-\c@abbrvpenalty=\count463
-\c@highnamepenalty=\count464
-\c@lownamepenalty=\count465
-\c@maxparens=\count466
-\c@parenlevel=\count467
-\blx@tempcnta=\count468
-\blx@tempcntb=\count469
-\blx@tempcntc=\count470
-\blx@maxsection=\count471
-\blx@maxsegment@0=\count472
-\blx@notetype=\count473
-\blx@parenlevel@text=\count474
-\blx@parenlevel@foot=\count475
-\blx@sectionciteorder@0=\count476
-\blx@entrysetcounter=\count477
-\labelnumberwidth=\skip277
-\labelalphawidth=\skip278
-\biblabelsep=\skip279
-\bibnamesep=\skip280
-\bibinitsep=\skip281
-\bibparsep=\skip282
-\bibhang=\skip283
+\c@tabx@nest=\count446
+\c@listtotal=\count447
+\c@listcount=\count448
+\c@liststart=\count449
+\c@liststop=\count450
+\c@citecount=\count451
+\c@citetotal=\count452
+\c@multicitecount=\count453
+\c@multicitetotal=\count454
+\c@instcount=\count455
+\c@maxnames=\count456
+\c@minnames=\count457
+\c@maxitems=\count458
+\c@minitems=\count459
+\c@citecounter=\count460
+\c@maxcitecounter=\count461
+\c@savedcitecounter=\count462
+\c@uniquelist=\count463
+\c@uniquename=\count464
+\c@refsection=\count465
+\c@refsegment=\count466
+\c@maxextratitle=\count467
+\c@maxextratitleyear=\count468
+\c@maxextraname=\count469
+\c@maxextradate=\count470
+\c@maxextraalpha=\count471
+\c@abbrvpenalty=\count472
+\c@highnamepenalty=\count473
+\c@lownamepenalty=\count474
+\c@maxparens=\count475
+\c@parenlevel=\count476
+\blx@tempcnta=\count477
+\blx@tempcntb=\count478
+\blx@tempcntc=\count479
+\blx@maxsection=\count480
+\blx@maxsegment@0=\count481
+\blx@notetype=\count482
+\blx@parenlevel@text=\count483
+\blx@parenlevel@foot=\count484
+\blx@sectionciteorder@0=\count485
+\blx@entrysetcounter=\count486
+\labelnumberwidth=\skip345
+\labelalphawidth=\skip346
+\biblabelsep=\skip347
+\bibnamesep=\skip348
+\bibinitsep=\skip349
+\bibparsep=\skip350
+\bibhang=\skip351
 \blx@bcfin=\read9
 \blx@bcfout=\write7
 \blx@langwohyphens=\language86
-\c@mincomprange=\count478
-\c@maxcomprange=\count479
-\c@mincompwidth=\count480
+\c@mincomprange=\count487
+\c@maxcomprange=\count488
+\c@mincompwidth=\count489
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/blx-dm.def
@@ -1959,88 +2204,88 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'numeric-comp.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count481
-\c@savedafterword=\count482
-\c@annotator=\count483
-\c@savedannotator=\count484
-\c@author=\count485
-\c@savedauthor=\count486
-\c@bookauthor=\count487
-\c@savedbookauthor=\count488
-\c@commentator=\count489
-\c@savedcommentator=\count490
-\c@editor=\count491
-\c@savededitor=\count492
-\c@editora=\count493
-\c@savededitora=\count494
-\c@editorb=\count495
-\c@savededitorb=\count496
-\c@editorc=\count497
-\c@savededitorc=\count498
-\c@foreword=\count499
-\c@savedforeword=\count500
-\c@holder=\count501
-\c@savedholder=\count502
-\c@introduction=\count503
-\c@savedintroduction=\count504
-\c@namea=\count505
-\c@savednamea=\count506
-\c@nameb=\count507
-\c@savednameb=\count508
-\c@namec=\count509
-\c@savednamec=\count510
-\c@translator=\count511
-\c@savedtranslator=\count512
-\c@shortauthor=\count513
-\c@savedshortauthor=\count514
-\c@shorteditor=\count515
-\c@savedshorteditor=\count516
-\c@labelname=\count517
-\c@savedlabelname=\count518
-\c@institution=\count519
-\c@savedinstitution=\count520
-\c@lista=\count521
-\c@savedlista=\count522
-\c@listb=\count523
-\c@savedlistb=\count524
-\c@listc=\count525
-\c@savedlistc=\count526
-\c@listd=\count527
-\c@savedlistd=\count528
-\c@liste=\count529
-\c@savedliste=\count530
-\c@listf=\count531
-\c@savedlistf=\count532
-\c@location=\count533
-\c@savedlocation=\count534
-\c@organization=\count535
-\c@savedorganization=\count536
-\c@origlocation=\count537
-\c@savedoriglocation=\count538
-\c@origpublisher=\count539
-\c@savedorigpublisher=\count540
-\c@publisher=\count541
-\c@savedpublisher=\count542
-\c@language=\count543
-\c@savedlanguage=\count544
-\c@origlanguage=\count545
-\c@savedoriglanguage=\count546
-\c@pageref=\count547
-\c@savedpageref=\count548
-\shorthandwidth=\skip284
-\shortjournalwidth=\skip285
-\shortserieswidth=\skip286
-\shorttitlewidth=\skip287
-\shortauthorwidth=\skip288
-\shorteditorwidth=\skip289
-\locallabelnumberwidth=\skip290
-\locallabelalphawidth=\skip291
-\localshorthandwidth=\skip292
-\localshortjournalwidth=\skip293
-\localshortserieswidth=\skip294
-\localshorttitlewidth=\skip295
-\localshortauthorwidth=\skip296
-\localshorteditorwidth=\skip297
+\c@afterword=\count490
+\c@savedafterword=\count491
+\c@annotator=\count492
+\c@savedannotator=\count493
+\c@author=\count494
+\c@savedauthor=\count495
+\c@bookauthor=\count496
+\c@savedbookauthor=\count497
+\c@commentator=\count498
+\c@savedcommentator=\count499
+\c@editor=\count500
+\c@savededitor=\count501
+\c@editora=\count502
+\c@savededitora=\count503
+\c@editorb=\count504
+\c@savededitorb=\count505
+\c@editorc=\count506
+\c@savededitorc=\count507
+\c@foreword=\count508
+\c@savedforeword=\count509
+\c@holder=\count510
+\c@savedholder=\count511
+\c@introduction=\count512
+\c@savedintroduction=\count513
+\c@namea=\count514
+\c@savednamea=\count515
+\c@nameb=\count516
+\c@savednameb=\count517
+\c@namec=\count518
+\c@savednamec=\count519
+\c@translator=\count520
+\c@savedtranslator=\count521
+\c@shortauthor=\count522
+\c@savedshortauthor=\count523
+\c@shorteditor=\count524
+\c@savedshorteditor=\count525
+\c@labelname=\count526
+\c@savedlabelname=\count527
+\c@institution=\count528
+\c@savedinstitution=\count529
+\c@lista=\count530
+\c@savedlista=\count531
+\c@listb=\count532
+\c@savedlistb=\count533
+\c@listc=\count534
+\c@savedlistc=\count535
+\c@listd=\count536
+\c@savedlistd=\count537
+\c@liste=\count538
+\c@savedliste=\count539
+\c@listf=\count540
+\c@savedlistf=\count541
+\c@location=\count542
+\c@savedlocation=\count543
+\c@organization=\count544
+\c@savedorganization=\count545
+\c@origlocation=\count546
+\c@savedoriglocation=\count547
+\c@origpublisher=\count548
+\c@savedorigpublisher=\count549
+\c@publisher=\count550
+\c@savedpublisher=\count551
+\c@language=\count552
+\c@savedlanguage=\count553
+\c@origlanguage=\count554
+\c@savedoriglanguage=\count555
+\c@pageref=\count556
+\c@savedpageref=\count557
+\shorthandwidth=\skip352
+\shortjournalwidth=\skip353
+\shortserieswidth=\skip354
+\shorttitlewidth=\skip355
+\shortauthorwidth=\skip356
+\shorteditorwidth=\skip357
+\locallabelnumberwidth=\skip358
+\locallabelalphawidth=\skip359
+\localshorthandwidth=\skip360
+\localshortjournalwidth=\skip361
+\localshortserieswidth=\skip362
+\localshorttitlewidth=\skip363
+\localshortauthorwidth=\skip364
+\localshorteditorwidth=\skip365
 Package biblatex Info: Trying to load enhanced support for Unicode engines...
 Package biblatex Info: ... file 'blx-unicode.def' found.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/blx-unicode.def)
@@ -2053,19 +2298,19 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
-\c@textcitecount=\count549
-\c@textcitetotal=\count550
-\c@textcitemaxnames=\count551
-\c@biburlbigbreakpenalty=\count552
-\c@biburlbreakpenalty=\count553
-\c@biburlnumpenalty=\count554
-\c@biburlucpenalty=\count555
-\c@biburllcpenalty=\count556
+\c@textcitecount=\count558
+\c@textcitetotal=\count559
+\c@textcitemaxnames=\count560
+\c@biburlbigbreakpenalty=\count561
+\c@biburlbreakpenalty=\count562
+\c@biburlnumpenalty=\count563
+\c@biburlucpenalty=\count564
+\c@biburllcpenalty=\count565
 \biburlbigskip=\muskip19
 \biburlnumskip=\muskip20
 \biburlucskip=\muskip21
 \biburllcskip=\muskip22
-\c@smartand=\count557
+\c@smartand=\count566
 )
 Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
 Package biblatex Info: ... file 'numeric-comp.bbx' found.
@@ -2079,15 +2324,15 @@ Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2019/12/01 v3.14 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count558
-\c@bbx:relatedtotal=\count559
+\c@bbx:relatedcount=\count567
+\c@bbx:relatedtotal=\count568
 )))
 Package biblatex Info: Trying to load citation style 'numeric-comp'...
 Package biblatex Info: ... file 'numeric-comp.cbx' found.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/cbx/numeric-comp.cbx
 File: numeric-comp.cbx 2019/12/01 v3.14 biblatex citation style (PK/MW)
-\c@cbx@tempcnta=\count560
-\c@cbx@tempcntb=\count561
+\c@cbx@tempcnta=\count569
+\c@cbx@tempcntb=\count570
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
@@ -2109,8 +2354,8 @@ File: biblatex.cfg
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
 
-\@quotelevel=\count562
-\@quotereset=\count563
+\@quotelevel=\count571
+\@quotereset=\count572
 (/Users/malte/ETH-Documents/thesis/chapter_2_sup/build/ch2_sup.aux)
 \openout1 = `ch2_sup.aux'.
 
@@ -2203,7 +2448,7 @@ Package: ltcaption 2018/08/26 v1.4a longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
  ABD: EveryShipout initializing macros
-\AtBeginShipoutBox=\box94
+\AtBeginShipoutBox=\box99
  (/usr/local/texlive/2020/texmf-dist/tex/latex/translator/translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg
@@ -2217,7 +2462,7 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (/usr/local/texlive/2020/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count564
+\c@section@level=\count573
 )
 Redoing nameref's sectioning
 Redoing nameref's label
@@ -2634,9 +2879,263 @@ Package microtype Info: Character `\textexclamdown ' is missing
 Package microtype Info: Character `\textquestiondown ' is missing
 (microtype)             in font `\TU/Erewhon-Math.otf(3)/m/n/6'.
 (microtype)             Ignoring protrusion settings for this character.
+
+
+LaTeX Font Warning: Font shape `TU/Erewhon-Math.otf(1)/b/n' undefined
+(Font)              using `TU/Erewhon-Math.otf(1)/m/n' instead on input line 7.
+
+Package microtype Info: Character `\textquoteleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/b/n/7.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquoteright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/b/n/7.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquotedblleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/b/n/7.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquotedblright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/b/n/7.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\AE ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/b/n/7.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\quotesinglbase ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/b/n/7.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\quotedblbase ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/b/n/7.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guilsinglleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/b/n/7.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guilsinglright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/b/n/7.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guillemotleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/b/n/7.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guillemotright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/b/n/7.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textexclamdown ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/b/n/7.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquestiondown ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/b/n/7.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquoteleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/b/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquoteright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/b/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquotedblleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/b/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquotedblright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/b/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\AE ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/b/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\quotesinglbase ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/b/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\quotedblbase ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/b/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guilsinglleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/b/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guilsinglright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/b/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guillemotleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/b/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guillemotright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/b/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textexclamdown ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/b/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquestiondown ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/b/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+
+LaTeX Font Warning: Font shape `TU/Erewhon-Math.otf(2)/b/n' undefined
+(Font)              using `TU/Erewhon-Math.otf(2)/m/n' instead on input line 7.
+
+LaTeX Font Info:    Font shape `TU/Erewhon-Math.otf(2)/b/n' will be
+(Font)              scaled to size 7.60081pt on input line 7.
+Package microtype Info: Character `\textquoteleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/b/n/7.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquoteright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/b/n/7.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquotedblleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/b/n/7.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquotedblright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/b/n/7.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\AE ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/b/n/7.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\quotesinglbase ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/b/n/7.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\quotedblbase ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/b/n/7.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guilsinglleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/b/n/7.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guilsinglright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/b/n/7.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guillemotleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/b/n/7.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guillemotright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/b/n/7.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textexclamdown ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/b/n/7.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquestiondown ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/b/n/7.6'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Font shape `TU/Erewhon-Math.otf(2)/b/n' will be
+(Font)              scaled to size 6.00064pt on input line 7.
+Package microtype Info: Character `\textquoteleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/b/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquoteright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/b/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquotedblleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/b/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquotedblright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/b/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\AE ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/b/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\quotesinglbase ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/b/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\quotedblbase ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/b/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guilsinglleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/b/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guilsinglright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/b/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guillemotleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/b/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guillemotright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/b/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textexclamdown ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/b/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquestiondown ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/b/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+
+LaTeX Font Warning: Font shape `TU/Erewhon-Math.otf(3)/b/n' undefined
+(Font)              using `TU/Erewhon-Math.otf(3)/m/n' instead on input line 7.
+
+LaTeX Font Info:    Font shape `TU/Erewhon-Math.otf(3)/b/n' will be
+(Font)              scaled to size 7.59918pt on input line 7.
+Package microtype Info: Character `\textquoteleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/b/n/7.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquoteright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/b/n/7.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquotedblleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/b/n/7.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquotedblright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/b/n/7.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\AE ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/b/n/7.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\quotesinglbase ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/b/n/7.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\quotedblbase ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/b/n/7.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guilsinglleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/b/n/7.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guilsinglright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/b/n/7.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guillemotleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/b/n/7.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guillemotright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/b/n/7.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textexclamdown ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/b/n/7.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquestiondown ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/b/n/7.6'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Font shape `TU/Erewhon-Math.otf(3)/b/n' will be
+(Font)              scaled to size 5.99936pt on input line 7.
+Package microtype Info: Character `\textquoteleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/b/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquoteright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/b/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquotedblleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/b/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquotedblright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/b/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\AE ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/b/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\quotesinglbase ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/b/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\quotedblbase ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/b/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guilsinglleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/b/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guilsinglright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/b/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guillemotleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/b/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guillemotright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/b/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textexclamdown ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/b/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquestiondown ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/b/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Trying to load font information for TU+phv on input line 7.
 LaTeX Font Info:    No file TUphv.fd. on input line 7.
-
 
 LaTeX Font Warning: Font shape `TU/phv/m/n' undefined
 (Font)              using `TU/lmr/m/n' instead on input line 7.
@@ -2652,8 +3151,8 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- (./chapter_2_sup/commands.tex
-\tikzbox=\box95
+ (./settings/si_settings.tex) (./chapter_2_sup/commands.tex
+\tikzbox=\box100
 )
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `Optima' (encoding: TU).
@@ -2677,6 +3176,127 @@ Overfull \hbox (1.25636pt too wide) in paragraph at lines 12--17
 \TU/utopia/b/n/10 followed by selection for ampicillin and chloramphenicol resistance. This results in the ceftazidime-
  []
 
+Package microtype Info: Character `\textquoteleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/b/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquoteright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/b/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquotedblleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/b/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquotedblright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/b/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\AE ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/b/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\quotesinglbase ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/b/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\quotedblbase ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/b/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guilsinglleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/b/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guilsinglright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/b/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guillemotleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/b/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guillemotright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/b/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textexclamdown ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/b/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquestiondown ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/b/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Font shape `TU/Erewhon-Math.otf(2)/b/n' will be
+(Font)              scaled to size 10.00107pt on input line 19.
+Package microtype Info: Character `\textquoteleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/b/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquoteright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/b/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquotedblleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/b/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquotedblright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/b/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\AE ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/b/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\quotesinglbase ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/b/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\quotedblbase ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/b/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guilsinglleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/b/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guilsinglright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/b/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guillemotleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/b/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guillemotright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/b/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textexclamdown ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/b/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquestiondown ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/b/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Font shape `TU/Erewhon-Math.otf(3)/b/n' will be
+(Font)              scaled to size 9.99893pt on input line 19.
+Package microtype Info: Character `\textquoteleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/b/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquoteright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/b/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquotedblleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/b/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquotedblright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/b/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\AE ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/b/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\quotesinglbase ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/b/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\quotedblbase ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/b/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guilsinglleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/b/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guilsinglright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/b/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guillemotleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/b/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guillemotright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/b/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textexclamdown ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/b/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquestiondown ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/b/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `Erewhon' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
@@ -3005,6 +3625,248 @@ Package microtype Info: Character `\textexclamdown ' is missing
 Package microtype Info: Character `\textquestiondown ' is missing
 (microtype)             in font `\TU/Erewhon-Math.otf(3)/m/n/5'.
 (microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquoteleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/b/n/9'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquoteright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/b/n/9'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquotedblleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/b/n/9'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquotedblright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/b/n/9'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\AE ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/b/n/9'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\quotesinglbase ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/b/n/9'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\quotedblbase ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/b/n/9'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guilsinglleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/b/n/9'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guilsinglright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/b/n/9'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guillemotleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/b/n/9'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guillemotright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/b/n/9'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textexclamdown ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/b/n/9'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquestiondown ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/b/n/9'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquoteleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/b/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquoteright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/b/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquotedblleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/b/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquotedblright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/b/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\AE ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/b/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\quotesinglbase ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/b/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\quotedblbase ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/b/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guilsinglleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/b/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guilsinglright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/b/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guillemotleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/b/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guillemotright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/b/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textexclamdown ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/b/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquestiondown ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(1)/b/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Font shape `TU/Erewhon-Math.otf(2)/b/n' will be
+(Font)              scaled to size 9.00096pt on input line 10.
+Package microtype Info: Character `\textquoteleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/b/n/9'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquoteright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/b/n/9'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquotedblleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/b/n/9'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquotedblright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/b/n/9'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\AE ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/b/n/9'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\quotesinglbase ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/b/n/9'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\quotedblbase ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/b/n/9'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guilsinglleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/b/n/9'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guilsinglright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/b/n/9'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guillemotleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/b/n/9'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guillemotright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/b/n/9'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textexclamdown ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/b/n/9'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquestiondown ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/b/n/9'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Font shape `TU/Erewhon-Math.otf(2)/b/n' will be
+(Font)              scaled to size 5.00053pt on input line 10.
+Package microtype Info: Character `\textquoteleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/b/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquoteright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/b/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquotedblleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/b/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquotedblright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/b/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\AE ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/b/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\quotesinglbase ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/b/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\quotedblbase ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/b/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guilsinglleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/b/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guilsinglright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/b/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guillemotleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/b/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guillemotright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/b/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textexclamdown ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/b/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquestiondown ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(2)/b/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Font shape `TU/Erewhon-Math.otf(3)/b/n' will be
+(Font)              scaled to size 8.99904pt on input line 10.
+Package microtype Info: Character `\textquoteleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/b/n/9'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquoteright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/b/n/9'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquotedblleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/b/n/9'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquotedblright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/b/n/9'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\AE ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/b/n/9'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\quotesinglbase ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/b/n/9'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\quotedblbase ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/b/n/9'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guilsinglleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/b/n/9'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guilsinglright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/b/n/9'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guillemotleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/b/n/9'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guillemotright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/b/n/9'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textexclamdown ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/b/n/9'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquestiondown ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/b/n/9'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Font shape `TU/Erewhon-Math.otf(3)/b/n' will be
+(Font)              scaled to size 4.99947pt on input line 10.
+Package microtype Info: Character `\textquoteleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/b/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquoteright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/b/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquotedblleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/b/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquotedblright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/b/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\AE ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/b/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\quotesinglbase ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/b/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\quotedblbase ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/b/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guilsinglleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/b/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guilsinglright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/b/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guillemotleft ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/b/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guillemotright ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/b/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textexclamdown ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/b/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquestiondown ' is missing
+(microtype)             in font `\TU/Erewhon-Math.otf(3)/b/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
 File: chapter_2_sup/figures/20210417_timeplot.pdf Graphic file (type pdf)
 <use chapter_2_sup/figures/20210417_timeplot.pdf>
 
@@ -3085,23 +3947,17 @@ LaTeX Font Warning: Font shape `TU/utopia/m/sl' undefined
 (Font)              using `TU/utopia/m/it' instead on input line 23.
 
 [19] (./chapter_2_sup/SI_tables.tex
-Missing character: There is no 𝜗 in font [Erewhon-Bold.otf]/OT:script=latn;language=dflt;!
-Missing character: There is no 𝜗 in font [Erewhon-Bold.otf]/OT:script=latn;language=dflt;!
-Missing character: There is no 𝜗 in font [Erewhon-Bold.otf]/OT:script=latn;language=dflt;!
-Missing character: There is no 𝜗 in font [Erewhon-Bold.otf]/OT:script=latn;language=dflt;!
-Missing character: There is no 𝜗 in font [Erewhon-Bold.otf]/OT:script=latn;language=dflt;!
-
-Overfull \hbox (83.10564pt too wide) in paragraph at lines 18--19
+Overfull \hbox (83.10559pt too wide) in paragraph at lines 18--19
  [][] 
  []
 
 (./chapter_2_sup/tables/man_ferroni.tex)
-Overfull \hbox (44.80643pt too wide) in paragraph at lines 1--27
+Overfull \hbox (44.80635pt too wide) in paragraph at lines 1--27
  [][] 
  []
 
 (./chapter_2_sup/tables/loss_data.tex)
-Overfull \hbox (70.09569pt too wide) in paragraph at lines 1--39
+Overfull \hbox (70.09555pt too wide) in paragraph at lines 1--39
  [][] 
  []
 
@@ -3120,7 +3976,7 @@ LaTeX Font Warning: Font shape `TU/utopia/m/sl' undefined
 
 
 ] (./chapter_2_sup/tables/growthcurves_and_rates.tex)
-Overfull \hbox (12.38338pt too wide) in paragraph at lines 75--86
+Overfull \hbox (12.38327pt too wide) in paragraph at lines 75--86
  [][] 
  []
 
@@ -3133,22 +3989,22 @@ LaTeX Font Warning: Font shape `TU/utopia/m/sl' undefined
 (Font)              using `TU/utopia/m/it' instead on input line 88.
 
 [21] (./chapter_2_sup/tables/best_stats_no_preex.tex)
-Overfull \hbox (27.70906pt too wide) in paragraph at lines 1--135
+Overfull \hbox (27.70892pt too wide) in paragraph at lines 1--135
  [][] 
  []
 
 (./chapter_2_sup/tables/worst_stats_no_preex.tex)
-Overfull \hbox (6.86905pt too wide) in paragraph at lines 1--144
+Overfull \hbox (6.86891pt too wide) in paragraph at lines 1--144
  [][] 
  []
 
 (./chapter_2_sup/tables/best_stats_preexisting.tex)
-Overfull \hbox (27.70906pt too wide) in paragraph at lines 1--153
+Overfull \hbox (27.70892pt too wide) in paragraph at lines 1--153
  [][] 
  []
 
 (./chapter_2_sup/tables/worst_stats_preexisting.tex)
-Overfull \hbox (6.86905pt too wide) in paragraph at lines 1--162
+Overfull \hbox (6.86891pt too wide) in paragraph at lines 1--162
  [][] 
  []
 
@@ -3293,12 +4149,12 @@ Package logreq Info: Writing requests to 'ch2_sup.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 49023 strings out of 479418
- 957972 string characters out of 5884586
- 1907154 words of memory out of 5000000
- 65541 multiletter control sequences out of 15000+600000
- 547410 words of font info for 140 fonts, out of 8000000 for 9000
+ 50222 strings out of 479418
+ 980062 string characters out of 5884586
+ 1946472 words of memory out of 5000000
+ 66714 multiletter control sequences out of 15000+600000
+ 550549 words of font info for 144 fonts, out of 8000000 for 9000
  1350 hyphenation exceptions out of 8191
- 82i,19n,133p,4746b,3958s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 82i,21n,133p,4746b,3958s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on /Users/malte/ETH-Documents/thesis/chapter_2_sup/build/ch2_sup.xdv (37 pages, 723952 bytes).
+Output written on /Users/malte/ETH-Documents/thesis/chapter_2_sup/build/ch2_sup.xdv (37 pages, 723220 bytes).
