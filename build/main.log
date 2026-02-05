@@ -3750,7 +3750,12 @@ Package microtype Info: Character `\textquestiondown ' is missing
 (microtype)             in font `\TU/Erewhon-Math.otf(3)/b/n/5'.
 (microtype)             Ignoring protrusion settings for this character.
 
-Overfull \hbox (38.30775pt too wide) in paragraph at lines 33--33
+Overfull \hbox (0.27005pt too wide) in paragraph at lines 33--33
+[][][][][][][][][][][][] [] [][][][] [] [][][]$[]\TU/phv/m/n/7 . url: []$[][][][][] [] [] [] [][][] [] [][][][][][][][][][][][][][][][][][][][][] [] [][][] [] [][][][][][] [] [][][][][][][][][][][][] [] [][][] [] [][][][][][][][][][][][][][][][][] []
+ []
+
+
+Overfull \hbox (43.30775pt too wide) in paragraph at lines 33--33
 [][][][][][][] [] [] [] [][][] [] [][][][][][][][][][][][][][][][][][][][][] [] [][][] [] [][][][][][] [] [][][][][][][][][][][][] [] [][][] [] [][][][][][][][][][][][][][][][][] [] [][][][][][][] [] [] [] [][][] [] [][][][][][][][][][][][][][][][][][][][][] []
  []
 
@@ -4535,8 +4540,720 @@ Underfull \vbox (badness 7221) has occurred while \output is active []
  [74]
 File: chapter_3/figures/sensitivity_analysis.pdf Graphic file (type pdf)
 <use chapter_3/figures/sensitivity_analysis.pdf>
- [75] [76] [77]
+ [75] [76]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [77]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [78]) [79] (./chapter_3/13_discussion.tex
-Underfull \vbox (badness 10000) has occurred while \output is activ
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [80]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [81]) (./chapter_3/14_methods.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [82]
+Overfull \hbox (6.93636pt too wide) in paragraph at lines 26--30
+[]\TU/utopia/b/it/10 The platform is controlled by custom-generated worklists executed in the native software “Evoware”.
+ []
+
+
+Underfull \vbox (badness 3128) has occurred while \output is active []
+
+ [83]
+Overfull \hbox (6.96167pt too wide) in paragraph at lines 49--54
+[]\TU/Optima(1)/b/n/10 Morphology experiments.[] \TU/utopia/b/it/10 To assess treatment-induced morphological changes, we imaged treated
+ []
+
+[84])) [85]
+Overfull \hbox (2.15347pt too wide) in paragraph at lines 42--42
+\TU/phv/m/n/7 issn: 10766294. doi: []$[][] [] [][][][] [] [][][][][][][][][][][][][][][][][][]$[]. url: []$[][][][][] [] [] [] [][][] [] [][][][][][][][][][] [] [][][] [] [][][] [] [][] [] [][][][] [] [][][][][][][][][][][][][][][][][][]$[]. 
+ []
+
+[86
+
+] [87]
+Package biblatex Info: Reference section=0 on input line 42.
+\blx@maxsegment@6=\count584
+\blx@sectionciteorder@6=\count585
+Package biblatex Info: Reference section=6 on input line 43.
+Package biblatex Info: Setting label 'refsection:6' on input line 43.
+ (./chapter_3sup/ch3_sup.tex (./commands.tex) (./settings/si_settings.tex)
+\draftwidth=\skip366
+ (./settings/si_settings.tex) (./chapter_3sup/si_text.tex [88] [89] [90]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [91] [92] [93] [94] [95] [96] [97] [98] [99]
+Overfull \hbox (7.12634pt too wide) in paragraph at lines 464--468
+[]\TU/utopia/b/it/10 We observed a substantial effect of both supplements on the measured bacterial density ([]Fig. S3.38[][]a,
+ []
+
+
+Underfull \vbox (badness 1097) has occurred while \output is active []
+
+ [100]) (./chapter_3sup/si_tables.tex (./chapter_3sup/tables/drug_table.tex
+
+LaTeX Font Warning: Font shape `TU/phv/b/n' undefined
+(Font)              using `TU/phv/m/n' instead on input line 10.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--18
+[]||[]\TU/phv/b/n/10 cwork
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--22
+[]||[]\TU/phv/b/n/10 cwork
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--102
+[]||\TU/phv/b/n/10 ThermoFisher,
+ []
+
+
+Overfull \hbox (15.37476pt too wide) in paragraph at lines 154--154
+[]||\TU/phv/b/n/10 Chloramphenicol| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 246--246
+[]||\TU/phv/b/n/10 VWR,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 270--270
+[]||\TU/phv/b/n/10 VWR, APOS-
+ []
+
+
+Overfull \hbox (2.34476pt too wide) in paragraph at lines 490--490
+[]||\TU/phv/b/n/10 Trimethoprim| 
+ []
+
+)
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+(./chapter_3sup/tables/comparison_table.tex)
+Overfull \hbox (121.80797pt too wide) in paragraph at lines 1--21
+[][]
+ []
+
+(./chapter_3sup/tables/morph_post.tex)
+Overfull \hbox (104.31636pt too wide) in paragraph at lines 1--33
+ [][] 
+ []
+
+(./chapter_3sup/tables/group_summary.tex) (./chapter_3sup/tables/supernatant.tex)
+Overfull \hbox (67.23633pt too wide) in paragraph at lines 61--70
+ [][] 
+ []
+
+) (./chapter_3sup/si_figures.tex
+File: chapter_3sup/figures/linearity.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/linearity.pdf>
+File: chapter_3sup/figures/ampicillin_comp.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/ampicillin_comp.pdf>
+File: chapter_3sup/figures/ampicillin_low_comp.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/ampicillin_low_comp.pdf>
+File: chapter_3sup/figures/cefepime_comp.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/cefepime_comp.pdf>
+File: chapter_3sup/figures/ceftazidime_comp.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/ceftazidime_comp.pdf>
+File: chapter_3sup/figures/cefuroxime_comp.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/cefuroxime_comp.pdf>
+File: chapter_3sup/figures/chloramphenicol_comp.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/chloramphenicol_comp.pdf>
+File: chapter_3sup/figures/ciprofloxacin_comp.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/ciprofloxacin_comp.pdf>
+File: chapter_3sup/figures/colistin_comp.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/colistin_comp.pdf>
+File: chapter_3sup/figures/doripenem_comp.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/doripenem_comp.pdf>
+File: chapter_3sup/figures/fosfomycin_comp.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/fosfomycin_comp.pdf>
+File: chapter_3sup/figures/imipenem_comp.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/imipenem_comp.pdf>
+File: chapter_3sup/figures/mecillinam_comp.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/mecillinam_comp.pdf>
+File: chapter_3sup/figures/meropenem_comp.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/meropenem_comp.pdf>
+File: chapter_3sup/figures/penicillin_comp.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/penicillin_comp.pdf>
+File: chapter_3sup/figures/piperacillin_comp.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/piperacillin_comp.pdf>
+File: chapter_3sup/figures/polymyxinB_comp.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/polymyxinB_comp.pdf>
+File: chapter_3sup/figures/rifampicin_comp.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/rifampicin_comp.pdf>
+File: chapter_3sup/figures/tetracycline_comp.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/tetracycline_comp.pdf>
+File: chapter_3sup/figures/trimethoprim_comp.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/trimethoprim_comp.pdf>
+File: chapter_3sup/figures/pexiganan_low_comp.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/pexiganan_low_comp.pdf>
+File: chapter_3sup/figures/pexiganan_comp.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/pexiganan_comp.pdf>
+File: chapter_3sup/figures/od_sos_exp.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/od_sos_exp.pdf>
+File: chapter_3sup/figures/lum_sos_exp.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/lum_sos_exp.pdf>
+File: chapter_3sup/figures/od_per_lum_sos_exp.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/od_per_lum_sos_exp.pdf>
+File: chapter_3sup/figures/diff_sos_exp.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/diff_sos_exp.pdf>
+ (./chapter_3sup/si_images.tex
+File: chapter_3sup/images/micro_ctrl_D1.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_ctrl_D1.pdf>
+File: chapter_3sup/images/micro_ctrl_D1_2.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_ctrl_D1_2.pdf>
+File: chapter_3sup/images/micro_ctrl_D1_3.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_ctrl_D1_3.pdf>
+File: chapter_3sup/images/micro_ctrl1_2h.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_ctrl1_2h.pdf>
+File: chapter_3sup/images/micro_ctrl2_2h.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_ctrl2_2h.pdf>
+File: chapter_3sup/images/micro_ctrl3_2h.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_ctrl3_2h.pdf>
+File: chapter_3sup/images/micro_amp1.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_amp1.pdf>
+File: chapter_3sup/images/micro_amp2.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_amp2.pdf>
+File: chapter_3sup/images/micro_amp3.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_amp3.pdf>
+File: chapter_3sup/images/micro_amx1.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_amx1.pdf>
+File: chapter_3sup/images/micro_amx2.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_amx2.pdf>
+File: chapter_3sup/images/micro_amox2.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_amox2.pdf>
+File: chapter_3sup/images/micro_caz_D1_1.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_caz_D1_1.pdf>
+File: chapter_3sup/images/micro_caz_D1_2.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_caz_D1_2.pdf>
+File: chapter_3sup/images/micro_caz_d1_3d.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_caz_d1_3d.pdf>
+File: chapter_3sup/images/micro_cip.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_cip.pdf>
+File: chapter_3sup/images/micro_cip2.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_cip2.pdf>
+File: chapter_3sup/images/micro_cip3.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_cip3.pdf>
+File: chapter_3sup/images/micro_col1.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_col1.pdf>
+File: chapter_3sup/images/micro_col2.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_col2.pdf>
+File: chapter_3sup/images/micro_col3.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_col3.pdf>
+File: chapter_3sup/images/micro_fos1.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_fos1.pdf>
+File: chapter_3sup/images/micro_fos2b.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_fos2b.pdf>
+File: chapter_3sup/images/micro_fos3.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_fos3.pdf>
+File: chapter_3sup/images/micro_mero1.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_mero1.pdf>
+File: chapter_3sup/images/micro_mero2.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_mero2.pdf>
+File: chapter_3sup/images/micro_mero3.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_mero3.pdf>
+File: chapter_3sup/images/micro_pex1b.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_pex1b.pdf>
+File: chapter_3sup/images/micro_pex2.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_pex2.pdf>
+File: chapter_3sup/images/micro_pex3c.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_pex3c.pdf>
+File: chapter_3sup/images/micro_rif1b.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_rif1b.pdf>
+File: chapter_3sup/images/micro_rif2a.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_rif2a.pdf>
+File: chapter_3sup/images/micro_rif3.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_rif3.pdf>
+File: chapter_3sup/images/micro_tet1.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_tet1.pdf>
+File: chapter_3sup/images/micro_tet2.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_tet2.pdf>
+File: chapter_3sup/images/micro_tet3.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_tet3.pdf>
+File: chapter_3sup/images/micro_tri1b.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_tri1b.pdf>
+File: chapter_3sup/images/micro_tri2b.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_tri2b.pdf>
+File: chapter_3sup/images/micro_tri3.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_tri3.pdf>
+)
+File: chapter_3sup/figures/filamentation_summary_pre.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/filamentation_summary_pre.pdf>
+File: chapter_3sup/figures/filamentation_summary_post.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/filamentation_summary_post.pdf>
+File: chapter_3sup/figures/lambda_15_delta1.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/lambda_15_delta1.pdf>
+File: chapter_3sup/figures/lambda_03_delta1.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/lambda_03_delta1.pdf>
+File: chapter_3sup/figures/lambda_15_delta4.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/lambda_15_delta4.pdf>
+File: chapter_3sup/figures/lambda_03_delta4.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/lambda_03_delta4.pdf>
+File: chapter_3sup/figures/fila_violin.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/fila_violin.pdf>
+File: chapter_3sup/figures/fila_vmean.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/fila_vmean.pdf>
+File: chapter_3sup/figures/colony_formation_probability.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/colony_formation_probability.pdf>
+File: chapter_3sup/figures/pexi_cacl2.png Graphic file (type bmp)
+<chapter_3sup/figures/pexi_cacl2.png>
+File: chapter_3sup/figures/pexi_mgcl2.png Graphic file (type bmp)
+<chapter_3sup/figures/pexi_mgcl2.png>
+Missing character: There is no 𝜇 in font [Erewhon-Regular.otf]/OT:script=latn;language=dflt;!
+Missing character: There is no 𝜇 in font [Erewhon-Regular.otf]/OT:script=latn;language=dflt;!
+File: chapter_3sup/figures/amp_hand_experiment_ctrl.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/amp_hand_experiment_ctrl.pdf>
+File: chapter_3sup/figures/amp_hand_experiment_mgcl.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/amp_hand_experiment_mgcl.pdf>
+File: chapter_3sup/figures/supernatant.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/supernatant.pdf>
+)) [101] [102] [103] [104] [105] [106] [107] [108] [109] [110] [111] [112] [113] [114] [115] [116] [117] [118] [119] [120] [121] [122] [123] [124] [125] [126] [127] [128] [129] [130] [131] [132] [133] [134] [135]
+Package biblatex Info: Reference section=0 on input line 43.
+\blx@maxsegment@7=\count586
+\blx@sectionciteorder@7=\count587
+Package biblatex Info: Reference section=7 on input line 47.
+Package biblatex Info: Setting label 'refsection:7' on input line 47.
+ (./chapter_4/ch4.tex (./commands.tex) [136
+
+] (./chapter_4/11_introduction.tex [137
+
+]
+Overfull \vbox (8.0pt too high) has occurred while \output is active []
+
+ [138]) (./chapter_4/12_results.tex
+File: chapter_4/figures/peptide_interaction.pdf Graphic file (type pdf)
+<use chapter_4/figures/peptide_interaction.pdf>
+ [139]
+Overfull \vbox (8.0pt too high) has occurred while \output is active []
+
+ [140]
+File: chapter_4/figures/psi_chloramphenicol_tetracycline.pdf Graphic file (type pdf)
+<use chapter_4/figures/psi_chloramphenicol_tetracycline.pdf>
+ [141]
+Overfull \vbox (8.0pt too high) has occurred while \output is active []
+
+ [142]
+File: chapter_4/figures/distributions_triptych.pdf Graphic file (type pdf)
+<use chapter_4/figures/distributions_triptych.pdf>
+
+Overfull \hbox (119.50267pt too wide) in paragraph at lines 114--127
+ [][] 
+ []
+
+[143]
+Underfull \vbox (badness 2538) has occurred while \output is active []
+
+
+Overfull \vbox (8.0pt too high) has occurred while \output is active []
+
+ [144]
+File: chapter_4/figures/surface_plot.pdf Graphic file (type pdf)
+<use chapter_4/figures/surface_plot.pdf>
+) (./chapter_4/13_discussion.tex [145]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (8.0pt too high) has occurred while \output is active []
+
+ [146]) (./chapter_4/14_methods.tex [147] (./chapter_4/tables/drug_table.tex
+Overfull \hbox (10.92996pt too wide) in paragraph at lines 6--7
+[]|\TU/utopia/b/it/9 ThermoFischer,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+[]|\TU/utopia/b/it/9 Sigma,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
+[]|\TU/utopia/b/it/9 Sigma,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+[]|\TU/utopia/b/it/9 Roth,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+[]|\TU/utopia/b/it/9 Sigma,
+ []
+
+)
+Overfull \vbox (8.0pt too high) has occurred while \output is active []
+
+ [148] [149]
+Overfull \vbox (8.0pt too high) has occurred while \output is active []
+
+ [150])) [151]
+Overfull \vbox (8.0pt too high) has occurred while \output is active []
+
+ [152
+
+] [153]
+Overfull \vbox (8.0pt too high) has occurred while \output is active []
+
+ [154]
+Package biblatex Info: Reference section=0 on input line 47.
+\blx@maxsegment@8=\count588
+\blx@sectionciteorder@8=\count589
+Package biblatex Info: Reference section=8 on input line 48.
+Package biblatex Info: Setting label 'refsection:8' on input line 48.
+ (./chapter_4sup/ch4_sup.tex (./commands.tex) (./settings/si_settings.tex)
+\c@panelk=\count590
+ (./chapter_4sup/si_text.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [155]
+Package mdframed Info: mdframed works in twoside mode on input line 59.
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--61
+
+ []
+
+
+Overfull \vbox (8.0pt too high) has occurred while \output is active []
+
+ [156]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [157]
+Overfull \vbox (8.0pt too high) has occurred while \output is active []
+
+ [158] [159]
+Package mdframed Info: mdframed works in twoside mode on input line 228.
+
+Overfull \vbox (8.0pt too high) has occurred while \output is active []
+
+ [160]
+Package mdframed Info: mdframed works in twoside mode on input line 273.
+ [161]
+Overfull \vbox (8.0pt too high) has occurred while \output is active []
+
+ [162
+
+]
+Overfull \hbox (5.96762pt too wide) in paragraph at lines 330--331
+[]\TU/phv/b/n/10 For combination conditions, the corresponding mono-treatment growth rates $[][][][][][] [][]$ and $[][][][][] [][][]$
+ []
+
+[163]
+Overfull \hbox (70.96953pt too wide) in paragraph at lines 363--368
+\TU/phv/b/n/10 dex axes, followed by bivariate spline interpolation on the $[][][] [][]$ grid (\TU/lmtt/m/n/10 scipy.interpolate.RectBivariateSpline\TU/phv/b/n/10 ).
+ []
+
+
+Underfull \vbox (badness 1484) has occurred while \output is active []
+
+
+Overfull \vbox (8.0pt too high) has occurred while \output is active []
+
+ [164
+
+]) (./chapter_4sup/si_tables.tex [165]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (8.0pt too high) has occurred while \output is active []
+
+ [166] (./chapter_4sup/tables/pd_params_all_drugs.tex)
+Overfull \hbox (61.96632pt too wide) in paragraph at lines 1--9
+ [][] 
+ []
+
+(./chapter_4sup/tables/interaction_summary_table.tex)
+\mlmbox=\box101
+) (./chapter_4sup/si_figures.tex
+File: chapter_4sup/figures/timecourse_amoxicillin.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/timecourse_amoxicillin.pdf>
+File: chapter_4sup/figures/timecourse_chloramphenicol.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/timecourse_chloramphenicol.pdf>
+File: chapter_4sup/figures/timecourse_colistin.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/timecourse_colistin.pdf>
+File: chapter_4sup/figures/timecourse_penicillin.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/timecourse_penicillin.pdf>
+File: chapter_4sup/figures/timecourse_polymyxinB.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/timecourse_polymyxinB.pdf>
+File: chapter_4sup/figures/timecourse_tetracycline.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/timecourse_tetracycline.pdf>
+
+Overfull \hbox (93.89592pt too wide) in paragraph at lines 24--38
+ []$[]$ 
+ []
+
+
+Overfull \hbox (46.94797pt too wide) in paragraph at lines 38--38
+[] [] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[167]
+Overfull \vbox (8.0pt too high) has occurred while \output is active []
+
+ [168]
+File: chapter_4sup/figures/pdcurve_amoxicillin.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/pdcurve_amoxicillin.pdf>
+File: chapter_4sup/figures/pdcurve_chloramphenicol.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/pdcurve_chloramphenicol.pdf>
+File: chapter_4sup/figures/pdcurve_colistin.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/pdcurve_colistin.pdf>
+File: chapter_4sup/figures/pdcurve_penicillin.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/pdcurve_penicillin.pdf>
+File: chapter_4sup/figures/pdcurve_polymyxinB.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/pdcurve_polymyxinB.pdf>
+File: chapter_4sup/figures/pdcurve_tetracycline.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/pdcurve_tetracycline.pdf>
+
+Overfull \hbox (93.89592pt too wide) in paragraph at lines 46--58
+ []$[]$ 
+ []
+
+
+Overfull \hbox (46.94797pt too wide) in paragraph at lines 58--58
+[] [] 
+ []
+
+[169]
+File: chapter_4sup/figures/psi_amoxicillin_chloramphenicol.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/psi_amoxicillin_chloramphenicol.pdf>
+File: chapter_4sup/figures/psi_amoxicillin_colistin.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/psi_amoxicillin_colistin.pdf>
+File: chapter_4sup/figures/psi_amoxicillin_penicillin.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/psi_amoxicillin_penicillin.pdf>
+File: chapter_4sup/figures/psi_amoxicillin_polymyxinB.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/psi_amoxicillin_polymyxinB.pdf>
+File: chapter_4sup/figures/psi_amoxicillin_tetracycline.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/psi_amoxicillin_tetracycline.pdf>
+File: chapter_4sup/figures/psi_chloramphenicol_colistin.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/psi_chloramphenicol_colistin.pdf>
+File: chapter_4sup/figures/psi_chloramphenicol_penicillin.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/psi_chloramphenicol_penicillin.pdf>
+File: chapter_4sup/figures/psi_chloramphenicol_polymyxinB.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/psi_chloramphenicol_polymyxinB.pdf>
+File: chapter_4sup/figures/psi_chloramphenicol_tetracycline.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/psi_chloramphenicol_tetracycline.pdf>
+File: chapter_4sup/figures/psi_colistin_penicillin.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/psi_colistin_penicillin.pdf>
+File: chapter_4sup/figures/psi_colistin_polymyxinB.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/psi_colistin_polymyxinB.pdf>
+File: chapter_4sup/figures/psi_colistin_tetracycline.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/psi_colistin_tetracycline.pdf>
+File: chapter_4sup/figures/psi_penicillin_polymyxinB.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/psi_penicillin_polymyxinB.pdf>
+File: chapter_4sup/figures/psi_penicillin_tetracycline.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/psi_penicillin_tetracycline.pdf>
+File: chapter_4sup/figures/psi_polymyxinB_tetracycline.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/psi_polymyxinB_tetracycline.pdf>
+File: chapter_4sup/figures/psi_colorbar_global.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/psi_colorbar_global.pdf>
+
+
+LaTeX Warning: Float too large for page by 97.08456pt on input line 139.
+
+
+Overfull \vbox (8.0pt too high) has occurred while \output is active []
+
+ [170]
+File: chapter_4sup/figures/mu_interaction_heatmap_amoxicillin_chloramphenicol.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/mu_interaction_heatmap_amoxicillin_chloramphenicol.pdf>
+File: chapter_4sup/figures/mu_interaction_heatmap_amoxicillin_colistin.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/mu_interaction_heatmap_amoxicillin_colistin.pdf>
+File: chapter_4sup/figures/mu_interaction_heatmap_amoxicillin_penicillin.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/mu_interaction_heatmap_amoxicillin_penicillin.pdf>
+File: chapter_4sup/figures/mu_interaction_heatmap_amoxicillin_polymyxinB.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/mu_interaction_heatmap_amoxicillin_polymyxinB.pdf>
+File: chapter_4sup/figures/mu_interaction_heatmap_amoxicillin_tetracycline.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/mu_interaction_heatmap_amoxicillin_tetracycline.pdf>
+File: chapter_4sup/figures/mu_interaction_heatmap_chloramphenicol_colistin.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/mu_interaction_heatmap_chloramphenicol_colistin.pdf>
+File: chapter_4sup/figures/mu_interaction_heatmap_chloramphenicol_penicillin.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/mu_interaction_heatmap_chloramphenicol_penicillin.pdf>
+File: chapter_4sup/figures/mu_interaction_heatmap_chloramphenicol_polymyxinB.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/mu_interaction_heatmap_chloramphenicol_polymyxinB.pdf>
+File: chapter_4sup/figures/mu_interaction_heatmap_chloramphenicol_tetracycline.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/mu_interaction_heatmap_chloramphenicol_tetracycline.pdf>
+File: chapter_4sup/figures/mu_interaction_heatmap_colistin_penicillin.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/mu_interaction_heatmap_colistin_penicillin.pdf>
+File: chapter_4sup/figures/mu_interaction_heatmap_colistin_polymyxinB.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/mu_interaction_heatmap_colistin_polymyxinB.pdf>
+File: chapter_4sup/figures/mu_interaction_heatmap_colistin_tetracycline.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/mu_interaction_heatmap_colistin_tetracycline.pdf>
+File: chapter_4sup/figures/mu_interaction_heatmap_penicillin_polymyxinB.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/mu_interaction_heatmap_penicillin_polymyxinB.pdf>
+File: chapter_4sup/figures/mu_interaction_heatmap_penicillin_tetracycline.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/mu_interaction_heatmap_penicillin_tetracycline.pdf>
+File: chapter_4sup/figures/mu_interaction_heatmap_polymyxinB_tetracycline.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/mu_interaction_heatmap_polymyxinB_tetracycline.pdf>
+File: chapter_4sup/figures/interaction_legend_bliss.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/interaction_legend_bliss.pdf>
+
+
+LaTeX Warning: Float too large for page by 87.45464pt on input line 144.
+
+[171]
+File: chapter_4sup/figures/fici_interaction_heatmap_amoxicillin_chloramphenicol.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/fici_interaction_heatmap_amoxicillin_chloramphenicol.pdf>
+File: chapter_4sup/figures/fici_interaction_heatmap_amoxicillin_colistin.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/fici_interaction_heatmap_amoxicillin_colistin.pdf>
+File: chapter_4sup/figures/fici_interaction_heatmap_amoxicillin_penicillin.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/fici_interaction_heatmap_amoxicillin_penicillin.pdf>
+File: chapter_4sup/figures/fici_interaction_heatmap_amoxicillin_polymyxinB.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/fici_interaction_heatmap_amoxicillin_polymyxinB.pdf>
+File: chapter_4sup/figures/fici_interaction_heatmap_amoxicillin_tetracycline.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/fici_interaction_heatmap_amoxicillin_tetracycline.pdf>
+File: chapter_4sup/figures/fici_interaction_heatmap_chloramphenicol_colistin.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/fici_interaction_heatmap_chloramphenicol_colistin.pdf>
+File: chapter_4sup/figures/fici_interaction_heatmap_chloramphenicol_penicillin.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/fici_interaction_heatmap_chloramphenicol_penicillin.pdf>
+File: chapter_4sup/figures/fici_interaction_heatmap_chloramphenicol_polymyxinB.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/fici_interaction_heatmap_chloramphenicol_polymyxinB.pdf>
+File: chapter_4sup/figures/fici_interaction_heatmap_chloramphenicol_tetracycline.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/fici_interaction_heatmap_chloramphenicol_tetracycline.pdf>
+File: chapter_4sup/figures/fici_interaction_heatmap_colistin_penicillin.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/fici_interaction_heatmap_colistin_penicillin.pdf>
+File: chapter_4sup/figures/fici_interaction_heatmap_colistin_polymyxinB.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/fici_interaction_heatmap_colistin_polymyxinB.pdf>
+File: chapter_4sup/figures/fici_interaction_heatmap_colistin_tetracycline.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/fici_interaction_heatmap_colistin_tetracycline.pdf>
+File: chapter_4sup/figures/fici_interaction_heatmap_penicillin_polymyxinB.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/fici_interaction_heatmap_penicillin_polymyxinB.pdf>
+File: chapter_4sup/figures/fici_interaction_heatmap_penicillin_tetracycline.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/fici_interaction_heatmap_penicillin_tetracycline.pdf>
+File: chapter_4sup/figures/fici_interaction_heatmap_polymyxinB_tetracycline.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/fici_interaction_heatmap_polymyxinB_tetracycline.pdf>
+File: chapter_4sup/figures/interaction_legend_loewe.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/interaction_legend_loewe.pdf>
+
+
+LaTeX Warning: Float too large for page by 83.1978pt on input line 149.
+
+
+Overfull \vbox (8.0pt too high) has occurred while \output is active []
+
+ [172]
+File: chapter_4sup/figures/loewe_vs_bliss_sup.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/loewe_vs_bliss_sup.pdf>
+File: chapter_4sup/figures/loewe_vs_bliss_sub.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/loewe_vs_bliss_sub.pdf>
+
+
+LaTeX Warning: Float too large for page by 50.79437pt on input line 172.
+
+File: chapter_4sup/figures/surface_psi.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/surface_psi.pdf>
+
+LaTeX Warning: Float too large for page by 111.91127pt on input line 209.
+
+File: chapter_4sup/figures/surface_pd.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/surface_pd.pdf>
+
+LaTeX Warning: Float too large for page by 115.08658pt on input line 221.
+
+File: chapter_4sup/figures/surface_isoboles.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/surface_isoboles.pdf>
+
+LaTeX Warning: Float too large for page by 78.39693pt on input line 230.
+
+File: chapter_4sup/figures/surface_angular_interaction.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/surface_angular_interaction.pdf>
+
+LaTeX Warning: Float too large for page by 80.53926pt on input line 241.
+
+File: chapter_4sup/figures/dist_ratios.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/dist_ratios.pdf>
+File: chapter_4sup/figures/inoculum_concentration_slopes.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/inoculum_concentration_slopes.pdf>
+)) [173]
+Overfull \vbox (8.0pt too high) has occurred while \output is active []
+
+ [174] [175]
+Overfull \vbox (8.0pt too high) has occurred while \output is active []
+
+ [176] [177]
+Overfull \vbox (8.0pt too high) has occurred while \output is active []
+
+ [178] [179]
+Package biblatex Info: Reference section=0 on input line 48.
+
+Overfull \vbox (8.0pt too high) has occurred while \output is active []
+
+ [180
+
+
+
+
+
+
+]
+\blx@maxsegment@9=\count591
+\blx@sectionciteorder@9=\count592
+Package biblatex Info: Reference section=9 on input line 53.
+Package biblatex Info: Setting label 'refsection:9' on input line 53.
+ (./chapter_5/ch5.tex
+Underfull \vbox (badness 4899) has occurred while \output is active []
+
+ [181
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [182]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [183]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [184]) [185]
+Package biblatex Info: Reference section=0 on input line 53.
+
+
+Class memoir Warning: The material used in the headers is too large
+(24.0pt) for the given head height (16.0pt), it is recommended to
+either increase the head height or redesign the header
+(in both cases you will find help in the memoir manual). on input line 58.
+
+[186
+
+]
+\tf@toc=\write8
+\openout8 = `main.toc'.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 58.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 58.
+ (/Users/malte/ETH-Documents/thesis/build/main.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 58.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 58.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 58.
+Package logreq Info: Writing requests to 'main.run.xml'.
+\openout1 = `main.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 52847 strings out of 479418
+ 1068218 string characters out of 5884586
+ 2635162 words of memory out of 5000000
+ 68976 multiletter control sequences out of 15000+600000
+ 556125 words of font info for 195 fonts, out of 8000000 for 9000
+ 1350 hyphenation exceptions out of 8191
+ 70i,24n,120p,6407b,6396s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on /Users/malte/ETH-Documents/thesis/build/main.xdv (194 pages, 3728076 bytes).

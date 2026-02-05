@@ -58,7 +58,7 @@
 \contentsline {section}{\numberline {3.1}abstract}{67}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Introduction}{67}{section.3.2}%
 \contentsline {section}{\numberline {3.3}Results}{69}{section.3.3}%
-\contentsline {paragraph}{Light intensity is proportional to bacterial density.}{70}{section*.108}%
+\contentsline {paragraph}{Light intensity is proportional to bacterial density.}{71}{section*.108}%
 \contentsline {paragraph}{Luminescence-based rates agree with CFU-based kill rates in 11 out of 22 antimicrobial assays.}{71}{section*.109}%
 \contentsline {paragraph}{No support for SOS-driven increase in luminescence promoter activity.}{71}{section*.110}%
 \contentsline {paragraph}{Filamentation aligns with divergence between CFU- and luminescence-based rates.}{72}{section*.111}%
@@ -66,66 +66,66 @@
 \contentsline {paragraph}{Adjusting luminescence intensities by changes in volume narrows the gap between CFU- and luminescence-based rates.}{74}{section*.114}%
 \contentsline {paragraph}{CFU-based estimates can overestimate the rate of population decline.}{75}{section*.116}%
 \contentsline {paragraph}{Partial loss of culturability causes CFU to underestimate \(\mitpsi _B\) for ciprofloxacin and trimethoprim treatment.}{77}{section*.117}%
-\contentsline {paragraph}{Antimicrobial carryover causes underestimation of $\mitpsi _B$ for pexiganan using CFU.}{77}{section*.118}%
+\contentsline {paragraph}{Antimicrobial carryover causes underestimation of $\mitpsi _B$ for pexiganan using CFU.}{78}{section*.118}%
 \contentsline {paragraph}{Luminescence and CFU show identical decline rates for pexiganan time-kill curves if residual killing is prevented.}{79}{section*.119}%
 \contentsline {paragraph}{Pexiganan rapidly loses killing capacity.}{79}{section*.120}%
 \contentsline {section}{\numberline {3.4}Discussion}{80}{section.3.4}%
 \contentsline {section}{\numberline {3.5}Methods}{82}{section.3.5}%
 \contentsline {paragraph}{Strains.}{82}{section*.121}%
-\contentsline {paragraph}{Media.}{82}{section*.122}%
+\contentsline {paragraph}{Media.}{83}{section*.122}%
 \contentsline {paragraph}{Automated CFU plating.}{83}{section*.123}%
 \contentsline {paragraph}{Luminescence measurements.}{83}{section*.124}%
-\contentsline {paragraph}{Luminescence-CFU assay setup.}{83}{section*.125}%
+\contentsline {paragraph}{Luminescence-CFU assay setup.}{84}{section*.125}%
 \contentsline {paragraph}{Rapid luminescence-CFU assay setup.}{84}{section*.126}%
 \contentsline {paragraph}{Morphology experiments.}{84}{section*.127}%
 \contentsline {paragraph}{Fitting rates of change $\mitpsi $.}{84}{section*.128}%
 \contentsline {paragraph}{Significance.}{85}{section*.129}%
-\contentsline {section}{\numberline {3.1}Supplementary Information Chapter 3}{89}{section.3.1}%
-\contentsline {subsection}{\numberline {3A}Mathematical descriptions}{89}{subsection.3.1.1}%
-\contentsline {paragraph}{Light-related terminology.}{89}{section*.133}%
-\contentsline {paragraph}{Testing for linearity between bacterial density and luminescent light intensity.}{89}{section*.134}%
-\contentsline {paragraph}{Rate of change of CFU count.}{90}{section*.135}%
-\contentsline {paragraph}{Rate of change of luminescence.}{91}{section*.136}%
-\contentsline {paragraph}{Rate of change of volume-corrected luminescence.}{92}{section*.137}%
-\contentsline {paragraph}{Change of light intensity is closer to the rate of change of total cell-volume than to the rate of change of number of bacteria.}{93}{section*.138}%
-\contentsline {paragraph}{Colony formation -- birth-death Markov Model.}{94}{section*.139}%
-\contentsline {paragraph}{Colony formation for bacteriostatic and bactericidal drugs.}{94}{section*.140}%
-\contentsline {subsection}{\numberline {3B}Filamentation Model}{95}{subsection.3.1.2}%
-\contentsline {paragraph}{Population‐level quantities.}{97}{section*.141}%
-\contentsline {paragraph}{Parameter sensitivity.}{98}{section*.142}%
-\contentsline {paragraph}{Volume correction and parameter estimation}{98}{section*.143}%
-\contentsline {subsection}{\numberline {3C}Experiments}{99}{subsection.3.1.3}%
-\contentsline {paragraph}{SOS experiment.}{99}{section*.144}%
-\contentsline {paragraph}{Morphology evaluation.}{100}{section*.145}%
-\contentsline {paragraph}{Antimicrobial peptide deactivation experiment.}{100}{section*.146}%
-\contentsline {paragraph}{Manual pexiganan time-kill curve experiment.}{101}{section*.147}%
-\contentsline {paragraph}{Supernatant experiment.}{101}{section*.148}%
-\contentsline {chapter}{\chapternumberline {4}Antimicrobial Combination Effects at Sub-inhibitory Doses do not Reliably Predict Effects at Inhibitory Concentrations}{139}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Introduction}{139}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Results}{141}{section.4.2}%
-\contentsline {paragraph}{Time-variant growth rates and treatment effects.}{143}{section*.197}%
-\contentsline {paragraph}{Bliss independence implies additive treatment effects.}{143}{section*.199}%
-\contentsline {paragraph}{Peptide -- non-peptide interaction model.}{144}{section*.200}%
-\contentsline {paragraph}{Interaction scores $(\mitmu , \mitnu )$.}{145}{section*.201}%
-\contentsline {paragraph}{Disagreement between sub-inhibitory and inhibitory interaction types within reference models.}{145}{section*.202}%
-\contentsline {paragraph}{Disagreement between reference models, within concentration regimes.}{146}{section*.204}%
-\contentsline {paragraph}{Interaction types can change with dose even at fixed mixing ratio.}{146}{section*.205}%
-\contentsline {paragraph}{Interaction types can depend on the mixing ratio.}{147}{section*.206}%
-\contentsline {section}{\numberline {4.3}Discussion}{147}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Methods}{150}{section.4.4}%
-\contentsline {paragraph}{Strains and Media.}{150}{section*.208}%
-\contentsline {paragraph}{Drug preparation.}{150}{section*.209}%
-\contentsline {paragraph}{Dose response assays.}{150}{section*.211}%
-\contentsline {paragraph}{Data preprocessing.}{151}{section*.212}%
-\contentsline {paragraph}{Time-weighted net growth rate.}{151}{section*.213}%
-\contentsline {paragraph}{Classification of inhibitory and sub-inhibitory conditions.}{152}{section*.214}%
-\contentsline {paragraph}{Single-drug pharmacodynamic curve fitting.}{152}{section*.215}%
-\contentsline {paragraph}{Distribution of treatment effects.}{152}{section*.216}%
-\contentsline {paragraph}{Bliss-based interaction score \(\mitmu \).}{152}{section*.217}%
-\contentsline {paragraph}{Loewe-based interaction score \(\mitnu \).}{153}{section*.218}%
-\contentsline {paragraph}{Polar reparametrization.}{153}{section*.219}%
-\contentsline {paragraph}{Inoculum effects.}{153}{section*.220}%
-\contentsline {section}{\numberline {4.5}Data, Materials, and Software Availability}{154}{section.4.5}%
+\contentsline {section}{\numberline {3.1}Supplementary Information Chapter 3}{88}{section.3.1}%
+\contentsline {subsection}{\numberline {3A}Mathematical descriptions}{88}{subsection.3.1.1}%
+\contentsline {paragraph}{Light-related terminology.}{88}{section*.133}%
+\contentsline {paragraph}{Testing for linearity between bacterial density and luminescent light intensity.}{88}{section*.134}%
+\contentsline {paragraph}{Rate of change of CFU count.}{89}{section*.135}%
+\contentsline {paragraph}{Rate of change of luminescence.}{90}{section*.136}%
+\contentsline {paragraph}{Rate of change of volume-corrected luminescence.}{91}{section*.137}%
+\contentsline {paragraph}{Change of light intensity is closer to the rate of change of total cell-volume than to the rate of change of number of bacteria.}{92}{section*.138}%
+\contentsline {paragraph}{Colony formation -- birth-death Markov Model.}{93}{section*.139}%
+\contentsline {paragraph}{Colony formation for bacteriostatic and bactericidal drugs.}{93}{section*.140}%
+\contentsline {subsection}{\numberline {3B}Filamentation Model}{94}{subsection.3.1.2}%
+\contentsline {paragraph}{Population‐level quantities.}{96}{section*.141}%
+\contentsline {paragraph}{Parameter sensitivity.}{97}{section*.142}%
+\contentsline {paragraph}{Volume correction and parameter estimation}{97}{section*.143}%
+\contentsline {subsection}{\numberline {3C}Experiments}{98}{subsection.3.1.3}%
+\contentsline {paragraph}{SOS experiment.}{98}{section*.144}%
+\contentsline {paragraph}{Morphology evaluation.}{99}{section*.145}%
+\contentsline {paragraph}{Antimicrobial peptide deactivation experiment.}{99}{section*.146}%
+\contentsline {paragraph}{Manual pexiganan time-kill curve experiment.}{100}{section*.147}%
+\contentsline {paragraph}{Supernatant experiment.}{100}{section*.148}%
+\contentsline {chapter}{\chapternumberline {4}Antimicrobial Combination Effects at Sub-inhibitory Doses do not Reliably Predict Effects at Inhibitory Concentrations}{137}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Introduction}{137}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Results}{139}{section.4.2}%
+\contentsline {paragraph}{Time-variant growth rates and treatment effects.}{139}{section*.197}%
+\contentsline {paragraph}{Bliss independence implies additive treatment effects.}{141}{section*.199}%
+\contentsline {paragraph}{Peptide -- non-peptide interaction model.}{141}{section*.200}%
+\contentsline {paragraph}{Interaction scores $(\mitmu , \mitnu )$.}{142}{section*.201}%
+\contentsline {paragraph}{Disagreement between sub-inhibitory and inhibitory interaction types within reference models.}{143}{section*.202}%
+\contentsline {paragraph}{Disagreement between reference models, within concentration regimes.}{143}{section*.204}%
+\contentsline {paragraph}{Interaction types can change with dose even at fixed mixing ratio.}{143}{section*.205}%
+\contentsline {paragraph}{Interaction types can depend on the mixing ratio.}{145}{section*.206}%
+\contentsline {section}{\numberline {4.3}Discussion}{145}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Methods}{147}{section.4.4}%
+\contentsline {paragraph}{Strains and Media.}{147}{section*.208}%
+\contentsline {paragraph}{Drug preparation.}{147}{section*.209}%
+\contentsline {paragraph}{Dose response assays.}{148}{section*.211}%
+\contentsline {paragraph}{Data preprocessing.}{149}{section*.212}%
+\contentsline {paragraph}{Time-weighted net growth rate.}{149}{section*.213}%
+\contentsline {paragraph}{Classification of inhibitory and sub-inhibitory conditions.}{149}{section*.214}%
+\contentsline {paragraph}{Single-drug pharmacodynamic curve fitting.}{149}{section*.215}%
+\contentsline {paragraph}{Distribution of treatment effects.}{150}{section*.216}%
+\contentsline {paragraph}{Bliss-based interaction score \(\mitmu \).}{150}{section*.217}%
+\contentsline {paragraph}{Loewe-based interaction score \(\mitnu \).}{150}{section*.218}%
+\contentsline {paragraph}{Polar reparametrization.}{151}{section*.219}%
+\contentsline {paragraph}{Inoculum effects.}{151}{section*.220}%
+\contentsline {section}{\numberline {4.5}Data, Materials, and Software Availability}{151}{section.4.5}%
 \contentsline {section}{\numberline {4.1}Supplementary Information Chapter 4}{155}{section.4.1}%
 \contentsline {section}{\numberline {4.2}SI text}{156}{section.4.2}%
 \contentsline {subsection}{\numberline {4A}Time weighted net growth rates}{156}{subsection.4.2.1}%
