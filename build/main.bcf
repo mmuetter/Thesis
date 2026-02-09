@@ -2184,6 +2184,7 @@
     <bcf:datasource type="file" datatype="bibtex">bibliographies/Luminescence_Paper.bib</bcf:datasource>
     <bcf:datasource type="file" datatype="bibtex">bibliographies/zenodo.bib</bcf:datasource>
     <bcf:datasource type="file" datatype="bibtex">bibliographies/combination_paper.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex">bibliographies/manual_refs.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
   </bcf:section>
@@ -2194,8 +2195,38 @@
     <bcf:datasource type="file" datatype="bibtex">bibliographies/Luminescence_Paper.bib</bcf:datasource>
     <bcf:datasource type="file" datatype="bibtex">bibliographies/zenodo.bib</bcf:datasource>
     <bcf:datasource type="file" datatype="bibtex">bibliographies/combination_paper.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex">bibliographies/manual_refs.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="1">
+    <bcf:citekey order="2">Daniel1994</bcf:citekey>
+    <bcf:citekey order="3">Kirby1944</bcf:citekey>
+    <bcf:citekey order="4">Witzany2020</bcf:citekey>
+    <bcf:citekey order="5">Naghavi2024</bcf:citekey>
+    <bcf:citekey order="6">Bates1998</bcf:citekey>
+    <bcf:citekey order="7">Allen2010</bcf:citekey>
+    <bcf:citekey order="8">Davies2010</bcf:citekey>
+    <bcf:citekey order="9">Bell2014</bcf:citekey>
+    <bcf:citekey order="9">Rahman2023</bcf:citekey>
+    <bcf:citekey order="10">Leekha2011</bcf:citekey>
+    <bcf:citekey order="11">Bonhoeffer1997</bcf:citekey>
+    <bcf:citekey order="11">Tepekule2017</bcf:citekey>
+    <bcf:citekey order="11">Uecker2021</bcf:citekey>
+    <bcf:citekey order="12">Kable1980</bcf:citekey>
+    <bcf:citekey order="12">Delp1980</bcf:citekey>
+    <bcf:citekey order="12">Skylakakis1981</bcf:citekey>
+    <bcf:citekey order="13">Yuan2000</bcf:citekey>
+    <bcf:citekey order="14">Goldberg2012</bcf:citekey>
+    <bcf:citekey order="15">Bell2014</bcf:citekey>
+    <bcf:citekey order="15">Rahman2023</bcf:citekey>
+    <bcf:citekey order="16">Jernberg2007</bcf:citekey>
+    <bcf:citekey order="17">Tamma2012</bcf:citekey>
+    <bcf:citekey order="18">siedentop_metaanalysis_2024</bcf:citekey>
+    <bcf:citekey order="19">siedentop_metaanalysis_2024</bcf:citekey>
+    <bcf:citekey order="20">Angst2021</bcf:citekey>
+    <bcf:citekey order="21">Loewe1926</bcf:citekey>
+    <bcf:citekey order="22">Bliss1939</bcf:citekey>
+    <bcf:citekey order="23">Gjini2021</bcf:citekey>
+    <bcf:citekey order="23">Chait2007</bcf:citekey>
   </bcf:section>
   <!-- SECTION 0 (cont.) -->
   <bcf:section number="0">
@@ -2207,47 +2238,9 @@
     <bcf:datasource type="file" datatype="bibtex">bibliographies/Luminescence_Paper.bib</bcf:datasource>
     <bcf:datasource type="file" datatype="bibtex">bibliographies/zenodo.bib</bcf:datasource>
     <bcf:datasource type="file" datatype="bibtex">bibliographies/combination_paper.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex">bibliographies/manual_refs.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="2">
-    <bcf:citekey order="1">Kirby1944</bcf:citekey>
-    <bcf:citekey order="2">Naghavi2024</bcf:citekey>
-    <bcf:citekey order="3">Bates1998</bcf:citekey>
-    <bcf:citekey order="4">Regoes2004</bcf:citekey>
-    <bcf:citekey order="5">Bell2014</bcf:citekey>
-    <bcf:citekey order="5">Rahman2023</bcf:citekey>
-    <bcf:citekey order="6">Leekha2011</bcf:citekey>
-    <bcf:citekey order="7">Kable1980</bcf:citekey>
-    <bcf:citekey order="7">Delp1980</bcf:citekey>
-    <bcf:citekey order="7">Skylakakis1981</bcf:citekey>
-    <bcf:citekey order="8">Bonhoeffer1997</bcf:citekey>
-    <bcf:citekey order="8">Tepekule2017</bcf:citekey>
-    <bcf:citekey order="8">Uecker2021</bcf:citekey>
-    <bcf:citekey order="9">Bell2014</bcf:citekey>
-    <bcf:citekey order="9">Rahman2023</bcf:citekey>
-    <bcf:citekey order="10">Jernberg2007</bcf:citekey>
-    <bcf:citekey order="11">Tamma2012</bcf:citekey>
-    <bcf:citekey order="12">Goldberg2012</bcf:citekey>
-    <bcf:citekey order="13">siedentop_metaanalysis_2024</bcf:citekey>
-    <bcf:citekey order="14">siedentop_metaanalysis_2024</bcf:citekey>
-    <bcf:citekey order="15">Angst2021</bcf:citekey>
-    <bcf:citekey order="16">Loewe1926</bcf:citekey>
-    <bcf:citekey order="17">Bliss1939</bcf:citekey>
-    <bcf:citekey order="18">Yeh2006</bcf:citekey>
-    <bcf:citekey order="18">Chevereau2015a</bcf:citekey>
-    <bcf:citekey order="18">Kavcic2020</bcf:citekey>
-  </bcf:section>
-  <!-- SECTION 0 (cont.) -->
-  <bcf:section number="0">
-  </bcf:section>
-  <!-- SECTION 3 -->
-  <bcf:bibdata section="3">
-    <bcf:datasource type="file" datatype="bibtex">bibliographies/TSPlasmid.bib</bcf:datasource>
-    <bcf:datasource type="file" datatype="bibtex">bibliographies/thesis.bib</bcf:datasource>
-    <bcf:datasource type="file" datatype="bibtex">bibliographies/Luminescence_Paper.bib</bcf:datasource>
-    <bcf:datasource type="file" datatype="bibtex">bibliographies/zenodo.bib</bcf:datasource>
-    <bcf:datasource type="file" datatype="bibtex">bibliographies/combination_paper.bib</bcf:datasource>
-  </bcf:bibdata>
-  <bcf:section number="3">
     <bcf:citekey order="1">Kable1980</bcf:citekey>
     <bcf:citekey order="1">Delp1980</bcf:citekey>
     <bcf:citekey order="1">Skylakakis1981</bcf:citekey>
@@ -2272,139 +2265,16 @@
   <!-- SECTION 0 (cont.) -->
   <bcf:section number="0">
   </bcf:section>
-  <!-- SECTION 4 -->
-  <bcf:bibdata section="4">
+  <!-- SECTION 3 -->
+  <bcf:bibdata section="3">
     <bcf:datasource type="file" datatype="bibtex">bibliographies/TSPlasmid.bib</bcf:datasource>
     <bcf:datasource type="file" datatype="bibtex">bibliographies/thesis.bib</bcf:datasource>
     <bcf:datasource type="file" datatype="bibtex">bibliographies/Luminescence_Paper.bib</bcf:datasource>
     <bcf:datasource type="file" datatype="bibtex">bibliographies/zenodo.bib</bcf:datasource>
     <bcf:datasource type="file" datatype="bibtex">bibliographies/combination_paper.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex">bibliographies/manual_refs.bib</bcf:datasource>
   </bcf:bibdata>
-  <bcf:section number="4">
-    <bcf:citekey order="1">Sutter2016</bcf:citekey>
-    <bcf:citekey order="2">Huisman2022</bcf:citekey>
-    <bcf:citekey order="3">Feher2012</bcf:citekey>
-    <bcf:citekey order="4">Carattoli2005</bcf:citekey>
-    <bcf:citekey order="5">Sutter2016</bcf:citekey>
-    <bcf:citekey order="5">Huisman2022Conjugation</bcf:citekey>
-    <bcf:citekey order="6">Feher2012</bcf:citekey>
-    <bcf:citekey order="7">Carattoli2005</bcf:citekey>
-    <bcf:citekey order="8">Virtanen2020</bcf:citekey>
-    <bcf:citekey order="9">Virtanen2020</bcf:citekey>
-    <bcf:citekey order="10">Virtanen2020</bcf:citekey>
-    <bcf:citekey order="11">seabold2010statsmodels</bcf:citekey>
-    <bcf:citekey order="12">Cates1951</bcf:citekey>
-    <bcf:citekey order="13">Jawetz1957</bcf:citekey>
-    <bcf:citekey order="14">Ocampo2014</bcf:citekey>
-    <bcf:citekey order="15">Angermayr2022</bcf:citekey>
-    <bcf:citekey order="16">Feher2012</bcf:citekey>
-    <bcf:citekey order="17">Huisman2022</bcf:citekey>
-    <bcf:citekey order="18">Huisman2022</bcf:citekey>
-    <bcf:citekey order="19">Huisman2022</bcf:citekey>
-  </bcf:section>
-  <!-- SECTION 0 (cont.) -->
-  <bcf:section number="0">
-  </bcf:section>
-  <!-- SECTION 5 -->
-  <bcf:bibdata section="5">
-    <bcf:datasource type="file" datatype="bibtex">bibliographies/TSPlasmid.bib</bcf:datasource>
-    <bcf:datasource type="file" datatype="bibtex">bibliographies/thesis.bib</bcf:datasource>
-    <bcf:datasource type="file" datatype="bibtex">bibliographies/Luminescence_Paper.bib</bcf:datasource>
-    <bcf:datasource type="file" datatype="bibtex">bibliographies/zenodo.bib</bcf:datasource>
-    <bcf:datasource type="file" datatype="bibtex">bibliographies/combination_paper.bib</bcf:datasource>
-  </bcf:bibdata>
-  <bcf:section number="5">
-    <bcf:citekey order="1">Regoes2004</bcf:citekey>
-    <bcf:citekey order="2">Regoes2004</bcf:citekey>
-    <bcf:citekey order="2">Foerster2016</bcf:citekey>
-    <bcf:citekey order="3">Vellend1977</bcf:citekey>
-    <bcf:citekey order="4">Jacobs1993</bcf:citekey>
-    <bcf:citekey order="5">Loeliger2003</bcf:citekey>
-    <bcf:citekey order="6">Engebrecht1985</bcf:citekey>
-    <bcf:citekey order="6">Meighen1991</bcf:citekey>
-    <bcf:citekey order="7">Kishony2003</bcf:citekey>
-    <bcf:citekey order="7">Yeh2006</bcf:citekey>
-    <bcf:citekey order="7">Chait2007</bcf:citekey>
-    <bcf:citekey order="7">Larsson2014</bcf:citekey>
-    <bcf:citekey order="7">Kavcic2020</bcf:citekey>
-    <bcf:citekey order="7">Angermayr2022</bcf:citekey>
-    <bcf:citekey order="8">Salisbury1999</bcf:citekey>
-    <bcf:citekey order="8">Beard2002</bcf:citekey>
-    <bcf:citekey order="8">Alloush2003</bcf:citekey>
-    <bcf:citekey order="9">Kishony2003</bcf:citekey>
-    <bcf:citekey order="10">Wang2010</bcf:citekey>
-    <bcf:citekey order="11">Eagle1949</bcf:citekey>
-    <bcf:citekey order="12">Besnard2002</bcf:citekey>
-    <bcf:citekey order="12">Oliver2005</bcf:citekey>
-    <bcf:citekey order="12">Li2014</bcf:citekey>
-    <bcf:citekey order="13">Pearson1980</bcf:citekey>
-    <bcf:citekey order="13">Eng1991</bcf:citekey>
-    <bcf:citekey order="13">Coates2018</bcf:citekey>
-    <bcf:citekey order="14">Salisbury1999</bcf:citekey>
-    <bcf:citekey order="14">Marques2005</bcf:citekey>
-    <bcf:citekey order="15">Levine1998</bcf:citekey>
-    <bcf:citekey order="16">Besnard2002</bcf:citekey>
-    <bcf:citekey order="16">Wu2024</bcf:citekey>
-    <bcf:citekey order="16">Fanous2025</bcf:citekey>
-    <bcf:citekey order="17">Gleckman1981</bcf:citekey>
-    <bcf:citekey order="18">Deslouches2005</bcf:citekey>
-    <bcf:citekey order="19">Eagle1949</bcf:citekey>
-    <bcf:citekey order="19">Baquero1986</bcf:citekey>
-    <bcf:citekey order="19">Besnard2002</bcf:citekey>
-    <bcf:citekey order="19">Oliver2005</bcf:citekey>
-    <bcf:citekey order="19">Li2014</bcf:citekey>
-    <bcf:citekey order="19">Wu2024</bcf:citekey>
-    <bcf:citekey order="20">Pearson1980</bcf:citekey>
-    <bcf:citekey order="20">Eng1991</bcf:citekey>
-    <bcf:citekey order="20">Coates2018</bcf:citekey>
-    <bcf:citekey order="21">Deguchi2011</bcf:citekey>
-    <bcf:citekey order="22">Regoes2004</bcf:citekey>
-    <bcf:citekey order="22">Kishony2003</bcf:citekey>
-    <bcf:citekey order="22">Yeh2006</bcf:citekey>
-    <bcf:citekey order="22">Chait2007</bcf:citekey>
-    <bcf:citekey order="22">Foerster2016</bcf:citekey>
-    <bcf:citekey order="22">Kavcic2020</bcf:citekey>
-    <bcf:citekey order="22">Angermayr2022</bcf:citekey>
-    <bcf:citekey order="23">Baquero1986</bcf:citekey>
-    <bcf:citekey order="23">Cayron2023</bcf:citekey>
-    <bcf:citekey order="24">Datsenko2000</bcf:citekey>
-    <bcf:citekey order="25">Hughes2015</bcf:citekey>
-    <bcf:citekey order="26">Kishony2003</bcf:citekey>
-    <bcf:citekey order="26">Bjarnason2003</bcf:citekey>
-    <bcf:citekey order="27">EUCAST2025</bcf:citekey>
-    <bcf:citekey order="28">Jett1997</bcf:citekey>
-  </bcf:section>
-  <!-- SECTION 0 (cont.) -->
-  <bcf:section number="0">
-  </bcf:section>
-  <!-- SECTION 6 -->
-  <bcf:bibdata section="6">
-    <bcf:datasource type="file" datatype="bibtex">bibliographies/TSPlasmid.bib</bcf:datasource>
-    <bcf:datasource type="file" datatype="bibtex">bibliographies/thesis.bib</bcf:datasource>
-    <bcf:datasource type="file" datatype="bibtex">bibliographies/Luminescence_Paper.bib</bcf:datasource>
-    <bcf:datasource type="file" datatype="bibtex">bibliographies/zenodo.bib</bcf:datasource>
-    <bcf:datasource type="file" datatype="bibtex">bibliographies/combination_paper.bib</bcf:datasource>
-  </bcf:bibdata>
-  <bcf:section number="6">
-    <bcf:citekey order="1">Coates2018</bcf:citekey>
-    <bcf:citekey order="2">Novozhilov2006</bcf:citekey>
-    <bcf:citekey order="3">Kendall1948</bcf:citekey>
-    <bcf:citekey order="4">Feller1939</bcf:citekey>
-    <bcf:citekey order="5">Coates2018</bcf:citekey>
-    <bcf:citekey order="6">soft_code</bcf:citekey>
-  </bcf:section>
-  <!-- SECTION 0 (cont.) -->
-  <bcf:section number="0">
-  </bcf:section>
-  <!-- SECTION 7 -->
-  <bcf:bibdata section="7">
-    <bcf:datasource type="file" datatype="bibtex">bibliographies/TSPlasmid.bib</bcf:datasource>
-    <bcf:datasource type="file" datatype="bibtex">bibliographies/thesis.bib</bcf:datasource>
-    <bcf:datasource type="file" datatype="bibtex">bibliographies/Luminescence_Paper.bib</bcf:datasource>
-    <bcf:datasource type="file" datatype="bibtex">bibliographies/zenodo.bib</bcf:datasource>
-    <bcf:datasource type="file" datatype="bibtex">bibliographies/combination_paper.bib</bcf:datasource>
-  </bcf:bibdata>
-  <bcf:section number="7">
+  <bcf:section number="3">
     <bcf:citekey order="1">Naghavi2024</bcf:citekey>
     <bcf:citekey order="2">Witzany2020</bcf:citekey>
     <bcf:citekey order="3">Gulick1997</bcf:citekey>
@@ -2472,35 +2342,18 @@
   <!-- SECTION 0 (cont.) -->
   <bcf:section number="0">
   </bcf:section>
-  <!-- SECTION 8 -->
-  <bcf:bibdata section="8">
+  <!-- SECTION 4 -->
+  <bcf:bibdata section="4">
     <bcf:datasource type="file" datatype="bibtex">bibliographies/TSPlasmid.bib</bcf:datasource>
     <bcf:datasource type="file" datatype="bibtex">bibliographies/thesis.bib</bcf:datasource>
     <bcf:datasource type="file" datatype="bibtex">bibliographies/Luminescence_Paper.bib</bcf:datasource>
     <bcf:datasource type="file" datatype="bibtex">bibliographies/zenodo.bib</bcf:datasource>
     <bcf:datasource type="file" datatype="bibtex">bibliographies/combination_paper.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex">bibliographies/manual_refs.bib</bcf:datasource>
   </bcf:bibdata>
-  <bcf:section number="8">
+  <bcf:section number="4">
     <bcf:citekey order="1">Bliss1939</bcf:citekey>
     <bcf:citekey order="2">Pedregosa2011</bcf:citekey>
-  </bcf:section>
-  <!-- SECTION 0 (cont.) -->
-  <bcf:section number="0">
-  </bcf:section>
-  <!-- SECTION 9 -->
-  <bcf:bibdata section="9">
-    <bcf:datasource type="file" datatype="bibtex">bibliographies/TSPlasmid.bib</bcf:datasource>
-    <bcf:datasource type="file" datatype="bibtex">bibliographies/thesis.bib</bcf:datasource>
-    <bcf:datasource type="file" datatype="bibtex">bibliographies/Luminescence_Paper.bib</bcf:datasource>
-    <bcf:datasource type="file" datatype="bibtex">bibliographies/zenodo.bib</bcf:datasource>
-    <bcf:datasource type="file" datatype="bibtex">bibliographies/combination_paper.bib</bcf:datasource>
-  </bcf:bibdata>
-  <bcf:section number="9">
-    <bcf:citekey order="1">Gregory2018</bcf:citekey>
-    <bcf:citekey order="2">Kishony2003</bcf:citekey>
-    <bcf:citekey order="3">Edgeworth2020</bcf:citekey>
-    <bcf:citekey order="4">Schwaber2011</bcf:citekey>
-    <bcf:citekey order="5">Kyaw2006</bcf:citekey>
   </bcf:section>
   <!-- SECTION 0 (cont.) -->
   <bcf:section number="0">
@@ -2540,51 +2393,6 @@
                 labelalphanametemplatename="global">
   </bcf:datalist>
   <bcf:datalist section="4"
-                name="none/global//global/global"
-                type="entry"
-                sortingtemplatename="none"
-                sortingnamekeytemplatename="global"
-                labelprefix=""
-                uniquenametemplatename="global"
-                labelalphanametemplatename="global">
-  </bcf:datalist>
-  <bcf:datalist section="5"
-                name="none/global//global/global"
-                type="entry"
-                sortingtemplatename="none"
-                sortingnamekeytemplatename="global"
-                labelprefix=""
-                uniquenametemplatename="global"
-                labelalphanametemplatename="global">
-  </bcf:datalist>
-  <bcf:datalist section="6"
-                name="none/global//global/global"
-                type="entry"
-                sortingtemplatename="none"
-                sortingnamekeytemplatename="global"
-                labelprefix=""
-                uniquenametemplatename="global"
-                labelalphanametemplatename="global">
-  </bcf:datalist>
-  <bcf:datalist section="7"
-                name="none/global//global/global"
-                type="entry"
-                sortingtemplatename="none"
-                sortingnamekeytemplatename="global"
-                labelprefix=""
-                uniquenametemplatename="global"
-                labelalphanametemplatename="global">
-  </bcf:datalist>
-  <bcf:datalist section="8"
-                name="none/global//global/global"
-                type="entry"
-                sortingtemplatename="none"
-                sortingnamekeytemplatename="global"
-                labelprefix=""
-                uniquenametemplatename="global"
-                labelalphanametemplatename="global">
-  </bcf:datalist>
-  <bcf:datalist section="9"
                 name="none/global//global/global"
                 type="entry"
                 sortingtemplatename="none"

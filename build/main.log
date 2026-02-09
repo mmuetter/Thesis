@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2021.2.1)  4 FEB 2026 22:34
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2021.2.1)  9 FEB 2026 17:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -23,47 +23,8 @@ Package: iftex 2020/03/06 v1.0d TeX engine tests
 \stockwidth=\skip51
 \trimtop=\skip52
 \trimedge=\skip53
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 677.
- (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/t1lmr.fd
-File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) (/usr/local/texlive/2020/texmf-dist/tex/latex/memoir/mem10.clo
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/memoir/mem10.clo
 File: mem10.clo 2008/01/30 v0.3 memoir class 10pt size option
-) (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/lmodern.sty
-Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
-LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
-(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
-(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
-(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
-(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
-) (/usr/local/texlive/2020/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
 )
 \binding=\skip54
 \spinemargin=\skip55
@@ -599,11 +560,11 @@ Package fontspec Info: Font family 'Erewhon-Math.otf(1)' created for font
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
 (Font)              `operators' in the math version `normal' on input line 35.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/lmr/m/n --> TU/Erewhon-Math.otf(1)/m/n on input line 35.
+(Font)                  OT1/cmr/m/n --> TU/Erewhon-Math.otf(1)/m/n on input line 35.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
 (Font)              `operators' in the math version `bold' on input line 35.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/lmr/bx/n --> TU/Erewhon-Math.otf(1)/b/n on input line 35.
+(Font)                  OT1/cmr/bx/n --> TU/Erewhon-Math.otf(1)/b/n on input line 35.
 
 Package fontspec Info: Erewhon-Math scale = 1.0001.
 
@@ -652,11 +613,11 @@ Package fontspec Info: Font family 'Erewhon-Math.otf(2)' created for font
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
 (Font)              `symbols' in the math version `normal' on input line 35.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
-(Font)                  OMS/lmsy/m/n --> TU/Erewhon-Math.otf(2)/m/n on input line 35.
+(Font)                  OMS/cmsy/m/n --> TU/Erewhon-Math.otf(2)/m/n on input line 35.
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
 (Font)              `symbols' in the math version `bold' on input line 35.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  OMS/lmsy/b/n --> TU/Erewhon-Math.otf(2)/b/n on input line 35.
+(Font)                  OMS/cmsy/b/n --> TU/Erewhon-Math.otf(2)/b/n on input line 35.
 
 Package fontspec Info: Erewhon-Math scale = 0.9999.
 
@@ -693,11 +654,11 @@ Package fontspec Info: Font family 'Erewhon-Math.otf(3)' created for font
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
 (Font)              `largesymbols' in the math version `normal' on input line 35.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
-(Font)                  OMX/lmex/m/n --> TU/Erewhon-Math.otf(3)/m/n on input line 35.
+(Font)                  OMX/cmex/m/n --> TU/Erewhon-Math.otf(3)/m/n on input line 35.
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
 (Font)              `largesymbols' in the math version `bold' on input line 35.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  OMX/lmex/m/n --> TU/Erewhon-Math.otf(3)/b/n on input line 35.
+(Font)                  OMX/cmex/m/n --> TU/Erewhon-Math.otf(3)/b/n on input line 35.
 
 Package fontspec Info: Font family 'Erewhon(0)' created for font 'Erewhon'
 (fontspec)             with options [Ligatures=TeX,Extension =
@@ -772,15 +733,17 @@ Package fontspec Info: Font family 'Erewhon(1)' created for font 'Erewhon'
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
 (Font)                  TU/Erewhon-Math.otf(1)/m/n --> TU/Erewhon(1)/m/n on input line 49.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/lmr/m/it --> TU/Erewhon(1)/m/it on input line 49.
+(Font)                  OT1/cmr/m/it --> TU/Erewhon(1)/m/it on input line 49.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/lmr/bx/n --> TU/Erewhon(1)/b/n on input line 49.
+(Font)                  OT1/cmr/bx/n --> TU/Erewhon(1)/b/n on input line 49.
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/helvet.sty
 Package: helvet 2005/04/12 PSNFSS-v9.2a (WaS) 
 )
 
 Package fontspec Info: Font family 'Optima(0)' created for font 'Optima' with
-(fontspec)             options [Ligatures=TeX].
+(fontspec)             options [Ligatures=TeX,UprightFont = *,ItalicFont = *
+(fontspec)             Italic,BoldFont = * Bold,BoldItalicFont = * Bold
+(fontspec)             Italic].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
@@ -788,51 +751,14 @@ Package fontspec Info: Font family 'Optima(0)' created for font 'Optima' with
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
 (fontspec)             <->"Optima/AAT:mapping=tex-text;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->"Optima/B/AAT:mapping=tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Optima
+(fontspec)             Bold/AAT:mapping=tex-text;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
-(fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->"Optima/I/AAT:mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"Optima
+(fontspec)             Italic/AAT:mapping=tex-text;"
 (fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->"Optima/BI/AAT:mapping=tex-text;"
-(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
-
-
-Package fontspec Info: Font family 'Futura(0)' created for font 'Futura' with
-(fontspec)             options [].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"Futura/OT:language=dflt;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->"Futura/B/OT:language=dflt;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
-(fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->"Futura/I/OT:language=dflt;"
-(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->"Futura/BI/OT:language=dflt;"
-(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
-
-
-Package fontspec Info: Font family 'Optima(1)' created for font 'Optima' with
-(fontspec)             options [].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Optima/AAT"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Optima/B/AAT"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
-(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"Optima/I/AAT"
-(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->"Optima/BI/AAT"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Optima Bold
+(fontspec)             Italic/AAT:mapping=tex-text;"
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
 
  (/usr/local/texlive/2020/texmf-dist/tex/latex/xcolor/xcolor.sty
@@ -2336,17 +2262,20 @@ Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/biblatex.cfg
 File: biblatex.cfg 
-)))
+))
+\c@appendixitem=\count571
+)
 
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
 
-\@quotelevel=\count571
-\@quotereset=\count572
+\@quotelevel=\count572
+\@quotereset=\count573
+
+LaTeX Warning: Unused global option(s):
+    [10.5pt].
+
 (/Users/malte/ETH-Documents/thesis/build/main.aux
-
-LaTeX Warning: Label `tab:drugs' multiply defined.
-
 
 LaTeX Warning: Label `eq:mu' multiply defined.
 
@@ -2376,23 +2305,16 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 9.
 LaTeX Font Info:    ... okay on input line 9.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 9.
 LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Trying to load font information for TU+utopia on input line 9.
-LaTeX Font Info:    No file TUutopia.fd. on input line 9.
-
-
-LaTeX Font Warning: Font shape `TU/utopia/m/n' undefined
-(Font)              using `TU/lmr/m/n' instead on input line 9.
-
 LaTeX Info: Redefining \dots on input line 9.
 LaTeX Info: Redefining \up on input line 9.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/lmss/m/n --> TU/phv/m/n on input line 9.
+(Font)                  OT1/cmss/m/n --> TU/phv/m/n on input line 9.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/lmss/bx/n --> TU/phv/b/n on input line 9.
+(Font)                  OT1/cmss/bx/n --> TU/phv/b/n on input line 9.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/lmtt/m/n --> TU/lmtt/m/n on input line 9.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 9.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/lmtt/m/n --> TU/lmtt/b/n on input line 9.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 9.
 LaTeX Info: Redefining \microtypecontext on input line 9.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -2400,9 +2322,295 @@ Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of spacing.
 Package microtype Info: No adjustment of kerning.
 Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `utopia' (encoding: TU).
+(microtype)             `Optima' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\k A'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/376(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\u A'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/376(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\k a'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/376(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\u a'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/376(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\'C'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/376(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\v C'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/376(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\'c'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/376(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\v c'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/376(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\v D'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/376(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\v d'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/376(protrusion)'.
+
+Package microtype Info: Character `\dj ' is missing
+(microtype)             in font `\TU/Optima(0)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\k E'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/376(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\v E'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/376(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\k e'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/376(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\v e'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/376(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\u G'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/376(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\u g'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/376(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\.I'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/376(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\'L'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/376(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\v L'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/376(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\'l'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/376(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\v l'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/376(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\'N'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/376(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\v N'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/376(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\'n'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/376(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\v n'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/376(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\H O'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/376(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\H o'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/376(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\'R'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/376(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\v R'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/376(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\'r'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/376(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\v r'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/376(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\'S'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/376(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\c S'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/376(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\'s'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/376(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\c s'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/376(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\c T'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/376(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\v T'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/376(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\c t'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/376(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\v t'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/376(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\H U'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/376(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\r U'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/376(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\H u'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/376(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\r u'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/376(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\'Z'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/376(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\.Z'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/376(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\'z'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/376(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\.z'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/376(protrusion)'.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
@@ -2459,7 +2667,7 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (/usr/local/texlive/2020/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count573
+\c@section@level=\count574
 )
 Redoing nameref's sectioning
 Redoing nameref's label
@@ -2502,18 +2710,7 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
- (/Users/malte/ETH-Documents/thesis/build/main.bbl
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database (refsection 9):
-(biblatex)                Gregory2018
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-)
-
-Package biblatex Warning: citation 'Gregory2018' was not found at all in the .bbl, bibliography labels cannot be generated, please correct the citation.
-
+ (/Users/malte/ETH-Documents/thesis/build/main.bbl)
 Package biblatex Info: Reference section=0 on input line 9.
 Package biblatex Info: Reference segment=0 on input line 9.
 Package microtype Info: Loading generic protrusion settings for font family
@@ -2637,10 +2834,6 @@ Package microtype Info: Character `\textexclamdown ' is missing
 Package microtype Info: Character `\textquestiondown ' is missing
 (microtype)             in font `\TU/Erewhon-Math.otf(1)/m/n/6'.
 (microtype)             Ignoring protrusion settings for this character.
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 9.
-(/usr/local/texlive/2020/texmf-dist/tex/latex/lm/omllmm.fd
-File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
 LaTeX Font Info:    Font shape `TU/Erewhon-Math.otf(2)/m/n' will be
 (Font)              scaled to size 10.00107pt on input line 9.
 Package microtype Info: Character `\textquoteleft ' is missing
@@ -3159,10 +3352,6 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-\blx@maxsegment@1=\count574
-\blx@sectionciteorder@1=\count575
-Package biblatex Info: Reference section=1 on input line 13.
-Package biblatex Info: Setting label 'refsection:1' on input line 13.
  (./front_matter/main.tex (./front_matter/0_titlepage.tex
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: xetex
@@ -3196,75 +3385,48 @@ Package biblatex Info: Setting label 'refsection:1' on input line 13.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-
-
-LaTeX Font Warning: Font shape `TU/utopia/b/n' undefined
-(Font)              using `TU/utopia/m/n' instead on input line 14.
-
-[1
+ [1
 
 
 
 ] [2
 
-]) (./front_matter/1a_Summary_EN.tex
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `Optima' (encoding: TU).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
+])
 
+LaTeX Font Warning: Font shape `TU/Optima(0)/m/sc' undefined
+(Font)              using `TU/Optima(0)/m/n' instead on input line 9.
 
-LaTeX Font Warning: Font shape `TU/Optima(1)/m/sc' undefined
-(Font)              using `TU/Optima(1)/m/n' instead on input line 3.
-
-) (./front_matter/1b_Summary_DE.tex [1
+(./front_matter/1a_Summary_EN.tex) [1
 
 
 ] [2
 
-]) [3]) [4]
 
-LaTeX Warning: Empty bibliography on input line 13.
+] (./front_matter/1b_Summary_DE.tex) [3] (/Users/malte/ETH-Documents/thesis/build/main.toc
+Overfull \hbox (6.94968pt too wide) in paragraph at lines 8--8
+ [][] [][]\TU/Optima(0)/b/n/10 The Impact of Treatment Strategies on the Epidemiological Dynamics of Plasmid- 
+ []
 
-Package biblatex Info: Reference section=0 on input line 13.
-(/Users/malte/ETH-Documents/thesis/build/main.toc)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [5
+)) [4
 
 ]
-
-LaTeX Font Warning: Font shape `TU/utopia/m/sc' undefined
-(Font)              using `TU/utopia/m/n' instead on input line 33.
-
-[6]
-\blx@maxsegment@2=\count576
-\blx@sectionciteorder@2=\count577
-Package biblatex Info: Reference section=2 on input line 33.
-Package biblatex Info: Setting label 'refsection:2' on input line 33.
- (./chapter_1/ch1.tex
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `Futura' (encoding: TU).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
+\blx@maxsegment@1=\count575
+\blx@sectionciteorder@1=\count576
+Package biblatex Info: Reference section=1 on input line 22.
+Package biblatex Info: Setting label 'refsection:1' on input line 22.
+ (./chapter_1/ch1.tex [1
 
 
-LaTeX Font Warning: Font shape `TU/utopia/m/it' undefined
-(Font)              using `TU/utopia/m/n' instead on input line 21.
-
-[1
-
-
-] [2]
+]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [3] [4]
-Missing character: There is no   in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no   in font [lmroman10-regular]:mapping=tex-text;!
-
+ [2]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [5]) [6]
+ [3]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4]) [5]
 Package microtype Info: Character `\textquoteleft ' is missing
 (microtype)             in font `\TU/Erewhon-Math.otf(1)/m/n/7'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -3344,7 +3506,7 @@ Package microtype Info: Character `\textquestiondown ' is missing
 (microtype)             in font `\TU/Erewhon-Math.otf(1)/m/n/5'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `TU/Erewhon-Math.otf(2)/m/n' will be
-(Font)              scaled to size 7.00075pt on input line 33.
+(Font)              scaled to size 7.00075pt on input line 22.
 Package microtype Info: Character `\textquoteleft ' is missing
 (microtype)             in font `\TU/Erewhon-Math.otf(2)/m/n/7'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -3385,7 +3547,7 @@ Package microtype Info: Character `\textquestiondown ' is missing
 (microtype)             in font `\TU/Erewhon-Math.otf(2)/m/n/7'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `TU/Erewhon-Math.otf(2)/m/n' will be
-(Font)              scaled to size 5.00053pt on input line 33.
+(Font)              scaled to size 5.00053pt on input line 22.
 Package microtype Info: Character `\textquoteleft ' is missing
 (microtype)             in font `\TU/Erewhon-Math.otf(2)/m/n/5'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -3426,7 +3588,7 @@ Package microtype Info: Character `\textquestiondown ' is missing
 (microtype)             in font `\TU/Erewhon-Math.otf(2)/m/n/5'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `TU/Erewhon-Math.otf(3)/m/n' will be
-(Font)              scaled to size 6.99925pt on input line 33.
+(Font)              scaled to size 6.99925pt on input line 22.
 Package microtype Info: Character `\textquoteleft ' is missing
 (microtype)             in font `\TU/Erewhon-Math.otf(3)/m/n/7'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -3467,7 +3629,7 @@ Package microtype Info: Character `\textquestiondown ' is missing
 (microtype)             in font `\TU/Erewhon-Math.otf(3)/m/n/7'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `TU/Erewhon-Math.otf(3)/m/n' will be
-(Font)              scaled to size 4.99947pt on input line 33.
+(Font)              scaled to size 4.99947pt on input line 22.
 Package microtype Info: Character `\textquoteleft ' is missing
 (microtype)             in font `\TU/Erewhon-Math.otf(3)/m/n/5'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -3586,7 +3748,7 @@ Package microtype Info: Character `\textquestiondown ' is missing
 (microtype)             in font `\TU/Erewhon-Math.otf(1)/b/n/5'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `TU/Erewhon-Math.otf(2)/b/n' will be
-(Font)              scaled to size 7.00075pt on input line 33.
+(Font)              scaled to size 7.00075pt on input line 22.
 Package microtype Info: Character `\textquoteleft ' is missing
 (microtype)             in font `\TU/Erewhon-Math.otf(2)/b/n/7'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -3627,7 +3789,7 @@ Package microtype Info: Character `\textquestiondown ' is missing
 (microtype)             in font `\TU/Erewhon-Math.otf(2)/b/n/7'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `TU/Erewhon-Math.otf(2)/b/n' will be
-(Font)              scaled to size 5.00053pt on input line 33.
+(Font)              scaled to size 5.00053pt on input line 22.
 Package microtype Info: Character `\textquoteleft ' is missing
 (microtype)             in font `\TU/Erewhon-Math.otf(2)/b/n/5'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -3668,7 +3830,7 @@ Package microtype Info: Character `\textquestiondown ' is missing
 (microtype)             in font `\TU/Erewhon-Math.otf(2)/b/n/5'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `TU/Erewhon-Math.otf(3)/b/n' will be
-(Font)              scaled to size 6.99925pt on input line 33.
+(Font)              scaled to size 6.99925pt on input line 22.
 Package microtype Info: Character `\textquoteleft ' is missing
 (microtype)             in font `\TU/Erewhon-Math.otf(3)/b/n/7'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -3709,7 +3871,7 @@ Package microtype Info: Character `\textquestiondown ' is missing
 (microtype)             in font `\TU/Erewhon-Math.otf(3)/b/n/7'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `TU/Erewhon-Math.otf(3)/b/n' will be
-(Font)              scaled to size 4.99947pt on input line 33.
+(Font)              scaled to size 4.99947pt on input line 22.
 Package microtype Info: Character `\textquoteleft ' is missing
 (microtype)             in font `\TU/Erewhon-Math.otf(3)/b/n/5'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -3749,27 +3911,17 @@ Package microtype Info: Character `\textexclamdown ' is missing
 Package microtype Info: Character `\textquestiondown ' is missing
 (microtype)             in font `\TU/Erewhon-Math.otf(3)/b/n/5'.
 (microtype)             Ignoring protrusion settings for this character.
-
-Overfull \hbox (0.27005pt too wide) in paragraph at lines 33--33
-[][][][][][][][][][][][] [] [][][][] [] [][][]$[]\TU/phv/m/n/7 . url: []$[][][][][] [] [] [] [][][] [] [][][][][][][][][][][][][][][][][][][][][] [] [][][] [] [][][][][][] [] [][][][][][][][][][][][] [] [][][] [] [][][][][][][][][][][][][][][][][] []
- []
-
-
-Overfull \hbox (43.30775pt too wide) in paragraph at lines 33--33
-[][][][][][][] [] [] [] [][][] [] [][][][][][][][][][][][][][][][][][][][][] [] [][][] [] [][][][][][] [] [][][][][][][][][][][][] [] [][][] [] [][][][][][][][][][][][][][][][][] [] [][][][][][][] [] [] [] [][][] [] [][][][][][][][][][][][][][][][][][][][][] []
- []
-
-[7
+ [6
 
 ]
-Package biblatex Info: Reference section=0 on input line 33.
-\blx@maxsegment@3=\count578
-\blx@sectionciteorder@3=\count579
-Package biblatex Info: Reference section=3 on input line 37.
-Package biblatex Info: Setting label 'refsection:3' on input line 37.
- (./chapter_2/ch2.tex (./commands.tex) [8] (./chapter_2/introduction.tex [9
+Package biblatex Info: Reference section=0 on input line 22.
+\blx@maxsegment@2=\count577
+\blx@sectionciteorder@2=\count578
+Package biblatex Info: Reference section=2 on input line 26.
+Package biblatex Info: Setting label 'refsection:2' on input line 26.
+ (./chapter_2/ch2.tex (./commands.tex) [7] [8
 
-]
+] [9] (./chapter_2/introduction.tex
 Package microtype Info: Character `\textquoteleft ' is missing
 (microtype)             in font `\TU/Erewhon-Math.otf(1)/b/n/10'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -3904,10 +4056,12 @@ either increase the head height or redesign the header
 
 Overfull \vbox (8.0pt too high) has occurred while \output is active []
 
- [10]
+ [10
 
-LaTeX Font Warning: Font shape `TU/utopia/b/sc' undefined
-(Font)              using `TU/utopia/b/n' instead on input line 45.
+]
+
+LaTeX Font Warning: Font shape `TU/Optima(0)/b/sc' undefined
+(Font)              using `TU/Optima(0)/b/n' instead on input line 45.
 
 Package microtype Info: Character `\textquoteleft ' is missing
 (microtype)             in font `\TU/Erewhon-Math.otf(1)/m/n/9'.
@@ -4152,52 +4306,42 @@ Package microtype Info: Character `\textquestiondown ' is missing
 (microtype)             in font `\TU/Erewhon-Math.otf(3)/b/n/9'.
 (microtype)             Ignoring protrusion settings for this character.
 
-Overfull \hbox (3.19087pt too wide) in paragraph at lines 52--52
-[]|\TU/utopia/m/sc/10 prevention| 
+Overfull \hbox (3.32088pt too wide) in paragraph at lines 52--52
+[]|\TU/Optima(0)/m/it/10 prevention| 
  []
 
 
-Overfull \hbox (11.21088pt too wide) in paragraph at lines 53--53
-[]|\TU/utopia/m/sc/10 containment| 
+Overfull \hbox (11.33087pt too wide) in paragraph at lines 53--53
+[]|\TU/Optima(0)/m/it/10 containment| 
  []
 
 
-Overfull \hbox (2.31088pt too wide) in paragraph at lines 54--54
-[]|\TU/utopia/m/sc/10 maximum-
+Overfull \hbox (1.20088pt too wide) in paragraph at lines 54--54
+[]|\TU/Optima(0)/m/it/10 maximum-
  []
 
 
-Overfull \hbox (2.33087pt too wide) in paragraph at lines 54--54
-\TU/utopia/m/sc/10 emergence| 
+Overfull \hbox (4.54088pt too wide) in paragraph at lines 54--54
+\TU/Optima(0)/m/it/10 emergence| 
  []
 
-) (./chapter_2/results.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [11]
+) (./chapter_2/results.tex [11]
 File: chapter_2/end_anova.pdf Graphic file (type pdf)
 <use chapter_2/end_anova.pdf>
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 
 Overfull \vbox (8.0pt too high) has occurred while \output is active []
 
  [12]
 File: chapter_2/scen3_paper.pdf Graphic file (type pdf)
 <use chapter_2/scen3_paper.pdf>
-
-
-LaTeX Warning: Float too large for page by 8.42546pt on input line 44.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [13]
 Overfull \vbox (8.0pt too high) has occurred while \output is active []
 
- [14] [15]
+ [14]
+Overfull \hbox (9.45897pt too wide) in paragraph at lines 63--66
+[]\TU/Optima(0)/m/sc/10 For the \TU/Optima(0)/m/it/10 maximum-emergence \TU/Optima(0)/m/sc/10 scenario, we observed that combination therapy, cycling, and monother-
+ []
+
 File: chapter_2/20220412_f_emergence_anova.pdf Graphic file (type pdf)
 <use chapter_2/20220412_f_emergence_anova.pdf>
 File: chapter_2/20220412_encounter_frequencies.pdf Graphic file (type pdf)
@@ -4209,639 +4353,93 @@ Underfull \hbox (badness 10000) in paragraph at lines 90--93
 [][] []
  []
 
-
-Underfull \vbox (badness 1939) has occurred while \output is active []
-
-
+[15]
 Overfull \vbox (8.0pt too high) has occurred while \output is active []
 
- [16]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [17]
-Overfull \vbox (8.0pt too high) has occurred while \output is active []
-
- [18]
+ [16] [17]
 File: chapter_2/wins_and_losses_preexisting.pdf Graphic file (type pdf)
 <use chapter_2/wins_and_losses_preexisting.pdf>
 File: chapter_2/wins_and_losses_no_preex.pdf Graphic file (type pdf)
 <use chapter_2/wins_and_losses_no_preex.pdf>
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 ) (./chapter_2/discussion.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [19]
+
+Overfull \vbox (8.0pt too high) has occurred while \output is active []
+
+ [18]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [19]) (./chapter_2/methods.tex
+Overfull \hbox (1.3263pt too wide) in paragraph at lines 4--7
+\TU/Optima(0)/m/sc/10 nario) or 5 $[][][][][]$ (\TU/Optima(0)/m/it/10 containment \TU/Optima(0)/m/sc/10 and \TU/Optima(0)/m/it/10 max-emergence \TU/Optima(0)/m/sc/10 scenario) chloramphenicol as a liquid medium
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Overfull \vbox (8.0pt too high) has occurred while \output is active []
 
  [20]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [21]) (./chapter_2/methods.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \vbox (8.0pt too high) has occurred while \output is active []
-
- [22] [23]
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `Erewhon' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
+ [21]
+Overfull \vbox (8.0pt too high) has occurred while \output is active []
 
+ [22]
+Overfull \hbox (7.28697pt too wide) in paragraph at lines 64--66
+[]\TU/Optima(0)/b/n/10 Scenarios.[] \TU/Optima(0)/m/sc/10 We conducted experiments for three scenarios (\TU/Optima(0)/m/it/10 prevention\TU/Optima(0)/m/sc/10 , \TU/Optima(0)/m/it/10 containment\TU/Optima(0)/m/sc/10 , and \TU/Optima(0)/m/it/10 maximum-
+ []
+
+
+Overfull \hbox (21.8343pt too wide) in paragraph at lines 82--84
+\TU/Optima(0)/m/sc/10 94 \TU/Optima(0)/m/it/10 in silico \TU/Optima(0)/m/sc/10 patients, each capable of adopting one of six resistance profiles $[] [] [][][] [][] [][][] [][][] [][][][] [][][][][][][][]$.
+ []
+
+[23]) (./chapter_2/acknow.tex))
 Overfull \vbox (8.0pt too high) has occurred while \output is active []
 
  [24]
-Overfull \hbox (11.12035pt too wide) in paragraph at lines 64--66
-[]\TU/Optima(1)/b/n/10 Scenarios.[] \TU/utopia/m/sc/10 We conducted experiments for three scenarios (prevention, containment, and maximum-
- []
+Package biblatex Info: Reference section=0 on input line 26.
+\blx@maxsegment@3=\count579
+\blx@sectionciteorder@3=\count580
+Package biblatex Info: Reference section=3 on input line 34.
+Package biblatex Info: Setting label 'refsection:3' on input line 34.
+ (./chapter_4/ch4.tex (./commands.tex) [25
 
+] [26
 
-Underfull \vbox (badness 3386) has occurred while \output is active []
-
- [25]
-Overfull \hbox (23.8577pt too wide) in paragraph at lines 82--84
-\TU/utopia/m/sc/10 94 in silico patients, each capable of adopting one of six resistance profiles $[] [] [][][] [][] [][][] [][][] [][][][] [][][][][][][][]$.
- []
-
-
-Overfull \vbox (8.0pt too high) has occurred while \output is active []
-
- [26]) (./chapter_2/acknow.tex)) [27]
-Package biblatex Info: Reference section=0 on input line 37.
-\blx@maxsegment@4=\count580
-\blx@sectionciteorder@4=\count581
-Package biblatex Info: Reference section=4 on input line 38.
-Package biblatex Info: Setting label 'refsection:4' on input line 38.
- (./chapter_2_sup/ch2_sup.tex (./settings/si_settings.tex) (./chapter_2_sup/commands.tex
-\tikzbox=\box100
-) (./chapter_2_sup/SI_text.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
+] [27] (./chapter_4/11_introduction.tex
 Overfull \vbox (8.0pt too high) has occurred while \output is active []
 
  [28
 
-]
-Overfull \hbox (1.25636pt too wide) in paragraph at lines 12--17
-\TU/utopia/m/sc/10 followed by selection for ampicillin and chloramphenicol resistance. This results in the ceftazidime-
- []
+]) (./chapter_4/12_results.tex
+File: chapter_4/figures/peptide_interaction.pdf Graphic file (type pdf)
+<use chapter_4/figures/peptide_interaction.pdf>
 
-
-Overfull \hbox (5.77966pt too wide) in paragraph at lines 27--32
-[]\TU/Optima(1)/b/n/10 Conjugation Protocol.[][] \TU/utopia/m/sc/10 We used ampicillin-resistant and chloramphenicol-sensitive original donors
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 2556) has occurred while \output is active []
 
  [29]
 Overfull \vbox (8.0pt too high) has occurred while \output is active []
 
- [30] [31]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \vbox (8.0pt too high) has occurred while \output is active []
-
- [32] [33]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \vbox (8.0pt too high) has occurred while \output is active []
-
- [34]
-Underfull \vbox (badness 5345) has occurred while \output is active []
-
- [35]
-Overfull \vbox (8.0pt too high) has occurred while \output is active []
-
- [36] [37]
-Overfull \vbox (8.0pt too high) has occurred while \output is active []
-
- [38]) [39] (./chapter_2_sup/SI_figures.tex
-File: chapter_2_sup/figures/setup.pdf Graphic file (type pdf)
-<use chapter_2_sup/figures/setup.pdf>
-File: chapter_2_sup/figures/20210417_timeplot.pdf Graphic file (type pdf)
-<use chapter_2_sup/figures/20210417_timeplot.pdf>
-
-
-LaTeX Font Warning: Font shape `TU/utopia/b/it' undefined
-(Font)              using `TU/utopia/b/n' instead on input line 23.
-
-(./chapter_2_sup/tikz/stoch_exp.tex) (./chapter_2_sup/tikz/stoch_val.tex) (./chapter_2_sup/tikz/stoch_var.tex
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-) (./chapter_2_sup/tikz/stoch_par.tex)
-File: chapter_2_sup/figures/20220127_timeplot.pdf Graphic file (type pdf)
-<use chapter_2_sup/figures/20220127_timeplot.pdf>
-
-Overfull \vbox (8.0pt too high) has occurred while \output is active []
-
- [40] [41]
-Overfull \vbox (8.0pt too high) has occurred while \output is active []
-
- [42] [43]
-File: chapter_2_sup/figures/20220412_Ar_resulting_phenotypes.pdf Graphic file (type pdf)
-<use chapter_2_sup/figures/20220412_Ar_resulting_phenotypes.pdf>
-
-Overfull \hbox (9.99998pt too wide) in paragraph at lines 59--59
- [][] 
+ [30]
+Overfull \hbox (1.63275pt too wide) in paragraph at lines 46--49
+\TU/Optima(0)/m/sc/10 control and treatment wells with replacement (Methods, []Appendix A7[][]). Throughout this manuscript,
  []
 
-(./chapter_2_sup/tikz/phenotyping.tex)
-Overfull \hbox (8.87999pt too wide) in paragraph at lines 59--68
-[][]     []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 59--68
-
- []
-
-
-Overfull \vbox (8.0pt too high) has occurred while \output is active []
-
- [44]
-File: chapter_2_sup/figures/plasmid_costs.pdf Graphic file (type pdf)
-<use chapter_2_sup/figures/plasmid_costs.pdf>
- [45]
-File: chapter_2_sup/figures/20210417_timeplot_clean.pdf Graphic file (type pdf)
-<use chapter_2_sup/figures/20210417_timeplot_clean.pdf>
-File: chapter_2_sup/figures/wins_and_losses_clean_preexisting.pdf Graphic file (type pdf)
-<use chapter_2_sup/figures/wins_and_losses_clean_preexisting.pdf>
-File: chapter_2_sup/figures/wins_and_losses_clean_no_preex.pdf Graphic file (type pdf)
-<use chapter_2_sup/figures/wins_and_losses_clean_no_preex.pdf>
-)
-Overfull \vbox (8.0pt too high) has occurred while \output is active []
-
- [46] [47] (./chapter_2_sup/SI_tables.tex
-Overfull \hbox (83.10559pt too wide) in paragraph at lines 18--19
- [][] 
- []
-
-(./chapter_2_sup/tables/man_ferroni.tex)
-Overfull \hbox (44.80635pt too wide) in paragraph at lines 1--27
- [][] 
- []
-
-(./chapter_2_sup/tables/loss_data.tex)
-Overfull \hbox (70.09555pt too wide) in paragraph at lines 1--39
- [][] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \vbox (8.0pt too high) has occurred while \output is active []
-
- [48
-
-
-
-
-
-] (./chapter_2_sup/tables/growthcurves_and_rates.tex)
-Overfull \hbox (12.38327pt too wide) in paragraph at lines 75--86
- [][] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [49] (./chapter_2_sup/tables/best_stats_no_preex.tex)
-Overfull \hbox (27.70892pt too wide) in paragraph at lines 1--135
- [][] 
- []
-
-(./chapter_2_sup/tables/worst_stats_no_preex.tex)
-Overfull \hbox (6.86891pt too wide) in paragraph at lines 1--144
- [][] 
- []
-
-(./chapter_2_sup/tables/best_stats_preexisting.tex)
-Overfull \hbox (27.70892pt too wide) in paragraph at lines 1--153
- [][] 
- []
-
-(./chapter_2_sup/tables/worst_stats_preexisting.tex)
-Overfull \hbox (6.86891pt too wide) in paragraph at lines 1--162
- [][] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \vbox (8.0pt too high) has occurred while \output is active []
-
- [50] (./chapter_2_sup/tables/win_loss_statistic_preexisting.tex) (./chapter_2_sup/tables/win_loss_statistic_no_preex.tex) (./chapter_2_sup/tables/win_loss_statistic_clean_preexisting.tex) (./chapter_2_sup/tables/win_loss_statistic_clean_no_preex.tex)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [51]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \vbox (8.0pt too high) has occurred while \output is active []
-
- [52]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [53]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \vbox (8.0pt too high) has occurred while \output is active []
-
- [54] (./chapter_2_sup/tables/20210417U_anova.tex) (./chapter_2_sup/tables/20210417U_tukey.tex)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [55] (./chapter_2_sup/tables/20210417single_anova.tex) (./chapter_2_sup/tables/20210417single_tukey.tex)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \vbox (8.0pt too high) has occurred while \output is active []
-
- [56] (./chapter_2_sup/tables/20210417double_anova.tex) (./chapter_2_sup/tables/20210417double_tukey.tex)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [57] (./chapter_2_sup/tables/20220127U_anova.tex) (./chapter_2_sup/tables/20220127U_tukey.tex)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \vbox (8.0pt too high) has occurred while \output is active []
-
- [58] (./chapter_2_sup/tables/20220127single_anova.tex) (./chapter_2_sup/tables/20220127single_tukey.tex)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [59] (./chapter_2_sup/tables/20220127double_anova.tex) (./chapter_2_sup/tables/20220412U_anova.tex) (./chapter_2_sup/tables/20220412U_tukey.tex)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \vbox (8.0pt too high) has occurred while \output is active []
-
- [60] (./chapter_2_sup/tables/20220412single_anova.tex) (./chapter_2_sup/tables/20220412single_tukey.tex)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [61] (./chapter_2_sup/tables/20220412double_anova.tex) (./chapter_2_sup/tables/20220412double_tukey.tex)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \vbox (8.0pt too high) has occurred while \output is active []
-
- [62] (./chapter_2_sup/tables/emergence_anova.tex) (./chapter_2_sup/tables/emergence_tukey.tex)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [63] (./chapter_2_sup/tables/superinfection_anova.tex) (./chapter_2_sup/tables/superinfection_tukey.tex)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \vbox (8.0pt too high) has occurred while \output is active []
-
- [64] (./chapter_2_sup/tables/treatment_emergence_anova.tex) (./chapter_2_sup/tables/treatment_emergence_tukey.tex))) [65]
-Package biblatex Info: Reference section=0 on input line 38.
-\blx@maxsegment@5=\count582
-\blx@sectionciteorder@5=\count583
-Package biblatex Info: Reference section=5 on input line 42.
-Package biblatex Info: Setting label 'refsection:5' on input line 42.
- (./chapter_3/ch3.tex (./commands.tex)
-Overfull \vbox (8.0pt too high) has occurred while \output is active []
-
- [66
-
-] (./chapter_3/11_introduction.tex [67
-
-]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [68]) (./chapter_3/12_results.tex
-File: chapter_3/figures/rate_plot.pdf Graphic file (type pdf)
-<use chapter_3/figures/rate_plot.pdf>
-File: chapter_3/figures/pex_rates.pdf Graphic file (type pdf)
-<use chapter_3/figures/pex_rates.pdf>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [69] [70] [71]
-File: chapter_3/figures/volume_summary_pre.pdf Graphic file (type pdf)
-<use chapter_3/figures/volume_summary_pre.pdf>
-File: chapter_3/figures/volume_summary_post.pdf Graphic file (type pdf)
-<use chapter_3/figures/volume_summary_post.pdf>
- [72] [73]
-Underfull \vbox (badness 7221) has occurred while \output is active []
-
- [74]
-File: chapter_3/figures/sensitivity_analysis.pdf Graphic file (type pdf)
-<use chapter_3/figures/sensitivity_analysis.pdf>
- [75] [76]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [77]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [78]) [79] (./chapter_3/13_discussion.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [80]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [81]) (./chapter_3/14_methods.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [82]
-Overfull \hbox (6.93636pt too wide) in paragraph at lines 26--30
-[]\TU/utopia/b/it/10 The platform is controlled by custom-generated worklists executed in the native software “Evoware”.
- []
-
-
-Underfull \vbox (badness 3128) has occurred while \output is active []
-
- [83]
-Overfull \hbox (6.96167pt too wide) in paragraph at lines 49--54
-[]\TU/Optima(1)/b/n/10 Morphology experiments.[] \TU/utopia/b/it/10 To assess treatment-induced morphological changes, we imaged treated
- []
-
-[84])) [85]
-Overfull \hbox (2.15347pt too wide) in paragraph at lines 42--42
-\TU/phv/m/n/7 issn: 10766294. doi: []$[][] [] [][][][] [] [][][][][][][][][][][][][][][][][][]$[]. url: []$[][][][][] [] [] [] [][][] [] [][][][][][][][][][] [] [][][] [] [][][] [] [][] [] [][][][] [] [][][][][][][][][][][][][][][][][][]$[]. 
- []
-
-[86
-
-] [87]
-Package biblatex Info: Reference section=0 on input line 42.
-\blx@maxsegment@6=\count584
-\blx@sectionciteorder@6=\count585
-Package biblatex Info: Reference section=6 on input line 43.
-Package biblatex Info: Setting label 'refsection:6' on input line 43.
- (./chapter_3sup/ch3_sup.tex (./commands.tex) (./settings/si_settings.tex)
-\draftwidth=\skip366
- (./settings/si_settings.tex) (./chapter_3sup/si_text.tex [88] [89] [90]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [91] [92] [93] [94] [95] [96] [97] [98] [99]
-Overfull \hbox (7.12634pt too wide) in paragraph at lines 464--468
-[]\TU/utopia/b/it/10 We observed a substantial effect of both supplements on the measured bacterial density ([]Fig. S3.38[][]a,
- []
-
-
-Underfull \vbox (badness 1097) has occurred while \output is active []
-
- [100]) (./chapter_3sup/si_tables.tex (./chapter_3sup/tables/drug_table.tex
-
-LaTeX Font Warning: Font shape `TU/phv/b/n' undefined
-(Font)              using `TU/phv/m/n' instead on input line 10.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 18--18
-[]||[]\TU/phv/b/n/10 cwork
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 22--22
-[]||[]\TU/phv/b/n/10 cwork
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 102--102
-[]||\TU/phv/b/n/10 ThermoFisher,
- []
-
-
-Overfull \hbox (15.37476pt too wide) in paragraph at lines 154--154
-[]||\TU/phv/b/n/10 Chloramphenicol| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 246--246
-[]||\TU/phv/b/n/10 VWR,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 270--270
-[]||\TU/phv/b/n/10 VWR, APOS-
- []
-
-
-Overfull \hbox (2.34476pt too wide) in paragraph at lines 490--490
-[]||\TU/phv/b/n/10 Trimethoprim| 
- []
-
-)
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-(./chapter_3sup/tables/comparison_table.tex)
-Overfull \hbox (121.80797pt too wide) in paragraph at lines 1--21
-[][]
- []
-
-(./chapter_3sup/tables/morph_post.tex)
-Overfull \hbox (104.31636pt too wide) in paragraph at lines 1--33
- [][] 
- []
-
-(./chapter_3sup/tables/group_summary.tex) (./chapter_3sup/tables/supernatant.tex)
-Overfull \hbox (67.23633pt too wide) in paragraph at lines 61--70
- [][] 
- []
-
-) (./chapter_3sup/si_figures.tex
-File: chapter_3sup/figures/linearity.pdf Graphic file (type pdf)
-<use chapter_3sup/figures/linearity.pdf>
-File: chapter_3sup/figures/ampicillin_comp.pdf Graphic file (type pdf)
-<use chapter_3sup/figures/ampicillin_comp.pdf>
-File: chapter_3sup/figures/ampicillin_low_comp.pdf Graphic file (type pdf)
-<use chapter_3sup/figures/ampicillin_low_comp.pdf>
-File: chapter_3sup/figures/cefepime_comp.pdf Graphic file (type pdf)
-<use chapter_3sup/figures/cefepime_comp.pdf>
-File: chapter_3sup/figures/ceftazidime_comp.pdf Graphic file (type pdf)
-<use chapter_3sup/figures/ceftazidime_comp.pdf>
-File: chapter_3sup/figures/cefuroxime_comp.pdf Graphic file (type pdf)
-<use chapter_3sup/figures/cefuroxime_comp.pdf>
-File: chapter_3sup/figures/chloramphenicol_comp.pdf Graphic file (type pdf)
-<use chapter_3sup/figures/chloramphenicol_comp.pdf>
-File: chapter_3sup/figures/ciprofloxacin_comp.pdf Graphic file (type pdf)
-<use chapter_3sup/figures/ciprofloxacin_comp.pdf>
-File: chapter_3sup/figures/colistin_comp.pdf Graphic file (type pdf)
-<use chapter_3sup/figures/colistin_comp.pdf>
-File: chapter_3sup/figures/doripenem_comp.pdf Graphic file (type pdf)
-<use chapter_3sup/figures/doripenem_comp.pdf>
-File: chapter_3sup/figures/fosfomycin_comp.pdf Graphic file (type pdf)
-<use chapter_3sup/figures/fosfomycin_comp.pdf>
-File: chapter_3sup/figures/imipenem_comp.pdf Graphic file (type pdf)
-<use chapter_3sup/figures/imipenem_comp.pdf>
-File: chapter_3sup/figures/mecillinam_comp.pdf Graphic file (type pdf)
-<use chapter_3sup/figures/mecillinam_comp.pdf>
-File: chapter_3sup/figures/meropenem_comp.pdf Graphic file (type pdf)
-<use chapter_3sup/figures/meropenem_comp.pdf>
-File: chapter_3sup/figures/penicillin_comp.pdf Graphic file (type pdf)
-<use chapter_3sup/figures/penicillin_comp.pdf>
-File: chapter_3sup/figures/piperacillin_comp.pdf Graphic file (type pdf)
-<use chapter_3sup/figures/piperacillin_comp.pdf>
-File: chapter_3sup/figures/polymyxinB_comp.pdf Graphic file (type pdf)
-<use chapter_3sup/figures/polymyxinB_comp.pdf>
-File: chapter_3sup/figures/rifampicin_comp.pdf Graphic file (type pdf)
-<use chapter_3sup/figures/rifampicin_comp.pdf>
-File: chapter_3sup/figures/tetracycline_comp.pdf Graphic file (type pdf)
-<use chapter_3sup/figures/tetracycline_comp.pdf>
-File: chapter_3sup/figures/trimethoprim_comp.pdf Graphic file (type pdf)
-<use chapter_3sup/figures/trimethoprim_comp.pdf>
-File: chapter_3sup/figures/pexiganan_low_comp.pdf Graphic file (type pdf)
-<use chapter_3sup/figures/pexiganan_low_comp.pdf>
-File: chapter_3sup/figures/pexiganan_comp.pdf Graphic file (type pdf)
-<use chapter_3sup/figures/pexiganan_comp.pdf>
-File: chapter_3sup/figures/od_sos_exp.pdf Graphic file (type pdf)
-<use chapter_3sup/figures/od_sos_exp.pdf>
-File: chapter_3sup/figures/lum_sos_exp.pdf Graphic file (type pdf)
-<use chapter_3sup/figures/lum_sos_exp.pdf>
-File: chapter_3sup/figures/od_per_lum_sos_exp.pdf Graphic file (type pdf)
-<use chapter_3sup/figures/od_per_lum_sos_exp.pdf>
-File: chapter_3sup/figures/diff_sos_exp.pdf Graphic file (type pdf)
-<use chapter_3sup/figures/diff_sos_exp.pdf>
- (./chapter_3sup/si_images.tex
-File: chapter_3sup/images/micro_ctrl_D1.pdf Graphic file (type pdf)
-<use chapter_3sup/images/micro_ctrl_D1.pdf>
-File: chapter_3sup/images/micro_ctrl_D1_2.pdf Graphic file (type pdf)
-<use chapter_3sup/images/micro_ctrl_D1_2.pdf>
-File: chapter_3sup/images/micro_ctrl_D1_3.pdf Graphic file (type pdf)
-<use chapter_3sup/images/micro_ctrl_D1_3.pdf>
-File: chapter_3sup/images/micro_ctrl1_2h.pdf Graphic file (type pdf)
-<use chapter_3sup/images/micro_ctrl1_2h.pdf>
-File: chapter_3sup/images/micro_ctrl2_2h.pdf Graphic file (type pdf)
-<use chapter_3sup/images/micro_ctrl2_2h.pdf>
-File: chapter_3sup/images/micro_ctrl3_2h.pdf Graphic file (type pdf)
-<use chapter_3sup/images/micro_ctrl3_2h.pdf>
-File: chapter_3sup/images/micro_amp1.pdf Graphic file (type pdf)
-<use chapter_3sup/images/micro_amp1.pdf>
-File: chapter_3sup/images/micro_amp2.pdf Graphic file (type pdf)
-<use chapter_3sup/images/micro_amp2.pdf>
-File: chapter_3sup/images/micro_amp3.pdf Graphic file (type pdf)
-<use chapter_3sup/images/micro_amp3.pdf>
-File: chapter_3sup/images/micro_amx1.pdf Graphic file (type pdf)
-<use chapter_3sup/images/micro_amx1.pdf>
-File: chapter_3sup/images/micro_amx2.pdf Graphic file (type pdf)
-<use chapter_3sup/images/micro_amx2.pdf>
-File: chapter_3sup/images/micro_amox2.pdf Graphic file (type pdf)
-<use chapter_3sup/images/micro_amox2.pdf>
-File: chapter_3sup/images/micro_caz_D1_1.pdf Graphic file (type pdf)
-<use chapter_3sup/images/micro_caz_D1_1.pdf>
-File: chapter_3sup/images/micro_caz_D1_2.pdf Graphic file (type pdf)
-<use chapter_3sup/images/micro_caz_D1_2.pdf>
-File: chapter_3sup/images/micro_caz_d1_3d.pdf Graphic file (type pdf)
-<use chapter_3sup/images/micro_caz_d1_3d.pdf>
-File: chapter_3sup/images/micro_cip.pdf Graphic file (type pdf)
-<use chapter_3sup/images/micro_cip.pdf>
-File: chapter_3sup/images/micro_cip2.pdf Graphic file (type pdf)
-<use chapter_3sup/images/micro_cip2.pdf>
-File: chapter_3sup/images/micro_cip3.pdf Graphic file (type pdf)
-<use chapter_3sup/images/micro_cip3.pdf>
-File: chapter_3sup/images/micro_col1.pdf Graphic file (type pdf)
-<use chapter_3sup/images/micro_col1.pdf>
-File: chapter_3sup/images/micro_col2.pdf Graphic file (type pdf)
-<use chapter_3sup/images/micro_col2.pdf>
-File: chapter_3sup/images/micro_col3.pdf Graphic file (type pdf)
-<use chapter_3sup/images/micro_col3.pdf>
-File: chapter_3sup/images/micro_fos1.pdf Graphic file (type pdf)
-<use chapter_3sup/images/micro_fos1.pdf>
-File: chapter_3sup/images/micro_fos2b.pdf Graphic file (type pdf)
-<use chapter_3sup/images/micro_fos2b.pdf>
-File: chapter_3sup/images/micro_fos3.pdf Graphic file (type pdf)
-<use chapter_3sup/images/micro_fos3.pdf>
-File: chapter_3sup/images/micro_mero1.pdf Graphic file (type pdf)
-<use chapter_3sup/images/micro_mero1.pdf>
-File: chapter_3sup/images/micro_mero2.pdf Graphic file (type pdf)
-<use chapter_3sup/images/micro_mero2.pdf>
-File: chapter_3sup/images/micro_mero3.pdf Graphic file (type pdf)
-<use chapter_3sup/images/micro_mero3.pdf>
-File: chapter_3sup/images/micro_pex1b.pdf Graphic file (type pdf)
-<use chapter_3sup/images/micro_pex1b.pdf>
-File: chapter_3sup/images/micro_pex2.pdf Graphic file (type pdf)
-<use chapter_3sup/images/micro_pex2.pdf>
-File: chapter_3sup/images/micro_pex3c.pdf Graphic file (type pdf)
-<use chapter_3sup/images/micro_pex3c.pdf>
-File: chapter_3sup/images/micro_rif1b.pdf Graphic file (type pdf)
-<use chapter_3sup/images/micro_rif1b.pdf>
-File: chapter_3sup/images/micro_rif2a.pdf Graphic file (type pdf)
-<use chapter_3sup/images/micro_rif2a.pdf>
-File: chapter_3sup/images/micro_rif3.pdf Graphic file (type pdf)
-<use chapter_3sup/images/micro_rif3.pdf>
-File: chapter_3sup/images/micro_tet1.pdf Graphic file (type pdf)
-<use chapter_3sup/images/micro_tet1.pdf>
-File: chapter_3sup/images/micro_tet2.pdf Graphic file (type pdf)
-<use chapter_3sup/images/micro_tet2.pdf>
-File: chapter_3sup/images/micro_tet3.pdf Graphic file (type pdf)
-<use chapter_3sup/images/micro_tet3.pdf>
-File: chapter_3sup/images/micro_tri1b.pdf Graphic file (type pdf)
-<use chapter_3sup/images/micro_tri1b.pdf>
-File: chapter_3sup/images/micro_tri2b.pdf Graphic file (type pdf)
-<use chapter_3sup/images/micro_tri2b.pdf>
-File: chapter_3sup/images/micro_tri3.pdf Graphic file (type pdf)
-<use chapter_3sup/images/micro_tri3.pdf>
-)
-File: chapter_3sup/figures/filamentation_summary_pre.pdf Graphic file (type pdf)
-<use chapter_3sup/figures/filamentation_summary_pre.pdf>
-File: chapter_3sup/figures/filamentation_summary_post.pdf Graphic file (type pdf)
-<use chapter_3sup/figures/filamentation_summary_post.pdf>
-File: chapter_3sup/figures/lambda_15_delta1.pdf Graphic file (type pdf)
-<use chapter_3sup/figures/lambda_15_delta1.pdf>
-File: chapter_3sup/figures/lambda_03_delta1.pdf Graphic file (type pdf)
-<use chapter_3sup/figures/lambda_03_delta1.pdf>
-File: chapter_3sup/figures/lambda_15_delta4.pdf Graphic file (type pdf)
-<use chapter_3sup/figures/lambda_15_delta4.pdf>
-File: chapter_3sup/figures/lambda_03_delta4.pdf Graphic file (type pdf)
-<use chapter_3sup/figures/lambda_03_delta4.pdf>
-File: chapter_3sup/figures/fila_violin.pdf Graphic file (type pdf)
-<use chapter_3sup/figures/fila_violin.pdf>
-File: chapter_3sup/figures/fila_vmean.pdf Graphic file (type pdf)
-<use chapter_3sup/figures/fila_vmean.pdf>
-File: chapter_3sup/figures/colony_formation_probability.pdf Graphic file (type pdf)
-<use chapter_3sup/figures/colony_formation_probability.pdf>
-File: chapter_3sup/figures/pexi_cacl2.png Graphic file (type bmp)
-<chapter_3sup/figures/pexi_cacl2.png>
-File: chapter_3sup/figures/pexi_mgcl2.png Graphic file (type bmp)
-<chapter_3sup/figures/pexi_mgcl2.png>
-Missing character: There is no 𝜇 in font [Erewhon-Regular.otf]/OT:script=latn;language=dflt;!
-Missing character: There is no 𝜇 in font [Erewhon-Regular.otf]/OT:script=latn;language=dflt;!
-File: chapter_3sup/figures/amp_hand_experiment_ctrl.pdf Graphic file (type pdf)
-<use chapter_3sup/figures/amp_hand_experiment_ctrl.pdf>
-File: chapter_3sup/figures/amp_hand_experiment_mgcl.pdf Graphic file (type pdf)
-<use chapter_3sup/figures/amp_hand_experiment_mgcl.pdf>
-File: chapter_3sup/figures/supernatant.pdf Graphic file (type pdf)
-<use chapter_3sup/figures/supernatant.pdf>
-)) [101] [102] [103] [104] [105] [106] [107] [108] [109] [110] [111] [112] [113] [114] [115] [116] [117] [118] [119] [120] [121] [122] [123] [124] [125] [126] [127] [128] [129] [130] [131] [132] [133] [134] [135]
-Package biblatex Info: Reference section=0 on input line 43.
-\blx@maxsegment@7=\count586
-\blx@sectionciteorder@7=\count587
-Package biblatex Info: Reference section=7 on input line 47.
-Package biblatex Info: Setting label 'refsection:7' on input line 47.
- (./chapter_4/ch4.tex (./commands.tex) [136
-
-] (./chapter_4/11_introduction.tex [137
-
-]
-Overfull \vbox (8.0pt too high) has occurred while \output is active []
-
- [138]) (./chapter_4/12_results.tex
-File: chapter_4/figures/peptide_interaction.pdf Graphic file (type pdf)
-<use chapter_4/figures/peptide_interaction.pdf>
- [139]
-Overfull \vbox (8.0pt too high) has occurred while \output is active []
-
- [140]
 File: chapter_4/figures/psi_chloramphenicol_tetracycline.pdf Graphic file (type pdf)
 <use chapter_4/figures/psi_chloramphenicol_tetracycline.pdf>
- [141]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [31]
 Overfull \vbox (8.0pt too high) has occurred while \output is active []
 
- [142]
+ [32]
 File: chapter_4/figures/distributions_triptych.pdf Graphic file (type pdf)
 <use chapter_4/figures/distributions_triptych.pdf>
 
@@ -4849,130 +4447,156 @@ Overfull \hbox (119.50267pt too wide) in paragraph at lines 114--127
  [][] 
  []
 
-[143]
-Underfull \vbox (badness 2538) has occurred while \output is active []
-
-
-Overfull \vbox (8.0pt too high) has occurred while \output is active []
-
- [144]
+[33]
 File: chapter_4/figures/surface_plot.pdf Graphic file (type pdf)
 <use chapter_4/figures/surface_plot.pdf>
-) (./chapter_4/13_discussion.tex [145]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
+) (./chapter_4/13_discussion.tex
 Overfull \vbox (8.0pt too high) has occurred while \output is active []
 
- [146]) (./chapter_4/14_methods.tex [147] (./chapter_4/tables/drug_table.tex
-Overfull \hbox (10.92996pt too wide) in paragraph at lines 6--7
-[]|\TU/utopia/b/it/9 ThermoFischer,
+ [34]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [35]) (./chapter_4/14_methods.tex (./chapter_4/tables/drug_table.tex
+Overfull \hbox (6.15096pt too wide) in paragraph at lines 6--7
+[]|\TU/Optima(0)/m/sc/9 ThermoFischer,
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 7--8
-[]|\TU/utopia/b/it/9 Sigma,
+[]|\TU/Optima(0)/m/sc/9 Sigma,
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 8--9
-[]|\TU/utopia/b/it/9 Sigma,
+[]|\TU/Optima(0)/m/sc/9 Sigma,
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 9--10
-[]|\TU/utopia/b/it/9 Roth,
+[]|\TU/Optima(0)/m/sc/9 Roth,
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 11--12
-[]|\TU/utopia/b/it/9 Sigma,
+[]|\TU/Optima(0)/m/sc/9 Sigma,
  []
 
 )
 Overfull \vbox (8.0pt too high) has occurred while \output is active []
 
- [148] [149]
+ [36] [37]
 Overfull \vbox (8.0pt too high) has occurred while \output is active []
 
- [150])) [151]
+ [38]) [39])
 Overfull \vbox (8.0pt too high) has occurred while \output is active []
 
- [152
-
-] [153]
-Overfull \vbox (8.0pt too high) has occurred while \output is active []
-
- [154]
-Package biblatex Info: Reference section=0 on input line 47.
-\blx@maxsegment@8=\count588
-\blx@sectionciteorder@8=\count589
-Package biblatex Info: Reference section=8 on input line 48.
-Package biblatex Info: Setting label 'refsection:8' on input line 48.
- (./chapter_4sup/ch4_sup.tex (./commands.tex) (./settings/si_settings.tex)
-\c@panelk=\count590
- (./chapter_4sup/si_text.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [155]
-Package mdframed Info: mdframed works in twoside mode on input line 59.
-
-Underfull \hbox (badness 10000) in paragraph at lines 60--61
-
- []
-
-
-Overfull \vbox (8.0pt too high) has occurred while \output is active []
-
- [156]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [157]
-Overfull \vbox (8.0pt too high) has occurred while \output is active []
-
- [158] [159]
-Package mdframed Info: mdframed works in twoside mode on input line 228.
-
-Overfull \vbox (8.0pt too high) has occurred while \output is active []
-
- [160]
-Package mdframed Info: mdframed works in twoside mode on input line 273.
- [161]
-Overfull \vbox (8.0pt too high) has occurred while \output is active []
-
- [162
+ [40]
+Missing character: There is no č in font Optima Regular/AAT:mapping=tex-text;!
+Missing character: There is no č in font Optima Regular/AAT:mapping=tex-text;!
+Missing character: There is no č in font Optima Regular/AAT:mapping=tex-text;!
+ [41
 
 ]
-Overfull \hbox (5.96762pt too wide) in paragraph at lines 330--331
-[]\TU/phv/b/n/10 For combination conditions, the corresponding mono-treatment growth rates $[][][][][][] [][]$ and $[][][][][] [][][]$
- []
-
-[163]
-Overfull \hbox (70.96953pt too wide) in paragraph at lines 363--368
-\TU/phv/b/n/10 dex axes, followed by bivariate spline interpolation on the $[][][] [][]$ grid (\TU/lmtt/m/n/10 scipy.interpolate.RectBivariateSpline\TU/phv/b/n/10 ).
- []
-
-
-Underfull \vbox (badness 1484) has occurred while \output is active []
-
+Missing character: There is no č in font Optima Regular/AAT:mapping=tex-text;!
+Missing character: There is no č in font Optima Regular/AAT:mapping=tex-text;!
+Missing character: There is no č in font Optima Regular/AAT:mapping=tex-text;!
 
 Overfull \vbox (8.0pt too high) has occurred while \output is active []
 
- [164
+ [42]
+Package biblatex Info: Reference section=0 on input line 34.
+ [43] [44
 
-]) (./chapter_4sup/si_tables.tex [165]
+]
+\blx@maxsegment@4=\count581
+\blx@sectionciteorder@4=\count582
+Package biblatex Info: Reference section=4 on input line 47.
+Package biblatex Info: Setting label 'refsection:4' on input line 47.
+ (./chapter_4sup/ch4_sup.tex (./commands.tex) (./settings/si_settings.tex)
+\c@panelk=\count583
+ [45] [46
+
+] [47] (./chapter_4sup/si_text.tex
+Package mdframed Info: mdframed works in twoside mode on input line 58.
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--60
+
+ []
+
+Package mdframed Info: Box was splittet wrong
+ starting loop to iterate the splitting point
+(mdframed)              on input line 78.
+
+Overfull \vbox (8.0pt too high) has occurred while \output is active []
+
+ [48
+
+]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Overfull \vbox (8.0pt too high) has occurred while \output is active []
 
- [166] (./chapter_4sup/tables/pd_params_all_drugs.tex)
-Overfull \hbox (61.96632pt too wide) in paragraph at lines 1--9
+ [49]
+Overfull \vbox (8.0pt too high) has occurred while \output is active []
+
+ [50]
+Package mdframed Info: mdframed works in twoside mode on input line 227.
+
+
+Package mdframed Warning: You got a bad break
+(mdframed)                because the last box will be empty
+(mdframed)                you have to change it manually
+(mdframed)                by changing the text, the space
+(mdframed)                or something else on input line 231.
+
+Package mdframed Info: You first box width is to small
+ mdframed fixed it
+(mdframed)              on input line 231.
+
+Overfull \vbox (8.0pt too high) has occurred while \output is active []
+
+ [51]
+
+Package mdframed Warning: You got a bad break
+(mdframed)                because the last split box is empty
+(mdframed)                You have to change the settings on input line 231.
+
+Package mdframed Info: mdframed works in twoside mode on input line 272.
+
+Overfull \vbox (8.0pt too high) has occurred while \output is active []
+
+ [52]
+Overfull \vbox (8.0pt too high) has occurred while \output is active []
+
+ [53
+
+]
+Overfull \vbox (8.0pt too high) has occurred while \output is active []
+
+ [54]
+Overfull \hbox (12.68752pt too wide) in paragraph at lines 362--367
+\TU/Optima(0)/m/sc/10 lowed by bivariate spline interpolation on the $[][][] [][]$ grid (\TU/lmtt/m/n/10 scipy.interpolate.RectBivariateSpline\TU/Optima(0)/m/sc/10 ).
+ []
+
+
+Overfull \vbox (8.0pt too high) has occurred while \output is active []
+
+ [55
+
+]) (./chapter_4sup/si_tables.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (8.0pt too high) has occurred while \output is active []
+
+ [56] (./chapter_4sup/tables/pd_params_all_drugs.tex)
+Overfull \hbox (87.67635pt too wide) in paragraph at lines 1--9
  [][] 
  []
 
 (./chapter_4sup/tables/interaction_summary_table.tex)
-\mlmbox=\box101
+\mlmbox=\box100
 ) (./chapter_4sup/si_figures.tex
 File: chapter_4sup/figures/timecourse_amoxicillin.pdf Graphic file (type pdf)
 <use chapter_4sup/figures/timecourse_amoxicillin.pdf>
@@ -4999,10 +4623,13 @@ Overfull \hbox (46.94797pt too wide) in paragraph at lines 38--38
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[167]
+
 Overfull \vbox (8.0pt too high) has occurred while \output is active []
 
- [168]
+ [57]
+Overfull \vbox (8.0pt too high) has occurred while \output is active []
+
+ [58]
 File: chapter_4sup/figures/pdcurve_amoxicillin.pdf Graphic file (type pdf)
 <use chapter_4sup/figures/pdcurve_amoxicillin.pdf>
 File: chapter_4sup/figures/pdcurve_chloramphenicol.pdf Graphic file (type pdf)
@@ -5025,7 +4652,10 @@ Overfull \hbox (46.94797pt too wide) in paragraph at lines 58--58
 [] [] 
  []
 
-[169]
+
+Overfull \vbox (8.0pt too high) has occurred while \output is active []
+
+ [59]
 File: chapter_4sup/figures/psi_amoxicillin_chloramphenicol.pdf Graphic file (type pdf)
 <use chapter_4sup/figures/psi_amoxicillin_chloramphenicol.pdf>
 File: chapter_4sup/figures/psi_amoxicillin_colistin.pdf Graphic file (type pdf)
@@ -5065,7 +4695,7 @@ LaTeX Warning: Float too large for page by 97.08456pt on input line 139.
 
 Overfull \vbox (8.0pt too high) has occurred while \output is active []
 
- [170]
+ [60]
 File: chapter_4sup/figures/mu_interaction_heatmap_amoxicillin_chloramphenicol.pdf Graphic file (type pdf)
 <use chapter_4sup/figures/mu_interaction_heatmap_amoxicillin_chloramphenicol.pdf>
 File: chapter_4sup/figures/mu_interaction_heatmap_amoxicillin_colistin.pdf Graphic file (type pdf)
@@ -5102,7 +4732,10 @@ File: chapter_4sup/figures/interaction_legend_bliss.pdf Graphic file (type pdf)
 
 LaTeX Warning: Float too large for page by 87.45464pt on input line 144.
 
-[171]
+
+Overfull \vbox (8.0pt too high) has occurred while \output is active []
+
+ [61]
 File: chapter_4sup/figures/fici_interaction_heatmap_amoxicillin_chloramphenicol.pdf Graphic file (type pdf)
 <use chapter_4sup/figures/fici_interaction_heatmap_amoxicillin_chloramphenicol.pdf>
 File: chapter_4sup/figures/fici_interaction_heatmap_amoxicillin_colistin.pdf Graphic file (type pdf)
@@ -5142,7 +4775,7 @@ LaTeX Warning: Float too large for page by 83.1978pt on input line 149.
 
 Overfull \vbox (8.0pt too high) has occurred while \output is active []
 
- [172]
+ [62]
 File: chapter_4sup/figures/loewe_vs_bliss_sup.pdf Graphic file (type pdf)
 <use chapter_4sup/figures/loewe_vs_bliss_sup.pdf>
 File: chapter_4sup/figures/loewe_vs_bliss_sub.pdf Graphic file (type pdf)
@@ -5154,17 +4787,17 @@ LaTeX Warning: Float too large for page by 50.79437pt on input line 172.
 File: chapter_4sup/figures/surface_psi.pdf Graphic file (type pdf)
 <use chapter_4sup/figures/surface_psi.pdf>
 
-LaTeX Warning: Float too large for page by 111.91127pt on input line 209.
+LaTeX Warning: Float too large for page by 100.91127pt on input line 209.
 
 File: chapter_4sup/figures/surface_pd.pdf Graphic file (type pdf)
 <use chapter_4sup/figures/surface_pd.pdf>
 
-LaTeX Warning: Float too large for page by 115.08658pt on input line 221.
+LaTeX Warning: Float too large for page by 115.62657pt on input line 221.
 
 File: chapter_4sup/figures/surface_isoboles.pdf Graphic file (type pdf)
 <use chapter_4sup/figures/surface_isoboles.pdf>
 
-LaTeX Warning: Float too large for page by 78.39693pt on input line 230.
+LaTeX Warning: Float too large for page by 67.39693pt on input line 230.
 
 File: chapter_4sup/figures/surface_angular_interaction.pdf Graphic file (type pdf)
 <use chapter_4sup/figures/surface_angular_interaction.pdf>
@@ -5175,66 +4808,55 @@ File: chapter_4sup/figures/dist_ratios.pdf Graphic file (type pdf)
 <use chapter_4sup/figures/dist_ratios.pdf>
 File: chapter_4sup/figures/inoculum_concentration_slopes.pdf Graphic file (type pdf)
 <use chapter_4sup/figures/inoculum_concentration_slopes.pdf>
-)) [173]
+))
 Overfull \vbox (8.0pt too high) has occurred while \output is active []
 
- [174] [175]
+ [63]
 Overfull \vbox (8.0pt too high) has occurred while \output is active []
 
- [176] [177]
+ [64]
 Overfull \vbox (8.0pt too high) has occurred while \output is active []
 
- [178] [179]
-Package biblatex Info: Reference section=0 on input line 48.
-
+ [65]
 Overfull \vbox (8.0pt too high) has occurred while \output is active []
 
- [180
+ [66]
+Overfull \vbox (8.0pt too high) has occurred while \output is active []
 
+ [67]
+Overfull \vbox (8.0pt too high) has occurred while \output is active []
 
+ [68]
+Overfull \vbox (8.0pt too high) has occurred while \output is active []
 
-
-
-
-]
-\blx@maxsegment@9=\count591
-\blx@sectionciteorder@9=\count592
-Package biblatex Info: Reference section=9 on input line 53.
-Package biblatex Info: Setting label 'refsection:9' on input line 53.
- (./chapter_5/ch5.tex
-Underfull \vbox (badness 4899) has occurred while \output is active []
-
- [181
-
-]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [182]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [183]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [184]) [185]
-Package biblatex Info: Reference section=0 on input line 53.
+ [69]
+Package biblatex Info: Reference section=0 on input line 47.
 
 
 Class memoir Warning: The material used in the headers is too large
 (24.0pt) for the given head height (16.0pt), it is recommended to
 either increase the head height or redesign the header
-(in both cases you will find help in the memoir manual). on input line 58.
+(in both cases you will find help in the memoir manual). on input line 49.
 
-[186
+
+Overfull \vbox (8.0pt too high) has occurred while \output is active []
+
+ [70
+
+
+
+
+
 
 ]
 \tf@toc=\write8
 \openout8 = `main.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 58.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 58.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 49.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 49.
  (/Users/malte/ETH-Documents/thesis/build/main.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 58.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 58.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 49.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 49.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -5242,18 +4864,18 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 58.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 49.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 52847 strings out of 479418
- 1068218 string characters out of 5884586
- 2635162 words of memory out of 5000000
- 68976 multiletter control sequences out of 15000+600000
- 556125 words of font info for 195 fonts, out of 8000000 for 9000
+ 50610 strings out of 479418
+ 1005514 string characters out of 5884586
+ 2162965 words of memory out of 5000000
+ 67086 multiletter control sequences out of 15000+600000
+ 546100 words of font info for 192 fonts, out of 8000000 for 9000
  1350 hyphenation exceptions out of 8191
- 70i,24n,120p,6407b,6396s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 70i,21n,120p,3053b,6385s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on /Users/malte/ETH-Documents/thesis/build/main.xdv (194 pages, 3728076 bytes).
+Output written on /Users/malte/ETH-Documents/thesis/build/main.xdv (76 pages, 1618608 bytes).

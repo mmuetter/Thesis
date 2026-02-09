@@ -8,18 +8,7 @@
 
 \begin{document}
 
-\frontmatter
-
-\subunit{front_matter/main.tex}
-\begin{summaryspacing}
-  \tableofcontents*
-\end{summaryspacing}
-
-\pagebreak
-\begin{enumerate}
-  \item \textcolor{red}{format frontpage for papers. Do it like niko. Abstract; Authors; Contributions; and manuscript accepted/submitted/in preparation.}
-  \item improve formatting of chapter and section titles
-\end{enumerate}
+\input{front_matter/main.tex}
 
 % %%%%%%%%%%%%%%%%%%%
 % Calling Appendix sections.
@@ -35,24 +24,26 @@
 % %%%%%%%%%%%%%%%%%%%
 % Chapter 2 - PNAS paper
 \subunit{chapter_2/ch2.tex}
-\subunit{chapter_2_sup/ch2_sup.tex}
 
 %% %%%%%%%%%%%%%%%%%%%
 %% Chapter 3 - Luminescence Paper
-\subunit{chapter_3/ch3.tex}
-\subunit{chapter_3sup/ch3_sup.tex}
+%\subunit{chapter_3/ch3.tex}
 %
 %% %%%%%%%%%%%%%%%%%%%
 %% Chapter 4 - Combination Paper
 \subunit{chapter_4/ch4.tex}
-\subunit{chapter_4sup/ch4_sup.tex}
 %
 %% %%%%%%%%%%%%%%%%%%%
 %% Chapter 5 - Concluding Remarks
-\chapter{Concluding Remarks}
-\subunit{chapter_5/ch5.tex}
+%\subunit{chapter_5/ch5.tex}
 
-\section*{Acknowledgements}
+\chapter*{Acknowledgements}
 Thank you all; you re great.
+
+%appendecies
+\appendix
+%\subunit{chapter_2_sup/ch2_sup.tex}
+%\subunit{chapter_3sup/ch3_sup.tex}
+\subunit{chapter_4sup/ch4_sup.tex}
 
 \end{document}

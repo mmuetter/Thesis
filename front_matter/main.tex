@@ -1,19 +1,21 @@
 % !TEX root = ../main.tex
 
-\documentclass[../main.tex]{subfiles}
+%\documentclass[../main.tex]{subfiles}
+\frontmatter
 
-\begin{document}
+%\begin{document}
 \input{front_matter/0_titlepage}
 
+\chapter*{Summary\markboth{SUMMARY}{}}
 \begin{summaryspacing}
   \input{front_matter/1a_Summary_EN}
 \end{summaryspacing}
 
+\chapter*{Zusammenfassung\markboth{ZUSAMMENFASSUNG}{}}\label{cha:summary}
 \begin{summaryspacing}
   \input{front_matter/1b_Summary_DE}
 \end{summaryspacing}
 
-%\chapter*{Preface}
-%about data and stuff...
+\tableofcontents*
 
-\end{document}
+%\end{document}

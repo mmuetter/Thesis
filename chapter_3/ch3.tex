@@ -2,26 +2,27 @@
 
 \documentclass[../main.tex]{subfiles}
 \input{commands.tex}
-\begin{document}
 
 % Paper-specific metadata
-\chapter{High-Throughput Quantification of Population Dynamics using Luminescence}
-
+\title{High-Throughput Quantification of Population Dynamics using Luminescence}
+\author{Malte Mütter, Daniel Angst, Roland Regoes, Sebastian Bonhoeffer}
 % Optional: include abstract if needed in thesis
-\section{abstract}
-The dynamics of bacterial population decline at antibiotic concentrations above the minimum inhibitory concentration (MIC) remain poorly characterized.
-This is because measuring colony-forming units (CFU), the standard assay to quantify inhibition, is slow, labour-intensive, costly, and can be unreliable at high drug concentrations.
-Luminescence assays are widely used to quantify population dynamics at subinhibitory concentrations, yet their limitations and reliability at super-MIC concentrations remain underexplored.
-To fill this gap, we compared luminescence- and CFU-based rates across 20 antimicrobials.
-In our experiments luminescence- and CFU-based rates did not differ significantly for half of them. For the other half, CFU-based estimates of rates of decline were consistently higher.
-The estimates differed for two main reasons:
-First, because light intensity tracks biomass more closely than population size, luminescence declined more slowly than the population when bacteria filamented.
-Second, CFU-based estimates indicated a steeper decline when antimicrobial treatment reduced the number of colonies formed per plated bacterium.
-This effect can result from changes in clustering behaviour, physiological changes that impair culturability, or antimicrobial carry-over.
-Thus, the suitability of luminescence to quantify bacterial decline depends on the physiological effects of the antimicrobial used (e.g. filamentation) and whether the quantity of interest is cell number or biomass.
-Within these limitations, luminescence can serve as an efficient, high-throughput alternative for quantifying bacterial dynamics at super-MIC concentrations.
+\manuscriptabstract{
+  The dynamics of bacterial population decline at antibiotic concentrations above the minimum inhibitory concentration (MIC) remain poorly characterized.
+  This is because measuring colony-forming units (CFU), the standard assay to quantify inhibition, is slow, labour-intensive, costly, and can be unreliable at high drug concentrations.
+  Luminescence assays are widely used to quantify population dynamics at subinhibitory concentrations, yet their limitations and reliability at super-MIC concentrations remain underexplored.
+  To fill this gap, we compared luminescence- and CFU-based rates across 20 antimicrobials.
+  In our experiments luminescence- and CFU-based rates did not differ significantly for half of them. For the other half, CFU-based estimates of rates of decline were consistently higher.
+  The estimates differed for two main reasons:
+  First, because light intensity tracks biomass more closely than population size, luminescence declined more slowly than the population when bacteria filamented.
+  Second, CFU-based estimates indicated a steeper decline when antimicrobial treatment reduced the number of colonies formed per plated bacterium.
+  This effect can result from changes in clustering behaviour, physiological changes that impair culturability, or antimicrobial carry-over.
+  Thus, the suitability of luminescence to quantify bacterial decline depends on the physiological effects of the antimicrobial used (e.g. filamentation) and whether the quantity of interest is cell number or biomass.
+  Within these limitations, luminescence can serve as an efficient, high-throughput alternative for quantifying bacterial dynamics at super-MIC concentrations.
+}
 
-% Include the actual content from text.tex
+\begin{document}
+\manuscriptfront
 
 \section{Introduction}
 \input{chapter_3/11_introduction.tex}
@@ -40,9 +41,4 @@ Analysis scripts, plate-handling worklists, colony-recognition code, and model c
 We thank Marco La Fortezza and Ricardo León Sampedro for assistance with microscopy imaging.
 During manuscript preparation, we used OpenAI’s ChatGPT for editorial assistance (grammar, phrasing, and proofreading).
 This work was supported by funding from ETH Zurich.
-
-%\input{chapter_3/acknow.tex}
-
-%\chapterbibliography
-
 \end{document}

@@ -5,7 +5,7 @@
 %----------------------------------------------------------
 % Base class
 %----------------------------------------------------------
-\LoadClass[a4paper,10pt,twoside,openright,extrafontsizes]{memoir}
+\LoadClass[a4paper,10.5pt,twoside,openright]{memoir}
 
 %----------------------------------------------------------
 % Encoding & language
@@ -20,13 +20,12 @@
 %----------------------------------------------------------
 \usepackage{helvet}
 \usepackage{fontspec}
-\setmainfont{Optima}
-\renewcommand{\rmdefault}{utopia}
-\renewcommand{\sfdefault}{phv}
-\renewcommand*\familydefault{\rmdefault}
-\newfontfamily\chapnumfontsf{Futura}
-\newfontfamily\chapterNumberFont{Futura}
-\newfontfamily\chaptitleoptima{Optima}
+\setmainfont[
+  UprightFont = * ,
+  ItalicFont = * Italic ,
+  BoldFont = * Bold ,
+  BoldItalicFont = * Bold Italic
+]{Optima}
 
 %----------------------------------------------------------
 % Colors
@@ -72,6 +71,7 @@
   \begingroup
   \SingleSpacing  % switch to single spacing
 }{%
+  \clearpage
   \endgroup
 }
 
@@ -83,39 +83,56 @@
 %----------------------------------------------------------
 % Chapter style
 %----------------------------------------------------------
+\makeatletter
 \makechapterstyle{fancyblock}{%
-  \setlength{\beforechapskip}{1em}
-  \setlength{\midchapskip}{0.5em}
-  \setlength{\afterchapskip}{0.3em}
+  \setlength{\beforechapskip}{0em}
+  \setlength{\midchapskip}{0em}
+  \setlength{\afterchapskip}{0em}
 
-  \renewcommand{\chapnamefont}{}
-  \renewcommand{\chapnumfont}{%
-    \chapnumfontsf\color{dark_blue!60}\fontsize{60}{60}\selectfont%
-  }
+  \renewcommand{\chapnamefont}{}%
+  \renewcommand{\chapnumfont}{}%
+
   \renewcommand{\chaptitlefont}{%
-    \chaptitleoptima\LARGE\scshape\MakeUppercase%
+    \large\scshape
   }
-  \renewcommand{\printchaptername}{}
-  \renewcommand{\printchapternum}{%
-    \hfill\makebox[0pt][r]{\chapnumfont\thechapter}%
-    \vspace*{-4em}%
-  }
-  \renewcommand{\afterchapternum}{\par}
+
+  \renewcommand{\printchaptername}{}%
+
+  % --- NEW: flag to detect starred chapters ---
+  \newif\if@fancy@numberedchapter
+  \renewcommand{\printchapternum}{\@fancy@numberedchaptertrue}%
+  \renewcommand{\printchapternonum}{\@fancy@numberedchapterfalse}%
+  \renewcommand{\afterchapternum}{}%
+
   \renewcommand{\printchaptertitle}[1]{%
     \begin{flushleft}%
-      \chaptitlefont ##1\\[0.5ex]
-      \rule{\textwidth}{0.4pt}%
+      \if@fancy@numberedchapter
+      {\normalfont\bfseries\Large\color{dark_blue!60}\@chapapp~\thechapter}\par
+      \fi
+      \chaptitlefont ##1\\%[0.5ex]
+      \vspace{-4mm}
+      \rule{\textwidth}{0.4pt}
     \end{flushleft}%
-  }
+  }%
 }
+\makeatother
 \chapterstyle{fancyblock}
+
+%----------------------------------------------------------
+% ToC entries: write literal "Chapter <n>" / "Appendix <letter>" into .toc
+%----------------------------------------------------------
+\makeatletter
+\renewcommand*{\cftchaptername}{\chaptername\space}
+\renewcommand*{\cftappendixname}{\appendixname\space}
+\setlength{\cftchapternumwidth}{2.0em}
+\makeatother
 
 %----------------------------------------------------------
 % Section titles
 %----------------------------------------------------------
-\setsecheadstyle{\large\chaptitleoptima}
-\setsubsecheadstyle{\normalsize\chaptitleoptima}
-\setparaheadstyle{\bfseries\normalsize\chaptitleoptima}
+\setsecheadstyle{\large}
+\setsubsecheadstyle{\normalsize}
+\setparaheadstyle{\bfseries\normalsize}
 \setbeforesecskip{3ex}
 \setaftersecskip{0.01ex}
 
@@ -129,7 +146,7 @@
 %----------------------------------------------------------
 % Spacing & layout
 %----------------------------------------------------------
-\linespread{1.6}
+\linespread{1.3}
 \feetatbottom
 \setlength{\footmarkwidth}{1em}
 \setlength{\footmarksep}{0em}
@@ -217,6 +234,7 @@
 \addbibresource{bibliographies/Luminescence_Paper.bib}
 \addbibresource{bibliographies/zenodo.bib}
 \addbibresource{bibliographies/combination_paper.bib}
+\addbibresource{bibliographies/manual_refs.bib}
 
 % optional font for bib
 \AtBeginBibliography{\scriptsize}
@@ -258,3 +276,44 @@
     \printbibliography[heading=none,env=compactbib]%
   \end{refsection}
 }
+
+% -------------------------------------------------
+%  Front matter blocks for included manuscripts
+% -------------------------------------------------
+\makeatletter
+
+\newcommand{\mabstract}{}
+\newcommand{\manuscriptabstract}[1]{\gdef\mabstract{#1}}
+
+\newcommand{\printauthors}[1]{%
+  {\normalfont\textbf{Authors:} #1\par}%
+  \rule{\textwidth}{0.4pt}
+}
+\newcommand{\manuscriptfront}{%
+  \chapter{\@title}%
+  \printauthors{\@author}%
+  %
+  \vspace*{1.0\baselineskip}%
+  \vspace*{0.25\baselineskip}%
+  {
+    \begin{abstract}
+      \mabstract
+  \end{abstract}}%
+  \clearpage
+}
+
+\makeatletter
+\newcounter{appendixitem}
+
+\newcommand{\appendixfront}{%
+  \refstepcounter{appendixitem}%
+  \chapter{\@title}%
+  \vspace*{0.75\baselineskip}%
+  \printauthors{\@author}%
+  \vspace*{1.0cm}%
+  {\normalfont\huge\itshape Supplementary Information\par}%
+  \vspace*{1.25\baselineskip}%
+  \clearpage
+}
+
+\makeatother

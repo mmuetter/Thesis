@@ -1,0 +1,162 @@
+
+
+\documentclass[onecolumn, times, supplement,labelsep=period, figurename=Fig.]{SimpleTemplate}
+
+% Lead author for footer
+\leadauthor{Muetter}
+
+\usepackage{graphicx}
+\usepackage{multirow}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{mathrsfs}
+\usepackage[title]{appendix}
+\usepackage{xcolor}
+\usepackage{textcomp}
+\usepackage{booktabs}
+\usepackage{algorithm}
+\usepackage{algorithmicx}
+\usepackage{algpseudocode}
+\usepackage{listings}
+\usepackage{siunitx}
+\usepackage{colortbl}
+\usepackage{subcaption}
+\usepackage{overpic}
+\usepackage{mhchem}
+\usepackage{hyperref}
+\usepackage{xr}
+\usepackage{xcite}
+\usepackage[switch]{lineno} 
+\usepackage{placeins}
+\usepackage{enumitem}
+\usepackage{stfloats}
+
+\sisetup{per-mode = fraction}
+\DeclareSIUnit\ml{ml}
+
+\renewcommand{\arraystretch}{1.25}
+\setlength{\aboverulesep}{-1pt} 
+\setlength{\belowrulesep}{-1pt}
+\definecolor{tablecolor}{rgb}{0.4, 0.7, 0.8}
+
+% Input custom macros, if they exist
+%\input{settings/crossref}
+%\input{settings/commands}
+
+\title{High-Throughput Quantification of Population Dynamics using Luminescence}
+\shorttitle{Luminescence-based quantification}
+
+\author[1,\Letter]{Malte Muetter}
+\author[1]{Daniel Angst}
+\author[1]{Roland Regoes}
+\author[1, \Letter]{Sebastian Bonhoeffer}
+
+\affil[1]{Department of Environmental Systems Science, ETH Zürich, Universitätstrasse 16, 8092 Zürich, Switzerland}
+
+%% NEEDS TO BE RESOLVED AFTER SUPPLEMENTARY IS FIXED
+%\input{settings/crossref}
+
+%\input{settings/packages.tex}
+%\input{settings/paper_info}
+
+\begin{document}
+\linenumbers
+\maketitle
+
+
+
+%%=============================================================%%
+%% GivenName	-> \fnm{Joergen W.}
+%% Particle	-> \spfx{van der} -> surname prefix
+%% FamilyName	-> \sur{Ploeg}
+%% Suffix	-> \sfx{IV}
+%% \author*[1,2]{\fnm{Joergen W.} \spfx{van der} \sur{Ploeg} 
+%%  \sfx{IV}}\email{iauthor@gmail.com}
+%%=============================================================%%
+
+\input{settings/commands}
+\begin{appendices}
+
+%\bmhead{Supplementary information}
+
+\renewcommand{\thesection}{S\arabic{section}}
+\renewcommand{\thesubsection}{S\arabic{section} \alph{subsection}}
+\renewcommand{\section}[1]{%
+  \clearpage % Start a new page
+  \suppressfloats[t] % Prevent floats from appearing before the section title
+  \refstepcounter{section}%
+  \vspace{3.5ex plus 1ex minus 0.2ex}%
+  {\noindent\Large\bfseries \thesection~ #1}%
+  \par
+}
+
+\renewcommand{\subsection}[1]{%
+  \refstepcounter{subsection}%
+  \vspace{3.25ex plus 1ex minus 0.2ex}%
+  {\noindent\large\bfseries \thesubsection\ #1}
+  \par
+}
+
+\section{Nomenclature}
+\begin{tabular}{l p{0.75\linewidth}}
+$B$                 & number of living bacteria in a well \\
+$v$                 & cell-specific mean volume \\
+$V$                 & cumulative cell volume, $V = vB$ \\
+$I$                 & measured light intensity (detector-recorded bioluminescence signal) \\
+$J$                 & volume-corrected bioluminescence signal, $J = I\,v_0 / v$ \\
+$\kappa$            & instrument-specific transfer factor (fraction of emitted light detected) \\
+$\theta$            & volume-specific luminosity (bioluminescence per cell volume) \\
+$\phi$              & cell-specific luminosity (bioluminescence per cell) \\
+$\omega$            & OD-normalized light intensity ($I$ divided by measured optical density) \\
+$\lambda$           & bacterial division rate \\
+$\gamma$            & biovolume acquisition rate \\
+$\delta$            & bacterial death rate \\
+$\tau$              & treatment effect \\
+$b$                 & bacterial density \\
+$c$                 & drug concentration \\
+$p_E$               & extinction probability of a lineage originating from a single plated bacterium \\
+$p_C$               & survival probability of a lineage from a single plated bacterium ($p_C = 1 - p_E$) \\
+$\eta$              & number of colonies per plated bacterium ($\eta \in [0, 1]$) \\
+$V_w$               & well volume \\
+$\epsilon$          & volume increment \\
+$\psi_X$            & rate of change of population property $X$ ($\psi_X = d\ln(X)/dt$), where $X \in \{B, V, I, J, \mathrm{CFU}\}$ \\
+\end{tabular}
+
+
+
+
+\renewcommand{\theequation}{S\arabic{equation}} % ADDED EQUATION NUMBERING
+\input{si_text}
+
+\section{Tables}
+\renewcommand{\thetable}{S\arabic{table}}
+\FloatBarrier
+\input{si_tables}
+ \FloatBarrier
+
+\section{Figures}
+\renewcommand{\thefigure}{S\arabic{figure}}
+\FloatBarrier
+\input{si_figures}
+\FloatBarrier
+
+
+
+
+
+\end{appendices}
+
+%%===========================================================================================%%
+%% If you are submitting to one of the Nature Portfolio journals, using the eJP submission   %%
+%% system, please include the references within the manuscript file itself. You may do this  %%
+%% by copying the reference list from your .bbl file, paste it into the main manuscript .tex %%
+%% file, and delete the associated \verb+\bibliography+ commands.                            %%
+%%===========================================================================================%%
+
+\section*{Bibliography}
+
+\bibliography{settings/Luminescence_Paper,settings/zenodo}% common bib file
+%% if required, the content of .bbl file can be included here once bbl is generated
+%%\input sn-article.bbl
+
+
+\end{document}

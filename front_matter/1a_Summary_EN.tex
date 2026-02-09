@@ -1,31 +1,21 @@
 %!TEX root = ../main.tex
 
-\chapter*{Summary\markboth{SUMMARY}{}}
-%\addcontentsline{toc}{chapter}{Summary}
+Since the discovery of penicillin, antibiotics have been a cornerstone of modern medicine.
+This achievement is now under threat, as bacteria have evolved resistance to all major classes of antibiotics.
+Slowing the rise of resistance will require changes in how existing antibiotics are deployed.
+In this thesis, we investigate the pharmacodynamics of drug combinations and how treatment strategies shape the dynamics of plasmid-mediated resistance.
 
-Since the discovery of penicillin, antibiotics have been a cornerstone of modern medicine, saving countless lives.
-This achievement is now under threat, as bacteria have evolved resistance mechanisms against most available drugs.
-Resistance arises through the acquisition of resistance genes—either via mutations or through horizontal transfer on mobile genetic elements such as plasmids—and is selected for according to the administered drugs, their concentrations, and the pharmacodynamics that link treatment to its effect on the bacterial population.
+In time-critical clinical emergencies such as sepsis, therapy cannot wait for phenotypic susceptibility testing and therefore relies on predefined empirical treatment strategies.
+Using large-scale automated \textit{in vitro} experiments that mimic hospital-like transmission dynamics, we quantified how such strategies affect the persistence of plasmid-mediated resistance and the emergence of double resistance.
+Across most scenarios, treating patients with two antibiotics simultaneously (combination therapy) was the most effective strategy.
 
-To curb the spread of resistance, antibiotics should ideally be chosen on the basis of phenotypic information.
-In emergency situations, however, this is not always feasible.
-Therapy then relies on predefined treatment protocols rather than tailored data.
-Chapter~2 examines how these default protocols (treatment strategies) influence the persistence of plasmid‑mediated resistance and the emergence of new double resistance.
-We performed large‑scale automated in‑vitro experiments that mimic hospital‑like transmission dynamics, using two antibiotics in combination with two resistance plasmids derived from clinical isolates.
+Because the effectiveness of combination therapy is shaped by drug interactions (i.e.\ synergy, antagonism, or independence), we next established a scalable way to quantify treatment effects on bacterial populations at clinically relevant concentrations.
+To this end, we assessed whether bioluminescence-based measurements are suitable to quantify population dynamics at clinically relevant, inhibitory antibiotic concentrations.
+For 20 antimicrobials, we compared bioluminescence trajectories to colony-forming unit (CFU) counts and supplemented these experiments with microscopy.
+We found that bioluminescence is a better proxy for biomass dynamics than for cell number dynamics, which matters when cells filament.
+Conversely, we observed that CFU-based estimates can be biased by drug-induced changes in culturability and by antibiotic carry-over.
 
-We found that administering both drugs to every patient (combination therapy) was the most effective strategy in most scenarios.
-Although theoretical models often predict the success of combination therapy, the clinical literature is less conclusive.
-This gap has several causes: some drug pairs act synergistically, whereby the combined effect exceeds the sum of single‑drug effects, whereas others act antagonistically, reducing overall efficacy.
-
-Drug interactions have so far been studied mainly at concentrations below the minimal inhibitory concentration (MIC), where growth can be tracked conveniently by optical density (OD).
-OD cannot measure bacterial decline, and probing the clinically relevant super‑MIC range—where bacteria are actively killed—requires colony‑forming‑unit (CFU) assays, which are labor‑intensive and unsuited to high throughput.
-
-Chapter~3 therefore evaluates whether a luminescence‑based high‑throughput method, previously validated for sub‑MIC conditions, can also track population dynamics across the entire concentration range.
-Using bacteria engineered to emit bioluminescent light, we show that this method accurately estimates net growth rates for drugs that do not induce significant filamentation.
-
-Building on these insights, Chapter~4 explores drug interactions for six antibiotics that performed well in the preceding validation.
-We analysed 15 drug pairs across 144 concentration combinations each, introducing a mathematical framework to describe the pharmacodynamics of combinations.
-By comparing observed effects to null models of non‑interaction, we classified pairs as neutral, synergistic or antagonistic, and demonstrated that interaction types can shift markedly between sub‑ and super‑MIC conditions.
-
-Together, these studies combine experimental and theoretical approaches to elucidate antibiotic effects on bacterial populations and resistance evolution.
-They deliver robust tools for quantifying population dynamics and bolster the case for combination therapy, while refining our understanding of drug–drug interactions across clinically relevant concentration ranges.
+Building on this bioluminescence-based approach, we quantified antibiotic interactions for 15 drug pairs, each on a checkerboard spanning non-inhibitory to inhibitory concentrations.
+We found that interaction types at non-inhibitory concentrations frequently differ from those at inhibitory concentrations.
+In addition, interaction types can vary with mixing ratio and depend on the chosen reference model.
+Together, these results highlight the potential of combination therapy, provide methodological insights to optimise it, and caution against uncritical extrapolation of findings across the measured concentration space.

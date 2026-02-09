@@ -1,17 +1,17 @@
 # Fdb version 3
-["biber chapter_2_sup/build/ch2_sup"] 1770221929 "chapter_2_sup/build/ch2_sup.bcf" "chapter_2_sup/build/ch2_sup.bbl" "chapter_2_sup/build/ch2_sup" 1770221939
+["biber chapter_2_sup/build/ch2_sup"] 1770221929 "chapter_2_sup/build/ch2_sup.bcf" "chapter_2_sup/build/ch2_sup.bbl" "chapter_2_sup/build/ch2_sup" 1770384816
   "bibliographies/TSPlasmid.bib" 1751928914 124566 ce61248be990702441e4662b5659b71c ""
-  "chapter_2_sup/build/ch2_sup.bcf" 1770221937 101824 58eecf205f9972b935dd8ad804425fc1 "xelatex"
+  "chapter_2_sup/build/ch2_sup.bcf" 1770384815 101824 58eecf205f9972b935dd8ad804425fc1 "xelatex"
   (generated)
   "chapter_2_sup/build/ch2_sup.bbl"
   "chapter_2_sup/build/ch2_sup.blg"
-["xdvipdfmx"] 1770221938 "/Users/malte/ETH-Documents/thesis/chapter_2_sup/build/ch2_sup.xdv" "/Users/malte/ETH-Documents/thesis/chapter_2_sup/build/ch2_sup.pdf" "/Users/malte/ETH-Documents/thesis/chapter_2_sup/build/ch2_sup" 1770221939
-  "/Users/malte/ETH-Documents/thesis/chapter_2_sup/build/ch2_sup.xdv" 1770221937 723220 65efa59ae4ac81bde4fbf3a93650ae1c "xelatex"
+["xdvipdfmx"] 1770384815 "/Users/malte/ETH-Documents/thesis/chapter_2_sup/build/ch2_sup.xdv" "/Users/malte/ETH-Documents/thesis/chapter_2_sup/build/ch2_sup.pdf" "/Users/malte/ETH-Documents/thesis/chapter_2_sup/build/ch2_sup" 1770384816
+  "/Users/malte/ETH-Documents/thesis/chapter_2_sup/build/ch2_sup.xdv" 1770384815 740840 eca3629084d53609eac42c95f2f6514c "xelatex"
   (generated)
   "/Users/malte/ETH-Documents/thesis/chapter_2_sup/build/ch2_sup.pdf"
-["xelatex"] 1770221932 "/Users/malte/ETH-Documents/thesis/chapter_2_sup/ch2_sup.tex" "/Users/malte/ETH-Documents/thesis/chapter_2_sup/build/ch2_sup.xdv" "ch2_sup" 1770221939
-  "/Users/malte/ETH-Documents/thesis/chapter_2_sup/build/ch2_sup.aux" 1770221937 67516 b769be89d1e439bc4de59979a752c4ae ""
-  "/Users/malte/ETH-Documents/thesis/chapter_2_sup/ch2_sup.tex" 1770221922 593 c20061e97393f3ad8b0272643c4ef51a ""
+["xelatex"] 1770384811 "/Users/malte/ETH-Documents/thesis/chapter_2_sup/ch2_sup.tex" "/Users/malte/ETH-Documents/thesis/chapter_2_sup/build/ch2_sup.xdv" "ch2_sup" 1770384816
+  "/Users/malte/ETH-Documents/thesis/chapter_2_sup/build/ch2_sup.aux" 1770384815 67605 1b8278f22b50273794a2b9c1a8272b46 ""
+  "/Users/malte/ETH-Documents/thesis/chapter_2_sup/ch2_sup.tex" 1770384806 694 0fedce7939e1be237b1c918592441794 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/public/lm/ec-lmr10.tfm" 1254269338 12056 7e13df7fe4cbce21b072ba7c4f4deb6e ""
@@ -256,12 +256,12 @@
   "/usr/local/texlive/2020/texmf.cnf" 1586288231 577 d60164b4589a341208aff7a667fbbdcb ""
   "chapter_2_sup/SI_figures.tex" 1753928231 9050 2cee99779fbd8d068e8683ff5c132328 ""
   "chapter_2_sup/SI_tables.tex" 1753928231 15026 fea50126ca3b2921d358653ec2223fed ""
-  "chapter_2_sup/SI_text.tex" 1753861739 29807 af23ef077559c3918eda3dc3469fa2b6 ""
-  "chapter_2_sup/build/../../main.tex" 1770221568 1356 6430e991b7ca074d93bc0f091b1af141 ""
-  "chapter_2_sup/build/ch2_sup.aux" 1770221937 67516 b769be89d1e439bc4de59979a752c4ae "xelatex"
+  "chapter_2_sup/SI_text.tex" 1770237491 29808 cdfe0401b9b221ed86dbab1e23ed451d ""
+  "chapter_2_sup/build/../../main.tex" 1770384734 1502 447b9565e9d58610939bd91cd481eded ""
+  "chapter_2_sup/build/ch2_sup.aux" 1770384815 67605 1b8278f22b50273794a2b9c1a8272b46 "xelatex"
   "chapter_2_sup/build/ch2_sup.bbl" 1770221931 59425 e6794fd3049bc81a823bf97bca098d08 "biber chapter_2_sup/build/ch2_sup"
-  "chapter_2_sup/build/ch2_sup.run.xml" 1770221937 2710 6543e183a7a5269d8a29e05188bab03d "xelatex"
-  "chapter_2_sup/ch2_sup.tex" 1770221922 593 c20061e97393f3ad8b0272643c4ef51a ""
+  "chapter_2_sup/build/ch2_sup.run.xml" 1770384815 2710 6543e183a7a5269d8a29e05188bab03d "xelatex"
+  "chapter_2_sup/ch2_sup.tex" 1770384806 694 0fedce7939e1be237b1c918592441794 ""
   "chapter_2_sup/commands.tex" 1753928232 3448 acc263a51b904538def638b4af658d6a ""
   "chapter_2_sup/figures/20210417_timeplot.pdf" 1752193974 71358 83cea89db05d049e70a97051cfc2a1db ""
   "chapter_2_sup/figures/20210417_timeplot_clean.pdf" 1752193974 69942 8718871885fb30a3579c061a4880a9eb ""
@@ -330,13 +330,13 @@
   "chapter_2_sup/tikz/stoch_par.tex" 1752193972 1995 cbeef8728e7c270af53333f27e50c406 ""
   "chapter_2_sup/tikz/stoch_val.tex" 1752193972 1893 8b64d51f13eea24c7ad65905ee7cc723 ""
   "chapter_2_sup/tikz/stoch_var.tex" 1752193972 1928 23d2b2dfcb3949967292f187b7d3790f ""
-  "settings/si_settings.tex" 1770221892 182 da2e0a495a4295afcecb326f244d9a27 ""
-  "thesis.cls" 1770219710 8463 bf5374396d303c50bb279ceb04ab240c ""
+  "settings/si_settings.tex" 1770384734 387 8c0a8fb30aa1011df703ed84b6e2d17a ""
+  "thesis.cls" 1770384330 9349 b377a42820ad39fb43b867b3a3dbf33d ""
   (generated)
-  "/Users/malte/ETH-Documents/thesis/chapter_2_sup/build/ch2_sup.log"
-  "/Users/malte/ETH-Documents/thesis/chapter_2_sup/build/ch2_sup.xdv"
-  "chapter_2_sup/build/ch2_sup.bcf"
-  "chapter_2_sup/build/ch2_sup.log"
   "chapter_2_sup/build/ch2_sup.aux"
-  "chapter_2_sup/build/ch2_sup.xdv"
   "chapter_2_sup/build/ch2_sup.run.xml"
+  "chapter_2_sup/build/ch2_sup.log"
+  "chapter_2_sup/build/ch2_sup.bcf"
+  "/Users/malte/ETH-Documents/thesis/chapter_2_sup/build/ch2_sup.xdv"
+  "chapter_2_sup/build/ch2_sup.xdv"
+  "/Users/malte/ETH-Documents/thesis/chapter_2_sup/build/ch2_sup.log"
