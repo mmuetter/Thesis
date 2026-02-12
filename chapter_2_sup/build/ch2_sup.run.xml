@@ -89,6 +89,7 @@
       <file>bibliographies/Luminescence_Paper.bib</file>
       <file>bibliographies/zenodo.bib</file>
       <file>bibliographies/combination_paper.bib</file>
+      <file>bibliographies/manual_refs.bib</file>
     </requires>
   </external>
 </requests>

@@ -1,7 +1,7 @@
-\section*{Results}
+\section{Results}
 In each of our three experiments, we simulated the transition dynamics across six hospital wards on six 384-well plates.
 Each 384-well plate simulates four replicate hospital wards, with each replicate comprising 96 wells representing 94 patients and two negative controls.
-We replace each assay plate daily to renew the treatment and medium (\sifig{1}).
+We replace each assay plate daily to renew the treatment and medium (\autoref{tab:encounter_advanced}).
 Based on the turnover probability $\tau$, we randomly decide if a patient stays. If this is the case, we inoculate the well on the new plate from the same well on the old plate.
 Else we replace this patient with a new incoming patient by inoculating the well on the new plate from a strain plate containing all resistance profiles.
 The resistance profile of the incoming patient is randomly selected based on predefined probabilities (sampling proportions $c_\phi$).
@@ -9,26 +9,25 @@ Based on the infection probability $\beta$, we randomly decide if a patient will
 These infections are then simulated \textit{in vitro} by passing a drop to the infected well on the new plate.
 All inoculations are carried out using the same pintool.
 
-\begin{figure}[h]
-  \centering
-  \includegraphics[width=\linewidth]{end_anova.pdf}
+\begin{SCfigure}
   \captionsetup{skip=2pt}
+  \includegraphics[width=0.77\linewidth]{end_anova.pdf}
   \caption{
     Panels A--C show the mean frequency of uninfected (grey), single-resistant infected (blue), and double-resistant infected wells (green) during the last four transfers of the three scenarios.
     Circles represent replicates (n = 4), and bars represent means.
-    Within resistance categories, bars not sharing a letter are significantly different (pairwise Tukey post hoc test, $p<0.05$; ANOVA tables and all p-values can be found in \sitab{34} -- \siref{50}).
+    Within resistance categories, bars not sharing a letter are significantly different (pairwise Tukey post hoc test, $p<0.05$; ANOVA tables and all p-values can be found in \autoref{tab:20210417U_anova} -- \autoref{tab:20220412double_tukey}).
   }
   \label{fig:end_anova}
-\end{figure}
+\end{SCfigure}
 
 \paragraph{Multidrug strategies keep the overall number of infections lowest and best suppress single resistance.}
-The \textit{prevention}~scenario is characterised by a moderate proportion of single-resistant admissions to the hospital ward, the absence of pre-existing double resistance, and a moderately spreading infection dynamic ($R_0 = 1.5$, \sieq{1},  \sisec{SI Methods}).
-In this scenario, there are no differences between combination, mixing, and cycling on the frequency of uninfected, single-resistant-infected and double-resistant-infected wells (\panelref{fig:end_anova}{A}, time series in \sifig{2}).
+The \textit{prevention}~scenario is characterised by a moderate proportion of single-resistant admissions to the hospital ward, the absence of pre-existing double resistance, and a moderately spreading infection dynamic ($R_0 = 1.5$, \autoref{eq:R0},  \sisec{SI Methods}).
+In this scenario, there are no differences between combination, mixing, and cycling on the frequency of uninfected, single-resistant-infected and double-resistant-infected wells (\panelref{fig:end_anova}{A}, time series in \autoref{fig:exp1}).
 
 However, all multidrug strategies are significantly better at suppressing single resistance and increasing the number of cleared wells than the single-drug strategies and the control without treatment (\panelref{fig:end_anova}{A}).
 In all scenarios, combination therapy was one of the most successful treatment strategies in minimising single-resistant and overall infections.
 At the same time, we observed most single and double resistance in the untreated control.
-All strategies (but not the control) were able to clear sensitive infections effectively with clearance probabilities of 97\% for drug A, 73\% for drug B, and 86\% for AB (\sitab{8}).
+All strategies (but not the control) were able to clear sensitive infections effectively with clearance probabilities of 97\% for drug A, 73\% for drug B, and 86\% for AB (\autoref{tab:clearance}).
 
 \begin{figure}
   \centering
@@ -56,7 +55,7 @@ During the \textit{prevention} and \textit{containment} scenario, we could not i
 We attribute this to a lack of statistical power because we observed only a few instances of double resistance emerging, mostly in the untreated control.
 To address this, we selected parameters for the \textit{maximum-emergence}~scenario designed to maximise superinfection opportunities between wells carrying complementary resistance.
 To this end, all admitted patients carried bacteria with only one of the two resistance plasmids (at equal proportions).
-In addition, we set the probability of admission and discharge to $\tau = 0.5$ and the infection probability to $\beta = 0.25$, resulting in a basic reproduction number $R_0 = 0.5$ (\sieq{1}).
+In addition, we set the probability of admission and discharge to $\tau = 0.5$ and the infection probability to $\beta = 0.25$, resulting in a basic reproduction number $R_0 = 0.5$ (\autoref{eq:R0}).
 An $R_0<1$ makes double resistance more likely to be replaced by newly admitted patients than to spread, thus maintaining a high potential for emergence.
 We implement this scenario to explore emergence under a magnifying glass, being aware that it does not reflect a likely clinical situation. In this scenario, combination therapy and monotherapy with drug A lead to the lowest frequency of double resistance during the last four transfers (\panelref{fig:end_anova}{C}, \autoref{fig:exp3}).
 
@@ -85,24 +84,31 @@ Secondly, the treatment strategies influence the number of transferred single-re
 Due to the differences in the abilities of drugs A and B to prevent conjugation, there are times (cycles) and places (beds) during cycling and mixing where using drug B offers increased opportunities for the emergence of double resistance, which is never the case with combination therapy.
 
 \begin{figure*}[t]
-  \newcommand{\imageheight}{2.95cm}
-  %    \subpanel[xshift = 0pt, yshift=10pt]{.33\linewidth}{
-  \includegraphics[height = \imageheight]{20220412_f_emergence_anova.pdf}
-  \includegraphics[height = \imageheight]{20220412_encounter_frequencies.pdf}
-  \includegraphics[height = \imageheight]{20220412_conjugation_prop.pdf}
+  \newcommand{\panelwidth}{8cm}
+  \newcommand{\capwidth}{6.6cm}
 
-  \captionsetup{skip=2pt}
-  \caption{
-    Analysis of the emergence of double resistance \textit{in vitro} and superinfection between single resistant $A_r$ and $B_r$ wells during the \textit{maximum-emergence}~scenario, from transfer four onwards.
-    Each dot corresponds to data from a single plate, with each plate representing a distinct treatment arm, encompassing 376 patients for one transfer.
-    Mean values are represented by red bars.
-    Bars not sharing a letter are significantly different ($p < 0.05$, ANOVA tables and pairwise Tukey post hoc results can be found in \sitab{51} -- \sitab{56}).
-  \textbf{A)} number of newly emerged cases of double resistance per plate ($n_{\mathcal{E}}$), normalised to the total number of patients (wells) per plate ($n_P = 376$).
-  Here the stars indicate predictions based on the ratio of superinfections per patient and the emergence per superinfection (\sisec{SI Computational Model}).
-\textbf{B)} Number of superinfections per plate ($n_{\mathcal{S}}$), normalised to the total number of patients (wells) per plate  ($n_P = 376$).
-\textbf{C)} Number of superinfected wells treated with  (A, B, AB and none) that develop double resistance ($n_{\mathcal{E}}$) divided by the number of all superinfected wells ($n_{\mathcal{S}}$) receiving the respective treatment.
+  \centering
+  \begin{minipage}[t]{\panelwidth}
+    \centering
+    \includegraphics[width=\panelwidth]{20220412_f_emergence_anova.pdf}\\[2pt]
+    \includegraphics[width=\panelwidth]{20220412_encounter_frequencies.pdf}\\[2pt]
+    \includegraphics[width=\panelwidth]{20220412_conjugation_prop.pdf}
+  \end{minipage}\hfill
+  \begin{minipage}[t]{\capwidth}
+    \vspace{-4cm}
+    \captionsetup{skip=0pt}
+    \captionof{figure}{
+      Analysis of the emergence of double resistance \textit{in vitro} and superinfection between single resistant $A_r$ and $B_r$ wells during the \textit{maximum-emergence}~scenario, from transfer four onwards.
+      Each dot corresponds to data from a single plate, with each plate representing a distinct treatment arm, encompassing 376 patients for one transfer.
+      Mean values are represented by red bars.
+      Bars not sharing a letter are significantly different ($p < 0.05$, ANOVA tables and pairwise Tukey post hoc results can be found in \autoref{tab:emergence_anova} -- \autoref{tab:treatment_emergence_tukey}).
+    \textbf{A)} number of newly emerged cases of double resistance per plate ($n_{\mathcal{E}}$), normalised to the total number of patients (wells) per plate ($n_P = 376$).
+    Here the stars indicate predictions based on the ratio of superinfections per patient and the emergence per superinfection (\sisec{SI Computational Model}).
+  \textbf{B)} Number of superinfections per plate ($n_{\mathcal{S}}$), normalised to the total number of patients (wells) per plate ($n_P = 376$).
+\textbf{C)} Number of superinfected wells treated with (A, B, AB and none) that develop double resistance ($n_{\mathcal{E}}$) divided by the number of all superinfected wells ($n_{\mathcal{S}}$) receiving the respective treatment.
 }
 \label{fig:emergence}
+\end{minipage}
 \end{figure*}
 
 \paragraph{Computational model corroborates the robustness of experimental outcomes.}
@@ -112,24 +118,24 @@ We call the entirety of all instructions that come up during one experiment an `
 Due to the scale and technical complexity of the experiments, it was not feasible to carry out individual instruction sets for each replicate, so we opted to apply the same instruction sets for all replicates.
 This raises the question of whether the experimental results are a consequence of a specific instance of this random process and whether they are robust to the randomisation in the instruction set.
 To address this, we developed a discrete-time stochastic model comprising 94 individual \textit{in silico} patients mimicking the epidemiological dynamics of the experiment (\sisec{SI Computational Model}).
-The model was parametrised, but not fitted, with transition probabilities (\sitab{18}--\sitab{25}) that we estimated based on the transition frequencies measured \textit{in vitro}.
+The model was parametrised, but not fitted, with transition probabilities (\autoref{tab:m_none}--\autoref{tab:m1_ab}) that we estimated based on the transition frequencies measured \textit{in vitro}.
 We used the same transition probabilities in the simulations for all scenarios.
 
 First, we validated the model by averaging 100 \textit{validation simulations}, each employing the identical instruction sets used \textit{in vitro}.
-The aim of the \textit{validation simulations} is to recreate the experiments \textit{in silico} (\sifig{3B}).
-We found that the simulation results are in good agreement with the experimental data, indicating that the model reflects the dynamics observed in the \textit{in vitro} experiments well (see \autoref{fig:exp3}, \sifig{2}, and \sifig{4}).
+The aim of the \textit{validation simulations} is to recreate the experiments \textit{in silico} (\autoref{fig:stochs}B).
+We found that the simulation results are in good agreement with the experimental data, indicating that the model reflects the dynamics observed in the \textit{in vitro} experiments well (see \autoref{fig:exp3}, \autoref{fig:exp1}, and \autoref{fig:exp2}).
 One exception is the spread of A-resistance during the \textit{prevention}~scenario in control and Mono~A.
 This could indicate an increased number of contaminations at the beginning of the \textit{prevention}~scenario.
 We also observe some discrepancies for the spread of double resistance during the \textit{prevention}~scenario, which we attribute to contamination artefacts in the transition probabilities (see \sisec{SI Computational Model}).
 
 Second, we averaged 100 \textit{variation simulations} to assess the robustness of the experimental outcomes against variations in the instruction sets.
-In these \textit{variation simulations}, each of the 100 instruction sets was randomized based on the same three parameter sets used \textit{in vitro} (\sifig{3C}).
+In these \textit{variation simulations}, each of the 100 instruction sets was randomized based on the same three parameter sets used \textit{in vitro} (\autoref{fig:stochs}C).
 Differences between the \textit{validation} and \textit{variation simulations} indicate differences in outcome due to the randomization of the instruction sets.
 For instance, with a turnover probability $\tau = 0.2$ and an admission probability $c_A = 0.05$, we expect $0.94$ $A_r$ admissions per transfer. However, random fluctuations can result in either more (or fewer) $A_r$ admissions, leading to a temporarily higher (or lower) frequency of $A_r$ in the \textit{validation simulations}, creating a temporary spread between the \textit{validation} and \textit{variation simulations}.
-We observed that the \textit{validation simulations} fluctuate around the \textit{variation simulations} and never diverge far (see \autoref{fig:exp3}, \sifig{2}, and \sifig{4}), indicating robustness of the experimental results to the randomisation of the instruction sets.
+We observed that the \textit{validation simulations} fluctuate around the \textit{variation simulations} and never diverge far (see \autoref{fig:exp3}, \autoref{fig:exp1}, and \autoref{fig:exp2}), indicating robustness of the experimental results to the randomisation of the instruction sets.
 
 \paragraph{\textit{In silico} sensitivity analysis indicates that the superiority of combination therapy is robust.}
-Given that the \textit{validation simulations} agreed well with the experiments, we used the model to perform an \textit{in silico} parameter sensitivity analysis of the experimental results (\sifig{3D}).
+Given that the \textit{validation simulations} agreed well with the experiments, we used the model to perform an \textit{in silico} parameter sensitivity analysis of the experimental results (\autoref{fig:stochs}D).
 To this end, we ran ten simulations for each of 20,000 randomly generated parameter sets by varying the turnover and infection probability and the five sampling proportions for incoming patients: ($\tau$, $\beta$, $c_S$, $c_{A_r}$, $c_{B_r}$, $c_{AB_r}$, $c_U$).
 For half of the parameter sets, we forced the frequency of incoming patients with double resistance ($c_{AB_r}$) to zero.
 
@@ -138,26 +144,31 @@ Using this criterion, the control strategy (no treatment) always performed worst
 Strategies were then classified as (i) 'single winners' if they are significantly better than all other strategies; (ii) 'winners' if they are not outperformed by any other strategy; (iii) 'losers' if they do not outperform at least one other strategy; or (iv) 'single losers' if all other strategies outperform them.
 
 In parameter sets with and without pre-existing double resistance, combination therapy ranks most often as one of the best strategies (87\%  and 98\%, respectively).
-It is the single best strategy in 55\% of the tested parameter sets with pre-existing double resistance and in 93\% of cases without pre-existing double resistance (\autoref{fig:senstivity_analysis}, \sitab{14},~\sitab{15}).
+It is the single best strategy in 55\% of the tested parameter sets with pre-existing double resistance and in 93\% of cases without pre-existing double resistance (\autoref{fig:senstivity_analysis}, \autoref{tab:win_loss_statistic_preex},~\autoref{tab:win_loss_statistic_no_preex}).
 
 In some situations (for example, when one strategy is much worse than all others), it is more important to avoid the worst strategy than selecting the very best strategy among the good ones.
 Our analysis finds that combination therapy is almost never among the worst strategies, while usually one of the two monotherapies performs worst.
-As expected, single-drug strategies perform particularly poorly when there is a high frequency of pre-existing single-resistance to the applied drug (\sitab{11}, \sitab{13}).
+As expected, single-drug strategies perform particularly poorly when there is a high frequency of pre-existing single-resistance to the applied drug (\autoref{tab:worst_stats_no_preex}, \autoref{tab:worst_stats_preexisting}).
 
 Cycling and mixing lose substantially less than the monotherapies but are rarely the single best strategy.
 
 \begin{figure}[h]
 \centering
-\includegraphics[width = \linewidth]{wins_and_losses_preexisting.pdf}
-\includegraphics[width = \linewidth]{wins_and_losses_no_preex.pdf}
-\captionsetup{skip=0pt}
+\begin{minipage}{12cm}
+\centering
+\includegraphics[width=\linewidth]{wins_and_losses_preexisting.pdf}\\[2pt]
+\includegraphics[width=\linewidth]{wins_and_losses_no_preex.pdf}
+\captionsetup{skip=0pt,width=\linewidth}
 \caption{
 Effectiveness of the five treatment strategies in maximising the frequency of uninfected individuals across randomly generated parameter sets.
 Strategies not significantly better than any other are marked as losers (pastel red), and those significantly worse than all others as single losers (dark red).
 Strategies not significantly worse than any other are classified as winners (pastel blue), and those significantly better than all others as single winners (dark blue).
 Strategies without significant differences were excluded.
-\textbf{(A)} 10,000 parameter sets with pre-existing double resistance. 606/10,000 sets yielded no significant difference between the strategies.
-\textbf{(B)} 10,000 parameter sets without pre-existing double resistance. 100/10,000 sets yielded no significant difference between the strategies.
+\textbf{(A)} 10,000 parameter sets with pre-existing double resistance.
+606/10,000 sets yielded no significant difference between the strategies.
+\textbf{(B)} 10,000 parameter sets without pre-existing double resistance.
+100/10,000 sets yielded no significant difference between the strategies.
 }
 \label{fig:senstivity_analysis}
+\end{minipage}
 \end{figure}

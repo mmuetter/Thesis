@@ -1,43 +1,43 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Discussion}
 In our study, multi-drug strategies, particularly combination therapy, outperformed monotherapies in reducing overall infections and the emergence of double resistance across most scenarios, while we observed most emergence of double resistance in the untreated control.
-Interestingly, the effectiveness of combination therapy does not stem from an increased efficacy associated with higher doses. 
-This is because an asymmetrical antagonism exists between the bactericidal antibiotic ceftazidime (drug A) and the bacteriostatic antibiotic tetracycline (drug B), resulting in a lower clearance rate for the combination A+B compared to drug A alone (\sisec{SI Results}). 
+Interestingly, the effectiveness of combination therapy does not stem from an increased efficacy associated with higher doses.
+This is because an asymmetrical antagonism exists between the bactericidal antibiotic ceftazidime (drug A) and the bacteriostatic antibiotic tetracycline (drug B), resulting in a lower clearance rate for the combination A+B compared to drug A alone (\sisec{SI Results}).
 This observation implies that combination therapy may be even more advantageous when drugs are neutral or synergistic towards each other.
 
 Why does the absence of treatment lead to worse outcomes, and why is combination therapy preventing the emergence of double resistance so effectively?
 
-First, we measured the presence, not the density, of resistant bacteria in wells by assessing if small aliquots of the liquid culture could grow on treated agar plates. 
-This approach quantifies the number of wells hosting a specific resistance but can not quantify the frequency of resistance in the in-well population. 
+First, we measured the presence, not the density, of resistant bacteria in wells by assessing if small aliquots of the liquid culture could grow on treated agar plates.
+This approach quantifies the number of wells hosting a specific resistance but can not quantify the frequency of resistance in the in-well population.
 The information about presence/absence alone yields important information about potential treatment success and is used in analogous clinical diagnostic methods, such as disk diffusion tests \cite{eucast_disk2024}.
 
-We would only recognize a loss of resistance (in the experiments and clinical samples) if the resistant strain were fully outcompeted. 
+We would only recognize a loss of resistance (in the experiments and clinical samples) if the resistant strain were fully outcompeted.
 This was not observed during the \textit{containment} scenario in the untreated control.
 Such an outcome was expected due to the short average patient stay of 2--5 days in our experiments and 5--6 days in clinical situations \cite{BAG2015}.
 For the same reason, we would not expect an eradication of resistance but only a shift in resistance density, even if there were more substantial costs of resistance or higher segregational loss.
-In our experiments, we found no evidence of a cost of resistance (see \sisec{SI Methods}, \sifig{6}, and \sitab{3}) or segregational loss (see \sisec{SI Methods} and \sitab{4}).
+In our experiments, we found no evidence of a cost of resistance (see \sisec{SI Methods}, \autoref{fig:plasmid_costs}, and \autoref{tab:man_ferroni}) or segregational loss (see \sisec{SI Methods} and \autoref{tab:loss_data}).
 
 Second, in our experiments, the emergence of double resistance requires conjugation, which relies on superinfection between hosts with complementary resistance profiles.
-As demonstrated in \panelref{fig:emergence}{B}, the lowest number of superinfections occur in combination therapy, where both single-resistant strains can be cleared. 
+As demonstrated in \panelref{fig:emergence}{B}, the lowest number of superinfections occur in combination therapy, where both single-resistant strains can be cleared.
 Conversely, without treatment, the abundance of single resistance is highest resulting in the highest number of superinfections.
 
-Third, the applied antibiotics affect the frequency of superinfections leading to double resistance, likely by influencing the growth dynamics within the superinfected well and potentially the conjugation rate \cite{Headd2018}. 
+Third, the applied antibiotics affect the frequency of superinfections leading to double resistance, likely by influencing the growth dynamics within the superinfected well and potentially the conjugation rate \cite{Headd2018}.
 However, our experimental data are unsuitable for supporting or rejecting the impact on conjugation rates.
 We observed the least emergence of double resistance in superinfected wells treated with both drugs and most in untreated wells, contributing to the superiority of combination therapy and the high rates of double resistance in the absence of treatment (\panelref{fig:emergence}{C}).
 This effect on the in-well dynamics may be a property of the chosen drugs and concentrations, and we expect better results for cycling and mixing if both drugs were equally effective in suppressing double resistance or worse results for combination therapy if the combination of both drugs was less effective.
 
-Fourth, we observed that the number of single-resistant bacteria inoculating superinfections impacts the frequency of emerging double resistance (see \sisec{SI Results}, \sitab{1}). 
-In our setup, superinfected wells receive two inocula, with at least one inoculum transferred from the previous plate (by infection) that has already undergone treatment for one day. 
+Fourth, we observed that the number of single-resistant bacteria inoculating superinfections impacts the frequency of emerging double resistance (see \sisec{SI Results}, \autoref{tab:encounter_advanced}).
+In our setup, superinfected wells receive two inocula, with at least one inoculum transferred from the previous plate (by infection) that has already undergone treatment for one day.
 When prior treatment led to a low bacterial density in the source wells, we did not observe any cases of double resistance emerging.
-This could magnify the effectiveness of combination therapy, where all potential single-resistant inocula transferred from the previous plate contain low bacterial densities due to effective treatment. 
-On the one hand, this may be more a characteristic of our experimental setup due to the fixed length of the treatment interval and high clearance probabilities. 
+This could magnify the effectiveness of combination therapy, where all potential single-resistant inocula transferred from the previous plate contain low bacterial densities due to effective treatment.
+On the one hand, this may be more a characteristic of our experimental setup due to the fixed length of the treatment interval and high clearance probabilities.
 On the other hand, we indeed expect fewer cases of emergence in superinfected patients if the infecting inocula are small.
 
-In our experiments and simulations, combination therapy showed superior results in minimizing infections and preventing double resistance. 
-This advantage may partly result from assumptions and simplifications, including the chosen strain, drugs, plasmids, and inoculum size, the discrete setup with fixed treatment durations, colonization-independent infection and turnover probabilities, and the absence of an immune system and microbiome. 
-Also, treating all patients irrespective of colonization diverges from clinical reality in two ways: 
-i) in a clinical setting, some untreated patients may serve as a sanctuary for resistance and a potential source of double resistance and 
-ii) treating all patients, regardless of infection status, contrasts with clinical efforts to promote targeted antibiotic use. 
+In our experiments and simulations, combination therapy showed superior results in minimizing infections and preventing double resistance.
+This advantage may partly result from assumptions and simplifications, including the chosen strain, drugs, plasmids, and inoculum size, the discrete setup with fixed treatment durations, colonization-independent infection and turnover probabilities, and the absence of an immune system and microbiome.
+Also, treating all patients irrespective of colonization diverges from clinical reality in two ways:
+i) in a clinical setting, some untreated patients may serve as a sanctuary for resistance and a potential source of double resistance and
+ii) treating all patients, regardless of infection status, contrasts with clinical efforts to promote targeted antibiotic use.
 However, since patients as we model them in our \textit{in vitro} experiments lack a microbiome, treating uninfecteds should have no impact on the resistance dynamics.
 
 Despite the numerous differences between our experiments and a real clinical situation, we argue that the relative effectiveness of combination therapy in suppressing double resistance would likely translate to real patients.
@@ -45,5 +45,3 @@ The reason is that the emergence of double resistance hinges on two critical pro
 We think that combination therapy offers a strategic advantage in addressing both processes.
 
 Our results complement the findings by Angst et al. \cite{Angst2021}, who observed similar outcomes in the context of chromosomal resistance. We believe that such \textit{in vitro} experimental models, which explore admittedly idealised and simplified epidemiological scenarios, can help to bridge the divide between mathematical models and randomised clinical trials. However, ultimately the evidence for or against the benefits of combination therapy must be confirmed by rigorous clinical trials with sufficient statistical power to support or challenge the effectiveness of combination therapy.
-
-

@@ -8,7 +8,12 @@
 
 \begin{document}
 
-\input{front_matter/main.tex}
+\frontmatter
+
+\subunit{front_matter/main.tex}
+\begin{summaryspacing}
+  \tableofcontents*
+\end{summaryspacing}
 
 % %%%%%%%%%%%%%%%%%%%
 % Calling Appendix sections.
@@ -31,19 +36,19 @@
 %
 %% %%%%%%%%%%%%%%%%%%%
 %% Chapter 4 - Combination Paper
-\subunit{chapter_4/ch4.tex}
+%\subunit{chapter_4/ch4.tex}
 %
 %% %%%%%%%%%%%%%%%%%%%
 %% Chapter 5 - Concluding Remarks
-%\subunit{chapter_5/ch5.tex}
+\subunit{chapter_5/ch5.tex}
 
-\chapter*{Acknowledgements}
+\section*{Acknowledgements}
 Thank you all; you re great.
 
 %appendecies
 \appendix
-%\subunit{chapter_2_sup/ch2_sup.tex}
+\subunit{chapter_2_sup/ch2_sup.tex}
 %\subunit{chapter_3sup/ch3_sup.tex}
-\subunit{chapter_4sup/ch4_sup.tex}
+%\subunit{chapter_4sup/ch4_sup.tex}
 
 \end{document}

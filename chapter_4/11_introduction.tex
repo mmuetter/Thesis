@@ -6,40 +6,43 @@ To develop a more sustainable approach to antibiotic use, a deeper understanding
 
 % COMBINATION IS COOL
 One strategy that has been shown to slow the evolution of resistance in notoriously fast-evolving pathogens, such as HIV, malaria, and tuberculosis, is combination therapy \cite{Gulick1997, Goldberg2012}.
-In theoretical models, combination therapy seems to outperform other strategies (such as mixing or cycling) \cite{Bonhoeffer1997, Tepekule2017, Uecker2021}, and it also seems to perform best in in vitro simulations of epidemics \cite{Angst2021, Muetter2024}.
+In theoretical models, combination therapy seems to outperform other strategies (such as mixing or cycling) \cite{Bonhoeffer1997, Tepekule2017, Uecker2021}, and it also seems to perform best in in vitro simulations of epidemics \cite{Angst2021, Muetter2024}. 
 However, clinical evidence for the efficacy of combination therapy is inconclusive, and a comprehensive meta-analysis did not identify a significant overall benefit \cite{Siedentop2024}.
 
 % DRUG INTERACTIONS
 Several factors contribute to the inconclusiveness of clinical studies, ranging from ethical constraints that limit focal pathogens to comparatively benign ones (i.e.\ excluding HIV and \emph{M.\ tuberculosis}) to the lack of statistical power to track resistance evolution \cite{Siedentop2024}.
-Another potential reason is drug interactions.
-Drug combinations can exhibit synergistic or antagonistic interactions, depending on whether the combined effect is stronger or weaker than the expectation based on the effects of the single drugs.
-However, defining this expectation is non-trivial, as null models are numerous and the best choice to describe drug independence remains debated \cite{Foucquier2015, Duarte2022}.
-Here, we use two classical and widely applied reference frameworks to define independence: the response-based Bliss independence \cite{Bliss1939} and dose-based Loewe additivity \cite{Loewe1926}.
+Another potential reason is drug interactions. 
+Drug combinations can exhibit synergistic or antagonistic interactions, depending on whether the combined effect is stronger or weaker than the expectation based on the effects of the single drugs. 
+However, defining this expectation is non-trivial, as null models are numerous and the best choice to describe drug independence remains debated \cite{Foucquier2015, Duarte2022}.  
+Here, we use two classical and widely applied reference frameworks to define independence: the response-based Bliss independence \cite{Bliss1939} and dose-based Loewe additivity \cite{Loewe1926}. 
 
-% BLISS
+
+% BLISS 
 Bliss independence is based on the assumption that the probability of being affected by one drug is statistically independent of being affected by the other \cite{Bliss1939}:
 \begin{equation}
-  p_{AB}^\mathrm{Bliss}=p_A+p_B-p_A\,p_B .
+    p_{AB}^\mathrm{Bliss}=p_A+p_B-p_A\,p_B .    
 \end{equation}
 Under this assumption, Bliss independence is expected to be more appropriate for drug pairs with distinct and non-overlapping mechanisms of action \cite{Baeder2016}.
+
 
 % LOEWE
 In contrast, Loewe additivity -- first discussed as iso-additivity by Frei in 1913 \cite{Frei1913} and later formalised by Loewe and Muischnek \cite{Loewe1926} -- uses dose equivalence as a null model.
 A combination is considered additive if pairs of concentrations that produce the same effect $\psi$ (i.e.\ a measure of net growth) lie on a linear isobole connecting the equivalent single-drug doses \cite{Loewe1926}:
 \begin{equation}
-  \frac{c_A}{f_A^{-1}\!\big(\psi(c_A, c_B)\big)}
-  +
-  \frac{c_B}{f_B^{-1}\!\big(\psi(c_A, c_B)\big)}
-  =
-  1.
-  \label{eq:loewe_core}
+\frac{c_A}{f_A^{-1}\!\big(\psi(c_A, c_B)\big)}
++
+\frac{c_B}{f_B^{-1}\!\big(\psi(c_A, c_B)\big)}
+=
+1. 
+\label{eq:loewe_core}
 \end{equation}
-Here $f_i^{-1}$  represents the inverse of a pharmacodynamic function  $f_i(c)$ that maps drug concentrations $c_i$ to an effect measure $\psi$.
+Here $f_i^{-1}$  represents the inverse of a pharmacodynamic function  $f_i(c)$ that maps drug concentrations $c_i$ to an effect measure $\psi$. 
+
 
 %% PD STUFF
 There are many studies on drug interactions below the minimum inhibitory concentration (MIC) (e.g.\ \cite{Yeh2006, OShaughnessy2006, Chevereau2015, Russ2018, Katzir2019, Kavcic2020, Rezzoagli2020, Sanchez-Hevia2025, huntelman2023}) and at the MIC level (e.g.\ \cite{Yang2017, Ruden2019, Liu2022}).
 However, studies covering the arguably clinically more relevant inhibitory regime are scarce and often cover only a few points in the inhibitory range (e.g. \cite{Ocampo2014, Rao2017, Yu2016, Caballero2018, Chen2020}).
-The primary reason for this is methodological: under sub-inhibitory conditions, growth rates can be easily assessed at high throughput using optical density measurements, whereas inhibitory conditions typically require labour-intensive, low-throughput colony-forming unit assays \cite{Bognar2024}.
+The primary reason for this is methodological: under sub-inhibitory conditions, growth rates can be easily assessed at high throughput using optical density measurements, whereas inhibitory conditions typically require labour-intensive, low-throughput colony-forming unit assays \cite{Bognar2024}. 
 This lack of data on effects at high concentrations is a problem, not only because inhibitory conditions are more relevant therapeutically, but also because the right, inhibitory, tail of the pharmacodynamic curve has a strong influence on resistance evolution \cite{Yu2018}.
 
 %WHAT we do
@@ -47,3 +50,5 @@ It has already been shown that drug interactions can depend on dose and mixing r
 However, the existing literature provides limited quantitative insight into how frequently interaction classifications remain stable versus how often they change with concentration and mixing ratio.
 Here, we provide an extensive map of interactions for \num{15} antibiotic pairs, each measured on a \(12\times 12\) concentration checkerboard that includes inhibitory concentrations using time-resolved bioluminescence trajectories.
 We quantify how often sub-inhibitory interaction classifications based on Bliss independence and Loewe additivity generalise to inhibitory conditions and how often they fail, including cases of qualitative reversals across regimes.
+
+

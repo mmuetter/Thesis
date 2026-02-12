@@ -2,14 +2,14 @@
 \section{Methods}
 \paragraph{Drugs and Media.}
 In all experiments, we used LB (Sigma L3022) with 25 $\mu g/ml$ (\textit{prevention}~scenario) or 5 $\mu g/ml$ (\textit{containment} and \textit{max-emergence}~scenario) chloramphenicol as a liquid medium and the same LB and drugs with 1.5\% agar as a solid medium.
-Chloramphenicol was added to prevent external contaminations. We could not measure any significant growth effects of the chloramphenicol concentrations on the chloramphenicol-resistant strains (see \sitab{5}).
+Chloramphenicol was added to prevent external contaminations. We could not measure any significant growth effects of the chloramphenicol concentrations on the chloramphenicol-resistant strains (see \autoref{tab:growth_and_density}).
 We used 80 $\mu g/ml$ ceftazidime as drug A and 40 $\mu g/ml$ tetracycline as drug B, with identical concentrations for liquid and solid media.
 
 \paragraph{Strains and Plasmids.}
 We used two compatible plasmids $p_A$ and $p_B$ derived from samples ESBL9 and ESBL25 from a clinical transmission study \cite{Sutter2016}.
 Samples were kindly provided by Adrian Egli and sequenced and analysed by Huisman et al. \cite{Huisman2022}.
 Plasmids $p_A$ and $p_B$ provide (among other resistances) resistance against drug A and drug B, respectively.
-We used these plasmids and the chloramphenicol-resistant host MDS42-YFP \cite{Feher2012} (sensitive to drugs A and B) to create three additional strains by conjugation (\sitab{2}) (i) A-resistant, containing $p_A$; (ii) B-resistant, containing $p_B$; and (iii) AB-resistant, containing both plasmids (see \sisec{SI Methods}).
+We used these plasmids and the chloramphenicol-resistant host MDS42-YFP \cite{Feher2012} (sensitive to drugs A and B) to create three additional strains by conjugation (\autoref{tab:strainPhenotypes}) (i) A-resistant, containing $p_A$; (ii) B-resistant, containing $p_B$; and (iii) AB-resistant, containing both plasmids (see \sisec{SI Methods}).
 
 \paragraph{Treatment arms.}
 We simulated the epidemiological dynamics of six hospital wards \textit{in vitro}, with each ward exploring a different treatment arm:
@@ -25,7 +25,7 @@ Wells with growth medium but no bacteria represent uninfected patients, whereas 
 \paragraph{Experimental procedure. \label{par:setup}}
 Experiments were performed using a Tecan Evo 200 automated liquid handling system (Tecan) with an integrated, automated incubator (Liconic STX100, Liconic), a Tecan Infinite F200 spectrophotometer (Tecan), and a camera (Pickolo, SciRobotics).
 
-Every day new assay plates were filled with \SI{45}{\micro \l} fresh medium and \SI{5}{\micro \l} antibiotic stock, according to its designated treatment strategy (see \sifig{1}).
+Every day new assay plates were filled with \SI{45}{\micro \l} fresh medium and \SI{5}{\micro \l} antibiotic stock, according to its designated treatment strategy (see \autoref{fig:procedure}).
 At each of these transfers, we simulate patients staying overnight in the hospital (passage), the admission and discharge of patients (turnover), and infections between patients (infection).
 Passage, turnover and infections were all done by inoculating the new plate using a pintool with retractable pins, as detailed below, carrying \SI{\approx 0.3}{\micro \litre} drops between wells ($\approx1:150$ dilution) leading to an approximately 6-8 hours exponential phase.
 The \textit{assay plates} were then incubated at \SI{37}{\celsius} and 95\% relative humidity.
@@ -54,9 +54,9 @@ After incubation at \SI{37}{\celsius} and 95\% relative humidity, images of the 
 The software automatically detects the presence of colonies at each well position, which we also manually verified.
 The growth pattern on the four \textit{agar plates} allowed us to determine the resistance profile of a well, which reflects how the well would behave if treated.
 
-By default, we distinguish six resistance profiles (\sitab{6}).
+By default, we distinguish six resistance profiles (\autoref{tab:phenotyping}).
 The wells may either be 1) uninfected ($U$), 2) exclusively infected with sensitive bacteria ($S$),  3) infected with A-resistant bacteria ($A_r$), 4) infected with B-resistant bacteria ($B_r$), 5) infected with AB-resistant bacteria $(AB_r)$, 6) or be infected with a mixed population containing A-resistant and B-resistant bacteria, but no AB-resistant bacteria $((A\&B)_r)$.
-The way we classify the resistance profiles of the bacterial population in a well leads to the dominance of resistance, in the sense that a predominantly sensitive population harbouring a resistant minority would be classified as resistant (see \sitab{7}).
+The way we classify the resistance profiles of the bacterial population in a well leads to the dominance of resistance, in the sense that a predominantly sensitive population harbouring a resistant minority would be classified as resistant (see \autoref{tab:bacterial-phenotypes}).
 Any observed growth pattern not corresponding to the six resistance profiles mentioned above is classified as \textit{'other'}.
 The resistance profile \textit{'other'} primarily occurs when bacterial densities are low (see also \sisec{SI Methods}).
 
@@ -64,12 +64,12 @@ The resistance profile \textit{'other'} primarily occurs when bacterial densitie
 We conducted experiments for three scenarios (\textit{prevention}, \textit{containment}, and \textit{maximum-emergence}) with 14 to 27 transfers each.
 Each experiment was defined by a different parameter set consisting of (i) the infection probability $\beta$ within the hospital, (ii) the turnover probability $\tau$ and (iii) the sampling proportions $c_\phi$ of patients with resistance profile $\phi \in \{U, S, A_r, B_r, AB_r\}$ (see \autoref{tab:exp_par}).
 
-The \textit{prevention}~scenario (\sifig{2}) addresses how the treatment strategies perform with a moderately resistant community and a moderate infection regime in the hospital ward and how well they are able to prevent the upcoming double resistance.
+The \textit{prevention}~scenario (\autoref{fig:exp1}) addresses how the treatment strategies perform with a moderately resistant community and a moderate infection regime in the hospital ward and how well they are able to prevent the upcoming double resistance.
 
-The \textit{containment}~scenario (\sifig{4}) corresponds to a scenario in which some patients entering the hospital are infected with double-resistant bacteria to compare the ability of treatment strategies to contain the spread of pre-existing double resistance.
+The \textit{containment}~scenario (\autoref{fig:exp2}) corresponds to a scenario in which some patients entering the hospital are infected with double-resistant bacteria to compare the ability of treatment strategies to contain the spread of pre-existing double resistance.
 
 During the \textit{maximum-emergence}~scenario (\autoref{fig:exp3}) 50 \% of the incoming patients are infected with A-resistant bacteria, and the other 50 \% are infected with B-resistant bacteria. These conditions maximally favour opportunities for horizontal gene transfer.
-The basic reproduction number was set to $R_0 = 0.5$ (\sieq{1}) to ensure that double-resistant strains are flushed out, reducing the stochastic dependency on earlier emergence events while maintaining a high potential for new emergence.
+The basic reproduction number was set to $R_0 = 0.5$ (\autoref{eq:R0}) to ensure that double-resistant strains are flushed out, reducing the stochastic dependency on earlier emergence events while maintaining a high potential for new emergence.
 
 \paragraph{Instruction Sets.}
 Based on the parameter defined for each experiment (see \autoref{tab:exp_par}), we generated instructions that were passed to the liquid handling platform.
@@ -80,22 +80,22 @@ Instruction sets are identical across all treatment arms and replicates.
 
 \paragraph{Computational Model.}
 We created a stochastic model (\sisec{SI Computational Model}) incorporating 94 \textit{in silico} patients, each capable of adopting one of six resistance profiles $\phi \in \{U, S, A_r, B_r, AB_r, (A_r\&B_r)\}$.
-The model is structured analogue to the \textit{in vitro} experiments (\sifig{1}) and alternates between modelling the transactions between wells and the effect of treatment during incubation.
+The model is structured analogue to the \textit{in vitro} experiments (\autoref{fig:procedure}) and alternates between modelling the transactions between wells and the effect of treatment during incubation.
 
 Admission and discharge (turnover) were simulated by replacing the resistance profile of the current patient with that of the incoming patient, as defined by the instruction set.
 Infections are simulated by combining the resistance profiles of the receiving well $i$ and the infecting well $j$.
-The resulting resistance profile $\phi_i + \phi_j$ is determined using the rules based on the dominance of resistance specified in \sitab{9}.
+The resulting resistance profile $\phi_i + \phi_j$ is determined using the rules based on the dominance of resistance specified in \autoref{tab:mixing_rules}.
 Calculations involving more than two resistance profiles apply the associative law and are determined pairwise, e.g. $(U + S) + A_r = S + A_r = A_r$.
 
 To model treatment effects, we use transition probabilities to assign the post-incubation resistance profile $\phi(\hat{T})$ stochastically based on the treatment and the pre-incubation resistance profile $\phi(T)$.
-The transition probabilities (\sitab{18} -- \sitab{25}) were estimated based on experimental data across all experiments.
+The transition probabilities (\autoref{tab:m_none} -- \ref{tab:m1_ab}) were estimated based on experimental data across all experiments.
 
 \paragraph{\textit{In Silico} Sensitivity Analysis.}
 To augment the experimental data, we conducted an \textit{in silico} sensitivity analysis.
 We randomly generated 10,000 parameter sets with and 10,000 without pre-existing double resistance.
 Turnover and infection probabilities were uniformly sampled $[0.05, 0.95]$, allowing for  $R_0 \in [0.0526, 19]$.
 The sampling proportions $c_\phi$ for all incoming resistance profiles ($\phi \in \{U, S, A_r, B_r, AB_r\}$) were randomised by sampling a number $n_\phi \in [0, 1]$ from a uniform distribution and subsequently normalising by the sum: $c_\phi = {n_\phi}/{\sum_j n_j}$.
-We created ten randomised instruction sets for each parameter set and conducted one simulation per instruction set (\sifig{3D}) for 28 transfers.
+We created ten randomised instruction sets for each parameter set and conducted one simulation per instruction set (\autoref{fig:stochs}D) for 28 transfers.
 
 For this analysis, the frequency of non-infected individuals during the last four transfers was used as a performance metric for treatment strategies, as it also indirectly reflects the frequency of both double- and single-resistant patients.
 We conducted an ANOVA test to assess if the effect of the treatment strategies significantly ($p<0.05$) influences the frequency of uninfecteds.

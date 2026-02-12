@@ -139,9 +139,11 @@
 %----------------------------------------------------------
 % Captions
 %----------------------------------------------------------
-\RequirePackage[font=small,labelfont={sc,bf},labelsep=quad]{caption}
+%\RequirePackage[font=small,labelfont={sc,bf},labelsep=quad]{caption}
 \setlength{\captionmargin}{5pt}
 \setlength{\intextsep}{30pt plus 1.0pt minus 2.0pt}
+\RequirePackage{sidecap}
+\sidecaptionvpos{table}{t}
 
 %----------------------------------------------------------
 % Spacing & layout
@@ -184,9 +186,10 @@
 \makeevenhead{pst_e}{\footnotesize\hspace{-3.5em}\scshape\leftmark}{}{}
 \makeoddhead{pst_e}{}{}{\footnotesize\scshape\rightmark}
 \setlength{\headsep}{30pt}
-\setlength{\headheight}{16pt}
-\makeevenfoot{pst_e}{\footnotesize\thepage}{}{}
-\makeoddfoot{pst_e}{}{}{\footnotesize\thepage}
+\setlength{\headheight}{24pt}
+\makeevenhead{pst_e}{\footnotesize\scshape\leftmark}{}{}
+\makeoddhead{pst_e}{}{}{\footnotesize\scshape\rightmark}
+
 \aliaspagestyle{plain}{empty}
 
 \makepsmarks{pst_e}{%
@@ -278,42 +281,103 @@
 }
 
 % -------------------------------------------------
-%  Front matter blocks for included manuscripts
+%  Front matter blocks for included manuscripts (paper-style)
 % -------------------------------------------------
 \makeatletter
 
 \newcommand{\mabstract}{}
-\newcommand{\manuscriptabstract}[1]{\gdef\mabstract{#1}}
+\newcommand{\mauthors}{}
+\newcommand{\maffiliations}{}
+\newcommand{\mpublished}{}
+\newcommand{\mcontributions}{}
 
-\newcommand{\printauthors}[1]{%
-  {\normalfont\textbf{Authors:} #1\par}%
-  \rule{\textwidth}{0.4pt}
+\newcommand{\manuscriptabstract}[1]{\gdef\mabstract{#1}}
+\newcommand{\manuscriptauthors}[1]{\gdef\mauthors{#1}}
+
+\newcommand{\affil}[2]{%
+  \g@addto@macro\maffiliations{\textsuperscript{#1}#2\par}%
 }
+
+\newcommand{\manuscriptpublished}[1]{\gdef\mpublished{#1}}
+\newcommand{\authorcontributions}[1]{\gdef\mcontributions{#1}}
+
+\newcommand{\manuscriptreset}{%
+  \gdef\mabstract{}%
+  \gdef\mauthors{}%
+  \gdef\maffiliations{}%
+  \gdef\mpublished{}%
+  \gdef\mcontributions{}%
+}
+
+\newcommand{\printmanuscriptauthors}{%
+  \textbf{Authors:}
+  \ifx\mauthors\@empty
+  {\normalfont \@author\par}%
+  \else
+  {\normalfont \mauthors\par}%
+  \fi
+}
+
+\newcommand{\printmanuscriptmeta}{%
+  {\itshape\small
+    \ifx\maffiliations\@empty\else
+    \maffiliations
+    \vspace{0.35\baselineskip}%
+    \fi
+  }%
+  {\normalfont\small
+    \ifx\mcontributions\@empty\else
+    \noindent\textbf{Contributions:} \mcontributions\par
+    \vspace{0.35\baselineskip}%
+    \fi
+  }%
+  \vspace{0.4\baselineskip}%
+  \rule{\textwidth}{0.4pt}\par
+  \vspace{0.75\baselineskip}%
+}
+
 \newcommand{\manuscriptfront}{%
   \chapter{\@title}%
-  \printauthors{\@author}%
-  %
-  \vspace*{1.0\baselineskip}%
-  \vspace*{0.25\baselineskip}%
-  {
-    \begin{abstract}
-      \mabstract
-  \end{abstract}}%
+  \printmanuscriptauthors
+  \printmanuscriptmeta
+  \begin{abstract}
+    \mabstract
+  \end{abstract}
+  \vfill
+  {\normalfont\small
+    \ifx\mpublished\@empty\else
+    \textit{\mpublished}\par
+    \fi
+  }%
   \clearpage
+  \manuscriptreset
 }
 
+\makeatother
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%% APPENDIX FRONT PAGE STYLE %%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \makeatletter
 \newcounter{appendixitem}
 
 \newcommand{\appendixfront}{%
   \refstepcounter{appendixitem}%
   \chapter{\@title}%
-  \vspace*{0.75\baselineskip}%
-  \printauthors{\@author}%
-  \vspace*{1.0cm}%
+  \printmanuscriptauthors
+  {\itshape\small
+    \ifx\maffiliations\@empty\else
+    \maffiliations
+    \fi
+  }%
+  \vspace{0.4\baselineskip}%
+  \rule{\textwidth}{0.4pt}\par
+
+  \vspace*{4.0cm}%
   {\normalfont\huge\itshape Supplementary Information\par}%
   \vspace*{1.25\baselineskip}%
   \clearpage
+  \manuscriptreset
 }
 
 \makeatother

@@ -1,6 +1,6 @@
 
 \newcommand{\createTukeyTable}[4]{
-  \begin{table}[H]
+  \begin{table}
     \centering
     \caption{#4: Multiple comparison between the effects of #2 on the frequencies of #3 using Tukey's post-hoc analysis.}
     \label{tab:#1}
@@ -44,7 +44,7 @@
 }
 
 \newcommand{\createANOVATable}[4]{
-  \begin{table}[H]
+  \begin{table}
     \centering
     \caption{#4: Effect of #2 on the frequency of #3 (ANOVA).}
     \label{tab:#1}
@@ -111,7 +111,3 @@
     \end{tikzpicture}
   \end{subfigure}
 }
-
-% SI-style equation numbering: S1, S2, ...
-\renewcommand{\theequation}{S\arabic{equation}}
-\renewcommand{\eqref}[1]{Eq.~S\ref{#1}}

@@ -1,4 +1,4 @@
-\begin{table}[H]
+\begin{table}
   \centering
   \captionof{table}{Number of superinfections ($N_{\mathcal S}$) between high- and low-concentrated $A_r$ and $B_r$ wells and the number of double resistances that emerged ($N_{\mathcal E}$)  under treatment $\vartheta$ across all three experiments.}
   \label{tab:encounter_advanced}
@@ -8,17 +8,23 @@
   {\treatment & \sa & \sb & \n & \total & \f}
 \end{table}
 
-\begin{table}[H]
+\begin{table}
   \centering
   \captionof{table}{Strains used in this study and their relevant phenotypes. The phenotype in brackets is conferred by the respective plasmid. Cm\textsuperscript{R}: Chloramphenicol resistance, Amp\textsuperscript{R}: Ampicillin resistance, Caz\textsuperscript{R}: Ceftazidime resistance, Tet\textsuperscript{R}: Tetracycline resistance.}
   \label{tab:strainPhenotypes}
-  \makeCSVtable{l|ll}%
-  {Name & \textbf{Relevant phenotype} &\textbf{Reference}}%
-  {chapter_2_sup/tables/strains_phenotypes.csv}%
-  {\name  & \phenotype & \reference}
+  \begin{tabular}{lll}
+    \toprule
+    \textbf{Name} & \textbf{Relevant phenotype} & \textbf{Reference} \\
+    \midrule
+    \textit{Escherichia coli} MDS42-YFP & Cm\textsuperscript{R} & \cite{Feher2012} \\
+    A-resistant & Cm\textsuperscript{R} pA (Amp\textsuperscript{R}, Caz\textsuperscript{R}) & this study, \cite{Huisman2022} \\
+    B-resistant & Cm\textsuperscript{R} pB (Amp\textsuperscript{R}, Tet\textsuperscript{R}) & this study, \cite{Huisman2022} \\
+    AB-resistant & Cm\textsuperscript{R} pA (Amp\textsuperscript{R}, Caz\textsuperscript{R}) pB (Amp\textsuperscript{R}, Tet\textsuperscript{R}) & this study, \cite{Huisman2022} \\
+    \bottomrule
+  \end{tabular}
 \end{table}
 
-\begin{table}[H]
+\begin{table}
   \centering
   \captionof{table}{Statistical comparison of maximum growth rates between the sensitive and plasmid-carrying strains.
   We used a Mann-Whitney U test for pairwise comparisons, and the p-values were adjusted using the Bonferroni correction. }
@@ -26,7 +32,7 @@
   \label{tab:man_ferroni}
 \end{table}
 
-\begin{table}[H]
+\begin{table}
   \centering
   \captionof{table}{
     Plasmid segregation loss was estimated over 24 hours without treatment and with selective treatment as a control.
@@ -38,73 +44,65 @@
   \label{tab:loss_data}
 \end{table}
 
-\begin{table}[H]
-  \centering
+\begin{table}
+  \raggedright
   \caption{95 \% confidence intervals for the final bacterial density measured by colony plating and the maximal growth rates measured by evaluating OD-growth curves.}
   \label{tab:growth_and_density}
   \input{chapter_2_sup/tables/growthcurves_and_rates.tex}
 \end{table}
 
-\begin{table}[H]
-  \centering
-  \begin{minipage}[t]{0.5\textwidth}
-    \centering
-    \captionof{table}{Definition of resistance profiles (rows) by growth patterns on differently treated \textit{agar plates} (columns). X indicates colony formation, whereas o indicates no growth.}
-    \begin{tabular}{r|cccc}
-      \toprule
-      & None & A & B & AB  \\
-      \midrule
-      $U$   & o & o & o & o \\
-      $S$   & X &o&o&o\\
-      $A_r$   & X & X &o&o\\
-      $B_r$   & X &o& X &o\\
-      $(A_r\&B_r)$   & X & X & X &o\\
-      $AB_r$   & X & X & X & X \\
-      \bottomrule
-    \end{tabular}
-    \label{tab:phenotyping}
-  \end{minipage}
-\end{table}
+\begin{SCtable}[50]
+  \raggedright
+  \caption{Definition of resistance profiles (rows) by growth patterns on differently treated \textit{agar plates} (columns). X indicates colony formation, whereas o indicates no growth.}
+  \label{tab:phenotyping}
+  \begin{tabular}{r|cccc}
+    \toprule
+    & None & A & B & AB \\
+    \midrule
+    $U$   & o & o & o & o \\
+    $S$   & X & o & o & o \\
+    $A_r$ & X & X & o & o \\
+    $B_r$ & X & o & X & o \\
+    $(A_r\&B_r)$ & X & X & X & o \\
+    $AB_r$ & X & X & X & X \\
+    \bottomrule
+  \end{tabular}
+\end{SCtable}
 
-\begin{table}[H]
-  \centering
-  \begin{minipage}[t]{0.55\textwidth}
-    \centering
-    \captionof{table}{Association between bacterial phenotypes (rows) and resistance profiles \(\phi\) (columns). An 'X' denotes that a phenotype is obligatory for a given profile, while a '\(\surd\)' indicates that it is optional.
-    }
-    \begin{tabular}{r|cccccc}
-      \toprule
-      & $U$ & $S$ & $A_r$ & $B_r$ & $(A_r\&B_r)$ & $AB_r$ \\
-      \midrule
-      sensitive     &  & X &  $\surd$ &   $\surd$ &  $\surd$ &  $\surd$ \\
-      A-resistant   & &  & X  &   & X  &  $\surd$ \\
-      B-resistant   & & & & X  & X  &  $\surd$  \\
-      double-resistant  & &  &  & & & X  \\
-      \bottomrule
-    \end{tabular}
-    \label{tab:bacterial-phenotypes}
-  \end{minipage}
-\end{table}
+\begin{SCtable}
+  \raggedright
+  \caption{Association between bacterial phenotypes (rows) and resistance profiles \(\phi\) (columns). An 'X' denotes that a phenotype is obligatory for a given profile, while a '\(\surd\)' indicates that it is optional.}
+  \label{tab:bacterial-phenotypes}
+  \begin{tabular}{r|cccccc}
+    \toprule
+    & $U$ & $S$ & $A_r$ & $B_r$ & $(A_r\&B_r)$ & $AB_r$ \\
+    \midrule
+    sensitive         &   & X & $\surd$ & $\surd$ & $\surd$ & $\surd$ \\
+    A-resistant       &   &   & X       &         & X       & $\surd$ \\
+    B-resistant       &   &   &         & X       & X       & $\surd$ \\
+    double-resistant  &   &   &         &         &         & X       \\
+    \bottomrule
+  \end{tabular}
+\end{SCtable}
 
-\begin{table}[H]
-  \centering
-  \captionof{table}{Clearance probability of well phenotypes across the three experiments.}
+\begin{SCtable}[50]
+  \raggedright
+  \caption{Clearance probability of well phenotypes across the three experiments.}
   \label{tab:clearance}
   \makeCSVtable{r|ccc}%
-  { &   $S$ &  $A_r$ & $B_r$ }%
+  { & $S$ & $A_r$ & $B_r$ }%
   {chapter_2_sup/tables/clearance_mean.csv}%
-  {\treatmentwith  & \S   & \Ar   & \Br  }
-\end{table}
+  {\treatmentwith  & \S   & \Ar   & \Br}
+\end{SCtable}
 
-\begin{table}[H]
-  \centering
+\begin{SCtable}
+  \raggedright
   \caption{\textbf{Mixing rules.}
     During the plate‐handling phase, we mix wells due to infections.
     The resulting phenotype of the two mixed wells can be calculated using this table.
-    More than two phenotypes can be combined by applying associative logic.
-  }
+  More than two phenotypes can be combined by applying associative logic.}
   \label{tab:mixing_rules}
-  \resizebox{\linewidth}{!}{%
+  \resizebox{.7\linewidth}{!}{%
     \begin{tabular}{r|cccccc}
       \diagbox[width=20mm]{$\phi_1(\hat{T})$}{$\phi_2(\hat{T})$}
       & $U$ & $S$ & $A_r$ & $B_r$ & $(A_r\&B_r)$ & $AB_r$ \\\hline
@@ -123,9 +121,9 @@
       }%
     \end{tabular}%
   }
-\end{table}
+\end{SCtable}
 
-\begin{table}[H]
+\begin{table}
   \centering
   \begin{minipage}{.82\linewidth} % Adjust the width as needed
     \centering
@@ -163,7 +161,7 @@
 
 \end{table}
 
-\begin{table}[H]
+\begin{table}
   \centering
   \captionof{table}{Wins and losses during the sensitivity analysis. With preexisting double resistance. 606 parameter sets yielded an insignificant result.}
   \resizebox{\linewidth}{!}{
@@ -193,7 +191,7 @@
   \label{tab:win_loss_statistic_clean_no_preex}
 \end{table}
 
-\begin{table}[H]
+\begin{table}
   \begin{minipage}{.49\linewidth}
     \centering
     \caption{$M^{\mathrm{none}}$. Unfiltered transition matrix for untreated wells.}
@@ -209,7 +207,7 @@
   \end{minipage}
 \end{table}
 
-\begin{table}[H]
+\begin{table}
   \begin{minipage}{.49\linewidth}
     \centering
     \caption{$M^{\mathrm{B}}$. Unfiltered transition matrix for wells treated with antibiotic B.}
@@ -225,7 +223,7 @@
   \end{minipage}
 \end{table}
 
-\begin{table}[H]
+\begin{table}
   \begin{minipage}{.49\linewidth}
     \centering
     \caption{$M_1^{\mathrm{none}}$. Unfiltered transition matrix for the first time point in untreated wells.}
@@ -241,7 +239,7 @@
   \end{minipage}
 \end{table}
 
-\begin{table}[H]
+\begin{table}
   \begin{minipage}{.49\linewidth}
     \centering
     \caption{$M_1^{\mathrm{B}}$. Unfiltered transition matrix for the first time point in wells treated with antibiotic B.}
@@ -257,7 +255,7 @@
   \end{minipage}
 \end{table}
 
-\begin{table}[H]
+\begin{table}
   \begin{minipage}{.49\linewidth}
     \centering
     \caption{$M^{\mathrm{none}}$. Filtered transition matrix for untreated wells.}
@@ -273,7 +271,7 @@
   \end{minipage}
 \end{table}
 
-\begin{table}[H]
+\begin{table}
   \begin{minipage}{.49\linewidth}
     \centering
     \caption{$M^{\mathrm{B}}$. Filtered transition matrix for wells treated with antibiotic B.}
@@ -289,7 +287,7 @@
   \end{minipage}
 \end{table}
 
-\begin{table}[H]
+\begin{table}
   \begin{minipage}{.49\linewidth}
     \centering
     \caption{$M_1^{\mathrm{none}}$. Filtered transition matrix for the first time point in untreated wells.}
@@ -305,7 +303,7 @@
   \end{minipage}
 \end{table}
 
-\begin{table}[H]
+\begin{table}
   \begin{minipage}{.49\linewidth}
     \centering
     \caption{$M_1^{\mathrm{B}}$. Filtered transition matrix for the first time point in wells treated with antibiotic B.}
