@@ -80,34 +80,24 @@ From these images, we measured bacterial length and width (\autoref{fig:filament
 For antibiotics where microscopy showed no significant filamentation (amoxicillin, colistin, fosfomycin, rifampicin, and tetracycline, \autoref{tab:morph_post}), luminescence-based and CFU-based rates did not differ significantly (\autoref{fig:rate_plot}, \autoref{tab:comp_stats}).
 In contrast, for those drugs where microscopy data indicated significant filamentation (ampicillin, ceftazidime, ciprofloxacin, meropenem, and trimethoprim), luminescence-based rates were significantly higher than CFU-based rates.
 
-\begin{figure}[htp]
-\centering
-\captionsetup{skip=4pt}
-
-\begin{subfigure}[t]{\columnwidth}
-\raggedleft
-\begin{overpic}[width=.9\columnwidth]{figures/volume_summary_pre.pdf}
-\put(-4,18){\small\bfseries a)}%
+\begin{SCfigure}
+\begin{minipage}{10cm}
+\hfill
+\begin{overpic}[width=.92\linewidth]{figures/volume_summary_pre.pdf}
+\put(-3,18){\small\bfseries a)}%
 \end{overpic}
-\label{fig:volume_pre}
-\end{subfigure}%
-
-\vspace{-.5cm}
-\begin{subfigure}[t]{\columnwidth}
-\centering
-\begin{overpic}[width=\columnwidth]{figures/volume_summary_post.pdf}
+\vspace{0cm}
+\begin{overpic}[width=\linewidth]{figures/volume_summary_post.pdf}
 \put(5,75){\small\bfseries b)}%
 \end{overpic}
-\label{fig:volume_post}
-\end{subfigure} \vspace{-.6cm}
+\end{minipage}
 \caption{
-Density distributions (2.5--97.5\% percentile range) of pooled cell volumes acquired by microscopy imaging, shown (a) before and (b) after 2 h of antibiotic treatment.
-Boxes indicate the 25–75 \% interquartile range, and vertical bars mark the mean.
-Significance (*) was assessed by bootstrapping cell volumes 200 times with replacement for each replicate (image) and treatment, pooling the bootstrapped volumes by treatment, and comparing the resulting 95\% confidence interval of the mean to that of the untreated control (\texttt{control\_2h}).
-\(\ddagger\) Carbapenems tend to deform cells into a lemon-like shape (\autoref{fig:micro_mero}), resulting in poor fitting quality since our algorithm assumes a cylindrical geometry.
-}
-\label{fig:volume_combined}
-\end{figure}
+Panels A--C show the mean frequency of uninfected (grey), single-resistant infected (blue), and double-resistant infected wells (green) during the last four transfers of the three scenarios.
+Circles represent replicates (n = 4), and bars represent means.
+Within resistance categories, bars not sharing a letter are significantly different (pairwise Tukey post hoc test, $p<0.05$; ANOVA tables and all p-values can be found in \autoref{tab:20210417U_anova} -- \autoref{tab:20220412double_tukey}).
+\vspace{2.5cm}}
+\label{fig:end_anova}
+\end{SCfigure}
 
 %%%%%%%%%%%%%%%%%%%%%%%% FILAMENTATION MODEL %%%%%%%%%%%%%%%%%%%%%%%%
 \paragraph{Filamentation model predicts divergence between luminescence- and CFU-based rates.}
@@ -155,15 +145,14 @@ For ciprofloxacin, the large disparity between \(\psi_{\mathrm{CFU}}\) and \(\ps
 Bringing the two rates into agreement solely by adjusting cell-specific luminosity would require an almost four-order-of-magnitude increase, which appears implausible.
 We therefore conclude that, in this case, CFU-based measurements likely overestimate the rate of population decline, corresponding to an underestimation of \(\psi_B\) (iii).
 
-\begin{figure}
-\centering
-\includegraphics[width = \columnwidth]{figures/sensitivity_analysis.pdf}
-\vspace{-.8cm}
-\caption{
-Simulations based on the filamentation model quantifying how changes in division rate due to treatment ($\Delta \lambda$) and death rate ($\delta$) influence the rate of change of population size ($\psi_B$, blue), the rate of change of light intensity ($\psi_I$, orange), and the rate of change of light intensity when the first 2 hours of data are excluded ($\psi_{I}^*$, green).
-These illustrative simulations were conducted using an initial division rate $\lambda_0 = 1.5\,\mathrm{h}^{-1}$. More details and all parameter values can be found in \autoref{sec:model}.}
+\begin{SCfigure}[][h]
+\captionsetup{skip=2pt}
+\includegraphics[width = 9cm]{figures/sensitivity_analysis.pdf}
+\caption{Simulations based on the filamentation model quantifying how changes in division rate due to treatment ($\Delta \lambda$) and death rate ($\delta$) influence the rate of change of population size ($\psi_B$, blue), the rate of change of light intensity ($\psi_I$, orange), and the rate of change of light intensity when the first 2 hours of data are excluded ($\psi_{I}^*$, green).
+These illustrative simulations were conducted using an initial division rate $\lambda_0 = 1.5\,\mathrm{h}^{-1}$.
+More details and all parameter values can be found in \autoref{sec:model}.}
 \label{fig:sensitivity}
-\end{figure}
+\end{SCfigure}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%% REASONS WHY CFU OVERESTIMATES KILL RATES %%%%%%%%%%%%%%%%

@@ -1,0 +1,21 @@
+[0] Config.pm:304> INFO - This is Biber 2.14
+[0] Config.pm:307> INFO - Logfile is 'build/ch5.blg'
+[83] biber-darwin:322> INFO - === Do Feb 12, 2026, 23:34:16
+[102] Biber.pm:415> INFO - Reading 'build/ch5.bcf'
+[201] Biber.pm:943> INFO - Found 12 citekeys in bib section 0
+[214] Biber.pm:4256> INFO - Processing section 0
+[215] Utils.pm:75> INFO - Globbing data source 'bibliographies/TSPlasmid.bib'
+[215] Utils.pm:91> INFO - Globbed data source 'bibliographies/TSPlasmid.bib' to bibliographies/TSPlasmid.bib
+[215] Utils.pm:75> INFO - Globbing data source 'bibliographies/thesis.bib'
+[215] Utils.pm:91> INFO - Globbed data source 'bibliographies/thesis.bib' to bibliographies/thesis.bib
+[215] Utils.pm:75> INFO - Globbing data source 'bibliographies/Luminescence_Paper.bib'
+[215] Utils.pm:91> INFO - Globbed data source 'bibliographies/Luminescence_Paper.bib' to bibliographies/Luminescence_Paper.bib
+[215] Utils.pm:75> INFO - Globbing data source 'bibliographies/zenodo.bib'
+[215] Utils.pm:91> INFO - Globbed data source 'bibliographies/zenodo.bib' to bibliographies/zenodo.bib
+[215] Utils.pm:75> INFO - Globbing data source 'bibliographies/combination_paper.bib'
+[215] Utils.pm:91> INFO - Globbed data source 'bibliographies/combination_paper.bib' to bibliographies/combination_paper.bib
+[215] Utils.pm:75> INFO - Globbing data source 'bibliographies/manual_refs.bib'
+[215] Utils.pm:91> INFO - Globbed data source 'bibliographies/manual_refs.bib' to bibliographies/manual_refs.bib
+[226] Biber.pm:4455> INFO - Looking for bibtex format file 'bibliographies/TSPlasmid.bib' for section 0
+[389] Utils.pm:320> ERROR - Cannot find 'bibliographies/TSPlasmid.bib'!
+[389] Biber.pm:132> INFO - ERRORS: 1

@@ -4,7 +4,7 @@ For each drug pair, we assessed 144 conditions $(c_A, c_B)$ in a \(12\times 12\)
 We measured light intensity trajectories $I(t)$ for 8{,}640 bioluminescent cultures to infer changes in population size over time.
 Single-drug trajectories are shown in \autoref{fig:single-timecourses}.
 
-\begin{figure}
+\begin{SCfigure}
   \centering
   \begin{overpic}[width=89mm]{figures/peptide_interaction.pdf}
     \put(5,97){\small\textbf{(a)}}
@@ -17,10 +17,10 @@ Single-drug trajectories are shown in \autoref{fig:single-timecourses}.
   \caption{
     Panel (a) shows the median of normalised light-intensity trajectories \(y(t)=I(t)/I(0)\) for the combination of polymyxin~B (POL, \SI{0.5}{\micro\gram\per\milli\liter}) and tetracycline (TET, \SI{2}{\micro\gram\per\milli\liter}), together with the corresponding single-drug and untreated control trajectories, with shaded bands indicating the interquartile range across biological replicates.
     Panel (b) shows the log-transformed signal \(Y(t)=\ln(y(t))\) for the untreated control and the combination treatment from panel (a), together with their associated areas under the curve.
-    Panel (c) shows a simple peptide--antibiotic interaction model illustrating qualitatively distinct dynamics under: no drugs, antibiotic (slow constant decline), peptide (rapid initial decline), and peptide plus antibiotic (rapid initial decline followed by a constant slow decline).
+    Panel (c) shows a simple peptide--antibiotic interaction model illustrating qualitatively distinct dynamics under: no drugs, antibiotic (slow constant decline), peptide (rapid initial decline), and peptide plus antibiotic (rapid initial decline followed by a constant slow decline).\vspace{1.8cm}
   }
   \label{fig:peptide-interactions}
-\end{figure}
+\end{SCfigure}
 
 %%%%%%%%
 %%% PEPTIDE - Antibitic Interactions
@@ -47,17 +47,17 @@ For each condition $(c_A, c_B)$ we estimate the bootstrap distribution \(\symbf{
 Throughout this manuscript, we denote distributions with bold symbols.
 For each bootstrap draw \(b\), we compute \(\tau_b(c_A,c_B)=\psi_b(\emptyset)-\psi_b(c_A,c_B)\).
 
-\begin{figure}
+\begin{SCfigure}
   \centering
   \includegraphics[width = 89 mm]{figures/psi_chloramphenicol_tetracycline.pdf}
-  \vspace{-7mm}
   \caption{
     Time-weighted growth rate \(\psi\) for combinations of CHL and TET.
     Each cell corresponds to one concentration pair, with colour indicating the median of $\psi$ across \(n=4\) biological replicates.
     Markers denote whether the distribution of $\psi$ is significantly different from zero (see Methods): stars indicate significantly positive values (net growth), and diamonds indicate significantly negative values (net killing).
+    \vspace{2.5cm}
   }
   \label{fig:psi_chl_tet}
-\end{figure}
+\end{SCfigure}
 
 %%%%%%%%
 %% Interaction Models
@@ -107,7 +107,7 @@ Here, we observed two cases of strong disagreement (COL+TET and POL+TET) and sev
 
 \begin{figure*}
   \centering
-  \begin{overpic}[width=189mm]{figures/distributions_triptych.pdf}
+  \begin{overpic}[width=\linewidth]{figures/distributions_triptych.pdf}
   \put(5,42){\large\textbf{a)}}
 \put(38,42){\large\textbf{b)}}
 \put(70,42){\large\textbf{c)}}
@@ -158,20 +158,18 @@ However, combinations showing mixing-ratio dependence are also common, as exempl
 Plots for all combinations are shown in \autoref{fig:surface_angular_interaction}.
 
 %% FIGURE 4
-\begin{figure}
+\begin{SCfigure}
 \centering
-\begin{overpic}[width = 89mm]{figures/surface_plot.pdf}
+\begin{overpic}[width = 10cm]{figures/surface_plot.pdf}
 \put(10,97){\textbf{(a)}}
 \put(10,50){\textbf{(c)}}
 \put(50,97){\textbf{(b)}}
 \put(50,50){\textbf{(d)}}
 \end{overpic}
-\vspace{-8mm}
 \caption{
 Panels (a,b) show \emph{polar pharmacodynamic curves} at \(\phi=45^\circ\) (corresponding to a \(1{:}1\) ratio in units of \(\mathrm{zMIC}\)) for (a) AMO+COL and (b) AMO+PEN.
 The x-axis shows the combined dose \(z\), where \(z=1/\sqrt{2}\) (blue dotted line) corresponds to both single-drug doses equaling \(0.5\,\mathrm{zMIC}\), and \(z=\sqrt{2}\) (blue dashed line) corresponds to both equaling \(1\,\mathrm{zMIC}\).
-Panels (c,d) show the Bliss- and Loewe-based predictions for \(\psi\) over the mixing angle \(\phi\) along the observed isobole at \(\psi=\SI{0}{\per\hour}\) for (c) COL+PEN and (d) CHL+TET.
+Panels (c,d) show the Bliss- and Loewe-based predictions for \(\psi\) over the mixing angle \(\phi\) along the observed isobole at \(\psi=\SI{0}{\per\hour}\) for (c) COL+PEN and (d) CHL+TET. \vspace{3.8cm}
 }
-
 \label{fig:surface_plots}
-\end{figure}
+\end{SCfigure}

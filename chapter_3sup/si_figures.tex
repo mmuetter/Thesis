@@ -1,7 +1,9 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%% linearity %%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{figure}
+\renewcommand{\draftwidth}{8cm}
+
+\begin{SCfigure}
   \centering
   \includegraphics[width=\draftwidth]{chapter_3sup/figures/linearity.pdf}
   \caption{
@@ -9,9 +11,9 @@
     Serial tenfold dilutions of bacterial cultures were prepared in a 384‐well white microplate, and luminescence was measured immediately.
     Linear regression of the luminescence signal against bacterial density (CFU) yielded a conversion factor of \(m_{\mathrm{fit}} = 0.006\,\mathrm{rlu \cdot ml \cdot CFU}^{-1}\).
     The high correlation (\(R^2 = 0.987\) in log-log space) confirms a linear relationship between luminescence and bacterial density.
-  }
+  \vspace{.5cm}}
   \label{fig:linearity}
-\end{figure}
+\end{SCfigure}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%% time series %%ampicillin_comp_combined%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -30,150 +32,144 @@ These excluded data points are marked as `X'}
 
 \begin{figure}
   \centering
-  \begin{overpic}[width=\draftwidth]{chapter_3sup/figures/ampicillin_comp.pdf}
+  \begin{overpic}[width=7.3cm]{chapter_3sup/figures/ampicillin_comp.pdf}
   \put(5,60){\large\bfseries a)}
 \end{overpic}
-\vspace{0.5cm}
-
-\begin{overpic}[width=\draftwidth]{chapter_3sup/figures/ampicillin_low_comp.pdf}
+\begin{overpic}[width=7.3cm]{chapter_3sup/figures/ampicillin_low_comp.pdf}
 \put(5,60){\large\bfseries b)}
 \end{overpic}
-
 \caption{Ampicillin. \cbase. \cmorph. \cplus, and \cx.}
 \label{fig:ampicillin_comp_combined}
 \end{figure}
 
-\begin{figure}
+\begin{SCfigure}
 \centering
 \includegraphics[width=\draftwidth]{chapter_3sup/figures/cefepime_comp.pdf}
-\caption{Cefepime. \cbase. \cpeak.}
+\caption{Cefepime. \cbase. \cpeak. \vspace{.8cm}}
 \label{fig:cefepime_comp}
-\end{figure}
+\end{SCfigure}
 
-\begin{figure}
+\begin{SCfigure}
 \centering
 \includegraphics[width=\draftwidth]{chapter_3sup/figures/ceftazidime_comp.pdf}
-\caption{Ceftazidime. \cbase. \cmorph. }
+\caption{Ceftazidime. \cbase. \cmorph. \vspace{0.25cm}}
 \label{fig:ceftazidime_comp}
-\end{figure}
+\end{SCfigure}
 
-\begin{figure}
+\begin{SCfigure}
 \centering
 \includegraphics[width=\draftwidth]{chapter_3sup/figures/cefuroxime_comp.pdf}
-\caption{Cefuroxime. \cbase. \cplus.}
+\caption{Cefuroxime. \cbase. \cplus.\vspace{.5cm}}
 \label{fig:cefuroxime_comp}
-\end{figure}
+\end{SCfigure}
 
-\begin{figure}
+\begin{SCfigure}
 \centering
 \includegraphics[width=\draftwidth]{chapter_3sup/figures/chloramphenicol_comp.pdf}
-\caption{Chloramphenicol. \cbase.}
+\caption{Chloramphenicol. \cbase.\vspace{2cm}}
 \label{fig:chloramphenicol_comp}
-\end{figure}
+\end{SCfigure}
 
-\begin{figure}
+\begin{SCfigure}
 \centering
 \includegraphics[width=\draftwidth]{chapter_3sup/figures/ciprofloxacin_comp.pdf}
-\caption{Ciprofloxacin. \cbase. \cmorph.}
+\caption{Ciprofloxacin. \cbase. \cmorph.\vspace{.3cm}}
 \label{fig:ciprofloxacin_comp}
-\end{figure}
+\end{SCfigure}
 
-\begin{figure}
+\begin{SCfigure}
 \centering
 \includegraphics[width=\draftwidth]{chapter_3sup/figures/colistin_comp.pdf}
-\caption{Colistin. \cbase. \cplus}
+\caption{Colistin. \cbase. \cplus\vspace{.7cm}}
 \label{fig:colistin_comp}
-\end{figure}
+\end{SCfigure}
 
-\begin{figure}
+\begin{SCfigure}
 \centering
 \includegraphics[width=\draftwidth]{chapter_3sup/figures/doripenem_comp.pdf}
-\caption{Doripenem. \cbase. \cpeak.}
+\caption{Doripenem. \cbase. \cpeak.\vspace{.9cm}}
 \label{fig:doripenem_comp}
-\end{figure}
+\end{SCfigure}
 
-\begin{figure}
+\begin{SCfigure}
 \centering
 \includegraphics[width=\draftwidth]{chapter_3sup/figures/fosfomycin_comp.pdf}
-\caption{Fosfomycin. \cbase. }
+\caption{Fosfomycin. \cbase. \vspace{2.1cm}}
 \label{fig:fosfomycin_comp}
-\end{figure}
+\end{SCfigure}
 
-\begin{figure}
+\begin{SCfigure}
 \centering
 \includegraphics[width=\draftwidth]{chapter_3sup/figures/imipenem_comp.pdf}
-\caption{Imipenem. \cbase. \cplus.}
+\caption{Imipenem. \cbase. \cplus.\vspace{.38cm}}
 \label{fig:imipenem_comp}
-\end{figure}
+\end{SCfigure}
 
-\begin{figure}
+\begin{SCfigure}
 \centering
 \includegraphics[width=\draftwidth]{chapter_3sup/figures/mecillinam_comp.pdf}
-\caption{Mecillinam. \cbase.}
+\caption{Mecillinam. \cbase.\vspace{2.2cm}}
 \label{fig:mecillinam_comp}
-\end{figure}
+\end{SCfigure}
 
-\begin{figure}
+\begin{SCfigure}
 \centering
 \includegraphics[width=\draftwidth]{chapter_3sup/figures/meropenem_comp.pdf}
-\caption{Meropenem. \cbase. \cmorph. \cplus.}
+\caption{Meropenem. \cbase. \cmorph. \cplus.\vspace{0cm}}
 \label{fig:meropenem_comp}
-\end{figure}
+\end{SCfigure}
 
-\begin{figure}
+\begin{SCfigure}
 \centering
 \includegraphics[width=\draftwidth]{chapter_3sup/figures/penicillin_comp.pdf}
-\caption{Penicillin. \cbase. \cplus, and \cx.}
+\caption{Penicillin. \cbase. \cplus, and \cx.\vspace{-1cm}}
 \label{fig:penicillin_comp}
-\end{figure}
+\end{SCfigure}
 
-\begin{figure}
+\begin{SCfigure}
 \centering
 \includegraphics[width=\draftwidth]{chapter_3sup/figures/piperacillin_comp.pdf}
-\caption{Piperacillin. \cbase. }
+\caption{Piperacillin. \cbase. \vspace{1.8cm}}
 \label{fig:piperacillin_comp}
-\end{figure}
+\end{SCfigure}
 
-\begin{figure}
+\begin{SCfigure}
 \centering
 \includegraphics[width=\draftwidth]{chapter_3sup/figures/polymyxinB_comp.pdf}
-\caption{Polymyxin B. \cbase. \cplus.}
+\caption{Polymyxin B. \cbase. \cplus.\vspace{.6cm}}
 \label{fig:polymyxinB_comp}
-\end{figure}
+\end{SCfigure}
 
-\begin{figure}
+\begin{SCfigure}
 \centering
 \includegraphics[width=\draftwidth]{chapter_3sup/figures/rifampicin_comp.pdf}
-\caption{Rifampicin (\SI{25}{\micro\gram/\milli\liter}). \cbase.}
+\caption{Rifampicin (\SI{25}{\micro\gram/\milli\liter}). \cbase.\vspace{1.9cm}}
 \label{fig:rifampicin_comp}
-\end{figure}
+\end{SCfigure}
 
-\begin{figure}
+\begin{SCfigure}
 \centering
 \includegraphics[width=\draftwidth]{chapter_3sup/figures/tetracycline_comp.pdf}
-\caption{Tetracycline. \cbase.}
+\caption{Tetracycline. \cbase.\vspace{2cm}}
 \label{fig:tetracycline_comp}
-\end{figure}
+\end{SCfigure}
 
-\begin{figure}
+\begin{SCfigure}
 \centering
 \includegraphics[width=\draftwidth]{chapter_3sup/figures/trimethoprim_comp.pdf}
-\caption{Trimethoprim. \cbase. \cmorph.}
+\caption{Trimethoprim. \cbase. \cmorph.\vspace{.5cm}}
 \label{fig:trimethoprim_comp}
-\end{figure}
+\end{SCfigure}
 
 %%%% PEXIGANAN ROBO
 \begin{figure}
 \centering
-\begin{overpic}[width=\draftwidth] {chapter_3sup/figures/pexiganan_low_comp.pdf}
-\put(5,60){\large\bfseries a)}
+\begin{overpic}[width=7.3cm] {chapter_3sup/figures/pexiganan_low_comp.pdf}
+\put(5,50){\large\bfseries a)}
 \end{overpic}
-\vspace{0.5cm}
-
-\begin{overpic}[width=\draftwidth]{chapter_3sup/figures/pexiganan_comp.pdf}
-\put(5,60){\large\bfseries b)}
+\begin{overpic}[width=7.3cm]{chapter_3sup/figures/pexiganan_comp.pdf}
+\put(5,50){\large\bfseries b)}
 \end{overpic}
-
 \caption{Comparison of the CFU and luminescence signals from the pexiganan kill curve experiment using the liquid handling platform.
 The first data points at $t_0$ represent the pretreatment CFU and light intensity values.}
 \label{fig:pex_robo}
@@ -212,18 +208,19 @@ The first data points at $t_0$ represent the pretreatment CFU and light intensit
 % Morphplot
 \begin{figure}
 \centering
-\hspace{.5cm}
-\begin{overpic}[width=.945\draftwidth]{chapter_3sup/figures/filamentation_summary_pre.pdf}
+\begin{minipage}{12cm}
+\hfill
+\begin{overpic}[width=.95\linewidth]{chapter_3sup/figures/filamentation_summary_pre.pdf}
 \put(-.5,15){\small\bfseries a)}
 \end{overpic}
-
-\begin{overpic}[width=\draftwidth]{chapter_3sup/figures/filamentation_summary_post.pdf}
+\begin{overpic}[width=\linewidth]{chapter_3sup/figures/filamentation_summary_post.pdf}
 \put(5,77){\small\bfseries b)}
 \end{overpic}
+\end{minipage}
 \caption{
 Pooled density distributions (95\% prediction intervals) of cell widths (red) and lengths (blue), obtained from microscopy images (a) before and (b) after 2\,h of antibiotic treatment.
 Boxes indicate the interquartile range (Q1–Q3), and the mean is marked by ($\mid$).
-$\ddagger$ Poor fit quality for meropenem-treated cells, which adopt a lemon-like shape (\autoref{fig:micro_mero}), due to our algorithm assuming cylindrical geometry.
+$\ddagger$ Poor fit quality for meropenem-treated cells, which adopt a lemon-like shape (\autoref{fig:micro_mero}), due to our algorithm assuming cylindrical geometry. \vspace{3.5cm}
 }
 \label{fig:filamentation_summary}
 \end{figure}
@@ -279,46 +276,43 @@ As shown in panel (b), treatment-induced filamentation can lead to a temporary d
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%% colony formation %%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{figure}
+\begin{SCfigure}
 \centering
 \includegraphics[width=\draftwidth]{chapter_3sup/figures/colony_formation_probability.pdf}
 \caption{Example of the probability of colony formation  $p_C = 1-p_E$ (see \autoref{sec:math}) for a single plated bacterium.
 Blue shows $p_C$ for a purely bactericidal drug ($\lambda_T = 0$) and red for a purely bacteriostatic drug ($\delta_T = 0$), plotted over the treatment effect $\tau = \delta_T + \lambda_T$.
-In this illustrative example we use $\lambda_0 = 1.35  h^{-1}$ and $\delta_0 = 0.1 h^{-1}$.}
+In this illustrative example we use $\lambda_0 = 1.35  h^{-1}$ and $\delta_0 = 0.1 h^{-1}$.
+\vspace{1.5cm}}
 \label{fig:colony_formation}
-\end{figure}
+\end{SCfigure}
 
 %%%% PEXIGANAN PBS
 \begin{figure}
 \centering
-\begin{overpic}[width=\draftwidth]{chapter_3sup/figures/pexi_cacl2.png}
-\put(5,70){\small\bfseries a)}
+\begin{overpic}[width=7cm]{chapter_3sup/figures/pexi_cacl2.pdf}
+\put(5,60){\small\bfseries a)}
+\end{overpic}%
+\hfill
+\begin{overpic}[width=7cm]{chapter_3sup/figures/pexi_mgcl2.pdf}
+\put(5,60){\small\bfseries b)}
 \end{overpic}
-\vspace{0.5cm}
-\begin{overpic}[width=\draftwidth]{chapter_3sup/figures/pexi_mgcl2.png}
-\put(5,70){\small\bfseries b)}
-\end{overpic}
-
 \caption{
 CFU measured over time in supplemented dilution media.
 Bacterial cultures treated for 1\,min with \SI{16}{\mu g \per ml} pexiganan were diluted (1:100) in PBS supplemented with varying concentrations of (a) \ce{CaCl2} and (b) \ce{MgCl2}.
 Diluted samples were repeatedly plated over time to test whether supplementation prevents further bacterial killing.
 }
-
 \label{fig:PBS_suppl}
 \end{figure}
 
 %%%% PEXIGANAN HAND
 \begin{figure}
 \centering
-\begin{overpic}[width=\draftwidth]{chapter_3sup/figures/amp_hand_experiment_ctrl.pdf}
-\put(5,68){\small{\bfseries a)} \hspace{4cm}Dilution in pure PBS (Control)}
+\begin{overpic}[width=7cm]{chapter_3sup/figures/amp_hand_experiment_ctrl.pdf}
+\put(5,68){\small{\bfseries a)} \hspace{1.35cm}Dilution in pure PBS (Control)}
 \end{overpic}
-\vspace{0.5cm}
-\begin{overpic}[width=\draftwidth]{chapter_3sup/figures/amp_hand_experiment_mgcl.pdf}
-\put(5,68){\small{\bfseries b)} \hspace{4cm}Dilution in PBS + $MgCl_2$}
+\begin{overpic}[width=7cm]{chapter_3sup/figures/amp_hand_experiment_mgcl.pdf}
+\put(5,68){\small{\bfseries b)} \hspace{1.45cm}Dilution in PBS + $MgCl_2$}
 \end{overpic}
-
 \caption{
 CFU time-kill curves for pexiganan, performed manually, comparing dilution in (a) unsupplemented PBS and (b) PBS supplemented with \SI{100}{\milli M} MgCl$_2$.
 Timepoints correspond to:
@@ -329,11 +323,10 @@ $t_3 \approx 3\,\mathrm{min}\,20\,\mathrm{s}$, and
 $t_4 \approx 5\,\mathrm{min}$.
 The black boxplot ($t_0$) indicates the pre-treatment bacterial density.
 }
-
 \label{fig:pexi_hand}
 \end{figure}
 
-\begin{figure}
+\begin{SCfigure}
 \centering
 \includegraphics[width=\draftwidth]{chapter_3sup/figures/supernatant.pdf}
 \caption{
@@ -341,6 +334,9 @@ Experiment AMP kill curve vs supernatant kill curve.
 Here we show the original AMP-Killcurve in blue and the change of CFU over time in the supernatant.
 The error bars show the min/max interval of the three replicates.
 \autoref{tab:supernatant} lists the confidence interval and mean for the bootstrapped rates. According to the significance criterion (defined in methods) these two rates are significantly different.
-The confidence interval of the rate of change of CFU in the supernatant includes zero.}
+The confidence interval of the rate of change of CFU in the supernatant includes zero.
+\vspace{.8cm}}
 \label{fig:supernatant}
-\end{figure}
+\end{SCfigure}
+
+\clearpage

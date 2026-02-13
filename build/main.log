@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2021.2.1)  12 FEB 2026 13:33
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2021.2.1)  13 FEB 2026 13:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2283,7 +2283,14 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 LaTeX Warning: Unused global option(s):
     [10.5pt].
 
-(/Users/malte/ETH-Documents/thesis/build/main.aux)
+(/Users/malte/ETH-Documents/thesis/build/main.aux
+
+LaTeX Warning: Label `fig:end_anova' multiply defined.
+
+
+LaTeX Warning: Label `tab:drugs' multiply defined.
+
+)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
@@ -2737,40 +2744,90 @@ Package biblatex Info: ... file 'main.bbl' found.
  (/Users/malte/ETH-Documents/thesis/build/main.bbl
 
 Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database (refsection 4):
+(biblatex)                in the database (refsection 1):
+(biblatex)                ciab606
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database (refsection 1):
+(biblatex)                https://doi.org/10.1016/j.drup.2025.101265
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database (refsection 1):
+(biblatex)                https://doi.org/10.1128/cmr.00044-19
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database (refsection 1):
+(biblatex)                https://doi.org/10.1371/journal.ppat.1003349
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database (refsection 1):
+(biblatex)                ijantimicag201709015
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database (refsection 5):
 (biblatex)                Bonhoeffer
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
 
 Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database (refsection 4):
+(biblatex)                in the database (refsection 5):
 (biblatex)                Chait
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
 
 Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database (refsection 4):
+(biblatex)                in the database (refsection 5):
 (biblatex)                SUttner2024
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
 
 Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database (refsection 4):
+(biblatex)                in the database (refsection 5):
 (biblatex)                tepekule
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
 
 Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database (refsection 4):
+(biblatex)                in the database (refsection 5):
 (biblatex)                ueker
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
 )
+
+Package biblatex Warning: citation 'https://doi.org/10.1371/journal.ppat.1003349' was not found at all in the .bbl, bibliography labels cannot be generated, please correct the citation.
+
+
+Package biblatex Warning: citation 'https://doi.org/10.1128/cmr.00044-19' was not found at all in the .bbl, bibliography labels cannot be generated, please correct the citation.
+
+
+Package biblatex Warning: citation 'https://doi.org/10.1016/j.drup.2025.101265' was not found at all in the .bbl, bibliography labels cannot be generated, please correct the citation.
+
+
+Package biblatex Warning: citation 'ciab606' was not found at all in the .bbl, bibliography labels cannot be generated, please correct the citation.
+
+
+Package biblatex Warning: citation 'ijantimicag201709015' was not found at all in the .bbl, bibliography labels cannot be generated, please correct the citation.
+
 
 Package biblatex Warning: citation 'Bonhoeffer' was not found at all in the .bbl, bibliography labels cannot be generated, please correct the citation.
 
@@ -3426,10 +3483,6 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-\blx@maxsegment@1=\count576
-\blx@sectionciteorder@1=\count577
-Package biblatex Info: Reference section=1 on input line 13.
-Package biblatex Info: Setting label 'refsection:1' on input line 13.
  (./front_matter/main.tex (./front_matter/0_titlepage.tex
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: xetex
@@ -3481,34 +3534,39 @@ LaTeX Font Warning: Font shape `TU/Optima(0)/m/sc' undefined
 ] [2
 
 
-] (./front_matter/1b_Summary_DE.tex) [3] (/Users/malte/ETH-Documents/thesis/build/main.toc
+] (./front_matter/1b_Summary_DE.tex
+Overfull \hbox (1.72499pt too wide) in paragraph at lines 9--14
+\TU/Optima(0)/m/n/10 tagonismus oder Unabhängigkeit) geprägt wird, die als Abweichungen von erwarteten kombinierten
+ []
+
+) [3] (/Users/malte/ETH-Documents/thesis/build/main.toc
 Overfull \hbox (6.94968pt too wide) in paragraph at lines 8--8
  [][] [][]\TU/Optima(0)/b/n/10 The Impact of Treatment Strategies on the Epidemiological Dynamics of Plasmid- 
  []
 
-)) [4
 
-]
-
-LaTeX Warning: Empty bibliography on input line 13.
-
-Package biblatex Info: Reference section=0 on input line 13.
-(/Users/malte/ETH-Documents/thesis/build/main.toc
-Overfull \hbox (6.94968pt too wide) in paragraph at lines 8--8
- [][] [][]\TU/Optima(0)/b/n/10 The Impact of Treatment Strategies on the Epidemiological Dynamics of Plasmid- 
+Overfull \hbox (1.17996pt too wide) detected at line 108
+ \TU/Optima(0)/b/n/10 101
  []
 
-) [5
 
-] [6
+Overfull \hbox (1.17996pt too wide) detected at line 128
+ \TU/Optima(0)/b/n/10 137
+ []
+
+) [4
+
+])
+\blx@maxsegment@1=\count576
+\blx@sectionciteorder@1=\count577
+Package biblatex Info: Reference section=1 on input line 24.
+Package biblatex Info: Setting label 'refsection:1' on input line 24.
+ (./chapter_1/ch1.tex
+Underfull \vbox (badness 3229) has occurred while \output is active []
+
+ [1
 
 
-]
-\blx@maxsegment@2=\count578
-\blx@sectionciteorder@2=\count579
-Package biblatex Info: Reference section=2 on input line 27.
-Package biblatex Info: Setting label 'refsection:2' on input line 27.
- (./chapter_1/ch1.tex [1
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -3599,7 +3657,7 @@ Package microtype Info: Character `\textquestiondown ' is missing
 (microtype)             in font `\TU/Erewhon-Math.otf(1)/m/n/5'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `TU/Erewhon-Math.otf(2)/m/n' will be
-(Font)              scaled to size 7.00075pt on input line 27.
+(Font)              scaled to size 7.00075pt on input line 24.
 Package microtype Info: Character `\textquoteleft ' is missing
 (microtype)             in font `\TU/Erewhon-Math.otf(2)/m/n/7'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -3640,7 +3698,7 @@ Package microtype Info: Character `\textquestiondown ' is missing
 (microtype)             in font `\TU/Erewhon-Math.otf(2)/m/n/7'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `TU/Erewhon-Math.otf(2)/m/n' will be
-(Font)              scaled to size 5.00053pt on input line 27.
+(Font)              scaled to size 5.00053pt on input line 24.
 Package microtype Info: Character `\textquoteleft ' is missing
 (microtype)             in font `\TU/Erewhon-Math.otf(2)/m/n/5'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -3681,7 +3739,7 @@ Package microtype Info: Character `\textquestiondown ' is missing
 (microtype)             in font `\TU/Erewhon-Math.otf(2)/m/n/5'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `TU/Erewhon-Math.otf(3)/m/n' will be
-(Font)              scaled to size 6.99925pt on input line 27.
+(Font)              scaled to size 6.99925pt on input line 24.
 Package microtype Info: Character `\textquoteleft ' is missing
 (microtype)             in font `\TU/Erewhon-Math.otf(3)/m/n/7'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -3722,7 +3780,7 @@ Package microtype Info: Character `\textquestiondown ' is missing
 (microtype)             in font `\TU/Erewhon-Math.otf(3)/m/n/7'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `TU/Erewhon-Math.otf(3)/m/n' will be
-(Font)              scaled to size 4.99947pt on input line 27.
+(Font)              scaled to size 4.99947pt on input line 24.
 Package microtype Info: Character `\textquoteleft ' is missing
 (microtype)             in font `\TU/Erewhon-Math.otf(3)/m/n/5'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -3841,7 +3899,7 @@ Package microtype Info: Character `\textquestiondown ' is missing
 (microtype)             in font `\TU/Erewhon-Math.otf(1)/b/n/5'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `TU/Erewhon-Math.otf(2)/b/n' will be
-(Font)              scaled to size 7.00075pt on input line 27.
+(Font)              scaled to size 7.00075pt on input line 24.
 Package microtype Info: Character `\textquoteleft ' is missing
 (microtype)             in font `\TU/Erewhon-Math.otf(2)/b/n/7'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -3882,7 +3940,7 @@ Package microtype Info: Character `\textquestiondown ' is missing
 (microtype)             in font `\TU/Erewhon-Math.otf(2)/b/n/7'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `TU/Erewhon-Math.otf(2)/b/n' will be
-(Font)              scaled to size 5.00053pt on input line 27.
+(Font)              scaled to size 5.00053pt on input line 24.
 Package microtype Info: Character `\textquoteleft ' is missing
 (microtype)             in font `\TU/Erewhon-Math.otf(2)/b/n/5'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -3923,7 +3981,7 @@ Package microtype Info: Character `\textquestiondown ' is missing
 (microtype)             in font `\TU/Erewhon-Math.otf(2)/b/n/5'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `TU/Erewhon-Math.otf(3)/b/n' will be
-(Font)              scaled to size 6.99925pt on input line 27.
+(Font)              scaled to size 6.99925pt on input line 24.
 Package microtype Info: Character `\textquoteleft ' is missing
 (microtype)             in font `\TU/Erewhon-Math.otf(3)/b/n/7'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -3964,7 +4022,7 @@ Package microtype Info: Character `\textquestiondown ' is missing
 (microtype)             in font `\TU/Erewhon-Math.otf(3)/b/n/7'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `TU/Erewhon-Math.otf(3)/b/n' will be
-(Font)              scaled to size 4.99947pt on input line 27.
+(Font)              scaled to size 4.99947pt on input line 24.
 Package microtype Info: Character `\textquoteleft ' is missing
 (microtype)             in font `\TU/Erewhon-Math.otf(3)/b/n/5'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -4007,11 +4065,11 @@ Package microtype Info: Character `\textquestiondown ' is missing
  [6
 
 ]
-Package biblatex Info: Reference section=0 on input line 27.
-\blx@maxsegment@3=\count580
-\blx@sectionciteorder@3=\count581
-Package biblatex Info: Reference section=3 on input line 31.
-Package biblatex Info: Setting label 'refsection:3' on input line 31.
+Package biblatex Info: Reference section=0 on input line 24.
+\blx@maxsegment@2=\count578
+\blx@sectionciteorder@2=\count579
+Package biblatex Info: Reference section=2 on input line 28.
+Package biblatex Info: Setting label 'refsection:2' on input line 28.
  (./chapter_2/ch2.tex (./commands.tex) [7] [8
 
 ]
@@ -4390,92 +4448,92 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 File: chapter_2/end_anova.pdf Graphic file (type pdf)
 <use chapter_2/end_anova.pdf>
 
-Underfull \hbox (badness 10000) in paragraph at lines 21--21
+Underfull \hbox (badness 10000) in paragraph at lines 22--22
 [][] \TU/Optima(0)/m/sc/10 – |Panels
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 21--21
+Underfull \hbox (badness 10000) in paragraph at lines 22--22
 \TU/Optima(0)/m/sc/10 A–C show the
  []
 
 
-Underfull \hbox (badness 1043) in paragraph at lines 21--21
+Underfull \hbox (badness 1043) in paragraph at lines 22--22
 \TU/Optima(0)/m/sc/10 mean frequency of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 21--21
+Underfull \hbox (badness 10000) in paragraph at lines 22--22
 \TU/Optima(0)/m/sc/10 uninfected (grey),
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 21--21
+Underfull \hbox (badness 10000) in paragraph at lines 22--22
 \TU/Optima(0)/m/sc/10 single-resistant in-
  []
 
 
-Underfull \hbox (badness 4805) in paragraph at lines 21--21
+Underfull \hbox (badness 4805) in paragraph at lines 22--22
 \TU/Optima(0)/m/sc/10 fected (blue), and
  []
 
 
-Underfull \hbox (badness 5460) in paragraph at lines 21--21
+Underfull \hbox (badness 5460) in paragraph at lines 22--22
 \TU/Optima(0)/m/sc/10 double-resistant in-
  []
 
 
-Underfull \hbox (badness 1635) in paragraph at lines 21--21
+Underfull \hbox (badness 1635) in paragraph at lines 22--22
 \TU/Optima(0)/m/sc/10 scenarios. Circles
  []
 
 
-Underfull \hbox (badness 1072) in paragraph at lines 21--21
+Underfull \hbox (badness 1072) in paragraph at lines 22--22
 \TU/Optima(0)/m/sc/10 represent replicates
  []
 
 
-Underfull \hbox (badness 2042) in paragraph at lines 21--21
+Underfull \hbox (badness 2042) in paragraph at lines 22--22
 \TU/Optima(0)/m/sc/10 (n = 4), and bars
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 21--21
+Underfull \hbox (badness 10000) in paragraph at lines 22--22
 \TU/Optima(0)/m/sc/10 represent means.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 21--21
+Underfull \hbox (badness 10000) in paragraph at lines 22--22
 \TU/Optima(0)/m/sc/10 Within resistance
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 21--21
+Underfull \hbox (badness 10000) in paragraph at lines 22--22
 \TU/Optima(0)/m/sc/10 categories, bars
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 21--21
+Underfull \hbox (badness 10000) in paragraph at lines 22--22
 \TU/Optima(0)/m/sc/10 are significantly
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 21--21
+Underfull \hbox (badness 10000) in paragraph at lines 22--22
 \TU/Optima(0)/m/sc/10 different (pairwise
  []
 
 
-Underfull \hbox (badness 1286) in paragraph at lines 21--21
+Underfull \hbox (badness 1286) in paragraph at lines 22--22
 [] [] [][][][]$\TU/Optima(0)/m/sc/10 ; ANOVA
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 21--21
+Underfull \hbox (badness 10000) in paragraph at lines 22--22
 \TU/Optima(0)/m/sc/10 tables and all p-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 21--21
+Underfull \hbox (badness 10000) in paragraph at lines 22--22
 \TU/Optima(0)/m/sc/10 in []Table A34[][] –
  []
 
@@ -4484,10 +4542,10 @@ File: chapter_2/scen3_paper.pdf Graphic file (type pdf)
 <use chapter_2/scen3_paper.pdf>
 
 
-LaTeX Warning: Float too large for page by 15.42546pt on input line 43.
+LaTeX Warning: Float too large for page by 15.42546pt on input line 44.
 
 
-Overfull \hbox (9.45897pt too wide) in paragraph at lines 62--65
+Overfull \hbox (9.45897pt too wide) in paragraph at lines 63--66
 []\TU/Optima(0)/m/sc/10 For the \TU/Optima(0)/m/it/10 maximum-emergence \TU/Optima(0)/m/sc/10 scenario, we observed that combination therapy, cycling, and monother-
  []
 
@@ -4499,17 +4557,17 @@ File: chapter_2/20220412_encounter_frequencies.pdf Graphic file (type pdf)
 File: chapter_2/20220412_conjugation_prop.pdf Graphic file (type pdf)
 <use chapter_2/20220412_conjugation_prop.pdf>
 
-Underfull \hbox (badness 1924) in paragraph at lines 109--109
+Underfull \hbox (badness 1924) in paragraph at lines 110--110
 []\TU/Optima(0)/m/sc/10 Fig. 2.3 – |Analysis of the emergence
  []
 
 
-Underfull \hbox (badness 3039) in paragraph at lines 109--109
+Underfull \hbox (badness 3039) in paragraph at lines 110--110
 \TU/Optima(0)/m/sc/10 of double resistance \TU/Optima(0)/m/it/10 in vitro \TU/Optima(0)/m/sc/10 and su-
  []
 
 
-Underfull \hbox (badness 8056) in paragraph at lines 109--109
+Underfull \hbox (badness 8056) in paragraph at lines 110--110
 \TU/Optima(0)/m/sc/10 and $[][]$ wells during the \TU/Optima(0)/m/it/10 maximum-
  []
 
@@ -4536,10 +4594,7 @@ Overfull \hbox (1.3263pt too wide) in paragraph at lines 4--7
 \TU/Optima(0)/m/sc/10 nario) or 5 $[][][][][]$ (\TU/Optima(0)/m/it/10 containment \TU/Optima(0)/m/sc/10 and \TU/Optima(0)/m/it/10 max-emergence \TU/Optima(0)/m/sc/10 scenario) chloramphenicol as a liquid medium
  []
 
-
-Underfull \vbox (badness 2556) has occurred while \output is active []
-
- [20]
+[20]
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `Erewhon' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
@@ -4558,28 +4613,229 @@ Overfull \hbox (21.8343pt too wide) in paragraph at lines 82--84
 Underfull \vbox (badness 1048) has occurred while \output is active []
 
  [23]) (./chapter_2/acknow.tex)) [24]
-Package biblatex Info: Reference section=0 on input line 31.
-\blx@maxsegment@4=\count582
-\blx@sectionciteorder@4=\count583
-Package biblatex Info: Reference section=4 on input line 43.
-Package biblatex Info: Setting label 'refsection:4' on input line 43.
- (./chapter_5/ch5.tex [25
+Package biblatex Info: Reference section=0 on input line 28.
+\blx@maxsegment@3=\count580
+\blx@sectionciteorder@3=\count581
+Package biblatex Info: Reference section=3 on input line 32.
+Package biblatex Info: Setting label 'refsection:3' on input line 32.
+ (./chapter_3/ch3.tex (./commands.tex) [25
 
 ] [26
 
-] [27]) [28]
-Package biblatex Info: Reference section=0 on input line 43.
+]
+Overfull \hbox (15.50615pt too wide) in paragraph at lines 32--32
+\TU/Optima(0)/m/it/9 This manuscript was published as a Reviewed Preprint on eLife on February 3, 2026 (doi: 10.7554/eLife.109213.1). 
+ []
+
+[27] (./chapter_3/11_introduction.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [28
+
+]) (./chapter_3/12_results.tex
+File: chapter_3/figures/rate_plot.pdf Graphic file (type pdf)
+<use chapter_3/figures/rate_plot.pdf>
+File: chapter_3/figures/pex_rates.pdf Graphic file (type pdf)
+<use chapter_3/figures/pex_rates.pdf>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [29] [30]
+
+LaTeX Warning: Reference `fig:volume_combined' on page 31 undefined on input line 78.
+
+[31]
+File: chapter_3/figures/volume_summary_pre.pdf Graphic file (type pdf)
+<use chapter_3/figures/volume_summary_pre.pdf>
+File: chapter_3/figures/volume_summary_post.pdf Graphic file (type pdf)
+<use chapter_3/figures/volume_summary_post.pdf>
+
+Underfull \hbox (badness 2894) in paragraph at lines 100--100
+\TU/Optima(0)/m/sc/10 cles represent replicates (n
+ []
+
+
+Underfull \hbox (badness 7631) in paragraph at lines 100--100
+\TU/Optima(0)/m/sc/10 = 4), and bars represent
+ []
+
+[32]
+
+LaTeX Warning: Reference `fig:volume_combined' on page 33 undefined on input line 128.
+
+
+LaTeX Warning: Reference `fig:volume_combined' on page 33 undefined on input line 128.
+
+[33]
+File: chapter_3/figures/sensitivity_analysis.pdf Graphic file (type pdf)
+<use chapter_3/figures/sensitivity_analysis.pdf>
+
+Underfull \hbox (badness 3428) in paragraph at lines 155--155
+[][] \TU/Optima(0)/m/sc/10 – |Simulations based on
+ []
+
+[34] [35] [36]) (./chapter_3/13_discussion.tex
+Underfull \vbox (badness 1953) has occurred while \output is active []
+
+ [37]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [38]) (./chapter_3/14_methods.tex
+Underfull \vbox (badness 1953) has occurred while \output is active []
+
+ [39]
+Underfull \vbox (badness 1558) has occurred while \output is active []
+
+ [40]
+Overfull \hbox (5.1383pt too wide) in paragraph at lines 49--54
+[]\TU/Optima(0)/b/n/10 Morphology experiments.[] \TU/Optima(0)/m/sc/10 To assess treatment-induced morphological changes, we imaged treated
+ []
+
+)) [41]
+Missing character: There is no č in font Optima Regular/AAT:mapping=tex-text;!
+Missing character: There is no č in font Optima Regular/AAT:mapping=tex-text;!
+Missing character: There is no č in font Optima Regular/AAT:mapping=tex-text;!
+ [42
+
+]
+Package biblatex Info: Reference section=0 on input line 32.
+\blx@maxsegment@4=\count582
+\blx@sectionciteorder@4=\count583
+Package biblatex Info: Reference section=4 on input line 36.
+Package biblatex Info: Setting label 'refsection:4' on input line 36.
+ (./chapter_4/ch4.tex (./commands.tex) [43] [44
+
+]
+Overfull \hbox (10.25613pt too wide) in paragraph at lines 28--28
+\TU/Optima(0)/m/it/9 This manuscript was published as a preprint on bioRxiv on February 8, 2026 (doi: 10.64898/2026.02.07.703730)
+ []
+
+[45] (./chapter_4/11_introduction.tex [46
+
+]) (./chapter_4/12_results.tex
+File: chapter_4/figures/peptide_interaction.pdf Graphic file (type pdf)
+<use chapter_4/figures/peptide_interaction.pdf>
+
+Underfull \hbox (badness 2443) in paragraph at lines 23--23
+\TU/Optima(0)/m/sc/10 and untreated control trajectories,
+ []
+
+
+Underfull \hbox (badness 1694) in paragraph at lines 23--23
+\TU/Optima(0)/m/sc/10 with shaded bands indicating the
+ []
+
+
+Underfull \hbox (badness 1122) in paragraph at lines 23--23
+\TU/Optima(0)/m/sc/10 model illustrating qualitatively dis-
+ []
+
+[47]
+Overfull \hbox (1.63275pt too wide) in paragraph at lines 46--49
+\TU/Optima(0)/m/sc/10 control and treatment wells with replacement (Methods, []Appendix C7[][]). Throughout this manuscript,
+ []
+
+File: chapter_4/figures/psi_chloramphenicol_tetracycline.pdf Graphic file (type pdf)
+<use chapter_4/figures/psi_chloramphenicol_tetracycline.pdf>
+
+Underfull \hbox (badness 1132) in paragraph at lines 60--60
+\TU/Optima(0)/m/sc/10 itive values (net growth), and dia-
+ []
+
+[48] [49]
+File: chapter_4/figures/distributions_triptych.pdf Graphic file (type pdf)
+<use chapter_4/figures/distributions_triptych.pdf>
+ [50]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [51]
+File: chapter_4/figures/surface_plot.pdf Graphic file (type pdf)
+<use chapter_4/figures/surface_plot.pdf>
+
+Underfull \hbox (badness 4036) in paragraph at lines 175--175
+\TU/Optima(0)/m/sc/10 for (a) AMO+COL and (b)
+ []
+
+
+Underfull \hbox (badness 3780) in paragraph at lines 175--175
+\TU/Optima(0)/m/sc/10 corresponds to both single-
+ []
+
+
+Underfull \hbox (badness 1210) in paragraph at lines 175--175
+\TU/Optima(0)/m/sc/10 Bliss- and Loewe-based pre-
+ []
+
+
+Underfull \hbox (badness 2990) in paragraph at lines 175--175
+\TU/Optima(0)/m/sc/10 ing angle $[]$ along the ob-
+ []
+
+) (./chapter_4/13_discussion.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [52])
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [53] (./chapter_4/14_methods.tex (./chapter_4/tables/drug_table.tex
+Overfull \hbox (6.15096pt too wide) in paragraph at lines 6--7
+[]|\TU/Optima(0)/m/n/9 ThermoFischer,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+[]|\TU/Optima(0)/m/n/9 Sigma,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
+[]|\TU/Optima(0)/m/n/9 Sigma,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+[]|\TU/Optima(0)/m/n/9 Roth,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+[]|\TU/Optima(0)/m/n/9 Sigma,
+ []
+
+) [54] [55] [56])) [57]
+Missing character: There is no č in font Optima Regular/AAT:mapping=tex-text;!
+Missing character: There is no č in font Optima Regular/AAT:mapping=tex-text;!
+Missing character: There is no č in font Optima Regular/AAT:mapping=tex-text;!
+ [58
+
+]
+Missing character: There is no č in font Optima Regular/AAT:mapping=tex-text;!
+Missing character: There is no č in font Optima Regular/AAT:mapping=tex-text;!
+Missing character: There is no č in font Optima Regular/AAT:mapping=tex-text;!
+ [59]
+Package biblatex Info: Reference section=0 on input line 36.
 \blx@maxsegment@5=\count584
 \blx@sectionciteorder@5=\count585
-Package biblatex Info: Reference section=5 on input line 50.
-Package biblatex Info: Setting label 'refsection:5' on input line 50.
+Package biblatex Info: Reference section=5 on input line 40.
+Package biblatex Info: Setting label 'refsection:5' on input line 40.
+ (./chapter_5/ch5.tex [60] [61
+
+]) [62]
+Package biblatex Info: Reference section=0 on input line 40.
+ (./acknowledgements.tex [63
+
+] [64
+
+])
+\blx@maxsegment@6=\count586
+\blx@sectionciteorder@6=\count587
+Package biblatex Info: Reference section=6 on input line 46.
+Package biblatex Info: Setting label 'refsection:6' on input line 46.
  (./chapter_2_sup/ch2_sup.tex (./settings/si_settings.tex) (./chapter_2_sup/commands.tex
 \tikzbox=\box101
-) [29
+) [65] [66
 
-] [30
-
-] [31] (./chapter_2_sup/SI_text.tex
+] [67] (./chapter_2_sup/SI_text.tex
 Overfull \hbox (30.83295pt too wide) in paragraph at lines 12--17
 []\TU/Optima(0)/m/sc/10 The two plasmids were transferred by conjugation from the original clinical isolates to the chloramphenicol-
  []
@@ -4592,18 +4848,18 @@ Overfull \hbox (5.56966pt too wide) in paragraph at lines 27--32
 
 Underfull \vbox (badness 7415) has occurred while \output is active []
 
- [32
+ [68
 
 ]
 Underfull \vbox (badness 1087) has occurred while \output is active []
 
- [33]
+ [69]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [34] [35] [36] [37]
+ [70] [71] [72] [73]
 Underfull \vbox (badness 5388) has occurred while \output is active []
 
- [38] [39]) [40] (./chapter_2_sup/SI_figures.tex
+ [74] [75]) [76] (./chapter_2_sup/SI_figures.tex
 File: chapter_2_sup/figures/setup.pdf Graphic file (type pdf)
 <use chapter_2_sup/figures/setup.pdf>
 File: chapter_2_sup/figures/20210417_timeplot.pdf Graphic file (type pdf)
@@ -4629,13 +4885,53 @@ Overfull \hbox (9.99998pt too wide) in paragraph at lines 59--59
 (./chapter_2_sup/tikz/phenotyping.tex)
 File: chapter_2_sup/figures/plasmid_costs.pdf Graphic file (type pdf)
 <use chapter_2_sup/figures/plasmid_costs.pdf>
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--81
+[][] \TU/Optima(0)/m/sc/10 – |Maximum growth
+ []
+
+
+Underfull \hbox (badness 1442) in paragraph at lines 81--81
+\TU/Optima(0)/m/sc/10 rates of sensitive and plasmid-
+ []
+
+
+Underfull \hbox (badness 1629) in paragraph at lines 81--81
+\TU/Optima(0)/m/sc/10 OD-growth curves. Each dot
+ []
+
+
+Underfull \hbox (badness 5431) in paragraph at lines 81--81
+\TU/Optima(0)/m/sc/10 represents an individual well,
+ []
+
+
+Underfull \hbox (badness 2644) in paragraph at lines 81--81
+\TU/Optima(0)/m/sc/10 and vertical bars indicate the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--81
+\TU/Optima(0)/m/sc/10 pairwise comparisons to the
+ []
+
+
+Underfull \hbox (badness 1983) in paragraph at lines 81--81
+\TU/Optima(0)/m/sc/10 with the Bonferroni correction
+ []
+
+
+Underfull \hbox (badness 1308) in paragraph at lines 81--81
+\TU/Optima(0)/m/sc/10 in growth rates. All pairwise
+ []
+
 File: chapter_2_sup/figures/20210417_timeplot_clean.pdf Graphic file (type pdf)
 <use chapter_2_sup/figures/20210417_timeplot_clean.pdf>
 File: chapter_2_sup/figures/wins_and_losses_clean_preexisting.pdf Graphic file (type pdf)
 <use chapter_2_sup/figures/wins_and_losses_clean_preexisting.pdf>
 File: chapter_2_sup/figures/wins_and_losses_clean_no_preex.pdf Graphic file (type pdf)
 <use chapter_2_sup/figures/wins_and_losses_clean_no_preex.pdf>
-) [41] [42] [43] [44] [45] [46] [47] (./chapter_2_sup/SI_tables.tex (./chapter_2_sup/tables/man_ferroni.tex) (./chapter_2_sup/tables/loss_data.tex)
+) [77] [78] [79] [80] [81] [82] (./chapter_2_sup/SI_tables.tex (./chapter_2_sup/tables/man_ferroni.tex) (./chapter_2_sup/tables/loss_data.tex)
 Overfull \hbox (9.78552pt too wide) in paragraph at lines 1--45
  [][] 
  []
@@ -4670,9 +4966,1603 @@ Overfull \hbox (8.81897pt too wide) in paragraph at lines 1--160
  [][] 
  []
 
-(./chapter_2_sup/tables/win_loss_statistic_preexisting.tex) (./chapter_2_sup/tables/win_loss_statistic_no_preex.tex) (./chapter_2_sup/tables/win_loss_statistic_clean_preexisting.tex) (./chapter_2_sup/tables/win_loss_statistic_clean_no_preex.tex) (./chapter_2_sup/tables/20210417U_anova.tex) (./chapter_2_sup/tables/20210417U_tukey.tex) (./chapter_2_sup/tables/20210417single_anova.tex) (./chapter_2_sup/tables/20210417single_tukey.tex) (./chapter_2_sup/tables/20210417double_anova.tex) (./chapter_2_sup/tables/20210417double_tukey.tex) (./chapter_2_sup/tables/20220127U_anova.tex) (./chapter_2_sup/tables/20220127U_tukey.tex) (./chapter_2_sup/tables/20220127single_anova.tex) (./chapter_2_sup/tables/20220127single_tukey.tex) (./chapter_2_sup/tables/20220127double_anova.tex) (./chapter_2_sup/tables/20220412U_anova.tex) (./chapter_2_sup/tables/20220412U_tukey.tex) (./chapter_2_sup/tables/20220412single_anova.tex) (./chapter_2_sup/tables/20220412single_tukey.tex) (./chapter_2_sup/tables/20220412double_anova.tex) (./chapter_2_sup/tables/20220412double_tukey.tex) (./chapter_2_sup/tables/emergence_anova.tex) (./chapter_2_sup/tables/emergence_tukey.tex) (./chapter_2_sup/tables/superinfection_anova.tex) (./chapter_2_sup/tables/superinfection_tukey.tex) (./chapter_2_sup/tables/treatment_emergence_anova.tex) (./chapter_2_sup/tables/treatment_emergence_tukey.tex))) [48] [49] [50] [51] [52] [53] [54] [55] [56] [57] [58] [59] [60] [61] [62] [63]
-Package biblatex Info: Reference section=0 on input line 50.
- [64
+(./chapter_2_sup/tables/win_loss_statistic_preexisting.tex) (./chapter_2_sup/tables/win_loss_statistic_no_preex.tex) (./chapter_2_sup/tables/win_loss_statistic_clean_preexisting.tex) (./chapter_2_sup/tables/win_loss_statistic_clean_no_preex.tex) (./chapter_2_sup/tables/20210417U_anova.tex) (./chapter_2_sup/tables/20210417U_tukey.tex) (./chapter_2_sup/tables/20210417single_anova.tex) (./chapter_2_sup/tables/20210417single_tukey.tex) (./chapter_2_sup/tables/20210417double_anova.tex) (./chapter_2_sup/tables/20210417double_tukey.tex) (./chapter_2_sup/tables/20220127U_anova.tex) (./chapter_2_sup/tables/20220127U_tukey.tex) (./chapter_2_sup/tables/20220127single_anova.tex) (./chapter_2_sup/tables/20220127single_tukey.tex) (./chapter_2_sup/tables/20220127double_anova.tex) (./chapter_2_sup/tables/20220412U_anova.tex) (./chapter_2_sup/tables/20220412U_tukey.tex) (./chapter_2_sup/tables/20220412single_anova.tex) (./chapter_2_sup/tables/20220412single_tukey.tex) (./chapter_2_sup/tables/20220412double_anova.tex) (./chapter_2_sup/tables/20220412double_tukey.tex) (./chapter_2_sup/tables/emergence_anova.tex) (./chapter_2_sup/tables/emergence_tukey.tex) (./chapter_2_sup/tables/superinfection_anova.tex) (./chapter_2_sup/tables/superinfection_tukey.tex) (./chapter_2_sup/tables/treatment_emergence_anova.tex) (./chapter_2_sup/tables/treatment_emergence_tukey.tex))) [83] [84] [85] [86] [87] [88] [89] [90] [91] [92] [93] [94] [95] [96] [97] [98]
+Package biblatex Info: Reference section=0 on input line 46.
+\blx@maxsegment@7=\count588
+\blx@sectionciteorder@7=\count589
+Package biblatex Info: Reference section=7 on input line 47.
+Package biblatex Info: Setting label 'refsection:7' on input line 47.
+ (./chapter_3sup/ch3_sup.tex (./commands.tex) (./settings/si_settings.tex)
+\draftwidth=\skip380
+ (./settings/si_settings.tex) [99
+
+
+
+] [100
+
+] [101] (./chapter_3sup/si_text.tex [102
+
+] [103]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [104] [105] [106] [107] [108] [109] [110]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [111] [112]) (./chapter_3sup/si_tables.tex [113] (./chapter_3sup/tables/drug_table.tex
+
+LaTeX Font Warning: Font shape `TU/phv/b/n' undefined
+(Font)              using `TU/phv/m/n' instead on input line 10.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--18
+[]||[]\TU/phv/b/n/10 cwork
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--22
+[]||[]\TU/phv/b/n/10 cwork
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--102
+[]||\TU/phv/b/n/10 ThermoFisher,
+ []
+
+
+Overfull \hbox (15.37476pt too wide) in paragraph at lines 154--154
+[]||\TU/phv/b/n/10 Chloramphenicol| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 246--246
+[]||\TU/phv/b/n/10 VWR,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 270--270
+[]||\TU/phv/b/n/10 VWR, APOS-
+ []
+
+
+Overfull \hbox (2.34476pt too wide) in paragraph at lines 490--490
+[]||\TU/phv/b/n/10 Trimethoprim| 
+ []
+
+) (./chapter_3sup/tables/comparison_table.tex) (./chapter_3sup/tables/morph_post.tex) (./chapter_3sup/tables/group_summary.tex) (./chapter_3sup/tables/supernatant.tex)
+Overfull \hbox (40.69633pt too wide) in paragraph at lines 66--75
+ [][] 
+ []
+
+[114
+
+] [115] [116] [117]) (./chapter_3sup/si_figures.tex
+File: chapter_3sup/figures/linearity.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/linearity.pdf>
+
+Underfull \hbox (badness 2418) in paragraph at lines 16--16
+[][] \TU/Optima(0)/m/sc/10 – |Light intensity scales linearly
+ []
+
+
+Underfull \hbox (badness 4416) in paragraph at lines 16--16
+\TU/Optima(0)/m/sc/10 with bacterial density. Serial tenfold
+ []
+
+
+Underfull \hbox (badness 1297) in paragraph at lines 16--16
+\TU/Optima(0)/m/sc/10 dilutions of bacterial cultures were pre-
+ []
+
+
+Underfull \hbox (badness 3323) in paragraph at lines 16--16
+\TU/Optima(0)/m/sc/10 pared in a 384‐well white microplate,
+ []
+
+
+Underfull \hbox (badness 1178) in paragraph at lines 16--16
+\TU/Optima(0)/m/sc/10 and luminescence was measured imme-
+ []
+
+
+Underfull \hbox (badness 1742) in paragraph at lines 16--16
+\TU/Optima(0)/m/sc/10 diately. Linear regression of the lumi-
+ []
+
+File: chapter_3sup/figures/ampicillin_comp.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/ampicillin_comp.pdf>
+File: chapter_3sup/figures/ampicillin_low_comp.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/ampicillin_low_comp.pdf>
+File: chapter_3sup/figures/cefepime_comp.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/cefepime_comp.pdf>
+
+Underfull \hbox (badness 5217) in paragraph at lines 50--50
+\TU/Optima(0)/m/sc/10 above their respective detection limits
+ []
+
+
+Underfull \hbox (badness 1048) in paragraph at lines 50--50
+\TU/Optima(0)/m/sc/10 data points and corresponding green fit
+ []
+
+File: chapter_3sup/figures/ceftazidime_comp.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/ceftazidime_comp.pdf>
+
+Underfull \hbox (badness 3250) in paragraph at lines 57--57
+[][] \TU/Optima(0)/m/sc/10 – |Ceftazidime. The CFU sig-
+ []
+
+
+Underfull \hbox (badness 1874) in paragraph at lines 57--57
+\TU/Optima(0)/m/sc/10 fits to the corresponding signals. The
+ []
+
+
+Underfull \hbox (badness 3557) in paragraph at lines 57--57
+\TU/Optima(0)/m/sc/10 morphology-corrected luminescence sig-
+ []
+
+File: chapter_3sup/figures/cefuroxime_comp.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/cefuroxime_comp.pdf>
+
+Underfull \hbox (badness 3803) in paragraph at lines 64--64
+[][] \TU/Optima(0)/m/sc/10 – |Cefuroxime. The CFU sig-
+ []
+
+File: chapter_3sup/figures/chloramphenicol_comp.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/chloramphenicol_comp.pdf>
+File: chapter_3sup/figures/ciprofloxacin_comp.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/ciprofloxacin_comp.pdf>
+
+Underfull \hbox (badness 1571) in paragraph at lines 78--78
+[][] \TU/Optima(0)/m/sc/10 – |Ciprofloxacin. The CFU sig-
+ []
+
+
+Underfull \hbox (badness 1874) in paragraph at lines 78--78
+\TU/Optima(0)/m/sc/10 fits to the corresponding signals. The
+ []
+
+
+Underfull \hbox (badness 3557) in paragraph at lines 78--78
+\TU/Optima(0)/m/sc/10 morphology-corrected luminescence sig-
+ []
+
+File: chapter_3sup/figures/colistin_comp.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/colistin_comp.pdf>
+File: chapter_3sup/figures/doripenem_comp.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/doripenem_comp.pdf>
+
+Underfull \hbox (badness 4205) in paragraph at lines 92--92
+[][] \TU/Optima(0)/m/sc/10 – |Doripenem. The CFU sig-
+ []
+
+
+Underfull \hbox (badness 1048) in paragraph at lines 92--92
+\TU/Optima(0)/m/sc/10 data points and corresponding green fit
+ []
+
+File: chapter_3sup/figures/fosfomycin_comp.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/fosfomycin_comp.pdf>
+
+Underfull \hbox (badness 2452) in paragraph at lines 99--99
+[][] \TU/Optima(0)/m/sc/10 – |Fosfomycin. The CFU sig-
+ []
+
+File: chapter_3sup/figures/imipenem_comp.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/imipenem_comp.pdf>
+
+Underfull \hbox (badness 4205) in paragraph at lines 106--106
+[][] \TU/Optima(0)/m/sc/10 – |Imipenem. The CFU sig-
+ []
+
+File: chapter_3sup/figures/mecillinam_comp.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/mecillinam_comp.pdf>
+
+Underfull \hbox (badness 2452) in paragraph at lines 113--113
+[][] \TU/Optima(0)/m/sc/10 – |Mecillinam. The CFU sig-
+ []
+
+File: chapter_3sup/figures/meropenem_comp.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/meropenem_comp.pdf>
+
+Underfull \hbox (badness 1681) in paragraph at lines 120--120
+[][] \TU/Optima(0)/m/sc/10 – |Meropenem. The CFU sig-
+ []
+
+
+Underfull \hbox (badness 1874) in paragraph at lines 120--120
+\TU/Optima(0)/m/sc/10 fits to the corresponding signals. The
+ []
+
+
+Underfull \hbox (badness 3557) in paragraph at lines 120--120
+\TU/Optima(0)/m/sc/10 morphology-corrected luminescence sig-
+ []
+
+File: chapter_3sup/figures/penicillin_comp.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/penicillin_comp.pdf>
+
+Underfull \hbox (badness 5217) in paragraph at lines 127--127
+\TU/Optima(0)/m/sc/10 above their respective detection limits
+ []
+
+
+Underfull \hbox (badness 1014) in paragraph at lines 127--127
+\TU/Optima(0)/m/sc/10 minescence). Lines represent log-linear
+ []
+
+File: chapter_3sup/figures/piperacillin_comp.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/piperacillin_comp.pdf>
+
+Underfull \hbox (badness 2478) in paragraph at lines 134--134
+[][] \TU/Optima(0)/m/sc/10 – |Piperacillin. The CFU sig-
+ []
+
+File: chapter_3sup/figures/polymyxinB_comp.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/polymyxinB_comp.pdf>
+
+Underfull \hbox (badness 2521) in paragraph at lines 141--141
+[][] \TU/Optima(0)/m/sc/10 – |Polymyxin B. The CFU sig-
+ []
+
+File: chapter_3sup/figures/rifampicin_comp.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/rifampicin_comp.pdf>
+File: chapter_3sup/figures/tetracycline_comp.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/tetracycline_comp.pdf>
+
+Underfull \hbox (badness 1852) in paragraph at lines 155--155
+[][] \TU/Optima(0)/m/sc/10 – |Tetracycline. The CFU sig-
+ []
+
+File: chapter_3sup/figures/trimethoprim_comp.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/trimethoprim_comp.pdf>
+
+Underfull \hbox (badness 1874) in paragraph at lines 162--162
+\TU/Optima(0)/m/sc/10 fits to the corresponding signals. The
+ []
+
+
+Underfull \hbox (badness 3557) in paragraph at lines 162--162
+\TU/Optima(0)/m/sc/10 morphology-corrected luminescence sig-
+ []
+
+File: chapter_3sup/figures/pexiganan_low_comp.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/pexiganan_low_comp.pdf>
+File: chapter_3sup/figures/pexiganan_comp.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/pexiganan_comp.pdf>
+File: chapter_3sup/figures/od_sos_exp.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/od_sos_exp.pdf>
+File: chapter_3sup/figures/lum_sos_exp.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/lum_sos_exp.pdf>
+File: chapter_3sup/figures/od_per_lum_sos_exp.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/od_per_lum_sos_exp.pdf>
+File: chapter_3sup/figures/diff_sos_exp.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/diff_sos_exp.pdf>
+(./chapter_3sup/si_images.tex
+File: chapter_3sup/images/micro_ctrl_D1.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_ctrl_D1.pdf>
+File: chapter_3sup/images/micro_ctrl_D1_2.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_ctrl_D1_2.pdf>
+File: chapter_3sup/images/micro_ctrl_D1_3.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_ctrl_D1_3.pdf>
+File: chapter_3sup/images/micro_ctrl1_2h.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_ctrl1_2h.pdf>
+File: chapter_3sup/images/micro_ctrl2_2h.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_ctrl2_2h.pdf>
+File: chapter_3sup/images/micro_ctrl3_2h.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_ctrl3_2h.pdf>
+File: chapter_3sup/images/micro_amp1.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_amp1.pdf>
+File: chapter_3sup/images/micro_amp2.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_amp2.pdf>
+File: chapter_3sup/images/micro_amp3.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_amp3.pdf>
+File: chapter_3sup/images/micro_amx1.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_amx1.pdf>
+File: chapter_3sup/images/micro_amx2.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_amx2.pdf>
+File: chapter_3sup/images/micro_amox2.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_amox2.pdf>
+File: chapter_3sup/images/micro_caz_D1_1.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_caz_D1_1.pdf>
+File: chapter_3sup/images/micro_caz_D1_2.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_caz_D1_2.pdf>
+File: chapter_3sup/images/micro_caz_d1_3d.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_caz_d1_3d.pdf>
+File: chapter_3sup/images/micro_cip.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_cip.pdf>
+File: chapter_3sup/images/micro_cip2.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_cip2.pdf>
+File: chapter_3sup/images/micro_cip3.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_cip3.pdf>
+File: chapter_3sup/images/micro_col1.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_col1.pdf>
+File: chapter_3sup/images/micro_col2.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_col2.pdf>
+File: chapter_3sup/images/micro_col3.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_col3.pdf>
+File: chapter_3sup/images/micro_fos1.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_fos1.pdf>
+File: chapter_3sup/images/micro_fos2b.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_fos2b.pdf>
+File: chapter_3sup/images/micro_fos3.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_fos3.pdf>
+File: chapter_3sup/images/micro_mero1.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_mero1.pdf>
+File: chapter_3sup/images/micro_mero2.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_mero2.pdf>
+File: chapter_3sup/images/micro_mero3.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_mero3.pdf>
+File: chapter_3sup/images/micro_pex1b.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_pex1b.pdf>
+File: chapter_3sup/images/micro_pex2.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_pex2.pdf>
+File: chapter_3sup/images/micro_pex3c.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_pex3c.pdf>
+File: chapter_3sup/images/micro_rif1b.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_rif1b.pdf>
+File: chapter_3sup/images/micro_rif2a.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_rif2a.pdf>
+File: chapter_3sup/images/micro_rif3.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_rif3.pdf>
+File: chapter_3sup/images/micro_tet1.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_tet1.pdf>
+File: chapter_3sup/images/micro_tet2.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_tet2.pdf>
+File: chapter_3sup/images/micro_tet3.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_tet3.pdf>
+File: chapter_3sup/images/micro_tri1b.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_tri1b.pdf>
+File: chapter_3sup/images/micro_tri2b.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_tri2b.pdf>
+File: chapter_3sup/images/micro_tri3.pdf Graphic file (type pdf)
+<use chapter_3sup/images/micro_tri3.pdf>
+)
+File: chapter_3sup/figures/filamentation_summary_pre.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/filamentation_summary_pre.pdf>
+File: chapter_3sup/figures/filamentation_summary_post.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/filamentation_summary_post.pdf>
+File: chapter_3sup/figures/lambda_15_delta1.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/lambda_15_delta1.pdf>
+File: chapter_3sup/figures/lambda_03_delta1.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/lambda_03_delta1.pdf>
+File: chapter_3sup/figures/lambda_15_delta4.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/lambda_15_delta4.pdf>
+File: chapter_3sup/figures/lambda_03_delta4.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/lambda_03_delta4.pdf>
+File: chapter_3sup/figures/fila_violin.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/fila_violin.pdf>
+File: chapter_3sup/figures/fila_vmean.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/fila_vmean.pdf>
+File: chapter_3sup/figures/colony_formation_probability.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/colony_formation_probability.pdf>
+
+Underfull \hbox (badness 1400) in paragraph at lines 287--287
+\TU/Optima(0)/m/sc/10 colony formation $[][] [] [] [] [][]$ (see []Ap-
+ []
+
+File: chapter_3sup/figures/pexi_cacl2.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/pexi_cacl2.pdf>
+File: chapter_3sup/figures/pexi_mgcl2.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/pexi_mgcl2.pdf>
+Missing character: There is no 𝜇 in font [Erewhon-Regular.otf]/OT:script=latn;language=dflt;!
+Missing character: There is no 𝜇 in font [Erewhon-Regular.otf]/OT:script=latn;language=dflt;!
+File: chapter_3sup/figures/amp_hand_experiment_ctrl.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/amp_hand_experiment_ctrl.pdf>
+File: chapter_3sup/figures/amp_hand_experiment_mgcl.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/amp_hand_experiment_mgcl.pdf>
+File: chapter_3sup/figures/supernatant.pdf Graphic file (type pdf)
+<use chapter_3sup/figures/supernatant.pdf>
+[118] [119] [120] [121] [122] [123] [124] [125] [126] [127] [128] [129] [130] [131] [132] [133] [134] [135]))
+Package biblatex Info: Reference section=0 on input line 47.
+\blx@maxsegment@8=\count590
+\blx@sectionciteorder@8=\count591
+Package biblatex Info: Reference section=8 on input line 48.
+Package biblatex Info: Setting label 'refsection:8' on input line 48.
+ (./chapter_4sup/ch4_sup.tex (./commands.tex) (./settings/si_settings.tex)
+\c@panelk=\count592
+ [136
+
+
+
+] [137
+
+] (./chapter_4sup/si_text.tex
+Package mdframed Info: mdframed works in twoside mode on input line 50.
+ [138
+
+] [139]
+Package mdframed Info: mdframed works in twoside mode on input line 188.
+ [140]
+Package mdframed Info: mdframed works in twoside mode on input line 229.
+ [141] [142
+
+] [143]
+Overfull \hbox (12.68752pt too wide) in paragraph at lines 303--308
+\TU/Optima(0)/m/sc/10 lowed by bivariate spline interpolation on the $[][][] [][]$ grid (\TU/lmtt/m/n/10 scipy.interpolate.RectBivariateSpline\TU/Optima(0)/m/sc/10 ).
+ []
+
+[144
+
+]) (./chapter_4sup/si_tables.tex [145] (./chapter_4sup/tables/pd_params_all_drugs.tex) (./chapter_4sup/tables/interaction_summary_table.tex) [146
+
+]) (./chapter_4sup/si_figures.tex
+File: chapter_4sup/figures/timecourse_amoxicillin.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/timecourse_amoxicillin.pdf>
+File: chapter_4sup/figures/timecourse_chloramphenicol.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/timecourse_chloramphenicol.pdf>
+File: chapter_4sup/figures/timecourse_colistin.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/timecourse_colistin.pdf>
+File: chapter_4sup/figures/timecourse_penicillin.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/timecourse_penicillin.pdf>
+File: chapter_4sup/figures/timecourse_polymyxinB.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/timecourse_polymyxinB.pdf>
+File: chapter_4sup/figures/timecourse_tetracycline.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/timecourse_tetracycline.pdf>
+
+Overfull \hbox (3.70555pt too wide) in paragraph at lines 25--31
+[][]  []
+ []
+
+
+Overfull \hbox (3.70555pt too wide) in paragraph at lines 25--31
+[]  []
+ []
+
+
+Overfull \hbox (3.70555pt too wide) in paragraph at lines 25--31
+[]  []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--31
+
+ []
+
+
+LaTeX Warning: Float too large for page by 24.11198pt on input line 41.
+
+[147]
+File: chapter_4sup/figures/pdcurve_amoxicillin.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/pdcurve_amoxicillin.pdf>
+File: chapter_4sup/figures/pdcurve_chloramphenicol.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/pdcurve_chloramphenicol.pdf>
+File: chapter_4sup/figures/pdcurve_colistin.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/pdcurve_colistin.pdf>
+File: chapter_4sup/figures/pdcurve_penicillin.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/pdcurve_penicillin.pdf>
+File: chapter_4sup/figures/pdcurve_polymyxinB.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/pdcurve_polymyxinB.pdf>
+File: chapter_4sup/figures/pdcurve_tetracycline.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/pdcurve_tetracycline.pdf>
+
+
+LaTeX Warning: Float too large for page by 17.2675pt on input line 71.
+
+[148]
+File: chapter_4sup/figures/psi_amoxicillin_chloramphenicol.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/psi_amoxicillin_chloramphenicol.pdf>
+File: chapter_4sup/figures/psi_amoxicillin_colistin.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/psi_amoxicillin_colistin.pdf>
+File: chapter_4sup/figures/psi_amoxicillin_penicillin.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/psi_amoxicillin_penicillin.pdf>
+File: chapter_4sup/figures/psi_amoxicillin_polymyxinB.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/psi_amoxicillin_polymyxinB.pdf>
+File: chapter_4sup/figures/psi_amoxicillin_tetracycline.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/psi_amoxicillin_tetracycline.pdf>
+File: chapter_4sup/figures/psi_chloramphenicol_colistin.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/psi_chloramphenicol_colistin.pdf>
+File: chapter_4sup/figures/psi_chloramphenicol_penicillin.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/psi_chloramphenicol_penicillin.pdf>
+File: chapter_4sup/figures/psi_chloramphenicol_polymyxinB.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/psi_chloramphenicol_polymyxinB.pdf>
+File: chapter_4sup/figures/psi_chloramphenicol_tetracycline.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/psi_chloramphenicol_tetracycline.pdf>
+File: chapter_4sup/figures/psi_colistin_penicillin.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/psi_colistin_penicillin.pdf>
+File: chapter_4sup/figures/psi_colistin_polymyxinB.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/psi_colistin_polymyxinB.pdf>
+File: chapter_4sup/figures/psi_colistin_tetracycline.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/psi_colistin_tetracycline.pdf>
+File: chapter_4sup/figures/psi_penicillin_polymyxinB.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/psi_penicillin_polymyxinB.pdf>
+File: chapter_4sup/figures/psi_penicillin_tetracycline.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/psi_penicillin_tetracycline.pdf>
+File: chapter_4sup/figures/psi_polymyxinB_tetracycline.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/psi_polymyxinB_tetracycline.pdf>
+File: chapter_4sup/figures/psi_colorbar_global.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/psi_colorbar_global.pdf>
+
+Underfull \hbox (badness 10000) in paragraph at lines 152--152
+\TU/Optima(0)/m/sc/10 time-weighted
+ []
+
+
+Underfull \hbox (badness 5847) in paragraph at lines 152--152
+\TU/Optima(0)/m/sc/10 net growth rate
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 152--152
+\TU/Optima(0)/m/sc/10 combinations
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 152--152
+\TU/Optima(0)/m/sc/10 measured in
+ []
+
+
+Underfull \hbox (badness 1888) in paragraph at lines 152--152
+\TU/Optima(0)/m/sc/10 checkerboard as-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 152--152
+\TU/Optima(0)/m/sc/10 corresponds to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 152--152
+\TU/Optima(0)/m/sc/10 one drug pair,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 152--152
+\TU/Optima(0)/m/sc/10 and each cell
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 152--152
+\TU/Optima(0)/m/sc/10 dition $[][][][] [][][]$.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 152--152
+\TU/Optima(0)/m/sc/10 Colors indicate
+ []
+
+
+Underfull \hbox (badness 2689) in paragraph at lines 152--152
+\TU/Optima(0)/m/sc/10 the median esti-
+ []
+
+
+Underfull \hbox (badness 6842) in paragraph at lines 152--152
+\TU/Optima(0)/m/sc/10 bootstrap resam-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 152--152
+\TU/Optima(0)/m/sc/10 significantly
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 152--152
+\TU/Optima(0)/m/sc/10 positive growth,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 152--152
+\TU/Optima(0)/m/sc/10 diamonds signif-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 152--152
+\TU/Optima(0)/m/sc/10 icantly negative
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 152--152
+\TU/Optima(0)/m/sc/10 growth (see
+ []
+
+
+LaTeX Warning: Float too large for page by 9.2243pt on input line 152.
+
+File: chapter_4sup/figures/mu_interaction_heatmap_amoxicillin_chloramphenicol.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/mu_interaction_heatmap_amoxicillin_chloramphenicol.pdf>
+File: chapter_4sup/figures/mu_interaction_heatmap_amoxicillin_colistin.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/mu_interaction_heatmap_amoxicillin_colistin.pdf>
+File: chapter_4sup/figures/mu_interaction_heatmap_amoxicillin_penicillin.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/mu_interaction_heatmap_amoxicillin_penicillin.pdf>
+File: chapter_4sup/figures/mu_interaction_heatmap_amoxicillin_polymyxinB.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/mu_interaction_heatmap_amoxicillin_polymyxinB.pdf>
+File: chapter_4sup/figures/mu_interaction_heatmap_amoxicillin_tetracycline.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/mu_interaction_heatmap_amoxicillin_tetracycline.pdf>
+File: chapter_4sup/figures/mu_interaction_heatmap_chloramphenicol_colistin.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/mu_interaction_heatmap_chloramphenicol_colistin.pdf>
+File: chapter_4sup/figures/mu_interaction_heatmap_chloramphenicol_penicillin.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/mu_interaction_heatmap_chloramphenicol_penicillin.pdf>
+File: chapter_4sup/figures/mu_interaction_heatmap_chloramphenicol_polymyxinB.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/mu_interaction_heatmap_chloramphenicol_polymyxinB.pdf>
+File: chapter_4sup/figures/mu_interaction_heatmap_chloramphenicol_tetracycline.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/mu_interaction_heatmap_chloramphenicol_tetracycline.pdf>
+File: chapter_4sup/figures/mu_interaction_heatmap_colistin_penicillin.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/mu_interaction_heatmap_colistin_penicillin.pdf>
+File: chapter_4sup/figures/mu_interaction_heatmap_colistin_polymyxinB.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/mu_interaction_heatmap_colistin_polymyxinB.pdf>
+File: chapter_4sup/figures/mu_interaction_heatmap_colistin_tetracycline.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/mu_interaction_heatmap_colistin_tetracycline.pdf>
+File: chapter_4sup/figures/mu_interaction_heatmap_penicillin_polymyxinB.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/mu_interaction_heatmap_penicillin_polymyxinB.pdf>
+File: chapter_4sup/figures/mu_interaction_heatmap_penicillin_tetracycline.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/mu_interaction_heatmap_penicillin_tetracycline.pdf>
+File: chapter_4sup/figures/mu_interaction_heatmap_polymyxinB_tetracycline.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/mu_interaction_heatmap_polymyxinB_tetracycline.pdf>
+File: chapter_4sup/figures/interaction_legend_bliss.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/interaction_legend_bliss.pdf>
+
+Underfull \hbox (badness 10000) in paragraph at lines 159--159
+[][] \TU/Optima(0)/m/sc/10 – |Bliss
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 159--159
+\TU/Optima(0)/m/sc/10 the distribution
+ []
+
+
+Underfull \hbox (badness 6592) in paragraph at lines 159--159
+\TU/Optima(0)/m/sc/10 of Bliss interac-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 159--159
+\TU/Optima(0)/m/sc/10 tion scores $[]$.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 159--159
+\TU/Optima(0)/m/sc/10 For each con-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 159--159
+\TU/Optima(0)/m/sc/10 centration pair,
+ []
+
+
+Underfull \hbox (badness 4660) in paragraph at lines 159--159
+\TU/Optima(0)/m/sc/10 treatment effects
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 159--159
+\TU/Optima(0)/m/sc/10 were resampled
+ []
+
+
+Underfull \hbox (badness 2865) in paragraph at lines 159--159
+\TU/Optima(0)/m/sc/10 to obtain a dis-
+ []
+
+
+Underfull \hbox (badness 7344) in paragraph at lines 159--159
+\TU/Optima(0)/m/sc/10 tribution of the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 159--159
+\TU/Optima(0)/m/sc/10 Bliss interaction
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 159--159
+\TU/Optima(0)/m/sc/10 colored accord-
+ []
+
+
+Underfull \hbox (badness 3250) in paragraph at lines 159--159
+\TU/Optima(0)/m/sc/10 ing to statistical
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 159--159
+\TU/Optima(0)/m/sc/10 indicates syner-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 159--159
+\TU/Optima(0)/m/sc/10 interval entirely
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 159--159
+\TU/Optima(0)/m/sc/10 below zero),
+ []
+
+
+Underfull \hbox (badness 4981) in paragraph at lines 159--159
+\TU/Optima(0)/m/sc/10 orange indicates
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 159--159
+\TU/Optima(0)/m/sc/10 antagonistic in-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 159--159
+\TU/Optima(0)/m/sc/10 teractions (95%
+ []
+
+
+Underfull \hbox (badness 3240) in paragraph at lines 159--159
+\TU/Optima(0)/m/sc/10 confidence inter-
+ []
+
+
+Underfull \hbox (badness 1742) in paragraph at lines 159--159
+\TU/Optima(0)/m/sc/10 indicates no sig-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 159--159
+\TU/Optima(0)/m/sc/10 from additivity.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 159--159
+\TU/Optima(0)/m/sc/10 We overlaid
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 159--159
+\TU/Optima(0)/m/sc/10 cells where all
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 159--159
+\TU/Optima(0)/m/sc/10 estimates were
+ []
+
+
+Underfull \hbox (badness 3281) in paragraph at lines 159--159
+\TU/Optima(0)/m/sc/10 “invalid” due to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 159--159
+\TU/Optima(0)/m/sc/10 and cells that
+ []
+
+
+Underfull \hbox (badness 6364) in paragraph at lines 159--159
+\TU/Optima(0)/m/sc/10 are not eligible
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 159--159
+\TU/Optima(0)/m/sc/10 (because either
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 159--159
+\TU/Optima(0)/m/sc/10 the combined
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 159--159
+\TU/Optima(0)/m/sc/10 treatment effect
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 159--159
+\TU/Optima(0)/m/sc/10 or both single-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 159--159
+\TU/Optima(0)/m/sc/10 drug treatment
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 159--159
+\TU/Optima(0)/m/sc/10 effects are not
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 159--159
+\TU/Optima(0)/m/sc/10 significant) in
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 159--159
+\TU/Optima(0)/m/sc/10 light grey (see
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 159--159
+\TU/Optima(0)/m/sc/10 Methods, Data
+ []
+
+
+LaTeX Warning: Float too large for page by 9.81938pt on input line 159.
+
+File: chapter_4sup/figures/fici_interaction_heatmap_amoxicillin_chloramphenicol.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/fici_interaction_heatmap_amoxicillin_chloramphenicol.pdf>
+File: chapter_4sup/figures/fici_interaction_heatmap_amoxicillin_colistin.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/fici_interaction_heatmap_amoxicillin_colistin.pdf>
+File: chapter_4sup/figures/fici_interaction_heatmap_amoxicillin_penicillin.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/fici_interaction_heatmap_amoxicillin_penicillin.pdf>
+File: chapter_4sup/figures/fici_interaction_heatmap_amoxicillin_polymyxinB.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/fici_interaction_heatmap_amoxicillin_polymyxinB.pdf>
+File: chapter_4sup/figures/fici_interaction_heatmap_amoxicillin_tetracycline.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/fici_interaction_heatmap_amoxicillin_tetracycline.pdf>
+File: chapter_4sup/figures/fici_interaction_heatmap_chloramphenicol_colistin.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/fici_interaction_heatmap_chloramphenicol_colistin.pdf>
+File: chapter_4sup/figures/fici_interaction_heatmap_chloramphenicol_penicillin.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/fici_interaction_heatmap_chloramphenicol_penicillin.pdf>
+File: chapter_4sup/figures/fici_interaction_heatmap_chloramphenicol_polymyxinB.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/fici_interaction_heatmap_chloramphenicol_polymyxinB.pdf>
+File: chapter_4sup/figures/fici_interaction_heatmap_chloramphenicol_tetracycline.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/fici_interaction_heatmap_chloramphenicol_tetracycline.pdf>
+File: chapter_4sup/figures/fici_interaction_heatmap_colistin_penicillin.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/fici_interaction_heatmap_colistin_penicillin.pdf>
+File: chapter_4sup/figures/fici_interaction_heatmap_colistin_polymyxinB.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/fici_interaction_heatmap_colistin_polymyxinB.pdf>
+File: chapter_4sup/figures/fici_interaction_heatmap_colistin_tetracycline.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/fici_interaction_heatmap_colistin_tetracycline.pdf>
+File: chapter_4sup/figures/fici_interaction_heatmap_penicillin_polymyxinB.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/fici_interaction_heatmap_penicillin_polymyxinB.pdf>
+File: chapter_4sup/figures/fici_interaction_heatmap_penicillin_tetracycline.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/fici_interaction_heatmap_penicillin_tetracycline.pdf>
+File: chapter_4sup/figures/fici_interaction_heatmap_polymyxinB_tetracycline.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/fici_interaction_heatmap_polymyxinB_tetracycline.pdf>
+File: chapter_4sup/figures/interaction_legend_loewe.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/interaction_legend_loewe.pdf>
+
+Overfull \hbox (8.53583pt too wide) in paragraph at lines 166--166
+ [] 
+ []
+
+
+Underfull \hbox (badness 1152) in paragraph at lines 166--166
+[][] \TU/Optima(0)/m/sc/10 – |Loewe
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--166
+\TU/Optima(0)/m/sc/10 the distribution
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--166
+\TU/Optima(0)/m/sc/10 of Loewe inter-
+ []
+
+
+Underfull \hbox (badness 4582) in paragraph at lines 166--166
+\TU/Optima(0)/m/sc/10 action scores $[]$.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--166
+\TU/Optima(0)/m/sc/10 nificant synergy
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--166
+\TU/Optima(0)/m/sc/10 interval entirely
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--166
+\TU/Optima(0)/m/sc/10 below 0), or-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--166
+\TU/Optima(0)/m/sc/10 ange indicates
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--166
+\TU/Optima(0)/m/sc/10 significant an-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--166
+\TU/Optima(0)/m/sc/10 tagonism (95%
+ []
+
+
+Underfull \hbox (badness 3240) in paragraph at lines 166--166
+\TU/Optima(0)/m/sc/10 confidence inter-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--166
+\TU/Optima(0)/m/sc/10 0), and white
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--166
+\TU/Optima(0)/m/sc/10 indicates that
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--166
+\TU/Optima(0)/m/sc/10 the confidence
+ []
+
+
+Underfull \hbox (badness 3803) in paragraph at lines 166--166
+\TU/Optima(0)/m/sc/10 interval contains
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--166
+\TU/Optima(0)/m/sc/10 cells where all
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--166
+\TU/Optima(0)/m/sc/10 estimates were
+ []
+
+
+Underfull \hbox (badness 3281) in paragraph at lines 166--166
+\TU/Optima(0)/m/sc/10 “invalid” due to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--166
+\TU/Optima(0)/m/sc/10 and cells that
+ []
+
+
+Underfull \hbox (badness 6364) in paragraph at lines 166--166
+\TU/Optima(0)/m/sc/10 are not eligible
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--166
+\TU/Optima(0)/m/sc/10 (because either
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--166
+\TU/Optima(0)/m/sc/10 the combined
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--166
+\TU/Optima(0)/m/sc/10 treatment effect;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--166
+\TU/Optima(0)/m/sc/10 or both single-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--166
+\TU/Optima(0)/m/sc/10 drug treatment
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--166
+\TU/Optima(0)/m/sc/10 effects are not
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--166
+\TU/Optima(0)/m/sc/10 significant) in
+ []
+
+
+Underfull \hbox (badness 4279) in paragraph at lines 166--166
+\TU/Optima(0)/m/sc/10 Loewe additivity
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--166
+\TU/Optima(0)/m/sc/10 is undefined
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--166
+\TU/Optima(0)/m/sc/10 because the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--166
+\TU/Optima(0)/m/sc/10 combined time-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--166
+\TU/Optima(0)/m/sc/10 weighted net
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--166
+\TU/Optima(0)/m/sc/10 minimal net
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--166
+\TU/Optima(0)/m/sc/10 Methods, Data
+ []
+
+
+LaTeX Warning: Float too large for page by 24.82692pt on input line 166.
+
+File: chapter_4sup/figures/loewe_vs_bliss_subsup.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/loewe_vs_bliss_subsup.pdf>
+File: chapter_4sup/figures/surface_psi.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/surface_psi.pdf>
+
+Underfull \hbox (badness 7613) in paragraph at lines 222--222
+[][] \TU/Optima(0)/m/sc/10 – |Time-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 222--222
+\TU/Optima(0)/m/sc/10 weighted net
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 222--222
+\TU/Optima(0)/m/sc/10 growth rate
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 222--222
+\TU/Optima(0)/m/sc/10 surfaces for all
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 222--222
+\TU/Optima(0)/m/sc/10 drug combi-
+ []
+
+
+Underfull \hbox (badness 7168) in paragraph at lines 222--222
+\TU/Optima(0)/m/sc/10 nations. Each
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 222--222
+\TU/Optima(0)/m/sc/10 median spline,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 222--222
+\TU/Optima(0)/m/sc/10 estimated from
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 222--222
+\TU/Optima(0)/m/sc/10 the empirical
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 222--222
+\TU/Optima(0)/m/sc/10 time-weighted
+ []
+
+
+Underfull \hbox (badness 5460) in paragraph at lines 222--222
+\TU/Optima(0)/m/sc/10 net growth rate
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 222--222
+\TU/Optima(0)/m/sc/10 concentration
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 222--222
+\TU/Optima(0)/m/sc/10 grid. Colors
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 222--222
+\TU/Optima(0)/m/sc/10 indicate the
+ []
+
+
+Underfull \hbox (badness 1406) in paragraph at lines 222--222
+\TU/Optima(0)/m/sc/10 magnitude of $[]$,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 222--222
+\TU/Optima(0)/m/sc/10 with negative
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 222--222
+\TU/Optima(0)/m/sc/10 values (reds)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 222--222
+\TU/Optima(0)/m/sc/10 net killing and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 222--222
+\TU/Optima(0)/m/sc/10 positive values
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 222--222
+\TU/Optima(0)/m/sc/10 (blues) to net
+ []
+
+File: chapter_4sup/figures/surface_pd.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/surface_pd.pdf>
+
+Underfull \hbox (badness 10000) in paragraph at lines 235--235
+[][] \TU/Optima(0)/m/sc/10 – |Polar
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 235--235
+\TU/Optima(0)/m/sc/10 pharmacody-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 235--235
+\TU/Optima(0)/m/sc/10 namic curves
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 235--235
+\TU/Optima(0)/m/sc/10 for all drug
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 235--235
+\TU/Optima(0)/m/sc/10 combinations.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 235--235
+\TU/Optima(0)/m/sc/10 For each drug
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 235--235
+\TU/Optima(0)/m/sc/10 pair, we show
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 235--235
+\TU/Optima(0)/m/sc/10 one-dimensional
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 235--235
+[]$\TU/Optima(0)/m/sc/10 ), plotting
+ []
+
+
+Underfull \hbox (badness 1210) in paragraph at lines 235--235
+[]$ \TU/Optima(0)/m/sc/10 as a function
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 235--235
+\TU/Optima(0)/m/sc/10 dose $[]$. The
+ []
+
+
+Underfull \hbox (badness 1831) in paragraph at lines 235--235
+\TU/Optima(0)/m/sc/10 blue dotted line
+ []
+
+
+Underfull \hbox (badness 4995) in paragraph at lines 235--235
+\TU/Optima(0)/m/sc/10 both single-drug
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 235--235
+\TU/Optima(0)/m/sc/10 doses being at
+ []
+
+
+Underfull \hbox (badness 4713) in paragraph at lines 235--235
+\TU/Optima(0)/m/sc/10 marks $[] [] []$,
+ []
+
+
+Underfull \hbox (badness 4995) in paragraph at lines 235--235
+\TU/Optima(0)/m/sc/10 both single-drug
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 235--235
+\TU/Optima(0)/m/sc/10 concentrations
+ []
+
+
+Underfull \hbox (badness 2302) in paragraph at lines 235--235
+\TU/Optima(0)/m/sc/10 being at $[] []$.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 235--235
+\TU/Optima(0)/m/sc/10 Black, solid
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 235--235
+\TU/Optima(0)/m/sc/10 median surface-
+ []
+
+
+Underfull \hbox (badness 1810) in paragraph at lines 235--235
+\TU/Optima(0)/m/sc/10 derived $[]$, with
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 235--235
+\TU/Optima(0)/m/sc/10 corresponding
+ []
+
+
+Underfull \hbox (badness 3396) in paragraph at lines 235--235
+\TU/Optima(0)/m/sc/10 ted) and Loewe
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 235--235
+\TU/Optima(0)/m/sc/10 (teal, dashed-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 235--235
+\TU/Optima(0)/m/sc/10 dotted) predic-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 235--235
+\TU/Optima(0)/m/sc/10 tions evaluated
+ []
+
+
+Underfull \hbox (badness 4832) in paragraph at lines 235--235
+\TU/Optima(0)/m/sc/10 along the same
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 235--235
+\TU/Optima(0)/m/sc/10 ergy/Antagonism
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 235--235
+\TU/Optima(0)/m/sc/10 corresponds to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 235--235
+\TU/Optima(0)/m/sc/10 the reference
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 235--235
+\TU/Optima(0)/m/sc/10 model predic-
+ []
+
+
+Underfull \hbox (badness 1430) in paragraph at lines 235--235
+\TU/Optima(0)/m/sc/10 tion of $[]$ being
+ []
+
+
+Underfull \hbox (badness 2057) in paragraph at lines 235--235
+\TU/Optima(0)/m/sc/10 above/below the
+ []
+
+File: chapter_4sup/figures/surface_isoboles.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/surface_isoboles.pdf>
+
+Underfull \hbox (badness 10000) in paragraph at lines 246--246
+[][] \TU/Optima(0)/m/sc/10 – |Pan-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 246--246
+\TU/Optima(0)/m/sc/10 els a–o show
+ []
+
+
+Underfull \hbox (badness 2261) in paragraph at lines 246--246
+\TU/Optima(0)/m/sc/10 isoboles of the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 246--246
+\TU/Optima(0)/m/sc/10 time-weighted
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 246--246
+\TU/Optima(0)/m/sc/10 at $[] [] [] [][]$
+ []
+
+
+Underfull \hbox (badness 2269) in paragraph at lines 246--246
+\TU/Optima(0)/m/sc/10 on the median
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 246--246
+\TU/Optima(0)/m/sc/10 response sur-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 246--246
+\TU/Optima(0)/m/sc/10 faces for all
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 246--246
+\TU/Optima(0)/m/sc/10 combinations.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 246--246
+\TU/Optima(0)/m/sc/10 based isobole
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 246--246
+\TU/Optima(0)/m/sc/10 (teal, dash-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 246--246
+\TU/Optima(0)/m/sc/10 dotted), based
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 246--246
+\TU/Optima(0)/m/sc/10 on equivalent
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 246--246
+\TU/Optima(0)/m/sc/10 the Bliss-based
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 246--246
+\TU/Optima(0)/m/sc/10 dotted), based
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 246--246
+\TU/Optima(0)/m/sc/10 on single-drug
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 246--246
+\TU/Optima(0)/m/sc/10 treatment ef-
+ []
+
+
+Underfull \hbox (badness 2261) in paragraph at lines 246--246
+\TU/Optima(0)/m/sc/10 lying left/below
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 246--246
+\TU/Optima(0)/m/sc/10 a reference
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 246--246
+\TU/Optima(0)/m/sc/10 synergy (less
+ []
+
+
+Underfull \hbox (badness 1436) in paragraph at lines 246--246
+\TU/Optima(0)/m/sc/10 drug is needed
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 246--246
+\TU/Optima(0)/m/sc/10 to achieve
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 246--246
+\TU/Optima(0)/m/sc/10 the same ef-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 246--246
+\TU/Optima(0)/m/sc/10 fect), whereas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 246--246
+\TU/Optima(0)/m/sc/10 a curve lying
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 246--246
+\TU/Optima(0)/m/sc/10 right/above
+ []
+
+
+Underfull \hbox (badness 2368) in paragraph at lines 246--246
+\TU/Optima(0)/m/sc/10 indicates antag-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 246--246
+\TU/Optima(0)/m/sc/10 onism (more
+ []
+
+
+Underfull \hbox (badness 1436) in paragraph at lines 246--246
+\TU/Optima(0)/m/sc/10 drug is needed
+ []
+
+
+Underfull \hbox (badness 4429) in paragraph at lines 246--246
+\TU/Optima(0)/m/sc/10 to achieve the
+ []
+
+File: chapter_4sup/figures/surface_angular_interaction.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/surface_angular_interaction.pdf>
+
+Underfull \hbox (badness 10000) in paragraph at lines 258--258
+[][] \TU/Optima(0)/m/sc/10 – |An-
+ []
+
+
+Underfull \hbox (badness 2717) in paragraph at lines 258--258
+\TU/Optima(0)/m/sc/10 gular interaction
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 258--258
+\TU/Optima(0)/m/sc/10 profiles for all
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 258--258
+\TU/Optima(0)/m/sc/10 drug combina-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 258--258
+\TU/Optima(0)/m/sc/10 drug pair, we
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 258--258
+\TU/Optima(0)/m/sc/10 extract isoboles
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 258--258
+\TU/Optima(0)/m/sc/10 the $[]$-surface
+ []
+
+
+Underfull \hbox (badness 3108) in paragraph at lines 258--258
+\TU/Optima(0)/m/sc/10 splines. Along
+ []
+
+
+Underfull \hbox (badness 4001) in paragraph at lines 258--258
+\TU/Optima(0)/m/sc/10 the path $[][][] [][][]$,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 258--258
+\TU/Optima(0)/m/sc/10 (orange, dotted)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 258--258
+\TU/Optima(0)/m/sc/10 dash-dotted)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 258--258
+\TU/Optima(0)/m/sc/10 based predic-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 258--258
+\TU/Optima(0)/m/sc/10 tions for $[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 258--258
+\TU/Optima(0)/m/sc/10 and plot them
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 258--258
+\TU/Optima(0)/m/sc/10 as a function
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 258--258
+\TU/Optima(0)/m/sc/10 of the mixing
+ []
+
+
+Underfull \hbox (badness 3364) in paragraph at lines 258--258
+\TU/Optima(0)/m/sc/10 angle $[]$. Syn-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 258--258
+\TU/Optima(0)/m/sc/10 ergy/Antagonism
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 258--258
+\TU/Optima(0)/m/sc/10 corresponds to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 258--258
+\TU/Optima(0)/m/sc/10 the reference
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 258--258
+\TU/Optima(0)/m/sc/10 model predic-
+ []
+
+
+Underfull \hbox (badness 1226) in paragraph at lines 258--258
+\TU/Optima(0)/m/sc/10 tion of $[]$ being
+ []
+
+
+Underfull \hbox (badness 1337) in paragraph at lines 258--258
+\TU/Optima(0)/m/sc/10 above/below the
+ []
+
+File: chapter_4sup/figures/dist_ratios.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/dist_ratios.pdf>
+
+Underfull \hbox (badness 1077) in paragraph at lines 272--272
+[][] \TU/Optima(0)/m/sc/10 – |Stray light distri-
+ []
+
+
+Underfull \hbox (badness 2626) in paragraph at lines 272--272
+\TU/Optima(0)/m/sc/10 tion of the center-to-center
+ []
+
+File: chapter_4sup/figures/inoculum_concentration_slopes.pdf Graphic file (type pdf)
+<use chapter_4sup/figures/inoculum_concentration_slopes.pdf>
+
+Underfull \hbox (badness 3568) in paragraph at lines 283--283
+\TU/Optima(0)/m/sc/10 tion of drug concentration.
+ []
+
+
+Underfull \hbox (badness 1168) in paragraph at lines 283--283
+\TU/Optima(0)/m/sc/10 timated from the regression
+ []
+
+
+Underfull \hbox (badness 1960) in paragraph at lines 283--283
+\TU/Optima(0)/m/sc/10 significant inoculum effects,
+ []
+
+)) [149] [150] [151] [152] [153] [154] [155] [156] [157]
+Package biblatex Info: Reference section=0 on input line 48.
+ [158
+
 
 
 
@@ -4680,27 +6570,33 @@ Package biblatex Info: Reference section=0 on input line 50.
 \tf@toc=\write8
 \openout8 = `main.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 54.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 54.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 50.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 50.
  (/Users/malte/ETH-Documents/thesis/build/main.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 54.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 54.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 50.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 50.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 54.
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 50.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 50848 strings out of 479418
- 995268 string characters out of 5884586
- 2283006 words of memory out of 5000000
- 67292 multiletter control sequences out of 15000+600000
- 541464 words of font info for 150 fonts, out of 8000000 for 9000
+ 52726 strings out of 479418
+ 1063180 string characters out of 5884586
+ 2583192 words of memory out of 5000000
+ 68867 multiletter control sequences out of 15000+600000
+ 546156 words of font info for 199 fonts, out of 8000000 for 9000
  1350 hyphenation exceptions out of 8191
- 70i,21n,120p,4728b,6373s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 70i,25n,120p,4729b,6388s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on /Users/malte/ETH-Documents/thesis/build/main.xdv (72 pages, 1677372 bytes).
+Output written on /Users/malte/ETH-Documents/thesis/build/main.xdv (164 pages, 3658480 bytes).

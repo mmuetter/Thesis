@@ -1,57 +1,148 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {english}{}
 \contentsline {chapter}{\chapternumberline {1}General Introduction}{1}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Antibiotic Resistance Evolution}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.1}Antibiotic Resistance Evolution}{2}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Treatment Strategies}{2}{section.1.2}%
 \contentsline {section}{\numberline {1.3}Drug interactions}{3}{section.1.3}%
 \contentsline {section}{\numberline {1.4}Thesis outline}{4}{section.1.4}%
 \contentsline {chapter}{\chapternumberline {2}The Impact of Treatment Strategies on the Epidemiological Dynamics of Plasmid-Conferred Antibiotic Resistance}{9}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Introduction}{10}{section.2.1}%
 \contentsline {section}{\numberline {2.2}Results}{11}{section.2.2}%
-\contentsline {paragraph}{Multidrug strategies keep the overall number of infections lowest and best suppress single resistance.}{12}{section*.9}%
-\contentsline {paragraph}{All treatment strategies fail to contain pre-existing double resistance.}{13}{section*.11}%
-\contentsline {paragraph}{Treatment strategies affect the emergence of double resistance.}{13}{section*.12}%
-\contentsline {paragraph}{Combination therapy suppresses the emergence of double resistance by preventing superinfections.}{13}{section*.13}%
-\contentsline {paragraph}{Treatment strategies influence the emergence of double resistance within superinfected wells.}{15}{section*.14}%
-\contentsline {paragraph}{Computational model corroborates the robustness of experimental outcomes.}{15}{section*.16}%
-\contentsline {paragraph}{\textit {In silico} sensitivity analysis indicates that the superiority of combination therapy is robust.}{17}{section*.17}%
+\contentsline {paragraph}{Multidrug strategies keep the overall number of infections lowest and best suppress single resistance.}{12}{section*.7}%
+\contentsline {paragraph}{All treatment strategies fail to contain pre-existing double resistance.}{13}{section*.9}%
+\contentsline {paragraph}{Treatment strategies affect the emergence of double resistance.}{13}{section*.10}%
+\contentsline {paragraph}{Combination therapy suppresses the emergence of double resistance by preventing superinfections.}{13}{section*.11}%
+\contentsline {paragraph}{Treatment strategies influence the emergence of double resistance within superinfected wells.}{15}{section*.12}%
+\contentsline {paragraph}{Computational model corroborates the robustness of experimental outcomes.}{15}{section*.14}%
+\contentsline {paragraph}{\textit {In silico} sensitivity analysis indicates that the superiority of combination therapy is robust.}{17}{section*.15}%
 \contentsline {section}{\numberline {2.3}Discussion}{17}{section.2.3}%
 \contentsline {section}{\numberline {2.4}Methods}{20}{section.2.4}%
-\contentsline {paragraph}{Drugs and Media.}{20}{section*.19}%
-\contentsline {paragraph}{Strains and Plasmids.}{20}{section*.20}%
-\contentsline {paragraph}{Treatment arms.}{21}{section*.21}%
-\contentsline {paragraph}{Assay plates.}{21}{section*.22}%
-\contentsline {paragraph}{Experimental procedure. }{21}{section*.23}%
-\contentsline {paragraph}{Turnover.}{22}{section*.24}%
-\contentsline {paragraph}{Infections.}{22}{section*.25}%
-\contentsline {paragraph}{Resistance Profiles.}{22}{section*.26}%
-\contentsline {paragraph}{Scenarios.}{22}{section*.27}%
-\contentsline {paragraph}{Instruction Sets.}{23}{section*.28}%
-\contentsline {paragraph}{Computational Model.}{23}{section*.29}%
-\contentsline {paragraph}{\textit {In Silico} Sensitivity Analysis.}{23}{section*.30}%
-\contentsline {paragraph}{Data Availability}{24}{section*.31}%
-\contentsline {chapter}{\chapternumberline {3}Concluding Remarks}{27}{chapter.3}%
-\contentsline {appendix}{\chapternumberline {A}The Impact of Treatment Strategies on the Epidemiological Dynamics of Plasmid-Conferred Antibiotic Resistance}{31}{appendix.A}%
-\contentsline {subsection}{\numberline {A1}SI Methods}{32}{subsection.A.0.1}%
-\contentsline {paragraph}{Strains.}{32}{section*.36}%
-\contentsline {paragraph}{Drugs.}{32}{section*.37}%
-\contentsline {paragraph}{Conjugation Protocol.}{32}{section*.38}%
-\contentsline {paragraph}{Plasmid costs}{33}{section*.39}%
-\contentsline {paragraph}{Segregational Loss}{33}{section*.40}%
-\contentsline {paragraph}{Growth rates and bacterial density.}{33}{section*.41}%
-\contentsline {paragraph}{Basic Reproductive Number.}{34}{section*.42}%
-\contentsline {paragraph}{Phenotyping -- Limitations. }{34}{section*.43}%
-\contentsline {paragraph}{Advanced Resistance Profiles}{35}{section*.44}%
-\contentsline {paragraph}{Statistical Analysis. }{35}{section*.45}%
-\contentsline {paragraph}{\textit {Maximum-emergence}~scenario: Predicting the Emergence Probability.}{36}{section*.46}%
-\contentsline {subsection}{\numberline {A2}SI Results}{36}{subsection.A.0.2}%
-\contentsline {paragraph}{Impact of Treatment on the Emergence of Double Resistance.}{36}{section*.47}%
-\contentsline {paragraph}{Treatment strategies influence the number of bacteria inoculating superinfections. }{37}{section*.48}%
-\contentsline {paragraph}{Antagonism.}{37}{section*.49}%
-\contentsline {subsection}{\numberline {A3}SI Computational Model}{38}{subsection.A.0.3}%
-\contentsline {paragraph}{Stochasticity}{38}{section*.50}%
-\contentsline {paragraph}{Transition Probabilities.}{38}{section*.51}%
-\contentsline {paragraph}{Transition Probabilities for Transfer 1.}{39}{section*.52}%
-\contentsline {paragraph}{Choice of Model.}{39}{section*.53}%
-\contentsline {paragraph}{Contamination of the Transition Matrix. }{39}{section*.54}%
-\contentsline {paragraph}{Filtered Transition Probabilities.}{40}{section*.55}%
+\contentsline {paragraph}{Drugs and Media.}{20}{section*.17}%
+\contentsline {paragraph}{Strains and Plasmids.}{20}{section*.18}%
+\contentsline {paragraph}{Treatment arms.}{21}{section*.19}%
+\contentsline {paragraph}{Assay plates.}{21}{section*.20}%
+\contentsline {paragraph}{Experimental procedure. }{21}{section*.21}%
+\contentsline {paragraph}{Turnover.}{22}{section*.22}%
+\contentsline {paragraph}{Infections.}{22}{section*.23}%
+\contentsline {paragraph}{Resistance Profiles.}{22}{section*.24}%
+\contentsline {paragraph}{Scenarios.}{22}{section*.25}%
+\contentsline {paragraph}{Instruction Sets.}{23}{section*.26}%
+\contentsline {paragraph}{Computational Model.}{23}{section*.27}%
+\contentsline {paragraph}{\textit {In Silico} Sensitivity Analysis.}{23}{section*.28}%
+\contentsline {paragraph}{Data Availability}{24}{section*.29}%
+\contentsline {chapter}{\chapternumberline {3}High-Throughput Quantification of Population Dynamics using Luminescence}{27}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Introduction}{28}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Results}{29}{section.3.2}%
+\contentsline {paragraph}{Light intensity is proportional to bacterial density.}{29}{section*.33}%
+\contentsline {paragraph}{Luminescence-based rates agree with CFU-based kill rates in 11 out of 22 antimicrobial assays.}{31}{section*.34}%
+\contentsline {paragraph}{No support for SOS-driven increase in luminescence promoter activity.}{31}{section*.35}%
+\contentsline {paragraph}{Filamentation aligns with divergence between CFU- and luminescence-based rates.}{31}{section*.36}%
+\contentsline {paragraph}{Filamentation model predicts divergence between luminescence- and CFU-based rates.}{32}{section*.38}%
+\contentsline {paragraph}{Adjusting luminescence intensities by changes in volume narrows the gap between CFU- and luminescence-based rates.}{33}{section*.39}%
+\contentsline {paragraph}{CFU-based estimates can overestimate the rate of population decline.}{34}{section*.41}%
+\contentsline {paragraph}{Partial loss of culturability causes CFU to underestimate \(\mitpsi _B\) for ciprofloxacin and trimethoprim treatment.}{35}{section*.42}%
+\contentsline {paragraph}{Antimicrobial carryover causes underestimation of $\mitpsi _B$ for pexiganan using CFU.}{35}{section*.43}%
+\contentsline {paragraph}{Luminescence and CFU show identical decline rates for pexiganan time-kill curves if residual killing is prevented.}{36}{section*.44}%
+\contentsline {paragraph}{Pexiganan rapidly loses killing capacity.}{37}{section*.45}%
+\contentsline {section}{\numberline {3.3}Discussion}{37}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Methods}{39}{section.3.4}%
+\contentsline {paragraph}{Strains.}{39}{section*.46}%
+\contentsline {paragraph}{Media.}{39}{section*.47}%
+\contentsline {paragraph}{Automated CFU plating.}{40}{section*.48}%
+\contentsline {paragraph}{Luminescence measurements.}{40}{section*.49}%
+\contentsline {paragraph}{Luminescence-CFU assay setup.}{40}{section*.50}%
+\contentsline {paragraph}{Rapid luminescence-CFU assay setup.}{41}{section*.51}%
+\contentsline {paragraph}{Morphology experiments.}{41}{section*.52}%
+\contentsline {paragraph}{Fitting rates of change $\mitpsi $.}{41}{section*.53}%
+\contentsline {paragraph}{Significance.}{41}{section*.54}%
+\contentsline {chapter}{\chapternumberline {4}Antimicrobial Combination Effects at Sub-inhibitory Doses do not Reliably Predict Effects at Inhibitory Concentrations}{45}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Introduction}{46}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Results}{47}{section.4.2}%
+\contentsline {paragraph}{Time-variant growth rates and treatment effects.}{47}{section*.59}%
+\contentsline {paragraph}{Bliss independence implies additive treatment effects.}{48}{section*.61}%
+\contentsline {paragraph}{Peptide -- non-peptide interaction model.}{49}{section*.62}%
+\contentsline {paragraph}{Interaction scores $(\mitmu , \mitnu )$.}{49}{section*.63}%
+\contentsline {paragraph}{Disagreement between sub-inhibitory and inhibitory interaction types within reference models.}{50}{section*.64}%
+\contentsline {paragraph}{Disagreement between reference models, within concentration regimes.}{50}{section*.66}%
+\contentsline {paragraph}{Interaction types can change with dose even at fixed mixing ratio.}{50}{section*.67}%
+\contentsline {paragraph}{Interaction types can depend on the mixing ratio.}{52}{section*.68}%
+\contentsline {section}{\numberline {4.3}Discussion}{52}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Methods}{54}{section.4.4}%
+\contentsline {paragraph}{Strains and Media.}{54}{section*.70}%
+\contentsline {paragraph}{Drug preparation.}{54}{section*.71}%
+\contentsline {paragraph}{Dose response assays.}{54}{section*.73}%
+\contentsline {paragraph}{Data preprocessing.}{55}{section*.74}%
+\contentsline {paragraph}{Time-weighted net growth rate.}{55}{section*.75}%
+\contentsline {paragraph}{Classification of inhibitory and sub-inhibitory conditions.}{55}{section*.76}%
+\contentsline {paragraph}{Single-drug pharmacodynamic curve fitting.}{55}{section*.77}%
+\contentsline {paragraph}{Distribution of treatment effects.}{56}{section*.78}%
+\contentsline {paragraph}{Bliss-based interaction score \(\mitmu \).}{56}{section*.79}%
+\contentsline {paragraph}{Loewe-based interaction score \(\mitnu \).}{56}{section*.80}%
+\contentsline {paragraph}{Polar reparametrization.}{57}{section*.81}%
+\contentsline {paragraph}{Inoculum effects.}{57}{section*.82}%
+\contentsline {chapter}{\chapternumberline {5}Concluding Remarks}{61}{chapter.5}%
+\contentsline {appendix}{\chapternumberline {A}The Impact of Treatment Strategies on the Epidemiological Dynamics of Plasmid-Conferred Antibiotic Resistance}{67}{appendix.A}%
+\contentsline {subsection}{\numberline {A1}SI Methods}{68}{subsection.A.0.1}%
+\contentsline {paragraph}{Strains.}{68}{section*.88}%
+\contentsline {paragraph}{Drugs.}{68}{section*.89}%
+\contentsline {paragraph}{Conjugation Protocol.}{68}{section*.90}%
+\contentsline {paragraph}{Plasmid costs}{69}{section*.91}%
+\contentsline {paragraph}{Segregational Loss}{69}{section*.92}%
+\contentsline {paragraph}{Growth rates and bacterial density.}{69}{section*.93}%
+\contentsline {paragraph}{Basic Reproductive Number.}{70}{section*.94}%
+\contentsline {paragraph}{Phenotyping -- Limitations. }{70}{section*.95}%
+\contentsline {paragraph}{Advanced Resistance Profiles}{71}{section*.96}%
+\contentsline {paragraph}{Statistical Analysis. }{71}{section*.97}%
+\contentsline {paragraph}{\textit {Maximum-emergence}~scenario: Predicting the Emergence Probability.}{72}{section*.98}%
+\contentsline {subsection}{\numberline {A2}SI Results}{72}{subsection.A.0.2}%
+\contentsline {paragraph}{Impact of Treatment on the Emergence of Double Resistance.}{72}{section*.99}%
+\contentsline {paragraph}{Treatment strategies influence the number of bacteria inoculating superinfections. }{73}{section*.100}%
+\contentsline {paragraph}{Antagonism.}{73}{section*.101}%
+\contentsline {subsection}{\numberline {A3}SI Computational Model}{74}{subsection.A.0.3}%
+\contentsline {paragraph}{Stochasticity}{74}{section*.102}%
+\contentsline {paragraph}{Transition Probabilities.}{74}{section*.103}%
+\contentsline {paragraph}{Transition Probabilities for Transfer 1.}{75}{section*.104}%
+\contentsline {paragraph}{Choice of Model.}{75}{section*.105}%
+\contentsline {paragraph}{Contamination of the Transition Matrix. }{75}{section*.106}%
+\contentsline {paragraph}{Filtered Transition Probabilities.}{76}{section*.107}%
+\contentsline {appendix}{\chapternumberline {B}High-Throughput Quantification of Population Dynamics using Luminescence}{101}{appendix.B}%
+\contentsline {subsection}{\numberline {B1}Mathematical descriptions}{102}{subsection.B.0.1}%
+\contentsline {paragraph}{Light-related terminology.}{102}{section*.159}%
+\contentsline {paragraph}{Testing for linearity between bacterial density and luminescent light intensity.}{102}{section*.160}%
+\contentsline {paragraph}{Rate of change of CFU count.}{103}{section*.161}%
+\contentsline {paragraph}{Rate of change of luminescence.}{104}{section*.162}%
+\contentsline {paragraph}{Rate of change of volume-corrected luminescence.}{104}{section*.163}%
+\contentsline {paragraph}{Change of light intensity is closer to the rate of change of total cell-volume than to the rate of change of number of bacteria.}{105}{section*.164}%
+\contentsline {paragraph}{Colony formation -- birth-death Markov Model.}{106}{section*.165}%
+\contentsline {paragraph}{Colony formation for bacteriostatic and bactericidal drugs.}{106}{section*.166}%
+\contentsline {subsection}{\numberline {B2}Filamentation Model}{107}{subsection.B.0.2}%
+\contentsline {paragraph}{Population‐level quantities.}{108}{section*.167}%
+\contentsline {paragraph}{Parameter sensitivity.}{109}{section*.168}%
+\contentsline {paragraph}{Volume correction and parameter estimation}{109}{section*.169}%
+\contentsline {subsection}{\numberline {B3}Experiments}{110}{subsection.B.0.3}%
+\contentsline {paragraph}{SOS experiment.}{110}{section*.170}%
+\contentsline {paragraph}{Morphology evaluation.}{111}{section*.171}%
+\contentsline {paragraph}{Antimicrobial peptide deactivation experiment.}{111}{section*.172}%
+\contentsline {paragraph}{Manual pexiganan time-kill curve experiment.}{112}{section*.173}%
+\contentsline {paragraph}{Supernatant experiment.}{112}{section*.174}%
+\contentsline {appendix}{\chapternumberline {C}Antimicrobial Combination Effects at Sub-inhibitory Doses do not Reliably Predict Effects at Inhibitory Concentrations}{137}{appendix.C}%
+\contentsline {subsection}{\numberline {C1}Time weighted net growth rates}{138}{subsection.C.0.1}%
+\contentsline {subsection}{\numberline {C2}Quantifying Light Noise}{139}{subsection.C.0.2}%
+\contentsline {subsection}{\numberline {C3}Drug conditions and response functions}{139}{subsection.C.0.3}%
+\contentsline {paragraph}{Single-drug pharmacodynamic curves.}{139}{section*.222}%
+\contentsline {paragraph}{Closed-form inversion.}{139}{section*.223}%
+\contentsline {paragraph}{Cartesian conditions.}{139}{section*.224}%
+\contentsline {paragraph}{Polar pharmacodynamic curves.}{139}{section*.225}%
+\contentsline {subsection}{\numberline {C4}Bliss independence}{140}{subsection.C.0.4}%
+\contentsline {paragraph}{Time--varying hazards.}{140}{section*.226}%
+\contentsline {paragraph}{Bliss-based interaction score \(\mitmu \).}{140}{section*.227}%
+\contentsline {subsection}{\numberline {C5}Loewe additivity}{141}{subsection.C.0.5}%
+\contentsline {paragraph}{Loewe interaction score (\(\mitnu \)).}{141}{section*.228}%
+\contentsline {subsection}{\numberline {C6}Peptide--antibiotic interaction model}{142}{subsection.C.0.6}%
+\contentsline {subsection}{\numberline {C7}Condition-wise interaction inference on the checkerboard}{142}{subsection.C.0.7}%
+\contentsline {paragraph}{Regime-wise aggregation across checkerboard conditions.}{143}{section*.229}%
+\contentsline {subsection}{\numberline {C8}Continuous interaction surfaces and geometric exploration}{144}{subsection.C.0.8}%
+\contentsline {paragraph}{Density-based restriction of the surface domain.}{144}{section*.230}%
+\contentsline {paragraph}{Bootstrap datasets and coordinate transform.}{144}{section*.231}%
+\contentsline {paragraph}{Monotone surface construction.}{144}{section*.232}%
+\contentsline {subsection}{\numberline {C9}Single-drug inoculum effect analysis}{144}{subsection.C.0.9}%

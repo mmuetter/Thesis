@@ -1,74 +1,17 @@
-\pagebreak
-\section{SI tables}
+\clearpage
 \begin{table}[h]
-    \centering
-    \caption{Fitted single-drug pharmacodynamic (PD) curve parameters for \autoref{eq:single_drug_pd_si}. 
-        For each antibiotic, we report the point estimates of $\psi_0$, $\psi_{\min}$, $\kappa$, and $z_{\mathrm{MIC}}$, together with the corresponding lower (L) and upper (U) uncertainty bounds (95\% intervals).}
-    \input{tables/pd_params_all_drugs}
-    \label{tab:pd_curve_parameter}
+  \centering
+  \caption{Fitted single-drug pharmacodynamic (PD) curve parameters for \autoref{eq:single_drug_pd_si}.
+  For each antibiotic, we report the point estimates of $\psi_0$, $\psi_{\min}$, $\kappa$, and $z_{\mathrm{MIC}}$, together with the corresponding lower (L) and upper (U) uncertainty bounds (95\% intervals).}
+  \input{tables/pd_params_all_drugs}
+  \label{tab:pd_curve_parameter}
 \end{table}
-\vfill
+
 \begin{table}[h]
-    \centering
-    \caption{Interaction types (N: no-interaction, S: synergistic, A: antagonistic) for each drug combination based on Loewe additivity ($\mu$) and Bliss independence ($\nu$), evaluated separately for sub-inhibitory and inhibitory concentration regimes based on bootstrap confidence intervals.}
-    \input{tables/interaction_summary_table}
-    \label{tab:intearction_summary}
+  \centering
+  \caption{Interaction types (N: no-interaction, S: synergistic, A: antagonistic) for each drug combination based on Loewe additivity ($\mu$) and Bliss independence ($\nu$), evaluated separately for sub-inhibitory and inhibitory concentration regimes based on bootstrap confidence intervals.}
+  \input{tables/interaction_summary_table}
+  \label{tab:intearction_summary}
 \end{table}
 
-
-\begin{comment}
-\begin{table}
-    \centering
-    \caption{blanks}
-    \input{tables/blanks}
-    \label{tab:blanks}
-\end{table}
-\end{comment}
-\begin{comment}
-\begin{table}
-    \centering
-    \caption{signal ratios}
-    \input{tables/ratios_map}
-    \label{tab:my_label}
-\end{table}
-\end{comment}
-
-
-
-
-
-% MixedLM coefficient tables (statsmodels summary table [1]) for six drugs.
-% Each \input{} should contain the LaTeX tabular from: mix.summary().tables[1].as_latex_tabular()
-
-% Requires: \usepackage{caption}
-% Optional but recommended: \usepackage{booktabs}
-
-\newsavebox{\mlmbox}
-
-\newcommand{\MixedLMCoefTable}[1]{%
-  \begin{table}[t]
-    \centering
-    % Load the tabular once into a box to measure its width and reuse it
-    \sbox{\mlmbox}{\input{tables/mlm_#1.tex}}%
-    \begin{minipage}{\wd\mlmbox}
-      \captionsetup{width=\linewidth}
-      \caption{Mixed-effects model coefficients for #1 (\( \psi \sim L_0 \)). Groups = concentration (random intercepts). Method = REML. Reporting statsmodels MixedLM summary table [1] only.}%
-      \label{tab:mixedlm-#1}
-      \small
-      \usebox{\mlmbox}
-    \end{minipage}
-  \end{table}
-}
-
-\begin{comment}
-    \MixedLMCoefTable{amoxicillin}
-    \MixedLMCoefTable{chloramphenicol}
-    \MixedLMCoefTable{colistin}
-    \MixedLMCoefTable{penicillin}
-    \MixedLMCoefTable{polymyxinB}
-    \MixedLMCoefTable{tetracycline}
-\end{comment}
-
-
-
-
+\clearpage

@@ -2,7 +2,7 @@
 
 \begin{figure}
   \centering
-  \includegraphics[width = 11cm]{chapter_2_sup/figures/setup.pdf}
+  \includegraphics[width = \linewidth]{chapter_2_sup/figures/setup.pdf}
   \caption{
     Schematic illustrating the procedure used in the experiment for transfers T and T+1  in the liquid handling platform after adding medium and drugs to the \textit{assay plates}.
     Every transfer (day), we provide new  \textit{assay} and \textit{agar plates}.
@@ -15,7 +15,7 @@
 
 \begin{figure}
   \centering
-  \includegraphics[width=11cm]{chapter_2_sup/figures/20210417_timeplot.pdf}
+  \includegraphics[width=\linewidth]{chapter_2_sup/figures/20210417_timeplot.pdf}
   \caption{\textbf{\textit{Prevention}~scenario:}
     Frequencies of resistance profiles (colours) over time during the \textit{prevention}~scenario.
     The dots show the experimental measurements, and the error bar indicates the min/max interval between the replicates.
@@ -25,7 +25,7 @@
   \label{fig:exp1}
 \end{figure}
 
-\begin{figure}[p]
+\begin{figure}
   \centering
   \tikzpanel[0pt]{0.48\linewidth}{chapter_2_sup/tikz/stoch_exp.tex}{}{fig:stoch_exp}
   \tikzpanel[0pt]{0.48\linewidth}{chapter_2_sup/tikz/stoch_val.tex}{}{fig:stoch_val}
@@ -33,15 +33,15 @@
   \tikzpanel[0pt]{0.48\linewidth}{chapter_2_sup/tikz/stoch_par.tex}{}{fig:stoch_par}
   \caption{Illustration depicting the various sources of stochasticity and variation in experiments and simulations.
     Our experiments and simulations investigate various sources of stochasticity and their contributions to the variability of the outcome. In panels \textbf{A}-\textbf{D}, we sketch the different sources of stochasticity for each experiment and simulation, highlighting our primary focus in red.
-    \textbf{(A) \textit{In vitro} Experiment.} Each experiment explores a scenario and is defined by a distinct parameter set (\textit{prevention} (P), \textit{containment} (C), \textit{maximum emergence} (E)). We randomly generated one instruction set for each parameter set~$i$: \ensuremath{{}^{i}\!z^{1}}. For each instruction set \ensuremath{{}^{i}\!z^{1}}, we replicated the cumulative in-well dynamics four times \ensuremath{{}^{i}\!r^{1}_{j}}.
-    \textbf{(B) Validation Simulation.} To assess our computational model, we employed identical parameter sets and instruction sets \ensuremath{{}^{i}\!z^{1}}, as employed in the \textit{in vitro} experiments. For each instruction set \ensuremath{{}^{i}\!z^{1}}, we conducted 100 stochastic simulations \ensuremath{{}^{i}\!s^{1}_{j}}.
-    \textbf{(C) Variation Simulation.} For every \textit{in vitro} parameter set, we randomly generated 100 alternative instruction sets \ensuremath{{}^{i}\!z^{k}} to quantify the influence of experimental decisions on the experiment's outcomes. For each instruction set, we performed one simulation \ensuremath{{}^{i}\!s^{k}_{1}}.
-    \textbf{(D) \textit{In Silico} Sensitivity Analysis.}
+    \textbf{(a) \textit{In vitro} Experiment.} Each experiment explores a scenario and is defined by a distinct parameter set (\textit{prevention} (P), \textit{containment} (C), \textit{maximum emergence} (E)). We randomly generated one instruction set for each parameter set~$i$: \ensuremath{{}^{i}\!z^{1}}. For each instruction set \ensuremath{{}^{i}\!z^{1}}, we replicated the cumulative in-well dynamics four times \ensuremath{{}^{i}\!r^{1}_{j}}.
+    \textbf{(b) Validation Simulation.} To assess our computational model, we employed identical parameter sets and instruction sets \ensuremath{{}^{i}\!z^{1}}, as employed in the \textit{in vitro} experiments. For each instruction set \ensuremath{{}^{i}\!z^{1}}, we conducted 100 stochastic simulations \ensuremath{{}^{i}\!s^{1}_{j}}.
+    \textbf{(c) Variation Simulation.} For every \textit{in vitro} parameter set, we randomly generated 100 alternative instruction sets \ensuremath{{}^{i}\!z^{k}} to quantify the influence of experimental decisions on the experiment's outcomes. For each instruction set, we performed one simulation \ensuremath{{}^{i}\!s^{k}_{1}}.
+    \textbf{(d) \textit{In Silico} Sensitivity Analysis.}
   We examined the sensitivity of our experimental findings to the input parameters by examining the effects of varying the input parameters on the resulting frequency of uninfected cases for different treatment strategies. To achieve this, we generated 20{,}000 alternative parameter sets \ensuremath{{}^{i}\!p}. We created ten randomised instruction sets \ensuremath{{}^{i}\!z^{k}} for each parameter set~\ensuremath{{}^{i}\!p} and simulated each instruction set one time (\ensuremath{{}^{i}\!s^{k}_{1}}).}
   \label{fig:stochs}
 \end{figure}
 
-\begin{figure}[p]
+\begin{figure}
   \centering
   \includegraphics[width = 15cm]{chapter_2_sup/figures/20220127_timeplot.pdf}
   \caption{\textbf{\textit{Containment} scenario:}
@@ -52,8 +52,8 @@
   The shaded error band indicates the 95-percentile interval between the simulations.}
   \label{fig:exp2}
 \end{figure}
-
-\begin{figure}[p]
+\vfill
+\begin{figure}
   \subpanel[xshift = -10pt]{.45\linewidth}{
     \includegraphics[width=\linewidth]{chapter_2_sup/figures/20220412_Ar_resulting_phenotypes.pdf}
   }{}{fig:BtreatAr}
@@ -68,9 +68,9 @@
   }
 \end{figure}
 
-\begin{figure}
+\begin{SCfigure}
   \centering
-  \includegraphics[width=10cm]{chapter_2_sup/figures/plasmid_costs.pdf}
+  \includegraphics[width=9.5cm]{chapter_2_sup/figures/plasmid_costs.pdf}
   \caption{
     Maximum growth rates of sensitive and plasmid-carrying strains, measured using OD-growth curves.
     Each dot represents an individual well, and vertical bars indicate the mean.
@@ -78,11 +78,11 @@
     We used the Mann-Whitney U tests with the Bonferroni correction to identify significant differences in growth rates. All pairwise comparisons were not significant (n.s.).
   }
   \label{fig:plasmid_costs}
-\end{figure}
+\end{SCfigure}
 
-\begin{figure}[p]
+\begin{figure}
   \centering
-  \includegraphics[width=13cm]{chapter_2_sup/figures/20210417_timeplot_clean.pdf}
+  \includegraphics[width=\linewidth]{chapter_2_sup/figures/20210417_timeplot_clean.pdf}
   \caption{\textbf{\textit{Prevention}~scenario with filtered transition probabilities.}
     Frequencies of resistance profiles (colours) over time during the \textit{prevention} scenario.
     The dots show the experimental measurements, and the error bar indicates the min/max interval between the replicates.
@@ -92,9 +92,8 @@
   \label{fig:exp1_filtered}
 \end{figure}
 
-\begin{figure}[p]
+\begin{figure}
   \centering
-
   \includegraphics[width = 12cm]{chapter_2_sup/figures/wins_and_losses_clean_preexisting.pdf}
   \includegraphics[width = 12cm]{chapter_2_sup/figures/wins_and_losses_clean_no_preex.pdf}
   \caption{

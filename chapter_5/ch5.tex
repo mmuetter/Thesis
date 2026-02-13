@@ -3,11 +3,13 @@
 \documentclass[../main.tex]{subfiles}
 
 \begin{document}
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%% CHAPTER 5 %%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \chapter{Concluding Remarks}
 Antimicrobial resistance (AMR) will remain a significant health threat for the foreseeable future.
 Avoiding a post-antibiotic era, in which common infections again become difficult or impossible to treat, therefore requires sustained changes in how antibiotics are produced and deployed.
-In this thesis, we focused on how antibiotics can be deployed while limiting selection for resistance.
+In this thesis, we focused on how antibiotics can be deployed while limiting the selection for resistance.
 
 Given that theoretical and experimental work suggests that multidrug strategies, and in particular combination therapy, can limit the evolution of chromosomal resistance \cite{Angst2021, Bonhoeffer, tepekule, ueker}, in Chapter~2 we asked how these insights extend to clinically important plasmid-borne resistance and to the pharmacodynamics of antibiotic combinations at inhibitory concentrations.
 We explored the impact of six treatment arms (combination, cycling, mixing, two monotherapies, and an untreated control) on the epidemiological dynamics of plasmid-mediated resistance in an \textit{in vitro} hospital-ward model, with wells representing patients.
@@ -23,27 +25,35 @@ However, an \textit{in vitro} ward is still a model, and important constraints t
 Ultimately, the efficacy of strategy-level interventions must be demonstrated in clinical studies.
 At present, randomised controlled trials are typically not designed or powered to detect within-patient resistance evolution~\cite{Siedentop2024}, indicating that more targeted and better-powered trials will be required to evaluate how treatment strategies shape resistance evolution in patients.
 
-Although combination therapy performed well in our experiments, treatment success largely depends on the interaction between the drugs applied, which strongly influences resistance evolution~\cite{Gjini2021}.
-To explore these drug interactions at scale, we evaluated in Chapter~3 whether bioluminescence can be used to measure population decline at clinically relevant, inhibitory concentrations.
-In Chapter~4, we then used this method to test whether interaction patterns measured at sub-inhibitory concentrations predict interactions at inhibitory concentrations.
+Although combination therapy performed well in our experiments, treatment success largely depends on the interaction between the drugs applied.
+To explore these drug interactions at scale, we evaluated in Chapter~3 whether bioluminescence can be used to measure population decline at clinically relevant inhibitory concentrations.
+We found that for 10 of the 20 drugs tested, light intensity aligned well with cell numbers.
+These were cases where cells did not substantially filament.
+For the remaining drugs, light intensity aligned better with our microscopy-based estimates of biomass than with cell numbers.
+However, testing how robust this relationship is will require a follow-up study specifically designed to measure biomass, in contrast to our study, which primarily focused on cell numbers.
+
+In Chapter~4, we  used the bioluminescence method to test whether interaction patterns measured at sub-inhibitory concentrations predict interactions at inhibitory concentrations.
 Specifically, we investigated 15 pairwise drug combinations, each measured on \(12\times 12\) checkerboards spanning sub-inhibitory to inhibitory regimes.
 We found that interaction classifications are frequently not transferable between concentration regimes.
 In addition, we found that interaction types can vary with mixing ratio and depend on the chosen reference model.
 
 These results make generalising statements such as ``this drug pair synergises'' hard to justify.
 Furthermore, it is questionable whether interaction labels (synergy, antagonism, or independence) are of practical use.
-Synergy implies a higher combined clearance rate, compared to an expectation based on the single-drug effects, whereas suppressive antagonism can deselect resistance~\cite{Chait}.
+Synergy implies a higher combined clearance rate compared to an expectation based on the single-drug effects, whereas suppressive antagonism can deselect resistance~\cite{Chait}.
 It remains debatable which of these properties is more desirable.
 Furthermore, these labels contain no explicit information about the absolute clearance rate.
 For example, drugs A and B might antagonise while drugs C and D synergise, but this does not indicate whether clearance under A+B is stronger or weaker than under C+D.
-Much of this confusion arises because the original question---which drug pairs maximise treatment success while minimising resistance---has been replaced by a heuristic question: which drug pairs synergise.
-Alternatively, assessing treatment success, or resistance risk directly, e.g.\ with PK/PD models, would substantially reduce the ambiguity.
-By providing pharmacodynamic data and by offering methodological insights into how such data can be acquired, this thesis can help inform these models.
+Importantly, this critique targets the practice of collapsing rich dose--response surfaces into a single interaction label, not the interaction models themselves.
+Such models remain useful for predicting combination effects when data are sparse and for inferring mechanisms.
+
+Much of this ambiguity arises because the original question---which drug pairs maximise treatment success while minimising resistance---has been replaced by a heuristic question: which drug pairs synergise.
+Assessing treatment success or resistance risk directly, e.g., by advancing PK/PD models, would make such comparisons more interpretable.
+By providing pharmacodynamic data and offering methodological insights into how such data can be acquired, this thesis can help inform these models.
 
 Finally, curbing the rise of antimicrobial resistance will require a bundle of complementary measures beyond clinical strategy design.
 Approaches that have been proven very effective at reducing AMR frequencies include reducing antibiotic use~\cite{Agerso2012, Vellefaux2012}, strengthening infection control and coordinated outbreak responses~\cite{Edgeworth2020, Schwaber2011}, and expanding vaccination to reduce infections and, in turn, antibiotic exposure~\cite{Kyaw2006}.
 
 In conclusion, while continued increases in resistance would carry a substantial societal cost, I remain optimistic that a set of proven interventions can curb the rise of antimicrobial resistance.
-In this thesis, I showed that combination therapy can be one part of this broader approach, and that combination pharmacodynamics can be quantified to optimise this strategy.
+In this thesis, I showed that combination therapy can be one part of this broader approach and that combination pharmacodynamics can be quantified to optimise this strategy.
 
 \end{document}

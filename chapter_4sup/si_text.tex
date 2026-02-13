@@ -1,16 +1,10 @@
-\pagebreak
-\section{SI TEXT}
-
-%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%
-
 \subsection{Time weighted net growth rates}\label{ssec:netgrowth}
 We define $\psi$ as the linearly time weighted average of the temporal net growth rate $\hat{\psi}$:
 \begin{align}
-  w(t) &=\frac{2}{T^{2}}(T-t),  \\
   \psi &=  \int_{0}^{T} \hat{\psi}(t)\,w(t)\,dt =
   \frac{2}{T^{2}} \int_{0}^{T} (T - u)\, \hat{\psi}(u)\, du,
+  \text{with}
+  w(t) &=\frac{2}{T^{2}}(T-t)
   \label{eq:psi_weighted}
 \end{align}
 where  the kernel \(w(t)\) decreases linearly from \(T\) to \(0\) and is normalised such \(\int_0^T w(t)\,dt=1\).
@@ -54,8 +48,8 @@ and is identical to the difference of the time-weighted net growth rates:
 \end{equation}
 
 \begin{mdframed}[linewidth=0.8pt,backgroundcolor=gray!5,roundcorner=3pt]
+  \small
   \textbf{Intuition for \(\psi\) and \(\tau\).}\\
-
   \emph{Non–monophasic case.}
   If rates vary over time, \(\tau\) represents a time–weighted average of instantaneous rate differences,
   \[
@@ -65,11 +59,9 @@ and is identical to the difference of the time-weighted net growth rates:
   Early rate differences thus contribute more strongly than later ones.
   This weighting is desirable because an early population reduction affects the population for longer than a delayed effect, even if both trajectories reach the same endpoint.
 
-  \medskip
-
   \emph{Constant–rate case.}
   If the temporal net growth rate  is constant $\hat{\psi}(t) = \hat{\psi}$, \autoref{eq:psi_eff}, the time weighted net growth rate, simplifies to:
-  \[\psi = \hat{\psi}.\]
+  $\psi = \hat{\psi}$.
 \end{mdframed}
 
 %%%%%%%%%%%%%%%%%%%%%%

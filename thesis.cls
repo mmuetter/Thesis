@@ -133,8 +133,8 @@
 \setsecheadstyle{\large}
 \setsubsecheadstyle{\normalsize}
 \setparaheadstyle{\bfseries\normalsize}
-\setbeforesecskip{3ex}
-\setaftersecskip{0.01ex}
+\setbeforesecskip{2.2ex}
+\setaftersecskip{0.2ex}
 
 %----------------------------------------------------------
 % Captions

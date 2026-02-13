@@ -1,3 +1,4 @@
+\clearpage
 \begin{table}[h]
   \centering
   \captionof{table}{
@@ -15,9 +16,13 @@
     Sig$_X$ indicates whether the rate of change of signal $X \in \{I, I^*, J\}$ differs significantly (*) from the distribution of $\psi_\mathrm{CFU}$, or not (n.s.), based on the significance criterion defined in the Methods section.
     Estimates are based on data from the CFU-luminescence assays (see Methods).
   }
-  \setlength{\tabcolsep}{3pt}
-  \input{chapter_3sup/tables/comparison_table}
   \label{tab:comp_stats}
+  \centering
+  \begingroup
+  \resizebox{0.95\linewidth}{!}{%
+    \input{chapter_3sup/tables/comparison_table}%
+  }
+  \endgroup
 \end{table}
 
 \begin{table}
@@ -68,3 +73,4 @@
   \end{tabular}
   \vspace{2cm}
 \end{table}
+\clearpage
