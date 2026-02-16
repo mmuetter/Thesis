@@ -1,0 +1,70 @@
+% Edit file: front_matter/cv_thesis.tex
+
+\chapter*{Curriculum Vitae}
+\addcontentsline{toc}{chapter}{Curriculum Vitae}
+
+\newcommand{\cvsection}[1]{%
+  \vspace{1.2em}%
+  {\small #1}\par
+}
+
+\newcommand{\cventryloc}[3]{%
+  \noindent
+  \begin{minipage}[t]{0.2\textwidth}
+    \raggedright\small #1
+  \end{minipage}\hfill
+  \begin{minipage}[t]{0.8\textwidth}
+    \small
+    \textbf{#2}\par
+    #3
+  \end{minipage}\par
+}
+
+% --- PERSONAL DATA ---
+%\vspace{-1cm}
+{\small \textbf{Malte Mütter}, born 1 December 1992 in Solingen, Germany}
+
+% --- EDUCATION ---
+\cvsection{Education}
+
+\cventryloc{07/2020 -- 03/2026}{PhD Candidate, Theoretical Biology Group (ETH Zürich)}{%
+  Thesis: \textit{Bacterial Population Dynamics Under Multidrug Treatment}.%
+}
+
+\cventryloc{04/2017 -- 03/2020}{Master of Science, Engineering Science (TU Berlin)}{%
+  Thesis: \textit{Entwicklung eines Bioreaktors zur Untersuchung von Resistenzevolution gegen Antibiotika-Kombinationen}.%
+}
+
+\cventryloc{10/2012 -- 04/2017}{Bachelor of Science, Energy Engineering and Process Engineering (TU Berlin)}{%
+  Thesis: \textit{Entwicklung eines Teststands und Strömungsvisualisierung in einer neuartigen rotierenden Blutpumpe}.%
+}
+
+% --- EMPLOYMENT ---
+\cvsection{Employment}
+
+\cventryloc{07/2020 -- Present}{Doctoral Researcher (Scientific Assistant), Theoretical Biology Group (ETH Zürich)}{%
+  Teaching assistant in \textit{Infectious Disease Dynamics} and \textit{The Evolutionary Ecology of Infectious Diseases}.%
+}
+
+\cventryloc{11/2017 -- 10/2019}{Research Assistant, Evolutionary Biology Group (FU Berlin) \& Biofluid Mechanics Lab (Charité)}{%
+  Designed a diffusion-based bioreactor to study resistance evolution against drug combinations.%
+}
+
+\cventryloc{09/2016 -- 09/2017}{Undergraduate Research Assistant, Institute for Experimental Fluid Mechanics and Technical Acoustics (TU Berlin)}{%
+  Experimental gas dynamics to explore detonation phenomena.%
+}
+
+\cventryloc{04/2016 -- 06/2016}{Research Internship, Biofluid Mechanics Lab (Charité)}{%
+  Developed control software for a novel blood-pressure measurement device.%
+}
+
+% --- REVIEWING ---
+\cvsection{Reviewing}
+{\small Reviewed manuscripts for PNAS.}
+
+% --- PUBLICATIONS ---
+\cvsection{Publications}
+\begin{refsection}[bibliographies/thesis.bib]
+  \nocite{Muetter2026a, Muetter2026, Muetter2024}
+  \printbibliography[heading=none,env=compactbib]
+\end{refsection}
