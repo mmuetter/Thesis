@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2021.2.1)  13 FEB 2026 13:17
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2021.2.1)  16 FEB 2026 09:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2283,14 +2283,7 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 LaTeX Warning: Unused global option(s):
     [10.5pt].
 
-(/Users/malte/ETH-Documents/thesis/build/main.aux
-
-LaTeX Warning: Label `fig:end_anova' multiply defined.
-
-
-LaTeX Warning: Label `tab:drugs' multiply defined.
-
-)
+(/Users/malte/ETH-Documents/thesis/build/main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
@@ -2741,108 +2734,7 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
- (/Users/malte/ETH-Documents/thesis/build/main.bbl
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database (refsection 1):
-(biblatex)                ciab606
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database (refsection 1):
-(biblatex)                https://doi.org/10.1016/j.drup.2025.101265
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database (refsection 1):
-(biblatex)                https://doi.org/10.1128/cmr.00044-19
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database (refsection 1):
-(biblatex)                https://doi.org/10.1371/journal.ppat.1003349
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database (refsection 1):
-(biblatex)                ijantimicag201709015
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database (refsection 5):
-(biblatex)                Bonhoeffer
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database (refsection 5):
-(biblatex)                Chait
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database (refsection 5):
-(biblatex)                SUttner2024
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database (refsection 5):
-(biblatex)                tepekule
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database (refsection 5):
-(biblatex)                ueker
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-)
-
-Package biblatex Warning: citation 'https://doi.org/10.1371/journal.ppat.1003349' was not found at all in the .bbl, bibliography labels cannot be generated, please correct the citation.
-
-
-Package biblatex Warning: citation 'https://doi.org/10.1128/cmr.00044-19' was not found at all in the .bbl, bibliography labels cannot be generated, please correct the citation.
-
-
-Package biblatex Warning: citation 'https://doi.org/10.1016/j.drup.2025.101265' was not found at all in the .bbl, bibliography labels cannot be generated, please correct the citation.
-
-
-Package biblatex Warning: citation 'ciab606' was not found at all in the .bbl, bibliography labels cannot be generated, please correct the citation.
-
-
-Package biblatex Warning: citation 'ijantimicag201709015' was not found at all in the .bbl, bibliography labels cannot be generated, please correct the citation.
-
-
-Package biblatex Warning: citation 'Bonhoeffer' was not found at all in the .bbl, bibliography labels cannot be generated, please correct the citation.
-
-
-Package biblatex Warning: citation 'tepekule' was not found at all in the .bbl, bibliography labels cannot be generated, please correct the citation.
-
-
-Package biblatex Warning: citation 'ueker' was not found at all in the .bbl, bibliography labels cannot be generated, please correct the citation.
-
-
-Package biblatex Warning: citation 'SUttner2024' was not found at all in the .bbl, bibliography labels cannot be generated, please correct the citation.
-
-
-Package biblatex Warning: citation 'Chait' was not found at all in the .bbl, bibliography labels cannot be generated, please correct the citation.
-
+ (/Users/malte/ETH-Documents/thesis/build/main.bbl)
 Package biblatex Info: Reference section=0 on input line 9.
 Package biblatex Info: Reference segment=0 on input line 9.
 Package microtype Info: Loading generic protrusion settings for font family
@@ -3213,6 +3105,7 @@ Package microtype Info: Character `\textquestiondown ' is missing
 (microtype)             in font `\TU/Erewhon-Math.otf(3)/m/n/6'.
 (microtype)             Ignoring protrusion settings for this character.
 
+
 LaTeX Font Warning: Font shape `TU/Erewhon-Math.otf(1)/b/n' undefined
 (Font)              using `TU/Erewhon-Math.otf(1)/m/n' instead on input line 9.
 
@@ -3535,8 +3428,8 @@ LaTeX Font Warning: Font shape `TU/Optima(0)/m/sc' undefined
 
 
 ] (./front_matter/1b_Summary_DE.tex
-Overfull \hbox (1.72499pt too wide) in paragraph at lines 9--14
-\TU/Optima(0)/m/n/10 tagonismus oder Unabhängigkeit) geprägt wird, die als Abweichungen von erwarteten kombinierten
+Overfull \hbox (10.16275pt too wide) in paragraph at lines 10--15
+\TU/Optima(0)/m/n/10 und ergänzten diese Experimente durch Mikroskopie. Wir fanden, dass Biolumineszenz die Biomasse-
  []
 
 ) [3] (/Users/malte/ETH-Documents/thesis/build/main.toc
@@ -3562,9 +3455,16 @@ Overfull \hbox (1.17996pt too wide) detected at line 128
 Package biblatex Info: Reference section=1 on input line 24.
 Package biblatex Info: Setting label 'refsection:1' on input line 24.
  (./chapter_1/ch1.tex
-Underfull \vbox (badness 3229) has occurred while \output is active []
+Overfull \hbox (1.54028pt too wide) in paragraph at lines 23--25
+[]\TU/Optima(0)/m/n/10 Together, these trends have led to the emergence of resistant bacterial strains, including carbapenem-
+ []
 
- [1
+
+Overfull \hbox (2.84897pt too wide) in paragraph at lines 23--25
+\TU/Optima(0)/m/n/10 resistant \TU/Optima(0)/m/it/10 Enterobacterales\TU/Optima(0)/m/n/10 , \TU/Optima(0)/m/it/10 Acinetobacter baumannii\TU/Optima(0)/m/n/10 , and \TU/Optima(0)/m/it/10 Pseudomonas aeruginosa\TU/Optima(0)/m/n/10 , and methicillin-
+ []
+
+[1
 
 
 
@@ -4541,10 +4441,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 22--22
 File: chapter_2/scen3_paper.pdf Graphic file (type pdf)
 <use chapter_2/scen3_paper.pdf>
 
-
-LaTeX Warning: Float too large for page by 15.42546pt on input line 44.
-
-
 Overfull \hbox (9.45897pt too wide) in paragraph at lines 63--66
 []\TU/Optima(0)/m/sc/10 For the \TU/Optima(0)/m/it/10 maximum-emergence \TU/Optima(0)/m/sc/10 scenario, we observed that combination therapy, cycling, and monother-
  []
@@ -4579,10 +4475,6 @@ File: chapter_2/wins_and_losses_preexisting.pdf Graphic file (type pdf)
 <use chapter_2/wins_and_losses_preexisting.pdf>
 File: chapter_2/wins_and_losses_no_preex.pdf Graphic file (type pdf)
 <use chapter_2/wins_and_losses_no_preex.pdf>
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 ) (./chapter_2/discussion.tex [17]
 Underfull \vbox (badness 3449) has occurred while \output is active []
 
@@ -4640,37 +4532,31 @@ File: chapter_3/figures/pex_rates.pdf Graphic file (type pdf)
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [29] [30]
-
-LaTeX Warning: Reference `fig:volume_combined' on page 31 undefined on input line 78.
-
-[31]
+ [29] [30] [31]
 File: chapter_3/figures/volume_summary_pre.pdf Graphic file (type pdf)
 <use chapter_3/figures/volume_summary_pre.pdf>
 File: chapter_3/figures/volume_summary_post.pdf Graphic file (type pdf)
 <use chapter_3/figures/volume_summary_post.pdf>
 
-Underfull \hbox (badness 2894) in paragraph at lines 100--100
+Underfull \hbox (badness 10000) in paragraph at lines 85--95
+[]
+ []
+
+
+Underfull \hbox (badness 2894) in paragraph at lines 102--102
 \TU/Optima(0)/m/sc/10 cles represent replicates (n
  []
 
 
-Underfull \hbox (badness 7631) in paragraph at lines 100--100
+Underfull \hbox (badness 7631) in paragraph at lines 102--102
 \TU/Optima(0)/m/sc/10 = 4), and bars represent
  []
 
-[32]
-
-LaTeX Warning: Reference `fig:volume_combined' on page 33 undefined on input line 128.
-
-
-LaTeX Warning: Reference `fig:volume_combined' on page 33 undefined on input line 128.
-
-[33]
+[32] [33]
 File: chapter_3/figures/sensitivity_analysis.pdf Graphic file (type pdf)
 <use chapter_3/figures/sensitivity_analysis.pdf>
 
-Underfull \hbox (badness 3428) in paragraph at lines 155--155
+Underfull \hbox (badness 3428) in paragraph at lines 157--157
 [][] \TU/Optima(0)/m/sc/10 – |Simulations based on
  []
 
@@ -6579,24 +6465,18 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 50.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 50.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 52726 strings out of 479418
- 1063180 string characters out of 5884586
- 2583192 words of memory out of 5000000
- 68867 multiletter control sequences out of 15000+600000
+ 52754 strings out of 479418
+ 1064436 string characters out of 5884586
+ 2597570 words of memory out of 5000000
+ 68895 multiletter control sequences out of 15000+600000
  546156 words of font info for 199 fonts, out of 8000000 for 9000
  1350 hyphenation exceptions out of 8191
  70i,25n,120p,4729b,6388s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on /Users/malte/ETH-Documents/thesis/build/main.xdv (164 pages, 3658480 bytes).
+Output written on /Users/malte/ETH-Documents/thesis/build/main.xdv (164 pages, 3683684 bytes).

@@ -2198,39 +2198,39 @@
     <bcf:datasource type="file" datatype="bibtex">bibliographies/manual_refs.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="1">
-    <bcf:citekey order="1">https://doi.org/10.1371/journal.ppat.1003349</bcf:citekey>
-    <bcf:citekey order="2">https://doi.org/10.1128/cmr.00044-19</bcf:citekey>
+    <bcf:citekey order="1">Harbeck2013</bcf:citekey>
+    <bcf:citekey order="2">Barbieri2021</bcf:citekey>
     <bcf:citekey order="3">Daniel1994</bcf:citekey>
     <bcf:citekey order="4">Kirby1944</bcf:citekey>
     <bcf:citekey order="5">Witzany2020</bcf:citekey>
-    <bcf:citekey order="6">https://doi.org/10.1016/j.drup.2025.101265</bcf:citekey>
-    <bcf:citekey order="7">ciab606</bcf:citekey>
-    <bcf:citekey order="7">ijantimicag201709015</bcf:citekey>
-    <bcf:citekey order="8">Naghavi2024</bcf:citekey>
-    <bcf:citekey order="9">Bates1998</bcf:citekey>
-    <bcf:citekey order="10">Allen2010</bcf:citekey>
-    <bcf:citekey order="11">Davies2010</bcf:citekey>
-    <bcf:citekey order="12">Bell2014</bcf:citekey>
-    <bcf:citekey order="12">Rahman2023</bcf:citekey>
-    <bcf:citekey order="13">Leekha2011</bcf:citekey>
-    <bcf:citekey order="14">Bonhoeffer1997</bcf:citekey>
-    <bcf:citekey order="14">Tepekule2017</bcf:citekey>
-    <bcf:citekey order="14">Uecker2021</bcf:citekey>
-    <bcf:citekey order="15">Kable1980</bcf:citekey>
-    <bcf:citekey order="15">Delp1980</bcf:citekey>
-    <bcf:citekey order="15">Skylakakis1981</bcf:citekey>
-    <bcf:citekey order="16">Yuan2000</bcf:citekey>
-    <bcf:citekey order="17">Goldberg2012</bcf:citekey>
-    <bcf:citekey order="18">Bell2014</bcf:citekey>
-    <bcf:citekey order="18">Rahman2023</bcf:citekey>
-    <bcf:citekey order="19">Jernberg2007</bcf:citekey>
-    <bcf:citekey order="20">Tamma2012</bcf:citekey>
-    <bcf:citekey order="21">Siedentop2024</bcf:citekey>
-    <bcf:citekey order="22">siedentop_metaanalysis_2024</bcf:citekey>
-    <bcf:citekey order="23">Angst2021</bcf:citekey>
-    <bcf:citekey order="24">Gjini2021</bcf:citekey>
-    <bcf:citekey order="25">Loewe1926</bcf:citekey>
-    <bcf:citekey order="26">Bliss1939</bcf:citekey>
+    <bcf:citekey order="6">World_Health_Organization2024</bcf:citekey>
+    <bcf:citekey order="7">WHO_TB_Report_2025</bcf:citekey>
+    <bcf:citekey order="8">Andrianaivoarimanana2022</bcf:citekey>
+    <bcf:citekey order="9">Naghavi2024</bcf:citekey>
+    <bcf:citekey order="10">Bates1998</bcf:citekey>
+    <bcf:citekey order="11">Allen2010</bcf:citekey>
+    <bcf:citekey order="12">Davies2010</bcf:citekey>
+    <bcf:citekey order="13">Bell2014</bcf:citekey>
+    <bcf:citekey order="13">Rahman2023</bcf:citekey>
+    <bcf:citekey order="14">Leekha2011</bcf:citekey>
+    <bcf:citekey order="15">Bonhoeffer1997</bcf:citekey>
+    <bcf:citekey order="15">Tepekule2017</bcf:citekey>
+    <bcf:citekey order="15">Uecker2021</bcf:citekey>
+    <bcf:citekey order="16">Kable1980</bcf:citekey>
+    <bcf:citekey order="16">Delp1980</bcf:citekey>
+    <bcf:citekey order="16">Skylakakis1981</bcf:citekey>
+    <bcf:citekey order="17">Yuan2000</bcf:citekey>
+    <bcf:citekey order="18">Goldberg2012</bcf:citekey>
+    <bcf:citekey order="19">Bell2014</bcf:citekey>
+    <bcf:citekey order="19">Rahman2023</bcf:citekey>
+    <bcf:citekey order="20">Jernberg2007</bcf:citekey>
+    <bcf:citekey order="21">Tamma2012</bcf:citekey>
+    <bcf:citekey order="22">Siedentop2024</bcf:citekey>
+    <bcf:citekey order="23">Siedentop2024</bcf:citekey>
+    <bcf:citekey order="24">Angst2021</bcf:citekey>
+    <bcf:citekey order="25">Gjini2021</bcf:citekey>
+    <bcf:citekey order="26">Loewe1926</bcf:citekey>
+    <bcf:citekey order="27">Bliss1939</bcf:citekey>
   </bcf:section>
   <!-- SECTION 0 (cont.) -->
   <bcf:section number="0">
@@ -2429,13 +2429,12 @@
     <bcf:datasource type="file" datatype="bibtex">bibliographies/manual_refs.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="5">
+    <bcf:citekey order="1">Bonhoeffer1997</bcf:citekey>
+    <bcf:citekey order="1">Tepekule2017</bcf:citekey>
     <bcf:citekey order="1">Angst2021</bcf:citekey>
-    <bcf:citekey order="1">Bonhoeffer</bcf:citekey>
-    <bcf:citekey order="1">tepekule</bcf:citekey>
-    <bcf:citekey order="1">ueker</bcf:citekey>
-    <bcf:citekey order="2">SUttner2024</bcf:citekey>
+    <bcf:citekey order="2">Sutter2016</bcf:citekey>
     <bcf:citekey order="3">Siedentop2024</bcf:citekey>
-    <bcf:citekey order="4">Chait</bcf:citekey>
+    <bcf:citekey order="4">Chait2007</bcf:citekey>
     <bcf:citekey order="5">Agerso2012</bcf:citekey>
     <bcf:citekey order="5">Vellefaux2012</bcf:citekey>
     <bcf:citekey order="6">Edgeworth2020</bcf:citekey>

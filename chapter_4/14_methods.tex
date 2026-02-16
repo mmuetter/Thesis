@@ -4,7 +4,7 @@ We used the bioluminescent strain \textit{Escherichia coli} MG1655 \(\Delta\)gal
 Cultures were grown in LB medium (Sigma L3022).
 
 \paragraph{Drug preparation.}
-We explored drug interactions among six drugs (\autoref{tab:drugs}), resulting in \num{15} drug--drug pairs.
+We explored drug interactions among six drugs (\autoref{tab:drugs_ch4}), resulting in \num{15} drug--drug pairs.
 For each pair, one compound was designated drug~A and the other drug~B.
 Each compound was prepared as a \(\times 20\) stock of its highest working concentration.
 We then performed a twofold dilution series in a 12-column deepwell plate, resulting in \num{11} diluted concentrations and one drug-free column.
@@ -18,7 +18,7 @@ All plates were stored at \SI{-80}{\celsius} to minimise degradation over time, 
   \centering
   \small
   \input{tables/drug_table}
-  \label{tab:drugs}
+  \label{tab:drugs_ch4}
 \end{table}
 
 \paragraph{Dose response assays.}
@@ -103,7 +103,7 @@ Our definition of \(\nu\) is analogous to the combination index \((\mathrm{CI}-1
 To avoid misinterpreting noise as interaction, we only evaluate \(\nu(c_A,c_B)\) if \(\symbf{\tau}(c_A,c_B)\) is significantly greater than zero and at least one of \(\symbf{\tau}(c_A)\) or \(\symbf{\tau}(c_B)\) is significantly greater than zero.
 
 \paragraph{Polar reparametrization.}
-We normalise concentrations of drug \(i\) using the corresponding \(\mathrm{zMIC}_i\) estimates obtained from pharmacodynamic curve fits (\autoref{tab:drugs}): \(z_i=c_i/\mathrm{zMIC}_i\).
+We normalise concentrations of drug \(i\) using the corresponding \(\mathrm{zMIC}_i\) estimates obtained from pharmacodynamic curve fits (\autoref{tab:drugs_ch4}): \(z_i=c_i/\mathrm{zMIC}_i\).
 We then define polar coordinates based on the normalised concentrations:
 \begin{equation}
   z=\sqrt{z_{A}^{2}+z_{B}^{2}},

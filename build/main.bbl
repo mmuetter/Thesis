@@ -19,6 +19,162 @@
 
 \refsection{1}
   \datalist[entry]{none/global//global/global}
+    \entry{Harbeck2013}{article}{}
+      \name{author}{14}{}{%
+        {{hash=de996c1360ee2154003a50e1c8ed105d}{%
+           family={Harbeck},
+           familyi={H\bibinitperiod},
+           given={Michaela},
+           giveni={M\bibinitperiod}}}%
+        {{hash=2b13ad8e31e075ee946eff1fc19d74f5}{%
+           family={Seifert},
+           familyi={S\bibinitperiod},
+           given={Lisa},
+           giveni={L\bibinitperiod}}}%
+        {{hash=d9d033b6ed4303d0e2c05f34b7e6ce0d}{%
+           family={Hänsch},
+           familyi={H\bibinitperiod},
+           given={Stephanie},
+           giveni={S\bibinitperiod}}}%
+        {{hash=5178df8c52b8f73564009df388adec34}{%
+           family={Wagner},
+           familyi={W\bibinitperiod},
+           given={David\bibnamedelima M.},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=32e7dabab86a5fe0b275a907c8a8151a}{%
+           family={Birdsell},
+           familyi={B\bibinitperiod},
+           given={Dawn},
+           giveni={D\bibinitperiod}}}%
+        {{hash=650583d22ace83be8d167b2484471895}{%
+           family={Parise},
+           familyi={P\bibinitperiod},
+           given={Katy\bibnamedelima L.},
+           giveni={K\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=b8348fb71efd2dcf9c5e8025810329d2}{%
+           family={Wiechmann},
+           familyi={W\bibinitperiod},
+           given={Ingrid},
+           giveni={I\bibinitperiod}}}%
+        {{hash=67d88d9065a70269a0c01ac5b78752c7}{%
+           family={Grupe},
+           familyi={G\bibinitperiod},
+           given={Gisela},
+           giveni={G\bibinitperiod}}}%
+        {{hash=91f73177de3020f4124ffff902d87c0e}{%
+           family={Thomas},
+           familyi={T\bibinitperiod},
+           given={Astrid},
+           giveni={A\bibinitperiod}}}%
+        {{hash=70d0d7c9c458abc3dd9ef49e18341b88}{%
+           family={Keim},
+           familyi={K\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod}}}%
+        {{hash=f835eb869c482109bb34964c262d5983}{%
+           family={Zöller},
+           familyi={Z\bibinitperiod},
+           given={Lothar},
+           giveni={L\bibinitperiod}}}%
+        {{hash=80733089b3c3d777aa52789b442405c6}{%
+           family={Bramanti},
+           familyi={B\bibinitperiod},
+           given={Barbara},
+           giveni={B\bibinitperiod}}}%
+        {{hash=736baea3f3541b7e42ef573abfea7af6}{%
+           family={Riehm},
+           familyi={R\bibinitperiod},
+           given={Julia\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=a62f8d009b3299a197309c61ccb14e9d}{%
+           family={Scholz},
+           familyi={S\bibinitperiod},
+           given={Holger\bibnamedelima C.},
+           giveni={H\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{fdbc51197c5dde3587a65aaaf7944c0b}
+      \strng{fullhash}{40e5cebec5d4acb4d2ae90fdb8c55924}
+      \strng{bibnamehash}{fdbc51197c5dde3587a65aaaf7944c0b}
+      \strng{authorbibnamehash}{fdbc51197c5dde3587a65aaaf7944c0b}
+      \strng{authornamehash}{fdbc51197c5dde3587a65aaaf7944c0b}
+      \strng{authorfullhash}{40e5cebec5d4acb4d2ae90fdb8c55924}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{PLoS Pathogens}
+      \field{number}{5}
+      \field{title}{Yersinia pestis DNA from Skeletal Remains from the 6th Century AD Reveals Insights into Justinianic Plague}
+      \field{volume}{9}
+      \field{year}{2013}
+      \field{pages}{e1003349}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1371/journal.ppat.1003349
+      \endverb
+    \endentry
+    \entry{Barbieri2021}{article}{}
+      \name{author}{8}{}{%
+        {{hash=6df2cabbb9f934d6062519009e1bea78}{%
+           family={Barbieri},
+           familyi={B\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=cf9984d0f2d793b0d4ae681b017c83cf}{%
+           family={Signoli},
+           familyi={S\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=6938f7d124564a9f166d425ff7ee972f}{%
+           family={Chevé},
+           familyi={C\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=de2f48085fac2b83d74580e005020b1b}{%
+           family={Costedoat},
+           familyi={C\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=f0ada079d3fdb77342a265906b816b3e}{%
+           family={Tzortzis},
+           familyi={T\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=b13011869c3af5336ecd4f3c6038ef45}{%
+           family={Aboudharam},
+           familyi={A\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=26de2f46b153ccebce08a832a8e536b6}{%
+           family={Raoult},
+           familyi={R\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=e358a49234122129315708fcd8e7ba9b}{%
+           family={Drancourt},
+           familyi={D\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{9d2f21f3f702320e9da20262e0a43497}
+      \strng{fullhash}{62ba214808f350235946601720b69ef4}
+      \strng{bibnamehash}{9d2f21f3f702320e9da20262e0a43497}
+      \strng{authorbibnamehash}{9d2f21f3f702320e9da20262e0a43497}
+      \strng{authornamehash}{9d2f21f3f702320e9da20262e0a43497}
+      \strng{authorfullhash}{62ba214808f350235946601720b69ef4}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Clinical Microbiology Reviews}
+      \field{number}{1}
+      \field{title}{Yersinia pestis: the Natural History of Plague}
+      \field{volume}{34}
+      \field{year}{2020}
+      \verb{doi}
+      \verb 10.1128/CMR.00044-19
+      \endverb
+    \endentry
     \entry{Daniel1994}{incollection}{}
       \name{author}{3}{}{%
         {{hash=67c533e5858706af8e782ca6b8cdd977}{%
@@ -146,6 +302,164 @@
       \endverb
       \verb{url}
       \verb http://dx.doi.org/10.1371/journal.ppat.1008905
+      \endverb
+    \endentry
+    \entry{World_Health_Organization2024}{book}{}
+      \name{author}{1}{}{%
+        {{hash=531217507bec092b6ec36c0f78f46736}{%
+           family={{World Health Organization}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{location}{1}{%
+        {Gen{è}ve, Switzerland}%
+      }
+      \list{publisher}{1}{%
+        {World Health Organization}%
+      }
+      \strng{namehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{fullhash}{531217507bec092b6ec36c0f78f46736}
+      \strng{bibnamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authorbibnamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authornamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authorfullhash}{531217507bec092b6ec36c0f78f46736}
+      \field{extraname}{1}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The 'WHO Bacterial Priority Pathogens List, 2024' is a comprehensive guide developed by the World Health Organization to identify bacterial pathogens of significant public health importance. The report aims to direct research, development, and strategies to combat antimicrobial resistance. It highlights the critical need to address gram-negative bacterial pathogens and drug-resistant tuberculosis (RR-TB) as high priorities. The document is intended for scientists, policymakers, and healthcare professionals involved in public health and antimicrobial resistance. It includes detailed evaluations of bacterial pathogens using Multiple Criteria Decision Analysis (MCDA), providing a framework for prioritizing research and innovation in drug development and public health interventions.}
+      \field{month}{5}
+      \field{title}{{WHO} bacterial priority pathogens list, 2024: bacterial pathogens of public health importance, to guide research, development, and strategies to prevent and control antimicrobial resistance}
+      \field{year}{2024}
+    \endentry
+    \entry{WHO_TB_Report_2025}{report}{}
+      \name{author}{1}{}{%
+        {{hash=531217507bec092b6ec36c0f78f46736}{%
+           family={{World Health Organization}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {World Health Organization}%
+      }
+      \list{location}{1}{%
+        {Geneva}%
+      }
+      \strng{namehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{fullhash}{531217507bec092b6ec36c0f78f46736}
+      \strng{bibnamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authorbibnamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authornamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authorfullhash}{531217507bec092b6ec36c0f78f46736}
+      \field{extraname}{2}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-92-4-011692-4}
+      \field{note}{Electronic version}
+      \field{title}{Global Tuberculosis Report 2025}
+      \field{year}{2025}
+    \endentry
+    \entry{Andrianaivoarimanana2022}{article}{}
+      \name{author}{15}{}{%
+        {{hash=c01731ab838d1a6dc68e12cc3931daaa}{%
+           family={Andrianaivoarimanana},
+           familyi={A\bibinitperiod},
+           given={Voahangy},
+           giveni={V\bibinitperiod}}}%
+        {{hash=5178df8c52b8f73564009df388adec34}{%
+           family={Wagner},
+           familyi={W\bibinitperiod},
+           given={David\bibnamedelima M},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=5b5fd3dc2c3161fe24b9d00c5c91e794}{%
+           family={Birdsell},
+           familyi={B\bibinitperiod},
+           given={Dawn\bibnamedelima N},
+           giveni={D\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=f7820c99f42baa790828d6ea000d5dff}{%
+           family={Nikolay},
+           familyi={N\bibinitperiod},
+           given={Birgit},
+           giveni={B\bibinitperiod}}}%
+        {{hash=66fd1e307c7702e5a1151cd989d21f99}{%
+           family={Rakotoarimanana},
+           familyi={R\bibinitperiod},
+           given={Faniry},
+           giveni={F\bibinitperiod}}}%
+        {{hash=a98d6f66ef2321d8f2faa6ba7728a694}{%
+           family={Randriantseheno},
+           familyi={R\bibinitperiod},
+           given={Lovasoa\bibnamedelima N},
+           giveni={L\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=b884bdd2ec63b02481de613ca69dad3e}{%
+           family={Vogler},
+           familyi={V\bibinitperiod},
+           given={Amy\bibnamedelima J},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=de28a5f1b0662ccda290026eb240d337}{%
+           family={Sahl},
+           familyi={S\bibinitperiod},
+           given={Jason\bibnamedelima W},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=2f25e3fdc1b101789c3e625368c21f87}{%
+           family={Hall},
+           familyi={H\bibinitperiod},
+           given={Carina\bibnamedelima M},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=75b7bc85d07bb0dce6122e14a18187c0}{%
+           family={Somprasong},
+           familyi={S\bibinitperiod},
+           given={Nawarat},
+           giveni={N\bibinitperiod}}}%
+        {{hash=d21f60e46e1b81a7894805e363dc0c8f}{%
+           family={Cauchemez},
+           familyi={C\bibinitperiod},
+           given={Simon},
+           giveni={S\bibinitperiod}}}%
+        {{hash=354280520e2f090ea746fd4334d0be9a}{%
+           family={Schweizer},
+           familyi={S\bibinitperiod},
+           given={Herbert\bibnamedelima P},
+           giveni={H\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=a6218589fb0cfdb69d8b87a326b756ae}{%
+           family={Razafimandimby},
+           familyi={R\bibinitperiod},
+           given={Harimahefa},
+           giveni={H\bibinitperiod}}}%
+        {{hash=029452d5491ba513d262aa46daafb1bc}{%
+           family={Rogier},
+           familyi={R\bibinitperiod},
+           given={Christophe},
+           giveni={C\bibinitperiod}}}%
+        {{hash=dc4736a9ef2e639fa94f34ff1197460b}{%
+           family={Rajerison},
+           familyi={R\bibinitperiod},
+           given={Minoarisoa},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{50aad802f3bc52cc797d4afd5bff3d50}
+      \strng{fullhash}{f662feef29e43d955d7c24db0148f3c7}
+      \strng{bibnamehash}{50aad802f3bc52cc797d4afd5bff3d50}
+      \strng{authorbibnamehash}{50aad802f3bc52cc797d4afd5bff3d50}
+      \strng{authornamehash}{50aad802f3bc52cc797d4afd5bff3d50}
+      \strng{authorfullhash}{f662feef29e43d955d7c24db0148f3c7}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Clinical Infectious Diseases}
+      \field{number}{4}
+      \field{title}{Transmission of Antimicrobial Resistant \textit{Yersinia pestis} During a Pneumonic Plague Outbreak}
+      \field{volume}{74}
+      \field{year}{2021}
+      \field{pages}{695\bibrangedash 702}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1093/cid/ciab606
       \endverb
     \endentry
     \entry{Naghavi2024}{article}{}
@@ -2784,8 +3098,8 @@
       \strng{authorbibnamehash}{e331efb55d2b5001f563f09655c1571e}
       \strng{authornamehash}{e331efb55d2b5001f563f09655c1571e}
       \strng{authorfullhash}{0400a349093e052fd71359f888b68e97}
-      \field{sortinit}{8}
-      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{The Lancet}
@@ -2823,8 +3137,8 @@
       \strng{authorbibnamehash}{a1b6f6ebe5f82d48da215a9ef7626a22}
       \strng{authornamehash}{a1b6f6ebe5f82d48da215a9ef7626a22}
       \strng{authorfullhash}{a1b6f6ebe5f82d48da215a9ef7626a22}
-      \field{sortinit}{9}
-      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Bacteriology}
@@ -3414,8 +3728,8 @@
       \strng{authorbibnamehash}{6d25b1173e54f9435468c15cba3021f4}
       \strng{authornamehash}{6d25b1173e54f9435468c15cba3021f4}
       \strng{authorfullhash}{6d25b1173e54f9435468c15cba3021f4}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{The ISME Journal}
@@ -3507,7 +3821,6 @@
       \strng{authorbibnamehash}{a55db23df74119729e79d5dc6c928ad4}
       \strng{authornamehash}{a55db23df74119729e79d5dc6c928ad4}
       \strng{authorfullhash}{5a727c55a0c96ac8111abffc548ef615}
-      \field{extraname}{1}
       \field{sortinit}{2}
       \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
       \field{labelnamesource}{author}
@@ -3517,64 +3830,6 @@
       \field{year}{2024}
       \verb{doi}
       \verb 10.7554/eLife.93740.1
-      \endverb
-    \endentry
-    \entry{siedentop_metaanalysis_2024}{article}{}
-      \name{author}{6}{}{%
-        {{hash=aef5b9621e53696f133ef8296e2e5880}{%
-           family={Siedentop},
-           familyi={S\bibinitperiod},
-           given={Berit},
-           giveni={B\bibinitperiod}}}%
-        {{hash=df70bee6dbdbe1cb34e4bdf7348c13ae}{%
-           family={Kachalov},
-           familyi={K\bibinitperiod},
-           given={Viacheslav\bibnamedelima N},
-           giveni={V\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
-        {{hash=194622d117703110460b3ce7feaaf323}{%
-           family={Witzany},
-           familyi={W\bibinitperiod},
-           given={Christopher},
-           giveni={C\bibinitperiod}}}%
-        {{hash=2f29454e6553ef6eab031956cb1f7469}{%
-           family={Egger},
-           familyi={E\bibinitperiod},
-           given={Matthias},
-           giveni={M\bibinitperiod}}}%
-        {{hash=8777fd8e2581dae3b3a1019213598f26}{%
-           family={Roger},
-           familyi={R\bibinitperiod},
-           given={D},
-           giveni={D\bibinitperiod}}}%
-        {{hash=f3106e97b33eed46e76c565b4696b91e}{%
-           family={Bonhoeffer},
-           familyi={B\bibinitperiod},
-           given={Sebastian},
-           giveni={S\bibinitperiod}}}%
-      }
-      \strng{namehash}{a55db23df74119729e79d5dc6c928ad4}
-      \strng{fullhash}{cebb7849cc5de1839b07fa055fd0e20e}
-      \strng{bibnamehash}{a55db23df74119729e79d5dc6c928ad4}
-      \strng{authorbibnamehash}{a55db23df74119729e79d5dc6c928ad4}
-      \strng{authornamehash}{a55db23df74119729e79d5dc6c928ad4}
-      \strng{authorfullhash}{cebb7849cc5de1839b07fa055fd0e20e}
-      \field{extraname}{2}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{When and under which conditions antibiotic combination therapy decelerates rather than accelerates resistance evolution is not well understood. We examined the effect of combining antibiotics on within-patient resistance development across various bacterial pathogens and antibiotics. We searched CENTRAL, EMBASE and PubMed for (quasi)-randomised controlled trials (RCTs) published from database inception to November 24th, 2022. Trials comparing antibiotic treatments with different numbers of antibiotics were included. A patient was considered to have acquired resistance if, at the follow-up culture, a resistant bacterium was detected that had not been present in the baseline culture. We combined results using a random effects model and performed meta-regression and stratified analyses. The trials' risk of bias was assessed with the Cochrane tool. 42 trials were eligible and 29, including 5054 patients, were qualified for statistical analysis. In most trials, resistance development was not the primary outcome and studies lacked power. The combined odds ratio (OR) for the acquisition of resistance comparing the group with the higher number of antibiotics with the comparison group was 1.23 (95{\%} CI 0.68-2.25), with substantial between-study heterogeneity (I2 =77{\%}). We identified tentative evidence for potential beneficial or detrimental effects of antibiotic combination therapy for specific pathogens or medical conditions. The evidence for combining a higher number of antibiotics compared to fewer from RCTs is scarce and overall, is compatible with both benefit or harm. Trials powered to detect differences in resistance development or well-designed observational studies are required to clarify the impact of combination therapy on resistance.}
-      \field{journaltitle}{Elife}
-      \field{title}{{The effect of combining antibiotics on resistance : A systematic review and meta-analysis}}
-      \field{volume}{13}
-      \field{year}{2024}
-      \field{pages}{1\bibrangedash 25}
-      \range{pages}{25}
-      \verb{doi}
-      \verb 10.7554/eLife.93740.1
-      \endverb
-      \verb{file}
-      \verb :Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/2024/Siedentop et al. - 2024 - The effect of combining antibiotics on resistance A systematic review and meta-analysis - eLife.pdf:pdf
       \endverb
     \endentry
     \entry{Angst2021}{article}{}
@@ -3727,11 +3982,6 @@
       \endverb
     \endentry
   \enddatalist
-  \missing{ciab606}
-  \missing{https://doi.org/10.1016/j.drup.2025.101265}
-  \missing{https://doi.org/10.1128/cmr.00044-19}
-  \missing{https://doi.org/10.1371/journal.ppat.1003349}
-  \missing{ijantimicag201709015}
 \endrefsection
 
 \refsection{2}
@@ -11541,6 +11791,105 @@
 
 \refsection{5}
   \datalist[entry]{none/global//global/global}
+    \entry{Bonhoeffer1997}{article}{}
+      \name{author}{3}{}{%
+        {{hash=f3106e97b33eed46e76c565b4696b91e}{%
+           family={Bonhoeffer},
+           familyi={B\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod}}}%
+        {{hash=30d93188d01ed0a75284d60fdf366301}{%
+           family={Lipsitch},
+           familyi={L\bibinitperiod},
+           given={Marc},
+           giveni={M\bibinitperiod}}}%
+        {{hash=7e66d2f0845ac9a131047e9217fdbe46}{%
+           family={Levin},
+           familyi={L\bibinitperiod},
+           given={Bruce\bibnamedelima R.},
+           giveni={B\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{fd50341151ddae4e0ca28f424ba9db77}
+      \strng{fullhash}{fd50341151ddae4e0ca28f424ba9db77}
+      \strng{bibnamehash}{fd50341151ddae4e0ca28f424ba9db77}
+      \strng{authorbibnamehash}{fd50341151ddae4e0ca28f424ba9db77}
+      \strng{authornamehash}{fd50341151ddae4e0ca28f424ba9db77}
+      \strng{authorfullhash}{fd50341151ddae4e0ca28f424ba9db77}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The spread of bacteria resistant to antimicrobial agents calls for population-wide treatment strategies to delay or reverse the trend toward antibiotic resistance. Here we propose new criteria for the evaluation of the population-wide effects of treatment protocols for directly transmitted bacterial infections and discuss different usage patterns for single and multiple antibiotic therapy. A mathematical model suggests that the long- term benefit of single drug treatment from introduction of the antibiotic until a high frequency of resistance precludes its use is almost independent of the pattern of antibiotic use. When more than one antibiotic is employed, sequential use of different antibiotics in the population ('cycling') is always inferior to treatment strategies where, at any given time, equal fractions of the population receive different antibiotics. However, treatment of all patients with a combination of antibiotics is in most cases the optimal treatment strategy.}
+      \field{issn}{00278424}
+      \field{journaltitle}{Proc. Natl. Acad. Sci. U. S. A.}
+      \field{number}{22}
+      \field{title}{{Evaluating treatment protocols to prevent antibiotic resistance}}
+      \field{volume}{94}
+      \field{year}{1997}
+      \field{pages}{12106\bibrangedash 12111}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1073/pnas.94.22.12106
+      \endverb
+      \verb{file}
+      \verb :Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/1997/Bonhoeffer, Lipsitch, Levin - 1997 - Evaluating treatment protocols to prevent antibiotic resistance - Proceedings of the National Acade.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Tepekule2017}{article}{}
+      \name{author}{5}{}{%
+        {{hash=4321a4b8d77d0090f8569dd1091db691}{%
+           family={Tepekule},
+           familyi={T\bibinitperiod},
+           given={Burcu},
+           giveni={B\bibinitperiod}}}%
+        {{hash=b4dae04361502517599de5fe4ed0c1d0}{%
+           family={Uecker},
+           familyi={U\bibinitperiod},
+           given={Hildegard},
+           giveni={H\bibinitperiod}}}%
+        {{hash=c706a13f3094425f4c5493c029b1b9b8}{%
+           family={Derungs},
+           familyi={D\bibinitperiod},
+           given={Isabel},
+           giveni={I\bibinitperiod}}}%
+        {{hash=767f207c115c61e9fb513af3d6cfe87f}{%
+           family={Frenoy},
+           familyi={F\bibinitperiod},
+           given={Antoine},
+           giveni={A\bibinitperiod}}}%
+        {{hash=f3106e97b33eed46e76c565b4696b91e}{%
+           family={Bonhoeffer},
+           familyi={B\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{281a89e427bf16ca4225edd7fc209700}
+      \strng{fullhash}{281a89e427bf16ca4225edd7fc209700}
+      \strng{bibnamehash}{281a89e427bf16ca4225edd7fc209700}
+      \strng{authorbibnamehash}{281a89e427bf16ca4225edd7fc209700}
+      \strng{authornamehash}{281a89e427bf16ca4225edd7fc209700}
+      \strng{authorfullhash}{281a89e427bf16ca4225edd7fc209700}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Multiple treatment strategies are available for empiric antibiotic therapy in hospitals, but neither clinical studies nor theoretical investigations have yielded a clear picture when which strategy is optimal and why. Extending earlier work of others and us, we present a mathematical model capturing treatment strategies using two drugs, i.e the multi-drug therapies referred to as cycling, mixing, and combination therapy, as well as monotherapy with either drug. We randomly sample a large parameter space to determine the conditions determining success or failure of these strategies. We find that combination therapy tends to outperform the other treatment strategies. By using linear discriminant analysis and particle swarm optimization, we find that the most important parameters determining success or failure of combination therapy relative to the other treatment strategies are the de novo rate of emergence of double resistance in patients infected with sensitive bacteria and the fitness costs associated with double resistance. The rate at which double resistance is imported into the hospital via patients admitted from the outside community has little influence, as all treatment strategies are affected equally. The parameter sets for which combination therapy fails tend to fall into areas with low biological plausibility as they are characterised by very high rates of de novo emergence of resistance to both drugs compared to a single drug, and the cost of double resistance is considerably smaller than the sum of the costs of single resistance.}
+      \field{isbn}{1111111111}
+      \field{issn}{15537358}
+      \field{journaltitle}{PLoS Comput. Biol.}
+      \field{number}{9}
+      \field{title}{{Modeling antibiotic treatment in hospitals: A systematic approach shows benefits of combination therapy over cycling, mixing, and mono-drug therapies}}
+      \field{volume}{13}
+      \field{year}{2017}
+      \field{pages}{1\bibrangedash 22}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.1371/journal.pcbi.1005745
+      \endverb
+      \verb{file}
+      \verb :Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/2017/Tepekule et al. - 2017 - Modeling antibiotic treatment in hospitals A systematic approach shows benefits of combination therapy over cyc.pdf:pdf
+      \endverb
+    \endentry
     \entry{Angst2021}{article}{}
       \name{author}{5}{}{%
         {{hash=4663a653a7e065d63ba258c8e89409f5}{%
@@ -11596,6 +11945,70 @@
       \endverb
       \keyw{Antibiotic resistance,Combination therapy,Experimental epidemiology}
     \endentry
+    \entry{Sutter2016}{article}{}
+      \name{author}{7}{}{%
+        {{hash=3eae03dcdca437d384cd0c329b6ac704}{%
+           family={Tschudin-Sutter},
+           familyi={T\bibinithyphendelim S\bibinitperiod},
+           given={Sarah},
+           giveni={S\bibinitperiod}}}%
+        {{hash=2270947823f8c9292998a684acb774d1}{%
+           family={Frei},
+           familyi={F\bibinitperiod},
+           given={Reno},
+           giveni={R\bibinitperiod}}}%
+        {{hash=24ae9b3b30ee03f424bddca9473b6259}{%
+           family={Schwahn},
+           familyi={S\bibinitperiod},
+           given={Friedbert},
+           giveni={F\bibinitperiod}}}%
+        {{hash=bfe1936779c9d4a65d7c09c5198d8b55}{%
+           family={Tomic},
+           familyi={T\bibinitperiod},
+           given={Milanka},
+           giveni={M\bibinitperiod}}}%
+        {{hash=3ac16585c97ae693a74bedf4348ed898}{%
+           family={Conzelmann},
+           familyi={C\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+        {{hash=d414f49f447c320d800909c78bd2b633}{%
+           family={Stranden},
+           familyi={S\bibinitperiod},
+           given={Anne},
+           giveni={A\bibinitperiod}}}%
+        {{hash=b31577cb5b4fd73afc003182fd7fe3bf}{%
+           family={Widmer},
+           familyi={W\bibinitperiod},
+           given={Andreas\bibnamedelima F.},
+           giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \strng{namehash}{0e3a4b357949ce42d685ccbb99de0157}
+      \strng{fullhash}{9804ad493d4e0f77a8561f512e24c8e7}
+      \strng{bibnamehash}{0e3a4b357949ce42d685ccbb99de0157}
+      \strng{authorbibnamehash}{0e3a4b357949ce42d685ccbb99de0157}
+      \strng{authornamehash}{0e3a4b357949ce42d685ccbb99de0157}
+      \strng{authorfullhash}{9804ad493d4e0f77a8561f512e24c8e7}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{After contact precautions were discontinued, we determined nosocomial transmission of extended-spectrum $\beta$-lactamase (ESBL)-producing Escherichia coli by screening hospital patients who shared rooms with ESBL-producing E. coli-infected or -colonized patients. Transmission rates were 2.6{\%} and 8.8{\%} at an acute-care and a geriatric/ rehabilitation hospital, respectively. Prolonged contact was associated with increased transmission.}
+      \field{issn}{10806059}
+      \field{journaltitle}{Emerg. Infect. Dis.}
+      \field{number}{6}
+      \field{title}{{Prospective validation of cessation of contact precautions for extended-spectrum $\beta$-lactamase-producing Escherichia coli1}}
+      \field{volume}{22}
+      \field{year}{2016}
+      \field{pages}{1094\bibrangedash 1097}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.3201/eid2206.150554
+      \endverb
+      \verb{file}
+      \verb :Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/2016/Tschudin-Sutter et al. - 2016 - Prospective validation of cessation of contact precautions for extended-spectrum $\beta$-lactamase-producing.pdf:pdf
+      \endverb
+    \endentry
     \entry{Siedentop2024}{article}{}
       \name{author}{6}{}{%
         {{hash=aef5b9621e53696f133ef8296e2e5880}{%
@@ -11644,6 +12057,45 @@
       \field{year}{2024}
       \verb{doi}
       \verb 10.7554/eLife.93740.1
+      \endverb
+    \endentry
+    \entry{Chait2007}{article}{}
+      \name{author}{3}{}{%
+        {{hash=bda6ee025412c08d23a09c1712fc670a}{%
+           family={Chait},
+           familyi={C\bibinitperiod},
+           given={Remy},
+           giveni={R\bibinitperiod}}}%
+        {{hash=5978cd9837acc667e1ebacf108b44393}{%
+           family={Craney},
+           familyi={C\bibinitperiod},
+           given={Allison},
+           giveni={A\bibinitperiod}}}%
+        {{hash=6bcdb0ad30a371c01267d28f47c5e5da}{%
+           family={Kishony},
+           familyi={K\bibinitperiod},
+           given={Roy},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{1cbf4166ee2414156819a1468dce7384}
+      \strng{fullhash}{1cbf4166ee2414156819a1468dce7384}
+      \strng{bibnamehash}{1cbf4166ee2414156819a1468dce7384}
+      \strng{authorbibnamehash}{1cbf4166ee2414156819a1468dce7384}
+      \strng{authornamehash}{1cbf4166ee2414156819a1468dce7384}
+      \strng{authorfullhash}{1cbf4166ee2414156819a1468dce7384}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature}
+      \field{number}{7136}
+      \field{title}{Antibiotic interactions that select against resistance}
+      \field{volume}{446}
+      \field{year}{2007}
+      \field{pages}{668\bibrangedash 671}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1038/nature05685
       \endverb
     \endentry
     \entry{Agerso2012}{article}{}
@@ -11942,11 +12394,6 @@
       \endverb
     \endentry
   \enddatalist
-  \missing{Bonhoeffer}
-  \missing{Chait}
-  \missing{SUttner2024}
-  \missing{tepekule}
-  \missing{ueker}
 \endrefsection
 
 \refsection{6}
