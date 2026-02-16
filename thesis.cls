@@ -6,7 +6,9 @@
 % Base class
 %----------------------------------------------------------
 \LoadClass[a4paper,10.5pt,twoside,openright]{memoir}
-
+\setlrmarginsandblock{35mm}{28mm}{*} % inner, outer
+\setulmarginsandblock{25mm}{32mm}{*} % upper, lower
+\checkandfixthelayout
 %----------------------------------------------------------
 % Encoding & language
 %----------------------------------------------------------
@@ -43,7 +45,7 @@
 %----------------------------------------------------------
 % Packages (grouped)
 %----------------------------------------------------------
-\RequirePackage{microtype,geometry,float,adjustbox}
+\RequirePackage{microtype,float,adjustbox}
 \RequirePackage{graphicx,subcaption,tikz}
 \RequirePackage{dashrule,booktabs,longtable,pdflscape}
 \RequirePackage{afterpage,enumitem,fancyvrb}
@@ -109,7 +111,7 @@
       \if@fancy@numberedchapter
       {\normalfont\bfseries\Large\color{dark_blue!60}\@chapapp~\thechapter}\par
       \fi
-      \chaptitlefont ##1\\%[0.5ex]
+      \chaptitlefont \MakeUppercase{##1}\\%[0.5ex]
       \vspace{-4mm}
       \rule{\textwidth}{0.4pt}
     \end{flushleft}%
@@ -130,8 +132,9 @@
 %----------------------------------------------------------
 % Section titles
 %----------------------------------------------------------
-\setsecheadstyle{\large}
-\setsubsecheadstyle{\normalsize}
+\setsubsecheadstyle{\normalsize\MakeUppercase}
+\setsubsubsecheadstyle{\normalsize\MakeUppercase}
+\setsecheadstyle{\normalsize\MakeUppercase}
 \setparaheadstyle{\bfseries\normalsize}
 \setbeforesecskip{2.2ex}
 \setaftersecskip{0.2ex}
@@ -183,18 +186,31 @@
 % Page styles
 %----------------------------------------------------------
 \copypagestyle{pst_e}{ruled}
-\makeevenhead{pst_e}{\footnotesize\hspace{-3.5em}\scshape\leftmark}{}{}
-\makeoddhead{pst_e}{}{}{\footnotesize\scshape\rightmark}
 \setlength{\headsep}{30pt}
 \setlength{\headheight}{24pt}
+
+% even (left) page: chapter title only (no number)
 \makeevenhead{pst_e}{\footnotesize\scshape\leftmark}{}{}
+
+% odd (right) page: "Chapter 1.3 Results" / "Appendix A.3 Figures"
 \makeoddhead{pst_e}{}{}{\footnotesize\scshape\rightmark}
 
 \aliaspagestyle{plain}{empty}
 
+\makeatletter
+
+% left header mark = CHAPTER TITLE (uppercase)
+\renewcommand*{\chaptermark}[1]{%
+  \markboth{\MakeUppercase{#1}}{}%
+}
+
+% right header mark = "CHAPTER 1.3 RESULTS" / "APPENDIX A.3 FIGURES" (uppercase)
+\renewcommand*{\sectionmark}[1]{%
+  \markright{\MakeUppercase{\@chapapp\space\thesection\space #1}}%
+}
+
+% plain marks (toc/lof/lot/...)
 \makepsmarks{pst_e}{%
-  \createmark{chapter}{both}{shownumber}{}{.\ }%
-  \createmark{section}{right}{shownumber}{}{.\ }%
   \createplainmark{toc}{both}{\contentsname}%
   \createplainmark{lof}{both}{\listfigurename}%
   \createplainmark{lot}{both}{\listtablename}%
@@ -205,9 +221,15 @@
 
 \copypagestyle{pst_app}{pst_e}
 \makepsmarks{pst_app}{%
-  \createmark{chapter}{both}{shownumber}{Appendix }{.\ }%
-  \createmark{section}{right}{shownumber}{}{.\ }%
+  \createplainmark{toc}{both}{\contentsname}%
+  \createplainmark{lof}{both}{\listfigurename}%
+  \createplainmark{lot}{both}{\listtablename}%
+  \createplainmark{bib}{both}{\bibname}%
+  \createplainmark{index}{both}{\indexname}%
+  \createplainmark{glossary}{both}{\glossaryname}%
 }
+
+\makeatother
 
 \copypagestyle{pst_front}{empty}
 \makeevenfoot{pst_front}{\footnotesize\thepage}{}{}

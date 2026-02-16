@@ -1,18 +1,18 @@
 # Fdb version 3
-["biber build/ch5"] 1770935653 "build/ch5.bcf" "build/ch5.bbl" "build/ch5" 1770935663
+["biber build/ch5"] 1771258762 "build/ch5.bcf" "build/ch5.bbl" "build/ch5" 1771258766
   "bibliographies/TSPlasmid.bib" 0 -1 0 ""
-  "build/ch5.bcf" 1770935662 101454 2600faa6f01d8b0f5a848503d9dfe4fa "xelatex"
+  "build/ch5.bcf" 1771258765 101418 0a933c01bff5e7e8940da38a4a2974f0 "xelatex"
   (generated)
   "build/ch5.blg"
   "build/ch5.bbl"
-["xdvipdfmx"] 1770935662 "/Users/malte/ETH-Documents/thesis/chapter_5/build/ch5.xdv" "/Users/malte/ETH-Documents/thesis/chapter_5/build/ch5.pdf" "/Users/malte/ETH-Documents/thesis/chapter_5/build/ch5" 1770935663
-  "/Users/malte/ETH-Documents/thesis/chapter_5/build/ch5.xdv" 1770935662 65624 9023a8ac2c24fbdeba3823c6644f06b7 "xelatex"
+["xdvipdfmx"] 1771258765 "/Users/malte/ETH-Documents/thesis/chapter_5/build/ch5.xdv" "/Users/malte/ETH-Documents/thesis/chapter_5/build/ch5.pdf" "/Users/malte/ETH-Documents/thesis/chapter_5/build/ch5" 1771258766
+  "/Users/malte/ETH-Documents/thesis/chapter_5/build/ch5.xdv" 1771258765 65736 dec9d07e4dee197917f171ff80bcf8c0 "xelatex"
   (generated)
   "/Users/malte/ETH-Documents/thesis/chapter_5/build/ch5.pdf"
-["xelatex"] 1770935659 "/Users/malte/ETH-Documents/thesis/chapter_5/ch5.tex" "/Users/malte/ETH-Documents/thesis/chapter_5/build/ch5.xdv" "ch5" 1770935663
-  "../thesis.cls" 1770931982 11177 07981517da5369ffb679bbd47db7e035 ""
-  "/Users/malte/ETH-Documents/thesis/chapter_5/build/ch5.aux" 1770935662 2156 2d2a22135f2183b844187bbf447f1340 ""
-  "/Users/malte/ETH-Documents/thesis/chapter_5/ch5.tex" 1770910211 6606 3ba667e234ea8a08f60e7bc5f42089e8 ""
+["xelatex"] 1771258762 "/Users/malte/ETH-Documents/thesis/chapter_5/ch5.tex" "/Users/malte/ETH-Documents/thesis/chapter_5/build/ch5.xdv" "ch5" 1771258766
+  "../thesis.cls" 1771258759 11703 2de93c154154aa17e799d7b8e893ae7d ""
+  "/Users/malte/ETH-Documents/thesis/chapter_5/build/ch5.aux" 1771258765 2130 32c4d2374b7313e3e882b26f73063bce ""
+  "/Users/malte/ETH-Documents/thesis/chapter_5/ch5.tex" 1771231894 6669 9272f6a539bae7203416bd1c840164eb ""
   "/usr/local/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmmib7.tfm" 1246382020 1508 6e807ff901c35a5f1fde0ca275533df8 ""
@@ -36,7 +36,6 @@
   "/usr/local/texlive/2020/texmf-dist/tex/generic/etexcmds/etexcmds.sty" 1576625273 7734 b98cbb34c81f667027c1e3ebdbfce34b ""
   "/usr/local/texlive/2020/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty" 1576625223 8371 9d55b8bd010bc717624922fb3477d92e ""
   "/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/iftex.sty" 1583617216 6501 4011d89d9621e0b0901138815ba5ff29 ""
-  "/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/ifvtex.sty" 1572645307 1057 525c2192b5febbd8c1f662c9468335bb ""
   "/usr/local/texlive/2020/texmf-dist/tex/generic/infwarerr/infwarerr.sty" 1575499628 8356 7bbb2c2373aa810be568c29e333da8ed ""
   "/usr/local/texlive/2020/texmf-dist/tex/generic/intcalc/intcalc.sty" 1576625065 31769 002a487f55041f8e805cfbf6385ffd97 ""
   "/usr/local/texlive/2020/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty" 1576878844 5412 d5a2436094cd7be85769db90f29250a6 ""
@@ -160,7 +159,6 @@
   "/usr/local/texlive/2020/texmf-dist/tex/latex/fontspec/fontspec.cfg" 1532898934 549 c4adac819276241fea8eb79c5ab7b99e ""
   "/usr/local/texlive/2020/texmf-dist/tex/latex/fontspec/fontspec.sty" 1582325645 1655 a1ec6f2670a260de25415d37e9c60e97 ""
   "/usr/local/texlive/2020/texmf-dist/tex/latex/fourier/fourier-orns.sty" 1583369434 4980 755a4f73274e4e8a6794873619c6a5e3 ""
-  "/usr/local/texlive/2020/texmf-dist/tex/latex/geometry/geometry.sty" 1578002852 41601 9cf6c5257b1bc7af01a58859749dd37a ""
   "/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/color.cfg" 1459978653 1213 620bba36b25224fa9b7e1ccb4ecb76fd ""
   "/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/graphics.cfg" 1465944070 1224 978390e9c2234eab29404bc21b268d1e ""
   "/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-def/xetex.def" 1498427493 12707 672c620846df0fecf0a7a99fed83566d ""
@@ -248,16 +246,16 @@
   "/usr/local/texlive/2020/texmf-dist/web2c/texmf.cnf" 1583102494 39451 60d7debd9ef8ece44cbe965493576c2d ""
   "/usr/local/texlive/2020/texmf-var/web2c/xetex/xelatex.fmt" 1612186946 4769649 cda7e26f126ac9e4b74a2536b03d67c1 ""
   "/usr/local/texlive/2020/texmf.cnf" 1586288231 577 d60164b4589a341208aff7a667fbbdcb ""
-  "build/../../main.tex" 1770905461 1099 e4368331cef5f9cffab5565d25b87138 ""
-  "build/ch5.aux" 1770935662 2156 2d2a22135f2183b844187bbf447f1340 "xelatex"
+  "build/../../main.tex" 1771257117 993 81c7ca26d2d4e0aa000835a1edb4d99f ""
+  "build/ch5.aux" 1771258765 2130 32c4d2374b7313e3e882b26f73063bce "xelatex"
   "build/ch5.bbl" 1770935656 0 d41d8cd98f00b204e9800998ecf8427e "biber build/ch5"
-  "build/ch5.run.xml" 1770935662 2732 0eb9ae9105f371e5b244612d08156a4d "xelatex"
-  "ch5.tex" 1770910211 6606 3ba667e234ea8a08f60e7bc5f42089e8 ""
+  "build/ch5.run.xml" 1771258765 2732 0eb9ae9105f371e5b244612d08156a4d "xelatex"
+  "ch5.tex" 1771231894 6669 9272f6a539bae7203416bd1c840164eb ""
   (generated)
-  "build/ch5.aux"
-  "build/ch5.run.xml"
   "build/ch5.xdv"
-  "build/ch5.bcf"
-  "/Users/malte/ETH-Documents/thesis/chapter_5/build/ch5.xdv"
-  "build/ch5.log"
+  "build/ch5.aux"
   "/Users/malte/ETH-Documents/thesis/chapter_5/build/ch5.log"
+  "/Users/malte/ETH-Documents/thesis/chapter_5/build/ch5.xdv"
+  "build/ch5.run.xml"
+  "build/ch5.bcf"
+  "build/ch5.log"
