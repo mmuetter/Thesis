@@ -9,7 +9,7 @@ We used 80 $\mu g/ml$ ceftazidime as drug A and 40 $\mu g/ml$ tetracycline as dr
 We used two compatible plasmids $p_A$ and $p_B$ derived from samples ESBL9 and ESBL25 from a clinical transmission study \cite{Sutter2016}.
 Samples were kindly provided by Adrian Egli and sequenced and analysed by Huisman et al. \cite{Huisman2022}.
 Plasmids $p_A$ and $p_B$ provide (among other resistances) resistance against drug A and drug B, respectively.
-We used these plasmids and the chloramphenicol-resistant host MDS42-YFP \cite{Feher2012} (sensitive to drugs A and B) to create three additional strains by conjugation (\autoref{tab:strainPhenotypes}) (i) A-resistant, containing $p_A$; (ii) B-resistant, containing $p_B$; and (iii) AB-resistant, containing both plasmids (see \sisec{SI Methods}).
+We used these plasmids and the chloramphenicol-resistant host MDS42-YFP \cite{Feher2012} (sensitive to drugs A and B) to create three additional strains by conjugation (\autoref{tab:strainPhenotypes}) (i) A-resistant, containing $p_A$; (ii) B-resistant, containing $p_B$; and (iii) AB-resistant, containing both plasmids (see \autoref{ssec:si_methods}).
 
 \paragraph{Treatment arms.}
 We simulated the epidemiological dynamics of six hospital wards \textit{in vitro}, with each ward exploring a different treatment arm:
@@ -58,7 +58,7 @@ By default, we distinguish six resistance profiles (\autoref{tab:phenotyping}).
 The wells may either be 1) uninfected ($U$), 2) exclusively infected with sensitive bacteria ($S$),  3) infected with A-resistant bacteria ($A_r$), 4) infected with B-resistant bacteria ($B_r$), 5) infected with AB-resistant bacteria $(AB_r)$, 6) or be infected with a mixed population containing A-resistant and B-resistant bacteria, but no AB-resistant bacteria $((A\&B)_r)$.
 The way we classify the resistance profiles of the bacterial population in a well leads to the dominance of resistance, in the sense that a predominantly sensitive population harbouring a resistant minority would be classified as resistant (see \autoref{tab:bacterial-phenotypes}).
 Any observed growth pattern not corresponding to the six resistance profiles mentioned above is classified as \textit{'other'}.
-The resistance profile \textit{'other'} primarily occurs when bacterial densities are low (see also \sisec{SI Methods}).
+The resistance profile \textit{'other'} primarily occurs when bacterial densities are low (see also \autoref{ssec:si_methods}).
 
 \paragraph{Scenarios.}
 We conducted experiments for three scenarios (\textit{prevention}, \textit{containment}, and \textit{maximum-emergence}) with 14 to 27 transfers each.
@@ -79,7 +79,7 @@ We call the entirety of all instructions that come up during an experimental run
 Instruction sets are identical across all treatment arms and replicates.
 
 \paragraph{Computational Model.}
-We created a stochastic model (\sisec{SI Computational Model}) incorporating 94 \textit{in silico} patients, each capable of adopting one of six resistance profiles $\phi \in \{U, S, A_r, B_r, AB_r, (A_r\&B_r)\}$.
+We created a stochastic model (\autoref{ssec: model}) incorporating 94 \textit{in silico} patients, each capable of adopting one of six resistance profiles $\phi \in \{U, S, A_r, B_r, AB_r, (A_r\&B_r)\}$.
 The model is structured analogue to the \textit{in vitro} experiments (\autoref{fig:procedure}) and alternates between modelling the transactions between wells and the effect of treatment during incubation.
 
 Admission and discharge (turnover) were simulated by replacing the resistance profile of the current patient with that of the incoming patient, as defined by the instruction set.

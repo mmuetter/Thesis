@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2021.2.1)  16 FEB 2026 17:32
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2021.2.1)  19 FEB 2026 13:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -3362,49 +3362,25 @@ LaTeX Font Warning: Font shape `TU/Optima(0)/m/sc' undefined
 ] [2
 
 
-] (./front_matter/1b_Summary_DE.tex
-Overfull \hbox (10.41643pt too wide) in paragraph at lines 10--15
-\TU/Optima(0)/m/n/10 und ergänzten diese Experimente durch Mikroskopie. Wir fanden, dass Biolumineszenz die Biomasse-
- []
-
-) [3] (/Users/malte/ETH-Documents/thesis/build/main.toc
-Overfull \hbox (7.20335pt too wide) in paragraph at lines 8--8
+] (./front_matter/1b_Summary_DE.tex) [3] (/Users/malte/ETH-Documents/thesis/build/main.toc
+Overfull \hbox (7.20335pt too wide) in paragraph at lines 10--10
  [][] [][]\TU/Optima(0)/b/n/10 The Impact of Treatment Strategies on the Epidemiological Dynamics of Plasmid- 
- []
-
-
-Overfull \hbox (1.17996pt too wide) detected at line 128
- \TU/Optima(0)/b/n/10 117
- []
-
-
-Overfull \hbox (1.17996pt too wide) detected at line 149
- \TU/Optima(0)/b/n/10 137
  []
 
 ) [4
 
-]) (./acknowledgements.tex) [5
+] (./acknowledgements.tex) [5
 
 
-] [6
+]) [6
+
 
 ]
 \blx@maxsegment@1=\count573
 \blx@sectionciteorder@1=\count574
-Package biblatex Info: Reference section=1 on input line 18.
-Package biblatex Info: Setting label 'refsection:1' on input line 18.
- (./chapter_1/ch1.tex
-Overfull \hbox (1.79396pt too wide) in paragraph at lines 23--25
-[]\TU/Optima(0)/m/n/10 Together, these trends have led to the emergence of resistant bacterial strains, including carbapenem-
- []
-
-
-Overfull \hbox (3.10265pt too wide) in paragraph at lines 23--25
-\TU/Optima(0)/m/n/10 resistant \TU/Optima(0)/m/it/10 Enterobacterales\TU/Optima(0)/m/n/10 , \TU/Optima(0)/m/it/10 Acinetobacter baumannii\TU/Optima(0)/m/n/10 , and \TU/Optima(0)/m/it/10 Pseudomonas aeruginosa\TU/Optima(0)/m/n/10 , and methicillin-
- []
-
-[1
+Package biblatex Info: Reference section=1 on input line 17.
+Package biblatex Info: Setting label 'refsection:1' on input line 17.
+ (./chapter_1/ch1.tex [1
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -3492,7 +3468,7 @@ Package microtype Info: Character `\textquestiondown ' is missing
 (microtype)             in font `\TU/Erewhon-Math.otf(1)/m/n/5'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `TU/Erewhon-Math.otf(2)/m/n' will be
-(Font)              scaled to size 7.00075pt on input line 18.
+(Font)              scaled to size 7.00075pt on input line 17.
 Package microtype Info: Character `\textquoteleft ' is missing
 (microtype)             in font `\TU/Erewhon-Math.otf(2)/m/n/7'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -3533,7 +3509,7 @@ Package microtype Info: Character `\textquestiondown ' is missing
 (microtype)             in font `\TU/Erewhon-Math.otf(2)/m/n/7'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `TU/Erewhon-Math.otf(2)/m/n' will be
-(Font)              scaled to size 5.00053pt on input line 18.
+(Font)              scaled to size 5.00053pt on input line 17.
 Package microtype Info: Character `\textquoteleft ' is missing
 (microtype)             in font `\TU/Erewhon-Math.otf(2)/m/n/5'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -3574,7 +3550,7 @@ Package microtype Info: Character `\textquestiondown ' is missing
 (microtype)             in font `\TU/Erewhon-Math.otf(2)/m/n/5'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `TU/Erewhon-Math.otf(3)/m/n' will be
-(Font)              scaled to size 6.99925pt on input line 18.
+(Font)              scaled to size 6.99925pt on input line 17.
 Package microtype Info: Character `\textquoteleft ' is missing
 (microtype)             in font `\TU/Erewhon-Math.otf(3)/m/n/7'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -3615,7 +3591,7 @@ Package microtype Info: Character `\textquestiondown ' is missing
 (microtype)             in font `\TU/Erewhon-Math.otf(3)/m/n/7'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `TU/Erewhon-Math.otf(3)/m/n' will be
-(Font)              scaled to size 4.99947pt on input line 18.
+(Font)              scaled to size 4.99947pt on input line 17.
 Package microtype Info: Character `\textquoteleft ' is missing
 (microtype)             in font `\TU/Erewhon-Math.otf(3)/m/n/5'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -3734,7 +3710,7 @@ Package microtype Info: Character `\textquestiondown ' is missing
 (microtype)             in font `\TU/Erewhon-Math.otf(1)/b/n/5'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `TU/Erewhon-Math.otf(2)/b/n' will be
-(Font)              scaled to size 7.00075pt on input line 18.
+(Font)              scaled to size 7.00075pt on input line 17.
 Package microtype Info: Character `\textquoteleft ' is missing
 (microtype)             in font `\TU/Erewhon-Math.otf(2)/b/n/7'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -3775,7 +3751,7 @@ Package microtype Info: Character `\textquestiondown ' is missing
 (microtype)             in font `\TU/Erewhon-Math.otf(2)/b/n/7'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `TU/Erewhon-Math.otf(2)/b/n' will be
-(Font)              scaled to size 5.00053pt on input line 18.
+(Font)              scaled to size 5.00053pt on input line 17.
 Package microtype Info: Character `\textquoteleft ' is missing
 (microtype)             in font `\TU/Erewhon-Math.otf(2)/b/n/5'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -3816,7 +3792,7 @@ Package microtype Info: Character `\textquestiondown ' is missing
 (microtype)             in font `\TU/Erewhon-Math.otf(2)/b/n/5'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `TU/Erewhon-Math.otf(3)/b/n' will be
-(Font)              scaled to size 6.99925pt on input line 18.
+(Font)              scaled to size 6.99925pt on input line 17.
 Package microtype Info: Character `\textquoteleft ' is missing
 (microtype)             in font `\TU/Erewhon-Math.otf(3)/b/n/7'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -3857,7 +3833,7 @@ Package microtype Info: Character `\textquestiondown ' is missing
 (microtype)             in font `\TU/Erewhon-Math.otf(3)/b/n/7'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `TU/Erewhon-Math.otf(3)/b/n' will be
-(Font)              scaled to size 4.99947pt on input line 18.
+(Font)              scaled to size 4.99947pt on input line 17.
 Package microtype Info: Character `\textquoteleft ' is missing
 (microtype)             in font `\TU/Erewhon-Math.otf(3)/b/n/5'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -3900,12 +3876,12 @@ Package microtype Info: Character `\textquestiondown ' is missing
  [5
 
 ]
-Package biblatex Info: Reference section=0 on input line 18.
+Package biblatex Info: Reference section=0 on input line 17.
 \blx@maxsegment@2=\count575
 \blx@sectionciteorder@2=\count576
-Package biblatex Info: Reference section=2 on input line 22.
-Package biblatex Info: Setting label 'refsection:2' on input line 22.
- (./chapter_2/ch2.tex (./commands.tex) [6]
+Package biblatex Info: Reference section=2 on input line 21.
+Package biblatex Info: Setting label 'refsection:2' on input line 21.
+ (./chapter_2/ch2.tex [6]
 Package microtype Info: Character `\textquoteleft ' is missing
 (microtype)             in font `\TU/Erewhon-Math.otf(1)/b/n/10'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -3946,7 +3922,7 @@ Package microtype Info: Character `\textquestiondown ' is missing
 (microtype)             in font `\TU/Erewhon-Math.otf(1)/b/n/10'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `TU/Erewhon-Math.otf(2)/b/n' will be
-(Font)              scaled to size 10.00107pt on input line 35.
+(Font)              scaled to size 10.00107pt on input line 33.
 Package microtype Info: Character `\textquoteleft ' is missing
 (microtype)             in font `\TU/Erewhon-Math.otf(2)/b/n/10'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -3987,7 +3963,7 @@ Package microtype Info: Character `\textquestiondown ' is missing
 (microtype)             in font `\TU/Erewhon-Math.otf(2)/b/n/10'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `TU/Erewhon-Math.otf(3)/b/n' will be
-(Font)              scaled to size 9.99893pt on input line 35.
+(Font)              scaled to size 9.99893pt on input line 33.
 Package microtype Info: Character `\textquoteleft ' is missing
 (microtype)             in font `\TU/Erewhon-Math.otf(3)/b/n/10'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -4067,7 +4043,7 @@ Package microtype Info: Character `\textquestiondown ' is missing
 (microtype)             in font `\TU/Erewhon-Math.otf(1)/m/n/9'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `TU/Erewhon-Math.otf(2)/m/n' will be
-(Font)              scaled to size 9.00096pt on input line 35.
+(Font)              scaled to size 9.00096pt on input line 33.
 Package microtype Info: Character `\textquoteleft ' is missing
 (microtype)             in font `\TU/Erewhon-Math.otf(2)/m/n/9'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -4108,7 +4084,7 @@ Package microtype Info: Character `\textquestiondown ' is missing
 (microtype)             in font `\TU/Erewhon-Math.otf(2)/m/n/9'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `TU/Erewhon-Math.otf(3)/m/n' will be
-(Font)              scaled to size 8.99904pt on input line 35.
+(Font)              scaled to size 8.99904pt on input line 33.
 Package microtype Info: Character `\textquoteleft ' is missing
 (microtype)             in font `\TU/Erewhon-Math.otf(3)/m/n/9'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -4188,7 +4164,7 @@ Package microtype Info: Character `\textquestiondown ' is missing
 (microtype)             in font `\TU/Erewhon-Math.otf(1)/b/n/9'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `TU/Erewhon-Math.otf(2)/b/n' will be
-(Font)              scaled to size 9.00096pt on input line 35.
+(Font)              scaled to size 9.00096pt on input line 33.
 Package microtype Info: Character `\textquoteleft ' is missing
 (microtype)             in font `\TU/Erewhon-Math.otf(2)/b/n/9'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -4229,7 +4205,7 @@ Package microtype Info: Character `\textquestiondown ' is missing
 (microtype)             in font `\TU/Erewhon-Math.otf(2)/b/n/9'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `TU/Erewhon-Math.otf(3)/b/n' will be
-(Font)              scaled to size 8.99904pt on input line 35.
+(Font)              scaled to size 8.99904pt on input line 33.
 Package microtype Info: Character `\textquoteleft ' is missing
 (microtype)             in font `\TU/Erewhon-Math.otf(3)/b/n/9'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -4281,12 +4257,12 @@ File: chapter_2/end_anova.pdf Graphic file (type pdf)
 <use chapter_2/end_anova.pdf>
 
 Underfull \hbox (badness 10000) in paragraph at lines 22--22
-[][] \TU/Optima(0)/m/sc/10 – |Panels
+[][] \TU/Optima(0)/m/sc/10 – |Pan-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 22--22
-\TU/Optima(0)/m/sc/10 A–C show the
+Underfull \hbox (badness 2376) in paragraph at lines 22--22
+\TU/Optima(0)/m/sc/10 els A–C show the
  []
 
 
@@ -4366,13 +4342,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 22--22
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 22--22
-\TU/Optima(0)/m/sc/10 in []Table A34[][] –
+\TU/Optima(0)/m/sc/10 in []Table A.34[][] –
  []
 
-
-Underfull \vbox (badness 2213) has occurred while \output is active []
-
- [9]
+[9]
 File: chapter_2/scen3_paper.pdf Graphic file (type pdf)
 <use chapter_2/scen3_paper.pdf>
  [10] [11]
@@ -4387,30 +4360,22 @@ File: chapter_2/20220412_encounter_frequencies.pdf Graphic file (type pdf)
 File: chapter_2/20220412_conjugation_prop.pdf Graphic file (type pdf)
 <use chapter_2/20220412_conjugation_prop.pdf>
 
-Underfull \hbox (badness 1924) in paragraph at lines 110--110
-[]\TU/Optima(0)/m/sc/10 Fig. 2.3 – |Analysis of the emergence
+Underfull \hbox (badness 7832) in paragraph at lines 110--110
+[]\TU/Optima(0)/m/sc/10 Figure 2.3 – |Analysis of the emer-
  []
 
 
-Underfull \hbox (badness 3039) in paragraph at lines 110--110
-\TU/Optima(0)/m/sc/10 of double resistance \TU/Optima(0)/m/it/10 in vitro \TU/Optima(0)/m/sc/10 and su-
+Underfull \hbox (badness 2150) in paragraph at lines 110--110
+\TU/Optima(0)/m/sc/10 superinfection between single resistant
  []
 
-
-Underfull \hbox (badness 8056) in paragraph at lines 110--110
-\TU/Optima(0)/m/sc/10 and $[][]$ wells during the \TU/Optima(0)/m/it/10 maximum-
- []
-
-[12]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [13]
+[12] [13]
 File: chapter_2/wins_and_losses_preexisting.pdf Graphic file (type pdf)
 <use chapter_2/wins_and_losses_preexisting.pdf>
 File: chapter_2/wins_and_losses_no_preex.pdf Graphic file (type pdf)
 <use chapter_2/wins_and_losses_no_preex.pdf>
 ) (./chapter_2/discussion.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 3417) has occurred while \output is active []
 
  [14] [15]
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -4430,37 +4395,132 @@ Overfull \hbox (7.54065pt too wide) in paragraph at lines 64--66
 []\TU/Optima(0)/b/n/10 Scenarios.[] \TU/Optima(0)/m/sc/10 We conducted experiments for three scenarios (\TU/Optima(0)/m/it/10 prevention\TU/Optima(0)/m/sc/10 , \TU/Optima(0)/m/it/10 containment\TU/Optima(0)/m/sc/10 , and \TU/Optima(0)/m/it/10 maximum-
  []
 
-
-Overfull \hbox (22.08798pt too wide) in paragraph at lines 82--84
-\TU/Optima(0)/m/sc/10 94 \TU/Optima(0)/m/it/10 in silico \TU/Optima(0)/m/sc/10 patients, each capable of adopting one of six resistance profiles $[] [] [][][] [][] [][][] [][][] [][][][] [][][][][][][][]$.
- []
-
 [19]) (./chapter_2/acknow.tex)) [20]
-Package biblatex Info: Reference section=0 on input line 22.
+Package biblatex Info: Reference section=0 on input line 21.
 \blx@maxsegment@3=\count577
 \blx@sectionciteorder@3=\count578
-Package biblatex Info: Reference section=3 on input line 26.
-Package biblatex Info: Setting label 'refsection:3' on input line 26.
- (./chapter_3/ch3.tex (./commands.tex) [21
+Package biblatex Info: Reference section=3 on input line 25.
+Package biblatex Info: Setting label 'refsection:3' on input line 25.
+ (./chapter_3/ch3.tex [21
 
 ] [22
 
 ]
-Overfull \hbox (15.75983pt too wide) in paragraph at lines 32--32
+Overfull \hbox (15.75983pt too wide) in paragraph at lines 31--31
 \TU/Optima(0)/m/it/9 This manuscript was published as a Reviewed Preprint on eLife on February 3, 2026 (doi: 10.7554/eLife.109213.1). 
  []
 
-[23] (./chapter_3/11_introduction.tex)
+[23] (./chapter_3/11_introduction.tex
+
+LaTeX Warning: Citation 'Regoes2004' on page 24 undefined on input line 4.
+
+
+LaTeX Warning: Citation 'Regoes2004' on page 24 undefined on input line 16.
+
+
+LaTeX Warning: Citation 'Foerster2016' on page 24 undefined on input line 16.
+
+
+LaTeX Warning: Citation 'Vellend1977' on page 24 undefined on input line 19.
+
+
+LaTeX Warning: Citation 'Jacobs1993' on page 24 undefined on input line 19.
+
+
+LaTeX Warning: Citation 'Loeliger2003' on page 24 undefined on input line 19.
+
+
+LaTeX Warning: Citation 'Engebrecht1985' on page 24 undefined on input line 22.
+
+
+LaTeX Warning: Citation 'Meighen1991' on page 24 undefined on input line 22.
+
+
+LaTeX Warning: Citation 'Kishony2003' on page 24 undefined on input line 24.
+
+
+LaTeX Warning: Citation 'Yeh2006' on page 24 undefined on input line 24.
+
+
+LaTeX Warning: Citation 'Larsson2014' on page 24 undefined on input line 24.
+
+
+LaTeX Warning: Citation 'Kavcic2020' on page 24 undefined on input line 24.
+
+
+LaTeX Warning: Citation 'Angermayr2022' on page 24 undefined on input line 24.
+
+
+LaTeX Warning: Citation 'Salisbury1999' on page 24 undefined on input line 29.
+
+
+LaTeX Warning: Citation 'Beard2002' on page 24 undefined on input line 29.
+
+
+LaTeX Warning: Citation 'Alloush2003' on page 24 undefined on input line 29.
+
+)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [24
 
 ] (./chapter_3/12_results.tex
+
+LaTeX Warning: Citation 'Kishony2003' on page 25 undefined on input line 7.
+
 File: chapter_3/figures/rate_plot.pdf Graphic file (type pdf)
 <use chapter_3/figures/rate_plot.pdf>
 File: chapter_3/figures/pex_rates.pdf Graphic file (type pdf)
 <use chapter_3/figures/pex_rates.pdf>
- [25] [26]
+
+LaTeX Warning: Reference `fig:linearity' on page 25 undefined on input line 45.
+
+
+LaTeX Warning: Reference `tab:drugs' on page 25 undefined on input line 52.
+
+
+LaTeX Warning: Reference `fig:rate_plot' on page 25 undefined on input line 52.
+
+
+LaTeX Warning: Reference `tab:comp_stats' on page 25 undefined on input line 52.
+
+
+LaTeX Warning: Reference `fig:ampicillin_comp_combined' on page 25 undefined on input line 54.
+
+
+LaTeX Warning: Reference `fig:pex_robo' on page 25 undefined on input line 54.
+
+[25] [26]
+
+LaTeX Warning: Reference `sec:experiments' on page 27 undefined on input line 67.
+
+
+LaTeX Warning: Reference `fig:SOS' on page 27 undefined on input line 69.
+
+
+LaTeX Warning: Reference `fig:micro_ctrl0' on page 27 undefined on input line 77.
+
+
+LaTeX Warning: Reference `fig:micro_tri' on page 27 undefined on input line 77.
+
+
+LaTeX Warning: Reference `fig:filamentation_summary' on page 27 undefined on input line 78.
+
+
+LaTeX Warning: Reference `fig:volume_combined' on page 27 undefined on input line 78.
+
+
+LaTeX Warning: Reference `sec:experiments' on page 27 undefined on input line 78.
+
+
+LaTeX Warning: Reference `tab:morph_post' on page 27 undefined on input line 80.
+
+
+LaTeX Warning: Reference `fig:rate_plot' on page 27 undefined on input line 80.
+
+
+LaTeX Warning: Reference `tab:comp_stats' on page 27 undefined on input line 80.
+
 File: chapter_3/figures/volume_summary_pre.pdf Graphic file (type pdf)
 <use chapter_3/figures/volume_summary_pre.pdf>
 File: chapter_3/figures/volume_summary_post.pdf Graphic file (type pdf)
@@ -4480,123 +4540,783 @@ Underfull \hbox (badness 7397) in paragraph at lines 102--102
 \TU/Optima(0)/m/sc/10 = 4), and bars represent
  []
 
-[27] [28]
+
+LaTeX Warning: Reference `sec:model' on page 27 undefined on input line 106.
+
+
+LaTeX Warning: Citation 'Wang2010' on page 27 undefined on input line 107.
+
+
+LaTeX Warning: Reference `fig:filamentation_model' on page 27 undefined on input line 107.
+
+
+LaTeX Warning: Reference `fig:filamentation_model' on page 27 undefined on input line 111.
+
+
+LaTeX Warning: Reference `fig:filamentation_model' on page 27 undefined on input line 112.
+
+[27]
+
+LaTeX Warning: Reference `fig:cefepime_comp' on page 28 undefined on input line 114.
+
+
+LaTeX Warning: Reference `fig:cefuroxime_comp' on page 28 undefined on input line 114.
+
+
+LaTeX Warning: Reference `fig:doripenem_comp' on page 28 undefined on input line 114.
+
+
+LaTeX Warning: Reference `fig:imipenem_comp' on page 28 undefined on input line 114.
+
+
+LaTeX Warning: Reference `fig:mecillinam_comp' on page 28 undefined on input line 114.
+
+
+LaTeX Warning: Reference `fig:meropenem_comp' on page 28 undefined on input line 114.
+
+
+LaTeX Warning: Reference `sec:model' on page 28 undefined on input line 116.
+
+
+LaTeX Warning: Reference `fig:sensitivity' on page 28 undefined on input line 117.
+
+
+LaTeX Warning: Reference `fig:filamentation_model' on page 28 undefined on input line 119.
+
+
+LaTeX Warning: Reference `fig:rate_plot' on page 28 undefined on input line 122.
+
+
+LaTeX Warning: Reference `sec:math' on page 28 undefined on input line 129.
+
+
+LaTeX Warning: Reference `eq:psi_J' on page 28 undefined on input line 129.
+
+
+LaTeX Warning: Reference `fig:volume_combined' on page 28 undefined on input line 130.
+
+
+LaTeX Warning: Reference `fig:volume_combined' on page 28 undefined on input line 130.
+
+
+LaTeX Warning: Reference `eq:v_sol' on page 28 undefined on input line 132.
+
+
+LaTeX Warning: Reference `sec:model' on page 28 undefined on input line 132.
+
+
+LaTeX Warning: Reference `eq:L_mini' on page 28 undefined on input line 133.
+
+
+LaTeX Warning: Reference `fig:ampicillin_comp_combined' on page 28 undefined on input line 134.
+
+
+LaTeX Warning: Reference `fig:ceftazidime_comp' on page 28 undefined on input line 134.
+
+
+LaTeX Warning: Reference `fig:ciprofloxacin_comp' on page 28 undefined on input line 134.
+
+
+LaTeX Warning: Reference `fig:meropenem_comp' on page 28 undefined on input line 134.
+
+[28]
+
+LaTeX Warning: Reference `tab:comp_stats' on page 29 undefined on input line 136.
+
+
+LaTeX Warning: Reference `eq:I_V_B' on page 29 undefined on input line 138.
+
+
+LaTeX Warning: Reference `sec:math' on page 29 undefined on input line 139.
+
 File: chapter_3/figures/sensitivity_analysis.pdf Graphic file (type pdf)
 <use chapter_3/figures/sensitivity_analysis.pdf>
 
-Underfull \hbox (badness 3281) in paragraph at lines 157--157
-[][] \TU/Optima(0)/m/sc/10 – |Simulations based on
- []
+LaTeX Warning: Reference `sec:model' on page 29 undefined on input line 157.
 
-[29] [30]
-Underfull \vbox (badness 3417) has occurred while \output is active []
 
- [31]) (./chapter_3/13_discussion.tex
+LaTeX Warning: Reference `sec:model' on page 29 undefined on input line 157.
+
+
+LaTeX Warning: Reference `eq:form_prob' on page 29 undefined on input line 164.
+
+
+LaTeX Warning: Reference `sec:math' on page 29 undefined on input line 164.
+
+
+LaTeX Warning: Reference `eq:psi_cfu' on page 29 undefined on input line 164.
+
+[29]
+
+LaTeX Warning: Citation 'Eagle1949' on page 30 undefined on input line 169.
+
+
+LaTeX Warning: Citation 'Besnard2002' on page 30 undefined on input line 170.
+
+
+LaTeX Warning: Citation 'Oliver2005' on page 30 undefined on input line 170.
+
+
+LaTeX Warning: Citation 'Li2014' on page 30 undefined on input line 170.
+
+
+LaTeX Warning: Citation 'Pearson1980' on page 30 undefined on input line 175.
+
+
+LaTeX Warning: Citation 'Eng1991' on page 30 undefined on input line 175.
+
+
+LaTeX Warning: Citation 'Coates2018' on page 30 undefined on input line 175.
+
+
+LaTeX Warning: Reference `eq:cluster_size' on page 30 undefined on input line 180.
+
+
+LaTeX Warning: Reference `fig:ciprofloxacin_comp' on page 30 undefined on input line 186.
+
+
+LaTeX Warning: Citation 'Salisbury1999' on page 30 undefined on input line 187.
+
+
+LaTeX Warning: Citation 'Marques2005' on page 30 undefined on input line 187.
+
+
+LaTeX Warning: Reference `fig:micro_cip' on page 30 undefined on input line 190.
+
+
+LaTeX Warning: Citation 'Levine1998' on page 30 undefined on input line 192.
+
+
+LaTeX Warning: Citation 'Besnard2002' on page 30 undefined on input line 193.
+
+
+LaTeX Warning: Citation 'Wu2024' on page 30 undefined on input line 193.
+
+
+LaTeX Warning: Citation 'Fanous2025' on page 30 undefined on input line 193.
+
+
+LaTeX Warning: Reference `fig:trimethoprim_comp' on page 30 undefined on input line 195.
+
+
+LaTeX Warning: Citation 'Gleckman1981' on page 30 undefined on input line 196.
+
+
+LaTeX Warning: Reference `fig:micro_tri' on page 30 undefined on input line 196.
+
+[30]
+
+LaTeX Warning: Citation 'Deslouches2005' on page 31 undefined on input line 210.
+
+
+LaTeX Warning: Reference `fig:PBS_suppl' on page 31 undefined on input line 212.
+
+
+LaTeX Warning: Reference `sec:experiments' on page 31 undefined on input line 212.
+
+
+LaTeX Warning: Reference `tab:pbs_ols' on page 31 undefined on input line 215.
+
+
+LaTeX Warning: Reference `sec:experiments' on page 31 undefined on input line 220.
+
+
+LaTeX Warning: Reference `fig:pexi_hand' on page 31 undefined on input line 226.
+
+
+LaTeX Warning: Reference `fig:pexi_hand' on page 31 undefined on input line 227.
+
+
+LaTeX Warning: Reference `fig:rate_plot' on page 31 undefined on input line 234.
+
+
+LaTeX Warning: Reference `tab:comp_stats' on page 31 undefined on input line 234.
+
+
+LaTeX Warning: Reference `fig:pex_robo' on page 31 undefined on input line 235.
+
+[31]
+
+LaTeX Warning: Reference `fig:pex_robo' on page 32 undefined on input line 243.
+
+
+LaTeX Warning: Reference `fig:pexi_hand' on page 32 undefined on input line 243.
+
+
+LaTeX Warning: Reference `sec:experiments' on page 32 undefined on input line 245.
+
+
+LaTeX Warning: Reference `fig:supernatant' on page 32 undefined on input line 246.
+
+
+LaTeX Warning: Reference `tab:supernatant' on page 32 undefined on input line 246.
+
+) (./chapter_3/13_discussion.tex
+
+LaTeX Warning: Reference `eq:form_prob' on page 32 undefined on input line 9.
+
+
+LaTeX Warning: Citation 'Eagle1949' on page 32 undefined on input line 15.
+
+
+LaTeX Warning: Citation 'Baquero1986' on page 32 undefined on input line 15.
+
+
+LaTeX Warning: Citation 'Besnard2002' on page 32 undefined on input line 15.
+
+
+LaTeX Warning: Citation 'Oliver2005' on page 32 undefined on input line 15.
+
+
+LaTeX Warning: Citation 'Li2014' on page 32 undefined on input line 15.
+
+
+LaTeX Warning: Citation 'Wu2024' on page 32 undefined on input line 15.
+
+
+LaTeX Warning: Citation 'Pearson1980' on page 32 undefined on input line 16.
+
+
+LaTeX Warning: Citation 'Eng1991' on page 32 undefined on input line 16.
+
+
+LaTeX Warning: Citation 'Coates2018' on page 32 undefined on input line 16.
+
+
 Underfull \vbox (badness 1466) has occurred while \output is active []
 
  [32]
+
+LaTeX Warning: Citation 'Deguchi2011' on page 33 undefined on input line 20.
+
+
+LaTeX Warning: Reference `eq:psi_I' on page 33 undefined on input line 27.
+
+
+LaTeX Warning: Reference `sec:math' on page 33 undefined on input line 32.
+
+
+LaTeX Warning: Citation 'Regoes2004' on page 33 undefined on input line 36.
+
+
+LaTeX Warning: Citation 'Kishony2003' on page 33 undefined on input line 36.
+
+
+LaTeX Warning: Citation 'Yeh2006' on page 33 undefined on input line 36.
+
+
+LaTeX Warning: Citation 'Foerster2016' on page 33 undefined on input line 36.
+
+
+LaTeX Warning: Citation 'Kavcic2020' on page 33 undefined on input line 36.
+
+
+LaTeX Warning: Citation 'Angermayr2022' on page 33 undefined on input line 36.
+
+
+LaTeX Warning: Citation 'Baquero1986' on page 33 undefined on input line 40.
+
+
+LaTeX Warning: Citation 'Cayron2023' on page 33 undefined on input line 40.
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [33]) (./chapter_3/14_methods.tex [34]
+ [33]) (./chapter_3/14_methods.tex
+
+LaTeX Warning: Citation 'Datsenko2000' on page 34 undefined on input line 3.
+
+
+LaTeX Warning: Citation 'Hughes2015' on page 34 undefined on input line 3.
+
+
+LaTeX Warning: Citation 'Kishony2003' on page 34 undefined on input line 4.
+
+
+LaTeX Warning: Citation 'Bjarnason2003' on page 34 undefined on input line 4.
+
+
+LaTeX Warning: Reference `tab:primers' on page 34 undefined on input line 5.
+
+
+LaTeX Warning: Citation 'EUCAST2025' on page 34 undefined on input line 11.
+
+
+LaTeX Warning: Reference `tab:drugs' on page 34 undefined on input line 11.
+
+
+LaTeX Warning: Citation 'Jett1997' on page 34 undefined on input line 20.
+
+[34]
+
+LaTeX Warning: Reference `ssec:experiments' on page 35 undefined on input line 53.
+
+
 Overfull \hbox (5.39198pt too wide) in paragraph at lines 49--54
 []\TU/Optima(0)/b/n/10 Morphology experiments.[] \TU/Optima(0)/m/sc/10 To assess treatment-induced morphological changes, we imaged treated
  []
 
-) [35]) [36]
-Missing character: There is no č in font Optima Regular/AAT:mapping=tex-text;!
-Missing character: There is no č in font Optima Regular/AAT:mapping=tex-text;!
-Missing character: There is no č in font Optima Regular/AAT:mapping=tex-text;!
- [37
-
-]
-Package biblatex Info: Reference section=0 on input line 26.
+[35])) [36]
+Package biblatex Info: Reference section=0 on input line 25.
 \blx@maxsegment@4=\count579
 \blx@sectionciteorder@4=\count580
-Package biblatex Info: Reference section=4 on input line 30.
-Package biblatex Info: Setting label 'refsection:4' on input line 30.
- (./chapter_4/ch4.tex (./commands.tex) [38]
-Overfull \hbox (10.50981pt too wide) in paragraph at lines 28--28
-\TU/Optima(0)/m/it/9 This manuscript was published as a preprint on bioRxiv on February 8, 2026 (doi: 10.64898/2026.02.07.703730)
+Package biblatex Info: Reference section=4 on input line 29.
+Package biblatex Info: Setting label 'refsection:4' on input line 29.
+ (./chapter_4/ch4.tex [37
+
+] [38
+
+]
+Overfull \hbox (11.9588pt too wide) in paragraph at lines 27--27
+\TU/Optima(0)/m/it/9 This manuscript was published as a preprint on bioRxiv on February 8, 2026 (doi: 10.64898/2026.02.07.703730). 
  []
 
-[39
+[39] (./chapter_4/11_introduction.tex
 
-] (./chapter_4/11_introduction.tex [40
+LaTeX Warning: Citation 'Naghavi2024' on page 40 undefined on input line 3.
 
-]) (./chapter_4/12_results.tex
+
+LaTeX Warning: Citation 'Witzany2020' on page 40 undefined on input line 4.
+
+
+LaTeX Warning: Citation 'Gulick1997' on page 40 undefined on input line 8.
+
+
+LaTeX Warning: Citation 'Goldberg2012' on page 40 undefined on input line 8.
+
+
+LaTeX Warning: Citation 'Bonhoeffer1997' on page 40 undefined on input line 9.
+
+
+LaTeX Warning: Citation 'Tepekule2017' on page 40 undefined on input line 9.
+
+
+LaTeX Warning: Citation 'Uecker2021' on page 40 undefined on input line 9.
+
+
+LaTeX Warning: Citation 'Angst2021' on page 40 undefined on input line 9.
+
+
+LaTeX Warning: Citation 'Muetter2024' on page 40 undefined on input line 9.
+
+
+LaTeX Warning: Citation 'Siedentop2024' on page 40 undefined on input line 10.
+
+
+Overfull \hbox (20.398pt too wide) in paragraph at lines 8--11
+\TU/Optima(0)/m/sc/10 pathogens, such as HIV, malaria, and tuberculosis, is combination therapy [[], []].
+ []
+
+
+LaTeX Warning: Citation 'Siedentop2024' on page 40 undefined on input line 13.
+
+
+LaTeX Warning: Citation 'Foucquier2015' on page 40 undefined on input line 16.
+
+
+LaTeX Warning: Citation 'Duarte2022' on page 40 undefined on input line 16.
+
+
+LaTeX Warning: Citation 'Bliss1939' on page 40 undefined on input line 17.
+
+
+LaTeX Warning: Citation 'Loewe1926' on page 40 undefined on input line 17.
+
+
+LaTeX Warning: Citation 'Bliss1939' on page 40 undefined on input line 21.
+
+
+LaTeX Warning: Citation 'Baeder2016' on page 40 undefined on input line 25.
+
+
+LaTeX Warning: Citation 'Frei1913' on page 40 undefined on input line 29.
+
+
+LaTeX Warning: Citation 'Loewe1926' on page 40 undefined on input line 29.
+
+
+LaTeX Warning: Citation 'Loewe1926' on page 40 undefined on input line 30.
+
+
+LaTeX Warning: Citation 'Yeh2006' on page 40 undefined on input line 43.
+
+
+LaTeX Warning: Citation 'OShaughnessy2006' on page 40 undefined on input line 43.
+
+
+LaTeX Warning: Citation 'Chevereau2015' on page 40 undefined on input line 43.
+
+
+LaTeX Warning: Citation 'Russ2018' on page 40 undefined on input line 43.
+
+
+LaTeX Warning: Citation 'Katzir2019' on page 40 undefined on input line 43.
+
+
+LaTeX Warning: Citation 'Kavcic2020' on page 40 undefined on input line 43.
+
+
+LaTeX Warning: Citation 'Rezzoagli2020' on page 40 undefined on input line 43.
+
+
+LaTeX Warning: Citation 'Sanchez-Hevia2025' on page 40 undefined on input line 43.
+
+
+LaTeX Warning: Citation 'huntelman2023' on page 40 undefined on input line 43.
+
+
+LaTeX Warning: Citation 'Yang2017' on page 40 undefined on input line 43.
+
+
+LaTeX Warning: Citation 'Ruden2019' on page 40 undefined on input line 43.
+
+
+LaTeX Warning: Citation 'Liu2022' on page 40 undefined on input line 43.
+
+
+LaTeX Warning: Citation 'Rao2017' on page 40 undefined on input line 44.
+
+
+LaTeX Warning: Citation 'Yu2016' on page 40 undefined on input line 44.
+
+
+LaTeX Warning: Citation 'Caballero2018' on page 40 undefined on input line 44.
+
+
+LaTeX Warning: Citation 'Chen2020' on page 40 undefined on input line 44.
+
+
+LaTeX Warning: Citation 'Bognar2024' on page 40 undefined on input line 45.
+
+
+LaTeX Warning: Citation 'Yu2018' on page 40 undefined on input line 46.
+
+
+Overfull \hbox (13.162pt too wide) in paragraph at lines 43--47
+\TU/Optima(0)/m/sc/10 [[], [], [], [], [], [], [],
+ []
+
+
+Overfull \hbox (4.3884pt too wide) in paragraph at lines 43--47
+[]\TU/Optima(0)/m/sc/10 , []]) and at the MIC level (e.g. [[], [], []]).
+ []
+
+[40
+
+]
+
+LaTeX Warning: Citation 'Chou1984' on page 41 undefined on input line 49.
+
+
+LaTeX Warning: Citation 'OShaughnessy2006' on page 41 undefined on input line 49.
+
+
+LaTeX Warning: Citation 'Meletiadis2007' on page 41 undefined on input line 49.
+
+
+LaTeX Warning: Citation 'Rezzoagli2020' on page 41 undefined on input line 49.
+
+
+LaTeX Warning: Citation 'Kavcic2021' on page 41 undefined on input line 49.
+
+) (./chapter_4/12_results.tex
+
+LaTeX Warning: Reference `fig:single-timecourses' on page 41 undefined on input line 5.
+
 File: chapter_4/figures/peptide_interaction.pdf Graphic file (type pdf)
 <use chapter_4/figures/peptide_interaction.pdf>
 
-Underfull \hbox (badness 2293) in paragraph at lines 23--23
-\TU/Optima(0)/m/sc/10 and untreated control trajectories,
+Underfull \hbox (badness 2538) in paragraph at lines 23--23
+[][] \TU/Optima(0)/m/sc/10 – |Panel (a) shows the
  []
 
 
-Underfull \hbox (badness 1577) in paragraph at lines 23--23
-\TU/Optima(0)/m/sc/10 terquartile range across biological
+Underfull \hbox (badness 10000) in paragraph at lines 23--23
+\TU/Optima(0)/m/sc/10 together with the corresponding
  []
 
 
-Underfull \hbox (badness 1377) in paragraph at lines 23--23
-\TU/Optima(0)/m/sc/10 transformed signal $[][][][] [] [][][][][][][]$
+Underfull \hbox (badness 2726) in paragraph at lines 23--23
+\TU/Optima(0)/m/sc/10 single-drug and untreated control
  []
 
 
-Underfull \hbox (badness 1320) in paragraph at lines 23--23
-\TU/Optima(0)/m/sc/10 for the untreated control and the
+Underfull \hbox (badness 10000) in paragraph at lines 23--23
+\TU/Optima(0)/m/sc/10 trajectories, with shaded bands
  []
 
 
-Underfull \hbox (badness 1314) in paragraph at lines 23--23
-\TU/Optima(0)/m/sc/10 (a), together with their associated
+Underfull \hbox (badness 5091) in paragraph at lines 23--23
+\TU/Optima(0)/m/sc/10 indicating the interquartile range
  []
 
 
-Underfull \hbox (badness 1005) in paragraph at lines 23--23
-\TU/Optima(0)/m/sc/10 areas under the curve. Panel (c)
+Underfull \hbox (badness 2495) in paragraph at lines 23--23
+[][][][] [] [][][][][][][]$ \TU/Optima(0)/m/sc/10 for the untreated
  []
 
-[41]
+
+Underfull \hbox (badness 4899) in paragraph at lines 23--23
+\TU/Optima(0)/m/sc/10 their associated areas under the
+ []
+
+
+Underfull \hbox (badness 1024) in paragraph at lines 23--23
+\TU/Optima(0)/m/sc/10 curve. Panel (c) shows a simple
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--23
+\TU/Optima(0)/m/sc/10 illustrating qualitatively distinct
+ []
+
+
+Underfull \hbox (badness 4391) in paragraph at lines 23--23
+\TU/Optima(0)/m/sc/10 dynamics under: no drugs, an-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--23
+\TU/Optima(0)/m/sc/10 tibiotic (slow constant decline),
+ []
+
+
+LaTeX Warning: Citation 'Regoes2004' on page 41 undefined on input line 31.
+
+
+LaTeX Warning: Citation 'Yeh2006' on page 41 undefined on input line 31.
+
+
+LaTeX Warning: Citation 'Chevereau2015a' on page 41 undefined on input line 31.
+
+
+LaTeX Warning: Citation 'Yu2016' on page 41 undefined on input line 31.
+
+
+LaTeX Warning: Citation 'MacGowan2000' on page 41 undefined on input line 31.
+
+
+LaTeX Warning: Citation 'Lenhard2015' on page 41 undefined on input line 31.
+
+
+LaTeX Warning: Citation 'Rao2017' on page 41 undefined on input line 31.
+
+
+LaTeX Warning: Citation 'Caballero2018' on page 41 undefined on input line 31.
+
+
+LaTeX Warning: Citation 'Chen2020' on page 41 undefined on input line 31.
+
+
+LaTeX Warning: Citation 'Sanchez-Hevia2025' on page 41 undefined on input line 31.
+
+
+LaTeX Warning: Reference `fig:peptide-interactions' on page 41 undefined on input line 34.
+
+
+Overfull \hbox (5.2911pt too wide) in paragraph at lines 30--35
+\TU/Optima(0)/m/sc/10 [[], [], [], [], [], []]. Rate-
+ []
+
+
+LaTeX Warning: Reference `eq:psi_weighted' on page 41 undefined on input line 36.
+
+
+LaTeX Warning: Reference `eq:Ydef' on page 41 undefined on input line 38.
+
+
+LaTeX Warning: Reference `fig:peptide-interactions' on page 41 undefined on input line 39.
+
+
+LaTeX Warning: Reference `fig:psi_chl_tet' on page 41 undefined on input line 41.
+
+
+LaTeX Warning: Reference `fig:psi' on page 41 undefined on input line 42.
+
+
+LaTeX Warning: Reference `fig:single-pdcurves' on page 41 undefined on input line 44.
+
+
+Underfull \vbox (badness 1466) has occurred while \output is active []
+
+ [41]
+
+LaTeX Warning: Reference `ssec:bootstrap_interactions' on page 42 undefined on input line 46.
+
 File: chapter_4/figures/psi_chloramphenicol_tetracycline.pdf Graphic file (type pdf)
 <use chapter_4/figures/psi_chloramphenicol_tetracycline.pdf>
 
-Underfull \hbox (badness 1033) in paragraph at lines 60--60
-\TU/Optima(0)/m/sc/10 biological replicates. Markers de-
- []
+LaTeX Warning: Reference `ssec:bliss' on page 42 undefined on input line 66.
 
-[42] [43]
+
+LaTeX Warning: Reference `eq:bliss_prob' on page 42 undefined on input line 67.
+
+
+LaTeX Warning: Reference `fig:peptide-interactions' on page 42 undefined on input line 77.
+
+
+LaTeX Warning: Reference `fig:peptide-interactions' on page 42 undefined on input line 81.
+
+
+LaTeX Warning: Reference `eq:effective_psi' on page 42 undefined on input line 82.
+
+
+LaTeX Warning: Reference `ssec:toy_model' on page 42 undefined on input line 82.
+
+[42]
+
+LaTeX Warning: Reference `eq:mu' on page 43 undefined on input line 85.
+
+
+LaTeX Warning: Reference `eq:fici' on page 43 undefined on input line 87.
+
+
+LaTeX Warning: Reference `eq:psi_inverse_closed_form' on page 43 undefined on input line 88.
+
+
+LaTeX Warning: Reference `fig:mu_interaction_heatmap' on page 43 undefined on input line 90.
+
+
+LaTeX Warning: Reference `fig:fici_interaction_heatmap' on page 43 undefined on input line 90.
+
+
+LaTeX Warning: Reference `tab:pd_curve_parameter' on page 43 undefined on input line 97.
+
+
+LaTeX Warning: Reference `eq:weights' on page 43 undefined on input line 99.
+
+
+LaTeX Warning: Reference `fig:interation-distributions' on page 43 undefined on input line 102.
+
+
+LaTeX Warning: Reference `tab:intearction_summary' on page 43 undefined on input line 102.
+
+[43]
 File: chapter_4/figures/distributions_triptych.pdf Graphic file (type pdf)
 <use chapter_4/figures/distributions_triptych.pdf>
- [44]
+
+
+LaTeX Warning: Reference `fig:interation-distributions' on page 44 undefined on input line 133.
+
+
+LaTeX Warning: Reference `fig:si-loewe-vs-bliss-2d' on page 44 undefined on input line 134.
+
+
+LaTeX Warning: Reference `fig:interation-distributions' on page 44 undefined on input line 135.
+
+
+LaTeX Warning: Reference `eq:polar_coordinates' on page 44 undefined on input line 143.
+
+[44]
+
+LaTeX Warning: Reference `fig:surface_psi' on page 45 undefined on input line 145.
+
+
+LaTeX Warning: Reference `fig:surface_plots' on page 45 undefined on input line 149.
+
+
+LaTeX Warning: Reference `fig:surface_plots' on page 45 undefined on input line 150.
+
+
+LaTeX Warning: Reference `fig:surface_pd' on page 45 undefined on input line 151.
+
+
+LaTeX Warning: Reference `fig:surface_isoboles' on page 45 undefined on input line 154.
+
+
+LaTeX Warning: Reference `fig:surface_plots' on page 45 undefined on input line 156.
+
+
+LaTeX Warning: Reference `fig:surface_plots' on page 45 undefined on input line 157.
+
+
+LaTeX Warning: Reference `fig:surface_angular_interaction' on page 45 undefined on input line 158.
+
 File: chapter_4/figures/surface_plot.pdf Graphic file (type pdf)
 <use chapter_4/figures/surface_plot.pdf>
 
-Underfull \hbox (badness 3872) in paragraph at lines 175--175
-\TU/Optima(0)/m/sc/10 for (a) AMO+COL and (b)
+Underfull \hbox (badness 10000) in paragraph at lines 175--175
+\TU/Optima(0)/m/it/10 polar pharmacodynamic
  []
 
 
-Underfull \hbox (badness 3579) in paragraph at lines 175--175
-\TU/Optima(0)/m/sc/10 corresponds to both single-
+Underfull \hbox (badness 7869) in paragraph at lines 175--175
+\TU/Optima(0)/m/sc/10 (b) AMO+PEN. The x-axis
  []
 
 
-Underfull \hbox (badness 1117) in paragraph at lines 175--175
-\TU/Optima(0)/m/sc/10 Bliss- and Loewe-based pre-
+Underfull \hbox (badness 10000) in paragraph at lines 175--175
+\TU/Optima(0)/m/sc/10 line) corresponds to both
  []
 
 
-Underfull \hbox (badness 2884) in paragraph at lines 175--175
-\TU/Optima(0)/m/sc/10 ing angle $[]$ along the ob-
+Underfull \hbox (badness 10000) in paragraph at lines 175--175
+\TU/Optima(0)/m/sc/10 single-drug doses equaling
+ []
+
+
+Underfull \hbox (badness 1552) in paragraph at lines 175--175
+\TU/Optima(0)/m/sc/10 dashed line) corresponds to
+ []
+
+
+Underfull \hbox (badness 8170) in paragraph at lines 175--175
+\TU/Optima(0)/m/sc/10 (c,d) show the Bliss- and
+ []
+
+
+Underfull \hbox (badness 1776) in paragraph at lines 175--175
+\TU/Optima(0)/m/sc/10 Loewe-based predictions for
+ []
+
+
+Underfull \hbox (badness 1107) in paragraph at lines 175--175
+[]$ \TU/Optima(0)/m/sc/10 over the mixing angle $[]$
  []
 
 ) (./chapter_4/13_discussion.tex
-Underfull \vbox (badness 1033) has occurred while \output is active []
 
- [45])
+LaTeX Warning: Citation 'Wu2024' on page 45 undefined on input line 2.
+
+
+LaTeX Warning: Citation 'Muetter2026' on page 45 undefined on input line 2.
+
+
+LaTeX Warning: Citation 'Muetter2026' on page 45 undefined on input line 5.
+
+
+LaTeX Warning: Citation 'Muetter2026' on page 45 undefined on input line 6.
+
+
+Underfull \vbox (badness 1424) has occurred while \output is active []
+
+ [45]
+
+LaTeX Warning: Reference `fig:surface_isoboles' on page 46 undefined on input line 16.
+
+
+LaTeX Warning: Reference `fig:surface_angular_interaction' on page 46 undefined on input line 21.
+
+
+LaTeX Warning: Citation 'Meyer2019' on page 46 undefined on input line 24.
+
+
+LaTeX Warning: Reference `fig:fici_interaction_heatmap' on page 46 undefined on input line 26.
+
+
+LaTeX Warning: Citation 'Vlot2019' on page 46 undefined on input line 28.
+
+)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [46] (./chapter_4/14_methods.tex (./chapter_4/tables/drug_table.tex
+ [46] (./chapter_4/14_methods.tex
+
+LaTeX Warning: Citation 'Muetter2026' on page 47 undefined on input line 3.
+
+
+LaTeX Warning: Reference `tab:drugs_ch4' on page 47 undefined on input line 7.
+
+(./chapter_4/tables/drug_table.tex
 Overfull \hbox (6.15096pt too wide) in paragraph at lines 6--7
 []|\TU/Optima(0)/m/n/9 ThermoFischer,
  []
@@ -4621,52 +5341,206 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--12
 []|\TU/Optima(0)/m/n/9 Sigma,
  []
 
-) [47] [48])) [49] [50]
-Missing character: There is no č in font Optima Regular/AAT:mapping=tex-text;!
-Missing character: There is no č in font Optima Regular/AAT:mapping=tex-text;!
-Missing character: There is no č in font Optima Regular/AAT:mapping=tex-text;!
- [51
+) [47]
 
-]
-Missing character: There is no č in font Optima Regular/AAT:mapping=tex-text;!
-Missing character: There is no č in font Optima Regular/AAT:mapping=tex-text;!
-Missing character: There is no č in font Optima Regular/AAT:mapping=tex-text;!
-Package biblatex Info: Reference section=0 on input line 30.
+LaTeX Warning: Reference `fig:light_distribution' on page 48 undefined on input line 38.
+
+
+LaTeX Warning: Reference `eq:noise_corr' on page 48 undefined on input line 38.
+
+
+LaTeX Warning: Reference `ssec:lightnoise' on page 48 undefined on input line 44.
+
+
+LaTeX Warning: Reference `eq:psi_weighted' on page 48 undefined on input line 47.
+
+
+LaTeX Warning: Reference `eq:norm' on page 48 undefined on input line 48.
+
+
+LaTeX Warning: Reference `eq:Ydef' on page 48 undefined on input line 48.
+
+
+LaTeX Warning: Reference `fig:psi_chl_tet' on page 48 undefined on input line 59.
+
+
+LaTeX Warning: Reference `fig:psi' on page 48 undefined on input line 59.
+
+
+LaTeX Warning: Reference `eq:single_drug_pd' on page 48 undefined on input line 69.
+
+
+LaTeX Warning: Reference `eq:intYdiff' on page 48 undefined on input line 72.
+
+
+LaTeX Warning: Reference `fig:peptide-interactions' on page 48 undefined on input line 73.
+
+
+LaTeX Warning: Reference `ssec:bootstrap_interactions' on page 48 undefined on input line 74.
+
+[48]
+
+LaTeX Warning: Reference `ssec:bliss' on page 49 undefined on input line 80.
+
+
+LaTeX Warning: Reference `eq:tau_bliss_main' on page 49 undefined on input line 80.
+
+
+LaTeX Warning: Reference `ssec:loewe' on page 49 undefined on input line 90.
+
+
+LaTeX Warning: Citation 'Chou1984' on page 49 undefined on input line 102.
+
+
+LaTeX Warning: Reference `eq:psi_inverse_closed_form' on page 49 undefined on input line 102.
+
+
+LaTeX Warning: Reference `tab:drugs_ch4' on page 49 undefined on input line 106.
+
+
+LaTeX Warning: Reference `ssec:inoculum' on page 49 undefined on input line 120.
+
+
+LaTeX Warning: Reference `fig:inoculum' on page 49 undefined on input line 121.
+
+
+LaTeX Warning: Reference `fig:single-pdcurves' on page 49 undefined on input line 122.
+
+)) [49] [50]
+Package biblatex Info: Reference section=0 on input line 29.
 \blx@maxsegment@5=\count581
 \blx@sectionciteorder@5=\count582
-Package biblatex Info: Reference section=5 on input line 34.
-Package biblatex Info: Setting label 'refsection:5' on input line 34.
- (./chapter_5/ch5.tex [52] [53
+Package biblatex Info: Reference section=5 on input line 33.
+Package biblatex Info: Setting label 'refsection:5' on input line 33.
+ (./chapter_5/ch5.tex [51
 
-]) [54]
-Package biblatex Info: Reference section=0 on input line 34.
+] [52
+
+]
+
+LaTeX Warning: Citation 'Bonhoeffer1997' on page 53 undefined on input line 15.
+
+
+LaTeX Warning: Citation 'Tepekule2017' on page 53 undefined on input line 15.
+
+
+LaTeX Warning: Citation 'Angst2021' on page 53 undefined on input line 15.
+
+
+LaTeX Warning: Citation 'Sutter2016' on page 53 undefined on input line 17.
+
+
+LaTeX Warning: Citation 'Tepekule2017' on page 53 undefined on input line 27.
+
+
+LaTeX Warning: Citation 'Paul2014' on page 53 undefined on input line 31.
+
+[53]
+
+LaTeX Warning: Citation 'Chait2007' on page 54 undefined on input line 50.
+
+
+LaTeX Warning: Citation 'Agerso2012' on page 54 undefined on input line 59.
+
+
+LaTeX Warning: Citation 'Vellefaux2012' on page 54 undefined on input line 59.
+
+
+LaTeX Warning: Citation 'Edgeworth2020' on page 54 undefined on input line 59.
+
+
+LaTeX Warning: Citation 'Schwaber2011' on page 54 undefined on input line 59.
+
+
+LaTeX Warning: Citation 'Kyaw2006' on page 54 undefined on input line 59.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [54]) [55]
+Package biblatex Info: Reference section=0 on input line 33.
 \blx@maxsegment@6=\count583
 \blx@sectionciteorder@6=\count584
-Package biblatex Info: Reference section=6 on input line 38.
-Package biblatex Info: Setting label 'refsection:6' on input line 38.
- (./chapter_2_sup/ch2_sup.tex (./settings/si_settings.tex) (./chapter_2_sup/commands.tex
+Package biblatex Info: Reference section=6 on input line 37.
+Package biblatex Info: Setting label 'refsection:6' on input line 37.
+ (./chapter_2_sup/ch2_sup.tex (./chapter_2_sup/commands.tex
 \tikzbox=\box101
-) [55
+) [56
 
-] [56
+] [57
 
-] [57] (./chapter_2_sup/SI_text.tex
+] (./chapter_2_sup/SI_text.tex
+
+LaTeX Warning: Citation 'Sutter2016' on page 58 undefined on input line 6.
+
+
+LaTeX Warning: Citation 'Huisman2022' on page 58 undefined on input line 6.
+
+
+LaTeX Warning: Citation 'Feher2012' on page 58 undefined on input line 12.
+
+
+LaTeX Warning: Citation 'Carattoli2005' on page 58 undefined on input line 16.
+
+
 Overfull \hbox (31.08662pt too wide) in paragraph at lines 12--17
 []\TU/Optima(0)/m/sc/10 The two plasmids were transferred by conjugation from the original clinical isolates to the chloramphenicol-
  []
+
+
+LaTeX Warning: Citation 'Sutter2016' on page 58 undefined on input line 27.
+
+
+LaTeX Warning: Citation 'Huisman2022Conjugation' on page 58 undefined on input line 27.
+
+
+LaTeX Warning: Citation 'Feher2012' on page 58 undefined on input line 27.
+
+
+LaTeX Warning: Citation 'Carattoli2005' on page 58 undefined on input line 31.
 
 
 Overfull \hbox (5.82333pt too wide) in paragraph at lines 27--32
 []\TU/Optima(0)/b/n/10 Conjugation Protocol.[][] \TU/Optima(0)/m/sc/10 We used ampicillin-resistant and chloramphenicol-sensitive original donors
  []
 
+
+LaTeX Warning: Citation 'Virtanen2020' on page 58 undefined on input line 38.
+
 [58
 
-] [59]
+]
+
+LaTeX Warning: Citation 'Virtanen2020' on page 59 undefined on input line 48.
+
+[59]
 Underfull \vbox (badness 2460) has occurred while \output is active []
 
- [60] [61] [62]
-Underfull \vbox (badness 4096) has occurred while \output is active []
+ [60]
+
+LaTeX Warning: Citation 'Virtanen2020' on page 61 undefined on input line 131.
+
+
+LaTeX Warning: Citation 'seabold2010statsmodels' on page 61 undefined on input line 131.
+
+[61]
+
+LaTeX Warning: Citation 'Cates1951' on page 62 undefined on input line 179.
+
+
+LaTeX Warning: Citation 'Jawetz1957' on page 62 undefined on input line 179.
+
+
+LaTeX Warning: Citation 'Ocampo2014' on page 62 undefined on input line 179.
+
+
+LaTeX Warning: Citation 'Angermayr2022' on page 62 undefined on input line 180.
+
+
+Underfull \vbox (badness 2781) has occurred while \output is active []
+
+ [62]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [63] [64]) [65] (./chapter_2_sup/SI_figures.tex
 File: chapter_2_sup/figures/setup.pdf Graphic file (type pdf)
@@ -4695,7 +5569,7 @@ Overfull \hbox (10.0pt too wide) in paragraph at lines 59--59
 File: chapter_2_sup/figures/plasmid_costs.pdf Graphic file (type pdf)
 <use chapter_2_sup/figures/plasmid_costs.pdf>
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--81
+Underfull \hbox (badness 1107) in paragraph at lines 81--81
 [][] \TU/Optima(0)/m/sc/10 – |Maximum growth
  []
 
@@ -4705,33 +5579,8 @@ Underfull \hbox (badness 1365) in paragraph at lines 81--81
  []
 
 
-Underfull \hbox (badness 1558) in paragraph at lines 81--81
-\TU/Optima(0)/m/sc/10 OD-growth curves. Each dot
- []
-
-
-Underfull \hbox (badness 5175) in paragraph at lines 81--81
-\TU/Optima(0)/m/sc/10 represents an individual well,
- []
-
-
-Underfull \hbox (badness 2529) in paragraph at lines 81--81
-\TU/Optima(0)/m/sc/10 and vertical bars indicate the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 81--81
-\TU/Optima(0)/m/sc/10 pairwise comparisons to the
- []
-
-
-Underfull \hbox (badness 1852) in paragraph at lines 81--81
-\TU/Optima(0)/m/sc/10 with the Bonferroni correction
- []
-
-
-Underfull \hbox (badness 1259) in paragraph at lines 81--81
-\TU/Optima(0)/m/sc/10 in growth rates. All pairwise
+Underfull \hbox (badness 3439) in paragraph at lines 81--81
+\TU/Optima(0)/m/sc/10 The sensitive strain was used
  []
 
 File: chapter_2_sup/figures/20210417_timeplot_clean.pdf Graphic file (type pdf)
@@ -4740,7 +5589,25 @@ File: chapter_2_sup/figures/wins_and_losses_clean_preexisting.pdf Graphic file (
 <use chapter_2_sup/figures/wins_and_losses_clean_preexisting.pdf>
 File: chapter_2_sup/figures/wins_and_losses_clean_no_preex.pdf Graphic file (type pdf)
 <use chapter_2_sup/figures/wins_and_losses_clean_no_preex.pdf>
-) [66] [67] [68] [69] [70] [71] (./chapter_2_sup/SI_tables.tex (./chapter_2_sup/tables/man_ferroni.tex) (./chapter_2_sup/tables/loss_data.tex)
+) [66] [67] [68] [69] [70] [71] (./chapter_2_sup/SI_tables.tex
+
+LaTeX Warning: Citation 'Feher2012' on page 72 undefined on input line 19.
+
+
+LaTeX Warning: Citation 'Huisman2022' on page 72 undefined on input line 20.
+
+
+LaTeX Warning: Citation 'Huisman2022' on page 72 undefined on input line 21.
+
+
+LaTeX Warning: Citation 'Huisman2022' on page 72 undefined on input line 22.
+
+
+Overfull \hbox (20.53796pt too wide) in paragraph at lines 15--25
+ [][] 
+ []
+
+(./chapter_2_sup/tables/man_ferroni.tex) (./chapter_2_sup/tables/loss_data.tex)
 Overfull \hbox (10.0392pt too wide) in paragraph at lines 1--45
  [][] 
  []
@@ -4751,7 +5618,7 @@ Underfull \hbox (badness 1014) in paragraph at lines 86--86
  []
 
 
-Underfull \hbox (badness 2799) in paragraph at lines 124--124
+Underfull \hbox (badness 1331) in paragraph at lines 124--124
 [][] \TU/Optima(0)/m/sc/10 – |\TU/Optima(0)/b/n/10 Mixing rules.
  []
 
@@ -4776,14 +5643,17 @@ Overfull \hbox (9.02698pt too wide) in paragraph at lines 1--160
  []
 
 (./chapter_2_sup/tables/win_loss_statistic_preexisting.tex) (./chapter_2_sup/tables/win_loss_statistic_no_preex.tex) (./chapter_2_sup/tables/win_loss_statistic_clean_preexisting.tex) (./chapter_2_sup/tables/win_loss_statistic_clean_no_preex.tex) (./chapter_2_sup/tables/20210417U_anova.tex) (./chapter_2_sup/tables/20210417U_tukey.tex) (./chapter_2_sup/tables/20210417single_anova.tex) (./chapter_2_sup/tables/20210417single_tukey.tex) (./chapter_2_sup/tables/20210417double_anova.tex) (./chapter_2_sup/tables/20210417double_tukey.tex) (./chapter_2_sup/tables/20220127U_anova.tex) (./chapter_2_sup/tables/20220127U_tukey.tex) (./chapter_2_sup/tables/20220127single_anova.tex) (./chapter_2_sup/tables/20220127single_tukey.tex) (./chapter_2_sup/tables/20220127double_anova.tex) (./chapter_2_sup/tables/20220412U_anova.tex) (./chapter_2_sup/tables/20220412U_tukey.tex) (./chapter_2_sup/tables/20220412single_anova.tex) (./chapter_2_sup/tables/20220412single_tukey.tex) (./chapter_2_sup/tables/20220412double_anova.tex) (./chapter_2_sup/tables/20220412double_tukey.tex) (./chapter_2_sup/tables/emergence_anova.tex) (./chapter_2_sup/tables/emergence_tukey.tex) (./chapter_2_sup/tables/superinfection_anova.tex) (./chapter_2_sup/tables/superinfection_tukey.tex) (./chapter_2_sup/tables/treatment_emergence_anova.tex) (./chapter_2_sup/tables/treatment_emergence_tukey.tex))) [72] [73] [74] [75] [76] [77] [78] [79] [80] [81] [82] [83] [84]
-Package biblatex Info: Reference section=0 on input line 38.
+
+LaTeX Warning: Empty bibliography on input line 37.
+
+Package biblatex Info: Reference section=0 on input line 37.
 \blx@maxsegment@7=\count585
 \blx@sectionciteorder@7=\count586
-Package biblatex Info: Reference section=7 on input line 39.
-Package biblatex Info: Setting label 'refsection:7' on input line 39.
- (./chapter_3sup/ch3_sup.tex (./commands.tex) (./settings/si_settings.tex)
+Package biblatex Info: Reference section=7 on input line 38.
+Package biblatex Info: Setting label 'refsection:7' on input line 38.
+(./chapter_3sup/ch3_sup.tex
 \draftwidth=\skip380
- (./settings/si_settings.tex) [85
+ [85
 
 
 
@@ -4791,7 +5661,105 @@ Package biblatex Info: Setting label 'refsection:7' on input line 39.
 
 ] [87] (./chapter_3sup/si_text.tex [88
 
-] [89] [90] [91] [92] [93] [94] [95] [96]) (./chapter_3sup/si_tables.tex [97] (./chapter_3sup/tables/drug_table.tex
+]
+
+LaTeX Warning: Reference `eq:psi_I' on page 89 undefined on input line 98.
+
+[89]
+
+LaTeX Warning: Reference `eq:theta' on page 90 undefined on input line 163.
+
+[90]
+
+LaTeX Warning: Reference `eq:psi_V_B' on page 91 undefined on input line 168.
+
+
+LaTeX Warning: Reference `eq:psi_L_V' on page 91 undefined on input line 168.
+
+
+LaTeX Warning: Citation 'Coates2018' on page 91 undefined on input line 175.
+
+
+LaTeX Warning: Citation 'Novozhilov2006' on page 91 undefined on input line 175.
+
+
+LaTeX Warning: Citation 'Kendall1948' on page 91 undefined on input line 175.
+
+
+LaTeX Warning: Citation 'Feller1939' on page 91 undefined on input line 175.
+
+
+LaTeX Warning: Citation 'Coates2018' on page 91 undefined on input line 177.
+
+[91]
+
+LaTeX Warning: Reference `fig:colony_formation' on page 92 undefined on input line 230.
+
+[92]
+
+LaTeX Warning: Reference `eq:dbdt' on page 93 undefined on input line 336.
+
+
+LaTeX Warning: Reference `eq:dVdt' on page 93 undefined on input line 342.
+
+[93]
+
+LaTeX Warning: Reference `eq:v_sol' on page 94 undefined on input line 365.
+
+
+LaTeX Warning: Reference `eq:v_model' on page 94 undefined on input line 371.
+
+
+LaTeX Warning: Reference `eq:I_vol' on page 94 undefined on input line 378.
+
+
+LaTeX Warning: Reference `eq:lnI' on page 94 undefined on input line 403.
+
+
+LaTeX Warning: Reference `eq:I_star' on page 94 undefined on input line 403.
+
+
+LaTeX Warning: Reference `eq:L_mini' on page 94 undefined on input line 415.
+
+[94]
+
+LaTeX Warning: Reference `fig:SOS' on page 95 undefined on input line 436.
+
+
+LaTeX Warning: Reference `fig:SOS' on page 95 undefined on input line 437.
+
+
+LaTeX Warning: Reference `fig:SOS' on page 95 undefined on input line 437.
+
+
+LaTeX Warning: Reference `fig:SOS' on page 95 undefined on input line 438.
+
+
+LaTeX Warning: Reference `fig:micro_ctrl0' on page 95 undefined on input line 445.
+
+
+LaTeX Warning: Reference `fig:micro_tri' on page 95 undefined on input line 445.
+
+
+LaTeX Warning: Citation 'soft_code' on page 95 undefined on input line 449.
+
+[95]
+
+LaTeX Warning: Reference `fig:PBS_suppl' on page 96 undefined on input line 462.
+
+
+LaTeX Warning: Reference `tab:pbs_ols' on page 96 undefined on input line 465.
+
+
+LaTeX Warning: Reference `fig:pexi_hand' on page 96 undefined on input line 478.
+
+
+LaTeX Warning: Reference `fig:supernatant' on page 96 undefined on input line 499.
+
+
+LaTeX Warning: Reference `tab:supernatant' on page 96 undefined on input line 499.
+
+[96]) (./chapter_3sup/si_tables.tex [97] (./chapter_3sup/tables/drug_table.tex
 
 LaTeX Font Warning: Font shape `TU/phv/b/n' undefined
 (Font)              using `TU/phv/m/n' instead on input line 10.
@@ -4842,23 +5810,8 @@ Overfull \hbox (40.95001pt too wide) in paragraph at lines 66--75
 File: chapter_3sup/figures/linearity.pdf Graphic file (type pdf)
 <use chapter_3sup/figures/linearity.pdf>
 
-Underfull \hbox (badness 2326) in paragraph at lines 16--16
-[][] \TU/Optima(0)/m/sc/10 – |Light intensity scales linearly
- []
-
-
-Underfull \hbox (badness 4303) in paragraph at lines 16--16
-\TU/Optima(0)/m/sc/10 with bacterial density. Serial tenfold
- []
-
-
-Underfull \hbox (badness 1237) in paragraph at lines 16--16
-\TU/Optima(0)/m/sc/10 dilutions of bacterial cultures were pre-
- []
-
-
-Underfull \hbox (badness 3209) in paragraph at lines 16--16
-\TU/Optima(0)/m/sc/10 pared in a 384‐well white microplate,
+Underfull \hbox (badness 4872) in paragraph at lines 16--16
+[][] \TU/Optima(0)/m/sc/10 – |Light intensity scales lin-
  []
 
 
@@ -4878,17 +5831,22 @@ File: chapter_3sup/figures/ampicillin_low_comp.pdf Graphic file (type pdf)
 File: chapter_3sup/figures/cefepime_comp.pdf Graphic file (type pdf)
 <use chapter_3sup/figures/cefepime_comp.pdf>
 
-Underfull \hbox (badness 5022) in paragraph at lines 50--50
-\TU/Optima(0)/m/sc/10 above their respective detection limits
+Underfull \hbox (badness 2310) in paragraph at lines 50--50
+[][] \TU/Optima(0)/m/sc/10 – |Cefepime. The CFU sig-
+ []
+
+
+Underfull \hbox (badness 3240) in paragraph at lines 50--50
+\TU/Optima(0)/m/sc/10 points above their respective detection
+ []
+
+
+Underfull \hbox (badness 2269) in paragraph at lines 50--50
+\TU/Optima(0)/m/sc/10 linear fits to the corresponding signals.
  []
 
 File: chapter_3sup/figures/ceftazidime_comp.pdf Graphic file (type pdf)
 <use chapter_3sup/figures/ceftazidime_comp.pdf>
-
-Underfull \hbox (badness 3168) in paragraph at lines 57--57
-[][] \TU/Optima(0)/m/sc/10 – |Ceftazidime. The CFU sig-
- []
-
 
 Underfull \hbox (badness 1817) in paragraph at lines 57--57
 \TU/Optima(0)/m/sc/10 fits to the corresponding signals. The
@@ -4901,20 +5859,10 @@ Underfull \hbox (badness 3271) in paragraph at lines 57--57
 
 File: chapter_3sup/figures/cefuroxime_comp.pdf Graphic file (type pdf)
 <use chapter_3sup/figures/cefuroxime_comp.pdf>
-
-Underfull \hbox (badness 3713) in paragraph at lines 64--64
-[][] \TU/Optima(0)/m/sc/10 – |Cefuroxime. The CFU sig-
- []
-
 File: chapter_3sup/figures/chloramphenicol_comp.pdf Graphic file (type pdf)
 <use chapter_3sup/figures/chloramphenicol_comp.pdf>
 File: chapter_3sup/figures/ciprofloxacin_comp.pdf Graphic file (type pdf)
 <use chapter_3sup/figures/ciprofloxacin_comp.pdf>
-
-Underfull \hbox (badness 1521) in paragraph at lines 78--78
-[][] \TU/Optima(0)/m/sc/10 – |Ciprofloxacin. The CFU sig-
- []
-
 
 Underfull \hbox (badness 1817) in paragraph at lines 78--78
 \TU/Optima(0)/m/sc/10 fits to the corresponding signals. The
@@ -4927,41 +5875,31 @@ Underfull \hbox (badness 3271) in paragraph at lines 78--78
 
 File: chapter_3sup/figures/colistin_comp.pdf Graphic file (type pdf)
 <use chapter_3sup/figures/colistin_comp.pdf>
+
+Underfull \hbox (badness 5077) in paragraph at lines 85--85
+[][] \TU/Optima(0)/m/sc/10 – |Colistin. The CFU sig-
+ []
+
 File: chapter_3sup/figures/doripenem_comp.pdf Graphic file (type pdf)
 <use chapter_3sup/figures/doripenem_comp.pdf>
 
-Underfull \hbox (badness 5022) in paragraph at lines 92--92
-\TU/Optima(0)/m/sc/10 above their respective detection limits
+Underfull \hbox (badness 3240) in paragraph at lines 92--92
+\TU/Optima(0)/m/sc/10 points above their respective detection
+ []
+
+
+Underfull \hbox (badness 2269) in paragraph at lines 92--92
+\TU/Optima(0)/m/sc/10 linear fits to the corresponding signals.
  []
 
 File: chapter_3sup/figures/fosfomycin_comp.pdf Graphic file (type pdf)
 <use chapter_3sup/figures/fosfomycin_comp.pdf>
-
-Underfull \hbox (badness 2393) in paragraph at lines 99--99
-[][] \TU/Optima(0)/m/sc/10 – |Fosfomycin. The CFU sig-
- []
-
 File: chapter_3sup/figures/imipenem_comp.pdf Graphic file (type pdf)
 <use chapter_3sup/figures/imipenem_comp.pdf>
-
-Underfull \hbox (badness 4108) in paragraph at lines 106--106
-[][] \TU/Optima(0)/m/sc/10 – |Imipenem. The CFU sig-
- []
-
 File: chapter_3sup/figures/mecillinam_comp.pdf Graphic file (type pdf)
 <use chapter_3sup/figures/mecillinam_comp.pdf>
-
-Underfull \hbox (badness 2384) in paragraph at lines 113--113
-[][] \TU/Optima(0)/m/sc/10 – |Mecillinam. The CFU sig-
- []
-
 File: chapter_3sup/figures/meropenem_comp.pdf Graphic file (type pdf)
 <use chapter_3sup/figures/meropenem_comp.pdf>
-
-Underfull \hbox (badness 1635) in paragraph at lines 120--120
-[][] \TU/Optima(0)/m/sc/10 – |Meropenem. The CFU sig-
- []
-
 
 Underfull \hbox (badness 1817) in paragraph at lines 120--120
 \TU/Optima(0)/m/sc/10 fits to the corresponding signals. The
@@ -4975,43 +5913,38 @@ Underfull \hbox (badness 3271) in paragraph at lines 120--120
 File: chapter_3sup/figures/penicillin_comp.pdf Graphic file (type pdf)
 <use chapter_3sup/figures/penicillin_comp.pdf>
 
-Underfull \hbox (badness 5022) in paragraph at lines 127--127
-\TU/Optima(0)/m/sc/10 above their respective detection limits
+Underfull \hbox (badness 1342) in paragraph at lines 127--127
+[][] \TU/Optima(0)/m/sc/10 – |Penicillin. The CFU sig-
  []
 
 File: chapter_3sup/figures/piperacillin_comp.pdf Graphic file (type pdf)
 <use chapter_3sup/figures/piperacillin_comp.pdf>
-
-Underfull \hbox (badness 2418) in paragraph at lines 134--134
-[][] \TU/Optima(0)/m/sc/10 – |Piperacillin. The CFU sig-
- []
-
 File: chapter_3sup/figures/polymyxinB_comp.pdf Graphic file (type pdf)
 <use chapter_3sup/figures/polymyxinB_comp.pdf>
-
-Underfull \hbox (badness 2443) in paragraph at lines 141--141
-[][] \TU/Optima(0)/m/sc/10 – |Polymyxin B. The CFU sig-
- []
-
 File: chapter_3sup/figures/rifampicin_comp.pdf Graphic file (type pdf)
 <use chapter_3sup/figures/rifampicin_comp.pdf>
 File: chapter_3sup/figures/tetracycline_comp.pdf Graphic file (type pdf)
 <use chapter_3sup/figures/tetracycline_comp.pdf>
-
-Underfull \hbox (badness 1796) in paragraph at lines 155--155
-[][] \TU/Optima(0)/m/sc/10 – |Tetracycline. The CFU sig-
- []
-
 File: chapter_3sup/figures/trimethoprim_comp.pdf Graphic file (type pdf)
 <use chapter_3sup/figures/trimethoprim_comp.pdf>
 
-Underfull \hbox (badness 1817) in paragraph at lines 162--162
-\TU/Optima(0)/m/sc/10 fits to the corresponding signals. The
+Underfull \hbox (badness 1648) in paragraph at lines 162--162
+[][] \TU/Optima(0)/m/sc/10 – |Trimethoprim. The CFU
  []
 
 
-Underfull \hbox (badness 3271) in paragraph at lines 162--162
-\TU/Optima(0)/m/sc/10 morphology-corrected luminescence sig-
+Underfull \hbox (badness 1509) in paragraph at lines 162--162
+\TU/Optima(0)/m/sc/10 signal is shown as blue diamonds and
+ []
+
+
+Underfull \hbox (badness 2269) in paragraph at lines 162--162
+\TU/Optima(0)/m/sc/10 linear fits to the corresponding signals.
+ []
+
+
+Underfull \hbox (badness 1484) in paragraph at lines 162--162
+\TU/Optima(0)/m/sc/10 The morphology-corrected luminescence
  []
 
 File: chapter_3sup/figures/pexiganan_low_comp.pdf Graphic file (type pdf)
@@ -5110,6 +6043,13 @@ File: chapter_3sup/figures/filamentation_summary_pre.pdf Graphic file (type pdf)
 <use chapter_3sup/figures/filamentation_summary_pre.pdf>
 File: chapter_3sup/figures/filamentation_summary_post.pdf Graphic file (type pdf)
 <use chapter_3sup/figures/filamentation_summary_post.pdf>
+
+
+LaTeX Warning: Reference `fig:micro_mero' on page 102 undefined on input line 226.
+
+
+LaTeX Warning: Reference `fig:micro_mero' on page 102 undefined on input line 226.
+
 File: chapter_3sup/figures/lambda_15_delta1.pdf Graphic file (type pdf)
 <use chapter_3sup/figures/lambda_15_delta1.pdf>
 File: chapter_3sup/figures/lambda_03_delta1.pdf Graphic file (type pdf)
@@ -5124,6 +6064,12 @@ File: chapter_3sup/figures/fila_vmean.pdf Graphic file (type pdf)
 <use chapter_3sup/figures/fila_vmean.pdf>
 File: chapter_3sup/figures/colony_formation_probability.pdf Graphic file (type pdf)
 <use chapter_3sup/figures/colony_formation_probability.pdf>
+
+LaTeX Warning: Reference `sec:math' on page 102 undefined on input line 289.
+
+
+LaTeX Warning: Reference `sec:math' on page 102 undefined on input line 289.
+
 File: chapter_3sup/figures/pexi_cacl2.pdf Graphic file (type pdf)
 <use chapter_3sup/figures/pexi_cacl2.pdf>
 File: chapter_3sup/figures/pexi_mgcl2.pdf Graphic file (type pdf)
@@ -5136,13 +6082,22 @@ File: chapter_3sup/figures/amp_hand_experiment_mgcl.pdf Graphic file (type pdf)
 <use chapter_3sup/figures/amp_hand_experiment_mgcl.pdf>
 File: chapter_3sup/figures/supernatant.pdf Graphic file (type pdf)
 <use chapter_3sup/figures/supernatant.pdf>
- [102] [103] [104] [105] [106] [107] [108] [109] [110] [111] [112] [113] [114] [115]))
-Package biblatex Info: Reference section=0 on input line 39.
+
+LaTeX Warning: Reference `tab:supernatant' on page 102 undefined on input line 342.
+
+
+LaTeX Warning: Reference `tab:supernatant' on page 102 undefined on input line 342.
+
+[102] [103] [104] [105] [106] [107] [108] [109] [110] [111] [112] [113] [114] [115]))
+
+LaTeX Warning: Empty bibliography on input line 38.
+
+Package biblatex Info: Reference section=0 on input line 38.
 \blx@maxsegment@8=\count587
 \blx@sectionciteorder@8=\count588
-Package biblatex Info: Reference section=8 on input line 40.
-Package biblatex Info: Setting label 'refsection:8' on input line 40.
- (./chapter_4sup/ch4_sup.tex (./commands.tex) (./settings/si_settings.tex)
+Package biblatex Info: Reference section=8 on input line 39.
+Package biblatex Info: Setting label 'refsection:8' on input line 39.
+(./chapter_4sup/ch4_sup.tex
 \c@panelk=\count589
  [116
 
@@ -5153,20 +6108,79 @@ Package biblatex Info: Setting label 'refsection:8' on input line 40.
 ] (./chapter_4sup/si_text.tex
 Package mdframed Info: mdframed works in twoside mode on input line 50.
 
-Underfull \vbox (badness 1609) has occurred while \output is active []
+
+LaTeX Warning: Reference `eq:psi_eff' on page 118 undefined on input line 63.
+
+
+LaTeX Warning: Reference `mdf@pagelabel-1' on page 118 undefined on input line 65.
+
+
+Underfull \vbox (badness 2027) has occurred while \output is active []
 
  [118
 
-] [119]
+]
+
+LaTeX Warning: Reference `fig:light_distribution' on page 119 undefined on input line 75.
+
+
+LaTeX Warning: Reference `eq:single_drug_pd_si' on page 119 undefined on input line 104.
+
+
+LaTeX Warning: Citation 'Bliss1939' on page 119 undefined on input line 139.
+
+[119]
+
+LaTeX Warning: Reference `eq:Ydef' on page 120 undefined on input line 156.
+
+
+LaTeX Warning: Reference `eq:Y_additivity' on page 120 undefined on input line 166.
+
 Package mdframed Info: mdframed works in twoside mode on input line 188.
- [120]
+
+LaTeX Warning: Reference `mdf@pagelabel-2' on page 120 undefined on input line 192.
+
+
+LaTeX Warning: Citation 'Loewe1926' on page 120 undefined on input line 198.
+
+
+LaTeX Warning: Reference `eq:psi_eff' on page 120 undefined on input line 200.
+
+
+LaTeX Warning: Reference `eq:single_drug_pd_si' on page 120 undefined on input line 209.
+
+
+LaTeX Warning: Reference `eq:loewe_core' on page 120 undefined on input line 210.
+
+[120]
 Package mdframed Info: mdframed works in twoside mode on input line 229.
- [121]
+
+
+LaTeX Warning: Reference `mdf@pagelabel-3' on page 121 undefined on input line 233.
+
+
+LaTeX Warning: Reference `eq:combined_pep' on page 121 undefined on input line 264.
+
+[121]
 Overfull \hbox (12.9412pt too wide) in paragraph at lines 301--306
 \TU/Optima(0)/m/sc/10 lowed by bivariate spline interpolation on the $[][][] [][]$ grid (\TU/lmtt/m/n/10 scipy.interpolate.RectBivariateSpline\TU/Optima(0)/m/sc/10 ).
  []
 
-[122]) (./chapter_4sup/si_tables.tex [123] (./chapter_4sup/tables/pd_params_all_drugs.tex) (./chapter_4sup/tables/interaction_summary_table.tex) [124
+
+LaTeX Warning: Citation 'Pedregosa2011' on page 122 undefined on input line 316.
+
+[122]
+
+LaTeX Warning: Reference `fig:inoculum' on page 123 undefined on input line 329.
+
+) (./chapter_4sup/si_tables.tex [123]
+
+LaTeX Warning: Reference `eq:single_drug_pd_si' on page 124 undefined on input line 5.
+
+
+LaTeX Warning: Reference `eq:single_drug_pd_si' on page 124 undefined on input line 5.
+
+(./chapter_4sup/tables/pd_params_all_drugs.tex) (./chapter_4sup/tables/interaction_summary_table.tex) [124
 
 ]) (./chapter_4sup/si_figures.tex
 File: chapter_4sup/figures/timecourse_amoxicillin.pdf Graphic file (type pdf)
@@ -5249,12 +6263,27 @@ File: chapter_4sup/figures/psi_colorbar_global.pdf Graphic file (type pdf)
 <use chapter_4sup/figures/psi_colorbar_global.pdf>
 
 Underfull \hbox (badness 10000) in paragraph at lines 152--152
-\TU/Optima(0)/m/sc/10 time-weighted
+[][] \TU/Optima(0)/m/sc/10 –
  []
 
 
-Underfull \hbox (badness 5446) in paragraph at lines 152--152
-\TU/Optima(0)/m/sc/10 net growth rate
+Underfull \hbox (badness 10000) in paragraph at lines 152--152
+|\TU/Optima(0)/m/sc/10 Median time-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 152--152
+\TU/Optima(0)/m/sc/10 weighted net
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 152--152
+\TU/Optima(0)/m/sc/10 growth rate $[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 152--152
+\TU/Optima(0)/m/sc/10 across all drug
  []
 
 
@@ -5364,11 +6393,6 @@ File: chapter_4sup/figures/mu_interaction_heatmap_polymyxinB_tetracycline.pdf Gr
 <use chapter_4sup/figures/mu_interaction_heatmap_polymyxinB_tetracycline.pdf>
 File: chapter_4sup/figures/interaction_legend_bliss.pdf Graphic file (type pdf)
 <use chapter_4sup/figures/interaction_legend_bliss.pdf>
-
-Underfull \hbox (badness 10000) in paragraph at lines 159--159
-[][] \TU/Optima(0)/m/sc/10 – |Bliss
- []
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 159--159
 \TU/Optima(0)/m/sc/10 the distribution
@@ -5587,23 +6611,33 @@ Overfull \hbox (8.53583pt too wide) in paragraph at lines 166--166
  []
 
 
-Underfull \hbox (badness 1019) in paragraph at lines 166--166
-[][] \TU/Optima(0)/m/sc/10 – |Loewe
+Underfull \hbox (badness 10000) in paragraph at lines 166--166
+[][] \TU/Optima(0)/m/sc/10 –
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 166--166
-\TU/Optima(0)/m/sc/10 the distribution
+|\TU/Optima(0)/m/sc/10 Loewe interac-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 166--166
-\TU/Optima(0)/m/sc/10 of Loewe inter-
+\TU/Optima(0)/m/sc/10 based on the
  []
 
 
-Underfull \hbox (badness 4242) in paragraph at lines 166--166
-\TU/Optima(0)/m/sc/10 action scores $[]$.
+Underfull \hbox (badness 10000) in paragraph at lines 166--166
+\TU/Optima(0)/m/sc/10 distribution of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--166
+\TU/Optima(0)/m/sc/10 Loewe interac-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--166
+\TU/Optima(0)/m/sc/10 tion scores $[]$.
  []
 
 
@@ -5761,18 +6795,18 @@ File: chapter_4sup/figures/loewe_vs_bliss_subsup.pdf Graphic file (type pdf)
 File: chapter_4sup/figures/surface_psi.pdf Graphic file (type pdf)
 <use chapter_4sup/figures/surface_psi.pdf>
 
-Underfull \hbox (badness 7133) in paragraph at lines 222--222
-[][] \TU/Optima(0)/m/sc/10 – |Time-
+Underfull \hbox (badness 10000) in paragraph at lines 222--222
+[][] \TU/Optima(0)/m/sc/10 –
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 222--222
-\TU/Optima(0)/m/sc/10 weighted net
+|\TU/Optima(0)/m/sc/10 Time-weighted
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 222--222
-\TU/Optima(0)/m/sc/10 growth rate
+Underfull \hbox (badness 5077) in paragraph at lines 222--222
+\TU/Optima(0)/m/sc/10 net growth rate
  []
 
 
@@ -5864,17 +6898,17 @@ File: chapter_4sup/figures/surface_pd.pdf Graphic file (type pdf)
 <use chapter_4sup/figures/surface_pd.pdf>
 
 Underfull \hbox (badness 10000) in paragraph at lines 235--235
-[][] \TU/Optima(0)/m/sc/10 – |Polar
+[][] \TU/Optima(0)/m/sc/10 –
+ []
+
+
+Underfull \hbox (badness 5652) in paragraph at lines 235--235
+|\TU/Optima(0)/m/sc/10 Polar pharmaco-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 235--235
-\TU/Optima(0)/m/sc/10 pharmacody-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 235--235
-\TU/Optima(0)/m/sc/10 namic curves
+\TU/Optima(0)/m/sc/10 dynamic curves
  []
 
 
@@ -6045,13 +7079,8 @@ Underfull \hbox (badness 1675) in paragraph at lines 235--235
 File: chapter_4sup/figures/surface_isoboles.pdf Graphic file (type pdf)
 <use chapter_4sup/figures/surface_isoboles.pdf>
 
-Underfull \hbox (badness 8151) in paragraph at lines 246--246
-[][] \TU/Optima(0)/m/sc/10 – |Pan-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 246--246
-\TU/Optima(0)/m/sc/10 els a–o show
+[][] \TU/Optima(0)/m/sc/10 –
  []
 
 
@@ -6197,11 +7226,6 @@ Underfull \hbox (badness 4096) in paragraph at lines 246--246
 File: chapter_4sup/figures/surface_angular_interaction.pdf Graphic file (type pdf)
 <use chapter_4sup/figures/surface_angular_interaction.pdf>
 
-Underfull \hbox (badness 10000) in paragraph at lines 258--258
-[][] \TU/Optima(0)/m/sc/10 – |An-
- []
-
-
 Underfull \hbox (badness 2253) in paragraph at lines 258--258
 \TU/Optima(0)/m/sc/10 gular interaction
  []
@@ -6314,11 +7338,6 @@ Underfull \hbox (badness 1052) in paragraph at lines 258--258
 File: chapter_4sup/figures/dist_ratios.pdf Graphic file (type pdf)
 <use chapter_4sup/figures/dist_ratios.pdf>
 
-Underfull \hbox (badness 1009) in paragraph at lines 272--272
-[][] \TU/Optima(0)/m/sc/10 – |Stray light distri-
- []
-
-
 Underfull \hbox (badness 2469) in paragraph at lines 272--272
 \TU/Optima(0)/m/sc/10 tion of the center-to-center
  []
@@ -6326,23 +7345,66 @@ Underfull \hbox (badness 2469) in paragraph at lines 272--272
 File: chapter_4sup/figures/inoculum_concentration_slopes.pdf Graphic file (type pdf)
 <use chapter_4sup/figures/inoculum_concentration_slopes.pdf>
 
-Underfull \hbox (badness 3375) in paragraph at lines 283--283
-\TU/Optima(0)/m/sc/10 tion of drug concentration.
+Underfull \hbox (badness 1931) in paragraph at lines 283--283
+[][] \TU/Optima(0)/m/sc/10 – |Slope of the
  []
 
 
-Underfull \hbox (badness 1077) in paragraph at lines 283--283
-\TU/Optima(0)/m/sc/10 timated from the regression
+Underfull \hbox (badness 10000) in paragraph at lines 283--283
+\TU/Optima(0)/m/sc/10 inoculum effect ($[][][][][][]$)
  []
 
 
-Underfull \hbox (badness 1769) in paragraph at lines 283--283
-\TU/Optima(0)/m/sc/10 significant inoculum effects,
+Underfull \hbox (badness 1603) in paragraph at lines 283--283
+\TU/Optima(0)/m/sc/10 as a function of drug con-
+ []
+
+
+Underfull \hbox (badness 1715) in paragraph at lines 283--283
+\TU/Optima(0)/m/sc/10 centration. For each drug
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 283--283
+\TU/Optima(0)/m/sc/10 and concentration, slopes
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 283--283
+\TU/Optima(0)/m/sc/10 ($[][][][][][]$) are obtained by
+ []
+
+
+Underfull \hbox (badness 1331) in paragraph at lines 283--283
+\TU/Optima(0)/m/sc/10 regressing the observed net
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 283--283
+\TU/Optima(0)/m/sc/10 with uncertainty estimated
+ []
+
+
+Underfull \hbox (badness 1292) in paragraph at lines 283--283
+\TU/Optima(0)/m/sc/10 trations with non-significant
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 283--283
+\TU/Optima(0)/m/sc/10 inoculum effects, whereas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 283--283
+\TU/Optima(0)/m/sc/10 stars indicate statistically
  []
 
 )) [127] [128] [129] [130] [131] [132] [133] [134] [135]
-Package biblatex Info: Reference section=0 on input line 40.
- (./cv.tex [136
+
+LaTeX Warning: Empty bibliography on input line 39.
+
+Package biblatex Info: Reference section=0 on input line 39.
+(./cv.tex [136
 
 
 
@@ -6352,6 +7414,19 @@ Package biblatex Info: Reference section=0 on input line 40.
 \blx@sectionciteorder@9=\count591
 Package biblatex Info: Reference section=9 on input line 67.
 Package biblatex Info: Setting label 'refsection:9' on input line 67.
+
+
+LaTeX Warning: Citation 'Muetter2026a' undefined on input line 68.
+
+
+LaTeX Warning: Citation 'Muetter2026' undefined on input line 68.
+
+
+LaTeX Warning: Citation 'Muetter2024' undefined on input line 68.
+
+
+LaTeX Warning: Empty bibliography on input line 69.
+
 Package biblatex Info: Reference section=0 on input line 70.
 ) [137
 
@@ -6359,27 +7434,38 @@ Package biblatex Info: Reference section=0 on input line 70.
 \tf@toc=\write8
 \openout8 = `main.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 42.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 42.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 41.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 41.
  (/Users/malte/ETH-Documents/thesis/build/main.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 42.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 42.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 41.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 41.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 42.
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 41.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                main
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 52325 strings out of 479418
- 1058425 string characters out of 5884586
- 2587000 words of memory out of 5000000
- 68470 multiletter control sequences out of 15000+600000
+ 51908 strings out of 479418
+ 1041913 string characters out of 5884586
+ 2290161 words of memory out of 5000000
+ 68076 multiletter control sequences out of 15000+600000
  546148 words of font info for 198 fonts, out of 8000000 for 9000
  1350 hyphenation exceptions out of 8191
- 70i,25n,120p,4729b,6389s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 70i,25n,120p,4729b,6387s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on /Users/malte/ETH-Documents/thesis/build/main.xdv (145 pages, 3646876 bytes).
+Output written on /Users/malte/ETH-Documents/thesis/build/main.xdv (145 pages, 3377936 bytes).

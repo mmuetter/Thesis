@@ -175,11 +175,16 @@
   \def\sectionautorefname{\textsc{Section}}%
   \def\subsectionautorefname{\textsc{Section}}%
   \def\subsubsectionautorefname{\textsc{Section}}%
-  \def\figureautorefname{\textsc{Fig.}}%
-  \def\figurename{\textsc{Fig.}}%
+  \def\figureautorefname{\textsc{Figure}}%
+  \def\figurename{\textsc{Figure}}%
   \def\tableautorefname{\textsc{Table}}%
-  \def\tablerefname{\textsc{Table}}%
   \def\appendixautorefname{\textsc{Appendix}}%
+}
+
+\AtBeginDocument{%
+  \renewcommand*{\sectionautorefname}{Appendix}%
+  \renewcommand*{\subsectionautorefname}{Appendix}%
+  \renewcommand*{\subsubsectionautorefname}{Appendix}%
 }
 
 %----------------------------------------------------------
@@ -403,3 +408,6 @@
 }
 
 \makeatother
+
+%% Commands
+\newcommand{\panelref}[2]{\autoref{#1}{#2}}

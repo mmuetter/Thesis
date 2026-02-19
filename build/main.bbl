@@ -12009,54 +12009,46 @@
       \verb :Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/2016/Tschudin-Sutter et al. - 2016 - Prospective validation of cessation of contact precautions for extended-spectrum $\beta$-lactamase-producing.pdf:pdf
       \endverb
     \endentry
-    \entry{Siedentop2024}{article}{}
-      \name{author}{6}{}{%
-        {{hash=aef5b9621e53696f133ef8296e2e5880}{%
-           family={Siedentop},
-           familyi={S\bibinitperiod},
-           given={Berit},
-           giveni={B\bibinitperiod}}}%
-        {{hash=df70bee6dbdbe1cb34e4bdf7348c13ae}{%
-           family={Kachalov},
-           familyi={K\bibinitperiod},
-           given={Viacheslav\bibnamedelima N.},
-           giveni={V\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
-        {{hash=194622d117703110460b3ce7feaaf323}{%
-           family={Witzany},
-           familyi={W\bibinitperiod},
-           given={Christopher},
-           giveni={C\bibinitperiod}}}%
-        {{hash=2f29454e6553ef6eab031956cb1f7469}{%
-           family={Egger},
-           familyi={E\bibinitperiod},
-           given={Matthias},
+    \entry{Paul2014}{article}{}
+      \name{author}{3}{}{%
+        {{hash=7c8bf360dc79c5c447d6c6c731c99d19}{%
+           family={Paul},
+           familyi={P\bibinitperiod},
+           given={M},
            giveni={M\bibinitperiod}}}%
-        {{hash=15c20454801c37af424156643bbdf28e}{%
-           family={Kouyos},
-           familyi={K\bibinitperiod},
-           given={Roger\bibnamedelima D.},
-           giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
-        {{hash=f3106e97b33eed46e76c565b4696b91e}{%
-           family={Bonhoeffer},
-           familyi={B\bibinitperiod},
-           given={Sebastian},
-           giveni={S\bibinitperiod}}}%
+        {{hash=42620ae3535a879847c69d7f9b9f767b}{%
+           family={Lador},
+           familyi={L\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+        {{hash=7172c321be269566bd277294521d6781}{%
+           family={Leibovici},
+           familyi={L\bibinitperiod},
+           given={L},
+           giveni={L\bibinitperiod}}}%
       }
-      \strng{namehash}{a55db23df74119729e79d5dc6c928ad4}
-      \strng{fullhash}{5a727c55a0c96ac8111abffc548ef615}
-      \strng{bibnamehash}{a55db23df74119729e79d5dc6c928ad4}
-      \strng{authorbibnamehash}{a55db23df74119729e79d5dc6c928ad4}
-      \strng{authornamehash}{a55db23df74119729e79d5dc6c928ad4}
-      \strng{authorfullhash}{5a727c55a0c96ac8111abffc548ef615}
-      \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \strng{namehash}{512d525b596d0aab863ebcb106709d57}
+      \strng{fullhash}{512d525b596d0aab863ebcb106709d57}
+      \strng{bibnamehash}{512d525b596d0aab863ebcb106709d57}
+      \strng{authorbibnamehash}{512d525b596d0aab863ebcb106709d57}
+      \strng{authornamehash}{512d525b596d0aab863ebcb106709d57}
+      \strng{authorfullhash}{512d525b596d0aab863ebcb106709d57}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Elife}
-      \field{title}{The effect of combining antibiotics on resistance: A systematic review and meta-analysis}
-      \field{year}{2024}
+      \field{abstract}{Background Optimal antibiotic treatment for sepsis is imperative. Combining a beta lactam antibiotic with an aminoglycoside antibiotic may provide certain advantages over beta lactam monotherapy. Objectives Our objectives were to compare beta lactam monotherapy versus beta lactam-aminoglycoside combination therapy in patients with sepsis and to estimate the rate of adverse effects with each treatment regimen, including the development of bacterial resistance to antibiotics. Search methods In this updated review, we searched the Cochrane Central Register of Controlled Trials (CENTRAL) (2013, Issue 11); MEDLINE (1966 to 4 November 2013); EMBASE (1980 to November 2013); LILACS (1982 to November 2013); and conference proceedings of the Interscience Conference of Antimicrobial Agents and Chemotherapy (1995 to 2013). We scanned citations of all identified studies and contacted all corresponding authors. In our previous review, we searched the databases to July 2004. Selection criteria We included randomized and quasi-randomized trials comparing any beta lactam monotherapy versus any combination of a beta lactam with an aminoglycoside for sepsis. Data collection and analysis The primary outcome was all-cause mortality. Secondary outcomes included treatment failure, superinfections and adverse events. Two review authors independently collected data. We pooled risk ratios (RRs) with 95{\%} confidence intervals (CIs) using the fixed-effect model. We extracted outcomes by intention-to-treat analysis whenever possible. Main results We included 69 trials that randomly assigned 7863 participants. Twenty-two trials compared the same beta lactam in both study arms, while the remaining trials compared different beta lactams using a broader-spectrum beta lactam in the monotherapy arm. In trials comparing the same beta lactam, we observed no difference between study groups with regard to all-cause mortality (RR 0.97, 95{\%} CI 0.73 to 1.30) and clinical failure (RR 1.11, 95{\%} CI 0.95 to 1.29). In studies comparing different beta lactams, we observed a trend for benefit with monotherapy for all-cause mortality (RR 0.85, 95{\%} CI 0.71 to 1.01) and a significant advantage for clinical failure (RR 0.75, 95{\%} CI 0.67 to 0.84). No significant disparities emerged from subgroup and sensitivity analyses, including assessment of participants with Gram-negative infection. The subgroup of Pseudomonas aeruginosa infections was underpowered to examine effects. Results for mortality were classifi{\ldots}}
+      \field{journaltitle}{Cochrane Libr.}
+      \field{number}{1}
+      \field{title}{{Beta lactam antibiotic monotherapy versus beta lactam- aminoglycoside antibiotic combination therapy for sepsis ( Review )}}
+      \field{year}{2014}
+      \field{pages}{1\bibrangedash 147}
+      \range{pages}{147}
       \verb{doi}
-      \verb 10.7554/eLife.93740.1
+      \verb 10.1002/14651858.CD003344.pub3.Copyright
+      \endverb
+      \verb{file}
+      \verb :Users/malte/Library/Mobile Documents/com{\~{}}apple{\~{}}CloudDocs/Paper{\_}mendeley/2014/Paul, Lador, Leibovici - 2014 - Beta lactam antibiotic monotherapy versus beta lactam- aminoglycoside antibiotic combination therapy for.pdf:pdf
       \endverb
     \endentry
     \entry{Chait2007}{article}{}
@@ -12083,8 +12075,8 @@
       \strng{authorbibnamehash}{1cbf4166ee2414156819a1468dce7384}
       \strng{authornamehash}{1cbf4166ee2414156819a1468dce7384}
       \strng{authorfullhash}{1cbf4166ee2414156819a1468dce7384}
-      \field{sortinit}{4}
-      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Nature}
@@ -12117,8 +12109,8 @@
       \strng{authorbibnamehash}{b1b2a5143392dfae4cfcddf8855199c3}
       \strng{authornamehash}{b1b2a5143392dfae4cfcddf8855199c3}
       \strng{authorfullhash}{b1b2a5143392dfae4cfcddf8855199c3}
-      \field{sortinit}{5}
-      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Antimicrobial Chemotherapy}
@@ -12166,8 +12158,8 @@
       \strng{authorbibnamehash}{dca10fd15693c2b4013e46afec5e0aa6}
       \strng{authornamehash}{dca10fd15693c2b4013e46afec5e0aa6}
       \strng{authorfullhash}{dca10fd15693c2b4013e46afec5e0aa6}
-      \field{sortinit}{5}
-      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Antimicrobial Chemotherapy}
@@ -12210,8 +12202,8 @@
       \strng{authorbibnamehash}{dcd5cb5a498d3e8ee0aa0c77ba256912}
       \strng{authornamehash}{dcd5cb5a498d3e8ee0aa0c77ba256912}
       \strng{authorfullhash}{dcd5cb5a498d3e8ee0aa0c77ba256912}
-      \field{sortinit}{6}
-      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Clinical Infectious Diseases}
@@ -12274,8 +12266,8 @@
       \strng{authorbibnamehash}{67afe6d3b17bc445cda06b182f1995a8}
       \strng{authornamehash}{67afe6d3b17bc445cda06b182f1995a8}
       \strng{authorfullhash}{34b191a935ad602ff165d90eed2b1291}
-      \field{sortinit}{6}
-      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Clinical Infectious Diseases}
@@ -12378,8 +12370,8 @@
       \strng{authorbibnamehash}{5363bf5d0687521e5f6794e823eecb8c}
       \strng{authornamehash}{5363bf5d0687521e5f6794e823eecb8c}
       \strng{authorfullhash}{fcf15fa2cde62ffa01132e5b049863f2}
-      \field{sortinit}{7}
-      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{New England Journal of Medicine}

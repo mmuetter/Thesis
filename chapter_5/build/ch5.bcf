@@ -2191,13 +2191,14 @@
     <bcf:citekey order="1">Tepekule2017</bcf:citekey>
     <bcf:citekey order="1">Angst2021</bcf:citekey>
     <bcf:citekey order="2">Sutter2016</bcf:citekey>
-    <bcf:citekey order="3">Siedentop2024</bcf:citekey>
-    <bcf:citekey order="4">Chait2007</bcf:citekey>
-    <bcf:citekey order="5">Agerso2012</bcf:citekey>
-    <bcf:citekey order="5">Vellefaux2012</bcf:citekey>
-    <bcf:citekey order="6">Edgeworth2020</bcf:citekey>
-    <bcf:citekey order="6">Schwaber2011</bcf:citekey>
-    <bcf:citekey order="7">Kyaw2006</bcf:citekey>
+    <bcf:citekey order="3">Tepekule2017</bcf:citekey>
+    <bcf:citekey order="4">Paul2014</bcf:citekey>
+    <bcf:citekey order="5">Chait2007</bcf:citekey>
+    <bcf:citekey order="6">Agerso2012</bcf:citekey>
+    <bcf:citekey order="6">Vellefaux2012</bcf:citekey>
+    <bcf:citekey order="7">Edgeworth2020</bcf:citekey>
+    <bcf:citekey order="7">Schwaber2011</bcf:citekey>
+    <bcf:citekey order="8">Kyaw2006</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

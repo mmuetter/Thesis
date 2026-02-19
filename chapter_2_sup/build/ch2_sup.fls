@@ -110,10 +110,6 @@ INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/microtype/microtype-xetex.def
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/microtype/microtype.cfg
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/microtype/microtype.cfg
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/microtype/microtype.cfg
-INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/geometry/geometry.sty
-INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/geometry/geometry.sty
-INPUT /usr/local/texlive/2020/texmf-dist/tex/generic/iftex/ifvtex.sty
-INPUT /usr/local/texlive/2020/texmf-dist/tex/generic/iftex/ifvtex.sty
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/float/float.sty
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/float/float.sty
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/adjustbox/adjustbox.sty
@@ -434,8 +430,6 @@ INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmmib
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmmib7.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/microtype/mt-LatinModernRoman.cfg
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/microtype/mt-LatinModernRoman.cfg
-INPUT settings/si_settings.tex
-INPUT settings/si_settings.tex
 INPUT chapter_2_sup/commands.tex
 INPUT chapter_2_sup/commands.tex
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmmi9.tfm

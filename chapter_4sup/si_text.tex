@@ -1,4 +1,4 @@
-\subsection{Time weighted net growth rates}\label{ssec:netgrowth}
+\section{Time weighted net growth rates}\label{ssec:netgrowth}
 We define $\psi$ as the linearly time weighted average of the temporal net growth rate $\hat{\psi}$:
 \begin{align}
   \psi &=  \int_{0}^{T} \hat{\psi}(t)\,w(t)\,dt =
@@ -68,7 +68,7 @@ and is identical to the difference of the time-weighted net growth rates:
 %%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%
 \pagebreak
-\subsection{Quantifying Light Noise}\label{ssec:lightnoise}
+\section{Quantifying Light Noise}\label{ssec:lightnoise}
 We quantified stray light by using a calibration plate in which six source wells (E5, E12, E20, L5, L12, L20) contained \SI{50}{\micro\liter} of luminescent overnight culture. All other wells were empty.
 A single luminescence read of all wells yielded raw intensities $\hat I$.
 We calculated the ratio of raw light intensities $\hat{I}_{\mathrm{e}}/\hat{I}_{\mathrm{l}}$ between empty wells $e$ and the nearest luminescent culture well $l$ as a function of the distance between their midpoints $d_{el}$ (with diagonal neighbours at a distance $\sqrt{2}$).
@@ -85,7 +85,7 @@ where the sum is restricted to wells within $d\le 3$.
 %%% PD
 %%%
 
-\subsection{Drug conditions and response functions}
+\section{Drug conditions and response functions}
 \paragraph{Single-drug pharmacodynamic curves.}
 For each drug \(i\) we describe the relationship between concentration \(c\) and net growth rate by the fitted pharmacodynamic curve
 \begin{equation}
@@ -135,7 +135,7 @@ For two-drug combinations, conditions are parameterized in polar coordinates \((
 %%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%
-\subsection{Bliss independence}\label{ssec:bliss}
+\section{Bliss independence}\label{ssec:bliss}
 Bliss independence is defined by assuming that the probabilities of a cell being killed by drugs \(A\) and \(B\) within a fixed observation window are statistically independent \cite{Bliss1939}.
 Under this assumption,
 \begin{equation}
@@ -194,7 +194,7 @@ The score is only evaluated for conditions \((c_A,c_B)\) classified as eligible,
 %%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%
-\subsection{Loewe additivity}\label{ssec:loewe}
+\section{Loewe additivity}\label{ssec:loewe}
 Loewe additivity is a form of dose additivity, formalising self--additivity, i.e.\ that a drug combined with itself should behave like a higher dose of the same drug \cite{Loewe1926}.
 This concept is independent of the particular choice of effect measure, provided the effect can be represented on a shared, monotone dose--response scale.
 In our case, this effect scale is the effective net growth rate \(\psi\) (see \autoref{eq:psi_eff}).
@@ -232,7 +232,7 @@ The score is only evaluated for conditions \((c_A,c_B)\) classified as eligible,
   Because Loewe additivity requires equivalent single-drug concentrations for both drugs at the observed effect level, \(\nu\) can only be evaluated when \(\psi(c_A,c_B)\) lies in the overlap of the two single-drug effect ranges, i.e.\ \(\psi\ge \max(\psi_{\min,A},\psi_{\min,B})\).
 \end{mdframed}
 
-\subsection{Peptide--antibiotic interaction model}\label{ssec:toy_model}
+\section{Peptide--antibiotic interaction model}\label{ssec:toy_model}
 We consider two drugs, \(A\) and \(B\), acting on a population with a size trajectory \(x(t)\).
 Drug~\(A\) represents a peptide-like effect that causes an instantaneous multiplicative reduction in population size by a factor \(\alpha\in(0,1]\), whereas drug~\(B\) represents a conventional antibiotic that changes the subsequent net growth rate but does not cause an initial drop.
 We assume that the combination of two drugs induces a sharp drop by the factor $\alpha$ followed by net growth, determined by drug B:
@@ -268,7 +268,7 @@ Separating the two terms in \autoref{eq:combined_pep} yields
 \end{equation}
 which matches the Bliss expectation for the combined treatment effect.
 
-\subsection{Condition-wise interaction inference on the checkerboard}\label{ssec:bootstrap_interactions}
+\section{Condition-wise interaction inference on the checkerboard}\label{ssec:bootstrap_interactions}
 Each condition \(\{c_i\}\) is realised by a pool of biological replicate wells \(\mathcal{W}(c_A, c_B)\), from which effective growth rates are inferred, as described above.
 Treatment effects are estimated by bootstrap resampling from the pools of replicate wells.
 We draw \(B=200\) pairs consisting of one control well and one condition well, sampled with replacement from \(\mathcal{W}(\emptyset)\) and \(\mathcal{W}(c_A,c_B)\), respectively.
@@ -295,7 +295,7 @@ Repeating this procedure yields an aggregated distribution, from which we report
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Continuous interaction surfaces and geometric exploration}\label{ssec:surface}
+\section{Continuous interaction surfaces and geometric exploration}\label{ssec:surface}
 
 \paragraph{Density-based restriction of the surface domain.}
 For some drugs, the empirical data density decreases at high concentrations as trajectories drop below the detection limit and are excluded.
@@ -320,7 +320,7 @@ For each drug combination we calculate a consensus surface $\psi^\mathrm{cons}$ 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%% vi
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Single-drug inoculum effect analysis}\label{ssec:inoculum}
+\section{Single-drug inoculum effect analysis}\label{ssec:inoculum}
 During data analysis, we noted that inocula varied more than expected, which we traced to variability induced by the pintool.
 Across all wells, the pre-treatment luminescence mean was (\(\langle I_0\rangle=4.61\times 10^{4}\,\mathrm{RLU}\)) and the standard deviation was (\(\sigma(I_0)=6.89\times 10^{4}\,\mathrm{RLU}\)), between experiments (\(\sigma_{\mathrm{between}}=4.33\times 10^{4}\,\mathrm{RLU}\)) and within experiments (\(\sigma_{\mathrm{within}}=5.47\times 10^{4}\,\mathrm{RLU}\)).
 To investigate whether the observed net growth rates $\psi$ systematically depended on inoculum size, we used the pre-treatment luminescence signal ($I_0$) as a proxy for initial cell density.

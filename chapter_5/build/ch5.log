@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2021.2.1)  16 FEB 2026 17:19
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2021.2.1)  19 FEB 2026 13:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2731,7 +2731,7 @@ Package biblatex Warning: citation 'Angst2021' was not found at all in the .bbl,
 Package biblatex Warning: citation 'Sutter2016' was not found at all in the .bbl, bibliography labels cannot be generated, please correct the citation.
 
 
-Package biblatex Warning: citation 'Siedentop2024' was not found at all in the .bbl, bibliography labels cannot be generated, please correct the citation.
+Package biblatex Warning: citation 'Paul2014' was not found at all in the .bbl, bibliography labels cannot be generated, please correct the citation.
 
 
 Package biblatex Warning: citation 'Chait2007' was not found at all in the .bbl, bibliography labels cannot be generated, please correct the citation.
@@ -3394,53 +3394,59 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 
 LaTeX Font Warning: Font shape `TU/Optima(0)/m/sc' undefined
-(Font)              using `TU/Optima(0)/m/n' instead on input line 9.
+(Font)              using `TU/Optima(0)/m/n' instead on input line 10.
 
 
-LaTeX Warning: Citation 'Bonhoeffer1997' on page 1 undefined on input line 14.
+LaTeX Warning: Citation 'Bonhoeffer1997' on page 1 undefined on input line 15.
 
 
-LaTeX Warning: Citation 'Tepekule2017' on page 1 undefined on input line 14.
+LaTeX Warning: Citation 'Tepekule2017' on page 1 undefined on input line 15.
 
 
-LaTeX Warning: Citation 'Angst2021' on page 1 undefined on input line 14.
+LaTeX Warning: Citation 'Angst2021' on page 1 undefined on input line 15.
 
 
-LaTeX Warning: Citation 'Sutter2016' on page 1 undefined on input line 16.
+LaTeX Warning: Citation 'Sutter2016' on page 1 undefined on input line 17.
 
 
-LaTeX Warning: Citation 'Siedentop2024' on page 1 undefined on input line 26.
+LaTeX Warning: Citation 'Tepekule2017' on page 1 undefined on input line 27.
+
+
+LaTeX Warning: Citation 'Paul2014' on page 1 undefined on input line 31.
 
 [1
 
 
 ]
 
-LaTeX Warning: Citation 'Chait2007' on page 2 undefined on input line 42.
+LaTeX Warning: Citation 'Chait2007' on page 2 undefined on input line 50.
 
 
-LaTeX Warning: Citation 'Agerso2012' on page 2 undefined on input line 54.
+LaTeX Warning: Citation 'Agerso2012' on page 2 undefined on input line 59.
 
 
-LaTeX Warning: Citation 'Vellefaux2012' on page 2 undefined on input line 54.
+LaTeX Warning: Citation 'Vellefaux2012' on page 2 undefined on input line 59.
 
 
-LaTeX Warning: Citation 'Edgeworth2020' on page 2 undefined on input line 54.
+LaTeX Warning: Citation 'Edgeworth2020' on page 2 undefined on input line 59.
 
 
-LaTeX Warning: Citation 'Schwaber2011' on page 2 undefined on input line 54.
+LaTeX Warning: Citation 'Schwaber2011' on page 2 undefined on input line 59.
 
 
-LaTeX Warning: Citation 'Kyaw2006' on page 2 undefined on input line 54.
+LaTeX Warning: Citation 'Kyaw2006' on page 2 undefined on input line 59.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Font Info:    Font shape `TU/Optima(0)/m/sl' in size <10> not available
-(Font)              Font shape `TU/Optima(0)/m/it' tried instead on input line 59.
-[2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 59.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 59.
+(Font)              Font shape `TU/Optima(0)/m/it' tried instead on input line 63.
+ [2] [3]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 64.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 64.
  (/Users/malte/ETH-Documents/thesis/chapter_5/build/ch5.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 59.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 59.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 64.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 64.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -3448,7 +3454,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 59.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 64.
 
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                ch5
@@ -3459,12 +3465,12 @@ Package logreq Info: Writing requests to 'ch5.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48541 strings out of 479418
- 940500 string characters out of 5884586
- 1867774 words of memory out of 5000000
- 65280 multiletter control sequences out of 15000+600000
+ 48542 strings out of 479418
+ 940508 string characters out of 5884586
+ 1869832 words of memory out of 5000000
+ 65281 multiletter control sequences out of 15000+600000
  535530 words of font info for 76 fonts, out of 8000000 for 9000
  1350 hyphenation exceptions out of 8191
- 82i,11n,133p,1192b,3964s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 82i,11n,133p,1192b,3962s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on /Users/malte/ETH-Documents/thesis/chapter_5/build/ch5.xdv (2 pages, 65736 bytes).
+Output written on /Users/malte/ETH-Documents/thesis/chapter_5/build/ch5.xdv (3 pages, 78040 bytes).

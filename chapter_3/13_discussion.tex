@@ -6,7 +6,7 @@ The divergence between the two rates does not imply that either method is incorr
 
 %% 2A) WHAT CFU MEASURES
 The CFU method counts bacteria capable of forming colonies on permissive media (i.e., culturable cells).
-When inferring growth rates from CFU, the observed rate of change $\psi_{\mathrm{CFU}}$ reflects both the rate of change of population size $\psi_B$ and changes in the probability that a plated bacterium forms a colony, $\eta$ (\sieq{4}).
+When inferring growth rates from CFU, the observed rate of change $\psi_{\mathrm{CFU}}$ reflects both the rate of change of population size $\psi_B$ and changes in the probability that a plated bacterium forms a colony, $\eta$ (\autoref{eq:form_prob}).
 The CFU-based rate equals $\psi_B$ only if $\eta$ remains constant over time.
 
 However, \(\eta\) can change for three main reasons.
@@ -24,12 +24,12 @@ For these cases, it may be impossible to accurately derive $\psi_B$ from CFU cou
 
 %% 2C) WHAT LUMINESCENCE MEASURES
 In contrast to CFU assays, luminescence assays become more reliable at high, fast-killing concentrations.
-This is because \(\psi_I\) reflects both the rate of population size change, \(\psi_B\), and changes in cell-specific luminosity (\sieq{9}); when population declines rapidly, \(\psi_I\) converges to \(\psi_B\).
+This is because \(\psi_I\) reflects both the rate of population size change, \(\psi_B\), and changes in cell-specific luminosity (\autoref{eq:psi_I}); when population declines rapidly, \(\psi_I\) converges to \(\psi_B\).
 One exception was observed for extremely rapid kill rates (exceeding $-60\,\mathrm{h}^{-1}$), as seen for highly concentrated pexiganan, likely due to short delays between cell death and cessation of luminescence.
 
 For lower kill rates, we observed that the absence of filamentation was a good indicator of stable cell-specific luminosity.
 In cases where drugs induced filamentation, CFU- and luminescence-based rates diverged.
-We further demonstrated that correcting for the increased cell size partly compensates for the difference between CFU- and luminescence-based estimates, and we found that the rate of change in light intensity is closer to the change in total cell volume than to the change in total cell number (\siappendix{2}).
+We further demonstrated that correcting for the increased cell size partly compensates for the difference between CFU- and luminescence-based estimates, and we found that the rate of change in light intensity is closer to the change in total cell volume than to the change in total cell number (\autoref{sec:math}).
 This makes a constant volume-specific (or mass-specific) luminosity a better assumption than a constant cell-specific luminosity.
 
 %% 3) WHICH PROPERTY IS “RIGHT”?

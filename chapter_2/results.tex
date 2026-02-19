@@ -22,7 +22,7 @@ All inoculations are carried out using the same pintool.
 \end{SCfigure}
 
 \paragraph{Multidrug strategies keep the overall number of infections lowest and best suppress single resistance.}
-The \textit{prevention}~scenario is characterised by a moderate proportion of single-resistant admissions to the hospital ward, the absence of pre-existing double resistance, and a moderately spreading infection dynamic ($R_0 = 1.5$, \autoref{eq:R0},  \sisec{SI Methods}).
+The \textit{prevention}~scenario is characterised by a moderate proportion of single-resistant admissions to the hospital ward, the absence of pre-existing double resistance, and a moderately spreading infection dynamic ($R_0 = 1.5$, \autoref{eq:R0},  \autoref{ssec:si_methods}).
 In this scenario, there are no differences between combination, mixing, and cycling on the frequency of uninfected, single-resistant-infected and double-resistant-infected wells (\panelref{fig:end_anova}{A}, time series in \autoref{fig:exp1}).
 
 However, all multidrug strategies are significantly better at suppressing single resistance and increasing the number of cleared wells than the single-drug strategies and the control without treatment (\panelref{fig:end_anova}{A}).
@@ -77,10 +77,10 @@ In contrast, superinfections resulting in double resistance rarely occur in medi
 We think the impact of treatment on cell densities within superinfected wells (both in infected and infecting wells) can best explain these findings.
 
 Firstly, applying a drug affects the in-well population dynamics of superinfected wells.
-Reducing the cell density for one or both single-resistant strains within a superinfected well reduces the probability of bacteria with complementary resistance to encounter and conjugate (see \sisec{SI Results}).
+Reducing the cell density for one or both single-resistant strains within a superinfected well reduces the probability of bacteria with complementary resistance to encounter and conjugate (see \autoref{ssec:si_results}).
 As drug A (bactericidal) decreases the cell density faster than drug B (bacteriostatic), more conjugation opportunities occur in wells treated with drug B.
 
-Secondly, the treatment strategies influence the number of transferred single-resistant bacteria that inoculate superinfections by curbing the bacterial density within the infecting wells (see \sisec{SI Results}).
+Secondly, the treatment strategies influence the number of transferred single-resistant bacteria that inoculate superinfections by curbing the bacterial density within the infecting wells (see \autoref{ssec:si_results}).
 
 Due to the differences in the abilities of drugs A and B to prevent conjugation, there are times (cycles) and places (beds) during cycling and mixing where using drug B offers increased opportunities for the emergence of double resistance, which is never the case with combination therapy.
 
@@ -104,7 +104,7 @@ Due to the differences in the abilities of drugs A and B to prevent conjugation,
       Mean values are represented by red bars.
       Bars not sharing a letter are significantly different ($p < 0.05$, ANOVA tables and pairwise Tukey post hoc results can be found in \autoref{tab:emergence_anova} -- \autoref{tab:treatment_emergence_tukey}).
     \textbf{A)} number of newly emerged cases of double resistance per plate ($n_{\mathcal{E}}$), normalised to the total number of patients (wells) per plate ($n_P = 376$).
-    Here the stars indicate predictions based on the ratio of superinfections per patient and the emergence per superinfection (\sisec{SI Computational Model}).
+    Here the stars indicate predictions based on the ratio of superinfections per patient and the emergence per superinfection (\autoref{ssec: model}).
   \textbf{B)} Number of superinfections per plate ($n_{\mathcal{S}}$), normalised to the total number of patients (wells) per plate ($n_P = 376$).
 \textbf{C)} Number of superinfected wells treated with (A, B, AB and none) that develop double resistance ($n_{\mathcal{E}}$) divided by the number of all superinfected wells ($n_{\mathcal{S}}$) receiving the respective treatment.
 }
@@ -118,7 +118,7 @@ The instructions are randomized based on parameter sets we defined for each scen
 We call the entirety of all instructions that come up during one experiment an `instruction set'.
 Due to the scale and technical complexity of the experiments, it was not feasible to carry out individual instruction sets for each replicate, so we opted to apply the same instruction sets for all replicates.
 This raises the question of whether the experimental results are a consequence of a specific instance of this random process and whether they are robust to the randomisation in the instruction set.
-To address this, we developed a discrete-time stochastic model comprising 94 individual \textit{in silico} patients mimicking the epidemiological dynamics of the experiment (\sisec{SI Computational Model}).
+To address this, we developed a discrete-time stochastic model comprising 94 individual \textit{in silico} patients mimicking the epidemiological dynamics of the experiment (\autoref{ssec: model}).
 The model was parametrised, but not fitted, with transition probabilities (\autoref{tab:m_none}--\autoref{tab:m1_ab}) that we estimated based on the transition frequencies measured \textit{in vitro}.
 We used the same transition probabilities in the simulations for all scenarios.
 
@@ -127,7 +127,7 @@ The aim of the \textit{validation simulations} is to recreate the experiments \t
 We found that the simulation results are in good agreement with the experimental data, indicating that the model reflects the dynamics observed in the \textit{in vitro} experiments well (see \autoref{fig:exp3}, \autoref{fig:exp1}, and \autoref{fig:exp2}).
 One exception is the spread of A-resistance during the \textit{prevention}~scenario in control and Mono~A.
 This could indicate an increased number of contaminations at the beginning of the \textit{prevention}~scenario.
-We also observe some discrepancies for the spread of double resistance during the \textit{prevention}~scenario, which we attribute to contamination artefacts in the transition probabilities (see \sisec{SI Computational Model}).
+We also observe some discrepancies for the spread of double resistance during the \textit{prevention}~scenario, which we attribute to contamination artefacts in the transition probabilities (see \autoref{ssec: model}).
 
 Second, we averaged 100 \textit{variation simulations} to assess the robustness of the experimental outcomes against variations in the instruction sets.
 In these \textit{variation simulations}, each of the 100 instruction sets was randomized based on the same three parameter sets used \textit{in vitro} (\autoref{fig:stochs}C).
