@@ -428,6 +428,9 @@ INPUT front_matter/main.tex
 INPUT front_matter/main.tex
 INPUT front_matter/0_titlepage.tex
 INPUT front_matter/0_titlepage.tex
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmmib10.tfm
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmmib7.tfm
 OUTPUT /Users/malte/ETH-Documents/thesis/build/main.xdv
 INPUT front_matter/1a_Summary_EN.tex
 INPUT front_matter/1a_Summary_EN.tex
@@ -439,7 +442,6 @@ INPUT acknowledgements.tex
 INPUT acknowledgements.tex
 INPUT chapter_1/ch1.tex
 INPUT chapter_1/ch1.tex
-INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmmib7.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmmib5.tfm
 INPUT chapter_2/ch2.tex
 INPUT chapter_2/ch2.tex

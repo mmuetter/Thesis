@@ -25,6 +25,36 @@
 
 \begin{document}
 \appendixfront
+
+\section{Nomenclature}
+\vspace{5mm}
+{\renewcommand{\arraystretch}{0.92}
+  \begin{tabular}{l p{0.75\linewidth}}
+    \toprule
+    $B$                 & number of living bacteria in a well \\
+    $v$                 & cell-specific mean volume \\
+    $V$                 & cumulative cell volume, $V = vB$ \\
+    $I$                 & measured light intensity (detector-recorded bioluminescence signal) \\
+    $J$                 & volume-corrected bioluminescence signal, $J = I\,v_0 / v$ \\
+    $\kappa$            & instrument-specific transfer factor (fraction of emitted light detected) \\
+    $\theta$            & volume-specific luminosity (bioluminescence per cell volume) \\
+    $\phi$              & cell-specific luminosity (bioluminescence per cell) \\
+    $\omega$            & OD-normalized light intensity ($I$ divided by measured optical density) \\
+    $\lambda$           & bacterial division rate \\
+    $\gamma$            & biovolume acquisition rate \\
+    $\delta$            & bacterial death rate \\
+    $\tau$              & treatment effect \\
+    $b$                 & bacterial density \\
+    $c$                 & drug concentration \\
+    $p_E$               & extinction probability of a lineage originating from a single plated bacterium \\
+    $p_C$               & survival probability of a lineage from a single plated bacterium ($p_C = 1 - p_E$) \\
+    $\eta$              & number of colonies per plated bacterium ($\eta \in [0, 1]$) \\
+    $V_w$               & well volume \\
+    $\epsilon$          & volume increment \\
+    $\psi_X$            & rate of change of population property $X$ ($\psi_X = d\ln(X)/dt$), where $X \in \{B, V, I, J, \mathrm{CFU}\}$ \\
+    \bottomrule
+  \end{tabular}
+\vspace{5mm}}
 \input{chapter_3sup/si_text.tex}
 \input{chapter_3sup/si_tables.tex}
 \input{chapter_3sup/si_figures.tex}

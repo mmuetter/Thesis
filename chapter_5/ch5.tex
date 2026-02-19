@@ -9,11 +9,12 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \chapter{Concluding Remarks}
 Antimicrobial resistance (AMR) will remain a significant health threat for the foreseeable future.
-Avoiding a post-antibiotic era, in which common infections again become difficult or impossible to treat requires sustained changes in how antibiotics are produced and deployed.
+Avoiding a post-antibiotic era, in which common infections again become difficult or impossible to treat, requires sustained changes in how antibiotics are produced and deployed.
 In this thesis, we focused on how antibiotics can be deployed while limiting the selection for resistance.
 
 Given that theoretical and experimental work suggests that multidrug strategies, and in particular combination therapy, can limit the evolution of chromosomal resistance \cite{Bonhoeffer1997, Tepekule2017, Angst2021}, in Chapter~2 we asked how transferable these insights are to plasmid-borne resistance dynamics.
-To this end, we modeled six \textit{in vitro} hospital wards in parallel, with wells representing patients, and assigned each ward to a different treatment strategy (combination, cycling, mixing, two monotherapies, and an untreated control) using the two antibiotics ceftazidime (CAZ) and tetracycline (TET).
+To this end, we modeled six \textit{in vitro} hospital wards in parallel, and assigned each ward to a different treatment strategy (combination, cycling, mixing, two monotherapies, and an untreated control) using the two antibiotics ceftazidime (CAZ) and tetracycline (TET).
+Each ward was represented by a 384-well plate, with each well representing a patient.
 Resistance was encoded on two horizontally transferable plasmids isolated from clinical strains \cite{Sutter2016}, one conferring resistance to ceftazidime (CAZ) and the other conferring resistance to tetracycline (TET).
 
 We observed a suppressive antagonistic interaction between CAZ and TET, meaning that CAZ alone achieved a stronger within-well clearance effect than the combination.
@@ -22,20 +23,21 @@ The superiority of combination therapy in preventing double resistance followed 
 First, it reduced the probability of \emph{superinfection}, i.e.\ a host becoming infected by both single-resistant strains.
 Second, it reduced the probability that double resistance would emerge within a superinfected host via plasmid conjugation.
 
-Furthermore,  we found no evidence for increased selection for preexisting resistance under combination therapy compared to other multidrug strategies in our experiments.
+Furthermore, we found no evidence that selection for preexisting resistance increased under combination therapy compared to other multidrug strategies in our experiments.
 Theoretical considerations likewise suggest that such a disadvantage is unlikely.
 In a clinical environment with exposure to multiple drugs over time, resistance---and especially double resistance---confers a strong advantage that outweighs the cost of resistance in most clinically relevant scenarios \cite{Tepekule2017}.
 This does not mean that selection for resistance under combination therapy is not a concern, but rather that this concern usually cannot be mitigated by choosing a different multidrug strategy.
 
-However, the experimentally simulated ward remains a model, and important factors, including host heterogeneity, patient-specific pharmacokinetics, immune responses, and toxicity, are difficult to replicate \textit{in vitro}.
+However, the  \textit{in vitro}  ward remains a model, and important factors, including host heterogeneity, patient-specific pharmacokinetics, immune responses, and toxicity, are difficult to replicate experimentally.
 This is an important limitation, because toxicity in particular has been identified as a potential reason why combination therapy underperforms in some studies~\cite{Paul2014}.
-Because combination therapy is only beneficial when any reduction in resistance risk outweighs the risk of added toxicity, assessing this net trade-off requires clinical evidence on combinatorial toxicity for specific drug pairs, as well as sufficiently powered trials to quantify how treatment strategies shape within- and between-patient resistance evolution.
+Combination therapy is only beneficial when any reduction in resistance risk outweighs any increase in toxicity.
+Assessing this net trade-off requires more clinical evidence on combinatorial toxicity for specific drug pairs, as well as sufficiently powered trials to quantify how treatment strategies shape within- and between-patient resistance evolution.
 
 Although combination therapy performed well in our experiments, treatment success also depends on the interactions between the drugs applied.
 To explore these drug interactions at scale, we evaluated in Chapter~3 whether bioluminescence can be used to measure population decline at clinically relevant inhibitory concentrations.
-For half of the 20 drugs tested, changes in light intensity and CFU-derived cell numbers were misaligned.
+For half of the 20 drugs tested, the rates inferred from light intensity differed from those inferred from CFU counts.
 These were the cases in which cells substantially filamented, and we traced the discrepancy to differences in what the two readouts capture: CFU primarily reflects cell number, whereas bioluminescence more closely reflects biomass dynamics.
-Testing the robustness of the relationship between luminescence and biomass,  will require a follow-up study specifically designed to quantify biomass, in contrast to our study, which primarily focused on cell numbers.
+Testing the robustness of the relationship between luminescence and biomass will require a follow-up study specifically designed to quantify biomass, in contrast to our study, which primarily focused on cell numbers.
 
 In Chapter~4, we  used the bioluminescence method to test whether interaction patterns measured at sub-inhibitory concentrations predict interactions at inhibitory concentrations.
 Specifically, we investigated 15 pairwise drug combinations, each measured on \(12\times 12\) checkerboards spanning sub-inhibitory to inhibitory regimes.
@@ -45,20 +47,24 @@ In addition, we found that interaction types can vary with mixing ratio and depe
 Given that interaction labels can change with dose, mixing ratio, and model choice, generalising statements such as ``this drug pair synergises'' are difficult to justify.
 Moreover, it remains unclear how interaction labels (synergy, antagonism) alone can be used to judge which drug combination is preferable in terms of treatment success.
 First, interaction labels relate the combined effect to the single-drug effects, but they do not convey the absolute magnitude of the combined treatment effect.
-Second, even when comparing two drug pairs with identical single-drug effects, it remains debatable which interaction label is more favourable for treatment success, because there are plausible arguments for both directions.
-On the one hand, synergy can accelerate population decline (reducing opportunities for resistance mutations) and may allow dose reductions that lower toxic side effects.
-On the other hand, suppressive antagonism can select against (typically one) single-drug resistance~\cite{Chait2007} by inhibiting the sensitive strain less than the single-resistant strain.
+For example, a synergistic combination of two ``weaker'' drugs may achieve weaker combined killing than an antagonistic combination with stronger single-drug effects.
 
-Much of this ambiguity arises because the original question---which drug pairs maximise treatment success while minimising resistance?---has been replaced by a heuristic question: which drug pairs synergise?
-Importantly, this critique targets the practice of collapsing information-rich dose--response surfaces into a single interaction label, not the interaction models themselves.
+Second, interaction labels summarise treatment effects relative to a reference model, not treatment success.
+When comparing two drug pairs with identical single-drug pharmacodynamics, a more synergistic interaction label implies a stronger combined treatment effect than an antagonistic interaction.
+However, treatment success also depends on preventing the emergence of resistance and avoiding toxic side effects.
+On the one hand, synergy can support treatment success by accelerating population decline (reducing opportunities for resistance mutations) and may allow dose reductions that lower toxic side effects.
+On the other hand, suppressive antagonism can support treatment success by selecting against (typically one) single-drug resistance~\cite{Chait2007}, because it inhibits the sensitive strain less than the single-resistant strain.
+
+Much of this ambiguity arises because the original question---which drug pairs maximise treatment success while minimising resistance?---is often replaced by a heuristic one: which drug pairs synergise?
+Importantly, this critique targets the practice of collapsing information-rich dose--response surfaces into a single interaction label, rather than the interaction models themselves.
 Such models remain useful for predicting combination effects and for inferring mechanisms.
-Assessing treatment success or resistance risk directly, e.g., by advancing PK/PD models, would make comparisons between drug pairs more interpretable.
+Assessing treatment success or resistance risk directly, e.g.\ by advancing PK/PD models, would make comparisons between drug pairs more interpretable.
 By providing pharmacodynamic data and offering methodological insights into how such data can be acquired, this thesis can help inform these models.
 
 Finally, curbing the rise of antimicrobial resistance will require a bundle of complementary measures beyond clinical strategy design.
 Approaches that have proven effective at reducing AMR frequencies include reducing antibiotic use~\cite{Agerso2012, Vellefaux2012}, strengthening infection control and coordinating outbreak responses~\cite{Edgeworth2020, Schwaber2011}, and expanding vaccination to reduce infections and thereby antibiotic exposure~\cite{Kyaw2006}.
 
 In conclusion, while continued increases in resistance would carry a substantial societal cost, I remain optimistic that a set of proven interventions can curb the rise of antimicrobial resistance.
-In this thesis, I provide evidence that combination therapy can be a promising complement to this broader approach and methodological insights for quantifying treatment effects of drug combinations at scale to optimise this strategy.
+In this thesis, I presented evidence that combination therapy can be a promising complement to this broader approach, and I provided methodological insights for quantifying treatment effects of drug combinations at scale to optimise this strategy.
 
 \end{document}

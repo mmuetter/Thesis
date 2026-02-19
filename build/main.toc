@@ -43,7 +43,7 @@
 \contentsline {paragraph}{Adjusting luminescence intensities by changes in volume narrows the gap between CFU- and luminescence-based rates.}{28}{section*.40}%
 \contentsline {paragraph}{CFU-based estimates can overestimate the rate of population decline.}{29}{section*.42}%
 \contentsline {paragraph}{Partial loss of culturability causes CFU to underestimate \(\mitpsi _B\) for ciprofloxacin and trimethoprim treatment.}{30}{section*.43}%
-\contentsline {paragraph}{Antimicrobial carryover causes underestimation of $\mitpsi _B$ for pexiganan using CFU.}{31}{section*.44}%
+\contentsline {paragraph}{Antimicrobial carryover causes underestimation of $\mitpsi _B$ for pexiganan using CFU.}{30}{section*.44}%
 \contentsline {paragraph}{Luminescence and CFU show identical decline rates for pexiganan time-kill curves if residual killing is prevented.}{31}{section*.45}%
 \contentsline {paragraph}{Pexiganan rapidly loses killing capacity.}{32}{section*.46}%
 \contentsline {section}{\numberline {3.3}Discussion}{32}{section.3.3}%
@@ -60,9 +60,9 @@
 \contentsline {chapter}{\chapternumberline {4}Antimicrobial Combination Effects at Sub-inhibitory Doses do not Reliably Predict Effects at Inhibitory Concentrations}{39}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Introduction}{40}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Results}{41}{section.4.2}%
-\contentsline {paragraph}{Time-variant growth rates and treatment effects.}{41}{section*.60}%
-\contentsline {paragraph}{Bliss independence implies additive treatment effects.}{42}{section*.62}%
-\contentsline {paragraph}{Peptide -- non-peptide interaction model.}{42}{section*.63}%
+\contentsline {paragraph}{Time-variant growth rates and treatment effects.}{42}{section*.60}%
+\contentsline {paragraph}{Bliss independence implies additive treatment effects.}{43}{section*.62}%
+\contentsline {paragraph}{Peptide -- non-peptide interaction model.}{43}{section*.63}%
 \contentsline {paragraph}{Interaction scores $(\mitmu , \mitnu )$.}{43}{section*.64}%
 \contentsline {paragraph}{Disagreement between sub-inhibitory and inhibitory interaction types within reference models.}{43}{section*.65}%
 \contentsline {paragraph}{Disagreement between reference models, within concentration regimes.}{44}{section*.67}%
@@ -108,43 +108,45 @@
 \contentsline {paragraph}{Contamination of the Transition Matrix. }{64}{section*.106}%
 \contentsline {paragraph}{Filtered Transition Probabilities.}{65}{section*.107}%
 \contentsline {appendix}{\chapternumberline {B}High-Throughput Quantification of Population Dynamics using Luminescence}{87}{appendix.B}%
-\contentsline {section}{\numberline {B.1}Mathematical descriptions}{88}{section.B.1}%
+\contentsline {section}{\numberline {B.1}Nomenclature}{88}{section.B.1}%
+\contentsline {section}{\numberline {B.2}Mathematical descriptions}{88}{section.B.2}%
 \contentsline {paragraph}{Light-related terminology.}{88}{section*.159}%
 \contentsline {paragraph}{Testing for linearity between bacterial density and luminescent light intensity.}{88}{section*.160}%
-\contentsline {paragraph}{Rate of change of CFU count.}{88}{section*.161}%
-\contentsline {paragraph}{Rate of change of luminescence.}{89}{section*.162}%
+\contentsline {paragraph}{Rate of change of CFU count.}{89}{section*.161}%
+\contentsline {paragraph}{Rate of change of luminescence.}{90}{section*.162}%
 \contentsline {paragraph}{Rate of change of volume-corrected luminescence.}{90}{section*.163}%
 \contentsline {paragraph}{Change of light intensity is closer to the rate of change of total cell-volume than to the rate of change of number of bacteria.}{90}{section*.164}%
-\contentsline {paragraph}{Colony formation -- birth-death Markov Model.}{91}{section*.165}%
-\contentsline {paragraph}{Colony formation for bacteriostatic and bactericidal drugs.}{91}{section*.166}%
-\contentsline {section}{\numberline {B.2}Filamentation Model}{92}{section.B.2}%
-\contentsline {paragraph}{Population‐level quantities.}{93}{section*.167}%
+\contentsline {paragraph}{Colony formation -- birth-death Markov Model.}{92}{section*.165}%
+\contentsline {paragraph}{Colony formation for bacteriostatic and bactericidal drugs.}{92}{section*.166}%
+\contentsline {section}{\numberline {B.3}Filamentation Model}{92}{section.B.3}%
+\contentsline {paragraph}{Population‐level quantities.}{94}{section*.167}%
 \contentsline {paragraph}{Parameter sensitivity.}{94}{section*.168}%
-\contentsline {paragraph}{Volume correction and parameter estimation}{94}{section*.169}%
-\contentsline {paragraph}{SOS experiment.}{95}{section*.171}%
-\contentsline {paragraph}{Morphology evaluation.}{95}{section*.172}%
-\contentsline {paragraph}{Antimicrobial peptide deactivation experiment.}{96}{section*.173}%
-\contentsline {paragraph}{Manual pexiganan time-kill curve experiment.}{96}{section*.174}%
-\contentsline {paragraph}{Supernatant experiment.}{96}{section*.175}%
-\contentsline {appendix}{\chapternumberline {C}Antimicrobial Combination Effects at Sub-inhibitory Doses do not Reliably Predict Effects at Inhibitory Concentrations}{117}{appendix.C}%
-\contentsline {section}{\numberline {C.1}Time weighted net growth rates}{118}{section.C.1}%
-\contentsline {section}{\numberline {C.2}Quantifying Light Noise}{119}{section.C.2}%
-\contentsline {section}{\numberline {C.3}Drug conditions and response functions}{119}{section.C.3}%
-\contentsline {paragraph}{Single-drug pharmacodynamic curves.}{119}{section*.223}%
-\contentsline {paragraph}{Closed-form inversion.}{119}{section*.224}%
-\contentsline {paragraph}{Cartesian conditions.}{119}{section*.225}%
-\contentsline {paragraph}{Polar pharmacodynamic curves.}{119}{section*.226}%
-\contentsline {section}{\numberline {C.4}Bliss independence}{119}{section.C.4}%
-\contentsline {paragraph}{Time--varying hazards.}{120}{section*.227}%
-\contentsline {paragraph}{Bliss-based interaction score \(\mitmu \).}{120}{section*.228}%
-\contentsline {section}{\numberline {C.5}Loewe additivity}{120}{section.C.5}%
-\contentsline {paragraph}{Loewe interaction score (\(\mitnu \)).}{121}{section*.229}%
-\contentsline {section}{\numberline {C.6}Peptide--antibiotic interaction model}{121}{section.C.6}%
-\contentsline {section}{\numberline {C.7}Condition-wise interaction inference on the checkerboard}{122}{section.C.7}%
-\contentsline {paragraph}{Regime-wise aggregation across checkerboard conditions.}{122}{section*.230}%
-\contentsline {section}{\numberline {C.8}Continuous interaction surfaces and geometric exploration}{122}{section.C.8}%
-\contentsline {paragraph}{Density-based restriction of the surface domain.}{122}{section*.231}%
-\contentsline {paragraph}{Bootstrap datasets and coordinate transform.}{122}{section*.232}%
-\contentsline {paragraph}{Monotone surface construction.}{122}{section*.233}%
-\contentsline {section}{\numberline {C.9}Single-drug inoculum effect analysis}{123}{section.C.9}%
-\contentsline {chapter}{Curriculum Vitae}{137}{appendix*.249}%
+\contentsline {paragraph}{Volume correction and parameter estimation}{95}{section*.169}%
+\contentsline {section}{\numberline {B.4}Experiments}{95}{section.B.4}%
+\contentsline {paragraph}{SOS experiment.}{95}{section*.170}%
+\contentsline {paragraph}{Morphology evaluation.}{96}{section*.171}%
+\contentsline {paragraph}{Antimicrobial peptide deactivation experiment.}{96}{section*.172}%
+\contentsline {paragraph}{Manual pexiganan time-kill curve experiment.}{97}{section*.173}%
+\contentsline {paragraph}{Supernatant experiment.}{97}{section*.174}%
+\contentsline {appendix}{\chapternumberline {C}Antimicrobial Combination Effects at Sub-inhibitory Doses do not Reliably Predict Effects at Inhibitory Concentrations}{119}{appendix.C}%
+\contentsline {section}{\numberline {C.1}Time weighted net growth rates}{120}{section.C.1}%
+\contentsline {section}{\numberline {C.2}Quantifying Light Noise}{121}{section.C.2}%
+\contentsline {section}{\numberline {C.3}Drug conditions and response functions}{121}{section.C.3}%
+\contentsline {paragraph}{Single-drug pharmacodynamic curves.}{121}{section*.222}%
+\contentsline {paragraph}{Closed-form inversion.}{121}{section*.223}%
+\contentsline {paragraph}{Cartesian conditions.}{121}{section*.224}%
+\contentsline {paragraph}{Polar pharmacodynamic curves.}{121}{section*.225}%
+\contentsline {section}{\numberline {C.4}Bliss independence}{121}{section.C.4}%
+\contentsline {paragraph}{Time--varying hazards.}{122}{section*.226}%
+\contentsline {paragraph}{Bliss-based interaction score \(\mitmu \).}{122}{section*.227}%
+\contentsline {section}{\numberline {C.5}Loewe additivity}{122}{section.C.5}%
+\contentsline {paragraph}{Loewe interaction score (\(\mitnu \)).}{123}{section*.228}%
+\contentsline {section}{\numberline {C.6}Peptide--antibiotic interaction model}{123}{section.C.6}%
+\contentsline {section}{\numberline {C.7}Condition-wise interaction inference on the checkerboard}{124}{section.C.7}%
+\contentsline {paragraph}{Regime-wise aggregation across checkerboard conditions.}{124}{section*.229}%
+\contentsline {section}{\numberline {C.8}Continuous interaction surfaces and geometric exploration}{124}{section.C.8}%
+\contentsline {paragraph}{Density-based restriction of the surface domain.}{124}{section*.230}%
+\contentsline {paragraph}{Bootstrap datasets and coordinate transform.}{124}{section*.231}%
+\contentsline {paragraph}{Monotone surface construction.}{124}{section*.232}%
+\contentsline {section}{\numberline {C.9}Single-drug inoculum effect analysis}{125}{section.C.9}%
+\contentsline {chapter}{Curriculum Vitae}{139}{appendix*.248}%
