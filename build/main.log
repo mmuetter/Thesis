@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2021.2.1)  19 FEB 2026 21:53
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2021.2.1)  31 MAR 2026 15:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -4033,7 +4033,10 @@ Overfull \hbox (1.17996pt too wide) detected at line 152
 ] (./acknowledgements.tex) [5
 
 
-]) [6
+] [6
+
+
+] [7]) [8
 
 
 ]
@@ -4762,12 +4765,16 @@ Missing character: There is no č in font Optima Regular/AAT:mapping=tex-text;!
  [37
 
 ]
+Overfull \hbox (7.67534pt too wide) in paragraph at lines 25--25
+[]\TU/Optima(0)/m/sc/7 F. Baquero et al. “Postantibiotic effect of imipenem on gram-positive and gram-negative micro-organisms”. In: \TU/Optima(0)/m/it/7 J. Antimicrob. Chemother.
+ []
+
 Package biblatex Info: Reference section=0 on input line 25.
 \blx@maxsegment@4=\count579
 \blx@sectionciteorder@4=\count580
 Package biblatex Info: Reference section=4 on input line 29.
 Package biblatex Info: Setting label 'refsection:4' on input line 29.
- (./chapter_4/ch4.tex [38]
+(./chapter_4/ch4.tex [38]
 Overfull \hbox (11.9588pt too wide) in paragraph at lines 27--27
 \TU/Optima(0)/m/it/9 This manuscript was published as a preprint on bioRxiv on February 8, 2026 (doi: 10.64898/2026.02.07.703730). 
  []
@@ -6633,12 +6640,12 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 52344 strings out of 479418
- 1059009 string characters out of 5884586
- 2589262 words of memory out of 5000000
- 68504 multiletter control sequences out of 15000+600000
+ 52343 strings out of 479418
+ 1058994 string characters out of 5884586
+ 2589843 words of memory out of 5000000
+ 68503 multiletter control sequences out of 15000+600000
  547075 words of font info for 205 fonts, out of 8000000 for 9000
  1350 hyphenation exceptions out of 8191
- 70i,25n,120p,4730b,6387s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 70i,25n,120p,4730b,6377s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on /Users/malte/ETH-Documents/thesis/build/main.xdv (147 pages, 3724700 bytes).
+Output written on /Users/malte/ETH-Documents/thesis/build/main.xdv (149 pages, 3720284 bytes).

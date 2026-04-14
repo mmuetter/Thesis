@@ -287,12 +287,11 @@
       \setlength{\itemsep}{0.1\baselineskip}%
       \setlength{\parsep}{0pt}%
       \setlength{\parskip}{0pt}%
-      % start of each entry
-    \usebibmacro{begentry}}%
+    }%
   }%
-  {\endlist}      % what to do at the end
+  {\endlist}%
   {
-\item\usebibmacro{finentry}} % each \item
+\item}%
 }
 
 % -------------------------------------------------

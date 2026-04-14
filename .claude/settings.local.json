@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -n \"----\" /Users/malte/ETH-Documents/thesis/bibliographies/combination_paper.bib /Users/malte/ETH-Documents/thesis/bibliographies/thesis.bib)",
+      "Bash(perl -pi -e 's/-{3,}/--/g' /Users/malte/ETH-Documents/thesis/bibliographies/combination_paper.bib /Users/malte/ETH-Documents/thesis/bibliographies/thesis.bib)"
+    ]
+  }
+}
